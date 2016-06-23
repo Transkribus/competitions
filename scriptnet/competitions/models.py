@@ -9,7 +9,7 @@ class Individual(models.Model):
 	#TODO: This means that he _will_ be created, but a bool field here will check if he has been email-authenticated or not	
 	user = models.OneToOneField(User, on_delete=models.CASCADE)
 	shortbio = models.TextField(editable=True, default="")
-	avatar = models.FileField(upload_to='uploads/avatars/', null=True)
+	avatar = models.FileField(upload_to='uploads/avatars/', null=True, blank=True)
 	def __str__(self):
 		return '({}) {}'.format(self.id, self.user.username)
 
@@ -21,7 +21,7 @@ post_save.connect(create_user_profile, sender=User)
 
 class Affiliation(models.Model):
 	name = models.CharField(max_length = 50)
-	avatar = models.FileField(upload_to='uploads/avatars/', null=True)
+	avatar = models.FileField(upload_to='uploads/avatars/', null=True, blank=True)
 	members = models.ManyToManyField(Individual)
 	def __str__(self):
 		return '({}) {}'.format(self.id, self.name)

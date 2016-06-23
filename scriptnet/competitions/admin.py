@@ -16,6 +16,7 @@ class UserAdmin(BaseUserAdmin):
 admin.site.unregister(User)
 admin.site.register(User, UserAdmin)
 admin.site.register(Individual)
+admin.site.register(Affiliation)
 admin.site.register(Competition)
 admin.site.register(Track)
 admin.site.register(Subtrack)
