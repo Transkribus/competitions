@@ -3,12 +3,19 @@ from django.db import models
 from django.contrib.auth.models import User
 from django.db.models.signals import post_save
 
+class Affiliation(models.Model):
+	name = models.CharField(max_length = 50)
+	avatar = models.FileField(upload_to='uploads/avatars/', null=True, blank=True)
+	def __str__(self):
+		return '({}) {}'.format(self.id, self.name)
+
 #The custom user class
 class Individual(models.Model):
     #TODO: The user/individual will have to be authenticated by email eventually
 	#TODO: This means that he _will_ be created, but a bool field here will check if he has been email-authenticated or not	
-	user = models.OneToOneField(User, on_delete=models.CASCADE)
+	user = models.OneToOneField(User, on_delete=models.CASCADE)	
 	shortbio = models.TextField(editable=True, default="")
+	affiliations = models.ManyToManyField(Affiliation)	
 	avatar = models.FileField(upload_to='uploads/avatars/', null=True, blank=True)
 	def __str__(self):
 		return '({}) {}'.format(self.id, self.user.username)
@@ -18,13 +25,6 @@ def create_user_profile(sender, instance, created, **kwargs):
        profile, created = Individual.objects.get_or_create(user=instance)  
 
 post_save.connect(create_user_profile, sender=User) 		
-
-class Affiliation(models.Model):
-	name = models.CharField(max_length = 50)
-	avatar = models.FileField(upload_to='uploads/avatars/', null=True, blank=True)
-	members = models.ManyToManyField(Individual)
-	def __str__(self):
-		return '({}) {}'.format(self.id, self.name)
 
 class Competition(models.Model):
 	organizer = models.ManyToManyField(Individual)
