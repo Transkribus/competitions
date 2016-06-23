@@ -1,0 +1,11 @@
+*~
+MANIFEST
+*.egg-info
+*.log
+*.pot
+__pycache__/
+*.py[cod]
+.*.py.swp
+.vscode
+*.tar.gz
+*.tgz
