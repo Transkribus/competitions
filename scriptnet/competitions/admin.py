@@ -7,6 +7,7 @@ class IndividualInline(admin.StackedInline):
     model = Individual
     can_delete = False
     verbose_name_plural = 'individuals'
+    filter_horizontal = ('affiliations', )    
 
 # Define a new User admin
 class UserAdmin(BaseUserAdmin):
