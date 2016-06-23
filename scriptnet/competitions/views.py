@@ -15,22 +15,19 @@ def index(request):
     return HttpResponse(template.render(context, request))
 
 def register(request):
-    if request.user.is_authenticated(): #shouldn't really happen but...
-        pass
-        #return HttpResponseRedirect('/competitions/')
+    if request.user.is_authenticated():
+        #TODO: Print a warning that we were already logged in, logout current user and proceed
+        return HttpResponseRedirect('/competitions/')
     # if this is a POST request we need to process the form data
     if request.method == 'POST':
         # create a form instance and populate it with data from the request:
         form = RegisterForm(request.POST)
         # check whether it's valid:
         if form.is_valid():
+            #TODO: Actually create the user
             # user = User.objects.create_user(form.cleaned_data['username'],password=form.cleaned_data['password'],email=form.cleaned_data['email'],first_name=form.cleaned_data['given_name'],last_name=form.cleaned_data['family_name'])
-            # process the data in form.cleaned_data as required
-            # ...
-            # redirect to a new URL:
-#TODO        services.t_register(form)
-            return HttpResponseRedirect('/thanks/')
-    # if a GET (or any other method) we'll create a blank form
+            #TODO print a message saying that the user is created -- eventually will have to authenticate him by email
+            return HttpResponseRedirect('/competitions/')
     else:
         form = RegisterForm()
 
