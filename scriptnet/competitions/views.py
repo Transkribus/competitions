@@ -1,5 +1,8 @@
 from django.shortcuts import get_object_or_404, HttpResponse, render
 from django.template import loader
+from django.http import HttpResponseRedirect
+
+from .forms import RegisterForm
 from .models import Competition, Track, Subtrack
 
 def index(request):
@@ -12,7 +15,29 @@ def index(request):
     return HttpResponse(template.render(context, request))
 
 def register(request):
-    return HttpResponse("This should be the REGISTER landing page")
+    if request.user.is_authenticated(): #shouldn't really happen but...
+        pass
+        #return HttpResponseRedirect('/competitions/')
+    # if this is a POST request we need to process the form data
+    if request.method == 'POST':
+        # create a form instance and populate it with data from the request:
+        form = RegisterForm(request.POST)
+        # check whether it's valid:
+        if form.is_valid():
+            # user = User.objects.create_user(form.cleaned_data['username'],password=form.cleaned_data['password'],email=form.cleaned_data['email'],first_name=form.cleaned_data['given_name'],last_name=form.cleaned_data['family_name'])
+            # process the data in form.cleaned_data as required
+            # ...
+            # redirect to a new URL:
+#TODO        services.t_register(form)
+            return HttpResponseRedirect('/thanks/')
+    # if a GET (or any other method) we'll create a blank form
+    else:
+        form = RegisterForm()
+
+    context = {
+        'register_form': form         
+    }    
+    return render(request, 'competitions/register.html', context)
 
 def competition(request, competition_id, track_id, subtrack_id):
     competition = get_object_or_404(Competition, pk=competition_id)
