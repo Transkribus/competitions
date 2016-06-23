@@ -5,6 +5,8 @@ from django.db.models.signals import post_save
 
 #The custom user class
 class Individual(models.Model):
+    #TODO: The user/individual will have to be authenticated by email eventually
+	#TODO: This means that he _will_ be created, but a bool field here will check if he has been email-authenticated or not	
 	user = models.OneToOneField(User, on_delete=models.CASCADE)
 	shortbio = models.TextField(editable=True, default="")
 	avatar = models.FileField(upload_to='uploads/avatars/', null=True)
@@ -53,6 +55,8 @@ class Subtrack(models.Model):
 		return '({}) {}, part of {} / {}'.format(self.id, self.name, self.track.competition.name, self.track.name)
 
 class Submission(models.Model):
+    #TODO: The submission will have to be authenticated by at least one individual per submitting institution to show up on the scoreboard eventually
+	#TODO: Add a bool field that checks if the submission has been authenticated	
 	method_info = models.CharField(max_length = 50)
 	publishable = models.BooleanField(default=True)
 	submitter = models.ManyToManyField(Individual)
