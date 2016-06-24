@@ -1,7 +1,7 @@
 from django.shortcuts import get_object_or_404, HttpResponse, render
 from django.template import loader
 from django.http import HttpResponseRedirect
-from django.contrib.auth import login, logout
+from django.contrib.auth import authenticate, login, logout
 
 from .forms import LoginForm, RegisterForm
 from .models import Competition, Track, Subtrack
@@ -15,7 +15,6 @@ def index(request):
         #return HttpResponseRedirect('/competitions/')
     if request.method == 'POST':
         if 'register' in request.POST:
-            print("Register button")
             register_form = RegisterForm(request.POST)
             if register_form.is_valid():
                 #TODO: Actually create the user
@@ -23,11 +22,19 @@ def index(request):
                 #TODO print a message saying that the user is created -- eventually will have to authenticate him by email
                 return HttpResponseRedirect('/competitions/')
         elif 'login' in request.POST:
-            print("Login button")            
             login_form = LoginForm(request.POST)
             if login_form.is_valid():
-                #TODO Check if ok
-                pass
+                user = authenticate(username=login_form.cleaned_data['username'], password=login_form.cleaned_data['password'])
+                if user is not None:
+                    if user.is_active:
+                        login(request, user)
+                        #TODO Redirect to success page
+                    else:
+                        #TODO Redirect to failure (disabled account)                        
+                        pass
+                else:
+                    #TODO Redirect to failure (inexistent account)
+                    pass
     context = {
         'login_form': login_form,
         'register_form': register_form,
