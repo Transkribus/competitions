@@ -1,6 +1,7 @@
 from django.shortcuts import get_object_or_404, HttpResponse, render
 from django.template import loader
 from django.http import HttpResponseRedirect
+from django.contrib.auth import login, logout
 
 from .forms import RegisterForm
 from .models import Competition, Track, Subtrack
@@ -27,6 +28,11 @@ def index(request):
         'competitions': Competition.objects.all(),
     }
     return render(request, 'competitions/master.html', context)
+
+def signout(request):
+    if request.user.is_authenticated():
+        logout(request)
+    return HttpResponseRedirect('/competitions/')
 
 def competition(request, competition_id, track_id, subtrack_id):
     competition = get_object_or_404(Competition, pk=competition_id)
