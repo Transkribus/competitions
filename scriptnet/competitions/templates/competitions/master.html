@@ -55,6 +55,12 @@
                 <a class="navbar-brand page-scroll" href="{% url 'signout' %}"><small><small>[Logout]</a>
                 {% else %}
                 <a class="navbar-brand page-scroll" href="#page-top"><small><small>Welcome to</small></small> ScriptNet </a>
+                <!-- Το ονομα του action αναφερεται στους regexp ορισμους των urls.py -->
+		        <form action="" method="post" role="form">
+		            {% csrf_token %}
+		            {% bootstrap_form login_form %}
+		            <button class="btn btn-default" type="submit" name="login">Login</button>
+		        </form>                
                 {% endif %}
             </div>
 
@@ -176,10 +182,11 @@ Nam qualitates corporum non nisi per experimenta innotescunt, ideoque generales 
 		        <div class="col-lg-8">
                     <h2 class="section-heading">Register</h2>
                     <p class="text-faded">Register to take part in one of the active competitions.</p>
-		            <form action="register" method="post" role="form">
+                    <!-- Το ονομα του action αναφερεται στους regexp ορισμους των urls.py -->
+		            <form action="" method="post" role="form">
 		                {% csrf_token %}
 		                {% bootstrap_form register_form %}
-		                <button class="btn btn-default" type="submit">Register</button>
+		                <button class="btn btn-default" type="submit" name="register">Register</button>
 		            </form>
                 </div>
             </div>

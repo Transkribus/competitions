@@ -21,3 +21,7 @@ class RegisterForm(forms.Form):
     new_affiliation = forms.CharField(required = False, label='Affiliation name (optional; specify if your affiliation does not show up above)', max_length=100)
     username = forms.CharField(label='Username', max_length=100)
     password = forms.CharField(widget=forms.PasswordInput(), label='Password', max_length=100)
+
+class LoginForm(forms.Form):
+    username = forms.CharField(label='Username', max_length=100)
+    password = forms.CharField(widget=forms.PasswordInput(), label='Password', max_length=100)

@@ -3,28 +3,34 @@ from django.template import loader
 from django.http import HttpResponseRedirect
 from django.contrib.auth import login, logout
 
-from .forms import RegisterForm
+from .forms import LoginForm, RegisterForm
 from .models import Competition, Track, Subtrack
 
 def index(request):
+    login_form = LoginForm()
+    register_form = RegisterForm()
     if request.user.is_authenticated():
         #TODO: Print a warning that we were already logged in, logout current user and proceed
         pass
         #return HttpResponseRedirect('/competitions/')
-    # if this is a POST request we need to process the form data
     if request.method == 'POST':
-        # create a form instance and populate it with data from the request:
-        form = RegisterForm(request.POST)
-        # check whether it's valid:
-        if form.is_valid():
-            #TODO: Actually create the user
-            # user = User.objects.create_user(form.cleaned_data['username'],password=form.cleaned_data['password'],email=form.cleaned_data['email'],first_name=form.cleaned_data['given_name'],last_name=form.cleaned_data['family_name'])
-            #TODO print a message saying that the user is created -- eventually will have to authenticate him by email
-            return HttpResponseRedirect('/competitions/')
-    else:
-        form = RegisterForm()
+        if 'register' in request.POST:
+            print("Register button")
+            register_form = RegisterForm(request.POST)
+            if register_form.is_valid():
+                #TODO: Actually create the user
+                # user = User.objects.create_user(form.cleaned_data['username'],password=form.cleaned_data['password'],email=form.cleaned_data['email'],first_name=form.cleaned_data['given_name'],last_name=form.cleaned_data['family_name'])
+                #TODO print a message saying that the user is created -- eventually will have to authenticate him by email
+                return HttpResponseRedirect('/competitions/')
+        elif 'login' in request.POST:
+            print("Login button")            
+            login_form = LoginForm(request.POST)
+            if login_form.is_valid():
+                #TODO Check if ok
+                pass
     context = {
-        'register_form': form,        
+        'login_form': login_form,
+        'register_form': register_form,
         'competitions': Competition.objects.all(),
     }
     return render(request, 'competitions/master.html', context)
