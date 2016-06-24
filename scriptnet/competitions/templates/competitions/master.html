@@ -59,7 +59,9 @@
 		        <form action="" method="post" role="form">
 		            {% csrf_token %}
 		            {% bootstrap_form login_form %}
-		            <button class="btn btn-default" type="submit" name="login">Login</button>
+                    {% buttons %}                
+		                <button class="btn btn-default" type="submit" name="login">Login</button>
+                    {% endbuttons %}
 		        </form>                
                 {% endif %}
             </div>
@@ -186,7 +188,9 @@ Nam qualitates corporum non nisi per experimenta innotescunt, ideoque generales 
 		            <form action="" method="post" role="form">
 		                {% csrf_token %}
 		                {% bootstrap_form register_form %}
+                        {% buttons %}
 		                <button class="btn btn-default" type="submit" name="register">Register</button>
+                        {% endbuttons %}
 		            </form>
                 </div>
             </div>
