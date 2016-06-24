@@ -6,18 +6,10 @@ from .forms import RegisterForm
 from .models import Competition, Track, Subtrack
 
 def index(request):
-    #return render(request, 'competitions/master.html')
-    #all_competitions = Competition.objects.all()
-    template = loader.get_template('competitions/master.html')
-    context = {
-        'competitions': Competition.objects.all(),
-    }
-    return HttpResponse(template.render(context, request))
-
-def register(request):
     if request.user.is_authenticated():
         #TODO: Print a warning that we were already logged in, logout current user and proceed
-        return HttpResponseRedirect('/competitions/')
+        pass
+        #return HttpResponseRedirect('/competitions/')
     # if this is a POST request we need to process the form data
     if request.method == 'POST':
         # create a form instance and populate it with data from the request:
@@ -30,11 +22,11 @@ def register(request):
             return HttpResponseRedirect('/competitions/')
     else:
         form = RegisterForm()
-
     context = {
-        'register_form': form         
-    }    
-    return render(request, 'competitions/register.html', context)
+        'register_form': form,        
+        'competitions': Competition.objects.all(),
+    }
+    return render(request, 'competitions/master.html', context)
 
 def competition(request, competition_id, track_id, subtrack_id):
     competition = get_object_or_404(Competition, pk=competition_id)

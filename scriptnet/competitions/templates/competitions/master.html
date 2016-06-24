@@ -1,4 +1,5 @@
 {% load staticfiles %}
+{% load bootstrap3 %}
 
 <!DOCTYPE html>
 <html lang="en">
@@ -167,22 +168,14 @@ Nam qualitates corporum non nisi per experimenta innotescunt, ideoque generales 
                 <div class="col-lg-4">
                     <img src="{% static 'mastersite/img/nicesamples/3.jpg' %}" class="img-responsive" alt="">
                 </div>
-		<div class="col-lg-8">
+		        <div class="col-lg-8">
                     <h2 class="section-heading">Register</h2>
                     <p class="text-faded">Register to take part in one of the active competitions.</p>
-                    <h4 class="section-heading">De Bello Gallico</h4>
-                    <p class="text-faded">
-Gallia est omnis divisa in partes tres, quarum unam incolunt Belgae, aliam Aquitani, tertiam qui ipsorum lingua Celtae, nostra Galli appellantur. 2 Hi omnes lingua, institutis, legibus inter se differunt. Gallos ab Aquitanis Garumna flumen, a Belgis Matrona et Sequana dividit. 3 Horum omnium fortissimi sunt Belgae, propterea quod a cultu atque humanitate provinciae longissime absunt, minimeque ad eos mercatores saepe commeant atque ea quae ad effeminandos animos pertinent important, 4 proximique sunt Germanis, qui trans Rhenum incolunt, quibuscum continenter bellum gerunt. Qua de causa Helvetii quoque reliquos Gallos virtute praecedunt, quod fere cotidianis proeliis cum Germanis contendunt, cum aut suis finibus eos prohibent aut ipsi in eorum finibus bellum gerunt.
-                    <hr class="light">
-                    </p><p class="text-faded">
-Ea dolore soleat philosophia vim. Id ius clita possim suscipit, posse propriae no sit. Docendi dolores eu qui. Iuvaret civibus tincidunt ne mei, ad dicit eruditi rationibus his.
-
-Eu pro modus congue consetetur, has malis option recteque in. In nam laboramus necessitatibus. Ea nam fastidii rationibus. Porro contentiones id vix, mazim quodsi qui ut. Ei sed omnesque efficiendi. Ad eam putant nostrud, altera pertinax reprehendunt vel et.
-
-                    </p><p class="text-faded">
-Erat gubergren honestatis vel id, probo appellantur eu his. Option nominavi accusata pri eu, errem apeirian nam et. Per vidit omnis vulputate at, et sit malis utamur delectus. Fugit minim adipisci ex has, dolorem gloriatur definitionem per eu. Ei nam eirmod suavitate scripserit, legere scripserit te vis. Illud utroque deterruisset pri in, recusabo neglegentur ex sed.
-                        </p>
-                    <a href="{% url 'register' %}" class="btn btn-default btn-xl">Register</a>
+		            <form action="register" method="post" role="form">
+		                {% csrf_token %}
+		                {% bootstrap_form register_form %}
+		                <button class="btn btn-default" type="submit">Register</button>
+		            </form>
                 </div>
             </div>
         </div>
