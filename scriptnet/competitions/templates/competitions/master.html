@@ -51,24 +51,23 @@
                     <span class="icon-bar"></span>
                 </button>
                 {% if user.is_authenticated %}
-                <a class="navbar-brand page-scroll" href="#page-top"><small><small>Logged in as</small></small> {{ user.first_name }} {{ user.last_name }} </a>
-                <a class="navbar-brand page-scroll" href="{% url 'signout' %}"><small><small>[Logout]</a>
+                <a class="navbar-brand page-scroll" href="#page-top"><small><small>Logged in as </small></small> {{ user.first_name }} {{ user.last_name }} </a>
+                <a class="navbar-brand page-scroll" href="{% url 'signout' %}"><small><small>[Logout]</small></small></a>
                 {% else %}
-                <a class="navbar-brand page-scroll" href="#page-top"><small><small>Welcome to</small></small> ScriptNet </a>
-                <!-- Το ονομα του action αναφερεται στους regexp ορισμους των urls.py -->
-		        <form action="" method="post" role="form">
-		            {% csrf_token %}
-		            {% bootstrap_form login_form %}
-                    {% buttons %}                
-		                <button class="btn btn-default" type="submit" name="login">Login</button>
-                    {% endbuttons %}
-		        </form>                
+                <a class="navbar-brand page-scroll" href="#page-top"><small>Welcome to</small> ScriptNet </a>
                 {% endif %}
             </div>
-
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
+                <form action="" method="post" role="form">{% csrf_token %}                
+                <ul class="nav navbar-nav navbar-right">                    
+                    <!-- Το ονομα του action αναφερεται στους regexp ορισμους των urls.py -->                
+                    <li><a class="page-scroll" href="#">
+                        <small><small>{{ login_form.username }}</small></small>
+                    </a></li>
+                    <li><a class="page-scroll" href="#">
+                        <small><small>{{ login_form.password }}</small></small>
+                    </a></li>                                        
                     <li>
                         <a class="page-scroll" href="#about">About</a>
                     </li>
@@ -82,6 +81,7 @@
                         <a class="page-scroll" href="#contact">Contact</a>
                     </li>
                 </ul>
+		        </form>
             </div>
             <!-- /.navbar-collapse -->
         </div>
