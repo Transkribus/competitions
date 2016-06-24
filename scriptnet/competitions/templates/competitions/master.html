@@ -59,15 +59,7 @@
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <form action="" method="post" role="form">{% csrf_token %}                
                 <ul class="nav navbar-nav navbar-right">                    
-                    <!-- Το ονομα του action αναφερεται στους regexp ορισμους των urls.py -->                
-                    <li><a class="page-scroll" href="#">
-                        <small><small>{{ login_form.username }}</small></small>
-                    </a></li>
-                    <li><a class="page-scroll" href="#">
-                        <small><small>{{ login_form.password }}</small></small>
-                    </a></li>                                        
                     <li>
                         <a class="page-scroll" href="#about">About</a>
                     </li>
@@ -77,11 +69,15 @@
                     <li>
                         <a class="page-scroll" href="#register">Register</a>
                     </li>
+                    {% if not user.is_authenticated %}
+                    <li>
+                        <a class="page-scroll" href="#login">Login</a>
+                    </li>
+                    {% endif %}                    
                     <li>
                         <a class="page-scroll" href="#contact">Contact</a>
                     </li>
                 </ul>
-		        </form>
             </div>
             <!-- /.navbar-collapse -->
         </div>
@@ -196,6 +192,30 @@ Nam qualitates corporum non nisi per experimenta innotescunt, ideoque generales 
             </div>
         </div>
     </section>
+
+    {% if not user.is_authenticated %}
+    <section id="login">
+        <div class="container">
+            <div class="row">
+		        <div class="col-lg-8">
+                    <h2 class="section-heading">Sign in</h2>
+                    <p class="text-faded">Login with your credentials if you have already registered.</p>
+                    <!-- Το ονομα του action αναφερεται στους regexp ορισμους των urls.py -->
+		            <form action="" method="post" role="form">
+		                {% csrf_token %}
+		                {% bootstrap_form login_form %}
+                        {% buttons %}
+		                <button class="btn btn-default" type="submit" name="login">Login</button>
+                        {% endbuttons %}
+		            </form>
+                </div>
+                <div class="col-lg-4">
+                    <img src="{% static 'mastersite/img/nicesamples/3.jpg' %}" class="img-responsive" alt="">
+                </div>                
+            </div>
+        </div>
+    </section>
+    {% endif %}
 
     <section id="contact">
         <div class="container">
