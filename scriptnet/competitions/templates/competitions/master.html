@@ -51,7 +51,7 @@
                     <span class="icon-bar"></span>
                 </button>
                 {% if user.is_authenticated %}
-                <a class="navbar-brand page-scroll" href="#page-top"><small><small>Logged in as </small></small> {{ user.first_name }} {{ user.last_name }} </a>
+                <a class="navbar-brand page-scroll" href="#page-top"><small><small>Logged in as &nbsp;</small></small>{{ user.first_name }} {{ user.last_name }} </a>
                 <a class="navbar-brand page-scroll" href="{% url 'signout' %}"><small><small>[Logout]</small></small></a>
                 {% else %}
                 <a class="navbar-brand page-scroll" href="#page-top"><small>Welcome to</small> ScriptNet </a>
