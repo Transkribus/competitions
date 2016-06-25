@@ -43,6 +43,4 @@ class SubmitForm(forms.Form):
         required=False,
         choices=possible_coauthors
     )
-    #TODO: This creates a required field error no matter what,
-    # possible solution https://docs.djangoproject.com/en/1.9/ref/forms/api/#binding-uploaded-files
     resultfile = forms.FileField(label='Result file')

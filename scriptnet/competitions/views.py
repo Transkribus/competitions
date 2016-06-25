@@ -95,7 +95,8 @@ def submit(request, competition_id, track_id, subtrack_id):
         #TODO: Print an error and redirect if we're not authenticated
         return HttpResponseRedirect('/competitions/')
     if request.method == 'POST':
-        submit_form = SubmitForm(request.POST)
+        #See also https://docs.djangoproject.com/en/1.9/ref/forms/api/#binding-uploaded-files    
+        submit_form = SubmitForm(request.POST, request.FILES)
         if submit_form.is_valid():
             return HttpResponseRedirect('/competitions/')
     context = {

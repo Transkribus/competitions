@@ -19,7 +19,7 @@
 </head>
 <body>
 	<div class="wrapper wrapper-style1 wrapper-first">
-		            <form action="" method="post" role="form">
+		            <form enctype="multipart/form-data" action="" method="post" role="form">
 		                {% csrf_token %}
 		                {% bootstrap_form submit_form %}
                         {% buttons %}
