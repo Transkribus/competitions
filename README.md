@@ -1,6 +1,6 @@
 # ScriptNet Competitions
 
-The competitions site for the [READ] READ project, written in Python / [Django] Django.
+The competitions site for the [READ] project, written in Python / [Django].
 
 ### Requirements
 Python, Django and Django-Bootstrap need to be installed.
