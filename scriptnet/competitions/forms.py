@@ -9,7 +9,7 @@ class RegisterForm(forms.Form):
     first_name = forms.CharField(label='Given name', max_length=100)
     last_name = forms.CharField(label='Family name', max_length=100)
     email = forms.EmailField(label='Email', max_length=100)
-    shortbio = forms.CharField(widget=forms.Textarea, label='Short biography (optional)')
+    shortbio = forms.CharField(required=False, widget=forms.Textarea, label='Short biography (optional)')
 	#avatar = forms.FileField(upload_to='uploads/avatars/', null=True, blank=True)
     affiliations = forms.ChoiceField(
         required=False,
