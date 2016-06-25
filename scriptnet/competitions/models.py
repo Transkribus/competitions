@@ -56,8 +56,9 @@ class Subtrack(models.Model):
 
 class Submission(models.Model):
     #TODO: The submission will have to be authenticated by at least one individual per submitting institution to show up on the scoreboard eventually
-	#TODO: Add a bool field that checks if the submission has been authenticated	
-	method_info = models.CharField(max_length = 50)
+	#TODO: Add a bool field that checks if the submission has been authenticated
+	slug = models.SlugField(max_length = 20)
+	method_info = models.TextField(editable=True, default="")
 	publishable = models.BooleanField(default=True)
 	submitter = models.ManyToManyField(Individual)
 	subtrack = models.ForeignKey(Subtrack, on_delete = models.CASCADE, null=True)

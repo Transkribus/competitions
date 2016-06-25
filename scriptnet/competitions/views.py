@@ -5,6 +5,7 @@ from django.contrib.auth import authenticate, login, logout
 from django.contrib.auth.models import User
 
 from .forms import LoginForm, RegisterForm, NEW_AFFILIATION_ID
+from .forms import SubmitForm
 from .models import Affiliation, Individual, Competition, Track, Subtrack
 
 def index(request):
@@ -89,7 +90,18 @@ def competition(request, competition_id, track_id, subtrack_id):
     return render(request, 'competitions/competition.html', context)
 
 def submit(request, competition_id, track_id, subtrack_id):
-	return HttpResponse("This site is to submit to a specific competition / track / subtrack")
+    submit_form = SubmitForm()
+    if not request.user.is_authenticated():
+        #TODO: Print an error and redirect if we're not authenticated
+        return HttpResponseRedirect('/competitions/')
+    if request.method == 'POST':
+        submit_form = SubmitForm(request.POST)
+        if submit_form.is_valid():
+            return HttpResponseRedirect('/competitions/')
+    context = {
+        'submit_form': submit_form
+    }
+    return render(request, 'competitions/submit.html', context)
 
 def viewresults(request, competition_id, track_id, subtrack_id):
 	return HttpResponse("This site is to view results of a specific competition / track / subtrack")

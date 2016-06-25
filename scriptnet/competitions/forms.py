@@ -1,6 +1,6 @@
 from django import forms
 from django.conf import settings
-from .models import Affiliation
+from .models import Affiliation, Individual
 
 NEW_AFFILIATION_ID = -1
 
@@ -29,3 +29,20 @@ class RegisterForm(forms.Form):
 class LoginForm(forms.Form):
     username = forms.CharField(label='Username', max_length=100)
     password = forms.CharField(widget=forms.PasswordInput(), label='Password', max_length=100)
+
+class SubmitForm(forms.Form):
+    possible_coauthors = []
+    for coauth in Individual.objects.all():
+        #TODO: Make sure that the current user doesnt appear here
+        possible_coauthors.append((coauth.user.id, coauth.user.username))
+
+    slug = forms.SlugField(max_length = 20, allow_unicode = False)
+    method_info = forms.CharField(required=False, widget=forms.Textarea, label='A short description of the method', max_length = 300)
+    publishable = forms.BooleanField(label='Show results for this method for everyone', required=False)
+    cosubmitters = forms.MultipleChoiceField(
+        required=False,
+        choices=possible_coauthors
+    )
+    #TODO: This creates a required field error no matter what,
+    # possible solution https://docs.djangoproject.com/en/1.9/ref/forms/api/#binding-uploaded-files
+    resultfile = forms.FileField(label='Result file')
