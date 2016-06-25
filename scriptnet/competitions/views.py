@@ -4,7 +4,7 @@ from django.http import HttpResponseRedirect
 from django.contrib.auth import authenticate, login, logout
 from django.contrib.auth.models import User
 
-from .forms import LoginForm, RegisterForm
+from .forms import LoginForm, RegisterForm, NEW_AFFILIATION_ID
 from .models import Affiliation, Individual, Competition, Track, Subtrack
 
 def index(request):
@@ -27,7 +27,7 @@ def index(request):
 
                 affiliations_id = int(register_form.cleaned_data['affiliations'])
                 affiliations_newstring = register_form.cleaned_data['new_affiliation']
-                if(affiliations_id == -1):
+                if(affiliations_id == NEW_AFFILIATION_ID):
                     #If the user selected 'Other'
                     if not affiliations_newstring:
                         #TODO: Redirect to some error page: New affiliation is unspecified

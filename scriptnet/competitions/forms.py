@@ -2,11 +2,13 @@ from django import forms
 from django.conf import settings
 from .models import Affiliation
 
+NEW_AFFILIATION_ID = -1
+
 class RegisterForm(forms.Form):
     possible_affiliations = []
     for af in Affiliation.objects.all():
         possible_affiliations.append((af.id, af.name))
-    possible_affiliations.append((-1, 'Other'))
+    possible_affiliations.append((NEW_AFFILIATION_ID, 'Other'))
     
     first_name = forms.CharField(label='Given name', max_length=100)
     last_name = forms.CharField(label='Family name', max_length=100)
