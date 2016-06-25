@@ -3,9 +3,13 @@
 The competitions site for the [READ] READ project, written in Python / [Django] Django.
 
 ### Requirements
-Python and pip. Use pip to install the packages below.
+Python, Django and Django-Bootstrap need to be installed.
+In Ubuntu Linux, you need to run:
 ```sh
-pip install django django-bootstrap3
+sudo apt-get update && sudo apt-get upgrade
+sudo apt-get install python-pip python-dev build-essential
+sudo pip install --upgrade pip
+sudo pip install django django-bootstrap3
 ```
 
 ### Running
@@ -15,9 +19,9 @@ Start the development server:
 python manage.py runserver
 ```
 
-### Deploying with a production server
+### Internationalisation
 
-TODO
+* TODO
 
 ### Links
 
