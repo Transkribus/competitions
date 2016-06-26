@@ -2,6 +2,8 @@ from __future__ import unicode_literals
 from django.db import models
 from django.contrib.auth.models import User
 from django.db.models.signals import post_save
+from uuid import uuid4
+from time import strftime
 
 class Affiliation(models.Model):
 	name = models.CharField(max_length = 50)
@@ -54,6 +56,13 @@ class Subtrack(models.Model):
 	def __str__(self):
 		return '({}) {}, part of {} / {}'.format(self.id, self.name, self.track.competition.name, self.track.name)
 
+def submission_path(instance, filename):
+	# file will be uploaded to MEDIA_ROOT/user_.../<random unique identifier>/filename
+	return 'uploads/submitted_results/{}/{}/{}'.format(
+		strftime("%Y_%m_%d"),
+		uuid4().hex, 
+		filename)
+
 class Submission(models.Model):
     #TODO: The submission will have to be authenticated by at least one individual per submitting institution to show up on the scoreboard eventually
 	#TODO: Add a bool field that checks if the submission has been authenticated
@@ -61,9 +70,10 @@ class Submission(models.Model):
 	method_info = models.TextField(editable=True, default="")
 	publishable = models.BooleanField(default=True)
 	submitter = models.ManyToManyField(Individual)
+	#secondary_submitters = models.ManyToManyField(Individual, related_name="coworker_submission")
 	subtrack = models.ForeignKey(Subtrack, on_delete = models.CASCADE, null=True)
 	timestamp = models.DateTimeField(auto_now_add=True, null=True)
-	resultfile = models.FileField(upload_to='uploads/submitted_results/', null=True) #Nullable because migrations complained, but it shouldnt ever be null
+	resultfile = models.FileField(upload_to=submission_path, null=True) #Nullable because migrations complained, but it shouldnt ever be null
 	def __str__(self):
 		return '({}) {}'.format(self.id, self.method_info)
 
