@@ -97,4 +97,4 @@ class SubmissionStatus(models.Model):
 	submission = models.ForeignKey(Submission, on_delete = models.CASCADE, null=True)
 	benchmark = models.ForeignKey(Benchmark, on_delete = models.CASCADE, null=True)
 	numericalresult = models.CharField(max_length = 100, null=False, blank=False, default="")
-	status = models.CharField(max_length = 20, choices=POSSIBLE_STATUS)
+	status = models.CharField(max_length = 20, choices=POSSIBLE_STATUS, default='UNDEFINED')
