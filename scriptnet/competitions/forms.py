@@ -31,16 +31,21 @@ class LoginForm(forms.Form):
     password = forms.CharField(widget=forms.PasswordInput(), label='Password', max_length=100)
 
 class SubmitForm(forms.Form):
-    possible_coauthors = []
-    for coauth in Individual.objects.all():
-        #TODO: Make sure that the current user doesnt appear here
-        possible_coauthors.append((coauth.user.id, coauth.user.username))
-
-    slug = forms.SlugField(max_length = 20, allow_unicode = False)
+    def __init__(self, user, *args, **kwargs):
+        possible_coauthors = []
+        self.user = user
+        super(SubmitForm, self).__init__(*args, **kwargs)    
+        for coauth in Individual.objects.all():
+            if(coauth.user.id != self.user.id):
+                possible_coauthors.append((coauth.user.id, 
+                "{} {} ({})".format(coauth.user.first_name, coauth.user.last_name, coauth.user.username)))
+        self.fields['cosubmitters'] = forms.MultipleChoiceField(
+            required=False,
+            choices=possible_coauthors
+        )        
+        
+    possible_coauthors = []        
+    slug = forms.SlugField(label='A short identifier for the method', max_length = 20, allow_unicode = False)
     method_info = forms.CharField(required=False, widget=forms.Textarea, label='A short description of the method', max_length = 300)
     publishable = forms.BooleanField(label='Show results for this method for everyone', required=False)
-    cosubmitters = forms.MultipleChoiceField(
-        required=False,
-        choices=possible_coauthors
-    )
     resultfile = forms.FileField(label='Result file')
