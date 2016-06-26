@@ -7,6 +7,7 @@ from time import strftime
 
 class Affiliation(models.Model):
 	name = models.CharField(max_length = 50)
+	#TODO: Use a unique identifier like in submission_path	
 	avatar = models.FileField(upload_to='uploads/avatars/', null=True, blank=True)
 	def __str__(self):
 		return '({}) {}'.format(self.id, self.name)
@@ -17,7 +18,8 @@ class Individual(models.Model):
 	#TODO: This means that he _will_ be created, but a bool field here will check if he has been email-authenticated or not	
 	user = models.OneToOneField(User, on_delete=models.CASCADE)	
 	shortbio = models.TextField(editable=True, default="")
-	affiliations = models.ManyToManyField(Affiliation)	
+	affiliations = models.ManyToManyField(Affiliation)
+	#TODO: Use a unique identifier like in submission_path	
 	avatar = models.FileField(upload_to='uploads/avatars/', null=True, blank=True)
 	def __str__(self):
 		return '({}) {}'.format(self.id, self.user.username)
@@ -50,8 +52,10 @@ class Subtrack(models.Model):
 	name = models.CharField(max_length = 50)
 	track = models.ForeignKey(Track, on_delete = models.CASCADE)
 	#This will normally be training+validation folds, visible to any registered user
+	#TODO: Use a unique identifier like in submission_path
 	public_data = models.FileField(upload_to='databases/', null=True) #Not sure if FileField is proper in this case
 	#This will be test folds, non-visible to participants, usable only by the evaluation system
+	#TODO: Use a unique identifier like in submission_path	
 	private_data = models.FileField(upload_to='databases/', null=True) #Not sure if FileField is proper in this case
 	def __str__(self):
 		return '({}) {}, part of {} / {}'.format(self.id, self.name, self.track.competition.name, self.track.name)
@@ -87,6 +91,8 @@ class Benchmark(models.Model):
 		return '({}) {}'.format(self.id, self.name)
 
 class SubmissionStatus(models.Model):
+	class Meta:
+		verbose_name_plural = 'submission status'
 	POSSIBLE_STATUS = (
 		('UNDEFINED', 'The processing state of the submission is undefined'),
 		('ERROR', 'An error has occured before processing could start'),
