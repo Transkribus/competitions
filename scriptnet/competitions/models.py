@@ -57,7 +57,7 @@ class Subtrack(models.Model):
 		return '({}) {}, part of {} / {}'.format(self.id, self.name, self.track.competition.name, self.track.name)
 
 def submission_path(instance, filename):
-	# file will be uploaded to MEDIA_ROOT/user_.../<random unique identifier>/filename
+	# file will be uploaded to MEDIA_ROOT/user_.../<datestamp>/<random unique identifier>/filename
 	return 'uploads/submitted_results/{}/{}/{}'.format(
 		strftime("%Y_%m_%d"),
 		uuid4().hex, 
@@ -78,8 +78,23 @@ class Submission(models.Model):
 		return '({}) {}'.format(self.id, self.method_info)
 
 class Benchmark(models.Model):
-	name = models.CharField(max_length = 50)
-	#TODO: Have to add relations to other classes
+	#TODO: A python callable will be implicitly related to each submission.
+	#	   The name of the callable will be based on the 'name' field of this model
+	name = models.SlugField(max_length = 50, null=False, blank=False, default="")
+	benchmark_info = models.TextField(editable=True, default="")
+	subtracks = models.ManyToManyField(Subtrack)
 	def __str__(self):
-		return '({}) {}'.format(self.id, self.method_info)
+		return '({}) {}'.format(self.id, self.name)
 
+class SubmissionStatus(models.Model):
+	POSSIBLE_STATUS = (
+		('UNDEFINED', 'The processing state of the submission is undefined'),
+		('ERROR', 'An error has occured before processing could start'),
+		('PROCESSING', 'We are currently processing the submitted result'),
+		('ERROR_PROCESSING', 'An error has occured during processing of the submitted result'),		
+		('COMPLETE', 'The submitted result has been succesfully processed and a numerical result has been saved')
+	)
+	submission = models.ForeignKey(Submission, on_delete = models.CASCADE, null=True)
+	benchmark = models.ForeignKey(Benchmark, on_delete = models.CASCADE, null=True)
+	numericalresult = models.CharField(max_length = 100, null=False, blank=False, default="")
+	status = models.CharField(max_length = 20, choices=POSSIBLE_STATUS)
