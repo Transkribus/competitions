@@ -104,3 +104,5 @@ class SubmissionStatus(models.Model):
 	benchmark = models.ForeignKey(Benchmark, on_delete = models.CASCADE, null=True)
 	numericalresult = models.CharField(max_length = 100, null=False, blank=False, default="")
 	status = models.CharField(max_length = 20, choices=POSSIBLE_STATUS, default='UNDEFINED')
+	start_time = models.DateTimeField(auto_now_add=True, null=True)
+	end_time = models.DateTimeField(auto_now=True, null=True)

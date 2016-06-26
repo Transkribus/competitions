@@ -45,7 +45,7 @@ class SubmitForm(forms.Form):
         )        
         
     possible_coauthors = []        
-    slug = forms.SlugField(label='A short identifier for the method', max_length = 20, allow_unicode = False)
+    name = forms.SlugField(label='A short identifier for the method', max_length = 20, allow_unicode = False)
     method_info = forms.CharField(required=False, widget=forms.Textarea, label='A short description of the method', max_length = 300)
     publishable = forms.BooleanField(label='Show results for this method for everyone', required=False)
     resultfile = forms.FileField(label='Result file')

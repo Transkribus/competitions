@@ -97,6 +97,32 @@ def submit(request, competition_id, track_id, subtrack_id):
     if request.method == 'POST':
         submit_form = SubmitForm(request.user, request.POST, request.FILES)
         if submit_form.is_valid():
+            #TODO: At this point the submission will have to be evaluated
+            # This is where code for all benchmarks will be called
+            current_subtrack = Subtrack.objects.get(pk=subtrack_id)
+            submitters = [] #TODO: Add the authenticated user and the coworkers here           
+            submission = Submission.objects.create(
+                name = submit_form.cleaned_data['name'],
+                method_info = submit_form.cleaned_data['method_info'],
+                publishable = submit_form.cleaned_data['publishable'],
+                submitter = submitters,
+                subtrack = current_subtrack,
+                resultfile = submit_form.cleaned_data['resultfile']
+            )
+            for bmark in current_subtrack.benchmark_set:
+                #TODO: Each cycle has to be run asynchronously
+                submission_status = SubmissionStatus.objects.create(
+                    submission=submission,
+                    benchmark=bmark,
+                    status="UNDEFINED"
+                )
+                #TODO: Call a python(?) function with a name based on bmark.name at this point
+                # and update submission_status.numericalresult
+                submission_status.numericalresult = ""
+                submission_status.save()
+                #TODO: Update status with the appropriate error msg if an error occurred
+                submission_status.status = "COMPLETE"
+                submission_status.save()
             return HttpResponseRedirect('/competitions/')
     context = {
         'submit_form': submit_form
