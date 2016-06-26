@@ -66,7 +66,7 @@ def submission_path(instance, filename):
 class Submission(models.Model):
     #TODO: The submission will have to be authenticated by at least one individual per submitting institution to show up on the scoreboard eventually
 	#TODO: Add a bool field that checks if the submission has been authenticated
-	slug = models.SlugField(max_length = 20, null=False, blank=False, default="")
+	name = models.SlugField(max_length = 20, null=False, blank=False, default="")
 	method_info = models.TextField(editable=True, default="")
 	publishable = models.BooleanField(default=True)
 	submitter = models.ManyToManyField(Individual)
