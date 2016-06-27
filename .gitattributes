@@ -1,2 +1,2 @@
-static/* linguist-vendored
-css/* linguist-vendored
+/scriptnet/competitions/static/ linguist-vendored
+*.css linguist-vendored=false
