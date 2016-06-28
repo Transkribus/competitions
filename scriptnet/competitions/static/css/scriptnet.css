@@ -1,0 +1,158 @@
+h1.page-header { margin-top: 5px; }
+/*sidebar*/
+.sidebar-nav {margin-top: 22px;}
+
+/*flag overrides/alternatives */
+.flag-icon-en {
+  background-image: url(../flags/4x3/gb.svg);
+}
+.flag-icon-en.flag-icon-squared {
+  background-image: url(../flags/1x1/gb.svg);
+}
+/* sigh */
+.flag-icon-en {
+  background-image: url(../flags/4x3/gb-sct.svg);
+}
+.flag-icon-en.flag-icon-squared {
+  background-image: url(../flags/1x1/gb-sct.svg);
+}
+/* el == ellas == greek*/ /* TODO composite image for Greece/Cyprus */
+.flag-icon-el {
+  background-image: url(../flags/4x3/gr.svg);
+}
+.flag-icon-el.flag-icon-squared {
+  background-image: url(../flags/1x1/gr.svg);
+}
+/* ga == gaelic == irish == ie */
+.flag-icon-ga {
+  background-image: url(../flags/4x3/ie.svg);
+}
+.flag-icon-ga.flag-icon-squared {
+  background-image: url(../flags/1x1/ie.svg);
+}
+/* sv == svensk == swedish == se */
+.flag-icon-sv {
+  background-image: url(../flags/4x3/se.svg);
+}
+.flag-icon-sv.flag-icon-squared {
+  background-image: url(../flags/1x1/se.svg);
+}
+/* cs == cesky == czech == cz */
+.flag-icon-cs {
+  background-image: url(../flags/4x3/cz.svg);
+}
+.flag-icon-cs.flag-icon-squared {
+  background-image: url(../flags/1x1/cz.svg);
+
+}
+/* da == dansk == danish == dk*/
+.flag-icon-da {
+  background-image: url(../flags/4x3/dk.svg);
+}
+.flag-icon-da.flag-icon-squared {
+  background-image: url(../flags/1x1/dk.svg);
+
+}
+/* et == eesti == estonian == ee */
+.flag-icon-et {
+  background-image: url(../flags/4x3/ee.svg);
+}
+.flag-icon-et.flag-icon-squared {
+  background-image: url(../flags/1x1/ee.svg);
+}
+/* sl == slovenscina == Slovenia == si  */
+.flag-icon-sl {
+  background-image: url(../flags/4x3/si.svg);
+}
+.flag-icon-sl.flag-icon-squared {
+  background-image: url(../flags/1x1/si.svg);
+
+}
+
+#language_switcher select#id_language { width: 170px; display: inline;}
+#language_switcher div.form-group { display: inline;}
+#language_switcher .flag-icon { font-size: 1.5em; margin-left: 5px;}
+
+/* hide langiage label */
+#language_switcher .control-label	{
+	display: none;
+}
+/*.menu-toggle span.glyphicon {font-size: 0.8em;}*/
+/*contextual nav */
+
+.read_nav {
+	position: relative;
+	z-index: 100000;
+}
+.read_nav ul{
+	margin: 0;
+	padding: 0;
+	width: auto;
+	list-style: none;
+}
+.read_nav_out {
+	position: absolute; top:0; left:0;
+}
+.read_nav li {
+	text-indent: 0;
+}
+
+/*panels*/
+.panel-heading h4 {margin-top: 0; margin-bottom:5px;}
+
+/* black buttons */
+.btn-inverse { 
+  color: #fff; 
+  background-color: #000; 
+  border-color: #130269; 
+} 
+ 
+.btn-inverse:hover, 
+.btn-inverse:focus, 
+.btn-inverse:active, 
+.btn-inverse.active, 
+.open .dropdown-toggle.btn-inverse { 
+  color: #ffffff; 
+/*  background-color: #49247A;*/
+  background-color: #111A75;
+  border-color: #130269; 
+} 
+ 
+.btn-inverse:active, 
+.btn-inverse.active, 
+.open .dropdown-toggle.btn-inverse { 
+  background-image: none; 
+} 
+ 
+.btn-inverse.disabled, 
+.btn-inverse[disabled], 
+fieldset[disabled] .btn-inverse, 
+.btn-inverse.disabled:hover, 
+.btn-inverse[disabled]:hover, 
+fieldset[disabled] .btn-inverse:hover, 
+.btn-inverse.disabled:focus, 
+.btn-inverse[disabled]:focus, 
+fieldset[disabled] .btn-inverse:focus, 
+.btn-inverse.disabled:active, 
+.btn-inverse[disabled]:active, 
+fieldset[disabled] .btn-inverse:active, 
+.btn-inverse.disabled.active, 
+.btn-inverse[disabled].active, 
+fieldset[disabled] .btn-inverse.active { 
+  background-color: #000; 
+  border-color: #130269; 
+} 
+ 
+.btn-inverse .badge { 
+  color: #000; 
+  background-color: #ffffff; 
+}
+
+/* collection */
+.document_thumbs { display: none;}
+
+/* full doc view */
+
+#page-content-wrapper {
+	padding: 0;
+}

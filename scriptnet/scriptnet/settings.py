@@ -50,6 +50,7 @@ MIDDLEWARE_CLASSES = [
     'django.contrib.auth.middleware.SessionAuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+	'django.middleware.locale.LocaleMiddleware',
 ]
 
 ROOT_URLCONF = 'scriptnet.urls'
@@ -57,7 +58,7 @@ ROOT_URLCONF = 'scriptnet.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [os.path.join(BASE_DIR, 'templates'),],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -65,6 +66,7 @@ TEMPLATES = [
                 'django.template.context_processors.request',
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
+				"competitions.context_processors.language_form_context_processor",
             ],
         },
     },
@@ -106,9 +108,19 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/1.9/topics/i18n/
 
-LANGUAGE_CODE = 'en-us'
+LOCALE_PATHS = [
+    os.path.join(BASE_DIR, "locale"),
+]
 
-TIME_ZONE = 'Europe/Athens'
+LANGUAGE_CODE = 'en'
+from django.utils.translation import ugettext_lazy as _
+LANGUAGES = [
+	('en', _('English')),
+	('fr', _('French')),
+
+];
+
+TIME_ZONE = 'UTC'
 
 USE_I18N = True
 
@@ -121,3 +133,7 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/1.9/howto/static-files/
 
 STATIC_URL = '/static/'
+
+STATICFILES_DIRS = [
+    os.path.join(BASE_DIR, "static"),
+]

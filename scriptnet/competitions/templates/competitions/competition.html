@@ -1,5 +1,7 @@
 {% load staticfiles %}
+{% load i18n %}
 
+{% load bootstrap3 %}
 
 <!DOCTYPE html>
 <html lang="en">
@@ -33,6 +35,7 @@
 
     <!-- Navigation -->
     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+	<div class="wrapper wrapper-style1 wrapper-first">
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
@@ -48,7 +51,7 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
           			<li>
-				          <a id="home" class="selected" href="{% url 'competition' %}{{ competition.id }}">Competition home</a>
+				          <a id="home" class="selected" href="{% url 'competition' %}{{ competition.id }}">{% trans "Competition home" %}</a>
 			          </li>
 			          {% for tr in competition.track_set.all %}
                 <li class="dropdown" id="t1{{ tr.id }}">
@@ -66,12 +69,13 @@
                 </li>                     
 			          {% endfor %}
 		          	<li>
-				          <a id="o" href="#Organizers">Organizers</a>
+				          <a id="o" href="#Organizers">{% trans "Organizers" %}</a>
 			          </li>
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
         </div>
+		</div>
         <!-- /.container -->
     </nav>
 
@@ -97,18 +101,18 @@
         				{% if track %}
           				<div id="mainText" class="8u" style="color: black;text-align: justify;">
         					<header>
-          					<h1> Track {{ track.id }} - {{ track.name }} </h1>
+          					<h1> {% trans "Track" %}{{ track.id }} - {{ track.name }} </h1>
         					</header>					
         					{{ track.overview | safe }}
         					{% if subtrack %}		
-        						<div class="wrapper wrapper-style2">
+        						<div class="wrapper wrapper-style2 text-center">
         						<article>
-        							Subtrack {{ track.id }}.{{ subtrack.id }}
+        							{% trans "Subtrack" %}{{ track.id }}.{{ subtrack.id }}
       							<ul>
-      							<li>Download data</li>
+      							<li>{% trans "Download data" %}</li>
         							<!-- This has to change definitely -- looks too ugly -->
-        							<li><a href="{% url 'competition' %}{{ competition.id }}/{{ track.id }}/{{ subtrack.id }}/submit"> Submit method </a></li>
-        							<li><a href="{% url 'competition' %}{{ competition.id }}/{{ track.id }}/{{ subtrack.id }}/viewresults"> View results </a></li>-->
+        							<li><a href="{% url 'competition' %}{{ competition.id }}/{{ track.id }}/{{ subtrack.id }}/submit"> {% trans "Submit method" %} </a></li>
+        							<li><a href="{% url 'competition' %}{{ competition.id }}/{{ track.id }}/{{ subtrack.id }}/viewresults"> {% trans "View results" %} </a></li>-->
       							</ul>
         						</article>
         						</div>						
@@ -124,12 +128,12 @@
 
             <div class="col-md-4">
                 <div class="well">
-                    <h4>News</h4>
+                    <h4>{% trans "News" %}</h4>
 				          	{{ competition.newsfeed | safe }}
                 </div>
 
                 <div class="well">
-                    <h4>Important Dates</h4>
+                    <h4>{% trans "Important Dates" %}</h4>
 				          	{{ competition.important_dates | safe }}
                 </div>
 
@@ -145,7 +149,7 @@
         <footer>
             <div class="row">
                 <div class="col-lg-12">
-                    <p>READ - a Horizon 2020 e-infrastructure project </p>
+                    <p>{% trans "READ - a Horizon 2020 e-infrastructure project" %} </p>
                 </div>
             </div>
             <!-- /.row -->

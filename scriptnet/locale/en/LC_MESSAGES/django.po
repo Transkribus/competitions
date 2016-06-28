@@ -1,0 +1,186 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-06-28 15:16+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: competitions/forms.py:15
+msgid "Given name"
+msgstr ""
+
+#: competitions/forms.py:16
+msgid "Family name"
+msgstr ""
+
+#: competitions/forms.py:17
+msgid "Email"
+msgstr ""
+
+#: competitions/forms.py:18
+msgid "Short biography (optional)"
+msgstr ""
+
+#: competitions/forms.py:27
+msgid ""
+"Affiliation name (optional; specify if your affiliation does not show up "
+"above)"
+msgstr ""
+
+#: competitions/forms.py:28
+msgid "Username"
+msgstr ""
+
+#: competitions/forms.py:29
+msgid "Password"
+msgstr ""
+
+#: competitions/forms.py:50
+msgid "A short identifier for the method"
+msgstr ""
+
+#: competitions/forms.py:51
+msgid "A short description of the method"
+msgstr ""
+
+#: competitions/forms.py:52
+msgid "Show results for this method for everyone"
+msgstr ""
+
+#: competitions/forms.py:53
+msgid "Result file"
+msgstr ""
+
+#: competitions/templates/competitions/competition.html:54
+msgid "Competition home"
+msgstr ""
+
+#: competitions/templates/competitions/competition.html:72
+msgid "Organizers"
+msgstr ""
+
+#: competitions/templates/competitions/competition.html:104
+msgid "Track"
+msgstr ""
+
+#: competitions/templates/competitions/competition.html:110
+msgid "Subtrack"
+msgstr ""
+
+#: competitions/templates/competitions/competition.html:112
+msgid "Download data"
+msgstr ""
+
+#: competitions/templates/competitions/competition.html:114
+msgid "Submit method"
+msgstr ""
+
+#: competitions/templates/competitions/competition.html:115
+msgid "View results"
+msgstr ""
+
+#: competitions/templates/competitions/competition.html:131
+msgid "News"
+msgstr ""
+
+#: competitions/templates/competitions/competition.html:136
+msgid "Important Dates"
+msgstr ""
+
+#: competitions/templates/competitions/competition.html:152
+msgid "READ - a Horizon 2020 e-infrastructure project"
+msgstr ""
+
+#: competitions/templates/competitions/master.html:16
+msgid "ScriptNet Document Understanding Competitions"
+msgstr ""
+
+#: competitions/templates/competitions/master.html:55
+msgid "Logged in as"
+msgstr ""
+
+#: competitions/templates/competitions/master.html:56
+msgid "[Logout]"
+msgstr ""
+
+#: competitions/templates/competitions/master.html:58
+msgid "Welcome to"
+msgstr ""
+
+#: competitions/templates/competitions/master.html:65
+msgid "About"
+msgstr ""
+
+#: competitions/templates/competitions/master.html:68
+msgid "Competitions"
+msgstr ""
+
+#: competitions/templates/competitions/master.html:71
+#: competitions/templates/competitions/master.html:182
+msgid "Register"
+msgstr ""
+
+#: competitions/templates/competitions/master.html:75
+#: competitions/templates/competitions/master.html:209
+msgid "Login"
+msgstr ""
+
+#: competitions/templates/competitions/master.html:79
+msgid "Contact"
+msgstr ""
+
+#: competitions/templates/competitions/master.html:93
+msgid "ScriptNet is a platform of competitions running under the READ project"
+msgstr ""
+
+#: competitions/templates/competitions/master.html:94
+msgid "Find Out More"
+msgstr ""
+
+#: competitions/templates/competitions/master.html:104
+msgid "About ScriptNet"
+msgstr ""
+
+#: competitions/templates/competitions/master.html:139
+msgid "Active Document Understanding Competitions"
+msgstr ""
+
+#: competitions/templates/competitions/master.html:167
+msgid "*No competitions are currently active*"
+msgstr ""
+
+#: competitions/templates/competitions/master.html:183
+msgid "Register to take part in one of the active competitions."
+msgstr ""
+
+#: competitions/templates/competitions/master.html:202
+msgid "Sign in"
+msgstr ""
+
+#: competitions/templates/competitions/master.html:203
+msgid "Login with your credentials if you have already registered."
+msgstr ""
+
+#: competitions/templates/competitions/master.html:240
+msgid "Institute of Informatics and Telecommunications"
+msgstr ""
+
+#: competitions/templates/competitions/master.html:248
+msgid "Computational Intelligence Laboratory"
+msgstr ""
+
+#: competitions/templates/competitions/master.html:256
+msgid "READ project"
+msgstr ""
