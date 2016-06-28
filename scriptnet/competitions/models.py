@@ -53,7 +53,10 @@ class Subtrack(models.Model):
 	track = models.ForeignKey(Track, on_delete = models.CASCADE)
 	#This will normally be training+validation folds, visible to any registered user
 	#TODO: Use a unique identifier like in submission_path
-	public_data = models.FileField(upload_to='databases/', null=True) #Not sure if FileField is proper in this case
+	public_data = models.FileField(upload_to='databases/', null=True, blank=True, default="") #Not sure if FileField is proper in this case
+	#Organizers have the option of using a URL field here, in case they want to serve the public data themselves
+	#If this is non-blank, it overrides the 'public_data' field
+	public_data_external = models.URLField(null=True, blank=True, default="")
 	#This will be test folds, non-visible to participants, usable only by the evaluation system
 	#TODO: Use a unique identifier like in submission_path	
 	private_data = models.FileField(upload_to='databases/', null=True) #Not sure if FileField is proper in this case
