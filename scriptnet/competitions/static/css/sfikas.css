@@ -3,3 +3,34 @@
     vertical-align: middle;
     float: none;
 }
+
+.inlinify {
+    display: inline;
+}
+
+#The following were part of styles.css
+
+.box {
+	background: #fff;
+	box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.15), 0px 2px 3px 0px rgba(0, 0, 0, 0.1);
+	text-align: center;
+}
+
+.box .image-full {
+	position: relative;
+}
+
+.image-left {
+	float: left;
+	margin: 0 2em 2em 0;
+}
+
+.circle-image {
+	border-radius: 50%;
+	overflow: hidden;
+}
+
+.circle-image-large > img {
+	border-radius: 100%;
+	overflow: hidden;
+}

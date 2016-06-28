@@ -19,6 +19,7 @@
 
     <!-- Custom CSS -->
     <link href="{% static 'css/blog-post.css' %}" rel="stylesheet">
+    <link href="{% static 'css/sfikas.css' %}" rel="stylesheet">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -78,6 +79,7 @@
 
 
     <!-- Page Content -->
+    <section id="main">
     <div class="container">
 
         <div class="row">
@@ -147,9 +149,50 @@
 
         </div>
         <!-- /.row -->
+    </div>
+    <!-- /.container -->        
+    </section>
+        <hr><br><br><br>
 
+   <section id="organizers">
+    <div class="container">
+        <!-- Organizers -->
+        <div class="row">
+        <div class="col-md-5"></div>
+        <div class="col-md-2">
+            <h3>Organizers</h3>
+        </div>
+        <div class="col-md-5"></div>        
+        </div>
+        <br>
+        <div class="row">
+            {% for organotes in competition.organizer.all %}
+            <div class="col-md-6">
+				<article class="box"> <!-- Used to reference also box-style2, this is nowhere to be found -->
+                    <!-- TODO: Fix this, it gives a 404 
+					<span class="image-left circle-image">
+                        <img src="{{ organotes.avatar.url }}" width="100%" />
+                    </span> -->
+					<h3 class="inlinify"><a href="mailto:{{ organotes.user.email }}">
+                        {{ organotes.user.first_name }} {{ organotes.user.last_name }}
+                    </a></h3>
+                    {% for aff in organotes.affiliations.all %}
+                        [{{ aff.name }}]&nbsp;
+                    {% endfor %}
+                    <br><br>
+					<p>
+                        {{ organotes.shortbio }}
+                    </p>
+				</article>
+            </div>            
+            {% endfor %}
+        </div>
+   </div>
+   </section>     
         <hr>
 
+    <div class="container">    
+    <section>
         <!-- Footer -->
         <footer>
             <div class="row">
@@ -159,9 +202,9 @@
             </div>
             <!-- /.row -->
         </footer>
-
+    </section>
     </div>
-    <!-- /.container -->
+
 
     <!-- jQuery -->
     <script src="{% static 'js/jquery.js' %}"></script>
