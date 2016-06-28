@@ -95,7 +95,6 @@
                 <h1>{{ competition.name }}</h1>
                 <p class="lead">
         				{% if track %}
-          				<div id="mainText" class="8u" style="color: black;text-align: justify;">
         					<header>
           					<h1> Track {{ track.id }} - {{ track.name }} </h1>
         					</header>					
@@ -112,13 +111,23 @@
       							</ul>
         						</article>
         						</div>						
-          				</div>						
-        					{% endif %}					
+        					{% else %}
+                                {% if track.subtrack_set.all %}
+                                <h3> Choose a subtrack to submit a new method or view the scoreboard: </h3>
+                                    <ul>
+                                    {% for subtr in track.subtrack_set.all %}
+                                    <li> Subtrack {{ track.id }}.{{ subtr.id }}: 
+                                        <a href="{% url 'competition' %}{{ competition.id }}/{{ track.id }}/{{ subtr.id }}">{{ subtr.name }}</a> 
+                                        </li>
+                                    {% endfor %}
+                                    </ul>
+                                {% else %}
+                                <h3> There are no available subtracks for the current track. </h3>
+                                {% endif %}
+                            {% endif %}
           				{% else %}
-				          <div id="mainText" class="8u" style="color: black;text-align: justify;">
 					        {{ competition.overview | safe }}
-				          </div>
-				          {% endif %}
+				        {% endif %}
                 </p>
             </div>
 
