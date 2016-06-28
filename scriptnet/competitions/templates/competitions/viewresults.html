@@ -1,0 +1,7 @@
+{% extends "competitions/competition.html" %}
+{% load bootstrap3 %}
+
+{% block content %}
+<h3>Scoreboard for the [{{ track.id }}.{{ subtrack.id }}]{{ track.name }}/{{ subtrack.name }} track</h3>
+<p>There are no submissions and no assigned benchmarks for this subtrack yet!</p>
+{% endblock %}

@@ -140,4 +140,17 @@ def submit(request, competition_id, track_id, subtrack_id):
     return render(request, 'competitions/submit.html', context)
 
 def viewresults(request, competition_id, track_id, subtrack_id):
-	return HttpResponse("This site is to view results of a specific competition / track / subtrack")
+    #TODO: DRY ?
+    competition = get_object_or_404(Competition, pk=competition_id)
+    track = None #init
+    subtrack = None #init
+    if track_id is not None:        
+        track = get_object_or_404(competition.track_set, pk=track_id)
+    if subtrack_id is not None:        
+        subtrack = get_object_or_404(track.subtrack_set, pk=subtrack_id)
+    context = {
+        'competition': competition,
+        'track': track,
+        'subtrack': subtrack
+    }
+    return render(request, 'competitions/viewresults.html', context)
