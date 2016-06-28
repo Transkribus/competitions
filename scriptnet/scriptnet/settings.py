@@ -112,7 +112,7 @@ LOCALE_PATHS = [
     os.path.join(BASE_DIR, "locale"),
 ]
 
-LANGUAGE_CODE = 'en'
+LANGUAGE_CODE = 'fr'
 from django.utils.translation import ugettext_lazy as _
 LANGUAGES = [
 	('en', _('English')),
@@ -133,7 +133,3 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/1.9/howto/static-files/
 
 STATIC_URL = '/static/'
-
-STATICFILES_DIRS = [
-    os.path.join(BASE_DIR, "static"),
-]

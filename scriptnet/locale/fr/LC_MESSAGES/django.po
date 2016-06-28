@@ -118,29 +118,29 @@ msgstr ""
 
 #: competitions/templates/competitions/master.html:58
 msgid "Welcome to"
-msgstr ""
+msgstr "Bienvenue dans"
 
 #: competitions/templates/competitions/master.html:65
 msgid "About"
-msgstr ""
+msgstr "A propos"
 
 #: competitions/templates/competitions/master.html:68
 msgid "Competitions"
-msgstr ""
+msgstr "Competitions"
 
 #: competitions/templates/competitions/master.html:71
 #: competitions/templates/competitions/master.html:182
 msgid "Register"
-msgstr ""
+msgstr "S'inscrire"
 
 #: competitions/templates/competitions/master.html:75
 #: competitions/templates/competitions/master.html:209
 msgid "Login"
-msgstr ""
+msgstr "Connexion"
 
 #: competitions/templates/competitions/master.html:79
 msgid "Contact"
-msgstr ""
+msgstr "Contact"
 
 #: competitions/templates/competitions/master.html:93
 msgid "ScriptNet is a platform of competitions running under the READ project"
@@ -148,11 +148,11 @@ msgstr ""
 
 #: competitions/templates/competitions/master.html:94
 msgid "Find Out More"
-msgstr ""
+msgstr "En savoir plus"
 
 #: competitions/templates/competitions/master.html:104
 msgid "About ScriptNet"
-msgstr ""
+msgstr "A propos de ScriptNet"
 
 #: competitions/templates/competitions/master.html:139
 msgid "Active Document Understanding Competitions"
@@ -160,7 +160,7 @@ msgstr ""
 
 #: competitions/templates/competitions/master.html:167
 msgid "*No competitions are currently active*"
-msgstr ""
+msgstr "Pas de competition active pour le moment"
 
 #: competitions/templates/competitions/master.html:183
 msgid "Register to take part in one of the active competitions."
@@ -176,7 +176,7 @@ msgstr ""
 
 #: competitions/templates/competitions/master.html:240
 msgid "Institute of Informatics and Telecommunications"
-msgstr ""
+msgstr "Institut d'informatiaue et de telecommunication"
 
 #: competitions/templates/competitions/master.html:248
 msgid "Computational Intelligence Laboratory"
@@ -184,4 +184,4 @@ msgstr ""
 
 #: competitions/templates/competitions/master.html:256
 msgid "READ project"
-msgstr ""
+msgstr "Projet READ"
