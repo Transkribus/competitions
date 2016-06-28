@@ -2,11 +2,12 @@
 {% load bootstrap3 %}
 
 {% block content %}
-		            <form enctype="multipart/form-data" action="" method="post" role="form">
-		                {% csrf_token %}
-		                {% bootstrap_form submit_form %}
-                        {% buttons %}
-		                <button class="btn btn-default" type="submit" name="submit">Submit result</button>
-                        {% endbuttons %}
-		            </form>					
+<h3>New submission to the [{{ track.id }}.{{ subtrack.id }}]{{ track.name }}/{{ subtrack.name }} track</h3>
+<form enctype="multipart/form-data" action="" method="post" role="form">
+{% csrf_token %}
+{% bootstrap_form submit_form %}
+{% buttons %}
+    <button class="btn btn-default" type="submit" name="submit">Submit method results</button>
+{% endbuttons %}
+</form>					
 {% endblock %}
