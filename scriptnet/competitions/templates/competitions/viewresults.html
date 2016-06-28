@@ -3,5 +3,9 @@
 
 {% block content %}
 <h3>Scoreboard for the [{{ track.id }}.{{ subtrack.id }}]{{ track.name }}/{{ subtrack.name }} track</h3>
-<p>There are no submissions and no assigned benchmarks for this subtrack yet!</p>
+{% if message %}
+<br><br><center><h4>{{ message }}</h4></center>
+{% else %}
+    <p>There are no submissions and no assigned benchmarks for this subtrack yet!</p>
+{% endif %}
 {% endblock %}

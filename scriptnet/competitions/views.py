@@ -7,6 +7,7 @@ from django.contrib.auth.models import User
 from .forms import LoginForm, RegisterForm, NEW_AFFILIATION_ID
 from .forms import SubmitForm
 from .models import Affiliation, Individual, Competition, Track, Subtrack
+from .models import Submission, SubmissionStatus
 
 def index(request):
     login_form = LoginForm()
@@ -97,26 +98,39 @@ def submit(request, competition_id, track_id, subtrack_id):
         track = get_object_or_404(competition.track_set, pk=track_id)
     if subtrack_id is not None:        
         subtrack = get_object_or_404(track.subtrack_set, pk=subtrack_id)
+    context = {
+        'competition': competition,
+        'track': track,
+        'subtrack': subtrack 
+    }                
     submit_form = SubmitForm(request.user)
     if request.method == 'POST':
         if not request.user.is_authenticated():
-            #TODO: Print an error and redirect if we're not authenticated
-            #return HttpResponseRedirect('/submit/')
+            #Normally this shouldn't be reachable anyway
             return render(request, 'competitions/submit.html', context)            
         submit_form = SubmitForm(request.user, request.POST, request.FILES)
         if submit_form.is_valid():
-            #TODO: At this point the submission will have to be evaluated
             # This is where code for all benchmarks will be called
-            submitters = [] #TODO: Add the authenticated user and the coworkers here           
+            if Submission.objects.filter(
+                subtrack=subtrack, 
+                name=submit_form.cleaned_data['name']
+                ):
+                # Check if a the chosen name (slug) already exists                
+                context['message'] = 'The method name already exists for this track. Please choose another name.'
+                context['submit_form'] = SubmitForm(request.user)
+                return render(request, 'competitions/submit.html', context)
             submission = Submission.objects.create(
                 name = submit_form.cleaned_data['name'],
                 method_info = submit_form.cleaned_data['method_info'],
                 publishable = submit_form.cleaned_data['publishable'],
-                submitter = submitters,
                 subtrack = subtrack,
                 resultfile = submit_form.cleaned_data['resultfile']
             )
-            for bmark in current_subtrack.benchmark_set:
+            submission.submitter.add(request.user.individual)
+            #TODO: Add the authenticated user and the coworkers here                       
+            submission.save()
+            for bmark in subtrack.benchmark_set.all():
+                print(bmark)
                 #TODO: Each cycle has to be run asynchronously
                 submission_status = SubmissionStatus.objects.create(
                     submission=submission,
@@ -130,13 +144,9 @@ def submit(request, competition_id, track_id, subtrack_id):
                 #TODO: Update status with the appropriate error msg if an error occurred
                 submission_status.status = "COMPLETE"
                 submission_status.save()
-            return HttpResponseRedirect('/competitions/')
-    context = {
-        'submit_form': submit_form,
-        'competition': competition,
-        'track': track,
-        'subtrack': subtrack 
-    }
+            context['message'] = 'Submission {} with id {} has been submitted sucesfully.'.format(submission.name, submission.id)
+            return render(request, 'competitions/viewresults.html', context)
+    context['submit_form'] = submit_form
     return render(request, 'competitions/submit.html', context)
 
 def viewresults(request, competition_id, track_id, subtrack_id):
