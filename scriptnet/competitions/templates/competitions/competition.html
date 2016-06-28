@@ -60,14 +60,14 @@
                   <ul class="dropdown-menu">
 				          {% for subtr in tr.subtrack_set.all %}
 				          <li>
-  					        <a id="t{{ tr.id }}_{{ subtr.id }}" href="{% url 'competition' %}{{ competition.id }}/{{ tr.id }}/{{ subtr.id }}">Subtrack {{ tr.id }}.{{ subtr.id }} </a>
+  					        <a id="t{{ tr.id }}_{{ subtr.id }}" href="{% url 'competition' %}{{ competition.id }}/{{ tr.id }}/{{ subtr.id }}/submit">Subtrack {{ tr.id }}.{{ subtr.id }} </a>
 	  			        </li>
 				          {% endfor %}
                   </ul>
                 </li>                     
 			          {% endfor %}
 		          	<li>
-				          <a id="o" href="#Organizers">Organizers</a>
+				          <a id="o" href="#organizers">Organizers</a>
 			          </li>
                 </ul>
             </div>
@@ -96,6 +96,7 @@
             <div class="col-lg-8">
                 <h1>{{ competition.name }}</h1>
                 <p class="lead">
+                    {% block content %}
         				{% if track %}
         					<header>
           					<h1> Track {{ track.id }} - {{ track.name }} </h1>
@@ -119,7 +120,7 @@
                                     <ul>
                                     {% for subtr in track.subtrack_set.all %}
                                     <li> Subtrack {{ track.id }}.{{ subtr.id }}: 
-                                        <a href="{% url 'competition' %}{{ competition.id }}/{{ track.id }}/{{ subtr.id }}">{{ subtr.name }}</a> 
+                                        <a href="{% url 'competition' %}{{ competition.id }}/{{ track.id }}/{{ subtr.id }}/submit">{{ subtr.name }}</a> 
                                         </li>
                                     {% endfor %}
                                     </ul>
@@ -130,6 +131,7 @@
           				{% else %}
 					        {{ competition.overview | safe }}
 				        {% endif %}
+                    {% endblock %}
                 </p>
             </div>
 

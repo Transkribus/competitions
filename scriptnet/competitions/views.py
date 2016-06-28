@@ -90,23 +90,30 @@ def competition(request, competition_id, track_id, subtrack_id):
     return render(request, 'competitions/competition.html', context)
 
 def submit(request, competition_id, track_id, subtrack_id):
+    competition = get_object_or_404(Competition, pk=competition_id)
+    track = None #init
+    subtrack = None #init
+    if track_id is not None:        
+        track = get_object_or_404(competition.track_set, pk=track_id)
+    if subtrack_id is not None:        
+        subtrack = get_object_or_404(track.subtrack_set, pk=subtrack_id)
     submit_form = SubmitForm(request.user)
-    if not request.user.is_authenticated():
-        #TODO: Print an error and redirect if we're not authenticated
-        return HttpResponseRedirect('/competitions/')
     if request.method == 'POST':
+        if not request.user.is_authenticated():
+            #TODO: Print an error and redirect if we're not authenticated
+            #return HttpResponseRedirect('/submit/')
+            return render(request, 'competitions/submit.html', context)            
         submit_form = SubmitForm(request.user, request.POST, request.FILES)
         if submit_form.is_valid():
             #TODO: At this point the submission will have to be evaluated
             # This is where code for all benchmarks will be called
-            current_subtrack = Subtrack.objects.get(pk=subtrack_id)
             submitters = [] #TODO: Add the authenticated user and the coworkers here           
             submission = Submission.objects.create(
                 name = submit_form.cleaned_data['name'],
                 method_info = submit_form.cleaned_data['method_info'],
                 publishable = submit_form.cleaned_data['publishable'],
                 submitter = submitters,
-                subtrack = current_subtrack,
+                subtrack = subtrack,
                 resultfile = submit_form.cleaned_data['resultfile']
             )
             for bmark in current_subtrack.benchmark_set:
@@ -125,7 +132,10 @@ def submit(request, competition_id, track_id, subtrack_id):
                 submission_status.save()
             return HttpResponseRedirect('/competitions/')
     context = {
-        'submit_form': submit_form
+        'submit_form': submit_form,
+        'competition': competition,
+        'track': track,
+        'subtrack': subtrack 
     }
     return render(request, 'competitions/submit.html', context)
 

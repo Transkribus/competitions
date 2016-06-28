@@ -38,7 +38,7 @@ class SubmitForm(forms.Form):
         for coauth in Individual.objects.all():
             if(coauth.user.id != self.user.id):
                 possible_coauthors.append((coauth.user.id, 
-                "{} {} ({})".format(coauth.user.first_name.encode('utf-8'), coauth.user.last_name.encode('utf-8'), coauth.user.username)))
+                "{} {} ({})".format(coauth.user.first_name, coauth.user.last_name, coauth.user.username)))
         self.fields['cosubmitters'] = forms.MultipleChoiceField(
             required=False,
             choices=possible_coauthors
