@@ -1,11 +1,22 @@
 {% extends "competitions/competition.html" %}
+{% load staticfiles %}
 {% load bootstrap3 %}
+{% load django_tables2 %}
+
+{% block extrahead %}
+<link rel="stylesheet" href="{% static 'paleblue/css/screen.css' %}" />
+{% endblock %}
 
 {% block content %}
 <h3>Scoreboard for the [{{ track.id }}.{{ subtrack.id }}]{{ track.name }}/{{ subtrack.name }} track</h3>
 {% if message %}
-<br><br><center><h4>{{ message }}</h4></center>
+    <br><br><center><h4>{{ message }}</h4></center>
+{% endif %}
+    
+{% if subtrack.submission_set.all %}
+    {% render_table table %}
 {% else %}
     <p>There are no submissions and no assigned benchmarks for this subtrack yet!</p>
 {% endif %}
+
 {% endblock %}

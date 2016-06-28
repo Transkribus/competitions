@@ -8,6 +8,7 @@ from .forms import LoginForm, RegisterForm, NEW_AFFILIATION_ID
 from .forms import SubmitForm
 from .models import Affiliation, Individual, Competition, Track, Subtrack
 from .models import Submission, SubmissionStatus
+from .tables import SubmissionTable
 
 def index(request):
     login_form = LoginForm()
@@ -130,7 +131,6 @@ def submit(request, competition_id, track_id, subtrack_id):
             #TODO: Add the authenticated user and the coworkers here                       
             submission.save()
             for bmark in subtrack.benchmark_set.all():
-                print(bmark)
                 #TODO: Each cycle has to be run asynchronously
                 submission_status = SubmissionStatus.objects.create(
                     submission=submission,
@@ -145,6 +145,7 @@ def submit(request, competition_id, track_id, subtrack_id):
                 submission_status.status = "COMPLETE"
                 submission_status.save()
             context['message'] = 'Submission {} with id {} has been submitted sucesfully.'.format(submission.name, submission.id)
+            context['table'] = SubmissionTable(subtrack.submission_set.all())            
             return render(request, 'competitions/viewresults.html', context)
     context['submit_form'] = submit_form
     return render(request, 'competitions/submit.html', context)
@@ -163,4 +164,5 @@ def viewresults(request, competition_id, track_id, subtrack_id):
         'track': track,
         'subtrack': subtrack
     }
+    context['table'] = SubmissionTable(subtrack.submission_set.all())
     return render(request, 'competitions/viewresults.html', context)
