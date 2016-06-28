@@ -116,7 +116,11 @@
                                     {% else %}
       							    <li><a href="{{ subtrack.public_data.url }}">Download training set</a></li>
                                     {% endif %}
+                                    {% if user.is_authenticated %}
         							<li><a href="{% url 'competition' %}{{ competition.id }}/{{ track.id }}/{{ subtrack.id }}/submit"> Submit a new method for evaluation</a></li>
+                                    {% else %}
+                                    <li>Submit a new method for evaluation (you have to <a href="{% url 'competition' %}#login">login</a> first)</li>                                    
+                                    {% endif %}
         							<li><a href="{% url 'competition' %}{{ competition.id }}/{{ track.id }}/{{ subtrack.id }}/viewresults"> View results for all available methods</a></li>
       							</ul>
         					{% else %}

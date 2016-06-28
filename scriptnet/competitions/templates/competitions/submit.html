@@ -3,6 +3,7 @@
 
 {% block content %}
 <h3>New submission to the [{{ track.id }}.{{ subtrack.id }}]{{ track.name }}/{{ subtrack.name }} track</h3>
+{% if user.is_authenticated %}
 <form enctype="multipart/form-data" action="" method="post" role="form">
 {% csrf_token %}
 {% bootstrap_form submit_form %}
@@ -10,4 +11,7 @@
     <button class="btn btn-default" type="submit" name="submit">Submit method results</button>
 {% endbuttons %}
 </form>					
+{% else %}
+<br><br><center><h4> You have to <a href="{% url 'competition' %}#login">login</a> first. </h4></center>
+{% endif %}
 {% endblock %}
