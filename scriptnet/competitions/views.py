@@ -3,6 +3,7 @@ from django.template import loader
 from django.http import HttpResponseRedirect
 from django.contrib.auth import authenticate, login, logout
 from django.contrib.auth.models import User
+from django.core.urlresolvers import reverse
 
 from .forms import LoginForm, RegisterForm, NEW_AFFILIATION_ID
 from .forms import SubmitForm
@@ -144,9 +145,8 @@ def submit(request, competition_id, track_id, subtrack_id):
                 #TODO: Update status with the appropriate error msg if an error occurred
                 submission_status.status = "COMPLETE"
                 submission_status.save()
-            context['message'] = 'Submission {} with id {} has been submitted sucesfully.'.format(submission.name, submission.id)
-            context['table'] = SubmissionTable(subtrack.submission_set.all())            
-            return render(request, 'competitions/viewresults.html', context)
+            context['message'] = 'Submission {} with id {} has been submitted succesfully. '.format(submission.name, submission.id)
+            return HttpResponseRedirect(reverse('viewresults', args=(competition_id, track_id, subtrack_id,)))
     context['submit_form'] = submit_form
     return render(request, 'competitions/submit.html', context)
 
