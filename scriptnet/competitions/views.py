@@ -11,6 +11,7 @@ from .forms import SubmitForm
 from .models import Affiliation, Individual, Competition, Track, Subtrack
 from .models import Submission, SubmissionStatus
 from .tables import SubmissionTable
+from . import evaluators
 
 
 def index(request):
@@ -111,7 +112,6 @@ def submit(request, competition_id, track_id, subtrack_id):
             return render(request, 'competitions/submit.html', context)            
         submit_form = SubmitForm(request.user, request.POST, request.FILES)
         if submit_form.is_valid():
-            # This is where code for all benchmarks will be called
             if Submission.objects.filter(
                 subtrack=subtrack, 
                 name=submit_form.cleaned_data['name']
@@ -129,6 +129,7 @@ def submit(request, competition_id, track_id, subtrack_id):
             submission.submitter.add(request.user.individual)
             #TODO: Add the authenticated user and the coworkers here                       
             submission.save()
+            # This is where code for all benchmarks will be called            
             for bmark in subtrack.benchmark_set.all():
                 #TODO: Each cycle has to be run asynchronously
                 submission_status = SubmissionStatus.objects.create(
@@ -138,9 +139,20 @@ def submit(request, competition_id, track_id, subtrack_id):
                 )
                 #TODO: Call a python(?) function with a name based on bmark.name at this point
                 # and update submission_status.numericalresult
-                submission_status.numericalresult = ""
-                submission_status.save()
-                #TODO: Update status with the appropriate error msg if an error occurred
+                evaluator_function = getattr(evaluators, bmark.name, None)
+                if not evaluator_function:
+                    submission_status.status="ERROR_EVALUATOR"
+                    submission_status.save()
+                    continue
+                else:
+                    try:
+                        submission_status.status="PROCESSING"
+                        submission_status.save()
+                        submission_status.numericalresult = evaluator_function()
+                    except:
+                        submission_status.status="ERROR_PROCESSING"
+                        submission_status.save()
+                        continue
                 submission_status.status = "COMPLETE"
                 submission_status.save()
             messages.add_message(request, messages.SUCCESS, 'Submission {} with id {} has been submitted succesfully. '.format(submission.name, submission.id))

@@ -98,8 +98,9 @@ class SubmissionStatus(models.Model):
 		verbose_name_plural = 'submission status'
 	POSSIBLE_STATUS = (
 		('UNDEFINED', 'The processing state of the submission is undefined'),
-		('ERROR', 'An error has occured before processing could start'),
-		('PROCESSING', 'We are currently processing the submitted result'),
+		('PROCESSING', 'We are currently processing the submitted result'),		
+		('ERROR_EVALUATOR', 'Could not call the related evaluator function'),
+		('ERROR_GENERIC', 'An error has occured before processing could start'),
 		('ERROR_PROCESSING', 'An error has occured during processing of the submitted result'),		
 		('COMPLETE', 'The submitted result has been succesfully processed and a numerical result has been saved')
 	)
@@ -109,3 +110,5 @@ class SubmissionStatus(models.Model):
 	status = models.CharField(max_length = 20, choices=POSSIBLE_STATUS, default='UNDEFINED')
 	start_time = models.DateTimeField(auto_now_add=True, null=True)
 	end_time = models.DateTimeField(auto_now=True, null=True)
+	def __str__(self):
+		return '({}/{}) [score={}] [{}]'.format(self.benchmark, self.id, self.numericalresult, self.status)
