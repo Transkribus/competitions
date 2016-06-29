@@ -15,23 +15,6 @@ from . import evaluators
 
 import threading
 
-def evaluator_worker(evaluator_function, submission_status):                
-    if not evaluator_function:
-        submission_status.status="ERROR_EVALUATOR"
-        submission_status.save()
-        return
-    else:
-        try:
-            submission_status.status="PROCESSING"
-            submission_status.save()
-            submission_status.numericalresult = evaluator_function()
-        except:
-            submission_status.status="ERROR_PROCESSING"
-            submission_status.save()
-            return
-    submission_status.status = "COMPLETE"
-    submission_status.save()
-
 def index(request):
     login_form = LoginForm()
     register_form = RegisterForm()
@@ -154,7 +137,7 @@ def submit(request, competition_id, track_id, subtrack_id):
                     status="UNDEFINED"
                 )
                 evaluator_function = getattr(evaluators, bmark.name, None)
-                th = threading.Thread(name=str(submission_status), target=evaluator_worker, args=(evaluator_function, submission_status,))
+                th = threading.Thread(name=str(submission_status), target=evaluators.evaluator_worker, args=(evaluator_function, submission_status,))
                 th.daemon = True
                 th.start()
             messages.add_message(request, messages.SUCCESS, 'Submission {} with id {} has been submitted succesfully. '.format(submission.name, submission.id))
