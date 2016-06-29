@@ -2,8 +2,12 @@
 {% load bootstrap3 %}
 
 {% block content %}
-{% if message %}
-<br><br><center><h4>{{ message }}</h4></center>
+{% if messages %}
+    {% for message in messages %}
+    <div class="alert alert-{{ message.tags }}">
+        {{ message }} {{ message.tags}}
+    </div>
+    {% endfor %}
 {% else %}
 <h3>New submission to the [{{ track.id }}.{{ subtrack.id }}]{{ track.name }}/{{ subtrack.name }} track</h3>
 {% endif %}

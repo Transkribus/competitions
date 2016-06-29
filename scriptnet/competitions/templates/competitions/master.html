@@ -180,6 +180,13 @@ Nam qualitates corporum non nisi per experimenta innotescunt, ideoque generales 
 		        <div class="col-lg-8">
                     <h2 class="section-heading">Register</h2>
                     <p class="text-faded">Register to take part in one of the active competitions.</p>
+                    {% if messages %}
+                        {% for message in messages %}
+                        <div class="alert alert-{{ message.tags }}">
+                            {{ message }}
+                        </div>
+                        {% endfor %}
+                    {% endif %}
                     <!-- Το ονομα του action αναφερεται στους regexp ορισμους των urls.py -->
 		            <form action="" method="post" role="form">
 		                {% csrf_token %}

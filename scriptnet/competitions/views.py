@@ -1,6 +1,7 @@
 from django.shortcuts import get_object_or_404, HttpResponse, render
 from django.template import loader
 from django.http import HttpResponseRedirect
+from django.contrib import messages
 from django.contrib.auth import authenticate, login, logout
 from django.contrib.auth.models import User
 from django.core.urlresolvers import reverse
@@ -10,6 +11,7 @@ from .forms import SubmitForm
 from .models import Affiliation, Individual, Competition, Track, Subtrack
 from .models import Submission, SubmissionStatus
 from .tables import SubmissionTable
+
 
 def index(request):
     login_form = LoginForm()
@@ -22,33 +24,31 @@ def index(request):
         if 'register' in request.POST:
             register_form = RegisterForm(request.POST)
             if register_form.is_valid():
+                #TODO: Print some error message if the form contains error, like non-unique names etc
                 user = User.objects.create_user(
                     username=register_form.cleaned_data['username'],
                     password=register_form.cleaned_data['password'],
                     email=register_form.cleaned_data['email'],
                     first_name=register_form.cleaned_data['first_name'],
                     last_name=register_form.cleaned_data['last_name'])
-
                 affiliations_id = int(register_form.cleaned_data['affiliations'])
                 affiliations_newstring = register_form.cleaned_data['new_affiliation']
                 if(affiliations_id == NEW_AFFILIATION_ID):
-                    #If the user selected 'Other'
                     if not affiliations_newstring:
-                        #TODO: Redirect to some error page: New affiliation is unspecified
+                        messages.add_message(request, messages.ERROR, 'Please specify your affiliation, if it does not appear on the list.')
                         return HttpResponseRedirect('/competitions/')
                     affiliation = Affiliation.objects.create(name=affiliations_newstring)
                 else:
                     if affiliations_newstring:
-                        #TODO: Redirect to some error page: User specified a new affilation,
-                        #      but also chose one from the list
+                        messages.add_message(request, messages.ERROR, 'Please specify either an affiliation from the list, or "other" and specify a new affiliation.')                        
                         return HttpResponseRedirect('/competitions/')                        
                     affiliation = Affiliation.objects.get(pk=affiliations_id)
 
                 user.individual.shortbio = register_form.cleaned_data['shortbio']
                 user.individual.affiliations.add(affiliation)
-                #TODO: print a message saying that the user is created -- 
-                # eventually will have to authenticate him by email
-                return HttpResponseRedirect('/competitions/')
+                #TODO: eventually will have to authenticate the new user by email
+                messages.add_message(request, messages.SUCCESS, 'User {} has been created. Use your credentials to login.'.format(user.username))
+                return HttpResponseRedirect('/competitions/#register')
         elif 'login' in request.POST:
             login_form = LoginForm(request.POST)
             if login_form.is_valid():
@@ -58,7 +58,6 @@ def index(request):
                 if user is not None:
                     if user.is_active:
                         login(request, user)
-                        #TODO Redirect to success page
                     else:
                         #TODO Redirect to failure (disabled account)                        
                         pass
@@ -116,9 +115,8 @@ def submit(request, competition_id, track_id, subtrack_id):
             if Submission.objects.filter(
                 subtrack=subtrack, 
                 name=submit_form.cleaned_data['name']
-                ):
-                # Check if a the chosen name (slug) already exists                
-                context['message'] = 'The method name already exists for this track. Please choose another name.'
+                ):                
+                messages.add_message(request, messages.ERROR, 'The method name already exists for this track. Please choose another name.') 
                 context['submit_form'] = SubmitForm(request.user)
                 return render(request, 'competitions/submit.html', context)
             submission = Submission.objects.create(
@@ -145,7 +143,7 @@ def submit(request, competition_id, track_id, subtrack_id):
                 #TODO: Update status with the appropriate error msg if an error occurred
                 submission_status.status = "COMPLETE"
                 submission_status.save()
-            context['message'] = 'Submission {} with id {} has been submitted succesfully. '.format(submission.name, submission.id)
+            messages.add_message(request, messages.SUCCESS, 'Submission {} with id {} has been submitted succesfully. '.format(submission.name, submission.id))
             return HttpResponseRedirect(reverse('viewresults', args=(competition_id, track_id, subtrack_id,)))
     context['submit_form'] = submit_form
     return render(request, 'competitions/submit.html', context)
