@@ -13,6 +13,24 @@ from .models import Submission, SubmissionStatus
 from .tables import SubmissionTable
 from . import evaluators
 
+import threading
+
+def evaluator_worker(evaluator_function, submission_status):                
+    if not evaluator_function:
+        submission_status.status="ERROR_EVALUATOR"
+        submission_status.save()
+        return
+    else:
+        try:
+            submission_status.status="PROCESSING"
+            submission_status.save()
+            submission_status.numericalresult = evaluator_function()
+        except:
+            submission_status.status="ERROR_PROCESSING"
+            submission_status.save()
+            return
+    submission_status.status = "COMPLETE"
+    submission_status.save()
 
 def index(request):
     login_form = LoginForm()
@@ -129,32 +147,16 @@ def submit(request, competition_id, track_id, subtrack_id):
             submission.submitter.add(request.user.individual)
             #TODO: Add the authenticated user and the coworkers here                       
             submission.save()
-            # This is where code for all benchmarks will be called            
             for bmark in subtrack.benchmark_set.all():
-                #TODO: Each cycle has to be run asynchronously
                 submission_status = SubmissionStatus.objects.create(
                     submission=submission,
                     benchmark=bmark,
                     status="UNDEFINED"
                 )
-                #TODO: Call a python(?) function with a name based on bmark.name at this point
-                # and update submission_status.numericalresult
                 evaluator_function = getattr(evaluators, bmark.name, None)
-                if not evaluator_function:
-                    submission_status.status="ERROR_EVALUATOR"
-                    submission_status.save()
-                    continue
-                else:
-                    try:
-                        submission_status.status="PROCESSING"
-                        submission_status.save()
-                        submission_status.numericalresult = evaluator_function()
-                    except:
-                        submission_status.status="ERROR_PROCESSING"
-                        submission_status.save()
-                        continue
-                submission_status.status = "COMPLETE"
-                submission_status.save()
+                th = threading.Thread(name=str(submission_status), target=evaluator_worker, args=(evaluator_function, submission_status,))
+                th.daemon = True
+                th.start()
             messages.add_message(request, messages.SUCCESS, 'Submission {} with id {} has been submitted succesfully. '.format(submission.name, submission.id))
             return HttpResponseRedirect(reverse('viewresults', args=(competition_id, track_id, subtrack_id,)))
     context['submit_form'] = submit_form
