@@ -7,9 +7,8 @@ Python, [Django], [Django-Bootstrap3] and [Django-Tables2] need to be installed.
 In Ubuntu Linux, you need to run:
 ```sh
 sudo apt-get update && sudo apt-get upgrade
-sudo apt-get install python-pip python-dev build-essential
-sudo pip install --upgrade pip
-sudo pip install django django-bootstrap3 django_tables2
+sudo apt-get install python3-pip python3-dev build-essential
+sudo pip3 install django django-bootstrap3 django_tables2
 ```
 
 ### Running
