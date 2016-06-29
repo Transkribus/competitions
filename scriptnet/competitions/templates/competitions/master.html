@@ -78,12 +78,29 @@
                     <li>
                         <a class="page-scroll" href="#contact">{% trans "Contact" %}</a>
                     </li>
-					<li>
-				{% get_current_language as LANGUAGE_CODE %}
-				<form action="{% url 'set_language' %}" method="post" id="language_switcher">
-					<input name="next" type="hidden" value="{{ request.path }}" />
+				<li>
+				 <a class="dropdown-toggle" data-toggle="dropdown" href="#myTools" style="display:inline-block;padding-left:0px;">Language
+				 <b class="caret"></b>
+                  </a>
+				<ul class="dropdown-menu">
+					<form action="{% url 'set_language' %}" method="post">
 					{% csrf_token %}
-					{% bootstrap_form language_form %}
+					<input name="next" type="hidden" value="{{ request.get_full_path}}" />
+					{% get_current_language as LANGUAGE_CODE %}
+					{% get_available_languages as LANGUAGES %}
+					{% get_language_info_list for LANGUAGES as languages %}
+					{% for language in languages %}
+							<ul>						   	
+							<button type="button"
+									class="btn btn-link btn-xs"
+						            name="language"
+						            value="{{ language.code }}"
+						            class="{% if language.code == LANGUAGE_CODE %}selected{% endif %}">
+						        {{ language.name_local }}
+						    </button>
+							</ul>
+        			{% endfor %}
+				</ul>		
 				</form>
 				</li>
                 </ul>

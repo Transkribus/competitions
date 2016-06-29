@@ -112,11 +112,32 @@ LOCALE_PATHS = [
     os.path.join(BASE_DIR, "locale"),
 ]
 
-LANGUAGE_CODE = 'fr'
+LANGUAGE_CODE = 'en'
 from django.utils.translation import ugettext_lazy as _
 LANGUAGES = [
+		('bg', _('Bulgarian')),
+	('hr', _('Croatian')),
+	('cs', _('Czech')),
+	('da', _('Danish')),
+	('nl', _('Dutch')),
 	('en', _('English')),
+	('et', _('Estonian')),
+	('fi', _('Finnish')),
 	('fr', _('French')),
+	('de', _('German')),
+	('el', _('Greek')),
+	('hu', _('Hungarian')),
+	('ga', _('Irish')),
+	('it', _('Italian')),
+	('lv', _('Latvian')),
+	('lt', _('Lithuanian')),
+	('pl', _('Polish')),
+	('pt', _('Portuguese')),
+	('ro', _('Romanian')),
+	('sk', _('Slovak')),
+	('sl', _('Slovenian')),
+	('es', _('Spanish')),
+	('sv', _('Swedish')),
 
 ];
 
