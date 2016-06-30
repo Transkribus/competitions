@@ -1,9 +1,15 @@
 from __future__ import unicode_literals
 from django.db import models
 from django.contrib.auth.models import User
-from django.db.models.signals import post_save
+from django.dispatch import receiver
+from django.db.models.signals import post_save, post_delete
 from uuid import uuid4
 from time import strftime
+from shutil import rmtree, move
+from os.path import dirname
+from os.path import exists
+import hashlib
+import tarfile
 
 class Affiliation(models.Model):
 	name = models.CharField(max_length = 50)
@@ -28,6 +34,7 @@ def create_user_profile(sender, instance, created, **kwargs):
     if created:  
        profile, created = Individual.objects.get_or_create(user=instance)  
 
+#TODO: Use the @receiver decorator here?
 post_save.connect(create_user_profile, sender=User) 		
 
 class Competition(models.Model):
@@ -46,22 +53,71 @@ class Track(models.Model):
 	def __str__(self):
 		return '({}) {}, part of {}'.format(self.id, self.name, self.competition.name)
 
-#Info about saving to a custom folder here: https://docs.djangoproject.com/en/dev/ref/models/fields/#django.db.models.FileField.upload%5Fto
-#and here: http://stackoverflow.com/questions/1190697/django-filefield-with-upload-to-determined-at-runtime
+def publicdata_path(instance, filename):
+	return 'databases/{}/{}'.format(uuid4().hex, filename)
+
+def privatedata_path(instance, filename):
+	return 'databases/{}/{}'.format(uuid4().hex, filename)
+
 class Subtrack(models.Model):
 	name = models.CharField(max_length = 50)
 	track = models.ForeignKey(Track, on_delete = models.CASCADE)
 	#This will normally be training+validation folds, visible to any registered user
-	#TODO: Use a unique identifier like in submission_path
-	public_data = models.FileField(upload_to='databases/', null=True, blank=True, default="") #Not sure if FileField is proper in this case
+	public_data = models.FileField(upload_to=publicdata_path, null=True, blank=True, default="") #Not sure if FileField is proper in this case
 	#Organizers have the option of using a URL field here, in case they want to serve the public data themselves
 	#If this is non-blank, it overrides the 'public_data' field
 	public_data_external = models.URLField(null=True, blank=True, default="")
 	#This will be test folds, non-visible to participants, usable only by the evaluation system
-	#TODO: Use a unique identifier like in submission_path	
-	private_data = models.FileField(upload_to='databases/', null=True) #Not sure if FileField is proper in this case
+	private_data = models.FileField(upload_to=privatedata_path, null=True) #Not sure if FileField is proper in this case
+	#This hash is used to monitor user changes on private data
+	private_data_securehash = models.CharField(max_length=100, null=True, blank=True, default="")
 	def __str__(self):
 		return '({}) {}, part of {} / {}'.format(self.id, self.name, self.track.competition.name, self.track.name)
+	def save(self, *args, **kwargs):
+		#Call super_save once to save the file
+		super(Subtrack, self).save(*args, **kwargs)
+		self.unpack_privatefolder()
+		#Call again super_save to save the new hash
+		super(Subtrack, self).save(*args, **kwargs)
+
+	def delete(self, *args, **kwargs):
+		super(Subtrack, self).delete(*args, **kwargs)
+		self.delete_unpacked_privatefolder()
+
+	def private_data_root_folder(self):
+		return dirname(self.private_data.name)
+	def private_data_unpacked_folder(self):
+		return '{}/unpacked/'.format(self.private_data_root_folder())
+	def save_privatedata_hash(self):
+		# used code from http://stackoverflow.com/questions/3431825/generating-an-md5-checksum-of-a-file
+		hash_md5 = hashlib.md5()
+		with open(self.private_data.name, "rb") as f:
+			for chunk in iter(lambda: f.read(4096), b""):
+				hash_md5.update(chunk)
+		self.private_data_securehash = hash_md5.hexdigest()
+	def unpack_privatefolder(self):
+		currenthash = self.private_data_securehash
+		print(currenthash)
+		self.save_privatedata_hash()
+		newhash = self.private_data_securehash
+		print(newhash)
+		if(newhash != currenthash):
+			print("Extracting")			
+			self.delete_unpacked_privatefolder()
+			tar = tarfile.open(self.private_data.name)
+			tar.extractall(path=self.private_data_unpacked_folder())
+			tar.close()
+			print("Created folder on {}".format(self.private_data_unpacked_folder()))
+	def delete_unpacked_privatefolder(self):
+		#TODO: (non-major?) unpacked folder wont be deleted if the user uploads a new private test file,
+		#	as the securehash is changed and the old folder is 'lost'
+		if self.private_data_securehash and exists(self.private_data_unpacked_folder()): 
+			src = self.private_data_unpacked_folder()
+			#TODO: Specify on settings.py or elsewhere the /tmp/ folder as a constant
+			dst = '/tmp/{}'.format(uuid4().hex)			
+			# rmtree(src)			
+			print("Deleting unpacked dir {} (actually just moved to {})".format(src, dst))
+			move(src, dst) #this is safer than rmtree.. !
 
 def submission_path(instance, filename):
 	# file will be uploaded to MEDIA_ROOT/user_.../<datestamp>/<random unique identifier>/filename
@@ -85,8 +141,8 @@ class Submission(models.Model):
 		return '({}) {}'.format(self.id, self.method_info)
 
 class Benchmark(models.Model):
-	#TODO: A python callable will be implicitly related to each submission.
-	#	   The name of the callable will be based on the 'name' field of this model
+	# The name of the callable 'evaluator' function is identical to the 'name' field of this model
+	# A function itself is (has to be) found in the 'evaluators.py' file.
 	name = models.SlugField(max_length = 50, null=False, blank=False, default="")
 	benchmark_info = models.TextField(editable=True, default="")
 	subtracks = models.ManyToManyField(Subtrack)

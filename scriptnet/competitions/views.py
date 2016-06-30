@@ -127,9 +127,10 @@ def submit(request, competition_id, track_id, subtrack_id):
                 subtrack = subtrack,
                 resultfile = submit_form.cleaned_data['resultfile']
             )
+            #TODO: Add the authenticated user and the coworkers here            
             submission.submitter.add(request.user.individual)
-            #TODO: Add the authenticated user and the coworkers here                       
             submission.save()
+
             for bmark in subtrack.benchmark_set.all():
                 submission_status = SubmissionStatus.objects.create(
                     submission=submission,
