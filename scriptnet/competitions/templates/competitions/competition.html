@@ -1,5 +1,6 @@
 {% load staticfiles %}
-
+{% load i18n %}
+{% load bootstrap3 %}
 
 <!DOCTYPE html>
 <html lang="en">
@@ -35,6 +36,7 @@
 
     <!-- Navigation -->
     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+	<div class="wrapper wrapper-style1 wrapper-first">
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
@@ -56,7 +58,7 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
           			<li>
-				          <a id="home" class="selected" href="{% url 'competition' %}{{ competition.id }}">Competition home</a>
+				          <a id="home" class="selected" href="{% url 'competition' %}{{ competition.id }}">{% trans "Competition home" %}</a>
 			          </li>
 			          {% for tr in competition.track_set.all %}
                 <li class="dropdown" id="t1{{ tr.id }}">
@@ -74,12 +76,13 @@
                 </li>                     
 			          {% endfor %}
 		          	<li>
-				          <a id="o" href="#organizers">Organizers</a>
+				          <a id="o" href="#Organizers">{% trans "Organizers" %}</a>
 			          </li>
-                </ul>
+			   </ul>
             </div>
             <!-- /.navbar-collapse -->
         </div>
+		</div>
         <!-- /.container -->
     </nav>
 
@@ -106,23 +109,23 @@
                     {% block content %}
         				{% if track %}
         					<header>
-          					<h1> Track {{ track.id }} - {{ track.name }} </h1>
+          					<h1> {% trans "Track" %}{{ track.id }} - {{ track.name }} </h1>
         					</header>					
         					{{ track.overview | safe }}
         					{% if subtrack %}		
                                 <h3>Subtrack {{ track.id }}.{{ subtrack.id }} - {{ subtrack.name }}</h3>
                                 <ul>
                                     {% if subtrack.public_data_external %}
-                                    <li><a href="{{ subtrack.public_data_external }}">Download training set</a></li>
+                                    <li><a href="{{ subtrack.public_data_external }}">{% trans "Download training set" %}</a></li>
                                     {% else %}
-      							    <li><a href="{{ subtrack.public_data.url }}">Download training set</a></li>
+      							    <li><a href="{{ subtrack.public_data.url }}">{% trans "Download training set" %}</a></li>
                                     {% endif %}
                                     {% if user.is_authenticated %}
-        							<li><a href="{% url 'competition' %}{{ competition.id }}/{{ track.id }}/{{ subtrack.id }}/submit"> Submit a new method for evaluation</a></li>
+        							<li><a href="{% url 'competition' %}{{ competition.id }}/{{ track.id }}/{{ subtrack.id }}/submit">{% trans "Submit a new method for evaluation" %}</a></li>
                                     {% else %}
-                                    <li>Submit a new method for evaluation (you have to <a href="{% url 'competition' %}#login">login</a> first)</li>                                    
+                                    <li>{% trans "Submit a new method for evaluation" %} ({% trans "you have to" %} <a href="{% url 'competition' %}#login">{% trans "login" %}</a>{% trans "first" %})</li>
                                     {% endif %}
-        							<li><a href="{% url 'competition' %}{{ competition.id }}/{{ track.id }}/{{ subtrack.id }}/viewresults"> View results for all available methods</a></li>
+        							<li><a href="{% url 'competition' %}{{ competition.id }}/{{ track.id }}/{{ subtrack.id }}/viewresults">{% trans "View results for all available methods" %}</a></li>
       							</ul>
         					{% else %}
                                 {% if track.subtrack_set.all %}
@@ -147,12 +150,12 @@
 
             <div class="col-md-2">
                 <div class="well">
-                    <h4>News</h4>
+                    <h4>{% trans "News" %}</h4>
 				          	{{ competition.newsfeed | safe }}
                 </div>
 
                 <div class="well">
-                    <h4>Important Dates</h4>
+                    <h4>{% trans "Important Dates" %}</h4>
 				          	{{ competition.important_dates | safe }}
                 </div>
 
@@ -209,7 +212,7 @@
         <footer>
             <div class="row">
                 <div class="col-lg-12">
-                    <p>READ - a Horizon 2020 e-infrastructure project </p>
+                    <p>{% trans "READ - a Horizon 2020 e-infrastructure project" %} </p>
                 </div>
             </div>
             <!-- /.row -->

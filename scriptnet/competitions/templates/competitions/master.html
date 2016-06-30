@@ -1,5 +1,6 @@
 {% load staticfiles %}
 {% load bootstrap3 %}
+{% load i18n %}
 
 <!DOCTYPE html>
 <html lang="en">
@@ -12,10 +13,10 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>ScriptNet Document Understanding Competitions</title>
+    <title>{% trans "ScriptNet Document Understanding Competitions" %}</title>
 
     <!-- Bootstrap Core CSS -->
-    <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}" type="text/css">
+    <link rel="stylesheet" href="{% static 'css/bootstrap.min.transparence.css' %}" type="text/css">
 
     <!-- Custom Fonts -->
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
@@ -24,6 +25,9 @@
 
     <!-- Plugin CSS -->
     <link rel="stylesheet" href="{% static 'css/animate.min.css' %}" type="text/css">
+
+	<!-- Flag CSS -->
+    <link rel="stylesheet" href="{% static 'css/flag-icon.css' %}" type="text/css">
 
     <!-- Custom CSS -->
     <link rel="stylesheet" href="{% static 'css/creative.css' %}" type="text/css">
@@ -51,32 +55,58 @@
                     <span class="icon-bar"></span>
                 </button>
                 {% if user.is_authenticated %}
-                <a class="navbar-brand page-scroll" href="#page-top"><small><small>Logged in as &nbsp;</small></small>{{ user.first_name }} {{ user.last_name }} </a>
-                <a class="navbar-brand page-scroll" href="{% url 'signout' %}"><small><small>[Logout]</small></small></a>
+                <a class="navbar-brand page-scroll" href="#page-top"><small><small>{% trans "Logged in as" %} &nbsp;</small></small>{{ user.first_name }} {{ user.last_name }} </a>
+                <a class="navbar-brand page-scroll" href="{% url 'signout' %}"><small><small>{% trans "[Logout]" %}</small></small></a>
                 {% else %}
-                <a class="navbar-brand page-scroll" href="#page-top"><small>Welcome to</small> ScriptNet </a>
+                <a class="navbar-brand page-scroll" href="#page-top"><small>{% trans "Welcome to" %}</small> ScriptNet </a>
                 {% endif %}
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">                    
                     <li>
-                        <a class="page-scroll" href="#about">About</a>
+                        <a class="page-scroll" href="#about">{% trans "About" %} </a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#services">Competitions</a>
+                        <a class="page-scroll" href="#services">{% trans "Competitions" %}</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#register">Register</a>
+                        <a class="page-scroll" href="#register">{% trans "Register" %}</a>
                     </li>
                     {% if not user.is_authenticated %}
                     <li>
-                        <a class="page-scroll" href="#login">Login</a>
+                        <a class="page-scroll" href="#login">{% trans "Login" %}</a>
                     </li>
                     {% endif %}                    
                     <li>
-                        <a class="page-scroll" href="#contact">Contact</a>
+                        <a class="page-scroll" href="#contact">{% trans "Contact" %}</a>
                     </li>
+				<li>
+				 <a class="dropdown-toggle" data-toggle="dropdown" href="#myTools" style="display:inline-block;padding-left:0px;">&nbsp;&nbsp;&nbsp;&nbsp;{% trans "Language" %}
+				 <b class="caret"></b>
+                  </a>
+				<ul class="dropdown-menu">
+					<form action="{% url 'set_language' %}" method="post">
+					{% csrf_token %}
+					<input name="next" type="hidden" value="{{ request.get_full_path}}" />
+					{% get_current_language as LANGUAGE_CODE %}
+					{% get_available_languages as LANGUAGES %}
+					{% get_language_info_list for LANGUAGES as languages %}
+					{% for language in languages %}
+							<ul>						   	
+							<button type="submit"
+									class="btn btn-link btn-xs"
+						            name="language"
+						            value="{{ language.code }}"
+						            class="{% if language.code == LANGUAGE_CODE %}selected{% endif %}">
+						        {{ language.name_local }}
+						    </button>
+							</ul>
+        			{% endfor %}
+				</ul>		
+					<span class="flag-icon flag-icon-{{LANGUAGE_CODE}}"></span>
+				</form>
+				</li>
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
@@ -89,8 +119,8 @@
             <div class="header-content-inner">
                 <h1>ScriptNet</h1>
                 <hr>
-                <p>ScriptNet is a platform of competitions running under the READ project</p>
-                <a href="#about" class="btn btn-primary btn-xl page-scroll">Find Out More</a>
+                <p>{% trans "ScriptNet is a platform of competitions running under the READ project" %}</p>
+                <a href="#about" class="btn btn-primary btn-xl page-scroll">{% trans "Find Out More" %}</a>
             </div>
         </div>
     </header>
@@ -100,7 +130,7 @@
             <div class="row">
                 <!-- <div class="col-lg-8 col-lg-offset-2 text-center"> -->
 		<div class="col-lg-8">
-                    <h2 class="section-heading">About ScriptNet</h2>
+                    <h2 class="section-heading">{% trans "About ScriptNet" %}</h2>
                     <h4 class="section-heading">De Bello Gallico</h4>
                     <!-- <hr class="light"> -->
                     <p class="text-faded">
@@ -135,7 +165,7 @@ Nam qualitates corporum non nisi per experimenta innotescunt, ideoque generales 
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Active Document Understanding Competitions</h2>
+                    <h2 class="section-heading">{% trans "Active Document Understanding Competitions" %}</h2>
 					<br><br><br><br><br><br><br>
                     <!-- <hr class="primary"> -->
                 </div>
@@ -163,7 +193,7 @@ Nam qualitates corporum non nisi per experimenta innotescunt, ideoque generales 
                 </div>
 				{% endfor %}
 				{% else %}
-				<p> *No competitions are currently active*
+				<p> {% trans "*No competitions are currently active*" %}
 				{% endif %}
             </div>
 		</div>
@@ -178,8 +208,8 @@ Nam qualitates corporum non nisi per experimenta innotescunt, ideoque generales 
                     <img src="{% static 'img/nicesamples/3.jpg' %}" class="img-responsive" alt="">
                 </div>
 		        <div class="col-lg-8">
-                    <h2 class="section-heading">Register</h2>
-                    <p class="text-faded">Register to take part in one of the active competitions.</p>
+                    <h2 class="section-heading">{% trans "Register" %}</h2>
+                    <p class="text-faded">{% trans "Register to take part in one of the active competitions." %}</p>
                     {% if messages %}
                         {% for message in messages %}
                         <div class="alert alert-{{ message.tags }}">
@@ -192,7 +222,7 @@ Nam qualitates corporum non nisi per experimenta innotescunt, ideoque generales 
 		                {% csrf_token %}
 		                {% bootstrap_form register_form %}
                         {% buttons %}
-		                <button class="btn btn-default" type="submit" name="register">Register</button>
+		                <button class="btn btn-default" type="submit" name="register">{% trans "Register" %}</button>
                         {% endbuttons %}
 		            </form>
                 </div>
@@ -205,14 +235,14 @@ Nam qualitates corporum non nisi per experimenta innotescunt, ideoque generales 
         <div class="container">
             <div class="row">
 		        <div class="col-lg-8">
-                    <h2 class="section-heading">Sign in</h2>
-                    <p class="text-faded">Login with your credentials if you have already registered.</p>
+                    <h2 class="section-heading">{% trans "Sign in" %}</h2>
+                    <p class="text-faded">{% trans "Login with your credentials if you have already registered." %}</p>
                     <!-- Το ονομα του action αναφερεται στους regexp ορισμους των urls.py -->
 		            <form action="" method="post" role="form">
 		                {% csrf_token %}
 		                {% bootstrap_form login_form %}
                         {% buttons %}
-		                <button class="btn btn-default" type="submit" name="login">Login</button>
+		                <button class="btn btn-default" type="submit" name="login">{% trans "Login" %}</button>
                         {% endbuttons %}
 		            </form>
                 </div>
@@ -228,14 +258,14 @@ Nam qualitates corporum non nisi per experimenta innotescunt, ideoque generales 
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <h2 class="section-heading">Contact</h2>
+                    <h2 class="section-heading">{% trans Contact %}</h2>
                     <hr class="primary">
 			<br><br><br><br><br>
 			<div class="row">
 				<div class="col-lg-6 vcenter">
                 			<img src="{% static 'img/logos/ncsrd.jpg' %}" class="img-responsive" alt="">
 				</div><div class="col-lg-6 vcenter">
-				NCSR "Demokritos"
+				 NCSR "Demokritos
 				</div>
 			</div>
 			<br>
@@ -243,7 +273,7 @@ Nam qualitates corporum non nisi per experimenta innotescunt, ideoque generales 
 				<div class="col-lg-6 vcenter">
                 			<img src="{% static 'img/logos/iit_logo.png' %}" width="30%" class="img-responsive" alt="">
 				</div><div class="col-lg-6 vcenter">
-				Institute of Informatics and Telecommunications
+				{% trans "Institute of Informatics and Telecommunications" %}
 				</div>
 			</div>
 			<br>
@@ -251,7 +281,7 @@ Nam qualitates corporum non nisi per experimenta innotescunt, ideoque generales 
 				<div class="col-lg-6 vcenter">
                 			<img src="{% static 'img/logos/cil_logo.jpg' %}" class="img-responsive" alt="">
 				</div><div class="col-lg-6 vcenter">
-				Computational Intelligence Laboratory
+				{% trans "Computational Intelligence Laboratory" %}
 				</div>
 			</div>
 			<br>
@@ -259,7 +289,7 @@ Nam qualitates corporum non nisi per experimenta innotescunt, ideoque generales 
 				<div class="col-lg-6 vcenter">
                 			<img src="{% static 'img/logos/read_logo.png' %}" width="50%" class="img-responsive" alt="">
 				</div><div class="col-lg-6 vcenter">
-				READ project
+				{% trans "READ project" %}
 				</div>
 			</div>
 			<br><br><br><br><br><br><br>
