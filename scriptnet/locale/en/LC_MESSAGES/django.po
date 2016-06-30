@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-06-28 15:16+0300\n"
+"POT-Creation-Date: 2016-06-30 10:47+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -39,11 +39,11 @@ msgid ""
 "above)"
 msgstr ""
 
-#: competitions/forms.py:28
+#: competitions/forms.py:28 competitions/forms.py:32
 msgid "Username"
 msgstr ""
 
-#: competitions/forms.py:29
+#: competitions/forms.py:29 competitions/forms.py:33
 msgid "Password"
 msgstr ""
 
@@ -63,43 +63,47 @@ msgstr ""
 msgid "Result file"
 msgstr ""
 
-#: competitions/templates/competitions/competition.html:54
+#: competitions/forms.py:56 competitions/templates/competitions/master.html:85
+msgid "Language"
+msgstr ""
+
+#: competitions/templates/competitions/competition.html:53
 msgid "Competition home"
 msgstr ""
 
-#: competitions/templates/competitions/competition.html:72
+#: competitions/templates/competitions/competition.html:71
 msgid "Organizers"
 msgstr ""
 
-#: competitions/templates/competitions/competition.html:104
+#: competitions/templates/competitions/competition.html:103
 msgid "Track"
 msgstr ""
 
-#: competitions/templates/competitions/competition.html:110
+#: competitions/templates/competitions/competition.html:109
 msgid "Subtrack"
 msgstr ""
 
-#: competitions/templates/competitions/competition.html:112
+#: competitions/templates/competitions/competition.html:111
 msgid "Download data"
 msgstr ""
 
-#: competitions/templates/competitions/competition.html:114
+#: competitions/templates/competitions/competition.html:113
 msgid "Submit method"
 msgstr ""
 
-#: competitions/templates/competitions/competition.html:115
+#: competitions/templates/competitions/competition.html:114
 msgid "View results"
 msgstr ""
 
-#: competitions/templates/competitions/competition.html:131
+#: competitions/templates/competitions/competition.html:130
 msgid "News"
 msgstr ""
 
-#: competitions/templates/competitions/competition.html:136
+#: competitions/templates/competitions/competition.html:135
 msgid "Important Dates"
 msgstr ""
 
-#: competitions/templates/competitions/competition.html:152
+#: competitions/templates/competitions/competition.html:151
 msgid "READ - a Horizon 2020 e-infrastructure project"
 msgstr ""
 
@@ -107,80 +111,173 @@ msgstr ""
 msgid "ScriptNet Document Understanding Competitions"
 msgstr ""
 
-#: competitions/templates/competitions/master.html:55
+#: competitions/templates/competitions/master.html:58
 msgid "Logged in as"
 msgstr ""
 
-#: competitions/templates/competitions/master.html:56
+#: competitions/templates/competitions/master.html:59
 msgid "[Logout]"
 msgstr ""
 
-#: competitions/templates/competitions/master.html:58
+#: competitions/templates/competitions/master.html:61
 msgid "Welcome to"
 msgstr ""
 
-#: competitions/templates/competitions/master.html:65
+#: competitions/templates/competitions/master.html:68
 msgid "About"
 msgstr ""
 
-#: competitions/templates/competitions/master.html:68
+#: competitions/templates/competitions/master.html:71
 msgid "Competitions"
 msgstr ""
 
-#: competitions/templates/competitions/master.html:71
-#: competitions/templates/competitions/master.html:182
+#: competitions/templates/competitions/master.html:74
+#: competitions/templates/competitions/master.html:211
+#: competitions/templates/competitions/master.html:218
 msgid "Register"
 msgstr ""
 
-#: competitions/templates/competitions/master.html:75
-#: competitions/templates/competitions/master.html:209
+#: competitions/templates/competitions/master.html:78
+#: competitions/templates/competitions/master.html:238
 msgid "Login"
 msgstr ""
 
-#: competitions/templates/competitions/master.html:79
+#: competitions/templates/competitions/master.html:82
 msgid "Contact"
 msgstr ""
 
-#: competitions/templates/competitions/master.html:93
+#: competitions/templates/competitions/master.html:122
 msgid "ScriptNet is a platform of competitions running under the READ project"
 msgstr ""
 
-#: competitions/templates/competitions/master.html:94
+#: competitions/templates/competitions/master.html:123
 msgid "Find Out More"
 msgstr ""
 
-#: competitions/templates/competitions/master.html:104
+#: competitions/templates/competitions/master.html:133
 msgid "About ScriptNet"
 msgstr ""
 
-#: competitions/templates/competitions/master.html:139
+#: competitions/templates/competitions/master.html:168
 msgid "Active Document Understanding Competitions"
 msgstr ""
 
-#: competitions/templates/competitions/master.html:167
+#: competitions/templates/competitions/master.html:196
 msgid "*No competitions are currently active*"
 msgstr ""
 
-#: competitions/templates/competitions/master.html:183
+#: competitions/templates/competitions/master.html:212
 msgid "Register to take part in one of the active competitions."
 msgstr ""
 
-#: competitions/templates/competitions/master.html:202
+#: competitions/templates/competitions/master.html:231
 msgid "Sign in"
 msgstr ""
 
-#: competitions/templates/competitions/master.html:203
+#: competitions/templates/competitions/master.html:232
 msgid "Login with your credentials if you have already registered."
 msgstr ""
 
-#: competitions/templates/competitions/master.html:240
+#: competitions/templates/competitions/master.html:269
 msgid "Institute of Informatics and Telecommunications"
 msgstr ""
 
-#: competitions/templates/competitions/master.html:248
+#: competitions/templates/competitions/master.html:277
 msgid "Computational Intelligence Laboratory"
 msgstr ""
 
-#: competitions/templates/competitions/master.html:256
+#: competitions/templates/competitions/master.html:285
 msgid "READ project"
+msgstr ""
+
+#: scriptnet/settings.py:118
+msgid "Bulgarian"
+msgstr ""
+
+#: scriptnet/settings.py:119
+msgid "Croatian"
+msgstr ""
+
+#: scriptnet/settings.py:120
+msgid "Czech"
+msgstr ""
+
+#: scriptnet/settings.py:121
+msgid "Danish"
+msgstr ""
+
+#: scriptnet/settings.py:122
+msgid "Dutch"
+msgstr ""
+
+#: scriptnet/settings.py:123
+msgid "English"
+msgstr ""
+
+#: scriptnet/settings.py:124
+msgid "Estonian"
+msgstr ""
+
+#: scriptnet/settings.py:125
+msgid "Finnish"
+msgstr ""
+
+#: scriptnet/settings.py:126
+msgid "French"
+msgstr ""
+
+#: scriptnet/settings.py:127
+msgid "German"
+msgstr ""
+
+#: scriptnet/settings.py:128
+msgid "Greek"
+msgstr ""
+
+#: scriptnet/settings.py:129
+msgid "Hungarian"
+msgstr ""
+
+#: scriptnet/settings.py:130
+msgid "Irish"
+msgstr ""
+
+#: scriptnet/settings.py:131
+msgid "Italian"
+msgstr ""
+
+#: scriptnet/settings.py:132
+msgid "Latvian"
+msgstr ""
+
+#: scriptnet/settings.py:133
+msgid "Lithuanian"
+msgstr ""
+
+#: scriptnet/settings.py:134
+msgid "Polish"
+msgstr ""
+
+#: scriptnet/settings.py:135
+msgid "Portuguese"
+msgstr ""
+
+#: scriptnet/settings.py:136
+msgid "Romanian"
+msgstr ""
+
+#: scriptnet/settings.py:137
+msgid "Slovak"
+msgstr ""
+
+#: scriptnet/settings.py:138
+msgid "Slovenian"
+msgstr ""
+
+#: scriptnet/settings.py:139
+msgid "Spanish"
+msgstr ""
+
+#: scriptnet/settings.py:140
+msgid "Swedish"
 msgstr ""

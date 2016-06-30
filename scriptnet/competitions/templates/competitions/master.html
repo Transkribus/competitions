@@ -82,7 +82,7 @@
                         <a class="page-scroll" href="#contact">{% trans "Contact" %}</a>
                     </li>
 				<li>
-				 <a class="dropdown-toggle" data-toggle="dropdown" href="#myTools" style="display:inline-block;padding-left:0px;">&nbsp;&nbsp;&nbsp;&nbsp;Language
+				 <a class="dropdown-toggle" data-toggle="dropdown" href="#myTools" style="display:inline-block;padding-left:0px;">&nbsp;&nbsp;&nbsp;&nbsp;{% trans "Language" %}
 				 <b class="caret"></b>
                   </a>
 				<ul class="dropdown-menu">
@@ -215,7 +215,7 @@ Nam qualitates corporum non nisi per experimenta innotescunt, ideoque generales 
 		                {% csrf_token %}
 		                {% bootstrap_form register_form %}
                         {% buttons %}
-		                <button class="btn btn-default" type="submit" name="register">Register</button>
+		                <button class="btn btn-default" type="submit" name="register">{% trans "Register" %}</button>
                         {% endbuttons %}
 		            </form>
                 </div>

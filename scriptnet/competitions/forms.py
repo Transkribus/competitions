@@ -29,8 +29,8 @@ class RegisterForm(forms.Form):
     password = forms.CharField(widget=forms.PasswordInput(), label=_('Password'), max_length=100)
 
 class LoginForm(forms.Form):
-    username = forms.CharField(label='Username', max_length=100)
-    password = forms.CharField(widget=forms.PasswordInput(), label='Password', max_length=100)
+    username = forms.CharField(label=_('Username'), max_length=100)
+    password = forms.CharField(widget=forms.PasswordInput(), label=_('Password'), max_length=100)
 
 class SubmitForm(forms.Form):
     def __init__(self, user, *args, **kwargs):
