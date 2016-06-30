@@ -11,7 +11,10 @@ https://docs.djangoproject.com/en/1.9/ref/settings/
 """
 
 import os
+from django.utils.translation import ugettext_lazy as _
 from django.contrib.messages import constants as message_constants
+
+
 # Message tags
 MESSAGE_TAGS = {
     message_constants.ERROR: 'danger',
@@ -121,7 +124,6 @@ LOCALE_PATHS = [
 ]
 
 LANGUAGE_CODE = 'en'
-from django.utils.translation import ugettext_lazy as _
 LANGUAGES = [
 	('bg', _('Bulgarian')),
 	('hr', _('Croatian')),
@@ -149,7 +151,7 @@ LANGUAGES = [
 
 ];
 
-TIME_ZONE = 'UTC'
+TIME_ZONE = 'Europe/Athens'
 
 USE_I18N = True
 
