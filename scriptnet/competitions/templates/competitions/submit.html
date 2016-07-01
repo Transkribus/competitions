@@ -9,7 +9,7 @@
     </div>
     {% endfor %}
 {% else %}
-<h3>New submission to the [{{ track.id }}.{{ subtrack.id }}]{{ track.name }}/{{ subtrack.name }} track</h3>
+<h3>New submission to the [{{ track.percomp_uniqueid }}.{{ subtrack.pertrack_uniqueid }}]{{ track.name }}/{{ subtrack.name }} track</h3>
 {% endif %}
 {% if user.is_authenticated %}
 <form enctype="multipart/form-data" action="" method="post" role="form">

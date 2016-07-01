@@ -8,7 +8,7 @@
 {% endblock %}
 
 {% block content %}
-<h3>Scoreboard for the [{{ track.id }}.{{ subtrack.id }}]{{ track.name }}/{{ subtrack.name }} track</h3>
+<h3>Scoreboard for the [{{ track.percomp_uniqueid }}.{{ subtrack.pertrack_uniqueid }}]{{ track.name }}/{{ subtrack.name }} track</h3>
 {% if messages %}
     {% for message in messages %}
     <div class="alert alert-{{ message.tags }}">

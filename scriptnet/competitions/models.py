@@ -72,6 +72,7 @@ def privatedata_path(instance, filename):
 	return 'databases/{}/{}'.format(uuid4().hex, filename)
 
 class Subtrack(models.Model):
+	pertrack_uniqueid = models.IntegerField(default="1", blank=False)	
 	name = models.CharField(max_length = 50)
 	track = models.ForeignKey(Track, on_delete = models.CASCADE)
 	#This will normally be training+validation folds, visible to any registered user
@@ -85,6 +86,14 @@ class Subtrack(models.Model):
 	private_data_securehash = models.CharField(max_length=100, null=True, blank=True, default="")
 	def __str__(self):
 		return '({}) {}, part of {} / {}'.format(self.id, self.name, self.track.competition.name, self.track.name)
+	def clean(self):
+		conflict_list = self.track.subtrack_set.filter(pertrack_uniqueid=self.pertrack_uniqueid)
+		for memb in conflict_list:
+			if self.id != memb.id:
+				raise ValidationError(
+            	_('%(value)s is not a unique subtrack id for this track'),
+            	params={'value': self.pertrack_uniqueid},
+        	)		
 	def save(self, *args, **kwargs):
 		#Call super_save once to save the file
 		super(Subtrack, self).save(*args, **kwargs)

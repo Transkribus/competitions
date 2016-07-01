@@ -15,6 +15,26 @@ from . import evaluators
 
 import threading
 
+def get_objects_given_uniqueIDs(competition_id, track_id, subtrack_id):
+    """
+    This function is not a view, but a helper function that converts 
+    unique-per-competition or unique-per-track ids into django objects.
+    Also returns a context dictionary to pass directly to a template. 
+    """
+    competition = get_object_or_404(Competition, pk=competition_id)
+    track = None #init
+    subtrack = None #init
+    if track_id is not None:        
+        track = get_object_or_404(competition.track_set, percomp_uniqueid=track_id)
+    if subtrack_id is not None:        
+        subtrack = get_object_or_404(track.subtrack_set, pertrack_uniqueid=subtrack_id)
+    context = {
+        'competition': competition,
+        'track': track,
+        'subtrack': subtrack 
+    }                        
+    return competition, track, subtrack, context
+
 def index(request):
     login_form = LoginForm()
     register_form = RegisterForm()
@@ -79,33 +99,11 @@ def signout(request):
     return HttpResponseRedirect('/competitions/')
 
 def competition(request, competition_id, track_id, subtrack_id):
-    competition = get_object_or_404(Competition, pk=competition_id)
-    track = None #init
-    subtrack = None #init
-    if track_id is not None:        
-        track = get_object_or_404(competition.track_set, pk=track_id)
-    if subtrack_id is not None:        
-        subtrack = get_object_or_404(track.subtrack_set, pk=subtrack_id)
-    context = {
-        'competition': competition,
-        'track': track,
-        'subtrack': subtrack
-    }
+    competition, track, subtrack, context = get_objects_given_uniqueIDs(competition_id, track_id, subtrack_id)
     return render(request, 'competitions/competition.html', context)
 
 def submit(request, competition_id, track_id, subtrack_id):
-    competition = get_object_or_404(Competition, pk=competition_id)
-    track = None #init
-    subtrack = None #init
-    if track_id is not None:        
-        track = get_object_or_404(competition.track_set, pk=track_id)
-    if subtrack_id is not None:        
-        subtrack = get_object_or_404(track.subtrack_set, pk=subtrack_id)
-    context = {
-        'competition': competition,
-        'track': track,
-        'subtrack': subtrack 
-    }                
+    competition, track, subtrack, context = get_objects_given_uniqueIDs(competition_id, track_id, subtrack_id)
     submit_form = SubmitForm(request.user)
     if request.method == 'POST':
         if not request.user.is_authenticated():
@@ -145,20 +143,8 @@ def submit(request, competition_id, track_id, subtrack_id):
             return HttpResponseRedirect(reverse('viewresults', args=(competition_id, track_id, subtrack_id,)))
     context['submit_form'] = submit_form
     return render(request, 'competitions/submit.html', context)
-
+    
 def viewresults(request, competition_id, track_id, subtrack_id):
-    #TODO: DRY ?
-    competition = get_object_or_404(Competition, pk=competition_id)
-    track = None #init
-    subtrack = None #init
-    if track_id is not None:        
-        track = get_object_or_404(competition.track_set, pk=track_id)
-    if subtrack_id is not None:        
-        subtrack = get_object_or_404(track.subtrack_set, pk=subtrack_id)
-    context = {
-        'competition': competition,
-        'track': track,
-        'subtrack': subtrack
-    }
+    competition, track, subtrack, context = get_objects_given_uniqueIDs(competition_id, track_id, subtrack_id)
     context['table'] = SubmissionTable(subtrack.submission_set.all())
     return render(request, 'competitions/viewresults.html', context)
