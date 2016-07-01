@@ -32,6 +32,7 @@ echo "deb http://download.mono-project.com/repo/debian wheezy main" | sudo tee /
 sudo apt-get update
 sudo apt-get install mono-complete
 ```
+Follow the instructions in [Mono] to install the library in other platforms.
 
 ### Running
 
