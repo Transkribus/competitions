@@ -3,6 +3,9 @@ from django.db import models
 from django.contrib.auth.models import User
 from django.dispatch import receiver
 from django.db.models.signals import post_save, post_delete
+from django.core.exceptions import ValidationError
+from django.utils.translation import ugettext_lazy as _
+
 from uuid import uuid4
 from time import strftime
 from shutil import rmtree, move
@@ -47,11 +50,20 @@ class Competition(models.Model):
 		return '({}) {}'.format(self.id, self.name)
 
 class Track(models.Model):
+	percomp_uniqueid = models.IntegerField(default="1", blank=False) 
 	name = models.CharField(max_length = 50)
 	overview = models.TextField(editable=True, default="")
 	competition = models.ForeignKey(Competition, on_delete = models.CASCADE)
 	def __str__(self):
 		return '({}) {}, part of {}'.format(self.id, self.name, self.competition.name)
+	def clean(self):
+		conflict_list = self.competition.track_set.filter(percomp_uniqueid=self.percomp_uniqueid)
+		for memb in conflict_list:
+			if self.id != memb.id:
+				raise ValidationError(
+            	_('%(value)s is not a unique track id for this competition'),
+            	params={'value': self.percomp_uniqueid},
+        	)
 
 def publicdata_path(instance, filename):
 	return 'databases/{}/{}'.format(uuid4().hex, filename)
