@@ -1,4 +1,6 @@
 scriptnet/competitions/static/ linguist-vendored
+executables/ linguist-vendored
 *.css linguist-vendored=true
 *.less linguist-vendored=true
 *.scss linguist-vendored=true
+*.xml linguist-vendored=true

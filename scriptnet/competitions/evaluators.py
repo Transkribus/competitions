@@ -3,8 +3,10 @@
 # Except: evaluator_worker . This is used as the thread that wraps calls 
 # to evaluator_function in views.py .
 
+from django.conf import settings
 from random import random
 from time import sleep
+from os import system
 
 def evaluator_worker(evaluator_function, submission_status):                
     if not evaluator_function:
@@ -32,3 +34,13 @@ def random_integer_slow():
 def random_scalar():
     print('random_scalar has been called!')
     return random()
+
+def icfhr14tool_check():
+    executable_folder = '{}/competitions/executables/VCGEvalConsole.linux'.format(settings.BASE_DIR)
+    executable = '{}/VCGEvalConsole.sh'.format(executable_folder)
+    dummy_results = '{}/WordSpottingResultsSample.xml'.format(executable_folder)
+    dummy_privatedata = '{}/GroundTruthRelevanceJudgementsSample.xml'.format(executable_folder)
+    commandline = '{} {} {}'.format(executable, dummy_privatedata, dummy_results)
+    system(commandline)
+    result = 0.0
+    return result
