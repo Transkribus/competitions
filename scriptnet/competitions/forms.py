@@ -11,7 +11,7 @@ class RegisterForm(forms.Form):
     for af in Affiliation.objects.all():
         possible_affiliations.append((af.id, af.name))
     possible_affiliations.append((NEW_AFFILIATION_ID, 'Other'))
-    
+
     first_name = forms.CharField(label=_('Given name'), max_length=100)
     last_name = forms.CharField(label=_('Family name'), max_length=100)
     email = forms.EmailField(label=_('Email'), max_length=100)
