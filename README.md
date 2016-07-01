@@ -11,6 +11,16 @@ sudo apt-get install python3-pip python3-dev build-essential
 sudo pip3 install django django-bootstrap3 django_tables2
 ```
 
+#### Requirements of optional components
+
+The benchmarks related the ICFHR'14 KWS competition require the [Mono] library to run. In Ubuntu, install it with
+```sh
+sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 3FA7E0328081BFF6A14DA29AA6A19B38D3D831EF
+echo "deb http://download.mono-project.com/repo/debian wheezy main" | sudo tee /etc/apt/sources.list.d/mono-xamarin.list
+sudo apt-get update
+sudo apt-get install mono-complete
+```
+
 ### Running
 
 Start the development server:
@@ -64,3 +74,4 @@ Then (once the translations have been made in the .po files) the phrases must be
 [Django]: <https://www.djangoproject.com/>
 [Django-Bootstrap3]: <http://github.com/dyve/django-bootstrap3>
 [Django-Tables2]: <http://github.com/bradleyayers/django-tables2>
+[Mono]: <http://www.mono-project.com/>
