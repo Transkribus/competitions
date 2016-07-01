@@ -15,6 +15,8 @@ from . import evaluators
 
 import threading
 
+#TODO: Replace all hard-coded URLs with calls to 'reverse'
+
 def get_objects_given_uniqueIDs(competition_id, track_id, subtrack_id):
     """
     This function is not a view, but a helper function that converts 
