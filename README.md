@@ -18,15 +18,48 @@ Start the development server:
 python manage.py runserver
 ```
 
+### Internationalisation
+
+#### Code
+* templates need to ```{% load i18n %}```
+* then anything in ```{% trans "some phrase" %}``` will be translated if a translation is available
+* .py files need to ```from django.utils.translation import ugettext_lazy as _```
+* then anything in _("some phrase") will be translated if a translation is available
+
+#### Translate
+To make translations available:
+* find the appropriate .po file ```locale/[lang_code]/LC_MESSAGES/django.po```
+* In this file you will see msgid's that correspond to the phrases in ```{% trans "..." %}``` or ```_("...")```
+* Simply fill in the msgstr with the correct translation eg:
+```
+#: library/forms.py:7
+msgid "Given Name"
+msgstr ""
+```
+* commit the changes to the .po files
+
+#### Adding new phrases
+
+If you have added a new phrase to a template or .py file there are a couple of things to do on the host afterwards. First the new phrases need to be added to the .po files. This is done with the following command:
+
+* ```django-admin makemessages -l [lang_code] (or -a for all languages)```
+
+Then (once the translations have been made in the .po files) the phrases must be be recompiled with:
+
+* ```django-admin compilemessages```
+
+
 ### Links
 
 * [Competitions] READ discussion about competitions
 * [Minutes] READ Minutes of the Valencia 2016 meeting regarding the competitions site
+* [WebInterfaces] READ WebInterfaces Working group minutes
 * [READ]
 * [Django]
 
 [Competitions]: <https://read02.uibk.ac.at/wiki/index.php/Competitions>
 [Minutes]: <https://read02.uibk.ac.at/wiki/index.php/Technical_Meetings:Valencia_Meeting_Minutes#Competitions_site>
+[WebInterfaces]: <https://read02.uibk.ac.at/wiki/index.php/Technical_Meetings:WebinterfacesWG>
 [READ]: <http://read.transkribus.eu>
 [Django]: <https://www.djangoproject.com/>
 [Django-Bootstrap3]: <http://github.com/dyve/django-bootstrap3>
