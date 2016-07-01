@@ -20,11 +20,12 @@ class RegisterForm(forms.Form):
     affiliations = forms.ChoiceField(
         required=False,
         widget=forms.Select,
-        choices=possible_affiliations
+        choices=possible_affiliations,
+        label=_('Affiliation name')
     )
     #TODO: Make this appear under conditions
     # Use the solution from http://codeinthehole.com/writing/conditional-logic-in-django-forms/ to do this?    
-    new_affiliation = forms.CharField(required = False, label=_('Affiliation name (optional; specify if your affiliation does not show up above)'), max_length=100)
+    new_affiliation = forms.CharField(required = False, label=_('Affiliation name (specify here if your affiliation does not appear above)'), max_length=100)
     username = forms.CharField(label=_('Username'), max_length=100)
     password = forms.CharField(widget=forms.PasswordInput(), label=_('Password'), max_length=100)
 
@@ -43,7 +44,8 @@ class SubmitForm(forms.Form):
                 "{} {} ({})".format(coauth.user.first_name, coauth.user.last_name, coauth.user.username)))
         self.fields['cosubmitters'] = forms.MultipleChoiceField(
             required=False,
-            choices=possible_coauthors
+            choices=possible_coauthors,
+            label=_('Cosubmitters')
         )        
         
     possible_coauthors = []        
