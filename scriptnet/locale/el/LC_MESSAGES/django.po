@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-07-01 12:35+0300\n"
+"POT-Creation-Date: 2016-07-02 01:19+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -20,265 +20,358 @@ msgstr ""
 
 #: competitions/forms.py:15
 msgid "Given name"
-msgstr ""
+msgstr "Όνομα"
 
 #: competitions/forms.py:16
 msgid "Family name"
-msgstr ""
+msgstr "Επώνυμο"
 
 #: competitions/forms.py:17
 msgid "Email"
-msgstr ""
+msgstr "Ηλεκτρονική διεύθυνση"
 
 #: competitions/forms.py:18
 msgid "Short biography (optional)"
-msgstr ""
+msgstr "Σύντομο βιογραφικό (προαιρετικό)"
 
-#: competitions/forms.py:27
+#: competitions/forms.py:24
+msgid "Affiliation name"
+msgstr "Φορέας υπαγωγής"
+
+#: competitions/forms.py:28
 msgid ""
-"Affiliation name (optional; specify if your affiliation does not show up "
-"above)"
+"Affiliation name (specify here if your affiliation does not appear above)"
 msgstr ""
-
-#: competitions/forms.py:28 competitions/forms.py:32
-msgid "Username"
-msgstr ""
+"Φορέας υπαγωγής (διευκρινίστε ολογράφως εάν ο φορέας σας δεν εμφανίζεται "
+"στην προηγούμενη λίστα)"
 
 #: competitions/forms.py:29 competitions/forms.py:33
+msgid "Username"
+msgstr "Όνομα χρήστη"
+
+#: competitions/forms.py:30 competitions/forms.py:34
 msgid "Password"
-msgstr ""
+msgstr "Συνθηματικό"
 
-#: competitions/forms.py:50
-msgid "A short identifier for the method"
-msgstr ""
-
-#: competitions/forms.py:51
-msgid "A short description of the method"
-msgstr ""
+#: competitions/forms.py:48
+msgid "Cosubmitters"
+msgstr "Συνυποβάλλοντες"
 
 #: competitions/forms.py:52
-msgid "Show results for this method for everyone"
-msgstr ""
+msgid "A short identifier for the method"
+msgstr "Ένα σύντομο αναγνωριστικό για τη μέθοδο"
 
 #: competitions/forms.py:53
+msgid "A short description of the method"
+msgstr "Μια σύντομη περιγραφή για τη μέθοδο"
+
+#: competitions/forms.py:54
+msgid "Show results for this method for everyone"
+msgstr "Επιθυμώ τα αποτελέσματα της μεθόδου να δημοσιευθούν και να είναι ορατά από όλους"
+
+#: competitions/forms.py:55
 msgid "Result file"
-msgstr ""
+msgstr "Αρχείο αποτελεσμάτων"
 
-#: competitions/forms.py:56 competitions/templates/competitions/master.html:85
+#: competitions/forms.py:58 competitions/templates/competitions/master.html:85
 msgid "Language"
-msgstr ""
+msgstr "Γλώσσα"
 
-#: competitions/templates/competitions/competition.html:53
+#: competitions/models.py:64
+#, python-format
+msgid "%(value)s is not a unique track id for this competition"
+msgstr "Το %(value)s δεν είναι μοναδικό track id για αυτό το competition"
+
+#: competitions/models.py:94
+#, python-format
+msgid "%(value)s is not a unique subtrack id for this track"
+msgstr "Το %(value)s δεν είναι μοναδικό subtrack id για αυτό το track"
+
+#: competitions/templates/competitions/competition.html:50
+#: competitions/templates/competitions/master.html:58
+msgid "Logged in as"
+msgstr "Συνδεθήκατε ως"
+
+#: competitions/templates/competitions/competition.html:61
 msgid "Competition home"
-msgstr ""
+msgstr "Διαγωνισμός"
 
-#: competitions/templates/competitions/competition.html:71
-msgid "Organizers"
-msgstr ""
-
-#: competitions/templates/competitions/competition.html:103
+#: competitions/templates/competitions/competition.html:65
+#: competitions/templates/competitions/competition.html:112
 msgid "Track"
-msgstr ""
+msgstr "Ζητούμενο"
 
-#: competitions/templates/competitions/competition.html:109
-msgid "Subtrack"
-msgstr ""
-
-#: competitions/templates/competitions/competition.html:111
-msgid "Download data"
-msgstr ""
-
-#: competitions/templates/competitions/competition.html:113
-msgid "Submit method"
-msgstr ""
-
-#: competitions/templates/competitions/competition.html:114
-msgid "View results"
-msgstr ""
-
-#: competitions/templates/competitions/competition.html:130
-msgid "News"
-msgstr ""
-
+#: competitions/templates/competitions/competition.html:72
+#: competitions/templates/competitions/competition.html:116
 #: competitions/templates/competitions/competition.html:135
-msgid "Important Dates"
-msgstr ""
+msgid "Subtrack"
+msgstr "Υποζητούμενο"
 
-#: competitions/templates/competitions/competition.html:151
+#: competitions/templates/competitions/competition.html:79
+#: competitions/templates/competitions/competition.html:178
+msgid "Organizers"
+msgstr "Διοργανωτές"
+
+#: competitions/templates/competitions/competition.html:119
+#: competitions/templates/competitions/competition.html:121
+msgid "Download training set"
+msgstr "Μεταφόρτωση δημόσιων δεδομένων εκπαίδευσης"
+
+#: competitions/templates/competitions/competition.html:124
+#: competitions/templates/competitions/competition.html:126
+msgid "Submit a new method for evaluation"
+msgstr "Υποβολή νέας μεθόδου για αποτίμηση"
+
+#: competitions/templates/competitions/competition.html:126
+msgid "you have to"
+msgstr "πρέπει να"
+
+#: competitions/templates/competitions/competition.html:126
+#: competitions/templates/competitions/submit.html:25
+msgid "login </a> first"
+msgstr "συνδεθείτε </a> πρώτα"
+
+#: competitions/templates/competitions/competition.html:128
+msgid "View results for all available methods"
+msgstr "Επισκόπηση αποτελεσμάτων για όλες τις διαθέσιμες μεθόδους"
+
+#: competitions/templates/competitions/competition.html:132
+msgid "Please choose one of the available subtracks"
+msgstr "Παρακαλώ επιλέξτε κάποιο από τα διαθέσιμα υποζητούμενα"
+
+#: competitions/templates/competitions/competition.html:141
+msgid "There are no available subtracks for the current track"
+msgstr "Δεν υπάρχει κανένα διαθέσιμο υποζητούμενο για το τρέχον ζητούμενο"
+
+#: competitions/templates/competitions/competition.html:153
+msgid "News"
+msgstr "Νέα"
+
+#: competitions/templates/competitions/competition.html:158
+msgid "Important Dates"
+msgstr "Σημαντικές ημερομηνίες"
+
+#: competitions/templates/competitions/competition.html:215
 msgid "READ - a Horizon 2020 e-infrastructure project"
-msgstr ""
+msgstr "READ - έργο e-υποδομής Horizon 2020"
 
 #: competitions/templates/competitions/master.html:16
 msgid "ScriptNet Document Understanding Competitions"
-msgstr ""
-
-#: competitions/templates/competitions/master.html:58
-msgid "Logged in as"
-msgstr ""
+msgstr "ScriptNet - Διαγωνισμοί κατανόησης εγγράφων"
 
 #: competitions/templates/competitions/master.html:59
 msgid "[Logout]"
-msgstr ""
+msgstr "[Αποσύνδεση]"
 
 #: competitions/templates/competitions/master.html:61
 msgid "Welcome to"
-msgstr ""
+msgstr "Καλωσήρθατε στο"
 
 #: competitions/templates/competitions/master.html:68
 msgid "About"
-msgstr ""
+msgstr "Σχετικά με"
 
 #: competitions/templates/competitions/master.html:71
 msgid "Competitions"
-msgstr ""
+msgstr "Διαγωνισμοί"
 
 #: competitions/templates/competitions/master.html:74
 #: competitions/templates/competitions/master.html:211
-#: competitions/templates/competitions/master.html:218
+#: competitions/templates/competitions/master.html:225
 msgid "Register"
-msgstr ""
+msgstr "Εγγραφή"
 
 #: competitions/templates/competitions/master.html:78
-#: competitions/templates/competitions/master.html:238
+#: competitions/templates/competitions/master.html:245
 msgid "Login"
-msgstr ""
+msgstr "Σύνδεση"
 
 #: competitions/templates/competitions/master.html:82
+#: competitions/templates/competitions/master.html:261
 msgid "Contact"
-msgstr ""
+msgstr "Επικοινωνία"
 
 #: competitions/templates/competitions/master.html:122
 msgid "ScriptNet is a platform of competitions running under the READ project"
 msgstr ""
+"Το ScriptNet είναι μία πλατφόρμα διαγωνισμών στο πλαίσιο του έργου READ"
 
 #: competitions/templates/competitions/master.html:123
 msgid "Find Out More"
-msgstr ""
+msgstr "Μάθετε περισσότερα"
 
 #: competitions/templates/competitions/master.html:133
 msgid "About ScriptNet"
-msgstr ""
+msgstr "Σχετικά με το ScriptNet"
 
 #: competitions/templates/competitions/master.html:168
 msgid "Active Document Understanding Competitions"
-msgstr ""
+msgstr "Ενεργοί Διαγωνισμοί Κατανόησης Εγγράφων"
 
 #: competitions/templates/competitions/master.html:196
 msgid "*No competitions are currently active*"
-msgstr ""
+msgstr "*Κανείς διαγωνισμός δεν είναι ενεργός*"
 
 #: competitions/templates/competitions/master.html:212
 msgid "Register to take part in one of the active competitions."
-msgstr ""
+msgstr "Εγγραφείτε για να πάρετε μέρος στον διαγωνισμό που επιθυμείτε"
 
-#: competitions/templates/competitions/master.html:231
+#: competitions/templates/competitions/master.html:238
 msgid "Sign in"
-msgstr ""
+msgstr "Σύνδεση"
 
-#: competitions/templates/competitions/master.html:232
+#: competitions/templates/competitions/master.html:239
 msgid "Login with your credentials if you have already registered."
 msgstr ""
+"Χρησιμοποιείστε τα στοιχεία σας για να συνδεθείτε εάν έχετε ήδη εγγραφεί."
 
-#: competitions/templates/competitions/master.html:269
+#: competitions/templates/competitions/master.html:268
+msgid "NCSR 'Demokritos'"
+msgstr "ΕΚΕΦΕ 'Δημόκριτος'"
+
+#: competitions/templates/competitions/master.html:276
 msgid "Institute of Informatics and Telecommunications"
-msgstr ""
+msgstr "Ινστιτούτο Πληροφορικής και Τηλεπικοινωνιών (ΙΠΤ)"
 
-#: competitions/templates/competitions/master.html:277
+#: competitions/templates/competitions/master.html:284
 msgid "Computational Intelligence Laboratory"
-msgstr ""
+msgstr "Εργαστήριο Υπολογιστικής Νοημοσύνης (CIL)"
 
-#: competitions/templates/competitions/master.html:285
+#: competitions/templates/competitions/master.html:292
 msgid "READ project"
-msgstr ""
+msgstr "Έργο READ"
 
-#: scriptnet/settings.py:118
+#: competitions/templates/competitions/submit.html:14
+msgid "New submission to the"
+msgstr "Νέα υποβολή στο"
+
+#: competitions/templates/competitions/submit.html:14
+#: competitions/templates/competitions/viewresults.html:12
+#, fuzzy
+#| msgid "Track"
+msgid "track"
+msgstr "Ζητούμενο"
+
+#: competitions/templates/competitions/submit.html:21
+msgid "Submit method results"
+msgstr "Υποβολή μεθόδου"
+
+#: competitions/templates/competitions/submit.html:25
+#, fuzzy
+#| msgid "you have to"
+msgid "You have to"
+msgstr "πρέπει να"
+
+#: competitions/templates/competitions/viewresults.html:12
+msgid "Scoreboard for the"
+msgstr "Πίνακας αποτελεσμάτων για το"
+
+#: competitions/templates/competitions/viewresults.html:24
+msgid ""
+"There are no submissions and no assigned benchmarks for this subtrack yet"
+msgstr ""
+"Δεν υπάρχει ακόμα καμμία υποβολή και κανένα μέτρο αποτίμησης για αυτό το "
+"υποζητούμενο"
+
+#: scriptnet/settings.py:128
 msgid "Bulgarian"
 msgstr ""
 
-#: scriptnet/settings.py:119
+#: scriptnet/settings.py:129
 msgid "Croatian"
 msgstr ""
 
-#: scriptnet/settings.py:120
+#: scriptnet/settings.py:130
 msgid "Czech"
 msgstr ""
 
-#: scriptnet/settings.py:121
+#: scriptnet/settings.py:131
 msgid "Danish"
 msgstr ""
 
-#: scriptnet/settings.py:122
+#: scriptnet/settings.py:132
 msgid "Dutch"
 msgstr ""
 
-#: scriptnet/settings.py:123
+#: scriptnet/settings.py:133
 msgid "English"
 msgstr ""
 
-#: scriptnet/settings.py:124
+#: scriptnet/settings.py:134
 msgid "Estonian"
 msgstr ""
 
-#: scriptnet/settings.py:125
+#: scriptnet/settings.py:135
 msgid "Finnish"
 msgstr ""
 
-#: scriptnet/settings.py:126
+#: scriptnet/settings.py:136
 msgid "French"
 msgstr ""
 
-#: scriptnet/settings.py:127
+#: scriptnet/settings.py:137
 msgid "German"
 msgstr ""
 
-#: scriptnet/settings.py:128
+#: scriptnet/settings.py:138
 msgid "Greek"
 msgstr ""
 
-#: scriptnet/settings.py:129
+#: scriptnet/settings.py:139
 msgid "Hungarian"
 msgstr ""
 
-#: scriptnet/settings.py:130
+#: scriptnet/settings.py:140
 msgid "Irish"
 msgstr ""
 
-#: scriptnet/settings.py:131
+#: scriptnet/settings.py:141
 msgid "Italian"
 msgstr ""
 
-#: scriptnet/settings.py:132
+#: scriptnet/settings.py:142
 msgid "Latvian"
 msgstr ""
 
-#: scriptnet/settings.py:133
+#: scriptnet/settings.py:143
 msgid "Lithuanian"
 msgstr ""
 
-#: scriptnet/settings.py:134
+#: scriptnet/settings.py:144
 msgid "Polish"
 msgstr ""
 
-#: scriptnet/settings.py:135
+#: scriptnet/settings.py:145
 msgid "Portuguese"
 msgstr ""
 
-#: scriptnet/settings.py:136
+#: scriptnet/settings.py:146
 msgid "Romanian"
 msgstr ""
 
-#: scriptnet/settings.py:137
+#: scriptnet/settings.py:147
 msgid "Slovak"
 msgstr ""
 
-#: scriptnet/settings.py:138
+#: scriptnet/settings.py:148
 msgid "Slovenian"
 msgstr ""
 
-#: scriptnet/settings.py:139
+#: scriptnet/settings.py:149
 msgid "Spanish"
 msgstr ""
 
-#: scriptnet/settings.py:140
+#: scriptnet/settings.py:150
 msgid "Swedish"
 msgstr ""
+
+#, fuzzy
+#~| msgid "Login"
+#~ msgid "login"
+#~ msgstr "συνδεθείτε"
+
+#~ msgid "first"
+#~ msgstr "πρώτα"
+
+#~ msgid "View results"
+#~ msgstr "Επισκόπηση αποτελεσμάτων"

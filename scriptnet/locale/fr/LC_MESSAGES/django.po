@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-06-30 10:47+0300\n"
+"POT-Creation-Date: 2016-07-02 01:19+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -34,87 +34,134 @@ msgstr "Mail"
 msgid "Short biography (optional)"
 msgstr "Courte Biographie (option)"
 
-#: competitions/forms.py:27
+#: competitions/forms.py:24
+msgid "Affiliation name"
+msgstr ""
+
+#: competitions/forms.py:28
+#, fuzzy
+#| msgid ""
+#| "Affiliation name (optional; specify if your affiliation does not show up "
+#| "above)"
 msgid ""
-"Affiliation name (optional; specify if your affiliation does not show up "
-"above)"
+"Affiliation name (specify here if your affiliation does not appear above)"
 msgstr "Nom d'affiliation"
 
-#: competitions/forms.py:28 competitions/forms.py:32
+#: competitions/forms.py:29 competitions/forms.py:33
 msgid "Username"
 msgstr "Nom d'utilisateur"
 
-#: competitions/forms.py:29 competitions/forms.py:33
+#: competitions/forms.py:30 competitions/forms.py:34
 msgid "Password"
 msgstr "Mot de passe"
 
-#: competitions/forms.py:50
+#: competitions/forms.py:48
+msgid "Cosubmitters"
+msgstr ""
+
+#: competitions/forms.py:52
 msgid "A short identifier for the method"
 msgstr "Un court identifiant pour la methode"
 
-#: competitions/forms.py:51
+#: competitions/forms.py:53
 msgid "A short description of the method"
 msgstr "Une courte description de la methode"
 
-#: competitions/forms.py:52
+#: competitions/forms.py:54
 msgid "Show results for this method for everyone"
 msgstr "Afficher les resultats de cette methode pour tout le monde"
 
-#: competitions/forms.py:53
+#: competitions/forms.py:55
 msgid "Result file"
 msgstr "Fichier de resultat"
 
-#: competitions/forms.py:56 competitions/templates/competitions/master.html:85
+#: competitions/forms.py:58 competitions/templates/competitions/master.html:85
 msgid "Language"
 msgstr "Langue"
 
-#: competitions/templates/competitions/competition.html:53
+#: competitions/models.py:64
+#, python-format
+msgid "%(value)s is not a unique track id for this competition"
+msgstr ""
+
+#: competitions/models.py:94
+#, python-format
+msgid "%(value)s is not a unique subtrack id for this track"
+msgstr ""
+
+#: competitions/templates/competitions/competition.html:50
+#: competitions/templates/competitions/master.html:58
+msgid "Logged in as"
+msgstr "Connecte en tant que"
+
+#: competitions/templates/competitions/competition.html:61
 msgid "Competition home"
 msgstr "Accueil Competition"
 
-#: competitions/templates/competitions/competition.html:71
-msgid "Organizers"
-msgstr "Organisateurs"
-
-#: competitions/templates/competitions/competition.html:103
+#: competitions/templates/competitions/competition.html:65
+#: competitions/templates/competitions/competition.html:112
 msgid "Track"
 msgstr "Piste"
 
-#: competitions/templates/competitions/competition.html:109
+#: competitions/templates/competitions/competition.html:72
+#: competitions/templates/competitions/competition.html:116
+#: competitions/templates/competitions/competition.html:135
 msgid "Subtrack"
 msgstr "Sous-piste"
 
-#: competitions/templates/competitions/competition.html:111
-msgid "Download data"
+#: competitions/templates/competitions/competition.html:79
+#: competitions/templates/competitions/competition.html:178
+msgid "Organizers"
+msgstr "Organisateurs"
+
+#: competitions/templates/competitions/competition.html:119
+#: competitions/templates/competitions/competition.html:121
+#, fuzzy
+#| msgid "Download data"
+msgid "Download training set"
 msgstr "Telechargement des donnees"
 
-#: competitions/templates/competitions/competition.html:113
-msgid "Submit method"
-msgstr "Soumettre la methode"
+#: competitions/templates/competitions/competition.html:124
+#: competitions/templates/competitions/competition.html:126
+msgid "Submit a new method for evaluation"
+msgstr ""
 
-#: competitions/templates/competitions/competition.html:114
-msgid "View results"
-msgstr "Voir les resultats"
+#: competitions/templates/competitions/competition.html:126
+msgid "you have to"
+msgstr ""
 
-#: competitions/templates/competitions/competition.html:130
+#: competitions/templates/competitions/competition.html:126
+#: competitions/templates/competitions/submit.html:25
+msgid "login </a> first"
+msgstr ""
+
+#: competitions/templates/competitions/competition.html:128
+msgid "View results for all available methods"
+msgstr ""
+
+#: competitions/templates/competitions/competition.html:132
+msgid "Please choose one of the available subtracks"
+msgstr ""
+
+#: competitions/templates/competitions/competition.html:141
+msgid "There are no available subtracks for the current track"
+msgstr ""
+
+#: competitions/templates/competitions/competition.html:153
 msgid "News"
 msgstr "Nouvelles"
 
-#: competitions/templates/competitions/competition.html:135
+#: competitions/templates/competitions/competition.html:158
 msgid "Important Dates"
 msgstr "Dates Importantes"
 
-#: competitions/templates/competitions/competition.html:151
+#: competitions/templates/competitions/competition.html:215
 msgid "READ - a Horizon 2020 e-infrastructure project"
 msgstr "READ - Un projet de e-infrastucture pour l'horizon 2020"
 
 #: competitions/templates/competitions/master.html:16
 msgid "ScriptNet Document Understanding Competitions"
 msgstr "ScriptNet Documentation Technique"
-
-#: competitions/templates/competitions/master.html:58
-msgid "Logged in as"
-msgstr "Connecte en tant que"
 
 #: competitions/templates/competitions/master.html:59
 msgid "[Logout]"
@@ -134,16 +181,17 @@ msgstr "Competitions"
 
 #: competitions/templates/competitions/master.html:74
 #: competitions/templates/competitions/master.html:211
-#: competitions/templates/competitions/master.html:218
+#: competitions/templates/competitions/master.html:225
 msgid "Register"
 msgstr "S'inscrire"
 
 #: competitions/templates/competitions/master.html:78
-#: competitions/templates/competitions/master.html:238
+#: competitions/templates/competitions/master.html:245
 msgid "Login"
 msgstr "Connexion"
 
 #: competitions/templates/competitions/master.html:82
+#: competitions/templates/competitions/master.html:261
 msgid "Contact"
 msgstr "Contact"
 
@@ -173,114 +221,156 @@ msgstr "Pas de competition en cours pour le moment"
 msgid "Register to take part in one of the active competitions."
 msgstr "Inscrivez-vous pour prendre part a des competitions en cours"
 
-#: competitions/templates/competitions/master.html:231
+#: competitions/templates/competitions/master.html:238
 msgid "Sign in"
 msgstr "Se connecter"
 
-#: competitions/templates/competitions/master.html:232
+#: competitions/templates/competitions/master.html:239
 msgid "Login with your credentials if you have already registered."
 msgstr "Identifiez-vous avec vos identifiants si vous etes deja inscrit"
 
-#: competitions/templates/competitions/master.html:269
+#: competitions/templates/competitions/master.html:268
+msgid "NCSR 'Demokritos'"
+msgstr ""
+
+#: competitions/templates/competitions/master.html:276
 msgid "Institute of Informatics and Telecommunications"
 msgstr "Institut d'informatique et de telecommunication"
 
-#: competitions/templates/competitions/master.html:277
+#: competitions/templates/competitions/master.html:284
 msgid "Computational Intelligence Laboratory"
 msgstr "Laboratoire d'imtelligence informatique"
 
-#: competitions/templates/competitions/master.html:285
+#: competitions/templates/competitions/master.html:292
 msgid "READ project"
 msgstr "Projet READ"
 
-#: scriptnet/settings.py:118
+#: competitions/templates/competitions/submit.html:14
+msgid "New submission to the"
+msgstr ""
+
+#: competitions/templates/competitions/submit.html:14
+#: competitions/templates/competitions/viewresults.html:12
+#, fuzzy
+#| msgid "Track"
+msgid "track"
+msgstr "Piste"
+
+#: competitions/templates/competitions/submit.html:21
+#, fuzzy
+#| msgid "Submit method"
+msgid "Submit method results"
+msgstr "Soumettre la methode"
+
+#: competitions/templates/competitions/submit.html:25
+msgid "You have to"
+msgstr ""
+
+#: competitions/templates/competitions/viewresults.html:12
+msgid "Scoreboard for the"
+msgstr ""
+
+#: competitions/templates/competitions/viewresults.html:24
+msgid ""
+"There are no submissions and no assigned benchmarks for this subtrack yet"
+msgstr ""
+
+#: scriptnet/settings.py:128
 msgid "Bulgarian"
 msgstr "Bulgare"
 
-#: scriptnet/settings.py:119
+#: scriptnet/settings.py:129
 msgid "Croatian"
 msgstr "Croate"
 
-#: scriptnet/settings.py:120
+#: scriptnet/settings.py:130
 msgid "Czech"
 msgstr "Tcheque"
 
-#: scriptnet/settings.py:121
+#: scriptnet/settings.py:131
 msgid "Danish"
 msgstr "Danois"
 
-#: scriptnet/settings.py:122
+#: scriptnet/settings.py:132
 msgid "Dutch"
 msgstr "Neerlandais"
 
-#: scriptnet/settings.py:123
+#: scriptnet/settings.py:133
 msgid "English"
 msgstr "Anglais"
 
-#: scriptnet/settings.py:124
+#: scriptnet/settings.py:134
 msgid "Estonian"
 msgstr "Estonien"
 
-#: scriptnet/settings.py:125
+#: scriptnet/settings.py:135
 msgid "Finnish"
 msgstr "Finlandais"
 
-#: scriptnet/settings.py:126
+#: scriptnet/settings.py:136
 msgid "French"
 msgstr "Francais"
 
-#: scriptnet/settings.py:127
+#: scriptnet/settings.py:137
 msgid "German"
 msgstr "Allemand"
 
-#: scriptnet/settings.py:128
+#: scriptnet/settings.py:138
 msgid "Greek"
 msgstr "Grecque"
 
-#: scriptnet/settings.py:129
+#: scriptnet/settings.py:139
 msgid "Hungarian"
 msgstr "Hongrois"
 
-#: scriptnet/settings.py:130
+#: scriptnet/settings.py:140
 msgid "Irish"
 msgstr "Irlandais"
 
-#: scriptnet/settings.py:131
+#: scriptnet/settings.py:141
 msgid "Italian"
 msgstr "Italien"
 
-#: scriptnet/settings.py:132
+#: scriptnet/settings.py:142
 msgid "Latvian"
 msgstr "Laiton"
 
-#: scriptnet/settings.py:133
+#: scriptnet/settings.py:143
 msgid "Lithuanian"
 msgstr "Lituanien"
 
-#: scriptnet/settings.py:134
+#: scriptnet/settings.py:144
 msgid "Polish"
 msgstr "Polonais"
 
-#: scriptnet/settings.py:135
+#: scriptnet/settings.py:145
 msgid "Portuguese"
 msgstr "Portugais"
 
-#: scriptnet/settings.py:136
+#: scriptnet/settings.py:146
 msgid "Romanian"
 msgstr "Roumain"
 
-#: scriptnet/settings.py:137
+#: scriptnet/settings.py:147
 msgid "Slovak"
 msgstr "Slovaque"
 
-#: scriptnet/settings.py:138
+#: scriptnet/settings.py:148
 msgid "Slovenian"
 msgstr "Slovene"
 
-#: scriptnet/settings.py:139
+#: scriptnet/settings.py:149
 msgid "Spanish"
 msgstr "Espagnol"
 
-#: scriptnet/settings.py:140
+#: scriptnet/settings.py:150
 msgid "Swedish"
 msgstr "Suedois"
+
+#, fuzzy
+#~| msgid "Login"
+#~ msgid "login"
+#~ msgstr "Connexion"
+
+#~ msgid "View results"
+#~ msgstr "Voir les resultats"
