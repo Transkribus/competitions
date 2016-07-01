@@ -1,18 +1,18 @@
 # ScriptNet Competitions
 
-The competitions site for the [READ] project, written in Python / [Django].
+The competitions site for the [READ] project, written in [Python] / [Django].
 
 ### Requirements & Installation
-Python, [Django], [Django-Bootstrap3] and [Django-Tables2] need to be installed.
+[Python], [Django], [Django-Bootstrap3] and [Django-Tables2] need to be installed.
 
 ##### Linux (Ubuntu)
 Run the following as a privileged user:
 ```sh
-apt-get update && sudo apt-get upgrade
+apt-get update && apt-get upgrade
 apt-get install python3-pip python3-dev build-essential
 ```
 ##### Windows
-* Install the latest release of [Python 3.x.x]
+* Install the latest release of [Python] 3.x.x
 * Install [pip]
 
 #### All platforms
@@ -25,14 +25,14 @@ pip3 install django django-bootstrap3 django_tables2
 
 #### Requirements of optional components
 
-The benchmarks related the ICFHR'14 KWS competition require the [Mono] library to run. In Ubuntu, install it with
+The benchmarks introduced in the ICFHR'14 KWS competition require the [Mono] library to run. In Ubuntu, install it with
 ```sh
 sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 3FA7E0328081BFF6A14DA29AA6A19B38D3D831EF
 echo "deb http://download.mono-project.com/repo/debian wheezy main" | sudo tee /etc/apt/sources.list.d/mono-xamarin.list
 sudo apt-get update
 sudo apt-get install mono-complete
 ```
-Follow the instructions in [Mono] to install the library in other platforms.
+Follow the [Mono] installation instructions to install the library in other platforms.
 
 ### Running
 
@@ -88,3 +88,5 @@ Then (once the translations have been made in the .po files) the phrases must be
 [Django-Bootstrap3]: <http://github.com/dyve/django-bootstrap3>
 [Django-Tables2]: <http://github.com/bradleyayers/django-tables2>
 [Mono]: <http://www.mono-project.com/>
+[Python]: <https://www.python.org>
+[Pip]: <https://pip.pypa.io/en/stable/installing/>
