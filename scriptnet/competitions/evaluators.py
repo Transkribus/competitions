@@ -8,7 +8,7 @@ from random import random
 from time import sleep
 from os import system
 
-def evaluator_worker(evaluator_function, submission_status):                
+def evaluator_worker(evaluator_function, submission_status):
     if not evaluator_function:
         submission_status.status="ERROR_EVALUATOR"
         submission_status.save()
