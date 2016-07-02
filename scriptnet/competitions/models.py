@@ -8,11 +8,13 @@ from django.utils.translation import ugettext_lazy as _
 
 from uuid import uuid4
 from time import strftime
-from shutil import rmtree, move
-from os.path import dirname
-from os.path import exists
 import hashlib
-import tarfile
+
+from os.path import basename, dirname, exists, splitext
+from os import makedirs, system
+from shutil import rmtree, move, copyfile
+import tarfile, lzma
+
 
 class Affiliation(models.Model):
 	name = models.CharField(max_length = 50)
@@ -123,11 +125,26 @@ class Subtrack(models.Model):
 		newhash = self.private_data_securehash
 		print(newhash)
 		if(newhash != currenthash):
-			print("Extracting")			
+			print("Extracting")
 			self.delete_unpacked_privatefolder()
-			tar = tarfile.open(self.private_data.name)
-			tar.extractall(path=self.private_data_unpacked_folder())
-			tar.close()
+			fn, fn_ext = splitext(basename(self.private_data.name))
+			if(fn_ext == '.7z'):
+				if not exists(self.private_data_unpacked_folder()):
+					makedirs(self.private_data_unpacked_folder())
+				outfn = '{}{}'.format(self.private_data_unpacked_folder(), fn)										
+				system('7z x {} -o{}'.format(self.private_data.name, outfn))
+				#with lzma.open(self.private_data.name) as infile:
+				#	outf = open(outfn, 'wb')							
+				#	outf.write(infile.read())
+			elif(fn_ext == '.gz'):
+				tar = tarfile.open(self.private_data.name)
+				tar.extractall(path=self.private_data_unpacked_folder())
+				tar.close()
+			else:
+				#Don't know how to unzip this, so we'll just copy it
+				if not exists(self.private_data_unpacked_folder()):
+					makedirs(self.private_data_unpacked_folder())
+				copyfile(self.private_data.name, self.private_data_unpacked_folder())
 			print("Created folder on {}".format(self.private_data_unpacked_folder()))
 	def delete_unpacked_privatefolder(self):
 		#TODO: (non-major?) unpacked folder wont be deleted if the user uploads a new private test file,
