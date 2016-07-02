@@ -131,11 +131,7 @@ class Subtrack(models.Model):
 			if(fn_ext == '.7z'):
 				if not exists(self.private_data_unpacked_folder()):
 					makedirs(self.private_data_unpacked_folder())
-				outfn = '{}{}'.format(self.private_data_unpacked_folder(), fn)										
-				system('7z x {} -o{}'.format(self.private_data.name, outfn))
-				#with lzma.open(self.private_data.name) as infile:
-				#	outf = open(outfn, 'wb')							
-				#	outf.write(infile.read())
+				system('7z x {} -o{}'.format(self.private_data.name, self.private_data_unpacked_folder()))
 			elif(fn_ext == '.gz'):
 				tar = tarfile.open(self.private_data.name)
 				tar.extractall(path=self.private_data_unpacked_folder())
