@@ -5,19 +5,19 @@ The competitions site for the [READ] project, written in [Python] / [Django].
 ### Requirements & Installation
 [Python], [Django], [Django-Bootstrap3] and [Django-Tables2] need to be installed.
 
-#### Install Python and Pip
+#### Python and Pip
 
 * Install the latest release of [Python] 3.x.x
 * Install [pip]
 
-Follow the instructions on the links above to install on your system. In Ubuntu Linux, the command-line commands to install Python and Pip are
+Follow the instructions on the links above to install on your system. Specifically for Ubuntu Linux, the command-line commands to install Python and Pip are
 ```sh
 apt-get update && apt-get upgrade
 apt-get install python3-pip python3-dev build-essential
 ```
 
-#### Install Django and plugins 
-Finally, install Django and the required plugins with
+#### Django and plugins 
+Install Django and the required plugins with
 ```sh
 pip3 install django django-bootstrap3 django_tables2
 ```
@@ -33,7 +33,7 @@ sudo apt-get install mono-complete
 ```
 Follow the [Mono] installation instructions to install the library in other platforms.
 
-#### p7zip
+##### p7zip
 Private test data / ground-truth can be uploaded in the form of a zipped file. Gzipped tarballs are handled with Python builtins, but 7z files require the p7zip package to be installed. In Ubuntu, install it with
 ```sh
 sudo apt-get install p7zip-full
