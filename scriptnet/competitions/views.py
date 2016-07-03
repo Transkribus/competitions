@@ -49,12 +49,6 @@ def index(request):
             register_form = RegisterForm(request.POST)
             if register_form.is_valid():
                 #TODO: Print some error message if the form contains error, like non-unique names etc
-                user = User.objects.create_user(
-                    username=register_form.cleaned_data['username'],
-                    password=register_form.cleaned_data['password'],
-                    email=register_form.cleaned_data['email'],
-                    first_name=register_form.cleaned_data['first_name'],
-                    last_name=register_form.cleaned_data['last_name'])
                 affiliations_id = int(register_form.cleaned_data['affiliations'])
                 affiliations_newstring = register_form.cleaned_data['new_affiliation']
                 if(affiliations_id == NEW_AFFILIATION_ID):
@@ -67,7 +61,12 @@ def index(request):
                         messages.add_message(request, messages.ERROR, 'Please specify either an affiliation from the list, or "other" and specify a new affiliation.')                        
                         return HttpResponseRedirect('/competitions/')                        
                     affiliation = Affiliation.objects.get(pk=affiliations_id)
-
+                user = User.objects.create_user(
+                    username=register_form.cleaned_data['username'],
+                    password=register_form.cleaned_data['password'],
+                    email=register_form.cleaned_data['email'],
+                    first_name=register_form.cleaned_data['first_name'],
+                    last_name=register_form.cleaned_data['last_name'])
                 user.individual.shortbio = register_form.cleaned_data['shortbio']
                 user.individual.affiliations.add(affiliation)
                 user.individual.save()

@@ -7,6 +7,8 @@ from django.utils.translation import ugettext_lazy as _
 NEW_AFFILIATION_ID = -1
 
 class RegisterForm(forms.Form):
+    #TODO: This code runs only once, when the server starts. Need to rerun when possible_affiliations changes
+    # Do sth like submitform ?
     possible_affiliations = []
     for af in Affiliation.objects.all():
         possible_affiliations.append((af.id, af.name))
