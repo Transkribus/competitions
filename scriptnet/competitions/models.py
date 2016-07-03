@@ -196,12 +196,12 @@ class SubmissionStatus(models.Model):
 	class Meta:
 		verbose_name_plural = 'submission status'
 	POSSIBLE_STATUS = (
-		('UNDEFINED', 'The processing state of the submission is undefined'),
-		('PROCESSING', 'We are currently processing the submitted result'),		
-		('ERROR_EVALUATOR', 'Could not call the related evaluator function'),
-		('ERROR_GENERIC', 'An error has occured before processing could start'),
-		('ERROR_PROCESSING', 'An error has occured during processing of the submitted result'),		
-		('COMPLETE', 'The submitted result has been succesfully processed and a numerical result has been saved')
+		('UNDEFINED', _('The processing state of the submission is undefined')),
+		('PROCESSING', _('We are currently processing the submitted result')),		
+		('ERROR_EVALUATOR', _('Could not call the related evaluator function')),
+		('ERROR_GENERIC', _('An error has occured before processing could start')),
+		('ERROR_PROCESSING', _('An error has occured during processing of the submitted result')),		
+		('COMPLETE', _('The submitted result has been succesfully processed and a numerical result has been saved'))
 	)
 	submission = models.ForeignKey(Submission, on_delete = models.CASCADE, null=True)
 	benchmark = models.ForeignKey(Benchmark, on_delete = models.CASCADE, null=True)

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-07-02 01:19+0300\n"
+"POT-Creation-Date: 2016-07-03 12:43+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -67,7 +67,9 @@ msgstr "Μια σύντομη περιγραφή για τη μέθοδο"
 
 #: competitions/forms.py:54
 msgid "Show results for this method for everyone"
-msgstr "Επιθυμώ τα αποτελέσματα της μεθόδου να δημοσιευθούν και να είναι ορατά από όλους"
+msgstr ""
+"Επιθυμώ τα αποτελέσματα της μεθόδου να δημοσιευθούν και να είναι ορατά από "
+"όλους"
 
 #: competitions/forms.py:55
 msgid "Result file"
@@ -77,15 +79,41 @@ msgstr "Αρχείο αποτελεσμάτων"
 msgid "Language"
 msgstr "Γλώσσα"
 
-#: competitions/models.py:64
+#: competitions/models.py:66
 #, python-format
 msgid "%(value)s is not a unique track id for this competition"
 msgstr "Το %(value)s δεν είναι μοναδικό track id για αυτό το competition"
 
-#: competitions/models.py:94
+#: competitions/models.py:96
 #, python-format
 msgid "%(value)s is not a unique subtrack id for this track"
 msgstr "Το %(value)s δεν είναι μοναδικό subtrack id για αυτό το track"
+
+#: competitions/models.py:199
+msgid "The processing state of the submission is undefined"
+msgstr "Η κατάσταση επεξεργασίας αυτής της υποβολής είναι απροσδιόριστη"
+
+#: competitions/models.py:200
+msgid "We are currently processing the submitted result"
+msgstr "Το υποβεβλημένο αποτέλεσμα βρίσκεται αυτή τη στιγμή υπό επεξεργασία"
+
+#: competitions/models.py:201
+msgid "Could not call the related evaluator function"
+msgstr "Δεν ήταν δυνατό να κληθεί η σχετική συνάρτηση αποτίμησης"
+
+#: competitions/models.py:202
+msgid "An error has occured before processing could start"
+msgstr "Ένα σφάλμα προκλήθηκε προτού ξεκινήσει η επεξεργασία"
+
+#: competitions/models.py:203
+msgid "An error has occured during processing of the submitted result"
+msgstr "Ένα σφάλμα προκλήθηκε κατά την διάρκεια της επεξεργασίας του υποβεβλημένου αποτελέσματος"
+
+#: competitions/models.py:204
+msgid ""
+"The submitted result has been succesfully processed and a numerical result "
+"has been saved"
+msgstr "Το υποβεβλημένο αποτέλεσμα επεξεργάστηκε με επιτυχία και ένα αριθμητικό αποτέλεσμα έχει αποθηκευτεί"
 
 #: competitions/templates/competitions/competition.html:50
 #: competitions/templates/competitions/master.html:58
