@@ -132,6 +132,8 @@ def submit(request, competition_id, track_id, subtrack_id):
             submission.save()
 
             for bmark in subtrack.benchmark_set.all():
+                #TODO: Use a try-catch scheme to handle errors. 
+                # Catches should fill in the status of 'submission_status'
                 submission_status = SubmissionStatus.objects.create(
                     submission=submission,
                     benchmark=bmark,
