@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-07-03 12:43+0300\n"
+"POT-Creation-Date: 2016-07-03 15:06+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -106,6 +106,10 @@ msgid "An error has occured during processing of the submitted result"
 msgstr ""
 
 #: competitions/models.py:204
+msgid "This benchmark cannot be computed by the specified evaluator function"
+msgstr ""
+
+#: competitions/models.py:205
 msgid ""
 "The submitted result has been succesfully processed and a numerical result "
 "has been saved"

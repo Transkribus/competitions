@@ -2,7 +2,7 @@ from django.contrib import admin
 from django.contrib.auth.admin import UserAdmin as BaseUserAdmin
 from django.contrib.auth.models import User
 from .models import Competition, Individual, Affiliation, Submission, Track, Subtrack
-from .models import Benchmark, SubmissionStatus
+from .models import Benchmark, EvaluatorFunction, SubmissionStatus
 
 class IndividualInline(admin.StackedInline):
     model = Individual
@@ -23,4 +23,5 @@ admin.site.register(Track)
 admin.site.register(Subtrack)
 admin.site.register(Submission)
 admin.site.register(Benchmark)
+admin.site.register(EvaluatorFunction)
 admin.site.register(SubmissionStatus)

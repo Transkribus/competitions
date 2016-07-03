@@ -182,10 +182,10 @@ class EvaluatorFunction(models.Model):
 		return '({}) {}'.format(self.id, self.name)
 
 class Benchmark(models.Model):
+	# The evaluator_function returns a dictionary; the result for this benchmark is found
+	# in the entry with key 'name'
 	name = models.CharField(max_length = 50, null=False, blank=False, default="")
 	evaluator_function = models.ForeignKey(EvaluatorFunction, on_delete = models.CASCADE, null=True)
-	# The following keeps track of which argument of the evaluator function corresponds to this benchmark.
-	evaluator_function_argumentordinal = models.IntegerField(default="1", blank=False)
 	benchmark_info = models.TextField(editable=True, default="")
 	subtracks = models.ManyToManyField(Subtrack)
 	def __str__(self):
@@ -200,7 +200,8 @@ class SubmissionStatus(models.Model):
 		('PROCESSING', _('We are currently processing the submitted result')),		
 		('ERROR_EVALUATOR', _('Could not call the related evaluator function')),
 		('ERROR_GENERIC', _('An error has occured before processing could start')),
-		('ERROR_PROCESSING', _('An error has occured during processing of the submitted result')),		
+		('ERROR_PROCESSING', _('An error has occured during processing of the submitted result')),
+		('ERROR_UNSUPPORTED', _('This benchmark cannot be computed by the specified evaluator function')),
 		('COMPLETE', _('The submitted result has been succesfully processed and a numerical result has been saved'))
 	)
 	submission = models.ForeignKey(Submission, on_delete = models.CASCADE, null=True)

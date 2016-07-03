@@ -8,39 +8,52 @@ from random import random
 from time import sleep
 from os import system
 
-def evaluator_worker(evaluator_function, submission_status):
+def evaluator_worker(evaluator_function, submission_status_set):
     if not evaluator_function:
-        submission_status.status="ERROR_EVALUATOR"
-        submission_status.save()
+        for s in submission_status_set:
+            s.status="ERROR_EVALUATOR"
+            s.save()
         return
     else:
         try:
-            submission_status.status="PROCESSING"
-            submission_status.save()
-            submission_status.numericalresult = evaluator_function()
+            for s in submission_status_set:
+                s.status = "PROCESSING"
+                s.save()
+            result_dictionary = evaluator_function()
+            for s in submission_status_set:
+                benchname = s.benchmark.name
+                print(benchname)
+                if benchname in result_dictionary.keys():
+                    s.status = "COMPLETE"
+                    s.numericalresult = result_dictionary[benchname]
+                    s.save()
+                else:
+                    s.status = "ERROR_UNSUPPORTED"
+                    s.numericalresult = ''
+                    s.save()
         except:
-            submission_status.status="ERROR_PROCESSING"
-            submission_status.save()
+            for s in submission_status_set:
+                s.status="ERROR_PROCESSING"
+                s.save()
             return
-    submission_status.status = "COMPLETE"
-    submission_status.save()
 
-
-def random_integer_slow():
-    print('random_integer_slow has been called!')
+def random_numbers():
     sleep(20)
-    return int(random()*100)
+    result = {
+        'random_integer': int(random()*10000),
+        'random_percentage': random()
+    }
+    return result
 
-def random_scalar():
-    print('random_scalar has been called!')
-    return random()
-
-def icfhr14tool_check():
+def icfhr14_kws_tool():
     executable_folder = '{}/competitions/executables/VCGEvalConsole.linux'.format(settings.BASE_DIR)
     executable = '{}/VCGEvalConsole.sh'.format(executable_folder)
     dummy_results = '{}/WordSpottingResultsSample.xml'.format(executable_folder)
     dummy_privatedata = '{}/GroundTruthRelevanceJudgementsSample.xml'.format(executable_folder)
     commandline = '{} {} {}'.format(executable, dummy_privatedata, dummy_results)
     system(commandline)
-    result = 0.0
+    result = {
+        'MAP': 0.0,
+        'P@5': 0.0
+    }
     return result

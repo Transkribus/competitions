@@ -130,17 +130,25 @@ def submit(request, competition_id, track_id, subtrack_id):
             #TODO: Add the authenticated user and the coworkers here            
             submission.submitter.add(request.user.individual)
             submission.save()
-
+            # Determine which evaluator_functions we should call first, since
+            # benchmarks are grouped according to the evaluator_function that ..evaluates them
+            evalfunc_shouldcall = set()
             for bmark in subtrack.benchmark_set.all():
+                evalfunc_shouldcall.add(bmark.evaluator_function)
+            # Create a separate thread for each evaluator function that should be called
+            for evalfunc in evalfunc_shouldcall:
                 #TODO: Use a try-catch scheme to handle errors. 
                 # Catches should fill in the status of 'submission_status'
-                submission_status = SubmissionStatus.objects.create(
-                    submission=submission,
-                    benchmark=bmark,
-                    status="UNDEFINED"
-                )
-                evaluator_function = getattr(evaluators, bmark.name, None)
-                th = threading.Thread(name=str(submission_status), target=evaluators.evaluator_worker, args=(evaluator_function, submission_status,))
+                submission_status_set = set()
+                for bmark in evalfunc.benchmark_set.all():
+                    #Init result models (SubmissionStatus)
+                    submission_status_set.add(SubmissionStatus.objects.create(
+                        submission=submission,
+                        benchmark=bmark,
+                        status="UNDEFINED"
+                    ))
+                evaluator_function = getattr(evaluators, evalfunc.name, None)
+                th = threading.Thread(name=str(evalfunc), target=evaluators.evaluator_worker, args=(evaluator_function, submission_status_set,))
                 th.daemon = True
                 th.start()
             messages.add_message(request, messages.SUCCESS, 'Submission {} with id {} has been submitted succesfully. '.format(submission.name, submission.id))
