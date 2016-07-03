@@ -70,6 +70,7 @@ def index(request):
 
                 user.individual.shortbio = register_form.cleaned_data['shortbio']
                 user.individual.affiliations.add(affiliation)
+                user.individual.save()
                 #TODO: eventually will have to authenticate the new user by email
                 messages.add_message(request, messages.SUCCESS, 'User {} has been created. Use your credentials to login.'.format(user.username))
                 return HttpResponseRedirect('/competitions/#register')
