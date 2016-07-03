@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-07-03 15:06+0300\n"
+"POT-Creation-Date: 2016-07-03 22:19+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,64 +18,64 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: competitions/forms.py:15
+#: competitions/forms.py:17
 msgid "Given name"
 msgstr "Όνομα"
 
-#: competitions/forms.py:16
+#: competitions/forms.py:18
 msgid "Family name"
 msgstr "Επώνυμο"
 
-#: competitions/forms.py:17
+#: competitions/forms.py:19
 msgid "Email"
 msgstr "Ηλεκτρονική διεύθυνση"
 
-#: competitions/forms.py:18
+#: competitions/forms.py:20
 msgid "Short biography (optional)"
 msgstr "Σύντομο βιογραφικό (προαιρετικό)"
 
-#: competitions/forms.py:24
+#: competitions/forms.py:26
 msgid "Affiliation name"
 msgstr "Φορέας υπαγωγής"
 
-#: competitions/forms.py:28
+#: competitions/forms.py:30
 msgid ""
 "Affiliation name (specify here if your affiliation does not appear above)"
 msgstr ""
 "Φορέας υπαγωγής (διευκρινίστε ολογράφως εάν ο φορέας σας δεν εμφανίζεται "
 "στην προηγούμενη λίστα)"
 
-#: competitions/forms.py:29 competitions/forms.py:33
+#: competitions/forms.py:31 competitions/forms.py:35
 msgid "Username"
 msgstr "Όνομα χρήστη"
 
-#: competitions/forms.py:30 competitions/forms.py:34
+#: competitions/forms.py:32 competitions/forms.py:36
 msgid "Password"
 msgstr "Συνθηματικό"
 
-#: competitions/forms.py:48
+#: competitions/forms.py:50
 msgid "Cosubmitters"
 msgstr "Συνυποβάλλοντες"
 
-#: competitions/forms.py:52
+#: competitions/forms.py:54
 msgid "A short identifier for the method"
 msgstr "Ένα σύντομο αναγνωριστικό για τη μέθοδο"
 
-#: competitions/forms.py:53
+#: competitions/forms.py:55
 msgid "A short description of the method"
 msgstr "Μια σύντομη περιγραφή για τη μέθοδο"
 
-#: competitions/forms.py:54
+#: competitions/forms.py:56
 msgid "Show results for this method for everyone"
 msgstr ""
 "Επιθυμώ τα αποτελέσματα της μεθόδου να δημοσιευθούν και να είναι ορατά από "
 "όλους"
 
-#: competitions/forms.py:55
+#: competitions/forms.py:57
 msgid "Result file"
 msgstr "Αρχείο αποτελεσμάτων"
 
-#: competitions/forms.py:58 competitions/templates/competitions/master.html:85
+#: competitions/forms.py:60 competitions/templates/competitions/master.html:85
 msgid "Language"
 msgstr "Γλώσσα"
 
@@ -113,7 +113,8 @@ msgstr ""
 
 #: competitions/models.py:204
 msgid "This benchmark cannot be computed by the specified evaluator function"
-msgstr "Αυτή η μετρική δεν μπορεί να υπολογιστεί με την δοσμένη συνάρτηση αποτίμησης"
+msgstr ""
+"Αυτή η μετρική δεν μπορεί να υπολογιστεί με την δοσμένη συνάρτηση αποτίμησης"
 
 #: competitions/models.py:205
 msgid ""
@@ -308,6 +309,34 @@ msgid ""
 msgstr ""
 "Δεν υπάρχει ακόμα καμμία υποβολή και κανένα μέτρο αποτίμησης για αυτό το "
 "υποζητούμενο"
+
+#: competitions/views.py:57
+#, fuzzy
+#| msgid ""
+#| "Affiliation name (specify here if your affiliation does not appear above)"
+msgid "Please specify your affiliation if it does not appear on the list."
+msgstr ""
+"Φορέας υπαγωγής (διευκρινίστε ολογράφως εάν ο φορέας σας δεν εμφανίζεται "
+"στην προηγούμενη λίστα)"
+
+#: competitions/views.py:62
+msgid ""
+"Please specify either an affiliation from the list, or \"other\" and specify "
+"a new affiliation."
+msgstr "Παρακαλώ να ορίσετε είτε έναν φορέα από τη λίστα, είτε να επιλέξετε \"άλλος\" και να ορίσετε νέο φορέα."
+
+#: competitions/views.py:75
+msgid "User {} has been created. Use your credentials to login."
+msgstr "Ο χρήστης {} δημιουργήθηκε. Χρησιμοποιείστε το όνομα και το συνθηματικό σας για να συνδεθείτε."
+
+#: competitions/views.py:121
+msgid ""
+"The method name already exists for this track. Please choose another name."
+msgstr "Μία μέθοδος με το ίδιο όνομα υπάρχει ήδη για αυτό το ζητούμενο. Παρακαλώ να ορίσετε άλλο όνομα."
+
+#: competitions/views.py:155
+msgid "Submission {} with id {} has been submitted succesfully. "
+msgstr "Η υποβολή {} με αύξων αριθμό {} υποβλήθηκε με επιτυχία. "
 
 #: scriptnet/settings.py:128
 msgid "Bulgarian"

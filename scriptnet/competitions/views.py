@@ -5,6 +5,7 @@ from django.contrib import messages
 from django.contrib.auth import authenticate, login, logout
 from django.contrib.auth.models import User
 from django.core.urlresolvers import reverse
+from django.utils.translation import ugettext_lazy as _
 
 from .forms import LoginForm, RegisterForm, NEW_AFFILIATION_ID
 from .forms import SubmitForm
@@ -53,12 +54,12 @@ def index(request):
                 affiliations_newstring = register_form.cleaned_data['new_affiliation']
                 if(affiliations_id == NEW_AFFILIATION_ID):
                     if not affiliations_newstring:
-                        messages.add_message(request, messages.ERROR, 'Please specify your affiliation, if it does not appear on the list.')
+                        messages.add_message(request, messages.ERROR, _('Please specify your affiliation if it does not appear on the list.'))
                         return HttpResponseRedirect('/competitions/')
                     affiliation = Affiliation.objects.create(name=affiliations_newstring)
                 else:
                     if affiliations_newstring:
-                        messages.add_message(request, messages.ERROR, 'Please specify either an affiliation from the list, or "other" and specify a new affiliation.')                        
+                        messages.add_message(request, messages.ERROR, _('Please specify either an affiliation from the list, or "other" and specify a new affiliation.'))                        
                         return HttpResponseRedirect('/competitions/')                        
                     affiliation = Affiliation.objects.get(pk=affiliations_id)
                 user = User.objects.create_user(
@@ -71,7 +72,7 @@ def index(request):
                 user.individual.affiliations.add(affiliation)
                 user.individual.save()
                 #TODO: eventually will have to authenticate the new user by email
-                messages.add_message(request, messages.SUCCESS, 'User {} has been created. Use your credentials to login.'.format(user.username))
+                messages.add_message(request, messages.SUCCESS, _('User {} has been created. Use your credentials to login.').format(user.username))
                 return HttpResponseRedirect('/competitions/#register')
         elif 'login' in request.POST:
             login_form = LoginForm(request.POST)
@@ -117,7 +118,7 @@ def submit(request, competition_id, track_id, subtrack_id):
                 subtrack=subtrack, 
                 name=submit_form.cleaned_data['name']
                 ):                
-                messages.add_message(request, messages.ERROR, 'The method name already exists for this track. Please choose another name.') 
+                messages.add_message(request, messages.ERROR, _('The method name already exists for this track. Please choose another name.')) 
                 context['submit_form'] = SubmitForm(request.user)
                 return render(request, 'competitions/submit.html', context)
             submission = Submission.objects.create(
@@ -151,7 +152,7 @@ def submit(request, competition_id, track_id, subtrack_id):
                 th = threading.Thread(name=str(evalfunc), target=evaluators.evaluator_worker, args=(evaluator_function, submission_status_set,))
                 th.daemon = True
                 th.start()
-            messages.add_message(request, messages.SUCCESS, 'Submission {} with id {} has been submitted succesfully. '.format(submission.name, submission.id))
+            messages.add_message(request, messages.SUCCESS, _('Submission {} with id {} has been submitted succesfully. ').format(submission.name, submission.id))
             return HttpResponseRedirect(reverse('viewresults', args=(competition_id, track_id, subtrack_id,)))
     context['submit_form'] = submit_form
     return render(request, 'competitions/submit.html', context)

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-07-03 15:06+0300\n"
+"POT-Creation-Date: 2016-07-03 22:19+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,60 +19,60 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n"
 "%100<10 || n%100>=20) ? 1 : 2);\n"
 
-#: competitions/forms.py:15
+#: competitions/forms.py:17
 msgid "Given name"
 msgstr ""
 
-#: competitions/forms.py:16
+#: competitions/forms.py:18
 msgid "Family name"
 msgstr ""
 
-#: competitions/forms.py:17
+#: competitions/forms.py:19
 msgid "Email"
 msgstr ""
 
-#: competitions/forms.py:18
+#: competitions/forms.py:20
 msgid "Short biography (optional)"
 msgstr ""
 
-#: competitions/forms.py:24
+#: competitions/forms.py:26
 msgid "Affiliation name"
 msgstr ""
 
-#: competitions/forms.py:28
+#: competitions/forms.py:30
 msgid ""
 "Affiliation name (specify here if your affiliation does not appear above)"
 msgstr ""
 
-#: competitions/forms.py:29 competitions/forms.py:33
+#: competitions/forms.py:31 competitions/forms.py:35
 msgid "Username"
 msgstr ""
 
-#: competitions/forms.py:30 competitions/forms.py:34
+#: competitions/forms.py:32 competitions/forms.py:36
 msgid "Password"
 msgstr ""
 
-#: competitions/forms.py:48
+#: competitions/forms.py:50
 msgid "Cosubmitters"
 msgstr ""
 
-#: competitions/forms.py:52
+#: competitions/forms.py:54
 msgid "A short identifier for the method"
 msgstr ""
 
-#: competitions/forms.py:53
+#: competitions/forms.py:55
 msgid "A short description of the method"
 msgstr ""
 
-#: competitions/forms.py:54
+#: competitions/forms.py:56
 msgid "Show results for this method for everyone"
 msgstr ""
 
-#: competitions/forms.py:55
+#: competitions/forms.py:57
 msgid "Result file"
 msgstr ""
 
-#: competitions/forms.py:58 competitions/templates/competitions/master.html:85
+#: competitions/forms.py:60 competitions/templates/competitions/master.html:85
 msgid "Language"
 msgstr ""
 
@@ -292,6 +292,29 @@ msgstr ""
 #: competitions/templates/competitions/viewresults.html:24
 msgid ""
 "There are no submissions and no assigned benchmarks for this subtrack yet"
+msgstr ""
+
+#: competitions/views.py:57
+msgid "Please specify your affiliation if it does not appear on the list."
+msgstr ""
+
+#: competitions/views.py:62
+msgid ""
+"Please specify either an affiliation from the list, or \"other\" and specify "
+"a new affiliation."
+msgstr ""
+
+#: competitions/views.py:75
+msgid "User {} has been created. Use your credentials to login."
+msgstr ""
+
+#: competitions/views.py:121
+msgid ""
+"The method name already exists for this track. Please choose another name."
+msgstr ""
+
+#: competitions/views.py:155
+msgid "Submission {} with id {} has been submitted succesfully. "
 msgstr ""
 
 #: scriptnet/settings.py:128
