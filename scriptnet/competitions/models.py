@@ -174,14 +174,23 @@ class Submission(models.Model):
 	def __str__(self):
 		return '({}) {}'.format(self.id, self.method_info)
 
-class Benchmark(models.Model):
+class EvaluatorFunction(models.Model):
 	# The name of the callable 'evaluator' function is identical to the 'name' field of this model
 	# A function itself is (has to be) found in the 'evaluators.py' file.
 	name = models.SlugField(max_length = 50, null=False, blank=False, default="")
+	def __str__(self):
+		return '({}) {}'.format(self.id, self.name)
+
+class Benchmark(models.Model):
+	name = models.CharField(max_length = 50, null=False, blank=False, default="")
+	evaluator_function = models.ForeignKey(EvaluatorFunction, on_delete = models.CASCADE, null=True)
+	# The following keeps track of which argument of the evaluator function corresponds to this benchmark.
+	evaluator_function_argumentordinal = models.IntegerField(default="1", blank=False)
 	benchmark_info = models.TextField(editable=True, default="")
 	subtracks = models.ManyToManyField(Subtrack)
 	def __str__(self):
 		return '({}) {}'.format(self.id, self.name)
+
 
 class SubmissionStatus(models.Model):
 	class Meta:
