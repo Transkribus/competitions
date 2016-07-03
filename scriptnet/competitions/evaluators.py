@@ -53,7 +53,7 @@ def icfhr14_kws_tool():
     commandline = '{} {} {}'.format(executable, dummy_privatedata, dummy_results)
     system(commandline)
     result = {
-        'MAP': 0.0,
-        'P@5': 0.0
+        'map': 0.0,
+        'p@5': 0.0
     }
     return result
