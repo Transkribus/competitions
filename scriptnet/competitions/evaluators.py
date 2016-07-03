@@ -6,8 +6,23 @@
 from django.conf import settings
 from random import random
 from time import sleep
-from os import system, listdir
+from os import listdir
 from os.path import splitext
+from subprocess import PIPE, Popen
+import re
+
+
+def cmdline(command):
+    # http://stackoverflow.com/questions/3503879/assign-output-of-os-system-to-a-variable-and-prevent-it-from-being-displayed-on    
+    # http://stackoverflow.com/questions/17615414/how-to-convert-binary-string-to-normal-string-in-python3 
+    process = Popen(
+        args=command,
+        stdout=PIPE,
+        shell=True
+    )
+    res = process.communicate()[0]
+    return res.decode('utf-8')
+
 
 def evaluator_worker(evaluator_function, submission_status_set):
     if not evaluator_function:
@@ -70,9 +85,16 @@ def icfhr14_kws_tool(*args, **kwargs):
 
     executable = '{}/VCGEvalConsole.sh'.format(executable_folder)
     commandline = '{} {} {}'.format(executable, privatedata, resultdata)
-    system(commandline)
+    command_output = cmdline(commandline)
+    
+    rgx = r'ALL QUERIES\s+([\d\.]+)\s+([\d\.]+)\s+([\d\.]+)\s+([\d\.]+)\s+([\d\.]+)\s+([\d\.]+)\s+([\d\.]+)\s+([\d\.]+)\s+([\d\.]+)\s+([\d\.]+)\s+([\d\.]+)\s+([\d\.]+)\s+([\d\.]+)\s+([\d\.]+)\s+([\d\.]+)\s+([\d\.]+)\s+([\d\.]+)'
+    r = re.search(rgx, command_output)
     result = {
-        'map': 0.0,
-        'p@5': 0.0
+        'p@5':              r.group(1),
+        'p@10':             r.group(2),
+        'r-precision':      r.group(3),
+        'map':              r.group(4),
+        'ndcg-binary':      r.group(5),
+        'ndcg':             r.group(6)
     }
     return result
