@@ -11,7 +11,7 @@ from .forms import LoginForm, RegisterForm, NEW_AFFILIATION_ID
 from .forms import SubmitForm
 from .models import Affiliation, Individual, Competition, Track, Subtrack
 from .models import Submission, SubmissionStatus
-from .tables import SubmissionTable
+from .tables import SubmissionTable, TwoscoreTable
 from . import evaluators
 
 import threading
@@ -159,5 +159,30 @@ def submit(request, competition_id, track_id, subtrack_id):
     
 def viewresults(request, competition_id, track_id, subtrack_id):
     competition, track, subtrack, context = get_objects_given_uniqueIDs(competition_id, track_id, subtrack_id)
-    context['table'] = SubmissionTable(subtrack.submission_set.all())
+    #context['table'] = SubmissionTable(subtrack.submission_set.all())
+    data = []
+    for s in subtrack.submission_set.all():
+        aff = set()
+        for subm in s.submitter.all():
+            for a in subm.affiliations.all():
+                aff.add(a)
+        results = s.submissionstatus_set.all()
+        try:
+            map = results.get(benchmark__name='map').numericalresult
+        except:
+            map = None
+        try:
+            pat5 = results.get(benchmark__name='p@5').numericalresult
+        except:
+            pat5 = None
+
+        data.append({
+            'name': s.name,
+            'method_info': s.method_info,
+            'submitter': ', '.join(['{} {}'.format(subm.user.first_name, subm.user.last_name) for subm in s.submitter.all()]),
+            'affiliation': ', '.join([a.name for a in aff]),
+            'map': map,
+            'pat5': pat5
+        })
+    context['table'] = TwoscoreTable(data)
     return render(request, 'competitions/viewresults.html', context)

@@ -1,6 +1,16 @@
 import django_tables2 as tables
 from .models import Submission
 
+class TwoscoreTable(tables.Table):
+    class Meta:
+        attrs = {'class': 'paleblue'}
+    name = tables.Column()
+    method_info = tables.Column()
+    submitter = tables.Column()
+    affiliation = tables.Column()
+    map = tables.Column()
+    pat5 = tables.Column(verbose_name='p@5')
+
 class SubmissionTable(tables.Table):
     class Meta:
         model = Submission
