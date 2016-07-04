@@ -1,15 +1,21 @@
 import django_tables2 as tables
 from .models import Submission
+from .models import Subtrack
 
-class TwoscoreTable(tables.Table):
+def expandedScalarscoreTable(scores):
+    #adapted idea from http://stackoverflow.com/questions/16696066/django-tables2-dynamically-adding-columns-to-table-not-adding-attrs-to-table
+    attrs = dict((r.name, tables.Column()) for r in scores)
+    attrs['Meta'] = type('Meta', (), dict(attrs={"class":"paleblue"}) )
+    expanded_class = type('DynamicScalarscoreTable', (ScalarscoreTable,), attrs)    
+    return expanded_class
+
+class ScalarscoreTable(tables.Table):
     class Meta:
         attrs = {'class': 'paleblue'}
     name = tables.Column()
     method_info = tables.Column()
     submitter = tables.Column()
     affiliation = tables.Column()
-    map = tables.Column()
-    pat5 = tables.Column(verbose_name='p@5')
 
 class SubmissionTable(tables.Table):
     class Meta:

@@ -11,7 +11,7 @@ from .forms import LoginForm, RegisterForm, NEW_AFFILIATION_ID
 from .forms import SubmitForm
 from .models import Affiliation, Individual, Competition, Track, Subtrack
 from .models import Submission, SubmissionStatus
-from .tables import SubmissionTable, TwoscoreTable
+from .tables import SubmissionTable, ScalarscoreTable, expandedScalarscoreTable
 from . import evaluators
 
 import threading
@@ -161,28 +161,25 @@ def viewresults(request, competition_id, track_id, subtrack_id):
     competition, track, subtrack, context = get_objects_given_uniqueIDs(competition_id, track_id, subtrack_id)
     #context['table'] = SubmissionTable(subtrack.submission_set.all())
     data = []
+    benches = subtrack.benchmark_set.all()
     for s in subtrack.submission_set.all():
         aff = set()
         for subm in s.submitter.all():
             for a in subm.affiliations.all():
                 aff.add(a)
         results = s.submissionstatus_set.all()
-        try:
-            map = results.get(benchmark__name='map').numericalresult
-        except:
-            map = None
-        try:
-            pat5 = results.get(benchmark__name='p@5').numericalresult
-        except:
-            pat5 = None
-
-        data.append({
+        newrow = {
             'name': s.name,
             'method_info': s.method_info,
             'submitter': ', '.join(['{} {}'.format(subm.user.first_name, subm.user.last_name) for subm in s.submitter.all()]),
-            'affiliation': ', '.join([a.name for a in aff]),
-            'map': map,
-            'pat5': pat5
-        })
-    context['table'] = TwoscoreTable(data)
+            'affiliation': ', '.join([a.name for a in aff])
+        }        
+        for b in benches:
+            try:
+                nomen = b.name
+                newrow[nomen] = results.get(benchmark__name=nomen).numericalresult
+            except:
+                newrow[nomen] = None
+        data.append(newrow)
+    context['table'] = expandedScalarscoreTable(benches)(data)
     return render(request, 'competitions/viewresults.html', context)
