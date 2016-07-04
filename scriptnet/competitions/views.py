@@ -6,6 +6,7 @@ from django.contrib.auth import authenticate, login, logout
 from django.contrib.auth.models import User
 from django.core.urlresolvers import reverse
 from django.utils.translation import ugettext_lazy as _
+from django_tables2 import RequestConfig
 
 from .forms import LoginForm, RegisterForm, NEW_AFFILIATION_ID
 from .forms import SubmitForm
@@ -177,9 +178,11 @@ def viewresults(request, competition_id, track_id, subtrack_id):
         for b in benches:
             try:
                 nomen = b.name
-                newrow[nomen] = results.get(benchmark__name=nomen).numericalresult
+                newrow[nomen] = float(results.get(benchmark__name=nomen).numericalresult)
             except:
                 newrow[nomen] = None
         data.append(newrow)
-    context['table'] = expandedScalarscoreTable(benches)(data)
+    table = expandedScalarscoreTable(benches)(data)
+    RequestConfig(request).configure(table) #necessary for ordering and pagination    
+    context['table'] = table
     return render(request, 'competitions/viewresults.html', context)
