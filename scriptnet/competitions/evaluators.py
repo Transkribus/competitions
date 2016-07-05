@@ -9,6 +9,7 @@ from time import sleep
 from os import listdir
 from os.path import splitext
 from subprocess import PIPE, Popen
+from json import dumps
 import re
 
 
@@ -79,22 +80,23 @@ def icfhr14_kws_tool(*args, **kwargs):
             privatedata = '{}{}'.format(privatedatafolder, fn)
     print(privatedata)
     print(resultdata)    
-            
+
     if(n_xml != 1):
         raise IOError('The private data folder does not contain exactly one ground-truth file')
 
     executable = '{}/VCGEvalConsole.sh'.format(executable_folder)
     commandline = '{} {} {}'.format(executable, privatedata, resultdata)
     command_output = cmdline(commandline)
-    
+
     rgx = r'ALL QUERIES\s+([\d\.]+)\s+([\d\.]+)\s+([\d\.]+)\s+([\d\.]+)\s+([\d\.]+)\s+([\d\.]+)\s+([\d\.]+)\s+([\d\.]+)\s+([\d\.]+)\s+([\d\.]+)\s+([\d\.]+)\s+([\d\.]+)\s+([\d\.]+)\s+([\d\.]+)\s+([\d\.]+)\s+([\d\.]+)\s+([\d\.]+)'
-    r = re.search(rgx, command_output)
+    r = re.search(rgx, command_output) 
     result = {
         'p@5':              r.group(1),
         'p@10':             r.group(2),
         'r-precision':      r.group(3),
         'map':              r.group(4),
         'ndcg-binary':      r.group(5),
-        'ndcg':             r.group(6)
+        'ndcg':             r.group(6),
+        'pr-curve':         dumps([r.group(7), r.group(8), r.group(9), r.group(10), r.group(11), r.group(12), r.group(13), r.group(14), r.group(15), r.group(16), r.group(17)])
     }
     return result

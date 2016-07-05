@@ -16,6 +16,7 @@ from .tables import SubmissionTable, ScalarscoreTable, expandedScalarscoreTable
 from . import evaluators
 
 import threading
+from json import loads
 
 #TODO: Replace all hard-coded URLs with calls to 'reverse'
 
@@ -178,7 +179,7 @@ def viewresults(request, competition_id, track_id, subtrack_id):
         for b in benches:
             try:
                 nomen = b.name
-                newrow[nomen] = float(results.get(benchmark__name=nomen).numericalresult)
+                newrow[nomen] = loads(results.get(benchmark__name=nomen).numericalresult)
             except:
                 newrow[nomen] = None
         data.append(newrow)
