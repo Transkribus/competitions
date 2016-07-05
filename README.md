@@ -24,12 +24,12 @@ pip3 install django django-bootstrap3 django_tables2
 #### Requirements of optional components
 
 ##### Mono
-The benchmarks introduced in the ICFHR'14 KWS competition require the [Mono] library to run. In Ubuntu, install it with
+The benchmarks introduced in the ICFHR'14 KWS competition require the [Mono] library to run. In Ubuntu, install it by running the following as a privileged user:
 ```sh
-sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 3FA7E0328081BFF6A14DA29AA6A19B38D3D831EF
-echo "deb http://download.mono-project.com/repo/debian wheezy main" | sudo tee /etc/apt/sources.list.d/mono-xamarin.list
-sudo apt-get update
-sudo apt-get install mono-complete
+apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 3FA7E0328081BFF6A14DA29AA6A19B38D3D831EF
+echo "deb http://download.mono-project.com/repo/debian wheezy main" | tee /etc/apt/sources.list.d/mono-xamarin.list
+apt-get update
+apt-get install mono-complete
 ```
 Follow the [Mono] installation instructions to install the library in other platforms.
 
@@ -51,13 +51,13 @@ python manage.py runserver
 * templates need to ```{% load i18n %}```
 * then anything in ```{% trans "some phrase" %}``` will be translated if a translation is available
 * .py files need to ```from django.utils.translation import ugettext_lazy as _```
-* then anything in _("some phrase") will be translated if a translation is available
+* then anything in _("some phrase") will be translated, if a translation is available
 
 #### Translate
 To make translations available:
 * find the appropriate .po file ```locale/[lang_code]/LC_MESSAGES/django.po```
 * In this file you will see msgid's that correspond to the phrases in ```{% trans "..." %}``` or ```_("...")```
-* Simply fill in the msgstr with the correct translation eg:
+* Simply fill in the msgstr with the correct translation, e.g.:
 ```
 #: library/forms.py:7
 msgid "Given Name"
@@ -71,7 +71,7 @@ If you have added a new phrase to a template or .py file there are a couple of t
 
 * ```django-admin makemessages -l [lang_code] (or -a for all languages)```
 
-Then (once the translations have been made in the .po files) the phrases must be be recompiled with:
+Then (once the translations have been made in the .po files) the phrases must be recompiled with:
 
 * ```django-admin compilemessages```
 
