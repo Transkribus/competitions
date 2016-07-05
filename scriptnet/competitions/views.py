@@ -183,7 +183,10 @@ def viewresults(request, competition_id, track_id, subtrack_id):
             except:
                 newrow[nomen] = None
         data.append(newrow)
-    table = expandedScalarscoreTable(benches)(data)
+    #Create the table, checking if we need to exclude some benchmarks from visualisation
+    table = expandedScalarscoreTable(
+        [b for b in benches if b.name.lower() != 'pr-curve']
+        )(data)
     RequestConfig(request).configure(table) #necessary for ordering and pagination    
     context['table'] = table
     return render(request, 'competitions/viewresults.html', context)
