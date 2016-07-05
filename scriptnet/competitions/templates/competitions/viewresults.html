@@ -18,7 +18,7 @@
     {% endfor %}
 {% endif %}
     
-{% if subtrack.submission_set.all %}
+{% if table %}
     {% render_table table %}
 {% else %}
     <p>{% trans "There are no submissions and no assigned benchmarks for this subtrack yet" %}!</p>

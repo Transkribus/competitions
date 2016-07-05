@@ -161,10 +161,29 @@ def submit(request, competition_id, track_id, subtrack_id):
     
 def viewresults(request, competition_id, track_id, subtrack_id):
     competition, track, subtrack, context = get_objects_given_uniqueIDs(competition_id, track_id, subtrack_id)
-    #context['table'] = SubmissionTable(subtrack.submission_set.all())
     data = []
-    benches = subtrack.benchmark_set.all()
-    for s in subtrack.submission_set.all():
+    if subtrack:
+        all_benchmarks = subtrack.benchmark_set.all()
+        all_submissions = subtrack.submission_set.all()
+    elif track:
+        all_benchmarks = set()
+        all_submissions = set()
+        for subt in track.subtrack_set.all():
+            for b in subt.benchmark_set.all():
+                all_benchmarks.add(b)
+            for s in subt.submission_set.all():
+                all_submissions.add(s)
+    elif competition:
+        #TODO: DRY? maybe create Model methods for these?
+        all_benchmarks = set()
+        all_submissions = set()
+        for t in competition.track_set.all():
+            for subt in t.subtrack_set.all():
+                for b in subt.benchmark_set.all():
+                    all_benchmarks.add(b)
+                for s in subt.submission_set.all():
+                    all_submissions.add(s)            
+    for s in all_submissions:
         aff = set()
         for subm in s.submitter.all():
             for a in subm.affiliations.all():
@@ -175,8 +194,12 @@ def viewresults(request, competition_id, track_id, subtrack_id):
             'method_info': s.method_info,
             'submitter': ', '.join(['{} {}'.format(subm.user.first_name, subm.user.last_name) for subm in s.submitter.all()]),
             'affiliation': ', '.join([a.name for a in aff])
-        }        
-        for b in benches:
+        }
+        if not subtrack:
+            newrow['subtrack'] =  s.subtrack.name
+        if not track:
+            newrow['track'] = s.subtrack.track.name
+        for b in all_benchmarks:
             try:
                 nomen = b.name
                 newrow[nomen] = loads(results.get(benchmark__name=nomen).numericalresult)
@@ -184,9 +207,12 @@ def viewresults(request, competition_id, track_id, subtrack_id):
                 newrow[nomen] = None
         data.append(newrow)
     #Create the table, checking if we need to exclude some benchmarks from visualisation
-    table = expandedScalarscoreTable(
-        [b for b in benches if b.name.lower() != 'pr-curve']
-        )(data)
-    RequestConfig(request).configure(table) #necessary for ordering and pagination    
+    extracolumns = [b.name for b in all_benchmarks if b.name.lower() != 'pr-curve']
+    if not subtrack:
+        extracolumns.insert(0, 'subtrack')
+    if not track:
+        extracolumns.insert(0, 'track')
+    table = expandedScalarscoreTable(extracolumns)(data)
+    RequestConfig(request).configure(table) #necessary for ordering and pagination
     context['table'] = table
     return render(request, 'competitions/viewresults.html', context)
