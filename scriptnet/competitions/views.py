@@ -218,4 +218,15 @@ def viewresults(request, competition_id, track_id, subtrack_id):
     return render(request, 'competitions/viewresults.html', context)
 
 def scoreboard(request, competition_id):
-    pass
+    competition = get_object_or_404(Competition, pk=competition_id)
+    extracolumns = [
+        'score',
+    ]
+    scoretable = {}
+    for track in competition.track_set.all():
+        scoretable[track.percomp_uniqueid] = expandedScalarscoreTable(extracolumns)(track.scoretable())
+    context = {
+        'competition': competition,
+        'scoretable': scoretable,
+    }
+    return render(request, 'competitions/scoreboard.html', context)

@@ -27,8 +27,9 @@
     </div>
     {% endfor %}
 {% endif %}
-    
-{% if table %}
+
+<!-- TODO: Django tables2 apparently can handle the message for an empty table itself ('empty_text') --> 
+{% if table.rows %}
     {% render_table table %}
 {% else %}
     <p>{% trans "There are no submissions and no assigned benchmarks for this subtrack yet" %}!</p>

@@ -66,6 +66,13 @@ class Track(models.Model):
             	_('%(value)s is not a unique track id for this competition'),
             	params={'value': self.percomp_uniqueid},
         	)
+	def scoretable(self):
+		data = []
+		r = {
+			'ho': 'ho',
+		}
+		data.append(r)
+		return data
 
 def publicdata_path(instance, filename):
 	return 'databases/{}/{}'.format(uuid4().hex, filename)

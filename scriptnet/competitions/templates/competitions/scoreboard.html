@@ -1,0 +1,28 @@
+{% extends "competitions/competition.html" %}
+{% load staticfiles %}
+{% load custom %}
+{% load i18n %}
+{% load bootstrap3 %}
+{% load django_tables2 %}
+
+{% block extrahead %}
+<link rel="stylesheet" href="{% static 'paleblue/css/screen.css' %}" />
+{% endblock %}
+
+{% block content %}
+<h2>{% trans "Scoreboard" %}</h2>
+{% if messages %}
+    {% for message in messages %}
+    <div class="alert alert-{{ message.tags }}">
+        {{ message }}
+    </div>
+    {% endfor %}
+{% endif %}
+
+{% for tr in competition.track_set.all %}
+    <h3>{% trans "Ranking for Track " %}{{ tr.percomp_uniqueid }}: {{ tr.name }} </h3>
+    {# dictionary is a custom tag declared in templatetags/custom.py #}
+    {% render_table scoretable|dictionary:tr.percomp_uniqueid %} 
+{% endfor %}
+
+{% endblock %}
