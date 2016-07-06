@@ -216,3 +216,6 @@ def viewresults(request, competition_id, track_id, subtrack_id):
     RequestConfig(request).configure(table) #necessary for ordering and pagination
     context['table'] = table
     return render(request, 'competitions/viewresults.html', context)
+
+def scoreboard(request, competition_id):
+    pass

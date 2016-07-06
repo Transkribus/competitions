@@ -9,7 +9,17 @@
 {% endblock %}
 
 {% block content %}
-<h3>{% trans "Scoreboard for the" %} [{{ track.percomp_uniqueid }}.{{ subtrack.pertrack_uniqueid }}]{{ track.name }}/{{ subtrack.name }} {% trans "track" %}</h3>
+<h3>{% trans "All submissions and results for " %}
+    {% if not track %}
+    {% trans "the" %} {{ competition.name }}
+    {% else %} 
+        {% if not subtrack %}
+        [{{ track.percomp_uniqueid }}]{{ track.name }} {% trans "track" %}
+        {% else %}
+        [{{ track.percomp_uniqueid }}.{{ subtrack.pertrack_uniqueid }}]{{ track.name }}/{{ subtrack.name }} {% trans "track/subtrack" %}
+        {% endif %}
+    {% endif %}
+</h3>
 {% if messages %}
     {% for message in messages %}
     <div class="alert alert-{{ message.tags }}">

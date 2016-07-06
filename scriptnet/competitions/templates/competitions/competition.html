@@ -60,10 +60,13 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
-          			<li>
-				          <a id="home" class="selected" href="{% url 'competition' %}{{ competition.id }}">{% trans "Competition home" %}</a>
-			          </li>
-			          {% for tr in competition.track_set.all %}
+          		    <li>
+				        <a id="home" class="selected" href="{% url 'competition' %}{{ competition.id }}">{% trans "Competition home" %}</a>
+			        </li>
+                    <li>
+                        <a id="home" class="" href="{% url 'competition' %}{{ competition.id }}/scoreboard">{% trans "Scoreboard" %}</a>
+			        </li>
+			        {% for tr in competition.track_set.all %}
                 <li class="dropdown" id="t1{{ tr.percomp_uniqueid }}">
                   <a href="{% url 'competition' %}{{ competition.id }}/{{ tr.percomp_uniqueid }}" style="display:inline-block;padding-right:0px;">{% trans "Track" %} {{ tr.percomp_uniqueid }}</a>
                   <a class="dropdown-toggle" data-toggle="dropdown" href="#myTools"  style="display:inline-block;padding-left:0px;">
@@ -77,10 +80,23 @@
 				          {% endfor %}
                   </ul>
                 </li>                     
-			          {% endfor %}
+			        {% endfor %}
+                    <li>
+                        <a id="current_level_submissions" href="{% url 'competition' %}{{ competition.id }}{% if track %}/{% endif %}{{ track.percomp_uniqueid }}{% if subtrack %}/{% endif %}{{ subtrack.pertrack_uniqueid }}/viewresults">{% trans "View all submissions for this " %}
+                        {% if not subtrack %}
+                            {% if not track %}
+                                {% trans "competition" %}
+                            {% else %}
+                                {% trans "track" %}
+                            {% endif %}
+                        {% else %}
+                            {% trans "subtrack" %}
+                        {% endif %} 
+                        </a>
+                    </li>
 		          	<li>
-				          <a id="o" href="#organizers">{% trans "Organizers" %}</a>
-			          </li>
+				        <a id="o" href="#organizers">{% trans "Organizers" %}</a>
+			        </li>
 			   </ul>
             </div>
             <!-- /.navbar-collapse -->
@@ -147,16 +163,6 @@
                             {% endif %}
           				{% else %}
 					        {{ competition.overview | safe }}
-                            <div class="row">
-                                <h3> {% trans "Submitted results" %}
-                                </h3>
-                                <div class="col-md-6">
-                                    <a href="" class="btn btn-primary btn-xl">{% trans "Scoreboard" %}</a>
-                                </div>
-                                <div class="col-md-6">
-                                    <a href="" class="btn btn-primary btn-xl">{% trans "Examine all submissions" %}</a>
-                                </div>                                
-                            </div>
 				        {% endif %}
                     {% endblock %}
                 </p>
