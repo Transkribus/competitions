@@ -100,3 +100,4 @@ Then (once the translations have been made in the .po files) the phrases must be
 [Mono]: <http://www.mono-project.com/>
 [Python]: <https://www.python.org>
 [Pip]: <https://pip.pypa.io/en/stable/installing/>
+[django-sslserver]: <https://github.com/teddziuba/django-sslserver>
