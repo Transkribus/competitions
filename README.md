@@ -36,13 +36,19 @@ Follow the [Mono] installation instructions to install the library in other plat
 ##### p7zip
 Private test data / ground-truth can be uploaded in the form of a zipped file. Gzipped tarballs are handled with Python builtins, but 7z files require the p7zip package to be installed. In Ubuntu, install it with
 ```sh
-sudo apt-get install p7zip-full
+apt-get install p7zip-full
 ```
 ### Running
 
 Start the development server:
 ```sh
-python manage.py runserver
+python3 manage.py runserver
+```
+
+The previous command will allow you to test the server on your local machine.
+If you need to use the development server and be able to login from remote machines (note that security-wise this is not recommended), you can install the [django-sslserver] plugin for django, then start the server with:
+```sh
+python3 manage.py runsslserver --certificate /path/to/certificate.crt --key /path/to/key.key
 ```
 
 ### Internationalisation
