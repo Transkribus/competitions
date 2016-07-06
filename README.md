@@ -48,7 +48,7 @@ python3 manage.py runserver
 The previous command will allow you to test the server on your local machine.
 If you need to use the development server and be able to login from remote machines (note that security-wise this is not recommended), you can install the [django-sslserver] plugin for django, then start the server with:
 ```sh
-python3 manage.py runsslserver --certificate /path/to/certificate.crt --key /path/to/key.key
+python3 manage.py runsslserver 0.0.0.0:8000 --certificate /path/to/certificate.crt --key /path/to/key.key
 ```
 
 ### Internationalisation
