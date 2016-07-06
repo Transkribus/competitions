@@ -14,9 +14,9 @@
     {% trans "the" %} {{ competition.name }}
     {% else %} 
         {% if not subtrack %}
-        [{{ track.percomp_uniqueid }}]{{ track.name }} {% trans "track" %}
+        {% trans "all subtracks of the " %} [{{ track.percomp_uniqueid }}]{{ track.name }} {% trans "track" %}
         {% else %}
-        [{{ track.percomp_uniqueid }}.{{ subtrack.pertrack_uniqueid }}]{{ track.name }}/{{ subtrack.name }} {% trans "track/subtrack" %}
+        {% trans "the " %} [{{ track.percomp_uniqueid }}.{{ subtrack.pertrack_uniqueid }}]{{ track.name }}/{{ subtrack.name }} {% trans "track/subtrack" %}
         {% endif %}
     {% endif %}
 </h3>
