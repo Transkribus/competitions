@@ -15,6 +15,17 @@ from os import makedirs, system
 from shutil import rmtree, move, copyfile
 import tarfile, lzma
 
+def mergedict(a, b):
+	res = a.copy()
+	try:
+		for key, val in b.items():
+			if key in res:
+				res[key] += val
+			else:
+				res[key] = val
+	except AttributeError:
+		return NotImplemented
+	return res
 
 class Affiliation(models.Model):
 	name = models.CharField(max_length = 50)
@@ -67,12 +78,27 @@ class Track(models.Model):
             	params={'value': self.percomp_uniqueid},
         	)
 	def scoretable(self):
-		data = []
-		r = {
-			'ho': 'ho',
-		}
-		data.append(r)
-		return data
+		data = {}
+		for s in self.subtrack_set.all():
+			data = mergedict(data, s.scoretable())
+		res = []
+		#TODO: Largely copied this from views.py .. DRY
+		for key, val in data.items():
+			s = Submission.objects.filter(name=key)[0]
+			aff = set()
+			for subm in s.submitter.all():
+				for a in subm.affiliations.all():
+					aff.add(a)
+			newrow = {
+				'name': key,
+            	'method_info': s.method_info,
+            	'submitter': ', '.join(['{} {}'.format(subm.user.first_name, subm.user.last_name) for subm in s.submitter.all()]),
+   	        	'affiliation': ', '.join([a.name for a in aff]),
+				'score': val,
+	        }			
+			res.append(newrow)
+		print(res)			
+		return res
 
 def publicdata_path(instance, filename):
 	return 'databases/{}/{}'.format(uuid4().hex, filename)
@@ -159,6 +185,11 @@ class Subtrack(models.Model):
 			# rmtree(src)			
 			print("Deleting unpacked dir {} (actually just moved to {})".format(src, dst))
 			move(src, dst) #this is safer than rmtree.. !
+	def scoretable(self):
+		data = {}
+		for b in self.benchmark_set.all():
+			data = mergedict(data, b.scoretable(self.id))
+		return data
 
 def submission_path(instance, filename):
 	# file will be uploaded to MEDIA_ROOT/user_.../<datestamp>/<random unique identifier>/filename
@@ -197,6 +228,17 @@ class Benchmark(models.Model):
 	subtracks = models.ManyToManyField(Subtrack)
 	def __str__(self):
 		return '({}) {}'.format(self.id, self.name)
+	def scoretable(self, subtrack_id):
+		# Compute scores for this benchmark and the given subtrack
+		data = {}
+		subtrack = Subtrack.objects.get(pk=subtrack_id)
+		for submission in subtrack.submission_set.all():
+			#TODO: Add a check (possibly w/ a new model field)
+			# if we really want this benchmark to count on the total score
+			data[submission.name] = 0
+		#for b in self.benchmark_set.all():
+		#	data = data + b.scoretable(self.id)
+		return data
 
 
 class SubmissionStatus(models.Model):
