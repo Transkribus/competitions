@@ -27,6 +27,10 @@ def mergedict(a, b):
 		return NotImplemented
 	return res
 
+def argsort(seq):
+    # http://stackoverflow.com/questions/3071415/efficient-method-to-calculate-the-rank-vector-of-a-list-in-python
+    return sorted(range(len(seq)), key=seq.__getitem__)
+
 class Affiliation(models.Model):
 	name = models.CharField(max_length = 50)
 	#TODO: Use a unique identifier like in submission_path	
@@ -188,7 +192,10 @@ class Subtrack(models.Model):
 	def scoretable(self):
 		data = {}
 		for b in self.benchmark_set.all():
-			data = mergedict(data, b.scoretable(self.id))
+			#TODO: Add a check (possibly w/ a new model field)
+			# if we really want this benchmark to count on the total score
+			if(b.name=='map' or b.name=='p@5' or b.name=='ndcg' or b.name=='ndcg-binary'):	#temporary..cf TODO above	
+				data = mergedict(data, b.scoretable(self.id))
 		return data
 
 def submission_path(instance, filename):
@@ -230,14 +237,21 @@ class Benchmark(models.Model):
 		return '({}) {}'.format(self.id, self.name)
 	def scoretable(self, subtrack_id):
 		# Compute scores for this benchmark and the given subtrack
-		data = {}
+		res = {}
 		subtrack = Subtrack.objects.get(pk=subtrack_id)
 		for submission in subtrack.submission_set.all():
-			#TODO: Add a check (possibly w/ a new model field)
-			# if we really want this benchmark to count on the total score
-			data[submission.name] = 0
-		#for b in self.benchmark_set.all():
-		#	data = data + b.scoretable(self.id)
+			#TODO: What if there are multiple submissions under the same name ?
+			# For now, if this happens an error will fire
+			submission_status = SubmissionStatus.objects.filter(submission_id=submission.id).get(benchmark_id=self.id)
+			res[submission.name] = float(submission_status.numericalresult)
+		print(res)			
+		scores = [-s for s in list(res.values())]
+		sortedindices = argsort([ -s for s in list(res.values()) ])
+		print(sortedindices)
+		ranks = [0]*len(sortedindices)
+		for r in range(len(sortedindices)):
+			ranks[sortedindices[r]] = r+1
+		data = dict(zip(res.keys(), ranks))
 		return data
 
 
