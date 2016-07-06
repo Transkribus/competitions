@@ -147,7 +147,16 @@
                             {% endif %}
           				{% else %}
 					        {{ competition.overview | safe }}
-                            <a href="" class="btn btn-primary btn-xl">A button</a>
+                            <div class="row">
+                                <h3> {% trans "Submitted results" %}
+                                </h3>
+                                <div class="col-md-6">
+                                    <a href="" class="btn btn-primary btn-xl">{% trans "Scoreboard" %}</a>
+                                </div>
+                                <div class="col-md-6">
+                                    <a href="" class="btn btn-primary btn-xl">{% trans "Examine all submissions" %}</a>
+                                </div>                                
+                            </div>
 				        {% endif %}
                     {% endblock %}
                 </p>
