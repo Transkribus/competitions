@@ -13,7 +13,7 @@ import hashlib
 from os.path import basename, dirname, exists, splitext
 from os import makedirs, system
 from shutil import rmtree, move, copyfile
-import tarfile, lzma
+import tarfile
 
 def mergedict(a, b):
 	res = a.copy()
