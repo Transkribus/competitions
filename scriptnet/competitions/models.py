@@ -101,7 +101,6 @@ class Track(models.Model):
 				'score': val,
 	        }			
 			res.append(newrow)
-		print(res)			
 		return res
 
 def publicdata_path(instance, filename):
@@ -192,9 +191,8 @@ class Subtrack(models.Model):
 	def scoretable(self):
 		data = {}
 		for b in self.benchmark_set.all():
-			#TODO: Add a check (possibly w/ a new model field)
-			# if we really want this benchmark to count on the total score
-			if(b.name=='map' or b.name=='p@5' or b.name=='ndcg' or b.name=='ndcg-binary'):	#temporary..cf TODO above	
+			#if(b.name=='map' or b.name=='p@5' or b.name=='ndcg' or b.name=='ndcg-binary' or 
+			if(b in self.track.competition.benchmark_set.all()):	
 				data = mergedict(data, b.scoretable(self.id))
 		return data
 
@@ -221,7 +219,7 @@ class Submission(models.Model):
 
 class EvaluatorFunction(models.Model):
 	# The name of the callable 'evaluator' function is identical to the 'name' field of this model
-	# A function itself is (has to be) found in the 'evaluators.py' file.
+	# The function itself is (has to be) found in the 'evaluators.py' file.
 	name = models.SlugField(max_length = 50, null=False, blank=False, default="")
 	def __str__(self):
 		return '({}) {}'.format(self.id, self.name)
@@ -233,6 +231,7 @@ class Benchmark(models.Model):
 	evaluator_function = models.ForeignKey(EvaluatorFunction, on_delete = models.CASCADE, null=True)
 	benchmark_info = models.TextField(editable=True, default="")
 	subtracks = models.ManyToManyField(Subtrack)
+	countinscoreboard = models.ManyToManyField(Competition, blank=True)
 	def __str__(self):
 		return '({}) {}'.format(self.id, self.name)
 	def scoretable(self, subtrack_id):
@@ -243,11 +242,9 @@ class Benchmark(models.Model):
 			#TODO: What if there are multiple submissions under the same name ?
 			# For now, if this happens an error will fire
 			submission_status = SubmissionStatus.objects.filter(submission_id=submission.id).get(benchmark_id=self.id)
-			res[submission.name] = float(submission_status.numericalresult)
-		print(res)			
+			res[submission.name] = float(submission_status.numericalresult)		
 		scores = [-s for s in list(res.values())]
 		sortedindices = argsort([ -s for s in list(res.values()) ])
-		print(sortedindices)
 		ranks = [0]*len(sortedindices)
 		for r in range(len(sortedindices)):
 			ranks[sortedindices[r]] = r+1
