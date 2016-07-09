@@ -14,7 +14,7 @@ class UserAdmin(BaseUserAdmin):
     inlines = (IndividualInline, )
 
 class BenchmarkInline(admin.TabularInline):
-    model = Competition.countinscoreboard.through
+    model = Competition.count_in_scoreboard.through
     extra = 3
 
 class CompetitionAdmin(admin.ModelAdmin):

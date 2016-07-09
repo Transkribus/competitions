@@ -206,8 +206,8 @@ def viewresults(request, competition_id, track_id, subtrack_id):
             except:
                 newrow[nomen] = None
         data.append(newrow)
-    #Create the table, checking if we need to exclude some benchmarks from visualisation
-    extracolumns = [b.name for b in all_benchmarks if b.name.lower() != 'pr-curve']
+    #Create the table, excluding benchmarks that do not return a scalar value (e.g. pr-curve)
+    extracolumns = [b.name for b in all_benchmarks if b.is_scalar]
     if not subtrack:
         extracolumns.insert(0, 'subtrack')
     if not track:

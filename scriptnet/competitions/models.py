@@ -191,7 +191,7 @@ class Subtrack(models.Model):
 	def scoretable(self):
 		data = {}
 		for b in self.benchmark_set.all():
-			if(b in self.track.competition.countinscoreboard.all()):	
+			if(b in self.track.competition.count_in_scoreboard.all()):	
 				data = mergedict(data, b.scoretable(self.id))
 		return data
 
@@ -230,7 +230,8 @@ class Benchmark(models.Model):
 	evaluator_function = models.ForeignKey(EvaluatorFunction, on_delete = models.CASCADE, null=True)
 	benchmark_info = models.TextField(editable=True, default="")
 	subtracks = models.ManyToManyField(Subtrack)
-	countinscoreboard = models.ManyToManyField(Competition, blank=True, related_name="countinscoreboard")
+	count_in_scoreboard = models.ManyToManyField(Competition, blank=True, related_name="count_in_scoreboard")
+	is_scalar = models.BooleanField(default=True)
 	def __str__(self):
 		return '({}) {}'.format(self.id, self.name)
 	def scoretable(self, subtrack_id):
