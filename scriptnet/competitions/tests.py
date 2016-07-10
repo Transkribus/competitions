@@ -10,25 +10,26 @@ def create_competitions_tracks_subtracks(
         num_comps, 
         num_tracks_per_comp, 
         num_subtracks_per_track,
-        privatedata_filename='test_private_data.txt',
-        privatedata_filename_contents=b'This is test data',
+        sampledata_filename='test_private_data.txt',
+        sampledata_filename_contents=b'This is test data',
     ):
     """
     A helper function that creates test competitions, tracks and subtracks.
     Creates a set number of competitions, then the given number of tracks per competition,
     and the given number of subtracks per track.
     """
-    for cnum in range(1, num_comps):
+    for cnum in range(1, num_comps+1):
         comp = Competition.objects.create(name='Competition {}'.format(cnum))
         print('Created {}'.format(comp))
-        for tnum in range(1, num_tracks_per_comp):
+        for tnum in range(1, num_tracks_per_comp+1):
             track = Track.objects.create(name='Track {}'.format(tnum), competition=comp)
             print('Created {}'.format(track))
-            for snum in range(1, num_subtracks_per_track):
+            for snum in range(1, num_subtracks_per_track+1):
                 subtrack = Subtrack.objects.create(
                     name='Subtrack {}'.format(snum), 
                     track=track,
-                    private_data=SimpleUploadedFile(privatedata_filename, privatedata_filename_contents)
+                    public_data=SimpleUploadedFile(sampledata_filename, sampledata_filename_contents),
+                    private_data=SimpleUploadedFile(sampledata_filename, sampledata_filename_contents)
                 )
                 print('Created {}'.format(subtrack))
 
@@ -93,25 +94,7 @@ class ViewForwardTests(TestCase):
         self.assertEqual(response.status_code, 301)        
 
     def test_forward_competitions(self):
-        privatedata_filename='test_private_data.txt'
-        privatedata_filename_contents=b'This is test data'
-        num_comps = 3
-        num_tracks_per_comp = 3
-        num_subtracks_per_track = 3
-        for cnum in range(1, num_comps):
-            comp = Competition.objects.create(name='Competition {}'.format(cnum))
-            print('Created {}'.format(comp))
-            for tnum in range(1, num_tracks_per_comp):
-                track = Track.objects.create(name='Track {}'.format(tnum), competition=comp)
-                print('Created {}'.format(track))
-                for snum in range(1, num_subtracks_per_track):
-                    subtrack = Subtrack.objects.create(
-                        name='Subtrack {}'.format(snum), 
-                        track=track,
-                        private_data=SimpleUploadedFile(privatedata_filename, privatedata_filename_contents)
-                    )
-                    print('Created {}'.format(subtrack))        
-        show_all_competitions_tracks_subtracks()
+        create_competitions_tracks_subtracks(3, 3, 3)
         response = self.client.get('/competitions/1/')
         self.assertEqual(response.status_code, 200)        
         response = self.client.get('/competitions/1')
@@ -183,15 +166,28 @@ class ModelTests(TestCase):
         """
         Check that all track 'unique per competition ids' are indeed unique
         """
-        create_competitions_tracks_subtracks(3, 3, 3)
-        self.assertEqual(1, 0)
+        num_comps = 3
+        num_tracks = 3
+        create_competitions_tracks_subtracks(num_comps, num_tracks, 0)
+        self.assertEqual(len(Track.objects.all()), num_comps*num_tracks)
+        for t in Track.objects.all():
+            my_id = t.percomp_uniqueid
+            my_competition = t.competition
+            self.assertEqual(len(Track.objects.filter(competition=my_competition).filter(percomp_uniqueid=my_id)), 1)
 
     def test_subtrack_uniquepercomp_ids(self):
         """
         Check that all subtrack 'unique per competition ids' are indeed unique
         """
-        #create_competitions_tracks_subtracks(2, 2, 5)
-        self.assertEqual(1, 1)
+        num_comps = 2
+        num_tracks = 2
+        num_subtracks = 5
+        create_competitions_tracks_subtracks(num_comps, num_tracks, num_subtracks)
+        self.assertEqual(len(Subtrack.objects.all()), num_comps*num_tracks*num_subtracks)
+        for st in Subtrack.objects.all():
+            my_id = st.pertrack_uniqueid
+            my_track = st.track
+            self.assertEqual(len(Subtrack.objects.filter(track=my_track).filter(pertrack_uniqueid=my_id)), 1)
     
     def test_subtrack_files(self):
         """
