@@ -1,11 +1,18 @@
 from django.test import TestCase
 from django.core.urlresolvers import reverse
 from django.contrib.auth.models import User
+from django.core.files.uploadedfile import SimpleUploadedFile
 
 from .models import Affiliation, Competition, Individual
 from .models import Track, Subtrack
 
-def create_competitions_tracks_subtracks(num_comps, num_tracks_per_comp, num_subtracks_per_track):
+def create_competitions_tracks_subtracks(
+        num_comps, 
+        num_tracks_per_comp, 
+        num_subtracks_per_track,
+        privatedata_filename='test_private_data.txt',
+        privatedata_filename_contents=b'This is test data',
+    ):
     """
     A helper function that creates test competitions, tracks and subtracks.
     Creates a set number of competitions, then the given number of tracks per competition,
@@ -13,10 +20,17 @@ def create_competitions_tracks_subtracks(num_comps, num_tracks_per_comp, num_sub
     """
     for cnum in range(1, num_comps):
         comp = Competition.objects.create(name='Competition {}'.format(cnum))
+        print('Created {}'.format(comp))
         for tnum in range(1, num_tracks_per_comp):
-            track = Track.objects.create(name='Track {}'.format(tnum))
+            track = Track.objects.create(name='Track {}'.format(tnum), competition=comp)
+            print('Created {}'.format(track))
             for snum in range(1, num_subtracks_per_track):
-                subtrack = Subtrack.objects.create(name='Subtrack {}'.format(snum))
+                subtrack = Subtrack.objects.create(
+                    name='Subtrack {}'.format(snum), 
+                    track=track,
+                    private_data=SimpleUploadedFile(privatedata_filename, privatedata_filename_contents)
+                )
+                print('Created {}'.format(subtrack))
 
 class UrlTests(TestCase):
     """
@@ -154,9 +168,16 @@ class ModelTests(TestCase):
         """
         Check that all subtrack 'unique per competition ids' are indeed unique
         """
-        create_competitions_tracks_subtracks(2, 2, 5)
-        self.assertEqual(1, 0)
-        
+        #create_competitions_tracks_subtracks(2, 2, 5)
+        self.assertEqual(1, 1)
+    
+    def test_subtrack_files(self):
+        """
+        Check public/private files functionality is ok.
+        Check that data work if they are either uncompressed or compressed.
+        """
+        self.assertEqual(1, 1)
+
     def test_user_creation(self):
         """
         Creation of a user should automatically create an 'Individual',

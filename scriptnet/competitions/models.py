@@ -10,7 +10,7 @@ from uuid import uuid4
 from time import strftime
 import hashlib
 
-from os.path import basename, dirname, exists, splitext
+from os.path import basename, dirname, exists, splitext, join
 from os import makedirs, system
 from shutil import rmtree, move, copyfile
 import tarfile
@@ -73,14 +73,33 @@ class Track(models.Model):
 	competition = models.ForeignKey(Competition, on_delete = models.CASCADE)
 	def __str__(self):
 		return '({}) {}, part of {}'.format(self.id, self.name, self.competition.name)
-	def clean(self):
+	def uniqueid_isunique(self):
 		conflict_list = self.competition.track_set.filter(percomp_uniqueid=self.percomp_uniqueid)
 		for memb in conflict_list:
 			if self.id != memb.id:
-				raise ValidationError(
-            	_('%(value)s is not a unique track id for this competition'),
-            	params={'value': self.percomp_uniqueid},
-        	)
+				return False
+		return True
+	def get_next_uniqueid(self):
+		alltracks = self.competition.track_set.all()
+		if not alltracks:
+			return "1"
+		next_uniqueid = int(alltracks[0].percomp_uniqueid)
+		for t in alltracks:
+			current_uniqueid = int(t.percomp_uniqueid)
+			if current_uniqueid > next_uniqueid:
+				next_uniqueid = current_uniqueid
+		next_uniqueid += 1
+		return(str(next_uniqueid))		
+	def clean(self):
+		if not self.uniqueid_isunique():
+			raise ValidationError(
+            _('%(value)s is not a unique track id for this competition'),
+            params={'value': self.percomp_uniqueid},
+        )		
+	def save(self, *args, **kwargs):
+		if not self.uniqueid_isunique():
+			self.percomp_uniqueid = self.get_next_uniqueid()
+		super(Track, self).save(*args, **kwargs)
 	def scoretable(self):
 		data = {}
 		for s in self.subtrack_set.all():
@@ -124,20 +143,41 @@ class Subtrack(models.Model):
 	private_data_securehash = models.CharField(max_length=100, null=True, blank=True, default="")
 	def __str__(self):
 		return '({}) {}, part of {} / {}'.format(self.id, self.name, self.track.competition.name, self.track.name)
-	def clean(self):
+	def uniqueid_isunique(self):
 		conflict_list = self.track.subtrack_set.filter(pertrack_uniqueid=self.pertrack_uniqueid)
 		for memb in conflict_list:
 			if self.id != memb.id:
-				raise ValidationError(
-            	_('%(value)s is not a unique subtrack id for this track'),
-            	params={'value': self.pertrack_uniqueid},
-        	)		
+				return False
+		return True
+	def get_next_uniqueid(self):
+		allsubtracks = self.track.subtrack_set.all()
+		if not allsubtracks:
+			return "1"
+		next_uniqueid = int(allsubtracks[0].pertrack_uniqueid)
+		for st in allsubtracks:
+			current_uniqueid = int(st.pertrack_uniqueid)
+			if current_uniqueid > next_uniqueid:
+				next_uniqueid = current_uniqueid
+		next_uniqueid += 1
+		return(str(next_uniqueid))
+	def clean(self):
+		if not self.uniqueid_isunique():
+			raise ValidationError(
+            _('%(value)s is not a unique subtrack id for this track'),
+            params={'value': self.pertrack_uniqueid},
+        )		
 	def save(self, *args, **kwargs):
-		#Call super_save once to save the file
-		super(Subtrack, self).save(*args, **kwargs)
-		self.unpack_privatefolder()
-		#Call again super_save to save the new hash
-		super(Subtrack, self).save(*args, **kwargs)
+		dont_call_unpack_privatefolder = kwargs.pop('dont_call_unpack_privatefolder', False)
+		if not dont_call_unpack_privatefolder:
+			if not self.uniqueid_isunique():
+				self.pertrack_uniqueid = self.get_next_uniqueid()
+			#Call super_save once to save the file
+			super(Subtrack, self).save(*args, **kwargs)
+			self.unpack_privatefolder()
+			#Call again super_save to save the new hash
+			#self.save(justcall_super=True, *args, **kwargs)
+		else:
+			super(Subtrack, self).save(*args, **kwargs)
 
 	def delete(self, *args, **kwargs):
 		super(Subtrack, self).delete(*args, **kwargs)
@@ -176,8 +216,12 @@ class Subtrack(models.Model):
 				#Don't know how to unzip this, so we'll just copy it
 				if not exists(self.private_data_unpacked_folder()):
 					makedirs(self.private_data_unpacked_folder())
-				copyfile(self.private_data.name, self.private_data_unpacked_folder())
+				copyfile(
+					self.private_data.name, 
+					join(self.private_data_unpacked_folder(), basename(self.private_data.name))
+				)
 			print("Created folder on {}".format(self.private_data_unpacked_folder()))
+			self.save(dont_call_unpack_privatefolder=True)
 	def delete_unpacked_privatefolder(self):
 		#TODO: (non-major?) unpacked folder wont be deleted if the user uploads a new private test file,
 		#	as the securehash is changed and the old folder is 'lost'
