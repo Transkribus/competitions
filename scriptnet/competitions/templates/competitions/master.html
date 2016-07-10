@@ -177,7 +177,7 @@ Nam qualitates corporum non nisi per experimenta innotescunt, ideoque generales 
 				{% if competitions %}
 				{% for c in competitions %}
                 <div class="col-lg-3 col-sm-6 text-center">
-                    <a href="{{ c.id }}/" class="portfolio-box">
+                    <a href="{% url 'competition' competition_id=c.id %}" class="portfolio-box">
                         <img src="{% static 'img/nicesamples/1.jpg' %}" class="img-responsive" alt="">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">

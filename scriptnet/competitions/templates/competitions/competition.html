@@ -50,39 +50,39 @@
                     <span class="icon-bar"></span>
                 </button>
                 {% if user.is_authenticated %}
-                <a class="navbar-brand" href="{% url 'competition' %}#services"><small><small>{% trans "Logged in as" %} &nbsp;</small></small>{{ user.first_name }} {{ user.last_name }} </a>
+                <a class="navbar-brand" href="{% url 'index' %}#services"><small><small>{% trans "Logged in as" %} &nbsp;</small></small>{{ user.first_name }} {{ user.last_name }} </a>
                 <!--<a class="navbar-brand" href="{% url 'signout' %}"><small><small>[Logout]</small></small></a>
                 -->
                 {% else %}
-                <a class="navbar-brand" href="{% url 'competition' %}#services">ScriptNet</a>>
+                <a class="navbar-brand" href="{% url 'index' %}#services">ScriptNet</a>>
                 {% endif %}            
-            </div>                
+            </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
           		    <li>
-				        <a id="home" class="selected" href="{% url 'competition' %}{{ competition.id }}">{% trans "Competition home" %}</a>
+				        <a id="home" class="selected" href="{% url 'competition' competition_id=competition.id %}">{% trans "Competition home" %}</a>
 			        </li>
                     <li>
-                        <a id="home" class="" href="{% url 'competition' %}{{ competition.id }}/scoreboard">{% trans "Scoreboard" %}</a>
+                        <a id="home" class="" href="{% url 'scoreboard' competition_id=competition.id %}">{% trans "Scoreboard" %}</a>
 			        </li>
 			        {% for tr in competition.track_set.all %}
                 <li class="dropdown" id="t1{{ tr.percomp_uniqueid }}">
-                  <a href="{% url 'competition' %}{{ competition.id }}/{{ tr.percomp_uniqueid }}" style="display:inline-block;padding-right:0px;">{% trans "Track" %} {{ tr.percomp_uniqueid }}</a>
+                  <a href="{% url 'competition' competition_id=competition.id track_id=tr.percomp_uniqueid %}" style="display:inline-block;padding-right:0px;">{% trans "Track" %} {{ tr.percomp_uniqueid }}</a>
                   <a class="dropdown-toggle" data-toggle="dropdown" href="#subtracks"  style="display:inline-block;padding-left:0px;">
                     <b class="caret"></b> <!-- This caret shows a wrong url sometimes, but probably doesnt matter -->
                   </a>
                   <ul class="dropdown-menu">
 				          {% for subtr in tr.subtrack_set.all %}
 				          <li>
-  					        <a id="t{{ tr.percomp_uniqueid }}_{{ subtr.pertrack_uniqueid }}" href="{% url 'competition' %}{{ competition.id }}/{{ tr.percomp_uniqueid }}/{{ subtr.pertrack_uniqueid }}">{% trans "Subtrack" %} {{ tr.percomp_uniqueid }}.{{ subtr.pertrack_uniqueid }} </a>
+  					        <a id="t{{ tr.percomp_uniqueid }}_{{ subtr.pertrack_uniqueid }}" href="{% url 'competition' competition_id=competition.id track_id=tr.percomp_uniqueid subtrack_id=subtr.pertrack_uniqueid %}">{% trans "Subtrack" %} {{ tr.percomp_uniqueid }}.{{ subtr.pertrack_uniqueid }} </a>
 	  			        </li>
 				          {% endfor %}
                   </ul>
                 </li>                     
 			        {% endfor %}
                     <li>
-                        <a id="current_level_submissions" href="{% url 'competition' %}{{ competition.id }}{% if track %}/{% endif %}{{ track.percomp_uniqueid }}{% if subtrack %}/{% endif %}{{ subtrack.pertrack_uniqueid }}/viewresults">{% trans "View all submissions for this " %}
+                        <a id="current_level_submissions" href="{% url 'index' %}{{ competition.id }}{% if track %}/{% endif %}{{ track.percomp_uniqueid }}{% if subtrack %}/{% endif %}{{ subtrack.pertrack_uniqueid }}/viewresults/">{% trans "View all submissions for this " %}
                         {% if not subtrack %}
                             {% if not track %}
                                 {% trans "competition" %}
@@ -141,11 +141,11 @@
       							    <li><a href="{{ subtrack.public_data.url }}">{% trans "Download training set" %}</a></li>
                                     {% endif %}
                                     {% if user.is_authenticated %}
-        							<li><a href="{% url 'competition' %}{{ competition.id }}/{{ track.percomp_uniqueid }}/{{ subtrack.pertrack_uniqueid }}/submit">{% trans "Submit a new method for evaluation" %}</a></li>
+        							<li><a href="{% url 'submit' competition_id=competition.id track_id=track.percomp_uniqueid subtrack_id=subtrack.pertrack_uniqueid %}">{% trans "Submit a new method for evaluation" %}</a></li>
                                     {% else %}
-                                    <li>{% trans "Submit a new method for evaluation" %} ({% trans "you have to" %} <a href="{% url 'competition' %}#login">{% trans "login </a> first" %})</li>
+                                    <li>{% trans "Submit a new method for evaluation" %} ({% trans "you have to" %} <a href="{% url 'index' %}#login">{% trans "login </a> first" %})</li>
                                     {% endif %}
-        							<li><a href="{% url 'competition' %}{{ competition.id }}/{{ track.percomp_uniqueid }}/{{ subtrack.pertrack_uniqueid }}/viewresults">{% trans "View results for all available methods" %}</a></li>
+        							<li><a href="{% url 'viewresults' competition_id=competition.id track_id=track.percomp_uniqueid subtrack_id=subtrack.pertrack_uniqueid %}">{% trans "View results for all available methods" %}</a></li>
       							</ul>
         					{% else %}
                                 {% if track.subtrack_set.all %}
@@ -153,7 +153,7 @@
                                     <ul>
                                     {% for subtr in track.subtrack_set.all %}
                                     <li> {% trans "Subtrack" %} {{ track.percomp_uniqueid }}.{{ subtr.pertrack_uniqueid }}: 
-                                        <a href="{% url 'competition' %}{{ competition.id }}/{{ track.percomp_uniqueid }}/{{ subtr.pertrack_uniqueid }}">{{ subtr.name }}</a> 
+                                        <a href="{% url 'competition' competition_id=competition.id track_id=track.percomp_uniqueid subtrack_id=subtr.pertrack_uniqueid %}">{{ subtr.name }}</a> 
                                         </li>
                                     {% endfor %}
                                     </ul>
