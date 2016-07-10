@@ -32,6 +32,11 @@ def create_competitions_tracks_subtracks(
                 )
                 print('Created {}'.format(subtrack))
 
+def show_all_competitions_tracks_subtracks():
+    print(Competition.objects.all())
+    print(Track.objects.all())
+    print(Subtrack.objects.all())
+
 class UrlTests(TestCase):
     """
     Check that the regexps in urls.py match to what we should expect
@@ -88,20 +93,37 @@ class ViewForwardTests(TestCase):
         self.assertEqual(response.status_code, 301)        
 
     def test_forward_competitions(self):
-        create_competitions_tracks_subtracks(1, 1, 1)
-        response = self.client.get('/competitions/1/1/1/')
-        self.assertEqual(response.status_code, 200)
-        response = self.client.get('/competitions/1/1/1')
-        self.assertEqual(response.status_code, 301)
-        response = self.client.get('/competitions/1/1/')
-        self.assertEqual(response.status_code, 200)        
-        response = self.client.get('/competitions/1/1')
-        self.assertEqual(response.status_code, 301)        
+        privatedata_filename='test_private_data.txt'
+        privatedata_filename_contents=b'This is test data'
+        num_comps = 3
+        num_tracks_per_comp = 3
+        num_subtracks_per_track = 3
+        for cnum in range(1, num_comps):
+            comp = Competition.objects.create(name='Competition {}'.format(cnum))
+            print('Created {}'.format(comp))
+            for tnum in range(1, num_tracks_per_comp):
+                track = Track.objects.create(name='Track {}'.format(tnum), competition=comp)
+                print('Created {}'.format(track))
+                for snum in range(1, num_subtracks_per_track):
+                    subtrack = Subtrack.objects.create(
+                        name='Subtrack {}'.format(snum), 
+                        track=track,
+                        private_data=SimpleUploadedFile(privatedata_filename, privatedata_filename_contents)
+                    )
+                    print('Created {}'.format(subtrack))        
+        show_all_competitions_tracks_subtracks()
         response = self.client.get('/competitions/1/')
         self.assertEqual(response.status_code, 200)        
         response = self.client.get('/competitions/1')
         self.assertEqual(response.status_code, 301)        
-
+        response = self.client.get('/competitions/1/1/')
+        self.assertEqual(response.status_code, 200)        
+        response = self.client.get('/competitions/1/1')
+        self.assertEqual(response.status_code, 301)                
+        response = self.client.get('/competitions/1/1/1/')
+        self.assertEqual(response.status_code, 200)
+        response = self.client.get('/competitions/1/1/1')
+        self.assertEqual(response.status_code, 301)
 
 class ViewReverseTests(TestCase):
     """
