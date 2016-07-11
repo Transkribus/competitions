@@ -141,6 +141,59 @@ class ViewReverseTests(TestCase):
         )
         self.assertEqual(response.status_code, 404)
 
+    def test_reverse_competition(self):
+        create_competitions_tracks_subtracks(1, 2, 2)
+        response = self.client.get(reverse('competition', 
+            kwargs={
+                'competition_id':'1', 
+                'track_id':'2', 
+                'subtrack_id':'1',
+                }
+            )
+        )
+        self.assertEqual(response.status_code, 200)
+
+    def test_reverse_viewresults_nosubmissions(self):
+        """
+        TODO: Do the same after having created some submissions
+        """
+        create_competitions_tracks_subtracks(1, 2, 2)
+        response = self.client.get(reverse('viewresults', 
+            kwargs={
+                'competition_id':'1', 
+                'track_id':'2', 
+                'subtrack_id':'1',
+                }
+            )
+        )
+        self.assertEqual(response.status_code, 200)
+
+    def test_reverse_scoreboard_nosubmissions(self):
+        """
+        TODO: Do the same after having created some submissions
+        """        
+        create_competitions_tracks_subtracks(1, 2, 2)
+        response = self.client.get(reverse('scoreboard', 
+            kwargs={
+                'competition_id':'1', 
+                }
+            )
+        )
+        self.assertEqual(response.status_code, 200)
+
+    def test_reverse_submit(self):
+        create_competitions_tracks_subtracks(1, 2, 2)
+        response = self.client.get(reverse('submit', 
+            kwargs={
+                'competition_id':'1', 
+                'track_id':'2', 
+                'subtrack_id':'1',                
+                }
+            )
+        )
+        self.assertEqual(response.status_code, 200)        
+    
+
 class ModelTests(TestCase):
     def test_affiliation_creation(self):
         """
@@ -224,32 +277,6 @@ class EvaluatorTests(TestCase):
             'ndcg-binary': '0.6817'
             }
         )
-
-class ViewTests(TestCase):
-    """
-    Tests that check that all views work, after having created
-    having populated the dbase with competitions/tracks/subtracks
-    """    
-    def test_competitionview(self):
-        """
-        Check that the competitions view should return sth
-        when there _are_ registered competitions
-        """
-        self.assertEqual(1, 1)
-
-    def test_trackview(self):
-        """
-        Check that the track view should return sth
-        when there _are_ tracks in a competition
-        """
-        self.assertEqual(1, 1)
-
-    def test_subtrackview(self):
-        """
-        Check that the subtrack view should return sth
-        when there _are_ subtracks in a track
-        """
-        self.assertEqual(1, 1)
 
 class AuthenticationTests(TestCase):
     def test_login_unknown_user(self):
