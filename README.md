@@ -2,7 +2,7 @@
 
 The competitions site for the [READ] project, written in [Python] / [Django].
 
-### Requirements & Installation
+### Requirements, installation & testing
 [Python], [Django], [Django-Bootstrap3] and [Django-Tables2] need to be installed.
 
 #### Python and Pip
@@ -38,6 +38,13 @@ Private test data / ground-truth can be uploaded in the form of a zipped file. G
 ```sh
 apt-get install p7zip-full
 ```
+
+#### Testing
+Run the tests to make sure everything is ok with
+```sh
+python3 manage.py test competitions
+```
+
 ### Running
 
 Start the development server:
