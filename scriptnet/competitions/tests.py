@@ -6,6 +6,8 @@ from django.core.files.uploadedfile import SimpleUploadedFile
 from .models import Affiliation, Competition, Individual
 from .models import Track, Subtrack
 
+from .evaluators import icfhr14_kws_tool
+
 def create_competitions_tracks_subtracks(
         num_comps, 
         num_tracks_per_comp, 
@@ -210,10 +212,18 @@ class ModelTests(TestCase):
         self.assertEqual(len(iq), 1)
 
 class EvaluatorTests(TestCase):
-    #TODO: check that all available benchmarks run, and that they give 
-    # the results that is expected for a preset dataset.
-    def test_evaluator_prwto(self):
-        self.assertEqual(1, 1)
+    def test_icfhr14_kws_tool(self):
+        res = icfhr14_kws_tool()
+        self.assertEqual(res, {
+            'pr-curve': '["1.0000", "1.0000", "1.0000", "1.0000", "1.0000", "0.6667", "0.0000", "0.0000", "0.0000", "0.0000", "0.0000"]', 
+            'p@5': '0.9000', 
+            'r-precision': '0.5000', 
+            'map': '0.5185', 
+            'ndcg': '0.6395', 
+            'p@10': '0.5000', 
+            'ndcg-binary': '0.6817'
+            }
+        )
 
 class ViewTests(TestCase):
     """

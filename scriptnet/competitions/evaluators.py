@@ -7,7 +7,7 @@ from django.conf import settings
 from random import random
 from time import sleep
 from os import listdir
-from os.path import splitext
+from os.path import splitext, isdir
 from subprocess import PIPE, Popen
 from json import dumps
 import re
@@ -68,18 +68,16 @@ def random_numbers(*args, **kwargs):
 def icfhr14_kws_tool(*args, **kwargs):
     executable_folder = '{}/competitions/executables/VCGEvalConsole.linux'.format(settings.BASE_DIR)    
     resultdata = kwargs.pop('resultdata', '{}/WordSpottingResultsSample.xml'.format(executable_folder))
-    privatedatafolder = kwargs.pop('privatedata', '{}/GroundTruthRelevanceJudgementsSample.xml'.format(executable_folder))
+    privatedata = kwargs.pop('privatedata', '{}/GroundTruthRelevanceJudgementsSample.xml'.format(executable_folder))
     n_xml = 0
-    for fn in listdir(privatedatafolder):
-        print(fn)
-        fn_base, fn_ext = splitext(fn)
-        print(fn_base)
-        print(fn_ext)
-        if(fn_ext.lower() == '.xml'):
-            n_xml = n_xml + 1
-            privatedata = '{}{}'.format(privatedatafolder, fn)
-    print(privatedata)
-    print(resultdata)    
+    if isdir(privatedata):
+        for fn in listdir(privatedata):
+            fn_base, fn_ext = splitext(fn)
+            if(fn_ext.lower() == '.xml'):
+                n_xml = n_xml + 1
+                privatedata = '{}{}'.format(privatedata, fn)
+    else:
+        n_xml = 1
 
     if(n_xml != 1):
         raise IOError('The private data folder does not contain exactly one ground-truth file')
