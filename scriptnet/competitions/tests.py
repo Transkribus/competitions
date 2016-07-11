@@ -6,7 +6,9 @@ from django.core.files.uploadedfile import SimpleUploadedFile
 from .models import Affiliation, Competition, Individual
 from .models import Track, Subtrack
 
+from .evaluators import cmdline
 from .evaluators import icfhr14_kws_tool
+
 
 def create_competitions_tracks_subtracks(
         num_comps, 
@@ -296,3 +298,7 @@ class FormTests(TestCase):
         self.assertEqual(1, 1)
     def test_submitresultform(self):
         self.assertEqual(1, 1)
+
+class ThirdpartyTests(TestCase):
+    def test_p7zip(self):
+        self.assertIn('p7zip Version', cmdline('7z'))
