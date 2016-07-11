@@ -286,7 +286,8 @@ class Benchmark(models.Model):
 			#TODO: What if there are multiple submissions under the same name ?
 			# For now, if this happens an error will fire
 			submission_status = SubmissionStatus.objects.filter(submission_id=submission.id).get(benchmark_id=self.id)
-			res[submission.name] = float(submission_status.numericalresult)		
+			if submission_status.numericalresult and submission_status.status == 'COMPLETE':
+				res[submission.name] = float(submission_status.numericalresult)		
 		scores = [-s for s in list(res.values())]
 		sortedindices = argsort([ -s for s in list(res.values()) ])
 		ranks = [0]*len(sortedindices)
