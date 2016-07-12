@@ -301,4 +301,4 @@ class FormTests(TestCase):
 
 class ThirdpartyTests(TestCase):
     def test_p7zip(self):
-        self.assertIn('p7zip Version', cmdline('7z'))
+        self.assertIn('p7zip Version', cmdline('7zr'))

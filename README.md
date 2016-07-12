@@ -36,7 +36,7 @@ Follow the [Mono] installation instructions to install the library in other plat
 ##### p7zip
 Private test data / ground-truth can be uploaded in the form of a zipped file. Gzipped tarballs are handled with Python builtins, but 7z files require the p7zip package to be installed. In Ubuntu, install it with
 ```sh
-apt-get install p7zip-full
+apt-get install p7zip
 ```
 
 #### Testing
