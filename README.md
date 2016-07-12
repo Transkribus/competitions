@@ -138,6 +138,11 @@ ln -s /etc/nginx/sites-available/scriptnet
 
 Be sure to replace names, files and paths in the above with the respective values for your system.
 For example, change ```sfikas``` to whatever is the name of your non-admin user.
+Change the respective lines in ```settings.py``` to read as:
+```sh
+DEBUG = False
+ALLOWED_HOSTS = ['*']
+```
 Finally, after making sure that everything is in place, you can start the server with
 ```sh
 service start uwsgi
