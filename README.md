@@ -47,6 +47,8 @@ python3 manage.py test competitions
 
 ### Running
 
+#### Running on development
+
 Start the development server:
 ```sh
 python3 manage.py runserver
@@ -57,6 +59,91 @@ If you need to use the development server and be able to login from remote machi
 ```sh
 python3 manage.py runsslserver 0.0.0.0:8000 --certificate /path/to/certificate.crt --key /path/to/key.key
 ```
+
+#### Running on production
+
+To run the production server, you'll need to install [uWSGI] and [nginx].
+Follow the [links] to find tutorials on how to use each one with the rest of the Django+uWSGI+nginx stack.
+
+The configuration files you'll need before running uWSGI/nginx are:
+
+###### /etc/uwsgi/sites/scriptnet.ini
+```sh
+[uwsgi]
+project = scriptnet
+base = /home/sfikas/CODE/competitions
+
+chdir = %(base)/%(project)
+module = %(project).wsgi:application
+
+master = true
+processes = 5
+
+socket = %(base)/%(project)/%(project)/%(project).sock
+chmod-socket = 664
+vacuum = true
+
+daemonize = /var/log/uwsgi/%(project).log
+```
+Note that your non-privileged user will need to have write permission in ```/var/log/uwsgi/```.
+
+###### /etc/init/uwsgi.conf
+```sh
+description "uWSGI application server in Emperor mode"
+
+start on runlevel [2345]
+stop on runlevel [!2345]
+
+setuid sfikas
+setgid www-data
+
+exec /usr/local/bin/uwsgi --emperor /etc/uwsgi/sites
+```
+
+###### /etc/nginx/sites-available/scriptnet
+
+```sh
+server {
+    listen          0.0.0.0:8000 ssl;
+    server_name     www.example.com;
+    access_log      /var/log/nginx/portoheli.iit.demokritos.gr_access.log combined;
+    error_log       /var/log/nginx/portoheli.iit.demokritos.gr_error.log error;
+
+    ssl_certificate         /etc/nginx/ssl/x.crt;
+    ssl_certificate_key     /etc/nginx/ssl/x.key;
+
+    location = /favicon.ico { access_log off; log_not_found off; }
+
+    location /static/ {
+        root /home/sfikas/CODE/competitions/scriptnet;
+    }
+
+    location / {
+        include         /etc/nginx/uwsgi_params;
+        uwsgi_pass      unix:/home/sfikas/CODE/competitions/scriptnet/scriptnet/scriptnet.sock;
+        uwsgi_param Host $host;
+        uwsgi_param X-Real-IP $remote_addr;
+        uwsgi_param X-Forwarded-For $proxy_add_x_forwarded_for;
+        uwsgi_param X-Forwarded-Proto $http_x_forwarded_proto;
+    }
+
+}
+```
+
+For this file, you'll need to create a symbolic link with
+```sh
+cd /etc/nginx/sites-enabled
+ln -s /etc/nginx/sites-available/scriptnet
+```
+
+Be sure to replace names, files and paths in the above with the respective values for your system.
+For example, change ```sfikas``` to whatever is the name of your non-admin user.
+Finally, after making sure that everything is in place, you can start the server with
+```sh
+service start uwsgi
+service start nginx
+```
+
 
 ### Internationalisation
 
@@ -108,3 +195,6 @@ Then (once the translations have been made in the .po files) the phrases must be
 [Python]: <https://www.python.org>
 [Pip]: <https://pip.pypa.io/en/stable/installing/>
 [django-sslserver]: <https://github.com/teddziuba/django-sslserver>
+[uWSGI]: <http://uwsgi-docs.readthedocs.io/en/latest/tutorials/Django_and_nginx.html>
+[nginx]: <https://www.nginx.com/resources/admin-guide/gateway-uwsgi-django/>
+[links]: <https://www.digitalocean.com/community/tutorials/how-to-serve-django-applications-with-uwsgi-and-nginx-on-ubuntu-14-04>
