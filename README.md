@@ -143,7 +143,12 @@ Change the respective lines in ```settings.py``` to read as:
 DEBUG = False
 ALLOWED_HOSTS = ['*']
 ```
-Finally, after making sure that everything is in place, you can start the server with
+
+Finally, after making sure that everything is in place, copy static files to ```STATIC_ROOT``` with
+```sh
+python3 manage.py collectstatic
+```
+and start the server with
 ```sh
 service start uwsgi
 service start nginx
