@@ -8,6 +8,6 @@ env:
     - REPO="scriptnet"
     - CI_HOME=`pwd`/$REPO  
 install: 
- - pip3 install Django==$DJANGO_VERSION --use-mirrors
- - pip3 install django-bootstrap3 django_tables2 --use-mirrors
+  - pip3 install Django==$DJANGO_VERSION --use-mirrors
+  - pip3 install django-bootstrap3 django_tables2 --use-mirrors
 script: python3 manage.py test competitions
