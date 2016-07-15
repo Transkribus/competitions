@@ -86,8 +86,6 @@ def icfhr14_kws_tool(*args, **kwargs):
     commandline = '{} {} {}'.format(executable, privatedata, resultdata)
     command_output = cmdline(commandline)
 
-    print(command_output)
-    
     rgx = r'ALL QUERIES\s+([\d\.]+)\s+([\d\.]+)\s+([\d\.]+)\s+([\d\.]+)\s+([\d\.]+)\s+([\d\.]+)\s+([\d\.]+)\s+([\d\.]+)\s+([\d\.]+)\s+([\d\.]+)\s+([\d\.]+)\s+([\d\.]+)\s+([\d\.]+)\s+([\d\.]+)\s+([\d\.]+)\s+([\d\.]+)\s+([\d\.]+)'
     r = re.search(rgx, command_output) 
     result = {
