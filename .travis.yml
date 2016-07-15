@@ -4,9 +4,7 @@ python:
 env:
   - DJANGO_VERSION=1.8
   - DJANGO_VERSION=1.9
-  global:
-    - REPO="scriptnet"
-    - CI_HOME=`pwd`/$REPO  
+before_install: cd scriptnet
 install: 
   - pip3 install Django==$DJANGO_VERSION --use-mirrors
   - pip3 install django-bootstrap3 django_tables2 --use-mirrors
