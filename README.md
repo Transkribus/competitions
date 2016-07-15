@@ -43,6 +43,7 @@ apt-get install p7zip
 Run the tests to make sure everything is ok with
 ```sh
 python3 manage.py test competitions
+git clean -df
 ```
 
 ### Running
