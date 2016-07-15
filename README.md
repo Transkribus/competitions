@@ -1,5 +1,7 @@
 # ScriptNet Competitions
 
+[![Build Status](https://travis-ci.org/Transkribus/competitions.svg?branch=master)](https://travis-ci.org/Transkribus/competitions)
+
 The competitions site for the [READ] project, written in [Python] / [Django].
 
 ### Requirements, installation & testing
