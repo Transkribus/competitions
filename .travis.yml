@@ -5,8 +5,8 @@ python:
   - "3.5"
   - "nightly"
 env:
-  - DJANGO_VERSION=1.8
   - DJANGO_VERSION=1.9
+  - DJANGO_VERSION=1.10rc1
 before_install: 
   - set -ev
   - sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 3FA7E0328081BFF6A14DA29AA6A19B38D3D831EF
