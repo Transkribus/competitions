@@ -98,3 +98,18 @@ def icfhr14_kws_tool(*args, **kwargs):
         'pr-curve':         dumps([r.group(7), r.group(8), r.group(9), r.group(10), r.group(11), r.group(12), r.group(13), r.group(14), r.group(15), r.group(16), r.group(17)])
     }
     return result
+
+def transkribusBaselineMetricTool(*args, **kwargs):
+    executable_folder = '{}/competitions/executables/TranskribusBaseLineMetricTool'.format(settings.BASE_DIR)    
+    resultdata = kwargs.pop('resultdata', '{}/reco.lst'.format(executable_folder))
+    privatedata = kwargs.pop('privatedata', '{}/truth.lst'.format(executable_folder))
+
+    executable = 'java -jar {}/baselineTool.jar'.format(executable_folder)
+    commandline = '{} {} {}'.format(executable, privatedata, resultdata)
+    command_output = cmdline(commandline)
+
+    print(command_output)
+    result = {
+        'a': 0,
+    }
+    return result
