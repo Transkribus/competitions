@@ -13,6 +13,7 @@ from subprocess import PIPE, Popen
 from uuid import uuid4
 from json import dumps
 import re
+import tarfile
 
 temporary_folder = '/tmp/'
 
@@ -120,10 +121,16 @@ def transkribusBaseLineMetricTool(*args, **kwargs):
         #Hence we have to create a temporary folder and copy everything there
         newfolder = '{}{}/'.format(temporary_folder, uuid4().hex)
         makedirs(newfolder)
-        for filename in listdir(resultdata):
-            full_filename = join(resultdata, filename)
-            target_filename = join(newfolder, filename)
-            copyfile(full_filename, target_filename)
+        if(isdir(resultdata)):
+            for filename in listdir(resultdata):
+                full_filename = join(resultdata, filename)
+                target_filename = join(newfolder, filename)
+                copyfile(full_filename, target_filename)
+        else:
+            #If it is a file, it must be a tarball, or else raise an error 
+            tar = tarfile.open(resultdata)
+            tar.extractall(newfolder)
+            tar.close()
         for filename in listdir(privatedata):
             full_filename = join(privatedata, filename)
             target_filename = join(newfolder, filename)
