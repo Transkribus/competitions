@@ -16,6 +16,6 @@ before_install:
   - sudo apt-get install p7zip -y
   - cd scriptnet
 install: 
-  - pip3 install Django==$DJANGO_VERSION --use-mirrors
-  - pip3 install django-bootstrap3 django_tables2 --use-mirrors
-script: python3 manage.py test competitions
+  - pip install Django==$DJANGO_VERSION
+  - pip install django-bootstrap3 django_tables2
+script: python manage.py test competitions
