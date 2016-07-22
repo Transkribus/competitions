@@ -7,8 +7,8 @@ from django.conf import settings
 from random import random
 from time import sleep
 from os import listdir, makedirs
-from os.path import splitext, isdir
-from shutil import copyfile
+from os.path import splitext, isdir, join
+from shutil import copyfile, rmtree
 from subprocess import PIPE, Popen
 from uuid import uuid4
 from json import dumps
@@ -107,25 +107,35 @@ def icfhr14_kws_tool(*args, **kwargs):
 
 def transkribusBaselineMetricTool(*args, **kwargs):
     executable_folder = '{}/competitions/executables/TranskribusBaseLineMetricTool'.format(settings.BASE_DIR)    
-    resultdata = kwargs.pop('resultdata', 'reco.lst')
-    privatedata = kwargs.pop('privatedata', 'truth.lst')
+    #resultdata = kwargs.pop('resultdata', 'reco.lst')
+    resultdata = kwargs.pop('resultdata', executable_folder)
+    #privatedata = kwargs.pop('privatedata', 'truth.lst')
+    privatedata = kwargs.pop('privatedata', executable_folder)
 
+    executable_jar = 'baselineTool.jar'
     if(isdir(privatedata)):
         #This is the non-test scenario
         #Hence we have to create a temporary folder and copy everything there
         newfolder = '{}{}/'.format(temporary_folder, uuid4().hex)
         makedirs(newfolder)
-        #TODO: Copy all files from resultdata folder to newfolder
-        #TODO: Copy all files from privatedata folder to newfolder
-        #TODO: Copy executable to newfolder
+        for filename in listdir(resultdata):
+            full_filename = join(resultdata, filename)
+            target_filename = join(newfolder, filename)
+            copyfile(full_filename, target_filename)
+        for filename in listdir(privatedata):
+            full_filename = join(privatedata, filename)
+            target_filename = join(newfolder, filename)
+            copyfile(full_filename, target_filename)
+        copyfile(join(executable_folder, executable_jar), join(newfolder, executable_jar))
         executable_folder = newfolder
         resultdata = '{}reco.lst'.format(newfolder)
         privatedata = '{}truth.lst'.format(newfolder)
-                
-    executable = 'java -jar baselineTool.jar'
+   
+    executable = 'java -jar {}'.format(executable_jar)
     commandline = '{} {} {}'.format(executable, privatedata, resultdata)
     command_output = cmdline(commandline, cwd=executable_folder)
 
+    rmtree(newfolder)
     print(command_output)
     rgx = r'Avg \(over Pages\) Avg Precision: ([\d\.]+)\nAvg \(over Pages\) Avg Recall: ([\d\.]+)\nAvg \(over Pages\) Avg F-Measure: ([\d\.]+)'
     r = re.search(rgx, command_output)     
