@@ -105,7 +105,7 @@ def icfhr14_kws_tool(*args, **kwargs):
     }
     return result
 
-def transkribusBaselineMetricTool(*args, **kwargs):
+def transkribusBaseLineMetricTool(*args, **kwargs):
     executable_folder = '{}/competitions/executables/TranskribusBaseLineMetricTool'.format(settings.BASE_DIR)    
     #resultdata = kwargs.pop('resultdata', 'reco.lst')
     resultdata = kwargs.pop('resultdata', executable_folder)
@@ -114,6 +114,8 @@ def transkribusBaselineMetricTool(*args, **kwargs):
 
     executable_jar = 'baselineTool.jar'
     if(isdir(privatedata)):
+        print(resultdata)
+        print(privatedata)
         #This is the non-test scenario
         #Hence we have to create a temporary folder and copy everything there
         newfolder = '{}{}/'.format(temporary_folder, uuid4().hex)

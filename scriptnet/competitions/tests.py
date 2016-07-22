@@ -279,8 +279,8 @@ class EvaluatorTests(TestCase):
             'ndcg-binary': '0.6817'
             }
         )
-    def test_transkribusBaselineMetricTool(self):
-        res = transkribusBaselineMetricTool()
+    def test_transkribusBaseLineMetricTool(self):
+        res = transkribusBaseLineMetricTool()
         self.assertEqual(res, {
                 'bl-avg-precision': '0.744',
                 'bl-avg-recall': '0.7586',
