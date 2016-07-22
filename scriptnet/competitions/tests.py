@@ -282,9 +282,9 @@ class EvaluatorTests(TestCase):
     def test_transkribusBaselineMetricTool(self):
         res = transkribusBaselineMetricTool()
         self.assertEqual(res, {
-                'bl-avg-precision': 0,
-                'bl-avg-recall': 0,
-                'bl-avg-fmeasure': 0,
+                'bl-avg-precision': '0.744',
+                'bl-avg-recall': '0.7586',
+                'bl-avg-fmeasure': '0.7512',
             }
         )
 

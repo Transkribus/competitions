@@ -109,12 +109,14 @@ def transkribusBaselineMetricTool(*args, **kwargs):
 
     executable = 'java -jar baselineTool.jar'
     commandline = '{} {} {}'.format(executable, privatedata, resultdata)
-    command_output = cmdline(commandline)
+    command_output = cmdline(commandline, cwd=executable_folder)
 
     print(command_output)
+    rgx = r'Avg \(over Pages\) Avg Precision: ([\d\.]+)\nAvg \(over Pages\) Avg Recall: ([\d\.]+)\nAvg \(over Pages\) Avg F-Measure: ([\d\.]+)'
+    r = re.search(rgx, command_output)     
     result = {
-        'bl-avg-precision': 0,
-        'bl-avg-recall': 0,
-        'bl-avg-fmeasure': 0,
+        'bl-avg-precision': r.group(1),
+        'bl-avg-recall':    r.group(2),
+        'bl-avg-fmeasure':  r.group(3),
     }
     return result
