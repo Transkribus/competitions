@@ -7,7 +7,7 @@ from .models import Affiliation, Competition, Individual
 from .models import Track, Subtrack
 
 from .evaluators import cmdline
-from .evaluators import icfhr14_kws_tool
+from .evaluators import icfhr14_kws_tool, transkribusBaselineMetricTool
 
 
 def create_competitions_tracks_subtracks(
@@ -277,6 +277,14 @@ class EvaluatorTests(TestCase):
             'ndcg': '0.6395', 
             'p@10': '0.5000', 
             'ndcg-binary': '0.6817'
+            }
+        )
+    def test_transkribusBaselineMetricTool(self):
+        res = transkribusBaselineMetricTool()
+        self.assertEqual(res, {
+                'bl-avg-precision': 0,
+                'bl-avg-recall': 0,
+                'bl-avg-fmeasure': 0,
             }
         )
 
