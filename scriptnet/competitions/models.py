@@ -273,7 +273,7 @@ class Benchmark(models.Model):
 	name = models.CharField(max_length = 50, null=False, blank=False, default="")
 	evaluator_function = models.ForeignKey(EvaluatorFunction, on_delete = models.CASCADE, null=True)
 	benchmark_info = models.TextField(editable=True, default="")
-	subtracks = models.ManyToManyField(Subtrack)
+	subtracks = models.ManyToManyField(Subtrack, blank=True)
 	count_in_scoreboard = models.ManyToManyField(Competition, blank=True, related_name="count_in_scoreboard")
 	is_scalar = models.BooleanField(default=True)
 	def __str__(self):
