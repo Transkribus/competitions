@@ -110,6 +110,8 @@ def transkribusBaselineMetricTool(*args, **kwargs):
 
     print(command_output)
     result = {
-        'a': 0,
+        'bl-avg-precision': 0,
+        'bl-avg-recall': 0,
+        'bl-avg-fmeasure': 0,
     }
     return result
