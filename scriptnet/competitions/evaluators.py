@@ -13,13 +13,16 @@ from json import dumps
 import re
 
 
-def cmdline(command):
+def cmdline(command, *args, **kwargs):
     # http://stackoverflow.com/questions/3503879/assign-output-of-os-system-to-a-variable-and-prevent-it-from-being-displayed-on    
     # http://stackoverflow.com/questions/17615414/how-to-convert-binary-string-to-normal-string-in-python3 
+    # http://stackoverflow.com/questions/13744473/command-line-execution-in-different-folder
+    cwd = kwargs.pop('cwd', None)
     process = Popen(
         args=command,
         stdout=PIPE,
-        shell=True
+        shell=True,
+        cwd=cwd,
     )
     res = process.communicate()[0]
     return res.decode('utf-8')
@@ -101,10 +104,10 @@ def icfhr14_kws_tool(*args, **kwargs):
 
 def transkribusBaselineMetricTool(*args, **kwargs):
     executable_folder = '{}/competitions/executables/TranskribusBaseLineMetricTool'.format(settings.BASE_DIR)    
-    resultdata = kwargs.pop('resultdata', '{}/reco.lst'.format(executable_folder))
-    privatedata = kwargs.pop('privatedata', '{}/truth.lst'.format(executable_folder))
+    resultdata = kwargs.pop('resultdata', 'reco.lst')
+    privatedata = kwargs.pop('privatedata', 'truth.lst')
 
-    executable = 'java -jar {}/baselineTool.jar'.format(executable_folder)
+    executable = 'java -jar baselineTool.jar'
     commandline = '{} {} {}'.format(executable, privatedata, resultdata)
     command_output = cmdline(commandline)
 
