@@ -6,12 +6,15 @@
 from django.conf import settings
 from random import random
 from time import sleep
-from os import listdir
+from os import listdir, makedirs
 from os.path import splitext, isdir
+from shutil import copyfile
 from subprocess import PIPE, Popen
+from uuid import uuid4
 from json import dumps
 import re
 
+temporary_folder = '/tmp/'
 
 def cmdline(command, *args, **kwargs):
     # http://stackoverflow.com/questions/3503879/assign-output-of-os-system-to-a-variable-and-prevent-it-from-being-displayed-on    
@@ -107,6 +110,18 @@ def transkribusBaselineMetricTool(*args, **kwargs):
     resultdata = kwargs.pop('resultdata', 'reco.lst')
     privatedata = kwargs.pop('privatedata', 'truth.lst')
 
+    if(isdir(privatedata)):
+        #This is the non-test scenario
+        #Hence we have to create a temporary folder and copy everything there
+        newfolder = '{}{}/'.format(temporary_folder, uuid4().hex)
+        makedirs(newfolder)
+        #TODO: Copy all files from resultdata folder to newfolder
+        #TODO: Copy all files from privatedata folder to newfolder
+        #TODO: Copy executable to newfolder
+        executable_folder = newfolder
+        resultdata = '{}reco.lst'.format(newfolder)
+        privatedata = '{}truth.lst'.format(newfolder)
+                
     executable = 'java -jar baselineTool.jar'
     commandline = '{} {} {}'.format(executable, privatedata, resultdata)
     command_output = cmdline(commandline, cwd=executable_folder)
