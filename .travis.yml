@@ -1,6 +1,10 @@
 language: python
 python:
+  - "3.2"
+  - "3.3"
   - "3.4"
+  - "3.5"
+  - "nightly"
 env:
   - DJANGO_VERSION=1.9
 before_install: 
