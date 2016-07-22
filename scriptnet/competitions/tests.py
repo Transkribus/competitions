@@ -7,7 +7,7 @@ from .models import Affiliation, Competition, Individual
 from .models import Track, Subtrack
 
 from .evaluators import cmdline
-from .evaluators import icfhr14_kws_tool, transkribusBaselineMetricTool
+from .evaluators import icfhr14_kws_tool, transkribusBaseLineMetricTool
 
 
 def create_competitions_tracks_subtracks(
