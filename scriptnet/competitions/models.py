@@ -49,7 +49,15 @@ class Individual(models.Model):
 	avatar = models.FileField(upload_to='uploads/avatars/', null=True, blank=True)
 	def __str__(self):
 		return '({}) {}'.format(self.id, self.user.username)
-
+	def save(self, *args, **kwargs):
+		if not self.pk:
+			try:
+				p = Individual.objects.get(user=self.user)
+				self.pk = p.pk
+			except Individual.DoesNotExist:
+				pass
+		super(Individual, self).save(*args, **kwargs)
+		
 def create_user_profile(sender, instance, created, **kwargs):  
     if created:  
        profile, created = Individual.objects.get_or_create(user=instance)  
