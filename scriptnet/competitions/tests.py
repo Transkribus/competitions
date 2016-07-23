@@ -344,6 +344,8 @@ class AuthenticationTests(TestCase):
 class FormTests(TestCase):
     def test_registerform(self):
         self.assertEqual(1, 1)
+    def test_registerform_existinguser(self):
+        self.assertEqual(1, 1)
     def test_loginform(self):
         self.assertEqual(1, 1)
     def test_submitresultform(self):

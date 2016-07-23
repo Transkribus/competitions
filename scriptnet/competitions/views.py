@@ -52,17 +52,28 @@ def index(request):
             register_form = RegisterForm(request.POST)
             if register_form.is_valid():
                 #TODO: Print some error message if the form contains error, like non-unique names etc
+                if User.objects.filter(username=register_form.cleaned_data['username']):
+                    errormessage_str_1 = _('The username')
+                    errormessage_str_2 = _('already exists, please pick a different one.')
+                    messages.add_message(request, messages.ERROR, 
+                        '{} {} {}'.format(
+                            errormessage_str_1,
+                            register_form.cleaned_data['username'],
+                            errormessage_str_2,
+                        )
+                    )
+                    return HttpResponseRedirect('/competitions/#register')
                 affiliations_id = int(register_form.cleaned_data['affiliations'])
                 affiliations_newstring = register_form.cleaned_data['new_affiliation']
                 if(affiliations_id == NEW_AFFILIATION_ID):
                     if not affiliations_newstring:
                         messages.add_message(request, messages.ERROR, _('Please specify your affiliation if it does not appear on the list.'))
-                        return HttpResponseRedirect('/competitions/')
+                        return HttpResponseRedirect('/competitions/#register')
                     affiliation = Affiliation.objects.create(name=affiliations_newstring)
                 else:
                     if affiliations_newstring:
                         messages.add_message(request, messages.ERROR, _('Please specify either an affiliation from the list, or "other" and specify a new affiliation.'))                        
-                        return HttpResponseRedirect('/competitions/')                        
+                        return HttpResponseRedirect('/competitions/#register')
                     affiliation = Affiliation.objects.get(pk=affiliations_id)
                 user = User.objects.create_user(
                     username=register_form.cleaned_data['username'],
