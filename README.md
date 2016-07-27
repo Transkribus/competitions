@@ -194,12 +194,14 @@ Then (once the translations have been made in the .po files) the phrases must be
 * [Competitions] READ discussion about competitions
 * [Minutes] READ Minutes of the Valencia 2016 meeting regarding the competitions site
 * [WebInterfaces] READ WebInterfaces Working group minutes
+* [Architecture] READ Architecture Working group minutes
 * [READ]
 * [Django]
 
 [Competitions]: <https://read02.uibk.ac.at/wiki/index.php/Competitions>
 [Minutes]: <https://read02.uibk.ac.at/wiki/index.php/Technical_Meetings:Valencia_Meeting_Minutes#Competitions_site>
 [WebInterfaces]: <https://read02.uibk.ac.at/wiki/index.php/Technical_Meetings:WebinterfacesWG>
+[Architecture]: <https://read02.uibk.ac.at/wiki/index.php/Technical_Meetings:ArchitectureWG>
 [READ]: <http://read.transkribus.eu>
 [Django]: <https://www.djangoproject.com/>
 [Django-Bootstrap3]: <http://github.com/dyve/django-bootstrap3>
