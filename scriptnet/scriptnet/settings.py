@@ -124,30 +124,9 @@ LOCALE_PATHS = [
 
 LANGUAGE_CODE = 'en'
 LANGUAGES = [
-	('bg', _('Bulgarian')),
-	('hr', _('Croatian')),
-	('cs', _('Czech')),
-	('da', _('Danish')),
-	('nl', _('Dutch')),
 	('en', _('English')),
-	('et', _('Estonian')),
-	('fi', _('Finnish')),
 	('fr', _('French')),
-	('de', _('German')),
 	('el', _('Greek')),
-	('hu', _('Hungarian')),
-	('ga', _('Irish')),
-	('it', _('Italian')),
-	('lv', _('Latvian')),
-	('lt', _('Lithuanian')),
-	('pl', _('Polish')),
-	('pt', _('Portuguese')),
-	('ro', _('Romanian')),
-	('sk', _('Slovak')),
-	('sl', _('Slovenian')),
-	('es', _('Spanish')),
-	('sv', _('Swedish')),
-
 ];
 
 TIME_ZONE = 'Europe/Athens'
