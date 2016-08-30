@@ -10,3 +10,4 @@ __pycache__/
 *.tar.gz
 *.tgz
 scriptnet/static/
+db.sqlite3
