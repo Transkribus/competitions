@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-07-03 22:19+0300\n"
+"POT-Creation-Date: 2016-08-30 17:49+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -20,7 +20,7 @@ msgstr ""
 
 #: competitions/forms.py:17
 msgid "Given name"
-msgstr " Prenom"
+msgstr "Prenom"
 
 #: competitions/forms.py:18
 msgid "Family name"
@@ -28,7 +28,7 @@ msgstr "Nom de famille"
 
 #: competitions/forms.py:19
 msgid "Email"
-msgstr "Mail"
+msgstr "Courriel"
 
 #: competitions/forms.py:20
 msgid "Short biography (optional)"
@@ -36,7 +36,7 @@ msgstr "Courte Biographie (option)"
 
 #: competitions/forms.py:26
 msgid "Affiliation name"
-msgstr ""
+msgstr "Nom d'institution"
 
 #: competitions/forms.py:30
 #, fuzzy
@@ -57,7 +57,7 @@ msgstr "Mot de passe"
 
 #: competitions/forms.py:50
 msgid "Cosubmitters"
-msgstr ""
+msgstr "Co-déposants"
 
 #: competitions/forms.py:54
 msgid "A short identifier for the method"
@@ -79,113 +79,143 @@ msgstr "Fichier de resultat"
 msgid "Language"
 msgstr "Langue"
 
-#: competitions/models.py:66
+#: competitions/models.py:104
 #, python-format
 msgid "%(value)s is not a unique track id for this competition"
-msgstr ""
+msgstr "%(value)s n'est pas une id-piste unique pour cette compétition"
 
-#: competitions/models.py:96
+#: competitions/models.py:174
 #, python-format
 msgid "%(value)s is not a unique subtrack id for this track"
-msgstr ""
+msgstr "%(value)s une id-souspiste unique pour cette piste"
 
-#: competitions/models.py:199
+#: competitions/models.py:312
 msgid "The processing state of the submission is undefined"
-msgstr ""
+msgstr "L'état de traitement de cette soumission est undéfinie"
 
-#: competitions/models.py:200
+#: competitions/models.py:313
 msgid "We are currently processing the submitted result"
-msgstr ""
+msgstr "Nous sommes en train de traiter le résultat soumis"
 
-#: competitions/models.py:201
+#: competitions/models.py:314
 msgid "Could not call the related evaluator function"
-msgstr ""
+msgstr "On n'a pas pu apeller la fonction evaluateur correspondante"
 
-#: competitions/models.py:202
+#: competitions/models.py:315
 msgid "An error has occured before processing could start"
-msgstr ""
+msgstr "Une erreur est survenu avant que la traitement a pu commencer"
 
-#: competitions/models.py:203
+#: competitions/models.py:316
 msgid "An error has occured during processing of the submitted result"
-msgstr ""
+msgstr "Une erreur est survenu pendant traitement du résultat soumis"
 
-#: competitions/models.py:204
+#: competitions/models.py:317
 msgid "This benchmark cannot be computed by the specified evaluator function"
 msgstr ""
+"Ce benchmark ne peux pas être computé par la fonction evaluateur specifié"
 
-#: competitions/models.py:205
+#: competitions/models.py:318
 msgid ""
 "The submitted result has been succesfully processed and a numerical result "
 "has been saved"
 msgstr ""
 
-#: competitions/templates/competitions/competition.html:50
+#: competitions/templates/competitions/competition.html:53
 #: competitions/templates/competitions/master.html:58
 msgid "Logged in as"
-msgstr "Connecte en tant que"
+msgstr "Connecté en tant que"
 
-#: competitions/templates/competitions/competition.html:61
+#: competitions/templates/competitions/competition.html:64
 msgid "Competition home"
-msgstr "Accueil Competition"
+msgstr "Accueil Compétition"
 
-#: competitions/templates/competitions/competition.html:65
-#: competitions/templates/competitions/competition.html:112
+#: competitions/templates/competitions/competition.html:67
+#: competitions/templates/competitions/scoreboard.html:13
+msgid "Scoreboard"
+msgstr "Tableau de bord"
+
+#: competitions/templates/competitions/competition.html:71
+#: competitions/templates/competitions/competition.html:132
 msgid "Track"
 msgstr "Piste"
 
-#: competitions/templates/competitions/competition.html:72
-#: competitions/templates/competitions/competition.html:116
-#: competitions/templates/competitions/competition.html:135
+#: competitions/templates/competitions/competition.html:78
+#: competitions/templates/competitions/competition.html:136
+#: competitions/templates/competitions/competition.html:155
 msgid "Subtrack"
 msgstr "Sous-piste"
 
-#: competitions/templates/competitions/competition.html:79
-#: competitions/templates/competitions/competition.html:178
+#: competitions/templates/competitions/competition.html:85
+msgid "View all submissions for this "
+msgstr "Voir tous les soumissions pour cette "
+
+#: competitions/templates/competitions/competition.html:88
+#, fuzzy
+#| msgid "Competitions"
+msgid "competition"
+msgstr "Compétitions"
+
+#: competitions/templates/competitions/competition.html:90
+#: competitions/templates/competitions/submit.html:14
+#: competitions/templates/competitions/viewresults.html:17
+#, fuzzy
+#| msgid "Track"
+msgid "track"
+msgstr "Piste"
+
+#: competitions/templates/competitions/competition.html:93
+#, fuzzy
+#| msgid "Subtrack"
+msgid "subtrack"
+msgstr "Sous-piste"
+
+#: competitions/templates/competitions/competition.html:98
+#: competitions/templates/competitions/competition.html:198
 msgid "Organizers"
 msgstr "Organisateurs"
 
-#: competitions/templates/competitions/competition.html:119
-#: competitions/templates/competitions/competition.html:121
+#: competitions/templates/competitions/competition.html:139
+#: competitions/templates/competitions/competition.html:141
 #, fuzzy
 #| msgid "Download data"
 msgid "Download training set"
 msgstr "Telechargement des donnees"
 
-#: competitions/templates/competitions/competition.html:124
-#: competitions/templates/competitions/competition.html:126
+#: competitions/templates/competitions/competition.html:144
+#: competitions/templates/competitions/competition.html:146
 msgid "Submit a new method for evaluation"
-msgstr ""
+msgstr "Soumettre une nouvelle methode à évaluer"
 
-#: competitions/templates/competitions/competition.html:126
+#: competitions/templates/competitions/competition.html:146
 msgid "you have to"
-msgstr ""
+msgstr "il faut"
 
-#: competitions/templates/competitions/competition.html:126
+#: competitions/templates/competitions/competition.html:146
 #: competitions/templates/competitions/submit.html:25
 msgid "login </a> first"
-msgstr ""
+msgstr "login </a> d'abord"
 
-#: competitions/templates/competitions/competition.html:128
+#: competitions/templates/competitions/competition.html:148
 msgid "View results for all available methods"
-msgstr ""
+msgstr "Voir résultats pour tous les méthodes"
 
-#: competitions/templates/competitions/competition.html:132
+#: competitions/templates/competitions/competition.html:152
 msgid "Please choose one of the available subtracks"
-msgstr ""
+msgstr "Veuillez choisir une sous-piste disponible"
 
-#: competitions/templates/competitions/competition.html:141
+#: competitions/templates/competitions/competition.html:161
 msgid "There are no available subtracks for the current track"
-msgstr ""
+msgstr "Il n'y a pas de sous-pistes disponibles pour cette piste"
 
-#: competitions/templates/competitions/competition.html:153
+#: competitions/templates/competitions/competition.html:173
 msgid "News"
 msgstr "Nouvelles"
 
-#: competitions/templates/competitions/competition.html:158
+#: competitions/templates/competitions/competition.html:178
 msgid "Important Dates"
 msgstr "Dates Importantes"
 
-#: competitions/templates/competitions/competition.html:215
+#: competitions/templates/competitions/competition.html:235
 msgid "READ - a Horizon 2020 e-infrastructure project"
 msgstr "READ - Un projet de e-infrastucture pour l'horizon 2020"
 
@@ -223,7 +253,7 @@ msgstr "Connexion"
 #: competitions/templates/competitions/master.html:82
 #: competitions/templates/competitions/master.html:261
 msgid "Contact"
-msgstr "Contact"
+msgstr "Contacter"
 
 #: competitions/templates/competitions/master.html:122
 msgid "ScriptNet is a platform of competitions running under the READ project"
@@ -245,11 +275,11 @@ msgstr "Documents actifs pour comprendre la competition"
 
 #: competitions/templates/competitions/master.html:196
 msgid "*No competitions are currently active*"
-msgstr "Pas de competition en cours pour le moment"
+msgstr "*Pas de competitions en cours pour le moment*"
 
 #: competitions/templates/competitions/master.html:212
 msgid "Register to take part in one of the active competitions."
-msgstr "Inscrivez-vous pour prendre part a des competitions en cours"
+msgstr "Inscrivez-vous pour prendre part à des competitions en cours"
 
 #: competitions/templates/competitions/master.html:238
 msgid "Sign in"
@@ -265,26 +295,23 @@ msgstr ""
 
 #: competitions/templates/competitions/master.html:276
 msgid "Institute of Informatics and Telecommunications"
-msgstr "Institut d'informatique et de telecommunication"
+msgstr "Institut d'Informatique et de Telecommunications"
 
 #: competitions/templates/competitions/master.html:284
 msgid "Computational Intelligence Laboratory"
-msgstr "Laboratoire d'imtelligence informatique"
+msgstr "Laboratoire d'intelligence informatique"
 
 #: competitions/templates/competitions/master.html:292
 msgid "READ project"
 msgstr "Projet READ"
 
-#: competitions/templates/competitions/submit.html:14
-msgid "New submission to the"
-msgstr ""
+#: competitions/templates/competitions/scoreboard.html:23
+msgid "Ranking for Track "
+msgstr "Classement pour piste "
 
 #: competitions/templates/competitions/submit.html:14
-#: competitions/templates/competitions/viewresults.html:12
-#, fuzzy
-#| msgid "Track"
-msgid "track"
-msgstr "Piste"
+msgid "New submission to the"
+msgstr "Nouvelle soumission pour le "
 
 #: competitions/templates/competitions/submit.html:21
 #, fuzzy
@@ -294,18 +321,46 @@ msgstr "Soumettre la methode"
 
 #: competitions/templates/competitions/submit.html:25
 msgid "You have to"
-msgstr ""
+msgstr "Il faut"
 
 #: competitions/templates/competitions/viewresults.html:12
-msgid "Scoreboard for the"
-msgstr ""
+msgid "All submissions and results for "
+msgstr "Tous les soumissions et résultats pour "
 
-#: competitions/templates/competitions/viewresults.html:24
+#: competitions/templates/competitions/viewresults.html:14
+msgid "the"
+msgstr "la"
+
+#: competitions/templates/competitions/viewresults.html:17
+msgid "all subtracks of the "
+msgstr "tous les sous-pistes pour le "
+
+#: competitions/templates/competitions/viewresults.html:19
+msgid "the "
+msgstr "la "
+
+#: competitions/templates/competitions/viewresults.html:19
+#, fuzzy
+#| msgid "Subtrack"
+msgid "track/subtrack"
+msgstr "Sous-piste"
+
+#: competitions/templates/competitions/viewresults.html:35
 msgid ""
 "There are no submissions and no assigned benchmarks for this subtrack yet"
-msgstr ""
+msgstr "Pas de soumissions et pas de bencharks pour cette sous-piste"
+
+#: competitions/views.py:56
+#, fuzzy
+#| msgid "Username"
+msgid "The username"
+msgstr "Nom d'utilisateur"
 
 #: competitions/views.py:57
+msgid "already exists, please pick a different one."
+msgstr "déjà existe, veuillez choisir un autre."
+
+#: competitions/views.py:70
 #, fuzzy
 #| msgid ""
 #| "Affiliation name (optional; specify if your affiliation does not show up "
@@ -313,116 +368,97 @@ msgstr ""
 msgid "Please specify your affiliation if it does not appear on the list."
 msgstr "Nom d'affiliation"
 
-#: competitions/views.py:62
+#: competitions/views.py:75
 msgid ""
 "Please specify either an affiliation from the list, or \"other\" and specify "
 "a new affiliation."
 msgstr ""
 
-#: competitions/views.py:75
+#: competitions/views.py:88
 msgid "User {} has been created. Use your credentials to login."
 msgstr ""
+"Utilisateur {} à été créé. Utilisez votre nom et mot de passe pour entrer."
 
-#: competitions/views.py:121
+#: competitions/views.py:134
 msgid ""
 "The method name already exists for this track. Please choose another name."
 msgstr ""
 
-#: competitions/views.py:155
+#: competitions/views.py:168
 msgid "Submission {} with id {} has been submitted succesfully. "
-msgstr ""
+msgstr "Soumission {} avec id {} à été soumise avec succès"
 
-#: scriptnet/settings.py:128
-msgid "Bulgarian"
-msgstr "Bulgare"
-
-#: scriptnet/settings.py:129
-msgid "Croatian"
-msgstr "Croate"
-
-#: scriptnet/settings.py:130
-msgid "Czech"
-msgstr "Tcheque"
-
-#: scriptnet/settings.py:131
-msgid "Danish"
-msgstr "Danois"
-
-#: scriptnet/settings.py:132
-msgid "Dutch"
-msgstr "Neerlandais"
-
-#: scriptnet/settings.py:133
+#: scriptnet/settings.py:127
 msgid "English"
 msgstr "Anglais"
 
-#: scriptnet/settings.py:134
-msgid "Estonian"
-msgstr "Estonien"
-
-#: scriptnet/settings.py:135
-msgid "Finnish"
-msgstr "Finlandais"
-
-#: scriptnet/settings.py:136
+#: scriptnet/settings.py:128
 msgid "French"
 msgstr "Francais"
 
-#: scriptnet/settings.py:137
-msgid "German"
-msgstr "Allemand"
-
-#: scriptnet/settings.py:138
+#: scriptnet/settings.py:129
 msgid "Greek"
-msgstr "Grecque"
+msgstr "Grec"
 
-#: scriptnet/settings.py:139
-msgid "Hungarian"
-msgstr "Hongrois"
+#~ msgid "Bulgarian"
+#~ msgstr "Bulgare"
 
-#: scriptnet/settings.py:140
-msgid "Irish"
-msgstr "Irlandais"
+#~ msgid "Croatian"
+#~ msgstr "Croate"
 
-#: scriptnet/settings.py:141
-msgid "Italian"
-msgstr "Italien"
+#~ msgid "Czech"
+#~ msgstr "Tcheque"
 
-#: scriptnet/settings.py:142
-msgid "Latvian"
-msgstr "Laiton"
+#~ msgid "Danish"
+#~ msgstr "Danois"
 
-#: scriptnet/settings.py:143
-msgid "Lithuanian"
-msgstr "Lituanien"
+#~ msgid "Dutch"
+#~ msgstr "Neerlandais"
 
-#: scriptnet/settings.py:144
-msgid "Polish"
-msgstr "Polonais"
+#~ msgid "Estonian"
+#~ msgstr "Estonien"
 
-#: scriptnet/settings.py:145
-msgid "Portuguese"
-msgstr "Portugais"
+#~ msgid "Finnish"
+#~ msgstr "Finlandais"
 
-#: scriptnet/settings.py:146
-msgid "Romanian"
-msgstr "Roumain"
+#~ msgid "German"
+#~ msgstr "Allemand"
 
-#: scriptnet/settings.py:147
-msgid "Slovak"
-msgstr "Slovaque"
+#~ msgid "Hungarian"
+#~ msgstr "Hongrois"
 
-#: scriptnet/settings.py:148
-msgid "Slovenian"
-msgstr "Slovene"
+#~ msgid "Irish"
+#~ msgstr "Irlandais"
 
-#: scriptnet/settings.py:149
-msgid "Spanish"
-msgstr "Espagnol"
+#~ msgid "Italian"
+#~ msgstr "Italien"
 
-#: scriptnet/settings.py:150
-msgid "Swedish"
-msgstr "Suedois"
+#~ msgid "Latvian"
+#~ msgstr "Letton"
+
+#~ msgid "Lithuanian"
+#~ msgstr "Lituanien"
+
+#~ msgid "Polish"
+#~ msgstr "Polonais"
+
+#~ msgid "Portuguese"
+#~ msgstr "Portugais"
+
+#~ msgid "Romanian"
+#~ msgstr "Roumain"
+
+#~ msgid "Slovak"
+#~ msgstr "Slovaque"
+
+#~ msgid "Slovenian"
+#~ msgstr "Slovene"
+
+#~ msgid "Spanish"
+#~ msgstr "Espagnol"
+
+#~ msgid "Swedish"
+#~ msgstr "Suedois"
 
 #, fuzzy
 #~| msgid "Login"
