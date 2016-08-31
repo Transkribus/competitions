@@ -160,7 +160,7 @@ service start nginx
 #### Updating a live Django server on production
 
 Supposing you need to update a competitions server to the latest repo version, you should:
-```
+```sh
 git checkout master
 git pull
 service restart uwsgi
@@ -197,6 +197,141 @@ Then (once the translations have been made in the .po files) the phrases must be
 
 * ```django-admin compilemessages```
 
+### Creating a new competition
+
+In order to create a new competition, you'll need to follow these steps:
+
+#### 1. Install the benchmarks that will be used for your competition.
+
+* For this step you will need to make changes to the repo code. 
+If you think that you can use only benchmarks that are already installed on the repo, you can skip this step.
+You can check which benchmarks are installed by logging in the django administration page (step 2).
+* There are two django models that are related to benchmarks: *evaluator function models* and *benchmark models*. 
+    You will need to add at least one evaluator function model. 
+        This will correspond to a function that you will have to add to [evaluators.py](https://github.com/Transkribus/competitions/blob/master/scriptnet/competitions/evaluators.py) .
+        An example evaluator function is ```random_numbers```, found in the same file:
+```python
+def random_numbers(*args, **kwargs):
+    sleep(20)
+    result = {
+        'random_integer': int(random()*10000),
+        'random_percentage': random()
+    }
+    return result
+```
+
+You can use this as a template for a new evaluator function. Define a new function with ```(*args, **kwargs)``` arguments, and return a dictionary (here called 'result').
+Each *key* of this dictionary will correspond to a different benchmark.
+Note of course that ```random_numbers``` is not a real benchmark, in the sense that it simply computes and returns a random number.
+
+Normally you will have to write some code to compute a value or values over the submitted results (more on this below). 
+
+* You can define more than one evaluator function if you like, and define other benchmarks there. However, the norm should be that you define all your benchmarks under a single evaluator function
+
+* You can use data that are attached to a competition/track/subtrack. This is the *private data*, defined as a field of each django *subtrack model* (see [models.py](https://github.com/Transkribus/competitions/blob/master/scriptnet/competitions/models.py)).
+Pass private data, submitted results and other information through the python arguments. See for example how this is done in the ```icfhr14_kws_tool``` evaluator function: 
+
+```python
+resultdata = kwargs.pop('resultdata', '{}/WordSpottingResultsSample.xml'.format(executable_folder))
+privatedata = kwargs.pop('privatedata', '{}/GroundTruthRelevanceJudgementsSample.xml'.format(executable_folder))
+```
+
+Here resultdata and privatedate refer to the XML files for the submitter's results and the private data. The second arguments are default values for these variables, here set to test data (this is optional).
+
+* The processing required to compute benchmarks can be done using an external executable file. See how this is done in ```icfhr14_kws_tool```:
+
+```python
+executable = '{}/VCGEvalConsole.sh'.format(executable_folder)
+commandline = '{} {} {}'.format(executable, privatedata, resultdata)
+command_output = cmdline(commandline)
+```
+
+The output of the executable is saved in ```command_output```, then you'll have to parse this and use it to populate the dictionary you will return:
+
+```python
+rgx = r'ALL QUERIES\s+([\d\.]+)\s+([\d\.]+)\s+([\d\.]+)\s+([\d\.]+)\s+([\d\.]+)\s+([\d\.]+)\s+([\d\.]+)\s+([\d\.]+)\s+([\d\.]+)\s+([\d\.]+)\s+([\d\.]+)\s+([\d\.]+)\s+([\d\.]+)\s+([\d\.]+)\s+([\d\.]+)\s+([\d\.]+)\s+([\d\.]+)'
+r = re.search(rgx, command_output) 
+result = {
+    'p@5':              r.group(1),
+    'p@10':             r.group(2),
+    'r-precision':      r.group(3),
+    'map':              r.group(4),
+    'ndcg-binary':      r.group(5),
+    'ndcg':             r.group(6),
+    'pr-curve':         dumps([r.group(7), r.group(8), r.group(9), r.group(10), r.group(11), r.group(12), r.group(13), r.group(14), r.group(15), r.group(16), r.group(17)])
+}
+```
+
+* Keep note of the names of the evaluator functions you have defined, and the benchmark names you have used as keys on the dictionary your evaluator function returns.
+You will need these to define corresponding django models.
+
+#### 2. Access the django administration page. 
+    
+* If you are the site administrator, simply login with your credentials. The administration site URL will normally be http://my.site.com/admin/
+* If you are not the site administrator, you need to:
+    1. Create an account if you don't have one. You can create one yourself on the Register tab of the site. 
+    2. Ask the administrator to give your account _staff status_ .
+    3. Ask the administrator to add your account to the 'Competitions organizers' group. This will give you access to manipulate all ORM models necessary to create and manage a competition.
+
+#### 3. Create Evaluator function models.
+
+* On the django administration page, add one ```Evaluator function``` model for each evaluator function model you have defined previously.
+* Set the name of the new model to the name of the function you used on step 1.
+
+#### 4. Create Benchmark models.
+
+Create one benchmark models for each of the result keys you defined. Specifically, for each added model, fill-in the require fields:
+
+* Name: Set its name to the resulting dictionary you specificed in step 1.
+* Evaluator function: Set the evaluator function model you created in step 3.
+* Benchmark info: Write a small description of this benchmark. 
+* Subtracks: Leave this empty for now, since we haven't specified any subtracks yet.
+* Count in scoreboard: Leave this empty for now, since we haven't specified any competitions yet.
+* Is scalar: Tick this if the benchmark is defined as a scalar value. (for example, precision-recall is not scalar, but MAP is scalar)
+
+#### 5. Create a Competition model.
+
+Create a competition model, and fill in the fields with the required information. Most field requirements are self-explanatory.
+Note that in the overview, newsfeed and important dates fields you can write HTML code.
+
+On the field 'Benchmark-Competition relationships' add the benchmarks that you have defined on steps 1 and 4 below.
+
+#### 6. Create one or more Track models.
+
+Even if your competition does not distinguish between different tracks, you still have to create at least one track.
+
+Ignore the ```percomp_uniqueid``` field -- this is an identifier that is automatically filled in.
+
+Fill in the required fields:
+
+* Name: The name of your track.
+* Overview: A description of the track. You can use HTML here.
+* Competition: Select the competition you created on step 5 here.
+
+#### 7. Create one or more Subtrack models.
+
+Even if your competition does not distinguish between different subtracks, you still have to create at least one subtrack.
+
+Ignore the ```pertrack_uniqueid``` field -- this is an identifier that is automatically filled in.
+
+Fill in the required fields:
+
+* Name: The name of your subtrack.
+* Track: Select a track you created on step 6 here.
+* Public data / Public data external: Upload data that are meant to be downloaded by the competition participants. This should normally be a compressed tarball. Alternatively, you can provide an external URL.
+* Private data: Upload data that are not meant to be downloaded by the competition participants. This should normally be a compressed tarball. This tarball is automatically decompressed on the server side after the upload completes.
+The private data field is meant to be used as an argument to your evaluation benchmarks. In KWS for example, the private data is a file that contains the information about which query matches with which word.
+
+#### 8. Assign Benchmarks to the scoreboard.
+
+For each competition there is a 'scoreboard', that is an ordered list of all competitors. Competitors are ordered from best performing (least points) to worst performing (most points).
+The total points are calculated as a simple sum function over the rankings of the methods on benchmarks that are assigned as 'important' for the scoreboard.
+
+You can choose which benchmarks are important for the scoreboard of which competition, by changing the appropriate benchmark model info (see Step 4, field 'Count in Scoreboard')
+
+#### See also
+
+Related discussion: <https://github.com/Transkribus/competitions/issues/18>
 
 ### Links
 
