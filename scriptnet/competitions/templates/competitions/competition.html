@@ -53,8 +53,9 @@
                 <a class="navbar-brand" href="{% url 'index' %}#services"><small><small>{% trans "Logged in as" %} &nbsp;</small></small>{{ user.first_name }} {{ user.last_name }} </a>
                 <!--<a class="navbar-brand" href="{% url 'signout' %}"><small><small>[Logout]</small></small></a>
                 -->
+                <a class="navbar-brand" href="{% url 'methodlist' competition_id=competition.id %}"><small>{% trans "My submissions" %}</small></a>                
                 {% else %}
-                <a class="navbar-brand" href="{% url 'index' %}#services">ScriptNet</a>>
+                <a class="navbar-brand" href="{% url 'index' %}#services">ScriptNet</a>
                 {% endif %}            
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -82,7 +83,7 @@
                 </li>                     
 			        {% endfor %}
                     <li>
-                        <a id="current_level_submissions" href="{% url 'index' %}{{ competition.id }}{% if track %}/{% endif %}{{ track.percomp_uniqueid }}{% if subtrack %}/{% endif %}{{ subtrack.pertrack_uniqueid }}/viewresults/">{% trans "View all submissions for this " %}
+                        <a id="current_level_submissions" href="{% url 'index' %}{{ competition.id }}{% if track %}/{% endif %}{{ track.percomp_uniqueid }}{% if subtrack %}/{% endif %}{{ subtrack.pertrack_uniqueid }}/viewresults/">{% trans "All submissions for this " %}
                         {% if not subtrack %}
                             {% if not track %}
                                 {% trans "competition" %}

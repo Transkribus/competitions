@@ -12,7 +12,7 @@ from .forms import LoginForm, RegisterForm, NEW_AFFILIATION_ID
 from .forms import SubmitForm
 from .models import Affiliation, Individual, Competition, Track, Subtrack
 from .models import Submission, SubmissionStatus
-from .tables import SubmissionTable, ScalarscoreTable, expandedScalarscoreTable
+from .tables import SubmissionTable, ScalarscoreTable, expandedScalarscoreTable, ManipulateMethodsTable
 from . import evaluators
 
 import threading
@@ -241,3 +241,15 @@ def scoreboard(request, competition_id):
         'scoretable': scoretable,
     }
     return render(request, 'competitions/scoreboard.html', context)
+
+def methodlist(request, competition_id):
+    competition = get_object_or_404(Competition, pk=competition_id)    
+    #myself = request.user.individual
+    mymethods = Submission.objects.filter(submitter__user=request.user)
+    table = ManipulateMethodsTable(mymethods)
+    context = {
+        'competition': competition,
+        'table': table,
+    }
+    return render(request, 'competitions/methodlist.html', context)
+    

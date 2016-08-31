@@ -48,4 +48,4 @@ class ManipulateMethodsTable(tables.Table):
     method_info = tables.Column()
     submitter = tables.Column()
     subtracks = tables.Column()
-    selection = tables.CheckBoxColumn()
+    selection = tables.CheckBoxColumn(verbose_name=('Select'), accessor='pk')
