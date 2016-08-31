@@ -157,6 +157,15 @@ service start uwsgi
 service start nginx
 ```
 
+#### Updating a live Django server on production
+
+Supposing you need to update a competitions server to the latest repo version, you should:
+```
+git checkout master
+git pull
+service restart uwsgi
+service restart nginx
+```
 
 ### Internationalisation
 
