@@ -37,3 +37,15 @@ class SubmissionTable(tables.Table):
         if value is not None:
             return ', '.join(['{} {}'.format(s.benchmark.name, s.numericalresult) for s in value.all()])
         return '-'        
+
+class ManipulateMethodsTable(tables.Table):
+    class Meta:
+        attrs = {
+            'class': 'paleblue', 
+            'orderable': 'False',
+        }
+    name = tables.Column()
+    method_info = tables.Column()
+    submitter = tables.Column()
+    subtracks = tables.Column()
+    selection = tables.CheckBoxColumn()
