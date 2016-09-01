@@ -15,7 +15,7 @@ The competitions site for the [READ] project, written in [Python] / [Django].
 Follow the instructions on the links above to install on your system. Specifically for Ubuntu Linux, the command-line commands to install Python and Pip are
 ```sh
 apt-get update && apt-get upgrade
-apt-get install python3-pip python3-dev build-essential
+apt-get install python3-pip python3-dev build-essential python3-setuptools
 ```
 
 #### Django and plugins 
