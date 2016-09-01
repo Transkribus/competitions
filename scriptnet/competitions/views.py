@@ -243,7 +243,11 @@ def scoreboard(request, competition_id):
     return render(request, 'competitions/scoreboard.html', context)
 
 def methodlist(request, competition_id):
-    competition = get_object_or_404(Competition, pk=competition_id)    
+    competition = get_object_or_404(Competition, pk=competition_id)
+    if request.method == "POST":
+        pks = request.POST.getlist("selection")
+        selected_objects = Submission.objects.filter(pk__in=pks)
+        print(selected_objects)
     #myself = request.user.individual
     mymethods = Submission.objects.filter(submitter__user=request.user)
     table = ManipulateMethodsTable(mymethods)

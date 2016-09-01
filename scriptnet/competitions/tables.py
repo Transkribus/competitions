@@ -44,8 +44,10 @@ class ManipulateMethodsTable(tables.Table):
             'class': 'paleblue', 
             'orderable': 'False',
         }
-    name = tables.Column()
-    method_info = tables.Column()
-    submitter = tables.Column()
-    subtracks = tables.Column()
+    name = tables.Column(verbose_name=('Name'), accessor='name')
+    method_info = tables.Column(verbose_name=('Method info'))
+    date_published = tables.DateTimeColumn(verbose_name=('Date published'), accessor='timestamp')
+    submitter = tables.Column(verbose_name=('Submitter'), accessor='submitter.all')
+    subtracks = tables.Column(verbose_name=('Submitted to'), accessor='subtrack')
+    #http://stackoverflow.com/a/10860711/5615276    
     selection = tables.CheckBoxColumn(verbose_name=('Select'), accessor='pk')

@@ -18,14 +18,17 @@
 {% endif %}
 
 {% if table.rows %}
-    {% render_table table %}
+    <form action="" method="post">
+    {% csrf_token %} 
+    {% render_table table %}    
+    {% buttons %}
+    <button class="btn btn-default" type="submit" name="publicize">{% trans "Publicize" %}</button>
+    <button class="btn btn-default" type="submit" name="privatize">{% trans "Privatize" %}</button>
+    <button class="btn btn-default" type="submit" name="delete">{% trans "Delete" %}</button>
+    {% endbuttons %}        
+    </form>
 {% else %}
-    <p>{% trans "There are no submissions and no assigned benchmarks for this subtrack yet" %}!</p>
+    <p>{% trans "You have not submitted any methods yet!" %}!</p>
 {% endif %}
-{% buttons %}
-<button class="btn btn-default" type="submit" name="publicize">{% trans "Publicize" %}</button>
-<button class="btn btn-default" type="submit" name="privatize">{% trans "Privatize" %}</button>
-<button class="btn btn-default" type="submit" name="delete">{% trans "Delete" %}</button>
-{% endbuttons %}
 
 {% endblock %}
