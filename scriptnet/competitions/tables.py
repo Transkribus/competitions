@@ -12,6 +12,7 @@ class ScalarscoreTable(tables.Table):
     method_info = tables.Column()
     submitter = tables.Column()
     affiliation = tables.Column()
+    publishable = tables.BooleanColumn(verbose_name=('Result is public'), accessor='publishable')
 
 def expandedScalarscoreTable(extracolumn_names):
     #adapted idea from http://stackoverflow.com/questions/16696066/django-tables2-dynamically-adding-columns-to-table-not-adding-attrs-to-table

@@ -291,6 +291,8 @@ class Benchmark(models.Model):
 		res = {}
 		subtrack = Subtrack.objects.get(pk=subtrack_id)
 		for submission in subtrack.submission_set.all():
+			if not submission.publishable:
+				continue
 			#TODO: What if there are multiple submissions under the same name ?
 			# For now, if this happens an error will fire
 			submission_status = SubmissionStatus.objects.filter(submission_id=submission.id).get(benchmark_id=self.id)

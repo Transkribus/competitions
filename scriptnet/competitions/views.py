@@ -195,6 +195,16 @@ def viewresults(request, competition_id, track_id, subtrack_id):
                 for s in subt.submission_set.all():
                     all_submissions.add(s)            
     for s in all_submissions:
+        #Do not add submission on the list of show results if it is private, unless:
+        # * the authenticated user is one of the authors
+        # * the authenticated user is a superuser 
+        if not s.publishable:
+            if not request.user.is_authenticated():
+                continue
+            if request.user.is_superuser: 
+                pass
+            elif not request.user.individual in s.submitter.all():
+                continue
         aff = set()
         for subm in s.submitter.all():
             for a in subm.affiliations.all():
@@ -204,7 +214,8 @@ def viewresults(request, competition_id, track_id, subtrack_id):
             'name': s.name,
             'method_info': s.method_info,
             'submitter': ', '.join(['{} {}'.format(subm.user.first_name, subm.user.last_name) for subm in s.submitter.all()]),
-            'affiliation': ', '.join([a.name for a in aff])
+            'affiliation': ', '.join([a.name for a in aff]),
+            'publishable': s.publishable,
         }
         if not subtrack:
             newrow['subtrack'] =  s.subtrack.name
@@ -255,6 +266,7 @@ def methodlist(request, competition_id):
         elif 'privatize' in request.POST:
             for s in selected_objects:
                 s.publishable = False
+                s.save()
             print('Privatize pushed')
         elif 'delete' in request.POST:
             for s in selected_objects:
