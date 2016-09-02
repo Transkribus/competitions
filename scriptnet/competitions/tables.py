@@ -49,5 +49,6 @@ class ManipulateMethodsTable(tables.Table):
     date_published = tables.DateTimeColumn(verbose_name=('Date published'), accessor='timestamp')
     submitter = tables.Column(verbose_name=('Submitter'), accessor='submitter.all')
     subtracks = tables.Column(verbose_name=('Submitted to'), accessor='subtrack')
+    publishable = tables.BooleanColumn(verbose_name=('Public'), accessor='publishable')
     #http://stackoverflow.com/a/10860711/5615276    
     selection = tables.CheckBoxColumn(verbose_name=('Select'), accessor='pk')

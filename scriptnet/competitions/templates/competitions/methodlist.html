@@ -22,9 +22,17 @@
     {% csrf_token %} 
     {% render_table table %}    
     {% buttons %}
-    <button class="btn btn-default" type="submit" name="publicize">{% trans "Publicize" %}</button>
+    <div class="row">
+    <div class="col-lg-4">
+    <button class="btn btn-default" type="submit" name="publicize">{% trans "Publicize" %}</button>        
+    </div>    
+    <div class="col-lg-4">
     <button class="btn btn-default" type="submit" name="privatize">{% trans "Privatize" %}</button>
-    <button class="btn btn-default" type="submit" name="delete">{% trans "Delete" %}</button>
+    </div>    
+    <div class="col-lg-4">
+    <button class="btn btn-default" type="submit" name="delete">{% trans "Delete" %}</button>        
+    </div>    
+    </div>
     {% endbuttons %}        
     </form>
 {% else %}

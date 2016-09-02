@@ -247,7 +247,19 @@ def methodlist(request, competition_id):
     if request.method == "POST":
         pks = request.POST.getlist("selection")
         selected_objects = Submission.objects.filter(pk__in=pks)
-        print(selected_objects)
+        #print(selected_objects)
+        if 'publicize' in request.POST:
+            for s in selected_objects:
+                s.publishable = True
+                s.save()
+        elif 'privatize' in request.POST:
+            for s in selected_objects:
+                s.publishable = False
+            print('Privatize pushed')
+        elif 'delete' in request.POST:
+            for s in selected_objects:
+                messages.add_message(request, messages.SUCCESS, _('Submission {} has been deleted.').format(s))                
+                s.delete()
     #myself = request.user.individual
     mymethods = Submission.objects.filter(submitter__user=request.user)
     table = ManipulateMethodsTable(mymethods)
