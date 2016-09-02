@@ -52,7 +52,11 @@ git clean -df
 
 #### Running on development
 
-Start the development server:
+Switch to the ```develop``` branch, with
+```sh
+git checkout develop
+```
+and start the development server:
 ```sh
 python3 manage.py runserver
 ```
@@ -61,6 +65,11 @@ The previous command will allow you to test the server on your local machine.
 If you need to use the development server and be able to login from remote machines (note that security-wise this is not recommended), you can install the [django-sslserver] plugin for django, then start the server with:
 ```sh
 python3 manage.py runsslserver 0.0.0.0:8000 --certificate /path/to/certificate.crt --key /path/to/key.key
+```
+
+If you need to access the django admin, you can always create a super-user account with
+```sh
+python3 manage.py createsuperuser
 ```
 
 #### Running on production
@@ -133,7 +142,9 @@ server {
 }
 ```
 
-For this file, you'll need to create a symbolic link with
+For this file, you'll need to creatΚαλημέρα Κώστα,
+
+e a symbolic link with
 ```sh
 cd /etc/nginx/sites-enabled
 ln -s /etc/nginx/sites-available/scriptnet
@@ -206,6 +217,11 @@ In order to create a new competition, you'll need to follow these steps:
 * For this step you will need to make changes to the repo code. 
 If you think that you can use only benchmarks that are already installed on the repo, you can skip this step.
 You can check which benchmarks are installed by logging in the django administration page (step 2).
+* Either you intend to use the new benchmark code on a copy cloned locally on your machine, or push this as a contribution to the current github repo,
+please follow these guidelines:
+    * Make your changes over code of the ```develop``` branch. Optionally create a new branch for your contributions as a branch of ```develop```.
+    * Pay attention to the Travis CI tag for the latest commit of the ```develop``` branch. 
+    * If you need to access the django administration page on your local repository clone, you can create a superuser account with ```python manage.py createsuperuser```. 
 * There are two django models that are related to benchmarks: *evaluator function models* and *benchmark models*. 
     You will need to add at least one evaluator function model. 
         This will correspond to a function that you will have to add to [evaluators.py](https://github.com/Transkribus/competitions/blob/master/scriptnet/competitions/evaluators.py) .
