@@ -142,9 +142,7 @@ server {
 }
 ```
 
-For this file, you'll need to creatΚαλημέρα Κώστα,
-
-e a symbolic link with
+For this file, you'll need to create a symbolic link with
 ```sh
 cd /etc/nginx/sites-enabled
 ln -s /etc/nginx/sites-available/scriptnet
