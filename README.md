@@ -166,6 +166,15 @@ service start uwsgi
 service start nginx
 ```
 
+#### Timezone
+
+In the unlikely event that your competitions server is not located in Greece, 
+you may want to change the following line in ```settings.py```:
+
+```sh
+TIME_ZONE = 'Europe/Athens'
+```
+
 #### Updating a live Django server on production
 
 Supposing you need to update a competitions server to the latest repo version, you should:
