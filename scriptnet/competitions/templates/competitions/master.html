@@ -257,53 +257,40 @@ Nam qualitates corporum non nisi per experimenta innotescunt, ideoque generales 
     <section id="contact">
         <div class="container">
             <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 text-center">
+                <div class="text-center">
                     <h2 class="section-heading">{% trans "Contact" %}</h2>
                     <hr class="primary">
-			<br><br><br><br><br>
-			<div class="row">
-				<div class="col-lg-6 vcenter">
-                			<img src="{% static 'img/logos/ncsrd.jpg' %}" class="img-responsive" alt="">
-				</div><div class="col-lg-6 vcenter">
-				 {% trans "NCSR 'Demokritos'" %}
-				</div>
-			</div>
-			<br>
-			<div class="row">
-				<div class="col-lg-6 vcenter">
-                			<img src="{% static 'img/logos/iit_logo.png' %}" width="30%" class="img-responsive" alt="">
-				</div><div class="col-lg-6 vcenter">
-				{% trans "Institute of Informatics and Telecommunications" %}
-				</div>
-			</div>
-			<br>
-			<div class="row">
-				<div class="col-lg-6 vcenter">
-                			<img src="{% static 'img/logos/cil_logo.jpg' %}" class="img-responsive" alt="">
-				</div><div class="col-lg-6 vcenter">
-				{% trans "Computational Intelligence Laboratory" %}
-				</div>
-			</div>
-			<br>
-			<div class="row">
-				<div class="col-lg-6 vcenter">
-                			<img src="{% static 'img/logos/read_logo.png' %}" width="50%" class="img-responsive" alt="">
-				</div><div class="col-lg-6 vcenter">
-				{% trans "READ project" %}
-				</div>
-			</div>
-			<br><br><br><br><br><br><br>
-                </div>
-<!--
-                <div class="col-lg-4 col-lg-offset-2 text-center">
-                    <i class="fa fa-phone fa-3x wow bounceIn"></i>
-                    <p>(+30) 210 987 12 34</p>
-                </div>-->
-                <div class="col-lg-12 text-center">
-                    <i class="fa fa-envelope-o fa-3x wow bounceIn" data-wow-delay=".1s"></i>
-                    <p><a href="mailto:your-email@your-domain.com">read@iit.demokritos.gr</a></p>
+			        <br><br><br><br><br>
                 </div>
             </div>
+			<div class="row">
+				<div class="col-lg-2"></div>                
+				<div class="col-lg-5 vcenter">
+                    <a href="http://read.transkribus.eu/">
+                			<img src="{% static 'img/logos/read_logo.png' %}" class="img-responsive" alt="">
+                    </a>                                                                                
+				</div>
+                <div class="col-lg-4 vcenter">
+                    <a href="mailto:read@iit.demokritos.gr">                    
+                			<img src="{% static 'img/logos/ncsrd.jpg' %}" class="img-responsive" alt="">
+                    </a>                            
+				</div>
+				<div class="col-lg-1"></div>                
+			</div>
+            
+            <br><br><br>
+			<div class="row text-center">
+				<div class="col-lg-2"></div>
+				<div class="col-lg-9">                                
+                    <small>
+                        {% trans "© 2016 READ Project." %}                        
+                        {% trans "This project has received funding from the European Union’s Horizon 2020 research and innovation programme under grant agreement No 674943." %}                                                
+                    </small>
+                </div>                    
+				<div class="col-lg-1"></div>                    
+			</div>
+
+
         </div>
     </section>
 
