@@ -53,7 +53,7 @@ class SubmitForm(forms.Form):
     possible_coauthors = []        
     name = forms.SlugField(label=_('A short identifier for the method'), max_length = 20, allow_unicode = False)
     method_info = forms.CharField(required=False, widget=forms.Textarea, label=_('A short description of the method'), max_length = 300)
-    publishable = forms.BooleanField(label=_('Show results for this method for everyone'), required=False)
+    publishable = forms.BooleanField(label=_('Show results for this method for everyone'), required=False, initial=True)
     resultfile = forms.FileField(label=_('Result file'))
 
 class LanguageForm(forms.Form):
