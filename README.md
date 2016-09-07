@@ -129,6 +129,11 @@ server {
     location /static/ {
         root /home/sfikas/CODE/competitions/scriptnet;
     }
+    location /media/ {
+        #the difference btw alias+root is essentially that root adds the location argument as a suffix on the final URL        
+        alias /home/sfikas/CODE/competitions/scriptnet/; 
+    }
+    
 
     location / {
         include         /etc/nginx/uwsgi_params;
