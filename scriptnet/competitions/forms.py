@@ -48,7 +48,7 @@ class SubmitForm(forms.Form):
             required=False,
             choices=possible_coauthors,
             label=_('Cosubmitters')
-        )        
+        )
         
     possible_coauthors = []        
     name = forms.SlugField(label=_('A short identifier for the method'), max_length = 20, allow_unicode = False)
