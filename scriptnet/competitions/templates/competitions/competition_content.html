@@ -46,20 +46,3 @@
           				{% else %}
 					        {{ competition.overview | safe }}
 				        {% endif %}
-
-            <div class="col-md-2">
-                <div class="well">
-                    <h4>{% trans "News" %}</h4>
-				          	{{ competition.newsfeed | safe }}
-                </div>
-
-                <div class="well">
-                    <h4>{% trans "Important Dates" %}</h4>
-				          	{{ competition.important_dates | safe }}
-                </div>
-
-
-            </div>
-
-        </div>
-        <!-- /.row -->
