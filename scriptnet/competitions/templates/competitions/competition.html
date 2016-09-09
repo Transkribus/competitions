@@ -39,79 +39,7 @@
 
     <!-- Navigation -->
     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-	<div class="wrapper wrapper-style1 wrapper-first">
-        <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                {% if user.is_authenticated %}
-                <a class="navbar-brand" href="{% url 'index' %}#services"><small><small>{% trans "Logged in as" %} &nbsp;</small></small>{{ user.first_name }} {{ user.last_name }} </a>
-                <!--<a class="navbar-brand" href="{% url 'signout' %}"><small><small>[Logout]</small></small></a>
-                -->
-                <a class="navbar-brand" href="{% url 'methodlist' competition_id=competition.id %}"><small>{% trans "My submissions" %}</small></a>                
-                {% else %}
-                <a class="navbar-brand" href="{% url 'index' %}#services">ScriptNet</a>
-                {% endif %}            
-            </div>
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav">
-          		    <li>
-				        <a id="home" class="selected" href="{% url 'competition' competition_id=competition.id %}">{% trans "Competition home" %}</a>
-			        </li>
-                    <li>
-                        <a id="home" class="" href="{% url 'scoreboard' competition_id=competition.id %}">{% trans "Scoreboard" %}</a>
-			        </li>
-			        {% for tr in competition.track_set.all %}
-                <li class="dropdown" id="t1{{ tr.percomp_uniqueid }}">
-                  <a href="{% url 'competition' competition_id=competition.id track_id=tr.percomp_uniqueid %}" style="display:inline-block;padding-right:0px;">
-                      {% if competition.track_set.count == 1 %}
-                      {% trans "Participate in competition" %}
-                      {% else %}
-                      {% trans "Track" %} {{ tr.percomp_uniqueid }}
-                      {% endif %}
-                  </a>
-                        {% if tr.subtrack_set.count > 1 %}                  
-                        <a class="dropdown-toggle" data-toggle="dropdown" href="#subtracks"  style="display:inline-block;padding-left:0px;">
-                        <b class="caret"></b> <!-- This caret shows a wrong url sometimes, but probably doesnt matter -->
-                        </a>
-                        <ul class="dropdown-menu">
-				            {% for subtr in tr.subtrack_set.all %}
-				            <li>
-  					        <a id="t{{ tr.percomp_uniqueid }}_{{ subtr.pertrack_uniqueid }}" href="{% url 'competition' competition_id=competition.id track_id=tr.percomp_uniqueid subtrack_id=subtr.pertrack_uniqueid %}">{% trans "Subtrack" %} {{ tr.percomp_uniqueid }}.{{ subtr.pertrack_uniqueid }} </a>
-	  			            </li>
-				            {% endfor %}
-                        </ul>
-                        {% endif %}                        
-                </li>                     
-			        {% endfor %}
-                    <li>
-                        <a id="current_level_submissions" href="{% url 'index' %}{{ competition.id }}{% if track %}/{% endif %}{{ track.percomp_uniqueid }}{% if subtrack %}/{% endif %}{{ subtrack.pertrack_uniqueid }}/viewresults/">{% trans "All submissions for this " %}
-                        {% if not subtrack %}
-                            {% if not track %}
-                                {% trans "competition" %}
-                            {% else %}
-                                {% trans "track" %}
-                            {% endif %}
-                        {% else %}
-                            {% trans "subtrack" %}
-                        {% endif %} 
-                        </a>
-                    </li>
-		          	<li>
-				        <a id="o" href="#organizers">{% trans "Organizers" %}</a>
-			        </li>
-			   </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-        </div>
-		</div>
-        <!-- /.container -->
+        {% include "competitions/competition_navbar.html" %}
     </nav>
 
 
@@ -119,84 +47,18 @@
     <!-- Page Content -->
     <section id="main">
     <div class="container">
-
-        <!-- Necessary only if you dont load creative css
-        <div class="row">
-          &nbsp;
-        </div>
-        <div class="row">
-          &nbsp;
-        </div>
-        <div class="row">
-          &nbsp;
-        </div> -->
-        
-        <div class="row">
-            <div class="col-lg-10">
-                <h1>{{ competition.name }}</h1>
-                <p class="lead">
-                    {% block content %}
-        				{% if track %}
-        					<header>
-          					<h1> {% trans "Track" %} {{ track.percomp_uniqueid }} - {{ track.name }} </h1>
-        					</header>					
-        					{{ track.overview | safe }}
-        					{% if subtrack %}		
-                                <h3>{% trans "Subtrack" %} {{ track.percomp_uniqueid }}.{{ subtrack.pertrack_uniqueid }} - {{ subtrack.name }}</h3>
-                                <ul>
-                                    {% if subtrack.public_data_external %}
-                                    <li><a href="{{ subtrack.public_data_external }}">{% trans "Download training set" %}</a></li>
-                                    {% else %}
-      							    <li><a href="{{ subtrack.public_data.url }}">{% trans "Download training set" %}</a></li>
-                                    {% endif %}
-                                    {% if user.is_authenticated %}
-        							<li><a href="{% url 'submit' competition_id=competition.id track_id=track.percomp_uniqueid subtrack_id=subtrack.pertrack_uniqueid %}">{% trans "Submit a new method for evaluation" %}</a></li>
-                                    {% else %}
-                                    <li>{% trans "Submit a new method for evaluation" %} ({% trans "you have to" %} <a href="{% url 'index' %}#login">{% trans "login </a> first" %})</li>
-                                    {% endif %}
-        							<li><a href="{% url 'viewresults' competition_id=competition.id track_id=track.percomp_uniqueid subtrack_id=subtrack.pertrack_uniqueid %}">{% trans "View results for all available methods" %}</a></li>
-      							</ul>
-        					{% else %}
-                                {% if track.subtrack_set.all %}
-                                <h3> {% trans "Please choose one of the available subtracks" %}: </h3>
-                                    <ul>
-                                    {% for subtr in track.subtrack_set.all %}
-                                    <li> {% trans "Subtrack" %} {{ track.percomp_uniqueid }}.{{ subtr.pertrack_uniqueid }}: 
-                                        <a href="{% url 'competition' competition_id=competition.id track_id=track.percomp_uniqueid subtrack_id=subtr.pertrack_uniqueid %}">{{ subtr.name }}</a> 
-                                        </li>
-                                    {% endfor %}
-                                    </ul>
-                                {% else %}
-                                <h3> {% trans "There are no available subtracks for the current track" %}. </h3>
-                                {% endif %}
-                            {% endif %}
-          				{% else %}
-					        {{ competition.overview | safe }}
-				        {% endif %}
-                    {% endblock %}
-                </p>
-            </div>
-
-            <div class="col-md-2">
-                <div class="well">
-                    <h4>{% trans "News" %}</h4>
-				          	{{ competition.newsfeed | safe }}
-                </div>
-
-                <div class="well">
-                    <h4>{% trans "Important Dates" %}</h4>
-				          	{{ competition.important_dates | safe }}
-                </div>
-
-
-            </div>
-
-        </div>
-        <!-- /.row -->
+        {% if track and not subtrack and track.subtrack_set.count == 1 %}        
+        {% include "competitions/competition_content.html" with subtrack=track.subtrack_set.all|first %}
+        {% else %}
+        {% include "competitions/competition_content.html" %}
+        {% endif %}        
     </div>
     <!-- /.container -->        
     </section>
         <hr><br><br><br>
+
+
+
 
    <section id="organizers">
     <div class="container">

@@ -1,0 +1,67 @@
+{% load staticfiles %}
+{% load i18n %}
+{% load bootstrap3 %}
+
+
+        <div class="row">
+            <div class="col-lg-10">
+                <h1>{{ competition.name }}</h1>
+                <p class="lead">
+                    {% block content %}
+        				{% if track %}
+        					<header>
+          					<h1> {% trans "Track" %} {{ track.percomp_uniqueid }} - {{ track.name }} </h1>
+        					</header>					
+        					{{ track.overview | safe }}
+        					{% if subtrack %}
+                                    <h3>{% trans "Subtrack" %} {{ track.percomp_uniqueid }}.{{ subtrack.pertrack_uniqueid }} - {{ subtrack.name }}</h3>
+                                    <ul>
+                                        {% if subtrack.public_data_external %}
+                                        <li><a href="{{ subtrack.public_data_external }}">{% trans "Download training set" %}</a></li>
+                                        {% else %}
+          							    <li><a href="{{ subtrack.public_data.url }}">{% trans "Download training set" %}</a></li>
+                                        {% endif %}
+                                        {% if user.is_authenticated %}
+            							<li><a href="{% url 'submit' competition_id=competition.id track_id=track.percomp_uniqueid subtrack_id=subtrack.pertrack_uniqueid %}">{% trans "Submit a new method for evaluation" %}</a></li>
+                                        {% else %}
+                                        <li>{% trans "Submit a new method for evaluation" %} ({% trans "you have to" %} <a href="{% url 'index' %}#login">{% trans "login </a> first" %})</li>
+                                        {% endif %}
+        							    <li><a href="{% url 'viewresults' competition_id=competition.id track_id=track.percomp_uniqueid subtrack_id=subtrack.pertrack_uniqueid %}">{% trans "View results for all available methods" %}</a></li>                                        
+          							</ul>
+        					{% else %}
+                                {% if track.subtrack_set.all %}
+                                <h3> {% trans "Please choose one of the available subtracks" %}: </h3>
+                                    <ul>
+                                    {% for subtr in track.subtrack_set.all %}
+                                    <li> {% trans "Subtrack" %} {{ track.percomp_uniqueid }}.{{ subtr.pertrack_uniqueid }}: 
+                                        <a href="{% url 'competition' competition_id=competition.id track_id=track.percomp_uniqueid subtrack_id=subtr.pertrack_uniqueid %}">{{ subtr.name }}</a> 
+                                        </li>
+                                    {% endfor %}
+                                    </ul>
+                                {% else %}
+                                <h3> {% trans "There are no available subtracks for the current track" %}. </h3>
+                                {% endif %}
+                            {% endif %}
+          				{% else %}
+					        {{ competition.overview | safe }}
+				        {% endif %}
+                    {% endblock %}
+                </p>
+            </div>
+
+            <div class="col-md-2">
+                <div class="well">
+                    <h4>{% trans "News" %}</h4>
+				          	{{ competition.newsfeed | safe }}
+                </div>
+
+                <div class="well">
+                    <h4>{% trans "Important Dates" %}</h4>
+				          	{{ competition.important_dates | safe }}
+                </div>
+
+
+            </div>
+
+        </div>
+        <!-- /.row -->
