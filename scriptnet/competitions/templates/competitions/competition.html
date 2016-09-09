@@ -47,13 +47,21 @@
     <!-- Page Content -->
     <section id="main">
     <div class="container">
-        {% if track and not subtrack and track.subtrack_set.count == 1 %}        
-        {% include "competitions/competition_content.html" with subtrack=track.subtrack_set.all|first %}
-        {% else %}
-        {% include "competitions/competition_content.html" %}
-        {% endif %}        
-    </div>
-    <!-- /.container -->        
+        <div class="row">
+            <div class="col-lg-10">
+                <h1>{{ competition.name }}</h1>
+                <p class="lead">
+            {% block content %}                                        
+            {% if track and not subtrack and track.subtrack_set.count == 1 %}        
+            {% include "competitions/competition_content.html" with subtrack=track.subtrack_set.all|first %}
+            {% else %}
+            {% include "competitions/competition_content.html" %}
+            {% endif %}    
+            {% endblock %}
+                </p>
+            </div>
+        </div>    
+    </div>        
     </section>
         <hr><br><br><br>
 

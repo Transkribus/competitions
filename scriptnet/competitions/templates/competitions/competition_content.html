@@ -3,18 +3,19 @@
 {% load bootstrap3 %}
 
 
-        <div class="row">
-            <div class="col-lg-10">
-                <h1>{{ competition.name }}</h1>
-                <p class="lead">
-                    {% block content %}
         				{% if track %}
-        					<header>
-          					<h1> {% trans "Track" %} {{ track.percomp_uniqueid }} - {{ track.name }} </h1>
-        					</header>					
+                                  {% if competition.track_set.all.count > 1 %}                        
+        					        <header>
+          					        <h1> 
+                                    {% trans "Track" %} {{ track.percomp_uniqueid }} - 
+                                    {{ track.name }} </h1>
+        					        </header>
+                                  {% endif %}					
         					{{ track.overview | safe }}
         					{% if subtrack %}
-                                    <h3>{% trans "Subtrack" %} {{ track.percomp_uniqueid }}.{{ subtrack.pertrack_uniqueid }} - {{ subtrack.name }}</h3>
+                                    {% if track.subtrack_set.all.count > 1 %}
+                                        <h3>{% trans "Subtrack" %} {{ track.percomp_uniqueid }}.{{ subtrack.pertrack_uniqueid }} - {{ subtrack.name }}</h3>
+                                    {% endif %}
                                     <ul>
                                         {% if subtrack.public_data_external %}
                                         <li><a href="{{ subtrack.public_data_external }}">{% trans "Download training set" %}</a></li>
@@ -45,9 +46,6 @@
           				{% else %}
 					        {{ competition.overview | safe }}
 				        {% endif %}
-                    {% endblock %}
-                </p>
-            </div>
 
             <div class="col-md-2">
                 <div class="well">
