@@ -76,16 +76,18 @@
                       {% trans "Track" %} {{ tr.percomp_uniqueid }}
                       {% endif %}
                   </a>
-                  <a class="dropdown-toggle" data-toggle="dropdown" href="#subtracks"  style="display:inline-block;padding-left:0px;">
-                    <b class="caret"></b> <!-- This caret shows a wrong url sometimes, but probably doesnt matter -->
-                  </a>
-                  <ul class="dropdown-menu">
-				          {% for subtr in tr.subtrack_set.all %}
-				          <li>
+                        {% if tr.subtrack_set.count > 1 %}                  
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#subtracks"  style="display:inline-block;padding-left:0px;">
+                        <b class="caret"></b> <!-- This caret shows a wrong url sometimes, but probably doesnt matter -->
+                        </a>
+                        <ul class="dropdown-menu">
+				            {% for subtr in tr.subtrack_set.all %}
+				            <li>
   					        <a id="t{{ tr.percomp_uniqueid }}_{{ subtr.pertrack_uniqueid }}" href="{% url 'competition' competition_id=competition.id track_id=tr.percomp_uniqueid subtrack_id=subtr.pertrack_uniqueid %}">{% trans "Subtrack" %} {{ tr.percomp_uniqueid }}.{{ subtr.pertrack_uniqueid }} </a>
-	  			        </li>
-				          {% endfor %}
-                  </ul>
+	  			            </li>
+				            {% endfor %}
+                        </ul>
+                        {% endif %}                        
                 </li>                     
 			        {% endfor %}
                     <li>
