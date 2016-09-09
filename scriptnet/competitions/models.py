@@ -33,7 +33,6 @@ def argsort(seq):
 
 class Affiliation(models.Model):
 	name = models.CharField(max_length = 50)
-	#TODO: Use a unique identifier like in submission_path	
 	avatar = models.FileField(upload_to='uploads/avatars/', null=True, blank=True)
 	def __str__(self):
 		return '({}) {}'.format(self.id, self.name)
@@ -68,6 +67,7 @@ post_save.connect(create_user_profile, sender=User)
 class Competition(models.Model):
 	organizer = models.ManyToManyField(Individual)
 	name = models.CharField(max_length = 50)
+	avatar = models.FileField(upload_to='uploads/avatars/', null=True, blank=True)
 	overview = models.TextField(editable=True, default="")
 	newsfeed = models.TextField(editable=True, default="")
 	important_dates = models.TextField(editable=True, default="")
