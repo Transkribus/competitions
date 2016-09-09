@@ -175,14 +175,16 @@ Nam qualitates corporum non nisi per experimenta innotescunt, ideoque generales 
         <div class="container-fluid text-center">
             <div class="row no-gutter">
 				{% if competitions %}
+                <ul class="list-group">                
 				{% for c in competitions %}
+                <li class="list-group-item">
     			<div class="row">
-    				<div class="col-lg-5"></div>                
-    				<div class="col-lg-1">
+    				<div class="col-lg-3"></div>
+    				<div class="col-lg-3">
                         {% if c.avatar %}
-                        <img src="{{ c.avatar.url }}" class="img-responsive" alt="">
+                        <img src="{{ c.avatar.url }}" class="img-responsive center-block" alt="">
                         {% else %}
-                        <img src="{% static 'img/nicesamples/1.jpg' %}" class="img-responsive" alt="">
+                        <img src="{% static 'img/nicesamples/1.jpg' %}" class="img-responsive center-block" alt="">
                         {% endif %}                                                          
 	    			</div>
                     <div class="col-lg-1">
@@ -193,10 +195,12 @@ Nam qualitates corporum non nisi per experimenta innotescunt, ideoque generales 
     				<div class="col-lg-5"></div>                
     			</div>
                 <br>                
+                </li>
 				{% endfor %}
 				{% else %}
 				<p> {% trans "*No competitions are currently active*" %}
 				{% endif %}
+                </ul>
             </div>
 		</div>
 
