@@ -56,8 +56,8 @@
 			        {% endfor %}
                     <li>
                         <a id="current_level_submissions" href="{% url 'index' %}{{ competition.id }}{% if track %}/{% endif %}{{ track.percomp_uniqueid }}{% if subtrack %}/{% endif %}{{ subtrack.pertrack_uniqueid }}/viewresults/">{% trans "All submissions for this " %}
-                        {% if not subtrack %}
-                            {% if not track %}
+                        {% if not subtrack or track and track.subtrack_set.all.count == 1 or competition.track_set.all.count == 1 %}
+                            {% if not track or competition.track_set.all.count == 1 %}
                                 {% trans "competition" %}
                             {% else %}
                                 {% trans "track" %}
