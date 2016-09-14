@@ -154,3 +154,53 @@ def transkribusBaseLineMetricTool(*args, **kwargs):
         'bl-avg-fmeasure':  r.group(3),
     }
     return result
+
+def transkribusErrorRate(*args, **kwargs):
+    executable_folder = '{}/competitions/executables/TranskribusErrorRate'.format(settings.BASE_DIR)    
+    #privatedata = kwargs.pop('privatedata', 'truth.lst')
+    privatedata = kwargs.pop('privatedata', executable_folder)
+    #resultdata = kwargs.pop('resultdata', 'reco.lst')
+    resultdata = kwargs.pop('resultdata', executable_folder)
+
+    executable_jar = 'TranskribusErrorRate.jar'
+    if(isdir(privatedata)):
+        print(resultdata)
+        print(privatedata)
+        #This is the non-test scenario
+        #Hence we have to create a temporary folder and copy everything there
+        newfolder = '{}{}/'.format(temporary_folder, uuid4().hex)
+        makedirs(newfolder)
+        if(isdir(resultdata)):
+            for filename in listdir(resultdata):
+                full_filename = join(resultdata, filename)
+                target_filename = join(newfolder, filename)
+                copyfile(full_filename, target_filename)
+        else:
+            #If it is a file, it must be a tarball, or else raise an error 
+            tar = tarfile.open(resultdata)
+            tar.extractall(newfolder)
+            tar.close()
+        for filename in listdir(privatedata):
+            full_filename = join(privatedata, filename)
+            target_filename = join(newfolder, filename)
+            copyfile(full_filename, target_filename)
+        copyfile(join(executable_folder, executable_jar), join(newfolder, executable_jar))
+        executable_folder = newfolder
+        resultdata = '{}reco.lst'.format(newfolder)
+        privatedata = '{}truth.lst'.format(newfolder)
+   
+    executable = 'java -jar {}'.format(executable_jar)
+    commandline = '{} {} {}'.format(executable, privatedata, resultdata)
+    command_output = cmdline(commandline, cwd=executable_folder)
+
+    rmtree(newfolder)
+    print(command_output)
+    rgx = r'.*SUB = ([\d\.]+).*DEL = ([\d\.]+).*INS = ([\d\.]+).*CER = ([\d\.]+).*'
+    r = re.search(rgx, command_output)     
+    result = {
+        'CER': r.group(4),
+        'INS': r.group(3),
+        'DEL': r.group(2),
+        'SUB': r.group(1),
+    }
+    return result
