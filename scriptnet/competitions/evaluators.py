@@ -7,7 +7,7 @@ from django.conf import settings
 from random import random
 from time import sleep
 from os import listdir, makedirs
-from os.path import splitext, isdir, join
+from os.path import splitext, isdir, join, abspath, normpath, basename
 from shutil import copyfile, rmtree
 from subprocess import PIPE, Popen
 from uuid import uuid4
@@ -153,4 +153,82 @@ def transkribusBaseLineMetricTool(*args, **kwargs):
         'bl-avg-recall':    r.group(2),
         'bl-avg-fmeasure':  r.group(3),
     }
+    return result
+
+def transkribusErrorRate(*args, **kwargs):
+    #the method assumes the following parameters:
+    # kwargs has to contain "privatedata" with the path to a tar-file.
+    # The tar-file has to contain Page-xml-files without subfolders.
+    # The TextEquiv of the lines have to be the ground truth for the competition.
+    # kwargs also has to contain "resultdata",
+    # which is the path to the tar-file containing the hypothesises of the competitor.
+    # kwargs can contain a path "tmpfolder" - all temporary files and folder are created there.
+    # the folder will be deleted afterwards, when it did not exist before.
+    # Otherwise only the containing files and folders are deleted.
+
+    folder_data =  kwargs.pop('tmpfolder',normpath(abspath(".")))
+    folder_exec = join(settings.BASE_DIR,"competitions/executables/TranskribusBaseLineMetricTool")
+    folder_exec = join(normpath(abspath(".")),"executables/TranskribusErrorRate")
+    privatedata =  kwargs.pop('privatedata',"gt.tgz")
+    print("privatedata is '"+privatedata+"'.")
+    resultdata =  kwargs.pop('resultdata', "hyp.tgz")
+    print("resultdata is '"+resultdata+"'.")
+    file_exec = join(folder_exec,'TranskribusErrorRate.jar')
+
+    data_lists = {}
+    to_remove_folder = []
+    to_remove_file = []
+    deleteroot = False
+    if not (isdir(folder_data)):
+        print("folder have to be deleted")
+        deleteroot = True
+    for (file_tar,prefix) in [[privatedata,"gt"], [resultdata,"hyp"]]:
+        print("execute '"+ file_tar + "' ...")
+        folder_xmls = join(folder_data,prefix + '_dir')
+        print(folder_xmls)
+        if isdir(folder_xmls):
+            rmtree(folder_xmls)
+        makedirs(folder_xmls) #, exist_ok=True)
+        to_remove_folder += [folder_xmls]
+        print("unpack tar-file ...")
+        obj_tar = tarfile.open(file_tar)
+        obj_tar.extractall(folder_xmls)
+        obj_tar.close()
+        print("unpack tar-file ... [DONE]")
+        print("save list ...")
+        files_xml = sorted(listdir(folder_xmls))
+        file_list_xml = join(folder_data,prefix + '.lst')
+        to_remove_file+=[file_list_xml]
+        data_lists[file_tar] = file_list_xml
+        with open(file_list_xml, 'w') as tfFile:
+            for file_xml in files_xml:
+                tfFile.write(join(folder_xmls, file_xml)+"\n")
+                #print(join(folder_xmls, file_xml), file=tfFile)
+        print("save list ... [DONE] (to '"+file_list_xml+"')")
+    if (deleteroot):
+        to_remove_folder += [folder_data]
+
+    executable = 'java -cp {} eu.transkribus.errorrate.ErrorRateParser'.format(file_exec)
+    commandline = '{} {} {}'.format(executable, data_lists[privatedata], data_lists[resultdata])
+    print(commandline)
+    #command_output = "tryrun"
+    command_output = cmdline(commandline)
+    print("output of algorithm:")
+    print(command_output)
+    print("output of algorithm: [DONE]")
+    for file in to_remove_file:
+        print("remove '"+file+"'")
+        os.remove(file)
+    for folder in to_remove_folder:
+        print("remove '"+folder+"'")
+        rmtree(folder)
+    rgx = r'.*SUB = ([\d\.]+).*\nDEL = ([\d\.]+).*\nINS = ([\d\.]+).*\nCER = ([\d\.]+).*'
+    r = re.search(rgx, command_output)
+    result = {
+    'CER': r.group(4),
+    'INS': r.group(3),
+    'DEL': r.group(2),
+    'SUB': r.group(1),
+    }
+    print(result)
     return result
