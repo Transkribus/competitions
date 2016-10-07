@@ -243,7 +243,7 @@ class Subtrack(models.Model):
 	def scoretable(self):
 		data = {}
 		for b in self.benchmark_set.all():
-			if(b in self.track.competition.count_in_scoreboard.all()):	
+			if(b in self.track.competition.count_in_scoreboard.all()):
 				data = mergedict(data, b.scoretable(self.id))
 		return data
 
@@ -293,9 +293,10 @@ class Benchmark(models.Model):
 		for submission in subtrack.submission_set.all():
 			if not submission.publishable:
 				continue
-			#TODO: What if there are multiple submissions under the same name ?
-			# For now, if this happens an error will fire
-			submission_status = SubmissionStatus.objects.filter(submission_id=submission.id).get(benchmark_id=self.id)
+			submission_status_all = SubmissionStatus.objects.filter(submission_id=submission.id).filter(benchmark_id=self.id)
+			if not submission_status_all:
+				continue;
+			submission_status = submission_status_all.all()[0]			
 			if submission_status.numericalresult and submission_status.status == 'COMPLETE':
 				res[submission.name] = float(submission_status.numericalresult)		
 		scores = [-s for s in list(res.values())]
