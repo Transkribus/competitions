@@ -17,11 +17,18 @@
                                         <h3>{% trans "Subtrack" %} {{ track.percomp_uniqueid }}.{{ subtrack.pertrack_uniqueid }} - {{ subtrack.name }}</h3>
                                     {% endif %}
                                     <ul>
-                                        {% if subtrack.public_data_external %}
-                                        <li><a href="{{ subtrack.public_data_external }}">{% trans "Download training set" %}</a></li>
-                                        {% else %}
-          							    <li><a href="{{ subtrack.public_data.url }}">{% trans "Download training set" %}</a></li>
-                                        {% endif %}
+                                        {% for publink in subtrack.publiclink_set.all %}
+                                            {% if publink.externalLink %}
+                                            <li><a href="{{ publink.externalLink }}">
+                                                {{ publink.legend }}
+                                                </a></li>
+                                            {% else %}
+          							        <li><a href="{{ publink.downloadableFile.url }}">
+                                                {{ publink.legend }}
+                                                </a></li>
+                                            {% endif %}                                        
+                                        {% endfor %}
+
                                         {% if user.is_authenticated %}
             							<li><a href="{% url 'submit' competition_id=competition.id track_id=track.percomp_uniqueid subtrack_id=subtrack.pertrack_uniqueid %}">{% trans "Submit a new method for evaluation" %}</a></li>
                                         {% else %}
