@@ -140,11 +140,8 @@ class Subtrack(models.Model):
 	pertrack_uniqueid = models.IntegerField(default="1", blank=False)	
 	name = models.CharField(max_length = 50)
 	track = models.ForeignKey(Track, on_delete = models.CASCADE)
-	#This will normally be training+validation folds, visible to any registered user
-	public_data = models.FileField(upload_to=publicdata_path, null=True, blank=True, default="") #Not sure if FileField is proper in this case
-	#Organizers have the option of using a URL field here, in case they want to serve the public data themselves
-	#If this is non-blank, it overrides the 'public_data' field
-	public_data_external = models.URLField(null=True, blank=True, default="")
+	#Public data link here via a foreign key relation
+	#
 	#This will be test folds, non-visible to participants, usable only by the evaluation system
 	private_data = models.FileField(upload_to=privatedata_path, null=True) #Not sure if FileField is proper in this case
 	#This hash is used to monitor user changes on private data
@@ -253,6 +250,15 @@ def submission_path(instance, filename):
 		strftime("%Y_%m_%d"),
 		uuid4().hex, 
 		filename)
+
+class PublicLinks(models.Model):
+	subtrack = models.ForeignKey(Subtrack, on_delete = models.CASCADE)
+	legend = models.CharField(max_length = 150, null=False, blank=False, default="Download training data")
+	#This will normally be training+validation folds, visible to any registered user
+	downloadableFile = models.FileField(upload_to=publicdata_path, null=True, blank=True, default="")
+	#Organizers have the option of using a URL field here, in case they want to serve the public data themselves. If this is non-blank, it overrides the other fields
+	externalLink = models.URLField(null=True, blank=True, default="")
+	#TODO: Add sth here to cover showing thumbnails of training data (issue #3)
 
 class Submission(models.Model):
     #TODO: The submission will have to be authenticated by at least one individual per submitting institution to show up on the scoreboard eventually
