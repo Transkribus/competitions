@@ -97,11 +97,13 @@ def index(request):
                     if user.is_active:
                         login(request, user)
                     else:
-                        #TODO Redirect to failure (disabled account)                        
-                        pass
+                        u = login_form.cleaned_data['username']                        
+                        messages.add_message(request, messages.ERROR, _('User {} has been blocked. Please contact the administrator for details.').format(u))                                                
+                        return HttpResponseRedirect('/competitions/#register')
                 else:
-                    #TODO Redirect to failure (inexistent account)
-                    pass
+                    u = login_form.cleaned_data['username']                    
+                    messages.add_message(request, messages.ERROR, _('User {} does not exist. Please make sure that you have correctly typed your username, or register to create a new username.').format(u))                    
+                    return HttpResponseRedirect('/competitions/#register')
     context = {
         'login_form': login_form,
         'register_form': register_form,
