@@ -251,7 +251,7 @@ def submission_path(instance, filename):
 		uuid4().hex, 
 		filename)
 
-class PublicLinks(models.Model):
+class PublicLink(models.Model):
 	subtrack = models.ForeignKey(Subtrack, on_delete = models.CASCADE)
 	legend = models.CharField(max_length = 150, null=False, blank=False, default="Download training data")
 	#This will normally be training+validation folds, visible to any registered user
@@ -259,6 +259,8 @@ class PublicLinks(models.Model):
 	#Organizers have the option of using a URL field here, in case they want to serve the public data themselves. If this is non-blank, it overrides the other fields
 	externalLink = models.URLField(null=True, blank=True, default="")
 	#TODO: Add sth here to cover showing thumbnails of training data (issue #3)
+	def __str__(self):
+		return '({}) {}'.format(self.legend, self.subtrack)	
 
 class Submission(models.Model):
     #TODO: The submission will have to be authenticated by at least one individual per submitting institution to show up on the scoreboard eventually
