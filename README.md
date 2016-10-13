@@ -181,6 +181,8 @@ service restart uwsgi
 service restart nginx
 ```
 
+Note that it is *very* important that you restart both uwsgi and nginx -- forgetting this can cause a server error (''Server Error 500'').
+
 ### Internationalisation
 
 #### Code
