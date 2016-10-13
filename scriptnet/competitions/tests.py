@@ -46,9 +46,8 @@ def create_competitions_tracks_subtracks(
                 subtrack = Subtrack.objects.create(
                     name='Subtrack {}'.format(snum), 
                     track=track,
-                    public_data=SimpleUploadedFile(sampledata_filename, sampledata_filename_contents),
                     private_data=SimpleUploadedFile(sampledata_filename, sampledata_filename_contents)
-                )
+                ) #public_data=SimpleUploadedFile(sampledata_filename, sampledata_filename_contents),
                 print('Created {}'.format(subtrack))
 
 def show_all_competitions_tracks_subtracks():
