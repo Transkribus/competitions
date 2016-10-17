@@ -1,0 +1,97 @@
+README
+-------------------------------------------------
+
+1. INSTALLATION
+
+In order to install the software just execute the command:
+
+make install
+
+This will leave the following command line tool: page_format_tool
+
+2. USAGE
+
+The command line tool has 4 modes of usage:
+
+2.1 Help - lists the command line options
+
+./page_format_tool --help
+
+Allowed options:
+  -h [ --help ]                         Generates this help message
+  -i [ --input_image ] arg (=image.jpg) Input image from which to extract the 
+                                        line images (by default ./image.jpg)
+  -l [ --page_file ] arg (=page.xml)    Page file path (by default ./page.xml)
+  -m [ --operation_mode ] arg (=DISPLAY)
+                                        Operation mode of the command line 
+                                        tool, list printing out the list of 
+                                        line regions (LIST) or save the line 
+                                        images to (FILE) (default value is 
+                                        LIST)
+  -v [ --verbosity ] arg (=0)           % Verbosity os messages during 
+                                        execution [0-2]
+
+
+2.2 List - lists the line regions in reading order and indicates their height and width
+
+./page_format_tool -i 072_047_003.jpg -l 072_047_003.xml -m LIST -v 0
+
+#Name:   072_047_003.tif
+#Width:  2731
+#Height: 4096
+65 55 r1 r100
+51 55 r2 r101
+1638 140 r4 r102
+1699 112 r5 r103
+1687 96 r5 r104
+796 78 r5 r105
+1368 127 r5 r106
+1697 80 r5 r107
+1719 92 r5 r108
+1703 107 r5 r109
+1683 100 r5 r110
+805 86 r5 r111
+1336 130 r5 r112
+1695 103 r5 r113
+1718 111 r5 r114
+885 94 r5 r30
+220 61 r5 r31
+1678 115 r5 r115
+128 50 r5 r32
+1688 134 r5 r116
+1734 137 r5 r117
+1682 120 r5 r118
+1568 127 r5 r119
+1704 114 r5 r120
+1693 134 r5 r121
+1718 125 r5 r122
+1711 119 r5 r123
+1689 112 r5 r33
+45 40 r5 r34
+
+2.3 File - saves to an individual png file each of the lines present in the PAGE xml
+in reading order:
+
+
+./page_format_tool -i 072_047_003.jpg -l 072_047_003.xml -m FILE -v 0
+
+Additionally the file mode lists the lines that are present in the PAGE file
+but are not stored as per the reading order:
+
+3383 [0x7f6fc27739c0] ERROR PRHLT.Page_File null -  Out of place line >> 12 for 21
+3396 [0x7f6fc27739c0] ERROR PRHLT.Page_File null -  Out of place line >> 13 for 22
+3398 [0x7f6fc27739c0] ERROR PRHLT.Page_File null -  Out of place line >> 14 for 12
+3429 [0x7f6fc27739c0] ERROR PRHLT.Page_File null -  Out of place line >> 15 for 23
+3430 [0x7f6fc27739c0] ERROR PRHLT.Page_File null -  Out of place line >> 16 for 13
+3466 [0x7f6fc27739c0] ERROR PRHLT.Page_File null -  Out of place line >> 17 for 14
+3503 [0x7f6fc27739c0] ERROR PRHLT.Page_File null -  Out of place line >> 18 for 15
+3535 [0x7f6fc27739c0] ERROR PRHLT.Page_File null -  Out of place line >> 19 for 16
+3567 [0x7f6fc27739c0] ERROR PRHLT.Page_File null -  Out of place line >> 20 for 17
+3598 [0x7f6fc27739c0] ERROR PRHLT.Page_File null -  Out of place line >> 21 for 18
+3635 [0x7f6fc27739c0] ERROR PRHLT.Page_File null -  Out of place line >> 22 for 19
+3669 [0x7f6fc27739c0] ERROR PRHLT.Page_File null -  Out of place line >> 23 for 20
+
+2.4 Default - if no parameters are given the command line tool executes the LIST option
+and expects the existance of files with specific names:
+
+./page_format_tool = ./page_format_tool -i image.jpg -l page.xml -m LIST -v 0
