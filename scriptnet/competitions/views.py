@@ -275,7 +275,7 @@ def methodlist(request, competition_id):
                 messages.add_message(request, messages.SUCCESS, _('Submission {} has been deleted.').format(s))                
                 s.delete()
     #myself = request.user.individual
-    mymethods = Submission.objects.filter(submitter__user=request.user)
+    mymethods = Submission.objects.filter(submitter__user=request.user).filter(subtrack__track__competition=competition_id)
     table = ManipulateMethodsTable(mymethods)
     context = {
         'competition': competition,
