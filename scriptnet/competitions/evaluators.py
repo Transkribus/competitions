@@ -232,3 +232,29 @@ def transkribusErrorRate(*args, **kwargs):
     }
     print(result)
     return result
+
+def icfhr16_HTR_tool(*args, **kwargs):
+    print("icfhr16_HTR_tool")
+    executable_folder = '{}/competitions/executables/EvaluationCERandWER'.format(settings.BASE_DIR)
+    resultdata = kwargs.pop('resultdata', executable_folder)
+    privatedata = kwargs.pop('privatedata', '{}/gt.zip'.format(executable_folder))
+
+    print(resultdata)
+    print(privatedata)
+
+
+    executable = '{}/Create_WER-PAGE.sh'.format(executable_folder)
+    commandline = '{} {} {}'.format(executable, resultdata, privatedata)
+    print(commandline)
+
+    command_output = cmdline(commandline)
+
+    rgx = r'([\d\.]+)\n+([\d\.]+)'
+    r = re.search(rgx, command_output)
+    result = {
+        'CER':              r.group(1),
+        'WER':             r.group(2),
+    }
+    print(result)
+    return result
+
