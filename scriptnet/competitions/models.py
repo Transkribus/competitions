@@ -99,11 +99,14 @@ class Track(models.Model):
 		next_uniqueid += 1
 		return(str(next_uniqueid))		
 	def clean(self):
-		if not self.uniqueid_isunique():
+		try:
+			if not self.uniqueid_isunique():
+				self.percomp_uniqueid = self.get_next_uniqueid()			
+		except AttributeError:
 			raise ValidationError(
-            _('%(value)s is not a unique track id for this competition'),
-            params={'value': self.percomp_uniqueid},
-        )		
+				_('You must specify all required fields.'),
+				params={},
+				)
 	def save(self, *args, **kwargs):
 		if not self.uniqueid_isunique():
 			self.percomp_uniqueid = self.get_next_uniqueid()
@@ -166,11 +169,14 @@ class Subtrack(models.Model):
 		next_uniqueid += 1
 		return(str(next_uniqueid))
 	def clean(self):
-		if not self.uniqueid_isunique():
+		try:
+			if not self.uniqueid_isunique():
+				self.pertrack_uniqueid = self.get_next_uniqueid()			
+		except AttributeError:
 			raise ValidationError(
-            _('%(value)s is not a unique subtrack id for this track'),
-            params={'value': self.pertrack_uniqueid},
-        )		
+				_('You must specify all required fields.'),
+				params={},
+				)			
 	def save(self, *args, **kwargs):
 		dont_call_unpack_privatefolder = kwargs.pop('dont_call_unpack_privatefolder', False)
 		if not dont_call_unpack_privatefolder:
