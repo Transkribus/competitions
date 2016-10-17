@@ -314,7 +314,7 @@ class Benchmark(models.Model):
 			submission_status = submission_status_all.all()[0]			
 			if submission_status.numericalresult and submission_status.status == 'COMPLETE':
 				res[submission.name] = float(submission_status.numericalresult)
-		sortedindices = argsort([ ((-1)**int(higher_is_better))*s for s in list(res.values()) ])
+		sortedindices = argsort([ ((-1)**int(self.higher_is_better))*s for s in list(res.values()) ])
 		ranks = [0]*len(sortedindices)
 		for r in range(len(sortedindices)):
 			ranks[sortedindices[r]] = r+1
