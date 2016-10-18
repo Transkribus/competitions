@@ -167,12 +167,13 @@ def transkribusErrorRate(*args, **kwargs):
     # Otherwise only the containing files and folders are deleted.
 
     folder_data =  kwargs.pop('tmpfolder',normpath(abspath(".")))
-    folder_exec = join(settings.BASE_DIR,"competitions/executables/TranskribusBaseLineMetricTool")
-    folder_exec = join(normpath(abspath(".")),"executables/TranskribusErrorRate")
+    folder_exec = kwargs.pop("execpath", join(normpath(abspath(".")),"executables/TranskribusErrorRate"))
     privatedata =  kwargs.pop('privatedata',"gt.tgz")
-    print("privatedata is '"+privatedata+"'.")
     resultdata =  kwargs.pop('resultdata', "hyp.tgz")
+    print("privatedata is '"+privatedata+"'.")
     print("resultdata is '"+resultdata+"'.")
+    print("folder_exec is '"+folder_exec+"'.")
+    params=kwargs.pop("params","")
     file_exec = join(folder_exec,'TranskribusErrorRate.jar')
 
     data_lists = {}
@@ -209,7 +210,7 @@ def transkribusErrorRate(*args, **kwargs):
         to_remove_folder += [folder_data]
 
     executable = 'java -cp {} eu.transkribus.errorrate.ErrorRateParser'.format(file_exec)
-    commandline = '{} {} {}'.format(executable, data_lists[privatedata], data_lists[resultdata])
+    commandline = '{} {} {} {}'.format(executable,params, data_lists[privatedata], data_lists[resultdata])
     print(commandline)
     #command_output = "tryrun"
     command_output = cmdline(commandline)
@@ -218,19 +219,18 @@ def transkribusErrorRate(*args, **kwargs):
     print("output of algorithm: [DONE]")
     for file in to_remove_file:
         print("remove '"+file+"'")
-        os.remove(file)
+        remove(file)
     for folder in to_remove_folder:
         print("remove '"+folder+"'")
         rmtree(folder)
-    rgx = r'.*SUB = ([\d\.]+).*\nDEL = ([\d\.]+).*\nINS = ([\d\.]+).*\nCER = ([\d\.]+).*'
+    rgx = r'.*SUB = ([\d\.]+).*\nDEL = ([\d\.]+).*\nINS = ([\d\.]+).*\nERR = ([\d\.]+).*'
     r = re.search(rgx, command_output)
     result = {
-    'CER': r.group(4),
-    'INS': r.group(3),
-    'DEL': r.group(2),
-    'SUB': r.group(1),
+    'ERR': r.group(4).encode("utf-8"),
+    'INS': r.group(3).encode("utf-8"),
+    'DEL': r.group(2).encode("utf-8"),
+    'SUB': r.group(1).encode("utf-8"),
     }
-    print(result)
     return result
 
 def icfhr16_HTR_tool(*args, **kwargs):
@@ -252,9 +252,8 @@ def icfhr16_HTR_tool(*args, **kwargs):
     rgx = r'([\d\.]+)\n+([\d\.]+)'
     r = re.search(rgx, command_output)
     result = {
-        'CER':              r.group(1),
+        'CER':             r.group(1),
         'WER':             r.group(2),
     }
     print(result)
     return result
-
