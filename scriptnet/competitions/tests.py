@@ -8,7 +8,7 @@ from .models import Affiliation, Competition, Individual
 from .models import Track, Subtrack
 
 from .evaluators import cmdline
-from .evaluators import icfhr14_kws_tool, transkribusBaseLineMetricTool
+from .evaluators import icfhr14_kws_tool, transkribusBaseLineMetricTool, transkribusErrorRate
 
 def create_new_user():
     user = User.objects.create_user(
@@ -284,12 +284,12 @@ class EvaluatorTests(TestCase):
     def test_icfhr14_kws_tool(self):
         res = icfhr14_kws_tool()
         self.assertEqual(res, {
-            'pr-curve': '["1.0000", "1.0000", "1.0000", "1.0000", "1.0000", "0.6667", "0.0000", "0.0000", "0.0000", "0.0000", "0.0000"]', 
-            'p@5': '0.9000', 
-            'r-precision': '0.5000', 
-            'map': '0.5185', 
-            'ndcg': '0.6395', 
-            'p@10': '0.5000', 
+            'pr-curve': '["1.0000", "1.0000", "1.0000", "1.0000", "1.0000", "0.6667", "0.0000", "0.0000", "0.0000", "0.0000", "0.0000"]',
+            'p@5': '0.9000',
+            'r-precision': '0.5000',
+            'map': '0.5185',
+            'ndcg': '0.6395',
+            'p@10': '0.5000',
             'ndcg-binary': '0.6817'
             }
         )
@@ -301,6 +301,60 @@ class EvaluatorTests(TestCase):
                 'bl-avg-fmeasure': '0.7512',
             }
         )
+
+
+class TranskribusErrorRateTests(TestCase):
+    def _test_transkribuserrorrate(self, params="", tgt={}):
+        res = transkribusErrorRate(privatedata="executables/TranskribusErrorRate/testresources/gt.tgz",
+                                   resultdata="executables/TranskribusErrorRate/testresources/hyp.tgz",
+                                   tmpfolder="executables/TranskribusErrorRate/testresources/tmp",
+                                   execpath="executables/TranskribusErrorRate/", params=params)
+        print("output of test is '" + str(res) + "'.")
+        print("output of tgt  is '" + str(tgt).encode('utf-8') + "'.")
+        for key in tgt:
+            if tgt.get(key) != res.get(key):
+                raise Exception("error - target and result are not equal")
+
+    def test_transkribuserrorrate_cer(self):
+        self._test_transkribuserrorrate(
+            params="",
+            tgt={
+                'DEL': '0.05',
+                'ERR': '0.465',
+                'SUB': '0.215',
+                'INS': '0.2'
+            })
+
+    def test_transkribuserrorrate_wer(self):
+        self._test_transkribuserrorrate(
+            params="-w",
+            tgt={
+                'DEL': '0.1',
+                'ERR': '0.78',
+                'SUB': '0.3',
+                'INS': '0.38',
+            })
+
+    def test_transkribuserrorrate_cer_upper(self):
+        self._test_transkribuserrorrate(
+            params="-u",
+            tgt={
+                'DEL': '0.05',
+                'ERR': '0.335',
+                'SUB': '0.085',
+                'INS': '0.2',
+            })
+
+    def test_transkribuserrorrate_wer_letter(self):
+        self._test_transkribuserrorrate(
+            params="-l -w",
+            tgt={
+                'DEL': '0.02',
+                'ERR': '0.74',
+                'SUB': '0.32',
+                'INS': '0.4',
+            })
+
 
 class AuthenticationTests(TestCase):
     """
