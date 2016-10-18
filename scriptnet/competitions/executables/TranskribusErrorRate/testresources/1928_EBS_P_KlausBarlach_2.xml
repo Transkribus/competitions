@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+    <Metadata>
+        <Creator>prov=University of Rostock/Institute of Mathematics/CITlab/Gundram Leifert/gundram.leifert@uni-rostock.de:name=Matcher(barlach_v4.1_0_0.sprnn:::[min_conf, 0.01])(v=1.0.1)
+prov=University of Rostock/Institute of Mathematics/CITlab/Gundram Leifert/gundram.leifert@uni-rostock.de:name=Matcher(barlach_v4.1_0_0.sprnn:::[min_conf, 0.01])(v=1.0.1)
+prov=University of Rostock/Institute of Mathematics/CITlab/Gundram Leifert/gundram.leifert@uni-rostock.de:name=Matcher(barlach_v4.1_0_0.sprnn:::[min_conf, 0.01])(v=1.0.1)
+prov=University of Rostock/Institute of Mathematics/CITlab/Gundram Leifert/gundram.leifert@uni-rostock.de:name=Matcher(barlach_v4.1_0_0.sprnn:::[min_conf, 0.01])(v=1.0.1)
+prov=University of Rostock/Institute of Mathematics/CITlab/Gundram Leifert/gundram.leifert@uni-rostock.de:name=Matcher(barlach_v4.1_0_0.sprnn:::[min_conf, 0.01])(v=1.0.1)
+prov=University of Rostock/Institute of Mathematics/CITlab/Gundram Leifert/gundram.leifert@uni-rostock.de:name=Matcher(barlach_v4.1_0_0.sprnn:::[min_conf, 0.01])(v=1.0.1)
+prov=University of Rostock/Institute of Mathematics/CITlab/Gundram Leifert/gundram.leifert@uni-rostock.de:name=Matcher(barlach_v4.1_0_0.sprnn:::[min_conf, 0.01])(v=1.0.1)
+prov=University of Rostock/Institute of Mathematics/CITlab/Gundram Leifert/gundram.leifert@uni-rostock.de:name=Matcher(barlach_v4.1_0_0.sprnn:::[min_conf, 0.01])(v=1.0.1)
+prov=University of Rostock/Institute of Mathematics/CITlab/Gundram Leifert/gundram.leifert@uni-rostock.de:name=Matcher(barlach_v4.1_0_0.sprnn:::[min_conf, 0.01])(v=1.0.1)
+prov=University of Rostock/Institute of Mathematics/CITlab/Gundram Leifert/gundram.leifert@uni-rostock.de:name=Matcher(barlach_v4.1_0_0.sprnn:::[min_conf, 0.01])(v=1.0.1)
+prov=University of Rostock/Institute of Mathematics/CITlab/Gundram Leifert/gundram.leifert@uni-rostock.de:name=Matcher(barlach_v4.1_0_0.sprnn:::[min_conf, 0.01])(v=1.0.1)
+prov=University of Rostock/Institute of Mathematics/CITlab/Tobias Gruening/tobias.gruening@uni-rostock.de:name=/home/gundram/devel/projects/barlach/configs/barlach_20161012.bin:de.uro.citlab.module.la.BaselineGeneration(v=0.0.1)
+prov=University of Rostock/Institute of Mathematics/CITlab/Tobias Gruening/tobias.gruening@uni-rostock.de:name=/home/gundram/devel/projects/barlach/configs/barlach_20161012.bin:de.uro.citlab.module.la.BaselineGeneration(v=0.0.1)
+TRP</Creator>
+        <Created>2016-10-14T15:19:07.764+02:00</Created>
+        <LastChange>2016-10-18T09:55:34.751+02:00</LastChange>
+    </Metadata>
+    <Page imageFilename="1928_EBS_P_KlausBarlach_2.jpg" imageWidth="8984" imageHeight="6732">
+        <ReadingOrder>
+            <OrderedGroup id="ro_1476777334789" caption="Regions reading order">
+                <RegionRefIndexed index="0" regionRef="r1"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <TextRegion orientation="0.0" id="r1" custom="readingOrder {index:0;}">
+            <Coords points="0,0"/>
+            <TextLine id="r1l4" custom="readingOrder {index:3;}">
+                <Coords points="0,0"/>
+                <Baseline points="0,0"/>
+                <TextEquiv conf="0.024526414">
+                    <Unicode>This is a regular line without many mistakes</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l5" custom="readingOrder {index:4;}">
+                <Coords points="0,0"/>
+                <Baseline points="0,0"/>
+                <TextEquiv conf="0.17508692">
+                    <Unicode>This is to test upper case error</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l6" custom="readingOrder {index:5;}">
+                <Coords points="0,0"/>
+                <Baseline points="0,0"/>
+                <TextEquiv conf="0.5548438">
+                    <Unicode>Is order important</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l7" custom="readingOrder {index:6;}">
+                <Coords points="0,0"/>
+                <Baseline points="0,0"/>
+                <TextEquiv conf="0.016481422">
+                    <Unicode>This ist to have specific number of words and space for more erro s 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0</Unicode>
+                </TextEquiv>
+            </TextLine>
+        </TextRegion>
+    </Page>
+</PcGts>
