@@ -4,3 +4,7 @@ executables/ linguist-vendored
 *.less linguist-vendored=true
 *.scss linguist-vendored=true
 *.xml linguist-vendored=true
+*.c linguist-vendored=true
+*.cpp linguist-vendored=true
+*.hpp linguist-vendored=true
+*.cc linguist-vendored=true
