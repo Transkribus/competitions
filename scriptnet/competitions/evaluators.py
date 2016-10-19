@@ -31,6 +31,17 @@ def cmdline(command, *args, **kwargs):
     res = process.communicate()[0]
     return res.decode('utf-8')
 
+def cmdlineret(command, *args, **kwargs):
+    cwd = kwargs.pop('cwd', None)
+    process = Popen(
+        args=command,
+        stdout=PIPE,
+        stderr=PIPE,
+        shell=True,
+        cwd=cwd,
+    )
+    out, err = process.communicate()
+    return process.returncode, out.decode('utf-8'), err
 
 def evaluator_worker(evaluator_function, submission_status_set):
     if not evaluator_function:
@@ -256,4 +267,23 @@ def icfhr16_HTR_tool(*args, **kwargs):
         'WER':             r.group(2),
     }
     print(result)
+    return result
+
+def iclef16_retrieval(*args, **kwargs):
+    executable_folder = '{}/competitions/executables/iclef16'.format(settings.BASE_DIR)
+    resultdata = kwargs.pop('resultdata')
+    privatedata = re.sub(r'[^/]+$', 'unpacked', kwargs.pop('privatedata'))
+
+    executable = '{}/iclef16_assessment.sh'.format(executable_folder)
+    commandline = '{} {} {}'.format(executable, privatedata, resultdata)
+    command_code, command_out, command_err = cmdlineret(commandline)
+
+    if command_code != 0:
+        raise Exception('Failed to compute performance measures\n'+command_err)
+
+    result = dict(item.split() for item in command_out.strip().split('\n'))
+    for key in result:
+        if not bool(re.search(r'(_query_|_uses_)', key)):
+            result[key] = float(result[key])
+
     return result
