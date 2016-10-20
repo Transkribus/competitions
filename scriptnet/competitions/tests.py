@@ -304,15 +304,14 @@ class EvaluatorTests(TestCase):
 
 class TranskribusErrorRateTests(TestCase):
     def _test_transkribuserrorrate(self, params="", tgt={}):
-        res = transkribusErrorRate(privatedata="executables/TranskribusErrorRate/testresources/gt.tgz",
-                                   resultdata="executables/TranskribusErrorRate/testresources/hyp.tgz",
-                                   tmpfolder="executables/TranskribusErrorRate/testresources/tmp",
-                                   execpath="executables/TranskribusErrorRate/", params=params)
+        res = transkribusErrorRate(privatedata="competitions/executables/TranskribusErrorRate/testresources/gt.tgz",
+                                   resultdata="competitions/executables/TranskribusErrorRate/testresources/hyp.tgz",
+                                   tmpfolder="competitions/executables/TranskribusErrorRate/testresources/tmp",
+                                   execpath="competitions/executables/TranskribusErrorRate/", params=params)
         print("output of test is '" + str(res) + "'.")
-        print("output of tgt  is '" + str(tgt).encode('utf-8') + "'.")
+        print("output of tgt  is '" + str(tgt) + "'.")
         for key in tgt:
-            if tgt.get(key) != res.get(key):
-                raise Exception("error - target and result are not equal")
+            self.assertEqual(float(tgt.get(key)), float(res.get(key)))
 
     def test_transkribuserrorrate_cer(self):
         self._test_transkribuserrorrate(
