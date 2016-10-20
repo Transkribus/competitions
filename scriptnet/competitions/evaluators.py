@@ -6,7 +6,7 @@
 from django.conf import settings
 from random import random
 from time import sleep
-from os import listdir, makedirs
+from os import listdir, makedirs, remove
 from os.path import splitext, isdir, join, abspath, normpath, basename
 from shutil import copyfile, rmtree
 from subprocess import PIPE, Popen
