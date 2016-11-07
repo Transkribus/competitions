@@ -15,6 +15,7 @@ before_install:
   - sudo apt-get update
   - sudo apt-get install mono-complete -y
   - sudo apt-get install p7zip -y
+  - sudo apt-get install liblog4cxx10 -y  
   - cd scriptnet
 install: 
   - pip install Django==$DJANGO_VERSION
