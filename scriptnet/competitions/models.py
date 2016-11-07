@@ -219,7 +219,7 @@ class Subtrack(models.Model):
 				if not exists(self.private_data_unpacked_folder()):
 					makedirs(self.private_data_unpacked_folder())
 				system('7zr x {} -o{}'.format(self.private_data.name, self.private_data_unpacked_folder()))
-			elif(fn_ext == '.gz'):
+			elif(fn_ext == '.gz' or fn_ext == '.tgz' or fn_ext == '.tar.gz'):
 				tar = tarfile.open(self.private_data.name)
 				tar.extractall(path=self.private_data_unpacked_folder())
 				tar.close()
