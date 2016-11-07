@@ -25,7 +25,7 @@ pip3 install django django-bootstrap3 django_tables2
 ```
 #### Requirements of optional components
 
-##### Mono
+##### ICFHR'14 KWS
 The benchmarks introduced in the ICFHR'14 KWS competition require the [Mono] library to run. In Ubuntu, install it by running the following as a privileged user:
 ```sh
 apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 3FA7E0328081BFF6A14DA29AA6A19B38D3D831EF
@@ -35,10 +35,11 @@ apt-get install mono-complete
 ```
 Follow the [Mono] installation instructions to install the library in other platforms.
 
-##### liblog4cxx10
-The benchmarks in the ICFHR'16 HTR competition require the liblog4cc library. In Ubuntu, install it by running:
+##### ICFHR'16 HTR - liblog4cxx, boost-filesystem
+The benchmarks in the ICFHR'16 HTR competition require the liblog4cc and boost/filesystem libraries. In Ubuntu, install them by running
 ```
 apt-get install liblog4cxx10
+apt-get install libboost-filesystem1.54.0
 ```
 
 ##### p7zip
