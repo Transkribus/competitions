@@ -13,8 +13,10 @@ R=`echo $RANDOM`
 if [ `file $1 | grep "tar" | wc -l` -ne 1 ] ; then echo "ERROR: the Results file is not a tarball" 1>&2; exit 1; fi
 #if [ `file $2 | grep "tar" | wc -l` -ne 1 ] ; then echo "ERROR: the GT file is not a tarball" 1>&2; exit 1; fi
 
-PAGEFORMAT=$(which page_format_tool)
-[ -z "$PAGEFORMAT" ] && { echo "ERROR: \"page_format_tool\" soft is not installed/found "'!' 1>&2; exit 1; }
+
+#PAGEFORMAT=$(which page_format_tool)
+PAGEFORMAT=`pwd`"/competitions/executables/EvaluationCERandWER/page_format_tool"
+#[ -z "$PAGEFORMAT" ] && { echo "ERROR: \"page_format_tool\" soft is not installed/found "'!' 1>&2; exit 1; }
 
 mkdir /tmp/trans-hip_$R
 mkdir /tmp/trans_$R
@@ -57,8 +59,8 @@ sed 's/\([.,:;]\)/ \1/g' /tmp/fich_results_${R}  > /tmp/fich_results_WER_${R}
 
 sed 's/^ //g;s/ $//g;s/ [ ]*/ /g;s/ \$ /\$/g' /tmp/fich_results_${R} | sed 's/ /@/g' | sed 's/\(.\)\(.\)/\1 \2 /g' > /tmp/fich_results_CER_${R}
 
-tasas /tmp/fich_results_CER_${R} -ie -s " "  -f "$" 
-tasas /tmp/fich_results_WER_${R} -ie -s " "  -f "$"
+$D/competitions/executables/EvaluationCERandWER//tasas /tmp/fich_results_CER_${R} -ie -s " "  -f "$" 
+$D/competitions/executables/EvaluationCERandWER/tasas /tmp/fich_results_WER_${R} -ie -s " "  -f "$"
 rm -r /tmp/trans-hip_${R}
 rm -r /tmp/trans_${R}
 rm -r /tmp/Results_${R}
