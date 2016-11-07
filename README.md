@@ -35,6 +35,12 @@ apt-get install mono-complete
 ```
 Follow the [Mono] installation instructions to install the library in other platforms.
 
+##### liblog4cxx10
+The benchmarks in the ICFHR'16 HTR competition require the liblog4cc library. In Ubuntu, install it by running:
+```
+apt-get install liblog4cxx10
+```
+
 ##### p7zip
 Private test data / ground-truth can be uploaded in the form of a zipped file. Gzipped tarballs are handled with Python builtins, but 7z files require the p7zip package to be installed. In Ubuntu, install it with
 ```sh
