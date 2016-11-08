@@ -216,7 +216,7 @@ class Subtrack(models.Model):
 			print("Extracting")
 			self.delete_unpacked_privatefolder()
 			fn, fn_ext = splitext(basename(self.private_data.name))
-			if(is_tarfile(self.private_data.name)):
+			if(tarfile.is_tarfile(self.private_data.name)):
 				tar = tarfile.open(self.private_data.name)
 				tar.extractall(path=self.private_data_unpacked_folder())
 				tar.close()			
