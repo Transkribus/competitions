@@ -107,7 +107,7 @@ def index(request):
     context = {
         'login_form': login_form,
         'register_form': register_form,
-        'competitions': Competition.objects.all(),
+        'competitions': Competition.objects.filter(is_public=True),
     }
     return render(request, 'competitions/master.html', context)
 
