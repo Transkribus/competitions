@@ -216,14 +216,14 @@ class Subtrack(models.Model):
 			print("Extracting")
 			self.delete_unpacked_privatefolder()
 			fn, fn_ext = splitext(basename(self.private_data.name))
-			if(fn_ext == '.7z'):
+			if(is_tarfile(self.private_data.name)):
+				tar = tarfile.open(self.private_data.name)
+				tar.extractall(path=self.private_data_unpacked_folder())
+				tar.close()			
+			elif(fn_ext == '.7z'):
 				if not exists(self.private_data_unpacked_folder()):
 					makedirs(self.private_data_unpacked_folder())
 				system('7zr x {} -o{}'.format(self.private_data.name, self.private_data_unpacked_folder()))
-			elif(fn_ext == '.tgz' or fn_ext == '.tar.gz'):
-				tar = tarfile.open(self.private_data.name)
-				tar.extractall(path=self.private_data_unpacked_folder())
-				tar.close()
 			else:
 				#Don't know how to unzip this, so we'll just copy it
 				if not exists(self.private_data_unpacked_folder()):
