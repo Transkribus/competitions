@@ -348,7 +348,16 @@ Fill in the required fields:
 * Track: Select a track you created on step 6 here.
 * Public data / Public data external: Upload data that are meant to be downloaded by the competition participants. This should normally be a compressed tarball. Alternatively, you can provide an external URL.
 * Private data: Upload data that are not meant to be downloaded by the competition participants. This should normally be a compressed tarball. This tarball is automatically decompressed on the server side after the upload completes.
+
+In Unix, you can create a compressed tarball by running:
+```
+tar cvfz privatedata.tgz privatedata/
+```
+where privatedata is a folder containing your data, and privatedata.tgz is the file that will be the result of this process.
+
 The private data field is meant to be used as an argument to your evaluation benchmarks. In KWS for example, the private data is a file that contains the information about which query matches with which word.
+
+Note that uploaded ```zip``` files will *not* be automatically decompressed. You are advised to use ```tar.gz``` files, after creating them with the process described above.
 
 #### 8. Assign Benchmarks to the scoreboard.
 
