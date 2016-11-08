@@ -347,7 +347,7 @@ Fill in the required fields:
 * Name: The name of your subtrack.
 * Track: Select a track you created on step 6 here.
 * Public data / Public data external: Upload data that are meant to be downloaded by the competition participants. Alternatively, you can provide an external URL.
-* Private data: Upload data that are not meant to be downloaded by the competition participants. This should normally be a *gzip-compressed file*. If the file is compressed, it will be automatically decompressed on the server after the upload completes. If the compressed file is a tarball it will also be un-tarred. **This is useful if your private data is too large and/or it is comprised of multiple files.**
+* Private data: Upload data that are not meant to be downloaded by the competition participants. If the uploaded file is a compressed tarball, ie a tar.gz or a tgz file, it will be decompressed and un-tarred automatically on the server, once the upload is completed. **This is useful if your private data is too large and/or it is comprised of multiple files.**
 
 In Unix, you can create a compressed tarball by running:
 ```
