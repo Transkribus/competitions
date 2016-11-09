@@ -71,6 +71,7 @@ class Competition(models.Model):
 	overview = models.TextField(editable=True, default="")
 	newsfeed = models.TextField(editable=True, default="")
 	important_dates = models.TextField(editable=True, default="")
+	is_public = models.BooleanField(default=True)
 	def __str__(self):
 		return '({}) {}'.format(self.id, self.name)
 
@@ -99,11 +100,14 @@ class Track(models.Model):
 		next_uniqueid += 1
 		return(str(next_uniqueid))		
 	def clean(self):
-		if not self.uniqueid_isunique():
+		try:
+			if not self.uniqueid_isunique():
+				self.percomp_uniqueid = self.get_next_uniqueid()			
+		except AttributeError:
 			raise ValidationError(
-            _('%(value)s is not a unique track id for this competition'),
-            params={'value': self.percomp_uniqueid},
-        )		
+				_('You must specify all required fields.'),
+				params={},
+				)
 	def save(self, *args, **kwargs):
 		if not self.uniqueid_isunique():
 			self.percomp_uniqueid = self.get_next_uniqueid()
@@ -166,11 +170,14 @@ class Subtrack(models.Model):
 		next_uniqueid += 1
 		return(str(next_uniqueid))
 	def clean(self):
-		if not self.uniqueid_isunique():
+		try:
+			if not self.uniqueid_isunique():
+				self.pertrack_uniqueid = self.get_next_uniqueid()			
+		except AttributeError:
 			raise ValidationError(
-            _('%(value)s is not a unique subtrack id for this track'),
-            params={'value': self.pertrack_uniqueid},
-        )		
+				_('You must specify all required fields.'),
+				params={},
+				)			
 	def save(self, *args, **kwargs):
 		dont_call_unpack_privatefolder = kwargs.pop('dont_call_unpack_privatefolder', False)
 		if not dont_call_unpack_privatefolder:
@@ -209,14 +216,14 @@ class Subtrack(models.Model):
 			print("Extracting")
 			self.delete_unpacked_privatefolder()
 			fn, fn_ext = splitext(basename(self.private_data.name))
-			if(fn_ext == '.7z'):
+			if(tarfile.is_tarfile(self.private_data.name)):
+				tar = tarfile.open(self.private_data.name)
+				tar.extractall(path=self.private_data_unpacked_folder())
+				tar.close()			
+			elif(fn_ext == '.7z'):
 				if not exists(self.private_data_unpacked_folder()):
 					makedirs(self.private_data_unpacked_folder())
 				system('7zr x {} -o{}'.format(self.private_data.name, self.private_data_unpacked_folder()))
-			elif(fn_ext == '.gz'):
-				tar = tarfile.open(self.private_data.name)
-				tar.extractall(path=self.private_data_unpacked_folder())
-				tar.close()
 			else:
 				#Don't know how to unzip this, so we'll just copy it
 				if not exists(self.private_data_unpacked_folder()):
@@ -292,6 +299,7 @@ class Benchmark(models.Model):
 	subtracks = models.ManyToManyField(Subtrack, blank=True)
 	count_in_scoreboard = models.ManyToManyField(Competition, blank=True, related_name="count_in_scoreboard")
 	is_scalar = models.BooleanField(default=True)
+	higher_is_better = models.BooleanField(default=True)
 	def __str__(self):
 		return '({}) {}'.format(self.id, self.name)
 	def scoretable(self, subtrack_id):
@@ -306,9 +314,8 @@ class Benchmark(models.Model):
 				continue;
 			submission_status = submission_status_all.all()[0]			
 			if submission_status.numericalresult and submission_status.status == 'COMPLETE':
-				res[submission.name] = float(submission_status.numericalresult)		
-		scores = [-s for s in list(res.values())]
-		sortedindices = argsort([ -s for s in list(res.values()) ])
+				res[submission.name] = float(submission_status.numericalresult)
+		sortedindices = argsort([ ((-1)**int(self.higher_is_better))*s for s in list(res.values()) ])
 		ranks = [0]*len(sortedindices)
 		for r in range(len(sortedindices)):
 			ranks[sortedindices[r]] = r+1
