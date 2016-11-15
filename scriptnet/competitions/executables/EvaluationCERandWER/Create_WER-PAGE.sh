@@ -22,7 +22,7 @@ mkdir /tmp/trans-hip_$R
 mkdir /tmp/trans_$R
 
 cd $D/$2
-for f in `find . -name *.zip`; do unzip -o $f; done 
+#for f in `find . -name *.zip`; do unzip -o $f; done 
 cp $D/$2/*.txt /tmp/trans_${R}/
 
 mkdir /tmp/Results_${R}
