@@ -147,3 +147,11 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'static/')
 
 MEDIA_URL = '/media/'
 
+#
+# E-mail
+#
+EMAIL_HOST = 'mail.iit.demokritos.gr'
+EMAIL_HOST_USER = 'sfikas@iit.demokritos.gr'
+EMAIL_HOST_PASSWORD = os.environ.get('SYNTHIMA') #EMAIL_SSL_CERTFILE tou ftoxou
+EMAIL_USE_SSL = True
+EMAIL_PORT = 465
