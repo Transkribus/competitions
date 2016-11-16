@@ -1,0 +1,222 @@
+<?xml version="1.0"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+	<Metadata>
+		<Creator>TRP</Creator>
+		<Created>2014-09-25T12:35:49.350+02:00</Created>
+		<LastChange>2016-01-20T13:24:44.886+01:00</LastChange>
+	</Metadata>
+	<Page imageFilename="Seite0421.JPG" imageWidth="2290" imageHeight="3511">
+		<ReadingOrder>
+			<OrderedGroup id="ro_1453292702848" caption="Regions reading order">
+				<RegionRefIndexed index="0" regionRef="region_0e08e738-55dd-4d61-9857-ef20d376819c" />
+				<RegionRefIndexed index="1" regionRef="region_880ed23f-543f-4e37-a413-c15070d6d7a3" />
+				<RegionRefIndexed index="2" regionRef="region_3a2f87ff-8f64-429f-93ba-49dd917994d4" />
+				<RegionRefIndexed index="3" regionRef="region_02010384-5eea-4579-ae28-7440821e31de" />
+			</OrderedGroup>
+		</ReadingOrder>
+		<TextRegion id="region_0e08e738-55dd-4d61-9857-ef20d376819c" custom="readingOrder {index:0;}">
+			<Coords points="1641,234 1863,234 1863,356 1641,356" />
+			<TextLine id="line_fe2fc88c-920f-49aa-954a-aa9b239f3bfe" custom="readingOrder {index:0;}">
+				<Coords points="1847,265 1678,253 1678,328 1847,340" />
+				<Baseline points="1678,323 1847,335" />
+				<TextEquiv>
+					<Unicode>211</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextEquiv>
+				<Unicode>211</Unicode>
+			</TextEquiv>
+		</TextRegion>
+		<TextRegion id="region_880ed23f-543f-4e37-a413-c15070d6d7a3" custom="readingOrder {index:1;}">
+			<Coords points="687,524 1996,524 1996,1407 687,1407" />
+			<TextLine id="line_3757d252-2323-4bf0-8eea-a4661a5f8160" custom="readingOrder {index:0;} abbrev {offset:18; length:2;expansion:kreuzer;}">
+				<Coords points="1983,563 1501,549 730,551 730,663 1501,661 1983,675" />
+				<Baseline points="730,639 1501,637 1983,651" />
+				<TextEquiv>
+					<Unicode>das Pfūnd Per .10 k. Weiln</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_ac6e225b-80b1-41ee-a5c5-08d6198284b0" custom="readingOrder {index:1;}">
+				<Coords points="1794,681 1429,669 738,669 738,764 1429,764 1794,776" />
+				<Baseline points="738,736 1429,736 1794,748" />
+				<TextEquiv>
+					<Unicode>aber das Alt noch nit Zū</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_081aa46d-f313-4c55-afeb-bc43f0548bc4" custom="readingOrder {index:2;}">
+				<Coords points="1814,782 774,766 774,875 1814,891" />
+				<Baseline points="774,845 1814,861" />
+				<TextEquiv>
+					<Unicode>Gelt gemacht. Als solle</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_55538ad0-a4a2-45ad-b36c-13a1cf2da650" custom="readingOrder {index:3;} abbrev {offset:17; length:5;expansion:dessen;}">
+				<Coords points="1872,898 1470,865 733,857 733,964 1470,972 1872,1005" />
+				<Baseline points="733,942 1470,950 1872,983" />
+				<TextEquiv>
+					<Unicode>mit verkhaūffūng dess.</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_d0838be7-077a-48f6-a1f5-8494bd4415bc" custom="readingOrder {index:4;}">
+				<Coords points="1792,1010 1550,996 738,982 738,1068 1550,1082 1792,1096" />
+				<Baseline points="738,1044 1550,1058 1792,1072" />
+				<TextEquiv>
+					<Unicode>so lanng bis des Rats</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_84848609-f66d-4fb0-9817-a6cfa19c332f" custom="readingOrder {index:5;} abbrev {offset:17; length:5;expansion:worden;}">
+				<Coords points="1844,1102 1478,1096 722,1069 722,1162 1478,1189 1844,1195" />
+				<Baseline points="722,1136 1478,1163 1844,1169" />
+				<TextEquiv>
+					<Unicode>Schmalz Aūsgeben word.</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_0658fa29-3481-4fe4-85eb-06730862fea5" custom="readingOrder {index:6;}">
+				<Coords points="1814,1201 1448,1187 733,1168 733,1262 1448,1281 1814,1295" />
+				<Baseline points="733,1241 1448,1260 1814,1274" />
+				<TextEquiv>
+					<Unicode>mit dem verkhaūff ein¬</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_e1a6258e-30da-4138-9e64-9cc8d13aae9c" custom="readingOrder {index:7;}">
+				<Coords points="1501,1300 716,1289 716,1361 1501,1372" />
+				<Baseline points="716,1349 1501,1360" />
+				<TextEquiv>
+					<Unicode>gehalten werden. </Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextEquiv>
+				<Unicode>das Pfūnd Per .10 k. Weiln
+aber das Alt noch nit Zū
+Gelt gemacht. Als solle
+mit verkhaūffūng dess.
+so lanng bis des Rats
+Schmalz Aūsgeben word.
+mit dem verkhaūff ein¬
+gehalten werden. </Unicode>
+			</TextEquiv>
+		</TextRegion>
+		<TextRegion id="region_3a2f87ff-8f64-429f-93ba-49dd917994d4" custom="readingOrder {index:2;}">
+			<Coords points="644,1458 2008,1458 2008,2731 644,2731" />
+			<TextLine id="line_a9dd61b4-d512-475b-bd24-a4af77450b55" custom="readingOrder {index:0;}">
+				<Coords points="1807,1515 1466,1499 672,1507 672,1664 1466,1656 1807,1672" />
+				<Baseline points="672,1637 1466,1629 1807,1645" />
+				<TextEquiv>
+					<Unicode>Wegen der .4. Wachter</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_9c833eaf-ed30-4c83-a1bd-a0f461b1d991" custom="readingOrder {index:1;} abbrev {offset:21; length:7;expansion:Loblichen;}">
+				<Coords points="1853,1678 1505,1662 739,1660 739,1762 1505,1764 1853,1780" />
+				<Baseline points="739,1736 1505,1738 1853,1754" />
+				<TextEquiv>
+					<Unicode>bsoldūng, soll ainer Loblich</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_034210e7-2930-470f-8bd5-a4d9fea06437" custom="readingOrder {index:2;}">
+				<Coords points="1752,1786 1428,1776 713,1758 713,1858 1428,1876 1752,1886" />
+				<Baseline points="713,1832 1428,1850 1752,1860" />
+				<TextEquiv>
+					<Unicode>Cammer. Ain Abschrifft</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_21a013fc-1f26-4455-982c-71efa121afef" custom="readingOrder {index:3;}">
+				<Coords points="1833,1893 1430,1880 734,1862 734,1959 1430,1977 1833,1990" />
+				<Baseline points="734,1936 1430,1954 1833,1967" />
+				<TextEquiv>
+					<Unicode>des. von Loblicher Regierūng</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_65b171dc-95c2-40a5-8bdf-b5d2d74a2502" custom="readingOrder {index:4;}">
+				<Coords points="1768,1995 1428,1982 718,1964 718,2056 1428,2074 1768,2087" />
+				<Baseline points="718,2029 1428,2047 1768,2060" />
+				<TextEquiv>
+					<Unicode>vnndtern dato: 18. No¬</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_0e0b2386-db84-485a-9376-ffea53f10ad4" custom="readingOrder {index:5;} abbrev {offset:8; length:3;expansion:gnädiglich;}">
+				<Coords points="1887,2093 1721,2073 1391,2073 718,2054 718,2158 1391,2177 1721,2177 1887,2197" />
+				<Baseline points="718,2130 1391,2149 1721,2149 1887,2169" />
+				<TextEquiv>
+					<Unicode>ūembris gl: Abgangnen</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_95ee673b-afb1-46a8-b84b-26a738030f0e" custom="readingOrder {index:6;}">
+				<Coords points="1957,2204 1646,2183 1383,2175 682,2154 682,2257 1383,2278 1646,2286 1957,2307" />
+				<Baseline points="682,2234 1383,2255 1646,2263 1957,2284" />
+				<TextEquiv>
+					<Unicode>Beūelhs. gehorsamlich v̄ber¬</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_67104d04-069b-4cdf-bc76-11d7cd11db2b" custom="readingOrder {index:7;} abbrev {offset:21; length:5;expansion:werden;}">
+				<Coords points="1911,2312 1430,2294 700,2276 700,2364 1430,2382 1911,2400" />
+				<Baseline points="700,2341 1430,2359 1911,2377" />
+				<TextEquiv>
+					<Unicode>schickht vnd gebeten werd.</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_a81f0bb8-a2cb-4de2-bc64-ad988a1e76d6" custom="readingOrder {index:8;}">
+				<Coords points="1911,2406 1518,2395 724,2380 724,2472 1518,2487 1911,2498" />
+				<Baseline points="724,2445 1518,2460 1911,2471" />
+				<TextEquiv>
+					<Unicode>Weiln dise Wachten dem</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_96b09de2-8b56-4df5-b67c-214b07496cf4" custom="readingOrder {index:9;}">
+				<Coords points="1929,2504 1529,2478 724,2470 724,2568 1529,2576 1929,2602" />
+				<Baseline points="724,2546 1529,2554 1929,2580" />
+				<TextEquiv>
+					<Unicode>gannzen Lanndt. vnd Menig¬</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_f1dbd357-319b-4eed-bce5-6e3bc97c8fbd" custom="readingOrder {index:10;}">
+				<Coords points="1900,2607 1456,2578 718,2586 718,2663 1456,2655 1900,2684" />
+				<Baseline points="718,2647 1456,2639 1900,2668" />
+				<TextEquiv>
+					<Unicode>elichen. hoch. vnd vil daran </Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextEquiv>
+				<Unicode>Wegen der .4. Wachter
+bsoldūng, soll ainer Loblich
+Cammer. Ain Abschrifft
+des. von Loblicher Regierūng
+vnndtern dato: 18. No¬
+ūembris gl: Abgangnen
+Beūelhs. gehorsamlich v̄ber¬
+schickht vnd gebeten werd.
+Weiln dise Wachten dem
+gannzen Lanndt. vnd Menig¬
+elichen. hoch. vnd vil daran </Unicode>
+			</TextEquiv>
+		</TextRegion>
+		<TextRegion id="region_02010384-5eea-4579-ae28-7440821e31de" custom="readingOrder {index:3;}">
+			<Coords points="101,1539 636,1539 636,1922 101,1922" />
+			<TextLine id="line_9953ae3e-52be-4fa7-b07f-e4d84f8b6f32" custom="readingOrder {index:0;}">
+				<Coords points="605,1583 172,1572 172,1692 605,1703" />
+				<Baseline points="172,1674 605,1685" />
+				<TextEquiv>
+					<Unicode>Wachter</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_939e07cf-c4ca-48b2-a3d1-69277cd4d035" custom="readingOrder {index:1;}">
+				<Coords points="621,1708 197,1696 197,1771 621,1783" />
+				<Baseline points="197,1747 621,1759" />
+				<TextEquiv>
+					<Unicode>aūf baiden</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_3c62fc9c-6854-481a-8ae2-a4c48a69ca40" custom="readingOrder {index:2;}">
+				<Coords points="584,1776 204,1789 204,1873 584,1860" />
+				<Baseline points="204,1857 584,1844" />
+				<TextEquiv>
+					<Unicode>Prūggen </Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextEquiv>
+				<Unicode>Wachter
+aūf baiden
+Prūggen </Unicode>
+			</TextEquiv>
+		</TextRegion>
+	</Page>
+</PcGts>

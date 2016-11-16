@@ -1,0 +1,210 @@
+<?xml version="1.0"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+	<Metadata>
+		<Creator>TRP</Creator>
+		<Created>2014-09-25T12:35:49.804+02:00</Created>
+		<LastChange>2016-01-20T11:28:11.307+01:00</LastChange>
+	</Metadata>
+	<Page imageFilename="Seite0435.JPG" imageWidth="2322" imageHeight="3511">
+		<ReadingOrder>
+			<OrderedGroup id="ro_1453285709208" caption="Regions reading order">
+				<RegionRefIndexed index="0" regionRef="region_a0cce64e-648c-4cf3-a232-99bdc9c7cee3" />
+				<RegionRefIndexed index="1" regionRef="region_9edb5260-0622-478a-baea-e38afcda51a1" />
+			</OrderedGroup>
+		</ReadingOrder>
+		<TextRegion id="region_a0cce64e-648c-4cf3-a232-99bdc9c7cee3" custom="readingOrder {index:0;}">
+			<Coords points="1624,221 1884,221 1884,324 1624,324" />
+			<TextLine id="line_8b306a1e-1b46-4162-bfed-de5d004199a9" custom="readingOrder {index:0;}">
+				<Coords points="1870,243 1652,248 1652,314 1870,309" />
+				<Baseline points="1652,311 1870,306" />
+				<TextEquiv>
+					<Unicode>218</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextEquiv>
+				<Unicode>218</Unicode>
+			</TextEquiv>
+		</TextRegion>
+		<TextRegion id="region_9edb5260-0622-478a-baea-e38afcda51a1" custom="readingOrder {index:1;}">
+			<Coords points="637,440 2016,440 2016,2789 637,2789" />
+			<TextLine id="line_e78a8b65-21ed-4139-8b73-3fd83ecbf038" custom="readingOrder {index:0;}">
+				<Coords points="1881,464 1325,466 672,473 672,575 1325,568 1881,566" />
+				<Baseline points="672,550 1325,543 1881,541" />
+				<TextEquiv>
+					<Unicode>von Iren Gnaden weitern</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_e61e0ee9-773d-444a-89fb-c1da4b7167d9" custom="readingOrder {index:1;}">
+				<Coords points="1918,580 1343,574 701,578 701,677 1343,673 1918,679" />
+				<Baseline points="701,648 1343,644 1918,650" />
+				<TextEquiv>
+					<Unicode>bschaid emPfanngen. davon</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_06c545be-a017-4726-a49e-a9deea43093d" custom="readingOrder {index:2;}">
+				<Coords points="1907,686 1327,671 696,673 696,784 1327,782 1907,797" />
+				<Baseline points="696,755 1327,753 1907,768" />
+				<TextEquiv>
+					<Unicode>nichts aūs hannden Zelassen,</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_ec3207b2-edad-452b-b395-8aefd03a902c" custom="readingOrder {index:3;}">
+				<Coords points="1843,804 1383,772 685,793 685,899 1383,878 1843,910" />
+				<Baseline points="685,876 1383,855 1843,887" />
+				<TextEquiv>
+					<Unicode>ob deme Ain Rat gleichs¬</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_fb81c72b-9c5a-40d8-b4c2-6976369ffe6e" custom="readingOrder {index:4;}">
+				<Coords points="1872,915 1412,886 683,913 683,1004 1412,977 1872,1006" />
+				<Baseline points="683,978 1412,951 1872,980" />
+				<TextEquiv>
+					<Unicode>fahls halten. vnd das dem:</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_291a9f4b-4b09-49ed-8e18-0dcc069c8a0d" custom="readingOrder {index:5;}">
+				<Coords points="1979,1013 1470,991 707,993 707,1093 1470,1091 1979,1113" />
+				<Baseline points="707,1067 1470,1065 1979,1087" />
+				<TextEquiv>
+					<Unicode>vom .16. october. negsthin</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_37859fe3-89b3-478c-a0a8-c97ae8866180" custom="readingOrder {index:6;} abbrev {offset:12; length:4;expansion:fürstlichen;}">
+				<Coords points="1923,1119 1506,1088 736,1099 736,1192 1506,1181 1923,1212" />
+				<Baseline points="736,1172 1506,1161 1923,1192" />
+				<TextEquiv>
+					<Unicode>Aūsganngnen frl: Mandat</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_057723e4-b2f9-4488-a33a-7c047bcffaf9" custom="readingOrder {index:7;}">
+				<Coords points="1776,1217 1479,1212 710,1217 710,1303 1479,1298 1776,1303" />
+				<Baseline points="710,1273 1479,1268 1776,1273" />
+				<TextEquiv>
+					<Unicode>wie sonnsten in allen</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_4d10ec26-ce45-4e7e-a2fc-a06e20253747" custom="readingOrder {index:8;}">
+				<Coords points="1947,1310 1457,1286 710,1299 710,1408 1457,1395 1947,1419" />
+				<Baseline points="710,1384 1457,1371 1947,1395" />
+				<TextEquiv>
+					<Unicode>Anndern, also aūch in disem </Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_26490024-0797-46f8-8d01-47be26811320" custom="readingOrder {index:9;}">
+				<Coords points="1747,1422 1301,1417 701,1424 701,1518 1301,1511 1747,1516" />
+				<Baseline points="701,1491 1301,1484 1747,1489" />
+				<TextEquiv>
+					<Unicode>der gebür. vnd schūldig¬</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_899a7468-8766-4701-8950-52c5b5761e8d" custom="readingOrder {index:10;}">
+				<Coords points="1784,1524 1401,1507 727,1515 727,1620 1401,1612 1784,1629" />
+				<Baseline points="727,1591 1401,1583 1784,1600" />
+				<TextEquiv>
+					<Unicode>khait nachglebt werde.</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_cccbc45c-36f8-478f-96b9-6ed1061f8dc3" custom="readingOrder {index:11;}">
+				<Coords points="1885,1636 1407,1610 701,1609 701,1717 1407,1718 1885,1744" />
+				<Baseline points="701,1690 1407,1691 1885,1717" />
+				<TextEquiv>
+					<Unicode>fleissige obacht Zūbstelln.</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_a5f217e6-0834-4d93-adb4-197fa78676ec" custom="readingOrder {index:12;}">
+				<Coords points="1952,1750 1582,1727 691,1727 691,1825 1582,1825 1952,1848" />
+				<Baseline points="691,1803 1582,1803 1952,1826" />
+				<TextEquiv>
+					<Unicode>Ire Gnaden aūch Jedmalige</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_a97aa43c-4b3d-4a9e-9ab4-863bd58501b5" custom="readingOrder {index:13;}">
+				<Coords points="1905,1854 1565,1845 680,1843 680,1931 1565,1933 1905,1942" />
+				<Baseline points="680,1906 1565,1908 1905,1917" />
+				<TextEquiv>
+					<Unicode>fürfallenhait. da es Also</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_d11b893f-bcc3-4a84-8964-79e5a620f418" custom="readingOrder {index:14;}">
+				<Coords points="1830,1947 1497,1926 732,1928 732,2024 1497,2022 1830,2043" />
+				<Baseline points="732,1998 1497,1996 1830,2017" />
+				<TextEquiv>
+					<Unicode>vonneten. vneinstellig</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_e6ed4c75-cfca-4f28-84e0-4b590e8fe6c9" custom="readingOrder {index:15;}">
+				<Coords points="1980,2049 1466,2022 704,2025 704,2117 1466,2114 1980,2141" />
+				<Baseline points="704,2097 1466,2094 1980,2121" />
+				<TextEquiv>
+					<Unicode>Zūverstendigen, Hieriber</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_7840ea59-9bd1-495e-b26a-0a7e01917266" custom="readingOrder {index:16;}">
+				<Coords points="1838,2146 1555,2140 717,2146 717,2229 1555,2223 1838,2229" />
+				<Baseline points="717,2203 1555,2197 1838,2203" />
+				<TextEquiv>
+					<Unicode>ist Iren Gnaden gehor¬</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_47056b81-50eb-4e2f-97fe-cf25f7307685" custom="readingOrder {index:17;}">
+				<Coords points="1931,2223 1628,2216 695,2235 695,2335 1628,2316 1931,2323" />
+				<Baseline points="695,2308 1628,2289 1931,2296" />
+				<TextEquiv>
+					<Unicode>samlich anzefiegen, man</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_425eea39-2d1d-439c-97d4-2d21a785c7f7" custom="readingOrder {index:18;}">
+				<Coords points="1928,2341 1591,2315 733,2324 733,2426 1591,2417 1928,2443" />
+				<Baseline points="733,2401 1591,2392 1928,2418" />
+				<TextEquiv>
+					<Unicode>wisse sich des vor hechst¬</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_352cd28b-5466-4742-becc-5643e887ab43" custom="readingOrder {index:19;} abbrev {offset:9; length:4;expansion:Fürstlichen;}">
+				<Coords points="1896,2443 1536,2429 724,2449 724,2546 1536,2526 1896,2540" />
+				<Baseline points="724,2520 1536,2500 1896,2514" />
+				<TextEquiv>
+					<Unicode>ermelten Frl: Mandats</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_fa175971-03e0-4276-a1b1-590ed809042b" custom="readingOrder {index:20;}">
+				<Coords points="1908,2534 1597,2531 718,2552 718,2649 1597,2628 1908,2631" />
+				<Baseline points="718,2625 1597,2604 1908,2607" />
+				<TextEquiv>
+					<Unicode>gannz gehorsamist Zūer¬</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_61910bee-5fdf-4e22-b790-87561fd77a19" custom="readingOrder {index:21;}">
+				<Coords points="1961,2635 1542,2633 706,2655 706,2739 1542,2717 1961,2719" />
+				<Baseline points="706,2723 1542,2701 1961,2703" />
+				<TextEquiv>
+					<Unicode>ÿnndern. Gstaltsame </Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextEquiv>
+				<Unicode>von Iren Gnaden weitern
+bschaid emPfanngen. davon
+nichts aūs hannden Zelassen,
+ob deme Ain Rat gleichs¬
+fahls halten. vnd das dem:
+vom .16. october. negsthin
+Aūsganngnen frl: Mandat
+wie sonnsten in allen
+Anndern, also aūch in disem 
+der gebür. vnd schūldig¬
+khait nachglebt werde.
+fleissige obacht Zūbstelln.
+Ire Gnaden aūch Jedmalige
+fürfallenhait. da es Also
+vonneten. vneinstellig
+Zūverstendigen, Hieriber
+ist Iren Gnaden gehor¬
+samlich anzefiegen, man
+wisse sich des vor hechst¬
+ermelten Frl: Mandats
+gannz gehorsamist Zūer¬
+ÿnndern. Gstaltsame </Unicode>
+			</TextEquiv>
+		</TextRegion>
+	</Page>
+</PcGts>

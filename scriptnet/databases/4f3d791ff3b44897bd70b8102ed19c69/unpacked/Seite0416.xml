@@ -1,0 +1,222 @@
+<?xml version="1.0"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+	<Metadata>
+		<Creator>TRP</Creator>
+		<Created>2014-09-25T12:35:49.194+02:00</Created>
+		<LastChange>2016-01-22T09:07:30.106+01:00</LastChange>
+	</Metadata>
+	<Page imageFilename="Seite0416.JPG" imageWidth="2480" imageHeight="3511">
+		<ReadingOrder>
+			<OrderedGroup id="ro_1453450069267" caption="Regions reading order">
+				<RegionRefIndexed index="0" regionRef="region_1046b648-bee3-4421-a1ed-2ab26c5e68c8" />
+				<RegionRefIndexed index="1" regionRef="region_7a6d88e5-b0c4-49ef-b3ce-25a540357658" />
+				<RegionRefIndexed index="2" regionRef="region_afa9b556-19fb-4f07-9bfa-873c22db60da" />
+				<RegionRefIndexed index="3" regionRef="region_03f58d64-c884-43f0-a3eb-447b98b0f449" />
+			</OrderedGroup>
+		</ReadingOrder>
+		<TextRegion id="region_1046b648-bee3-4421-a1ed-2ab26c5e68c8" custom="readingOrder {index:0;}">
+			<Coords points="458,139 624,139 624,268 458,268" />
+			<TextLine id="line_febfcec5-99ae-4e63-a993-d36957e7bef3" custom="readingOrder {index:0;}">
+				<Coords points="604,150 476,176 476,263 604,237" />
+				<Baseline points="476,262 604,236" />
+				<TextEquiv>
+					<Unicode>209</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextEquiv>
+				<Unicode>209</Unicode>
+			</TextEquiv>
+		</TextRegion>
+		<TextRegion id="region_7a6d88e5-b0c4-49ef-b3ce-25a540357658" custom="readingOrder {index:1;}">
+			<Coords points="1000,431 2281,431 2281,2337 1000,2337" />
+			<TextLine id="line_9a9da406-bbe8-4046-9ea7-c8c6d075579a" custom="readingOrder {index:0;}">
+				<Coords points="2100,457 1068,472 1068,592 2100,577" />
+				<Baseline points="1068,566 2100,551" />
+				<TextEquiv>
+					<Unicode>gelts. der beim Eisackh¬</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_2a5f260e-d229-4f3f-bf03-0fc3432e8c55" custom="readingOrder {index:1;}">
+				<Coords points="2081,598 1090,594 1090,691 2081,695" />
+				<Baseline points="1090,666 2081,670" />
+				<TextEquiv>
+					<Unicode>tor Zū Bozen gestand¬</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_f21281ec-1e1b-4cf7-908a-941cb032c194" custom="readingOrder {index:2;}">
+				<Coords points="2164,701 1085,698 1085,796 2164,799" />
+				<Baseline points="1085,768 2164,771" />
+				<TextEquiv>
+					<Unicode>nen: von weilend Caspar</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_93522b95-7874-4eb3-af3e-15511e12849e" custom="readingOrder {index:3;}">
+				<Coords points="2115,806 1085,793 1085,897 2115,910" />
+				<Baseline points="1085,873 2115,886" />
+				<TextEquiv>
+					<Unicode>Noten seligen herrier¬</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_5598573f-351d-4611-a181-ea0029aebdc5" custom="readingOrder {index:4;}">
+				<Coords points="2094,904 1088,915 1088,1010 2094,999" />
+				<Baseline points="1088,982 2094,971" />
+				<TextEquiv>
+					<Unicode>enden Behaūsūng. vnd</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_0eb5d576-d42c-4b7e-9ebf-188a2fc8e0dc" custom="readingOrder {index:5;}">
+				<Coords points="2132,991 1109,1017 1109,1121 2132,1095" />
+				<Baseline points="1109,1097 2132,1071" />
+				<TextEquiv>
+					<Unicode>Garten. Alda Jetzt das</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_3e76c032-54d1-4de3-be6f-ea0ab0bc7d20" custom="readingOrder {index:6;}">
+				<Coords points="2038,1127 1073,1123 1073,1218 2038,1222" />
+				<Baseline points="1073,1191 2038,1195" />
+				<TextEquiv>
+					<Unicode>CaPūziner Closster er¬</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_115b79bb-d22f-43ab-8191-322ecd52cc07" custom="readingOrder {index:7;}">
+				<Coords points="2045,1209 1092,1229 1092,1330 2045,1310" />
+				<Baseline points="1092,1306 2045,1286" />
+				<TextEquiv>
+					<Unicode>baūt. Deßwegen Zū</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_ee02d9b7-e667-42d8-bffe-cd3554bfea56" custom="readingOrder {index:8;}">
+				<Coords points="2115,1330 1088,1335 1088,1430 2115,1425" />
+				<Baseline points="1088,1402 2115,1397" />
+				<TextEquiv>
+					<Unicode>mer. vnd vnndterschidlich</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_0ce17d43-a6ce-418d-b5b0-3c784b8c9463" custom="readingOrder {index:9;}">
+				<Coords points="2100,1427 1079,1436 1079,1542 2100,1533" />
+				<Baseline points="1079,1515 2100,1506" />
+				<TextEquiv>
+					<Unicode>malln beschwerden ein¬</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_8f5b10bc-aa47-45bb-9476-fba3fbdd123d" custom="readingOrder {index:10;}">
+				<Coords points="2181,1531 1840,1548 1107,1546 1107,1649 1840,1651 2181,1634" />
+				<Baseline points="1107,1623 1840,1625 2181,1608" />
+				<TextEquiv>
+					<Unicode>khomen. vnd verschaff¬</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_df456715-051e-4525-a633-7a946ab56dca" custom="readingOrder {index:11;} abbrev {offset:14; length:8;expansion:Angehalten;}">
+				<Coords points="2177,1653 1887,1653 1098,1657 1098,1758 1887,1754 2177,1754" />
+				<Baseline points="1098,1730 1887,1726 2177,1726" />
+				<TextEquiv>
+					<Unicode>ūng der gebür Angehalt¬</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_4b38b601-81cc-47c7-96c5-9ad23c660c35" custom="readingOrder {index:12;}">
+				<Coords points="2094,1753 1719,1760 1107,1764 1107,1869 1719,1865 2094,1858" />
+				<Baseline points="1107,1843 1719,1839 2094,1832" />
+				<TextEquiv>
+					<Unicode>vnd das darüber herrn</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_8d2142f5-93b5-4da6-9b9a-927fcdcf88d5" custom="readingOrder {index:13;}">
+				<Coords points="2095,1858 1711,1875 1084,1875 1084,1978 1711,1978 2095,1961" />
+				<Baseline points="1084,1949 1711,1949 2095,1932" />
+				<TextEquiv>
+					<Unicode>Ennglhardt Dietrichen</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_a877502a-8bae-40f1-9f8f-415c07ddb0f5" custom="readingOrder {index:14;} abbrev {offset:13; length:6;expansion:Wolckhen;}">
+				<Coords points="2122,1964 1856,1964 1063,1985 1063,2094 1856,2073 2122,2073" />
+				<Baseline points="1063,2068 1856,2047 2122,2047" />
+				<TextEquiv>
+					<Unicode>Freÿherrn Zū Wolckh¬</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_d311e142-e562-4ab2-9868-25512e107d4f" custom="readingOrder {index:15;} abbrev {offset:22; length:5;expansion:worden;}">
+				<Coords points="2210,2071 1779,2081 1103,2101 1103,2199 1779,2179 2210,2169" />
+				<Baseline points="1103,2175 1779,2155 2210,2145" />
+				<TextEquiv>
+					<Unicode>stain etc. Aūferladen word.</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_f74a0d58-8de2-45d2-b187-f21b43e3cc9f" custom="readingOrder {index:16;} abbrev {offset:14; length:8;expansion:Zelaissten;}">
+				<Coords points="2165,2200 1905,2200 1110,2205 1110,2289 1905,2284 2165,2284" />
+				<Baseline points="1110,2273 1905,2268 2165,2268" />
+				<TextEquiv>
+					<Unicode>die Abstatūng Zelaisst</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextEquiv>
+				<Unicode>gelts. der beim Eisackh¬
+tor Zū Bozen gestand¬
+nen: von weilend Caspar
+Noten seligen herrier¬
+enden Behaūsūng. vnd
+Garten. Alda Jetzt das
+CaPūziner Closster er¬
+baūt. Deßwegen Zū
+mer. vnd vnndterschidlich
+malln beschwerden ein¬
+khomen. vnd verschaff¬
+ūng der gebür Angehalt¬
+vnd das darüber herrn
+Ennglhardt Dietrichen
+Freÿherrn Zū Wolckh¬
+stain etc. Aūferladen word.
+die Abstatūng Zelaisst</Unicode>
+			</TextEquiv>
+		</TextRegion>
+		<TextRegion id="region_afa9b556-19fb-4f07-9bfa-873c22db60da" custom="readingOrder {index:2;}">
+			<Coords points="1074,2613 995,2597 980,2490 1074,2375 2215,2375 2215,2718 1074,2718" />
+			<TextLine id="line_83d1d766-5e85-4264-b253-abf903d14889" custom="readingOrder {index:0;}">
+				<Coords points="2008,2399 1768,2404 1046,2420 1046,2552 1768,2536 2008,2531" />
+				<Baseline points="1046,2525 1768,2509 2008,2504" />
+				<TextEquiv>
+					<Unicode>Fürs Annder. so ver¬</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_835a770e-8b68-4b23-ba2c-f470ab9cc36c" custom="readingOrder {index:1;}">
+				<Coords points="2195,2528 1108,2558 1108,2655 2195,2625" />
+				<Baseline points="1108,2634 2195,2604" />
+				<TextEquiv>
+					<Unicode>widert sich Haūbtmann </Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextEquiv>
+				<Unicode>Fürs Annder. so ver¬
+widert sich Haūbtmann </Unicode>
+			</TextEquiv>
+		</TextRegion>
+		<TextRegion id="region_03f58d64-c884-43f0-a3eb-447b98b0f449" custom="readingOrder {index:3;}">
+			<Coords points="355,2478 959,2477 979,2609 1069,2636 1067,2811 355,2811" />
+			<TextLine id="line_8e3cb5e8-238b-4d00-91f6-42c44eae3d88" custom="readingOrder {index:0;}">
+				<Coords points="958,2503 450,2516 450,2622 958,2609" />
+				<Baseline points="450,2605 958,2592" />
+				<TextEquiv>
+					<Unicode>Thanhaim¬</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_50b6ffb7-ba51-4150-a79e-164ae6176ea7" custom="readingOrder {index:1;}">
+				<Coords points="1052,2630 527,2627 527,2694 1052,2683" />
+				<Baseline points="527,2676 1052,2665" />
+				<TextEquiv>
+					<Unicode>ers Steūr ver¬</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_6f59e881-2e88-419a-92eb-7ddcb288a203" custom="readingOrder {index:2;}">
+				<Coords points="989,2698 577,2698 577,2764 989,2764" />
+				<Baseline points="577,2749 989,2749" />
+				<TextEquiv>
+					<Unicode>widerūng.</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextEquiv>
+				<Unicode>Thanhaim¬
+ers Steūr ver¬
+widerūng.</Unicode>
+			</TextEquiv>
+		</TextRegion>
+	</Page>
+</PcGts>

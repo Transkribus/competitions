@@ -1,0 +1,194 @@
+<?xml version="1.0"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+	<Metadata>
+		<Creator>TRP</Creator>
+		<Created>2014-09-25T12:35:49.288+02:00</Created>
+		<LastChange>2016-01-20T13:48:56.294+01:00</LastChange>
+	</Metadata>
+	<Page imageFilename="Seite0419.JPG" imageWidth="2290" imageHeight="3511">
+		<ReadingOrder>
+			<OrderedGroup id="ro_1453294154157" caption="Regions reading order">
+				<RegionRefIndexed index="0" regionRef="region_7d114b13-091c-4ee2-8978-bb6fd8f57f54" />
+				<RegionRefIndexed index="1" regionRef="region_f49f9b92-2d4e-49f3-8365-cfe5dd6c0e7d" />
+			</OrderedGroup>
+		</ReadingOrder>
+		<TextRegion id="region_7d114b13-091c-4ee2-8978-bb6fd8f57f54" custom="readingOrder {index:0;}">
+			<Coords points="1640,219 1872,219 1872,317 1640,317" />
+			<TextLine id="line_0703653f-d1a8-4839-a4ea-c9f06ff43d28" custom="readingOrder {index:0;}">
+				<Coords points="1864,243 1666,241 1666,301 1864,303" />
+				<Baseline points="1666,297 1864,299" />
+				<TextEquiv>
+					<Unicode>210</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextEquiv>
+				<Unicode>210</Unicode>
+			</TextEquiv>
+		</TextRegion>
+		<TextRegion id="region_f49f9b92-2d4e-49f3-8365-cfe5dd6c0e7d" custom="readingOrder {index:1;}">
+			<Coords points="684,475 2084,475 2084,2702 684,2702" />
+			<TextLine id="line_dd3c108c-daf5-44df-ba05-054171c82e50" custom="readingOrder {index:0;} textStyle {offset:4; length:3;monospace:true;} abbrev {offset:20; length:4;expansion:Waizen;}">
+				<Coords points="1924,511 1440,511 723,511 723,619 1440,619 1924,619" />
+				<Baseline points="723,593 1440,593 1924,593" />
+				<TextEquiv>
+					<Unicode>vnd Ani: 7000. stār Waiz</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_3c27668d-d671-4da3-be7d-002b66baa6ae" custom="readingOrder {index:1;}">
+				<Coords points="1801,625 1337,623 735,611 735,717 1337,729 1801,731" />
+				<Baseline points="735,685 1337,697 1801,699" />
+				<TextEquiv>
+					<Unicode>vnd. 2000 stār Roggen.</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_905cb5ce-04ea-4fe5-bea9-9e6517889011" custom="readingOrder {index:2;}">
+				<Coords points="1897,739 1411,713 706,696 706,813 1411,830 1897,856" />
+				<Baseline points="706,787 1411,804 1897,830" />
+				<TextEquiv>
+					<Unicode>Vnd mer sag vnndterschidlicher</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_85f72129-87b8-45e2-bb8b-c6ff59e244b8" custom="readingOrder {index:3;}">
+				<Coords points="1844,862 1388,836 725,817 725,918 1388,937 1844,963" />
+				<Baseline points="725,891 1388,910 1844,936" />
+				<TextEquiv>
+					<Unicode>Passbrief: 13400: vnd Also </Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_b7e02300-d391-401a-b6d8-b9ffced43808" custom="readingOrder {index:4;}">
+				<Coords points="1868,969 1476,952 749,917 749,1020 1476,1055 1868,1072" />
+				<Baseline points="749,993 1476,1028 1868,1045" />
+				<TextEquiv>
+					<Unicode>Zūsamen: 22400 stār Ge¬</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_18084ca4-95c8-496b-bd84-a846afc93fc5" custom="readingOrder {index:5;}">
+				<Coords points="1836,1078 1393,1039 715,1018 715,1118 1393,1139 1836,1178" />
+				<Baseline points="715,1093 1393,1114 1836,1153" />
+				<TextEquiv>
+					<Unicode>traid Zūverfiern gewilligt</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_5f456909-4f7f-427f-88ec-ac70d9ff8156" custom="readingOrder {index:6;}">
+				<Coords points="1834,1183 1505,1150 721,1138 721,1230 1505,1242 1834,1275" />
+				<Baseline points="721,1208 1505,1220 1834,1253" />
+				<TextEquiv>
+					<Unicode>worden. Zū disem habe</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_90331c56-9349-4778-8f0a-72d7be5e58dc" custom="readingOrder {index:7;}">
+				<Coords points="1807,1280 1397,1267 709,1245 709,1337 1397,1359 1807,1372" />
+				<Baseline points="709,1308 1397,1330 1807,1343" />
+				<TextEquiv>
+					<Unicode>die Statt Roūereid. Ain</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_0d4dd4ba-5dbe-4534-acfd-fe5e8d51e833" custom="readingOrder {index:8;}">
+				<Coords points="1921,1379 1536,1353 698,1340 698,1445 1536,1458 1921,1484" />
+				<Baseline points="698,1422 1536,1435 1921,1461" />
+				<TextEquiv>
+					<Unicode>Patent. soūil Sÿ bedūrfftig.</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_ed6fbb98-ef72-4ed5-aa6f-76030495c200" custom="readingOrder {index:9;}">
+				<Coords points="1770,1489 713,1464 713,1558 1770,1583" />
+				<Baseline points="713,1528 1770,1553" />
+				<TextEquiv>
+					<Unicode>des aber khainen Namen.</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_acb128fe-2df2-401b-af47-e682d816c973" custom="readingOrder {index:10;} abbrev {offset:0; length:2;expansion:oder;} abbrev {offset:17; length:7;expansion:gwislihen;}">
+				<Coords points="1885,1590 1513,1567 723,1557 723,1674 1513,1684 1885,1707" />
+				<Baseline points="723,1643 1513,1653 1885,1676" />
+				<TextEquiv>
+					<Unicode>od Anzal, welhes gwislih</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_d7a851a3-f49a-461b-9bc9-668095080066" custom="readingOrder {index:11;}">
+				<Coords points="1896,1714 1374,1678 718,1661 718,1772 1374,1789 1896,1825" />
+				<Baseline points="718,1748 1374,1765 1896,1801" />
+				<TextEquiv>
+					<Unicode>aūch aūf etlich. 1000 stār</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_986d3c54-11b8-495a-82ef-f8cc5ac65f46" custom="readingOrder {index:12;}">
+				<Coords points="1784,1831 726,1787 726,1878 1784,1922" />
+				<Baseline points="726,1855 1784,1899" />
+				<TextEquiv>
+					<Unicode>Angsehen. Item so lige</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_b9082d37-da29-4da4-b63f-bea749ed2f7b" custom="readingOrder {index:13;}">
+				<Coords points="1766,1928 728,1890 728,1981 1766,2019" />
+				<Baseline points="728,1955 1766,1993" />
+				<TextEquiv>
+					<Unicode>Zū Grūndt am Vrfar</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_c47eb6b7-5537-4e90-8940-7dcb01e8eca6" custom="readingOrder {index:14;}">
+				<Coords points="1847,2025 1349,2002 708,1986 708,2082 1349,2098 1847,2121" />
+				<Baseline points="708,2059 1349,2075 1847,2098" />
+				<TextEquiv>
+					<Unicode>aūch ain grosse Anzal Ge¬</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_63fa8f2d-a83e-4c04-9341-b030e782a8bc" custom="readingOrder {index:15;}">
+				<Coords points="1821,2127 1572,2118 712,2100 712,2192 1572,2210 1821,2219" />
+				<Baseline points="712,2165 1572,2183 1821,2192" />
+				<TextEquiv>
+					<Unicode>traids, des alles wie Zū¬</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_e32c88a9-fc02-4e79-a40a-8137e7d999cf" custom="readingOrder {index:16;}">
+				<Coords points="1948,2225 1531,2208 710,2196 710,2299 1531,2311 1948,2328" />
+				<Baseline points="710,2271 1531,2283 1948,2300" />
+				<TextEquiv>
+					<Unicode>gedennckhen. aūch merers</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_494b2059-5f80-448f-a571-80191d8b17f7" custom="readingOrder {index:17;} abbrev {offset:21; length:6;expansion:besagten;}">
+				<Coords points="1937,2335 1619,2312 712,2302 712,2405 1619,2415 1937,2438" />
+				<Baseline points="712,2383 1619,2393 1937,2416" />
+				<TextEquiv>
+					<Unicode>nach Ittälia. vnd Zū besag.</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_5f54467c-4718-4c3a-9f5e-673d6e05950a" custom="readingOrder {index:18;}">
+				<Coords points="1788,2443 702,2425 702,2515 1788,2533" />
+				<Baseline points="702,2487 1788,2505" />
+				<TextEquiv>
+					<Unicode>den widerwertigen</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_d4618aa8-c705-40cc-b60e-e1dbd0560031" custom="readingOrder {index:19;}">
+				<Coords points="2037,2540 1555,2509 693,2519 693,2619 1555,2609 2037,2640" />
+				<Baseline points="693,2599 1555,2589 2037,2620" />
+				<TextEquiv>
+					<Unicode>Venedigern verfiert wirdet. </Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextEquiv>
+				<Unicode>vnd Ani: 7000. stār Waiz
+vnd. 2000 stār Roggen.
+Vnd mer sag vnndterschidlicher
+Passbrief: 13400: vnd Also 
+Zūsamen: 22400 stār Ge¬
+traid Zūverfiern gewilligt
+worden. Zū disem habe
+die Statt Roūereid. Ain
+Patent. soūil Sÿ bedūrfftig.
+des aber khainen Namen.
+od Anzal, welhes gwislih
+aūch aūf etlich. 1000 stār
+Angsehen. Item so lige
+Zū Grūndt am Vrfar
+aūch ain grosse Anzal Ge¬
+traids, des alles wie Zū¬
+gedennckhen. aūch merers
+nach Ittälia. vnd Zū besag.
+den widerwertigen
+Venedigern verfiert wirdet. </Unicode>
+			</TextEquiv>
+		</TextRegion>
+	</Page>
+</PcGts>

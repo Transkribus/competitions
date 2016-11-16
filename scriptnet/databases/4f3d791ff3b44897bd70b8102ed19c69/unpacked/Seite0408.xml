@@ -1,0 +1,186 @@
+<?xml version="1.0"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+	<Metadata>
+		<Creator>TRP</Creator>
+		<Created>2014-09-25T12:35:48.944+02:00</Created>
+		<LastChange>2016-01-22T09:50:44.175+01:00</LastChange>
+	</Metadata>
+	<Page imageFilename="Seite0408.JPG" imageWidth="2480" imageHeight="3511">
+		<ReadingOrder>
+			<OrderedGroup id="ro_1453452663387" caption="Regions reading order">
+				<RegionRefIndexed index="0" regionRef="region_7cd7c46c-3dd9-4254-b506-a2ed7030882a" />
+				<RegionRefIndexed index="1" regionRef="region_d74cd648-3202-4a01-9bb8-d81400f428cf" />
+			</OrderedGroup>
+		</ReadingOrder>
+		<TextRegion id="region_7cd7c46c-3dd9-4254-b506-a2ed7030882a" custom="readingOrder {index:0;}">
+			<Coords points="461,101 598,101 598,246 461,246" />
+			<TextLine id="line_3bda2eca-9ba2-4bbf-bd90-19b52f7a894f" custom="readingOrder {index:0;}">
+				<Coords points="584,121 475,143 475,240 584,218" />
+				<Baseline points="475,238 584,216" />
+				<TextEquiv>
+					<Unicode>205</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextEquiv>
+				<Unicode>205</Unicode>
+			</TextEquiv>
+		</TextRegion>
+		<TextRegion id="region_d74cd648-3202-4a01-9bb8-d81400f428cf" custom="readingOrder {index:1;}">
+			<Coords points="1045,1344 938,1338 901,1280 932,1202 1045,1129 1045,457 2288,457 2288,2670 1045,2670" />
+			<TextLine id="line_60833abd-504d-49bb-ba7d-642d8c435a1d" custom="readingOrder {index:0;}">
+				<Coords points="2185,493 1794,501 1074,483 1074,612 1794,630 2185,622" />
+				<Baseline points="1074,585 1794,603 2185,595" />
+				<TextEquiv>
+					<Unicode>wider Jehtes firzenemen</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_0b6b317f-13c3-4621-9ae6-ce5d3b435297" custom="readingOrder {index:1;}">
+				<Coords points="2080,636 1090,622 1090,727 2080,741" />
+				<Baseline points="1090,699 2080,713" />
+				<TextEquiv>
+					<Unicode>bedennckhlich, Werde</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_ffc8d0a7-17a2-48b6-a5cf-7f0be3d14b35" custom="readingOrder {index:2;}">
+				<Coords points="2071,748 1806,748 1086,729 1086,834 1806,853 2071,853" />
+				<Baseline points="1086,808 1806,827 2071,827" />
+				<TextEquiv>
+					<Unicode>ain Ersamer Rath sich</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_a07a649b-b3ed-404e-a147-210abfbfe59d" custom="readingOrder {index:3;} abbrev {offset:14; length:8;expansion:Zūgedūlden;}">
+				<Coords points="2090,859 1102,842 1102,942 2090,959" />
+				<Baseline points="1102,916 2090,933" />
+				<TextEquiv>
+					<Unicode>noch Zūr Zeit Zūgedūld</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_c1358553-9032-45b1-adc2-4b4f48c2028f" custom="readingOrder {index:4;}">
+				<Coords points="2160,966 1825,964 1098,958 1098,1060 1825,1066 2160,1068" />
+				<Baseline points="1098,1032 1825,1038 2160,1040" />
+				<TextEquiv>
+					<Unicode>vnd erstbemelten Man¬</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_0d4b8522-78d8-4223-b7cd-d69cbc29ab7c" custom="readingOrder {index:5;} abbrev {offset:18; length:4;expansion:wissen;}">
+				<Coords points="2212,1075 1848,1069 1096,1058 1096,1165 1848,1176 2212,1182" />
+				<Baseline points="1096,1137 1848,1148 2212,1154" />
+				<TextEquiv>
+					<Unicode>daten Zū beqūemen wiss.</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_dcc64564-867c-4483-9cce-3ee1e36acc2d" custom="readingOrder {index:6;}">
+				<Coords points="2073,1188 1759,1178 991,1163 991,1267 1759,1282 2073,1292" />
+				<Baseline points="991,1241 1759,1256 2073,1266" />
+				<TextEquiv>
+					<Unicode>Was beschliesslich</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_cbdd19d4-52c4-4ae6-be0a-76fa8443dc9c" custom="readingOrder {index:7;}">
+				<Coords points="2167,1298 1723,1288 1090,1282 1090,1381 1723,1387 2167,1397" />
+				<Baseline points="1090,1355 1723,1361 2167,1371" />
+				<TextEquiv>
+					<Unicode>die. wider doctor Car¬</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_23408fa7-2e51-492c-9ff4-39c96f139779" custom="readingOrder {index:8;}">
+				<Coords points="2115,1399 1732,1403 1092,1397 1092,1496 1732,1502 2115,1498" />
+				<Baseline points="1092,1469 1732,1475 2115,1471" />
+				<TextEquiv>
+					<Unicode>ara gefierte Clag an¬</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_6b750fe6-d2c1-4295-9655-0d7a7995ed00" custom="readingOrder {index:9;}">
+				<Coords points="2151,1504 1794,1502 1086,1508 1086,1614 1794,1608 2151,1610" />
+				<Baseline points="1086,1585 1794,1579 2151,1581" />
+				<TextEquiv>
+					<Unicode>belannge. seie selbiger</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_f2883699-d86b-4afc-be28-c248d37fd655" custom="readingOrder {index:10;}">
+				<Coords points="2163,1615 1720,1621 1105,1611 1105,1719 1720,1729 2163,1723" />
+				<Baseline points="1105,1693 1720,1703 2163,1697" />
+				<TextEquiv>
+					<Unicode>von Iren Gnaden dahin</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_b9f331b8-c726-4394-949e-4c5750ec03d9" custom="readingOrder {index:11;}">
+				<Coords points="2118,1726 1769,1735 1096,1732 1096,1834 1769,1837 2118,1828" />
+				<Baseline points="1096,1806 1769,1809 2118,1800" />
+				<TextEquiv>
+					<Unicode>beschaiden. vnd beūelcht</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_037983ba-1830-4ace-bba5-7d0064fe3b23" custom="readingOrder {index:12;}">
+				<Coords points="2201,1844 1849,1841 1103,1833 1103,1940 1849,1948 2201,1951" />
+				<Baseline points="1103,1912 1849,1920 2201,1923" />
+				<TextEquiv>
+					<Unicode>worden. sich nit allain</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_61096a06-a23a-47f4-a902-26cd389f8c88" custom="readingOrder {index:13;}">
+				<Coords points="2100,1957 1761,1957 1088,1952 1088,2058 1761,2063 2100,2063" />
+				<Baseline points="1088,2030 1761,2035 2100,2035" />
+				<TextEquiv>
+					<Unicode>deren Ime erlaūbten</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_455dd334-92b5-43bc-b25b-a7875267b0f4" custom="readingOrder {index:14;}">
+				<Coords points="2206,2069 1752,2066 1100,2064 1100,2171 1752,2173 2206,2176" />
+				<Baseline points="1100,2143 1752,2145 2206,2148" />
+				<TextEquiv>
+					<Unicode>Wörn. vnd Pixen mit </Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_0ed9d7d9-0f34-43be-804b-c27b90a2087f" custom="readingOrder {index:15;} textStyle {offset:11; length:10;monospace:true;}">
+				<Coords points="2164,2177 1822,2182 1095,2183 1095,2292 1822,2291 2164,2286" />
+				<Baseline points="1095,2263 1822,2262 2164,2257" />
+				<TextEquiv>
+					<Unicode>gebirender discretion</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_f27a091c-c457-4f2a-84f4-35312f4c1b2b" custom="readingOrder {index:16;}">
+				<Coords points="2175,2297 1897,2299 1098,2289 1098,2403 1897,2413 2175,2411" />
+				<Baseline points="1098,2372 1897,2382 2175,2380" />
+				<TextEquiv>
+					<Unicode>Zūgebraūchen, sonnder</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_914a9622-9cbd-42b7-b794-221f1e8919b1" custom="readingOrder {index:17;}">
+				<Coords points="2071,2413 1814,2420 1106,2420 1106,2534 1814,2534 2071,2527" />
+				<Baseline points="1106,2508 1814,2508 2071,2501" />
+				<TextEquiv>
+					<Unicode>aūch im v̈brigen ge¬</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_fd3e470d-ed6c-49c9-a3dc-201224614d89" custom="readingOrder {index:18;}">
+				<Coords points="2116,2539 1808,2540 1109,2540 1109,2627 1808,2627 2116,2626" />
+				<Baseline points="1109,2613 1808,2613 2116,2612" />
+				<TextEquiv>
+					<Unicode>zimbter massen. vnd </Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextEquiv>
+				<Unicode>wider Jehtes firzenemen
+bedennckhlich, Werde
+ain Ersamer Rath sich
+noch Zūr Zeit Zūgedūld
+vnd erstbemelten Man¬
+daten Zū beqūemen wiss.
+Was beschliesslich
+die. wider doctor Car¬
+ara gefierte Clag an¬
+belannge. seie selbiger
+von Iren Gnaden dahin
+beschaiden. vnd beūelcht
+worden. sich nit allain
+deren Ime erlaūbten
+Wörn. vnd Pixen mit 
+gebirender discretion
+Zūgebraūchen, sonnder
+aūch im v̈brigen ge¬
+zimbter massen. vnd </Unicode>
+			</TextEquiv>
+		</TextRegion>
+	</Page>
+</PcGts>

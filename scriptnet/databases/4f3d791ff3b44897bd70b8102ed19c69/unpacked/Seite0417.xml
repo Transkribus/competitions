@@ -1,0 +1,202 @@
+<?xml version="1.0"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+	<Metadata>
+		<Creator>TRP</Creator>
+		<Created>2014-09-25T12:35:49.225+02:00</Created>
+		<LastChange>2016-01-22T09:03:37.623+01:00</LastChange>
+	</Metadata>
+	<Page imageFilename="Seite0417.JPG" imageWidth="2322" imageHeight="3511">
+		<ReadingOrder>
+			<OrderedGroup id="ro_1453449836443" caption="Regions reading order">
+				<RegionRefIndexed index="0" regionRef="region_921d5e06-21bc-4d11-82b2-fb7909985683" />
+				<RegionRefIndexed index="1" regionRef="region_ade91401-6296-427b-80a7-4af58c3d0121" />
+			</OrderedGroup>
+		</ReadingOrder>
+		<TextRegion id="region_921d5e06-21bc-4d11-82b2-fb7909985683" custom="readingOrder {index:0;}">
+			<Coords points="1651,253 1870,253 1870,403 1651,403" />
+			<TextLine id="line_d782cbc1-1ffe-4fda-b7a4-fa93a3882e6d" custom="readingOrder {index:0;}">
+				<Coords points="1855,279 1662,267 1662,341 1855,353" />
+				<Baseline points="1662,325 1855,337" />
+				<TextEquiv>
+					<Unicode>209</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextEquiv>
+				<Unicode>209</Unicode>
+			</TextEquiv>
+		</TextRegion>
+		<TextRegion id="region_ade91401-6296-427b-80a7-4af58c3d0121" custom="readingOrder {index:1;}">
+			<Coords points="636,460 2069,460 2069,2666 636,2666" />
+			<TextLine id="line_62d5bda8-29af-4ad3-b8a5-5251932dc437" custom="readingOrder {index:0;}">
+				<Coords points="1734,499 715,491 715,606 1734,614" />
+				<Baseline points="715,581 1734,589" />
+				<TextEquiv>
+					<Unicode>Martin Thanhaimer von</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_1b9224c0-e91c-4759-97fd-652e83ce1b0e" custom="readingOrder {index:1;}">
+				<Coords points="1692,620 742,611 742,710 1692,719" />
+				<Baseline points="742,683 1692,692" />
+				<TextEquiv>
+					<Unicode>seiner Neūerbaūten be¬</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_71bb1cd0-3847-45cc-9ae7-03e56003f894" custom="readingOrder {index:2;}">
+				<Coords points="1734,725 747,723 747,825 1734,827" />
+				<Baseline points="747,799 1734,801" />
+				<TextEquiv>
+					<Unicode>wonennden Behaūsūng.</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_9d3336c7-3466-44cd-af42-87caee081a1c" custom="readingOrder {index:3;} unclear {offset:11; length:2;}">
+				<Coords points="1796,833 740,823 740,920 1796,930" />
+				<Baseline points="740,897 1796,907" />
+				<TextEquiv>
+					<Unicode>so Zūvor .(Re). Ain Stal¬</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_aec1192b-9eed-4c15-88a7-21710f87ad8a" custom="readingOrder {index:4;} abbrev {offset:14; length:10;expansion:Trientischen;}">
+				<Coords points="1850,936 1398,921 765,911 765,1000 1398,1010 1850,1025" />
+				<Baseline points="765,976 1398,986 1850,1001" />
+				<TextEquiv>
+					<Unicode>lūng. vnd Zūm Trientisch</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_66189d33-2620-460c-9799-1b04d955f7d0" custom="readingOrder {index:5;}">
+				<Coords points="1798,1030 1332,1018 725,1005 725,1097 1332,1110 1798,1122" />
+				<Baseline points="725,1072 1332,1085 1798,1097" />
+				<TextEquiv>
+					<Unicode>Ambthaūs geherig gwest.</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_533315aa-a6f0-4741-b5b5-229cc9a13f39" custom="readingOrder {index:6;} abbrev {offset:16; length:9;expansion:Auflegenden;}">
+				<Coords points="1919,1128 1347,1106 745,1099 745,1191 1347,1198 1919,1220" />
+				<Baseline points="745,1169 1347,1176 1919,1198" />
+				<TextEquiv>
+					<Unicode>Die Ime billich Aūflegend</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_bdfc1046-fc9a-4e3a-b2de-a74afc5d3db0" custom="readingOrder {index:7;}">
+				<Coords points="1857,1226 1440,1212 732,1202 732,1291 1440,1301 1857,1315" />
+				<Baseline points="732,1265 1440,1275 1857,1289" />
+				<TextEquiv>
+					<Unicode>Steūrn Zūraichen. vnd And¬</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_5a136f57-9549-4be0-914a-737913126cac" custom="readingOrder {index:8;}">
+				<Coords points="1759,1321 1423,1299 737,1297 737,1398 1423,1400 1759,1422" />
+				<Baseline points="737,1371 1423,1373 1759,1395" />
+				<TextEquiv>
+					<Unicode>rer gmaine dienst ber¬</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_24c18128-216d-4669-8538-4daa4a3f3c64" custom="readingOrder {index:9;}">
+				<Coords points="1894,1429 1428,1390 735,1390 735,1488 1428,1488 1894,1527" />
+				<Baseline points="735,1467 1428,1467 1894,1506" />
+				<TextEquiv>
+					<Unicode>khaiten Zūverrichten, Mit</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_c5b07ce3-0b4a-42dc-8d83-0b4b1a780a82" custom="readingOrder {index:10;}">
+				<Coords points="1805,1533 1455,1511 703,1511 703,1591 1455,1591 1805,1613" />
+				<Baseline points="703,1571 1455,1571 1805,1593" />
+				<TextEquiv>
+					<Unicode>fürgeben Er Steūr mit</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_7c53fe23-3a70-4b8b-b36b-59a1de7eddb6" custom="readingOrder {index:11;}">
+				<Coords points="1865,1616 718,1618 718,1698 1865,1696" />
+				<Baseline points="718,1674 1865,1672" />
+				<TextEquiv>
+					<Unicode>dem Adl. Weiln</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_757fecd5-3aad-4e22-b369-521b872aed24" custom="readingOrder {index:12;} textStyle {offset:5; length:5;strikethrough:true;}">
+				<Coords points="1870,1704 728,1696 728,1791 1870,1799" />
+				<Baseline points="728,1764 1870,1772" />
+				<TextEquiv>
+					<Unicode>dann dises als vorgehert.</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_d70dd52e-e778-4dea-a1ad-d632c7d406e8" custom="readingOrder {index:13;}">
+				<Coords points="1754,1805 1411,1790 740,1793 740,1892 1411,1889 1754,1904" />
+				<Baseline points="740,1868 1411,1865 1754,1880" />
+				<TextEquiv>
+					<Unicode>mit dem Freȳherrn</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_e404f5cd-b96a-478c-b878-a0065956e88f" custom="readingOrder {index:14;}">
+				<Coords points="1794,1910 1372,1900 743,1895 743,1992 1372,1997 1794,2007" />
+				<Baseline points="743,1964 1372,1969 1794,1979" />
+				<TextEquiv>
+					<Unicode>Zū Wolckhenstain die ver¬</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_18f0e6df-c522-4962-b771-f8edc075b0c1" custom="readingOrder {index:15;}">
+				<Coords points="1855,2013 1463,1994 726,1999 726,2110 1463,2105 1855,2124" />
+				<Baseline points="726,2078 1463,2073 1855,2092" />
+				<TextEquiv>
+					<Unicode>füeg: vnd verschaffūng be¬</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_2be3bc4b-e586-48eb-914b-ec0bc5c633e9" custom="readingOrder {index:16;} abbrev {offset:23; length:8;expansion:Zelaisten;}">
+				<Coords points="1986,2132 1488,2093 696,2083 696,2196 1488,2206 1986,2245" />
+				<Baseline points="696,2174 1488,2184 1986,2223" />
+				<TextEquiv>
+					<Unicode>schehen. die Abstatūng Zelaist.</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_1636beb7-6578-4a5d-9de6-a1591e2936c2" custom="readingOrder {index:17;}">
+				<Coords points="1863,2251 1438,2237 731,2224 731,2313 1438,2326 1863,2340" />
+				<Baseline points="731,2287 1438,2300 1863,2314" />
+				<TextEquiv>
+					<Unicode>vnd dise des Thanhaimers</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_9dd99629-4c28-46d1-8d9c-b98cd5b4833c" custom="readingOrder {index:18;}">
+				<Coords points="1944,2346 1564,2334 713,2314 713,2415 1564,2435 1944,2447" />
+				<Baseline points="713,2388 1564,2408 1944,2420" />
+				<TextEquiv>
+					<Unicode>Enntschūldigūng verwaig¬</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_1ab31127-278c-4cc7-ad52-fdccff85d359" custom="readingOrder {index:19;}">
+				<Coords points="1996,2454 1678,2432 713,2422 713,2520 1678,2530 1996,2552" />
+				<Baseline points="713,2499 1678,2509 1996,2531" />
+				<TextEquiv>
+					<Unicode>erender gebür, sonnderlich</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_6229c245-c633-4ade-8fb9-75a07efb1301" custom="readingOrder {index:20;}">
+				<Coords points="1880,2557 1327,2545 726,2552 726,2623 1327,2616 1880,2628" />
+				<Baseline points="726,2610 1327,2603 1880,2615" />
+				<TextEquiv>
+					<Unicode>aūs deme. das angeregte </Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextEquiv>
+				<Unicode>Martin Thanhaimer von
+seiner Neūerbaūten be¬
+wonennden Behaūsūng.
+so Zūvor .(Re). Ain Stal¬
+lūng. vnd Zūm Trientisch
+Ambthaūs geherig gwest.
+Die Ime billich Aūflegend
+Steūrn Zūraichen. vnd And¬
+rer gmaine dienst ber¬
+khaiten Zūverrichten, Mit
+fürgeben Er Steūr mit
+dem Adl. Weiln
+dann dises als vorgehert.
+mit dem Freȳherrn
+Zū Wolckhenstain die ver¬
+füeg: vnd verschaffūng be¬
+schehen. die Abstatūng Zelaist.
+vnd dise des Thanhaimers
+Enntschūldigūng verwaig¬
+erender gebür, sonnderlich
+aūs deme. das angeregte </Unicode>
+			</TextEquiv>
+		</TextRegion>
+	</Page>
+</PcGts>

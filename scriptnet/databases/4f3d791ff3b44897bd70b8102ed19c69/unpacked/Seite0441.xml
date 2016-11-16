@@ -1,0 +1,210 @@
+<?xml version="1.0"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+	<Metadata>
+		<Creator>TRP</Creator>
+		<Created>2014-09-25T12:35:49.991+02:00</Created>
+		<LastChange>2016-01-20T10:41:24.752+01:00</LastChange>
+	</Metadata>
+	<Page imageFilename="Seite0441.JPG" imageWidth="2290" imageHeight="3511">
+		<ReadingOrder>
+			<OrderedGroup id="ro_1453282902789" caption="Regions reading order">
+				<RegionRefIndexed index="0" regionRef="region_9e9166fe-7bae-470c-a0d7-b761dea5e092" />
+				<RegionRefIndexed index="1" regionRef="region_98ebfb9f-2785-40e9-853c-c113880c3497" />
+			</OrderedGroup>
+		</ReadingOrder>
+		<TextRegion id="region_9e9166fe-7bae-470c-a0d7-b761dea5e092" custom="readingOrder {index:0;}">
+			<Coords points="1659,230 1928,230 1928,335 1659,335" />
+			<TextLine id="line_a1176447-9127-4074-9c28-35353f37ba65" custom="readingOrder {index:0;}">
+				<Coords points="1907,258 1695,247 1695,314 1907,325" />
+				<Baseline points="1695,311 1907,322" />
+				<TextEquiv>
+					<Unicode>221</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextEquiv>
+				<Unicode>221</Unicode>
+			</TextEquiv>
+		</TextRegion>
+		<TextRegion id="region_98ebfb9f-2785-40e9-853c-c113880c3497" custom="readingOrder {index:1;}">
+			<Coords points="545,2024 639,462 2056,462 2056,2717 639,2717" />
+			<TextLine id="line_dc94bd46-23a1-493e-add0-62f837d40dd5" custom="readingOrder {index:0;}">
+				<Coords points="1921,495 1335,489 710,497 710,603 1335,595 1921,601" />
+				<Baseline points="710,578 1335,570 1921,576" />
+				<TextEquiv>
+					<Unicode>vorhabende Wax hanndtier¬</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_65373f9b-9327-4eb7-9b5f-dcaa64366c96" custom="readingOrder {index:1;}">
+				<Coords points="1764,609 1377,597 728,587 728,687 1377,697 1764,709" />
+				<Baseline points="728,658 1377,668 1764,680" />
+				<TextEquiv>
+					<Unicode>ūng betreffent, vom</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_668b4cb5-7a1d-49db-997a-b81064e1b045" custom="readingOrder {index:2;}">
+				<Coords points="1761,716 1301,697 715,679 715,784 1301,802 1761,821" />
+				<Baseline points="715,761 1301,779 1761,798" />
+				<TextEquiv>
+					<Unicode>dato Bozen .19. diz. Ire</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_e5c9523d-f0ee-4e81-8377-7463a6e579e1" custom="readingOrder {index:3;}">
+				<Coords points="1717,827 1362,821 734,789 734,880 1362,912 1717,918" />
+				<Baseline points="734,855 1362,887 1717,893" />
+				<TextEquiv>
+					<Unicode>Gnaden disfahls. vnd</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_aac38392-83f2-4327-92f8-2a6c3c933c10" custom="readingOrder {index:4;}">
+				<Coords points="1741,924 1363,910 709,886 709,979 1363,1003 1741,1017" />
+				<Baseline points="709,957 1363,981 1741,995" />
+				<TextEquiv>
+					<Unicode>was Ime Criūelj. Zūbe¬</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_57feda16-8d64-43de-8aad-ea3c4a4877c5" custom="readingOrder {index:5;}">
+				<Coords points="1763,1022 1444,1010 725,991 725,1078 1444,1097 1763,1109" />
+				<Baseline points="725,1052 1444,1071 1763,1083" />
+				<TextEquiv>
+					<Unicode>willigen sein mechte.</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_15e34824-d7f3-4310-bfb8-e469f24a6bdf" custom="readingOrder {index:6;} textStyle {offset:0; length:15;strikethrough:true;}">
+				<Coords points="1794,1115 1373,1100 705,1072 705,1169 1373,1197 1794,1212" />
+				<Baseline points="705,1144 1373,1172 1794,1187" />
+				<TextEquiv>
+					<Unicode>Ire Zūberichten, schrifft¬</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_efda75a5-9cc4-490d-986d-722051eee0d5" custom="readingOrder {index:7;}">
+				<Coords points="1772,1218 1472,1208 748,1184 748,1283 1472,1307 1772,1317" />
+				<Baseline points="748,1254 1472,1278 1772,1288" />
+				<TextEquiv>
+					<Unicode>lich verschlossner Zū be¬</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_82e5bbaf-832c-4f0d-b675-e8edecdd11b6" custom="readingOrder {index:8;}">
+				<Coords points="1906,1324 1450,1290 727,1267 727,1371 1450,1394 1906,1428" />
+				<Baseline points="727,1349 1450,1372 1906,1406" />
+				<TextEquiv>
+					<Unicode>richten. vnd Rätlich gūet¬</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_7c427f21-6a3b-474b-a3fc-e0d2d52a8377" custom="readingOrder {index:9;}">
+				<Coords points="1863,1433 1474,1406 732,1388 732,1468 1474,1486 1863,1513" />
+				<Baseline points="732,1449 1474,1467 1863,1494" />
+				<TextEquiv>
+					<Unicode>achten neben widersend¬</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_883a57a5-12f6-4b4b-810a-7e1253f919ba" custom="readingOrder {index:10;}">
+				<Coords points="1754,1518 1356,1504 709,1476 709,1555 1356,1583 1754,1597" />
+				<Baseline points="709,1531 1356,1559 1754,1573" />
+				<TextEquiv>
+					<Unicode>ūng des Einschlūß Zūe¬</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_5ba42b2d-f4f6-46c0-bf0d-8e164f2c53ff" custom="readingOrder {index:11;}">
+				<Coords points="1816,1603 1439,1583 742,1563 742,1654 1439,1674 1816,1694" />
+				<Baseline points="742,1631 1439,1651 1816,1671" />
+				<TextEquiv>
+					<Unicode>khomen Zelassen, Als</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_350bbc04-3065-4793-b96a-7d8caab3c93b" custom="readingOrder {index:12;} abbrev {offset:18; length:2;expansion:hochlöblichen;}">
+				<Coords points="1820,1700 1396,1678 752,1685 752,1777 1396,1770 1820,1792" />
+				<Baseline points="752,1750 1396,1743 1820,1765" />
+				<TextEquiv>
+					<Unicode>solle wolgemeltem hn</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_80c23ab0-8e75-46f1-a79f-2296056f6924" custom="readingOrder {index:13;}">
+				<Coords points="1809,1799 1367,1767 728,1767 728,1870 1367,1870 1809,1902" />
+				<Baseline points="728,1844 1367,1844 1809,1876" />
+				<TextEquiv>
+					<Unicode>Lanndthaūbtmann gehor¬</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_7bb8a9f4-1885-4e69-8af0-23e16136f463" custom="readingOrder {index:14;} abbrev {offset:21; length:5;expansion:werden;}">
+				<Coords points="1919,1908 1413,1871 748,1858 748,1948 1413,1961 1919,1998" />
+				<Baseline points="748,1931 1413,1944 1919,1981" />
+				<TextEquiv>
+					<Unicode>samlich Zūegschriben werd.</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_a2c8074e-ad36-42c7-a10d-450fe80f1722" custom="readingOrder {index:15;}">
+				<Coords points="1768,2002 1361,1985 713,1978 713,2056 1361,2063 1768,2080" />
+				<Baseline points="713,2027 1361,2034 1768,2051" />
+				<TextEquiv>
+					<Unicode>das dises vorhaben mer</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_7a70f6db-e062-47c8-b980-34c46576f407" custom="readingOrder {index:16;}">
+				<Coords points="1997,2087 1615,2060 752,2047 752,2149 1615,2162 1997,2189" />
+				<Baseline points="752,2128 1615,2141 1997,2168" />
+				<TextEquiv>
+					<Unicode>Abzūstelln. Als zū werckh</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_6a78265d-4c05-42b1-8635-7a1df7c9bc06" custom="readingOrder {index:17;}">
+				<Coords points="1774,2195 1483,2180 722,2165 722,2253 1483,2268 1774,2283" />
+				<Baseline points="722,2225 1483,2240 1774,2255" />
+				<TextEquiv>
+					<Unicode>zūrichten. Aūs vilen</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_c93f1ea2-f05e-4765-ad88-cf1209ee7bf0" custom="readingOrder {index:18;}">
+				<Coords points="1903,2281 1873,2290 1871,2290 1396,2261 735,2261 735,2364 1396,2364 1871,2393 1873,2393 1903,2384" />
+				<Baseline points="735,2340 1396,2340 1871,2369 1873,2369 1903,2360" />
+				<TextEquiv>
+					<Unicode>begrūndten vrsachen, wie</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_9e31f7a1-08ce-4508-b101-4141809205a2" custom="readingOrder {index:19;}">
+				<Coords points="1845,2398 1298,2369 713,2358 713,2449 1298,2460 1845,2489" />
+				<Baseline points="713,2425 1298,2436 1845,2465" />
+				<TextEquiv>
+					<Unicode>in der Berichts CoPȳ Zū¬</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_3c9eaf7d-4785-42bc-8eb5-93ebf5bbc2fd" custom="readingOrder {index:20;} abbrev {offset:11; length:7;expansion:derowegen;}">
+				<Coords points="1821,2494 1400,2481 705,2470 705,2559 1400,2570 1821,2583" />
+				<Baseline points="705,2537 1400,2548 1821,2561" />
+				<TextEquiv>
+					<Unicode>sehen, Vnd deroweg</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_5fa4bbb5-5f4a-4490-be18-212ae19243bf" custom="readingOrder {index:21;} abbrev {offset:12; length:3;expansion:hochlöblichen;}">
+				<Coords points="1829,2588 1315,2571 696,2575 696,2654 1315,2650 1829,2667" />
+				<Baseline points="696,2638 1315,2634 1829,2651" />
+				<TextEquiv>
+					<Unicode>wolgemeltem hln Lanndt¬</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextEquiv>
+				<Unicode>vorhabende Wax hanndtier¬
+ūng betreffent, vom
+dato Bozen .19. diz. Ire
+Gnaden disfahls. vnd
+was Ime Criūelj. Zūbe¬
+willigen sein mechte.
+Ire Zūberichten, schrifft¬
+lich verschlossner Zū be¬
+richten. vnd Rätlich gūet¬
+achten neben widersend¬
+ūng des Einschlūß Zūe¬
+khomen Zelassen, Als
+solle wolgemeltem hn
+Lanndthaūbtmann gehor¬
+samlich Zūegschriben werd.
+das dises vorhaben mer
+Abzūstelln. Als zū werckh
+zūrichten. Aūs vilen
+begrūndten vrsachen, wie
+in der Berichts CoPȳ Zū¬
+sehen, Vnd deroweg
+wolgemeltem hln Lanndt¬</Unicode>
+			</TextEquiv>
+		</TextRegion>
+	</Page>
+</PcGts>

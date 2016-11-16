@@ -1,0 +1,202 @@
+<?xml version="1.0"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+	<Metadata>
+		<Creator>TRP</Creator>
+		<Created>2014-09-25T12:35:49.944+02:00</Created>
+		<LastChange>2016-01-20T10:55:59.529+01:00</LastChange>
+	</Metadata>
+	<Page imageFilename="Seite0439.JPG" imageWidth="2290" imageHeight="3511">
+		<ReadingOrder>
+			<OrderedGroup id="ro_1453283777431" caption="Regions reading order">
+				<RegionRefIndexed index="0" regionRef="region_a33a2006-a840-432f-b0f3-2dfad7e5dce6" />
+				<RegionRefIndexed index="1" regionRef="region_7af766f2-8b3d-4f33-a061-c0206f32076d" />
+			</OrderedGroup>
+		</ReadingOrder>
+		<TextRegion id="region_a33a2006-a840-432f-b0f3-2dfad7e5dce6" custom="readingOrder {index:0;}">
+			<Coords points="1648,220 1901,220 1901,317 1648,317" />
+			<TextLine id="line_5db6cded-c870-4995-b4ec-436f85b05e27" custom="readingOrder {index:0;}">
+				<Coords points="1875,245 1667,240 1667,301 1875,306" />
+				<Baseline points="1667,298 1875,303" />
+				<TextEquiv>
+					<Unicode>220</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextEquiv>
+				<Unicode>220</Unicode>
+			</TextEquiv>
+		</TextRegion>
+		<TextRegion id="region_7af766f2-8b3d-4f33-a061-c0206f32076d" custom="readingOrder {index:1;}">
+			<Coords points="623,469 2066,469 2066,2728 623,2728" />
+			<TextLine id="line_4ea13f11-d155-4e91-a004-c19f79dddfa8" custom="readingOrder {index:0;} abbrev {offset:21; length:4;expansion:weiten;}">
+				<Coords points="1927,506 1377,489 704,469 704,571 1377,597 1927,614" />
+				<Baseline points="704,547 1377,573 1927,590" />
+				<TextEquiv>
+					<Unicode>vnd Gries, Nahend an weit</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_b2c70100-57d5-4ef1-a3f2-9c9c98fae687" custom="readingOrder {index:1;}">
+				<Coords points="1793,620 1431,611 716,574 716,671 1431,708 1793,717" />
+				<Baseline points="716,641 1431,678 1793,687" />
+				<TextEquiv>
+					<Unicode>wisen. sehr Pese Tieffen</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_01ce0319-1e47-470c-87de-279b34444fd9" custom="readingOrder {index:2;}">
+				<Coords points="1903,724 1538,703 734,663 734,777 1538,817 1903,838" />
+				<Baseline points="734,749 1538,789 1903,810" />
+				<TextEquiv>
+					<Unicode>der Weeg. das so wol mit</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_f2652070-b4d5-4833-8a26-c41ee102942c" custom="readingOrder {index:3;}">
+				<Coords points="1817,845 1407,808 669,771 669,873 1407,910 1817,947" />
+				<Baseline points="669,850 1407,887 1817,924" />
+				<TextEquiv>
+					<Unicode>Karn. als Reütten. be¬</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_ca730bc6-f7d5-41b7-83b4-b046ca4c6a11" custom="readingOrder {index:4;}">
+				<Coords points="1754,948 1748,950 1745,952 1387,922 728,897 728,992 1387,1017 1745,1047 1748,1045 1754,1043" />
+				<Baseline points="728,961 1387,986 1745,1016 1748,1014 1754,1012" />
+				<TextEquiv>
+					<Unicode>schwerlichen dardūrch</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_deaefb6c-6e95-4c40-96b5-e791525a4f99" custom="readingOrder {index:5;}">
+				<Coords points="1855,1054 1399,1005 722,976 722,1085 1399,1114 1855,1163" />
+				<Baseline points="722,1064 1399,1093 1855,1142" />
+				<TextEquiv>
+					<Unicode>Zū khomen, vnd doch solhes</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_f9d8b801-6289-4691-bccd-219cc513ae6a" custom="readingOrder {index:6;}">
+				<Coords points="1789,1169 1462,1126 730,1099 730,1180 1462,1207 1789,1250" />
+				<Baseline points="730,1159 1462,1186 1789,1229" />
+				<TextEquiv>
+					<Unicode>mit Einfierūng Stain.</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_996a2cee-2d0a-43b0-896a-4a67275b8708" custom="readingOrder {index:7;}">
+				<Coords points="1760,1255 1394,1225 716,1194 716,1277 1394,1308 1760,1338" />
+				<Baseline points="716,1254 1394,1285 1760,1315" />
+				<TextEquiv>
+					<Unicode>auch Schwenzūng der</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_df08ea75-e32a-419f-bc16-94b732fd894d" custom="readingOrder {index:8;}">
+				<Coords points="1759,1343 1427,1325 739,1307 739,1400 1427,1418 1759,1436" />
+				<Baseline points="739,1372 1427,1390 1759,1408" />
+				<TextEquiv>
+					<Unicode>Graben. gar wol Zū¬</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_c9501e72-b4c0-4709-b287-f00c4af8a81c" custom="readingOrder {index:9;}">
+				<Coords points="1842,1443 1548,1415 727,1396 727,1496 1548,1515 1842,1543" />
+				<Baseline points="727,1477 1548,1496 1842,1524" />
+				<TextEquiv>
+					<Unicode>wenden sein solle. Als</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_9d275d19-950b-4c6b-8e11-923bde84ae22" custom="readingOrder {index:10;}">
+				<Coords points="1743,1548 1484,1537 721,1528 721,1607 1484,1616 1743,1627" />
+				<Baseline points="721,1581 1484,1590 1743,1601" />
+				<TextEquiv>
+					<Unicode>werde Ain Ersamer</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_36a177a0-b987-4c6c-9944-f5545c92e617" custom="readingOrder {index:11;} textStyle {offset:18; length:2;monospace:true;}">
+				<Coords points="1830,1634 1486,1612 711,1610 711,1710 1486,1712 1830,1734" />
+				<Baseline points="711,1684 1486,1686 1830,1708" />
+				<TextEquiv>
+					<Unicode>Rath des orts mit re¬</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_41100286-4a5a-46d6-ad78-a5e0a30b8346" custom="readingOrder {index:12;} textStyle {offset:0; length:9;monospace:true;}">
+				<Coords points="1753,1740 1389,1715 713,1709 713,1807 1389,1813 1753,1838" />
+				<Baseline points="713,1783 1389,1789 1753,1814" />
+				<TextEquiv>
+					<Unicode>parierūng gemelter</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_fa71bc06-d91e-4b07-ae40-4c0e3edf1817" custom="readingOrder {index:13;}">
+				<Coords points="1779,1844 1459,1823 737,1808 737,1902 1459,1917 1779,1938" />
+				<Baseline points="737,1877 1459,1892 1779,1913" />
+				<TextEquiv>
+					<Unicode>Strassen soliche fird¬</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_dc5d64d4-b9dd-47bf-9ac8-e659e26d1613" custom="readingOrder {index:14;}">
+				<Coords points="1820,1944 1387,1917 725,1908 725,2004 1387,2013 1820,2040" />
+				<Baseline points="725,1980 1387,1989 1820,2016" />
+				<TextEquiv>
+					<Unicode>erliche vnd Notwendige</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_71221aa1-5238-491d-8f40-9564b8f01b3c" custom="readingOrder {index:15;}">
+				<Coords points="1870,2046 1592,2021 726,2002 726,2093 1592,2112 1870,2137" />
+				<Baseline points="726,2071 1592,2090 1870,2115" />
+				<TextEquiv>
+					<Unicode>bestellūng Zūverordnen</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_bfa2324c-ded8-40a6-9e9f-284a190ffc88" custom="readingOrder {index:16;}">
+				<Coords points="1801,2143 1420,2128 729,2112 729,2206 1420,2222 1801,2237" />
+				<Baseline points="729,2175 1420,2191 1801,2206" />
+				<TextEquiv>
+					<Unicode>wissen, damit mann</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_65a275fe-23bc-4e2a-8ef4-4e8f3bbf1b0b" custom="readingOrder {index:17;}">
+				<Coords points="1907,2244 1454,2215 699,2198 699,2308 1454,2325 1907,2354" />
+				<Baseline points="699,2285 1454,2302 1907,2331" />
+				<TextEquiv>
+					<Unicode>hieriber weiter Zū clagen</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_081fe5e4-3217-4c49-bd31-33478affc55b" custom="readingOrder {index:18;}">
+				<Coords points="1815,2359 1422,2337 711,2317 711,2406 1422,2426 1815,2448" />
+				<Baseline points="711,2382 1422,2402 1815,2424" />
+				<TextEquiv>
+					<Unicode>nit vrsach habe. sonnder</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_84358c0d-8546-40fe-b07d-fc3c2c99cd71" custom="readingOrder {index:19;}">
+				<Coords points="1852,2454 1516,2439 715,2420 715,2517 1516,2536 1852,2551" />
+				<Baseline points="715,2489 1516,2508 1852,2523" />
+				<TextEquiv>
+					<Unicode>selbige weeg sicher. vnd</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_9e754165-253e-4c6d-ae43-d23bda0e835d" custom="readingOrder {index:20;} abbrev {offset:10; length:8;expansion:gebrauchen;}">
+				<Coords points="1978,2539 1949,2558 1949,2554 1511,2521 710,2501 710,2604 1511,2624 1949,2657 1949,2661 1978,2642" />
+				<Baseline points="710,2582 1511,2602 1949,2635 1949,2639 1978,2620" />
+				<TextEquiv>
+					<Unicode>one gfahr gebraūch mige, </Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextEquiv>
+				<Unicode>vnd Gries, Nahend an weit
+wisen. sehr Pese Tieffen
+der Weeg. das so wol mit
+Karn. als Reütten. be¬
+schwerlichen dardūrch
+Zū khomen, vnd doch solhes
+mit Einfierūng Stain.
+auch Schwenzūng der
+Graben. gar wol Zū¬
+wenden sein solle. Als
+werde Ain Ersamer
+Rath des orts mit re¬
+parierūng gemelter
+Strassen soliche fird¬
+erliche vnd Notwendige
+bestellūng Zūverordnen
+wissen, damit mann
+hieriber weiter Zū clagen
+nit vrsach habe. sonnder
+selbige weeg sicher. vnd
+one gfahr gebraūch mige, </Unicode>
+			</TextEquiv>
+		</TextRegion>
+	</Page>
+</PcGts>

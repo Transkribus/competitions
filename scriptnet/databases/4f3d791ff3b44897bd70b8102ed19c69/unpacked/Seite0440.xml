@@ -1,0 +1,274 @@
+<?xml version="1.0"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+	<Metadata>
+		<Creator>TRP</Creator>
+		<Created>2014-09-25T12:35:49.975+02:00</Created>
+		<LastChange>2016-01-20T10:51:54.812+01:00</LastChange>
+	</Metadata>
+	<Page imageFilename="Seite0440.JPG" imageWidth="2432" imageHeight="3511">
+		<ReadingOrder>
+			<OrderedGroup id="ro_1453283532722" caption="Regions reading order">
+				<RegionRefIndexed index="0" regionRef="region_bf9a88de-fae2-459e-b8e0-c7b365a5571c" />
+				<RegionRefIndexed index="1" regionRef="region_32c9310f-6d52-4d4a-b66c-0b76f13ffccf" />
+				<RegionRefIndexed index="2" regionRef="region_d2f206cf-7710-43ba-a975-fdf204bcc85e" />
+				<RegionRefIndexed index="3" regionRef="region_a9e549dc-5c82-434a-809b-7234435726fe" />
+				<RegionRefIndexed index="4" regionRef="region_dbf14807-7a74-4c6c-a8d5-11248b7e39fa" />
+				<RegionRefIndexed index="5" regionRef="region_1511c1b3-bdf0-449d-bf15-ac15b3dab895" />
+			</OrderedGroup>
+		</ReadingOrder>
+		<TextRegion id="region_bf9a88de-fae2-459e-b8e0-c7b365a5571c" custom="readingOrder {index:0;}">
+			<Coords points="415,109 569,109 569,247 415,247" />
+			<TextLine id="line_5c179923-5499-4e34-aa85-b67cbb9f0487" custom="readingOrder {index:0;}">
+				<Coords points="552,141 437,146 437,235 552,230" />
+				<Baseline points="437,231 552,226" />
+				<TextEquiv>
+					<Unicode>221</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextEquiv>
+				<Unicode>221</Unicode>
+			</TextEquiv>
+		</TextRegion>
+		<TextRegion id="region_32c9310f-6d52-4d4a-b66c-0b76f13ffccf" custom="readingOrder {index:1;}">
+			<Coords points="909,359 2215,359 2215,1105 909,1105" />
+			<TextLine id="line_dd24814f-ba77-42c6-9693-2e1b135d25aa" custom="readingOrder {index:0;}">
+				<Coords points="1996,387 1978,396 1974,396 1699,404 971,392 971,520 1699,532 1974,524 1978,524 1996,515" />
+				<Baseline points="971,495 1699,507 1974,499 1978,499 1996,490" />
+				<TextEquiv>
+					<Unicode>Abgehōrdt, Soll</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_65f858c1-3685-4890-bfe4-5a14eeaa800f" custom="readingOrder {index:1;}">
+				<Coords points="2068,522 1682,537 1040,524 1040,619 1682,632 2068,617" />
+				<Baseline points="1040,594 1682,607 2068,592" />
+				<TextEquiv>
+					<Unicode>die Bsicht eingenomen¬</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_6db6fb3d-5b17-446c-9477-5f18f72f73ec" custom="readingOrder {index:2;}">
+				<Coords points="2061,601 1614,638 1008,635 1008,732 1614,735 2061,698" />
+				<Baseline points="1008,706 1614,709 2061,672" />
+				<TextEquiv>
+					<Unicode>vnd den Innhabern der</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_6e87c284-9cb1-4ad2-a7ca-e3b04045f814" custom="readingOrder {index:3;}">
+				<Coords points="1959,714 1672,734 1027,741 1027,835 1672,828 1959,808" />
+				<Baseline points="1027,813 1672,806 1959,786" />
+				<TextEquiv>
+					<Unicode>Güeter die Gräben</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_2f7a9f92-8502-4986-92b2-812d6cb512e7" custom="readingOrder {index:4;} abbrev {offset:18; length:7;expansion:schwenzen;}">
+				<Coords points="2110,816 1743,837 1040,840 1040,928 1743,925 2110,904" />
+				<Baseline points="1040,901 1743,898 2110,877" />
+				<TextEquiv>
+					<Unicode>Zūrichten. vnd Zū schwenz</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_7b1422bb-d8d8-49f7-8705-7504e591fd2b" custom="readingOrder {index:5;}">
+				<Coords points="1954,914 1511,935 1045,926 1045,1026 1511,1035 1954,1014" />
+				<Baseline points="1045,1003 1511,1012 1954,991" />
+				<TextEquiv>
+					<Unicode>Aūferladen werden,</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextEquiv>
+				<Unicode>Abgehōrdt, Soll
+die Bsicht eingenomen¬
+vnd den Innhabern der
+Güeter die Gräben
+Zūrichten. vnd Zū schwenz
+Aūferladen werden,</Unicode>
+			</TextEquiv>
+		</TextRegion>
+		<TextRegion id="region_d2f206cf-7710-43ba-a975-fdf204bcc85e" custom="readingOrder {index:2;}">
+			<Coords points="983,1123 2155,1123 2155,2098 983,2098" />
+			<TextLine id="line_427755ff-9e60-4a03-b71a-2a9dd07c49a1" custom="readingOrder {index:0;}">
+				<Coords points="2153,1148 1705,1168 1000,1175 1000,1316 1705,1309 2153,1289" />
+				<Baseline points="1000,1294 1705,1287 2153,1267" />
+				<TextEquiv>
+					<Unicode>Verer ain Schreiben vom</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_fb332900-bc7c-4c44-8e38-4bf5eee3ae8f" custom="readingOrder {index:1;}">
+				<Coords points="2053,1308 1614,1321 1032,1316 1032,1402 1614,1407 2053,1394" />
+				<Baseline points="1032,1378 1614,1383 2053,1370" />
+				<TextEquiv>
+					<Unicode>hannsen Reichardt der</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_3665e7b1-e890-4f73-876c-e6a8d5ce3e1d" custom="readingOrder {index:2;}">
+				<Coords points="1978,1413 1639,1411 1058,1410 1058,1504 1639,1505 1978,1507" />
+				<Baseline points="1058,1478 1639,1479 1978,1481" />
+				<TextEquiv>
+					<Unicode>Wachter bsoldūng</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_82c834c5-3739-4eb6-8c18-b0a10afe91b8" custom="readingOrder {index:3;}">
+				<Coords points="1925,1495 1526,1513 1028,1497 1028,1591 1526,1607 1925,1589" />
+				<Baseline points="1028,1569 1526,1585 1925,1567" />
+				<TextEquiv>
+					<Unicode>halber, das Er das</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_24aae43b-393d-4eaf-b256-e6b8121f599c" custom="readingOrder {index:4;}">
+				<Coords points="1939,1589 1585,1605 1075,1612 1075,1696 1585,1689 1939,1673" />
+				<Baseline points="1075,1674 1585,1667 1939,1651" />
+				<TextEquiv>
+					<Unicode>Schreiben Loblicher</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_0ae6d5a6-968d-451e-a5dc-e33a53df77fe" custom="readingOrder {index:5;}">
+				<Coords points="2005,1684 1633,1695 1026,1701 1026,1783 1633,1777 2005,1766" />
+				<Baseline points="1026,1762 1633,1756 2005,1745" />
+				<TextEquiv>
+					<Unicode>Cammer v̈berraicht.</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_ab0792fe-a20a-4a7c-a052-f281bdf11646" custom="readingOrder {index:6;}">
+				<Coords points="1923,1786 1710,1788 1035,1788 1035,1873 1710,1873 1923,1871" />
+				<Baseline points="1035,1847 1710,1847 1923,1845" />
+				<TextEquiv>
+					<Unicode>Abgehōrdt, bleibt</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_6cd70593-4ae7-4881-865a-f85d4ba40dcc" custom="readingOrder {index:7;}">
+				<Coords points="1953,1870 1528,1873 1017,1879 1017,1972 1528,1966 1953,1963" />
+				<Baseline points="1017,1951 1528,1945 1953,1942" />
+				<TextEquiv>
+					<Unicode>dabei, ist des bschaids</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_79a063f2-223e-4f81-89a5-32b13b268694" custom="readingOrder {index:8;}">
+				<Coords points="1633,1978 1389,1977 1037,1978 1037,2053 1389,2052 1633,2053" />
+				<Baseline points="1037,2038 1389,2037 1633,2038" />
+				<TextEquiv>
+					<Unicode>Zūerwarten,</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextEquiv>
+				<Unicode>Verer ain Schreiben vom
+hannsen Reichardt der
+Wachter bsoldūng
+halber, das Er das
+Schreiben Loblicher
+Cammer v̈berraicht.
+Abgehōrdt, bleibt
+dabei, ist des bschaids
+Zūerwarten,</Unicode>
+			</TextEquiv>
+		</TextRegion>
+		<TextRegion id="region_a9e549dc-5c82-434a-809b-7234435726fe" custom="readingOrder {index:3;}">
+			<Coords points="348,1229 986,1229 986,1753 348,1753" />
+			<TextLine id="line_2db337a6-4413-431f-880c-8333b4cb45e2" custom="readingOrder {index:0;}">
+				<Coords points="974,1244 399,1274 399,1394 974,1364" />
+				<Baseline points="399,1378 974,1348" />
+				<TextEquiv>
+					<Unicode>Reichardts</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_20bc2979-a3c2-4bf9-9994-c4018680829c" custom="readingOrder {index:1;}">
+				<Coords points="963,1366 963,1374 962,1374 449,1399 449,1464 962,1439 963,1439 963,1431" />
+				<Baseline points="449,1445 962,1420 963,1420 963,1412" />
+				<TextEquiv>
+					<Unicode>schreiben der</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_8ec9c3ff-460b-4c50-b851-62408b9279af" custom="readingOrder {index:2;}">
+				<Coords points="916,1437 474,1469 474,1542 916,1510" />
+				<Baseline points="474,1522 916,1490" />
+				<TextEquiv>
+					<Unicode>Wachter be¬</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_2d0bf38c-8cc2-4f38-973a-f06bf33ed4a0" custom="readingOrder {index:3;}">
+				<Coords points="852,1524 461,1546 461,1640 852,1618" />
+				<Baseline points="461,1602 852,1580" />
+				<TextEquiv>
+					<Unicode>soldūng,</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextEquiv>
+				<Unicode>Reichardts
+schreiben der
+Wachter be¬
+soldūng,</Unicode>
+			</TextEquiv>
+		</TextRegion>
+		<TextRegion id="region_dbf14807-7a74-4c6c-a8d5-11248b7e39fa" custom="readingOrder {index:4;}">
+			<Coords points="979,2128 2220,2128 2220,2637 979,2637" />
+			<TextLine id="line_7bcbee12-d090-42c5-a7f0-84ba98e27233" custom="readingOrder {index:0;} abbrev {offset:18; length:3;expansion:Gnaden;}">
+				<Coords points="2178,2164 1619,2173 990,2176 990,2310 1619,2307 2178,2298" />
+				<Baseline points="990,2287 1619,2284 2178,2275" />
+				<TextEquiv>
+					<Unicode>Ain decret von Ir Gn:</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_67b59a5c-3659-47b7-8df1-a7916f5d9274" custom="readingOrder {index:1;}">
+				<Coords points="2090,2296 1647,2316 1059,2308 1059,2398 1647,2406 2090,2386" />
+				<Baseline points="1059,2373 1647,2381 2090,2361" />
+				<TextEquiv>
+					<Unicode>herrn Lanndthaūbtman</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_5f027f76-602f-435b-b050-355bf83082f5" custom="readingOrder {index:2;}">
+				<Coords points="2037,2396 1696,2410 1039,2411 1039,2509 1696,2508 2037,2494" />
+				<Baseline points="1039,2481 1696,2480 2037,2466" />
+				<TextEquiv>
+					<Unicode>des Johann Babtissta</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_3f1edf48-be06-4659-bf41-c5909949c891" custom="readingOrder {index:3;}">
+				<Coords points="2139,2498 1900,2499 1661,2515 1018,2508 1018,2597 1661,2604 1900,2588 2139,2587" />
+				<Baseline points="1018,2586 1661,2593 1900,2577 2139,2576" />
+				<TextEquiv>
+					<Unicode>Criūelis von Mailandt </Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextEquiv>
+				<Unicode>Ain decret von Ir Gn:
+herrn Lanndthaūbtman
+des Johann Babtissta
+Criūelis von Mailandt </Unicode>
+			</TextEquiv>
+		</TextRegion>
+		<TextRegion id="region_1511c1b3-bdf0-449d-bf15-ac15b3dab895" custom="readingOrder {index:5;}">
+			<Coords points="368,2212 977,2212 977,2734 368,2734" />
+			<TextLine id="line_782b7ea2-ebc9-4d79-b3e2-bf3d5385e5bc" custom="readingOrder {index:0;}">
+				<Coords points="941,2236 724,2244 385,2248 385,2348 724,2344 941,2336" />
+				<Baseline points="385,2329 724,2325 941,2317" />
+				<TextEquiv>
+					<Unicode>Johann Bab¬</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_f8b5b016-b42d-412e-8170-563428b4fcef" custom="readingOrder {index:1;}">
+				<Coords points="961,2353 792,2353 423,2348 423,2422 792,2427 961,2427" />
+				<Baseline points="423,2401 792,2406 961,2406" />
+				<TextEquiv>
+					<Unicode>tista Criūelj</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_8606fef3-39f5-4ab9-a2ea-4995cefa03ad" custom="readingOrder {index:2;}">
+				<Coords points="972,2432 776,2430 416,2425 416,2502 776,2507 972,2509" />
+				<Baseline points="416,2483 776,2488 972,2490" />
+				<TextEquiv>
+					<Unicode>von Mailandt</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_655bd828-661e-46f5-a01d-2fa1852d5caf" custom="readingOrder {index:3;} abbrev {offset:0; length:4;expansion:betreffend;}">
+				<Coords points="732,2505 491,2513 491,2608 732,2600" />
+				<Baseline points="491,2566 732,2558" />
+				<TextEquiv>
+					<Unicode>bet:</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextEquiv>
+				<Unicode>Johann Bab¬
+tista Criūelj
+von Mailandt
+bet:</Unicode>
+			</TextEquiv>
+		</TextRegion>
+	</Page>
+</PcGts>

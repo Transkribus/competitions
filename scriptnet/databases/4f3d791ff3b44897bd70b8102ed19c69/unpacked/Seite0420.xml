@@ -1,0 +1,242 @@
+<?xml version="1.0"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+	<Metadata>
+		<Creator>TRP</Creator>
+		<Created>2014-09-25T12:35:49.319+02:00</Created>
+		<LastChange>2016-01-20T13:35:57.637+01:00</LastChange>
+	</Metadata>
+	<Page imageFilename="Seite0420.JPG" imageWidth="2480" imageHeight="3511">
+		<ReadingOrder>
+			<OrderedGroup id="ro_1453293375496" caption="Regions reading order">
+				<RegionRefIndexed index="0" regionRef="region_1379e62a-fc6c-4278-82ef-3143f4446c26" />
+				<RegionRefIndexed index="1" regionRef="region_4c7317c5-a7d1-441c-bbe6-17233e80c574" />
+				<RegionRefIndexed index="2" regionRef="region_79d4a802-cd36-43fb-a31a-c929fcf5c8f8" />
+				<RegionRefIndexed index="3" regionRef="region_29613071-3f82-4f3d-9af2-d54204ac9dde" />
+				<RegionRefIndexed index="4" regionRef="region_cee35695-7695-4110-8871-a1f92335ab6e" />
+				<RegionRefIndexed index="5" regionRef="region_8e437683-ed31-44e1-b2f4-b646164d7910" />
+			</OrderedGroup>
+		</ReadingOrder>
+		<TextRegion id="region_1379e62a-fc6c-4278-82ef-3143f4446c26" custom="readingOrder {index:0;}">
+			<Coords points="438,131 558,131 558,277 438,277" />
+			<TextLine id="line_00a3afdf-d241-4e48-97f8-061b3e0f25aa" custom="readingOrder {index:0;}">
+				<Coords points="555,147 455,167 455,257 555,237" />
+				<Baseline points="455,250 555,230" />
+				<TextEquiv>
+					<Unicode>211</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextEquiv>
+				<Unicode>211</Unicode>
+			</TextEquiv>
+		</TextRegion>
+		<TextRegion id="region_4c7317c5-a7d1-441c-bbe6-17233e80c574" custom="readingOrder {index:1;}">
+			<Coords points="923,265 2183,265 2183,1089 923,1089" />
+			<TextLine id="line_9453cc61-1c28-4a91-8f90-38b9eadff90b" custom="readingOrder {index:0;}">
+				<Coords points="2079,340 1057,351 1057,578 2079,567" />
+				<Baseline points="1057,551 2079,540" />
+				<TextEquiv>
+					<Unicode>Vnd was werden erst</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_9ab76768-d3d3-4013-8998-33ab2353794e" custom="readingOrder {index:1;}">
+				<Coords points="2102,570 1086,584 1086,684 2102,670" />
+				<Baseline points="1086,660 2102,646" />
+				<TextEquiv>
+					<Unicode>die Passbrief: vnd das.</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_0acf07a9-84e5-46fd-811d-666af210a4a7" custom="readingOrder {index:2;}">
+				<Coords points="2091,675 1072,690 1072,782 2091,767" />
+				<Baseline points="1072,758 2091,743" />
+				<TextEquiv>
+					<Unicode>so etwa sonnsten haim¬</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_cbb1b548-ab91-4548-b8d5-6dc5e22d0530" custom="readingOrder {index:3;}">
+				<Coords points="2099,783 1109,788 1109,881 2099,876" />
+				<Baseline points="1109,855 2099,850" />
+				<TextEquiv>
+					<Unicode>lichen dūrch khombt. vnd</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_8c0d69f5-9fa8-4dc3-b629-4801bbebfec7" custom="readingOrder {index:4;}">
+				<Coords points="2085,875 1066,887 1066,984 2085,972" />
+				<Baseline points="1066,959 2085,947" />
+				<TextEquiv>
+					<Unicode>aim Ersamen Rat vn¬</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_62293028-234c-4fcf-bf37-4f77c68aea86" custom="readingOrder {index:5;}">
+				<Coords points="2091,976 1069,990 1069,1069 2091,1055" />
+				<Baseline points="1069,1062 2091,1048" />
+				<TextEquiv>
+					<Unicode>bewisst. Anlaūffen,</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextEquiv>
+				<Unicode>Vnd was werden erst
+die Passbrief: vnd das.
+so etwa sonnsten haim¬
+lichen dūrch khombt. vnd
+aim Ersamen Rat vn¬
+bewisst. Anlaūffen,</Unicode>
+			</TextEquiv>
+		</TextRegion>
+		<TextRegion id="region_79d4a802-cd36-43fb-a31a-c929fcf5c8f8" custom="readingOrder {index:2;}">
+			<Coords points="931,1100 2270,1100 2270,2439 931,2439" />
+			<TextLine id="line_1da60f24-5227-41ce-b6f5-59d688b6a6de" custom="readingOrder {index:0;}">
+				<Coords points="2105,1123 1069,1145 1069,1276 2105,1254" />
+				<Baseline points="1069,1249 2105,1227" />
+				<TextEquiv>
+					<Unicode>Vnd weil mann sich</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_d85f0329-b54d-48f0-897a-e58424af44f1" custom="readingOrder {index:1;}">
+				<Coords points="2150,1256 1093,1282 1093,1383 2150,1357" />
+				<Baseline points="1093,1357 2150,1331" />
+				<TextEquiv>
+					<Unicode>an Traid etwas Manngl¬</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_b779f6e1-fa0b-42cb-8edc-32f88f5956f3" custom="readingOrder {index:2;}">
+				<Coords points="2129,1368 1737,1382 1079,1389 1079,1488 1737,1481 2129,1467" />
+				<Baseline points="1079,1461 1737,1454 2129,1440" />
+				<TextEquiv>
+					<Unicode>hafft alhie. befindt. vnd</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_6042283a-b8d8-4006-950c-96ba66e80c15" custom="readingOrder {index:3;}">
+				<Coords points="2091,1457 1578,1494 1095,1486 1095,1588 1578,1596 2091,1559" />
+				<Baseline points="1095,1563 1578,1571 2091,1534" />
+				<TextEquiv>
+					<Unicode>Aūsm Vintschgeū nicht</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_5b438f0f-eec7-41ff-80a4-fbd6f54b7b11" custom="readingOrder {index:4;}">
+				<Coords points="2257,1564 1971,1586 1712,1598 1103,1602 1103,1696 1712,1692 1971,1680 2257,1658" />
+				<Baseline points="1103,1672 1712,1668 1971,1656 2257,1634" />
+				<TextEquiv>
+					<Unicode>Zūūerhoffen. wie Anvor</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_d46c33b7-22ec-44dc-9af7-cf2d78422026" custom="readingOrder {index:5;} abbrev {offset:19; length:6;expansion:Zubiten;}">
+				<Coords points="2193,1686 1843,1702 1099,1702 1099,1796 1843,1796 2193,1780" />
+				<Baseline points="1099,1771 1843,1771 2193,1755" />
+				<TextEquiv>
+					<Unicode>bschehen. Als seie Zūbit.</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_453429f3-833b-4790-ab04-1fc37ef121f0" custom="readingOrder {index:6;} abbrev {offset:18; length:3;expansion:Bozen;}">
+				<Coords points="2148,1795 1794,1801 1090,1795 1090,1891 1794,1897 2148,1891" />
+				<Baseline points="1090,1865 1794,1871 2148,1865" />
+				<TextEquiv>
+					<Unicode>fir gemaine Statt Boz</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_0e653210-630c-4d12-af39-44bc525739f1" custom="readingOrder {index:7;}">
+				<Coords points="2079,1896 1872,1903 1105,1903 1105,2001 1872,2001 2079,1994" />
+				<Baseline points="1105,1975 1872,1975 2079,1968" />
+				<TextEquiv>
+					<Unicode>vom Traid Cassten Zū</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_b6a31b45-1539-4147-8e68-2bfcda9ed892" custom="readingOrder {index:8;}">
+				<Coords points="2113,1985 1872,2000 1056,2008 1056,2110 1872,2102 2113,2087" />
+				<Baseline points="1056,2082 1872,2074 2113,2059" />
+				<TextEquiv>
+					<Unicode>Hall. bei: 2000 stär.</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_d94bf05e-5bec-4101-acc3-7f920723a9c7" custom="readingOrder {index:9;}">
+				<Coords points="2066,2095 1789,2106 1105,2116 1105,2221 1789,2211 2066,2200" />
+				<Baseline points="1105,2195 1789,2185 2066,2174" />
+				<TextEquiv>
+					<Unicode>gegen der bezalūng </Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_1483ae1f-be8f-46e9-8b69-762b1fb06958" custom="readingOrder {index:10;}">
+				<Coords points="2133,2204 1794,2215 1125,2228 1125,2328 1794,2315 2133,2304" />
+				<Baseline points="1125,2302 1794,2289 2133,2278" />
+				<TextEquiv>
+					<Unicode>Zū gebirender Zeit Zū.</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_0b4ce854-a743-4518-9d1e-029224682876" custom="readingOrder {index:11;}">
+				<Coords points="1686,2335 1098,2334 1098,2415 1686,2416" />
+				<Baseline points="1098,2408 1686,2409" />
+				<TextEquiv>
+					<Unicode>bewilligen. </Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextEquiv>
+				<Unicode>Vnd weil mann sich
+an Traid etwas Manngl¬
+hafft alhie. befindt. vnd
+Aūsm Vintschgeū nicht
+Zūūerhoffen. wie Anvor
+bschehen. Als seie Zūbit.
+fir gemaine Statt Boz
+vom Traid Cassten Zū
+Hall. bei: 2000 stär.
+gegen der bezalūng 
+Zū gebirender Zeit Zū.
+bewilligen. </Unicode>
+			</TextEquiv>
+		</TextRegion>
+		<TextRegion id="region_29613071-3f82-4f3d-9af2-d54204ac9dde" custom="readingOrder {index:3;}">
+			<Coords points="465,1119 926,1119 926,1450 465,1450" />
+			<TextLine id="line_d4ab9e43-dab2-417b-a908-96f356d4364b" custom="readingOrder {index:0;}">
+				<Coords points="926,1152 473,1171 473,1313 926,1294" />
+				<Baseline points="473,1290 926,1271" />
+				<TextEquiv>
+					<Unicode>Traid Zū</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_aa7c12de-2e77-478e-8105-03ae2585ab02" custom="readingOrder {index:1;}">
+				<Coords points="750,1299 494,1318 494,1400 750,1381" />
+				<Baseline points="494,1383 750,1364" />
+				<TextEquiv>
+					<Unicode>Hall.</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextEquiv>
+				<Unicode>Traid Zū
+Hall.</Unicode>
+			</TextEquiv>
+		</TextRegion>
+		<TextRegion id="region_cee35695-7695-4110-8871-a1f92335ab6e" custom="readingOrder {index:4;}">
+			<Coords points="867,2454 2190,2454 2190,2753 867,2753" />
+			<TextLine id="line_a785de88-9d7c-4cd7-b747-b64ddd234c7b" custom="readingOrder {index:0;}">
+				<Coords points="2152,2484 1864,2482 1092,2494 1092,2610 1864,2598 2152,2600" />
+				<Baseline points="1092,2587 1864,2575 2152,2577" />
+				<TextEquiv>
+					<Unicode>Die Schmälzler haben</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_7edd0529-35d0-4b70-b542-7345e22c9f56" custom="readingOrder {index:1;}">
+				<Coords points="2160,2615 1844,2611 1106,2609 1106,2691 1844,2693 2160,2697" />
+				<Baseline points="1106,2673 1844,2675 2160,2679" />
+				<TextEquiv>
+					<Unicode>mer Schmalz erhandlt. </Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextEquiv>
+				<Unicode>Die Schmälzler haben
+mer Schmalz erhandlt. </Unicode>
+			</TextEquiv>
+		</TextRegion>
+		<TextRegion id="region_8e437683-ed31-44e1-b2f4-b646164d7910" custom="readingOrder {index:5;}">
+			<Coords points="400,2471 836,2471 836,2655 400,2655" />
+			<TextLine id="line_dd6e3e8a-32a4-4725-98f9-7e30f7165f54" custom="readingOrder {index:0;}">
+				<Coords points="825,2496 443,2509 443,2610 825,2597" />
+				<Baseline points="443,2595 825,2582" />
+				<TextEquiv>
+					<Unicode>Schmalz</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextEquiv>
+				<Unicode>Schmalz</Unicode>
+			</TextEquiv>
+		</TextRegion>
+	</Page>
+</PcGts>

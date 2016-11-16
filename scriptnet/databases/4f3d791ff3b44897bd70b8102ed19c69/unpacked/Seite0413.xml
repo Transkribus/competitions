@@ -1,0 +1,234 @@
+<?xml version="1.0"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+	<Metadata>
+		<Creator>TRP</Creator>
+		<Created>2014-09-25T12:35:49.116+02:00</Created>
+		<LastChange>2016-01-22T09:19:22.312+01:00</LastChange>
+	</Metadata>
+	<Page imageFilename="Seite0413.JPG" imageWidth="2322" imageHeight="3511">
+		<ReadingOrder>
+			<OrderedGroup id="ro_1453450781463" caption="Regions reading order">
+				<RegionRefIndexed index="0" regionRef="region_93f790c9-b134-4634-bf61-5e1933aad819" />
+				<RegionRefIndexed index="1" regionRef="region_5af9bf71-ed26-48e1-a4d7-c9aeb963addf" />
+				<RegionRefIndexed index="2" regionRef="region_5f2908c0-e1fb-478d-99cf-55632535da97" />
+				<RegionRefIndexed index="3" regionRef="region_5181e094-c212-41c2-b083-427cb2145917" />
+				<RegionRefIndexed index="4" regionRef="region_0e95a434-aef0-40da-aa5e-3d07ad3db0d3" />
+				<RegionRefIndexed index="5" regionRef="region_0c5fa139-df26-48cb-aa4c-553aa120b760" />
+			</OrderedGroup>
+		</ReadingOrder>
+		<TextRegion id="region_93f790c9-b134-4634-bf61-5e1933aad819" custom="readingOrder {index:0;}">
+			<Coords points="1662,265 1923,265 1923,381 1662,381" />
+			<TextLine id="line_eb5a648b-06fe-4c35-94e4-6bf1ff503cdf" custom="readingOrder {index:0;}">
+				<Coords points="1907,294 1682,272 1682,344 1907,366" />
+				<Baseline points="1682,339 1907,361" />
+				<TextEquiv>
+					<Unicode>207</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextEquiv>
+				<Unicode>207</Unicode>
+			</TextEquiv>
+		</TextRegion>
+		<TextRegion id="region_5af9bf71-ed26-48e1-a4d7-c9aeb963addf" custom="readingOrder {index:1;}">
+			<Coords points="613,466 1847,466 1847,931 613,931" />
+			<TextLine id="line_1515c188-91bb-4469-9973-5e46391d83af" custom="readingOrder {index:0;}">
+				<Coords points="1839,506 1350,494 699,480 699,597 1350,611 1839,623" />
+				<Baseline points="699,572 1350,586 1839,598" />
+				<TextEquiv>
+					<Unicode>schreiben wegen des: Ime</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_9e9cccf4-96a2-48d1-a5d2-cde109064af2" custom="readingOrder {index:1;}">
+				<Coords points="1776,628 1433,623 754,613 754,710 1433,720 1776,725" />
+				<Baseline points="754,683 1433,693 1776,698" />
+				<TextEquiv>
+					<Unicode>v̄ber schickhten Pannzen</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_cc15ff96-99e6-450f-8b39-2f0edaff8c8d" custom="readingOrder {index:2;}">
+				<Coords points="1781,732 1556,727 764,710 764,809 1556,826 1781,831" />
+				<Baseline points="764,787 1556,804 1781,809" />
+				<TextEquiv>
+					<Unicode>ver Jerners. Abgehört.</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_33505d8d-6d17-4703-8cad-0fe0ad77314a" custom="readingOrder {index:3;}">
+				<Coords points="1459,836 711,821 711,892 1459,907" />
+				<Baseline points="711,884 1459,899" />
+				<TextEquiv>
+					<Unicode>bleibt aūch dabej. </Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextEquiv>
+				<Unicode>schreiben wegen des: Ime
+v̄ber schickhten Pannzen
+ver Jerners. Abgehört.
+bleibt aūch dabej. </Unicode>
+			</TextEquiv>
+		</TextRegion>
+		<TextRegion id="region_5f2908c0-e1fb-478d-99cf-55632535da97" custom="readingOrder {index:2;}">
+			<Coords points="653,1002 2076,1002 2076,2062 653,2062" />
+			<TextLine id="line_299e3268-c2a3-46f9-8371-a9dbf3656b5b" custom="readingOrder {index:0;}">
+				<Coords points="1792,1061 1437,1049 669,1056 669,1220 1437,1213 1792,1225" />
+				<Baseline points="669,1193 1437,1186 1792,1198" />
+				<TextEquiv>
+					<Unicode>Balthasar Lännser Al¬</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_c7364c6b-756a-46e3-b98c-0ca6d5f788ba" custom="readingOrder {index:1;}">
+				<Coords points="1931,1231 1508,1207 743,1207 743,1309 1508,1309 1931,1333" />
+				<Baseline points="743,1283 1508,1283 1931,1307" />
+				<TextEquiv>
+					<Unicode>mūesen Aūstailer, Beclagt</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_f63e4f08-dc7a-415f-b713-d4ed8f77a5d5" custom="readingOrder {index:2;} textStyle {offset:5; length:20;strikethrough:true;}">
+				<Coords points="1896,1339 1415,1327 717,1320 717,1420 1415,1427 1896,1439" />
+				<Baseline points="717,1392 1415,1399 1896,1411" />
+				<TextEquiv>
+					<Unicode>sich wider Casparn Roten¬</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_f7de13c0-986d-49d3-90a5-f5a2a4e3f637" custom="readingOrder {index:3;} textStyle {offset:0; length:12;strikethrough:true;}">
+				<Coords points="1849,1446 1522,1422 702,1406 702,1514 1522,1530 1849,1554" />
+				<Baseline points="702,1485 1522,1501 1849,1525" />
+				<TextEquiv>
+					<Unicode>Pūecher. vnd das in die Al¬</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_d5a5733a-f3cd-4214-819d-7bf8fb417c38" custom="readingOrder {index:4;}">
+				<Coords points="1948,1561 1598,1521 721,1516 721,1622 1598,1627 1948,1667" />
+				<Baseline points="721,1598 1598,1603 1948,1643" />
+				<TextEquiv>
+					<Unicode>mūesen Pixen wenig falt.</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_b55179c5-f01f-4365-887a-b1f8223df526" custom="readingOrder {index:5;}">
+				<Coords points="2047,1673 1506,1638 681,1633 681,1724 1506,1729 2047,1764" />
+				<Baseline points="681,1702 1506,1707 2047,1742" />
+				<TextEquiv>
+					<Unicode>Sollen Kreizer wert Roggene</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_e81bc597-b8df-48b0-bca9-8600a0126e03" custom="readingOrder {index:6;}">
+				<Coords points="1873,1769 1455,1750 712,1739 712,1826 1455,1837 1873,1856" />
+				<Baseline points="712,1800 1455,1811 1873,1830" />
+				<TextEquiv>
+					<Unicode>Laibler. aūf die Freitag</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_e648d331-036e-4911-b3dc-ec8812be3255" custom="readingOrder {index:7;}">
+				<Coords points="1946,1862 1600,1839 717,1836 717,1929 1600,1932 1946,1955" />
+				<Baseline points="717,1908 1600,1911 1946,1934" />
+				<TextEquiv>
+					<Unicode>gebachen, vnd den Armen Aūs¬</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_b5e9a04a-e200-4af4-8f4d-9567ae868bce" custom="readingOrder {index:8;}">
+				<Coords points="1401,1960 741,1952 741,2022 1401,2030" />
+				<Baseline points="741,2012 1401,2020" />
+				<TextEquiv>
+					<Unicode>tailt werden. </Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextEquiv>
+				<Unicode>Balthasar Lännser Al¬
+mūesen Aūstailer, Beclagt
+sich wider Casparn Roten¬
+Pūecher. vnd das in die Al¬
+mūesen Pixen wenig falt.
+Sollen Kreizer wert Roggene
+Laibler. aūf die Freitag
+gebachen, vnd den Armen Aūs¬
+tailt werden. </Unicode>
+			</TextEquiv>
+		</TextRegion>
+		<TextRegion id="region_5181e094-c212-41c2-b083-427cb2145917" custom="readingOrder {index:3;}">
+			<Coords points="121,1072 654,1072 654,1309 121,1309" />
+			<TextLine id="line_7d696ad5-d7ef-4e4a-8f25-c15c17a9e1c5" custom="readingOrder {index:0;}">
+				<Coords points="636,1119 161,1119 161,1247 636,1247" />
+				<Baseline points="161,1227 636,1227" />
+				<TextEquiv>
+					<Unicode>Almūesen.</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextEquiv>
+				<Unicode>Almūesen.</Unicode>
+			</TextEquiv>
+		</TextRegion>
+		<TextRegion id="region_0e95a434-aef0-40da-aa5e-3d07ad3db0d3" custom="readingOrder {index:4;}">
+			<Coords points="592,2061 2060,2061 2060,2742 592,2742" />
+			<TextLine id="line_595a48c7-658f-40fd-92e6-455a196144ff" custom="readingOrder {index:0;}">
+				<Coords points="1921,2115 1329,2097 677,2099 677,2246 1329,2244 1921,2262" />
+				<Baseline points="677,2223 1329,2221 1921,2239" />
+				<TextEquiv>
+					<Unicode>Wegen des Aūsstendigen</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_7f2e8f34-4022-4469-a9ca-2012ab69c576" custom="readingOrder {index:1;}">
+				<Coords points="1749,2267 1373,2250 716,2259 716,2350 1373,2341 1749,2358" />
+				<Baseline points="716,2323 1373,2314 1749,2331" />
+				<TextEquiv>
+					<Unicode>Almūesen gelts. beim</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_af877385-c616-4447-8c59-0b059ed9ddae" custom="readingOrder {index:2;}">
+				<Coords points="1838,2364 1553,2349 646,2362 646,2470 1553,2457 1838,2472" />
+				<Baseline points="646,2439 1553,2426 1838,2441" />
+				<TextEquiv>
+					<Unicode>Casparn Rottenbūecher</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_0de44204-3a03-442d-91ff-b6ef280484d3" custom="readingOrder {index:3;} abbrev {offset:9; length:17;expansion:Liechtenstainischen;}">
+				<Coords points="2012,2466 2009,2475 2005,2479 1399,2446 752,2448 752,2558 1399,2556 2005,2589 2009,2585 2012,2576" />
+				<Baseline points="752,2536 1399,2534 2005,2567 2009,2563 2012,2554" />
+				<TextEquiv>
+					<Unicode>Gräfisch Liechtenstainisch</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_41af1dd8-42e8-40a2-905d-a92637178280" custom="readingOrder {index:4;} abbrev {offset:18; length:3;expansion:Gnaden;}">
+				<Coords points="1853,2594 1415,2570 721,2563 721,2647 1415,2654 1853,2678" />
+				<Baseline points="721,2626 1415,2633 1853,2657" />
+				<TextEquiv>
+					<Unicode>Ambtmann. sols Ir Gn:</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextEquiv>
+				<Unicode>Wegen des Aūsstendigen
+Almūesen gelts. beim
+Casparn Rottenbūecher
+Gräfisch Liechtenstainisch
+Ambtmann. sols Ir Gn:</Unicode>
+			</TextEquiv>
+		</TextRegion>
+		<TextRegion id="region_0c5fa139-df26-48cb-aa4c-553aa120b760" custom="readingOrder {index:5;}">
+			<Coords points="121,2123 592,2123 592,2520 121,2520" />
+			<TextLine id="line_9e4c800d-196a-439c-a855-b961afc95933" custom="readingOrder {index:0;}">
+				<Coords points="562,2160 141,2174 141,2313 562,2299" />
+				<Baseline points="141,2293 562,2279" />
+				<TextEquiv>
+					<Unicode>Liechten¬</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_a50ad303-b8b6-4d05-bd66-b86593010fc7" custom="readingOrder {index:1;}">
+				<Coords points="562,2303 190,2318 190,2395 562,2380" />
+				<Baseline points="190,2374 562,2359" />
+				<TextEquiv>
+					<Unicode>stainisch</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_619e4e9b-0fb1-440b-a4d3-c5eb34f110ca" custom="readingOrder {index:2;}">
+				<Coords points="553,2393 186,2400 186,2475 553,2468" />
+				<Baseline points="186,2460 553,2453" />
+				<TextEquiv>
+					<Unicode>Almūesen </Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextEquiv>
+				<Unicode>Liechten¬
+stainisch
+Almūesen </Unicode>
+			</TextEquiv>
+		</TextRegion>
+	</Page>
+</PcGts>

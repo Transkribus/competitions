@@ -1,0 +1,210 @@
+<?xml version="1.0"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+	<Metadata>
+		<Creator>TRP</Creator>
+		<Created>2014-09-25T12:35:49.585+02:00</Created>
+		<LastChange>2016-01-20T12:15:37.935+01:00</LastChange>
+	</Metadata>
+	<Page imageFilename="Seite0428.JPG" imageWidth="2488" imageHeight="3511">
+		<ReadingOrder>
+			<OrderedGroup id="ro_1453288555839" caption="Regions reading order">
+				<RegionRefIndexed index="0" regionRef="region_86c5bab5-3f4f-422c-a3bf-6e89b1102553" />
+				<RegionRefIndexed index="1" regionRef="region_8494f29c-69b3-46d5-92f4-38165c6f5cc9" />
+			</OrderedGroup>
+		</ReadingOrder>
+		<TextRegion id="region_86c5bab5-3f4f-422c-a3bf-6e89b1102553" custom="readingOrder {index:0;}">
+			<Coords points="510,120 633,120 633,233 510,233" />
+			<TextLine id="line_f07eeecf-235f-4b18-b667-785301b076b2" custom="readingOrder {index:0;}">
+				<Coords points="632,138 510,151 510,224 632,211" />
+				<Baseline points="510,221 632,208" />
+				<TextEquiv>
+					<Unicode>215</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextEquiv>
+				<Unicode>215</Unicode>
+			</TextEquiv>
+		</TextRegion>
+		<TextRegion id="region_8494f29c-69b3-46d5-92f4-38165c6f5cc9" custom="readingOrder {index:1;}">
+			<Coords points="1047,294 2284,294 2284,2764 1047,2764" />
+			<TextLine id="line_584c476f-2b97-4fe5-bf00-a9441fc7c286" custom="readingOrder {index:0;}">
+				<Coords points="2227,327 1792,352 1092,343 1092,504 1792,513 2227,488" />
+				<Baseline points="1092,476 1792,485 2227,460" />
+				<TextEquiv>
+					<Unicode>Rath. vom Zoller Zū Bran¬</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_b1809679-3b17-4a5f-8f1d-cdfa6d615ef2" custom="readingOrder {index:1;} abbrev {offset:14; length:9;expansion:wolgenanter;}">
+				<Coords points="2120,510 1764,520 1108,501 1108,603 1764,622 2120,612" />
+				<Baseline points="1108,580 1764,599 2120,589" />
+				<TextEquiv>
+					<Unicode>zol. die: von wolgenant</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_eb4b9287-1ace-4034-9d41-87b665609a16" custom="readingOrder {index:2;}">
+				<Coords points="2111,622 1685,628 1118,619 1118,708 1685,717 2111,711" />
+				<Baseline points="1118,684 1685,693 2111,687" />
+				<TextEquiv>
+					<Unicode>Regierūng habennde</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_a077122b-ef4e-4079-b72b-91b9e294c0f1" custom="readingOrder {index:3;}">
+				<Coords points="2196,717 1877,723 1108,714 1108,806 1877,815 2196,809" />
+				<Baseline points="1108,782 1877,791 2196,785" />
+				<TextEquiv>
+					<Unicode>Patennten firgewisen,</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_ffd66424-66fd-4de5-82cc-006651d83f50" custom="readingOrder {index:4;} textStyle {offset:8; length:5;monospace:true;}">
+				<Coords points="2163,807 1799,820 1111,815 1111,906 1799,911 2163,898" />
+				<Baseline points="1111,882 1799,887 2163,874" />
+				<TextEquiv>
+					<Unicode>Ist Ime Cosmi solich Traid</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_f5a7bc3d-3b37-4c9a-bf72-f99d2f054cfd" custom="readingOrder {index:5;}">
+				<Coords points="2093,910 1744,917 1144,911 1144,1001 1744,1007 2093,1000" />
+				<Baseline points="1144,978 1744,984 2093,977" />
+				<TextEquiv>
+					<Unicode>Alspald widerūmben</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_88a422f1-da9d-41ae-b328-5ed7b182a659" custom="readingOrder {index:6;}">
+				<Coords points="2046,1009 1770,1012 1103,1002 1103,1094 1770,1104 2046,1101" />
+				<Baseline points="1103,1066 1770,1076 2046,1073" />
+				<TextEquiv>
+					<Unicode>Relaxiert, dūrch Ine</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_9d8d142c-7ce1-4f3f-980c-7eb95b944def" custom="readingOrder {index:7;}">
+				<Coords points="2053,1096 1790,1104 1125,1110 1125,1216 1790,1210 2053,1202" />
+				<Baseline points="1125,1189 1790,1183 2053,1175" />
+				<TextEquiv>
+					<Unicode>erhebt. vnd hinweckh</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_54c1a0c7-7fe2-4bb7-b4e7-0433a3adfb20" custom="readingOrder {index:8;} abbrev {offset:16; length:3;expansion:Daher;}">
+				<Coords points="2143,1199 1842,1222 1092,1222 1092,1325 1842,1325 2143,1302" />
+				<Baseline points="1092,1299 1842,1299 2143,1276" />
+				<TextEquiv>
+					<Unicode>gefiert worden. Dah</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_71193e82-c329-4536-98a4-800bdfa2708c" custom="readingOrder {index:9;} textStyle {offset:3; length:5;monospace:true;}">
+				<Coords points="2139,1309 1812,1331 1097,1325 1097,1424 1812,1430 2139,1408" />
+				<Baseline points="1097,1399 1812,1405 2139,1383" />
+				<TextEquiv>
+					<Unicode>Er Cosmi Ire Gnaden vn¬</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_4b19874b-a99c-4a45-9ccf-7107c0a41b21" custom="readingOrder {index:10;}">
+				<Coords points="2107,1422 1728,1436 1098,1429 1098,1524 1728,1531 2107,1517" />
+				<Baseline points="1098,1499 1728,1506 2107,1492" />
+				<TextEquiv>
+					<Unicode>notwenndiger weiß</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_302f33e2-5eab-4b51-a329-7bb2ceb2ff8c" custom="readingOrder {index:11;}">
+				<Coords points="2264,1511 1776,1537 1083,1535 1083,1632 1776,1634 2264,1608" />
+				<Baseline points="1083,1605 1776,1607 2264,1581" />
+				<TextEquiv>
+					<Unicode>Molestiert, Ainem Ersamen</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_bbbefb4e-9994-4105-8e88-8bb387d84ed1" custom="readingOrder {index:12;}">
+				<Coords points="2087,1626 1879,1634 1644,1640 1093,1632 1093,1735 1644,1743 1879,1737 2087,1729" />
+				<Baseline points="1093,1708 1644,1716 1879,1710 2087,1702" />
+				<TextEquiv>
+					<Unicode>Rath. gannz vnbillich</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_5ebe79e2-93c9-45d7-a1fb-17c54765fb2d" custom="readingOrder {index:13;}">
+				<Coords points="2168,1737 1784,1749 1113,1733 1113,1833 1784,1849 2168,1837" />
+				<Baseline points="1113,1808 1784,1824 2168,1812" />
+				<TextEquiv>
+					<Unicode>beschūldigt, Als ob man</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_a749d413-7ac5-407e-8add-010744a56b8c" custom="readingOrder {index:14;}">
+				<Coords points="2169,1847 1821,1855 1115,1851 1115,1946 1821,1950 2169,1942" />
+				<Baseline points="1115,1921 1821,1925 2169,1917" />
+				<TextEquiv>
+					<Unicode>deroselben Patenten nit</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_a88bb932-62d0-498f-8ca0-a3ba316519b1" custom="readingOrder {index:15;} textStyle {offset:15; length:7;monospace:true;}">
+				<Coords points="2070,1948 1769,1956 1119,1947 1119,2045 1769,2054 2070,2046" />
+				<Baseline points="1119,2018 1769,2027 2070,2019" />
+				<TextEquiv>
+					<Unicode>in gebirennden respect</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_644ab8d8-9b4e-4c1e-aa14-f78dd15554b9" custom="readingOrder {index:16;}">
+				<Coords points="2185,2040 1882,2060 1114,2059 1114,2160 1882,2161 2185,2141" />
+				<Baseline points="1114,2134 1882,2135 2185,2115" />
+				<TextEquiv>
+					<Unicode>gehalten. Dann da</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_78b11087-5177-4353-b065-32edeadab04e" custom="readingOrder {index:17;} textStyle {offset:3; length:5;monospace:true;}">
+				<Coords points="2181,2152 1809,2164 1093,2168 1093,2268 1809,2264 2181,2252" />
+				<Baseline points="1093,2242 1809,2238 2181,2226" />
+				<TextEquiv>
+					<Unicode>Er Cosmi mit dem hieher</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_56ae782e-989b-4496-843c-de2d3bf41854" custom="readingOrder {index:18;}">
+				<Coords points="2133,2266 1780,2273 1120,2274 1120,2374 1780,2373 2133,2366" />
+				<Baseline points="1120,2348 1780,2347 2133,2340" />
+				<TextEquiv>
+					<Unicode>gebrachten Traid der¬</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_54f8801b-a87c-473d-926e-4b2dba5b214e" custom="readingOrder {index:19;}">
+				<Coords points="2098,2362 1781,2379 1116,2381 1116,2481 1781,2479 2098,2462" />
+				<Baseline points="1116,2455 1781,2453 2098,2436" />
+				<TextEquiv>
+					<Unicode>gleichen schien Alspald</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_b1698c96-e410-4f95-a857-e426c25f1c0c" custom="readingOrder {index:20;}">
+				<Coords points="2168,2468 1843,2487 1132,2479 1132,2575 1843,2583 2168,2564" />
+				<Baseline points="1132,2551 1843,2559 2168,2540" />
+				<TextEquiv>
+					<Unicode>bezaigt. hete man Ime</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_cf56a204-4393-46f3-9e9e-9d873a833379" custom="readingOrder {index:21;}">
+				<Coords points="2149,2578 1805,2589 1120,2586 1120,2681 1805,2684 2149,2673" />
+				<Baseline points="1120,2655 1805,2658 2149,2647" />
+				<TextEquiv>
+					<Unicode>nicht Abgladen. Vnd </Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextEquiv>
+				<Unicode>Rath. vom Zoller Zū Bran¬
+zol. die: von wolgenant
+Regierūng habennde
+Patennten firgewisen,
+Ist Ime Cosmi solich Traid
+Alspald widerūmben
+Relaxiert, dūrch Ine
+erhebt. vnd hinweckh
+gefiert worden. Dah
+Er Cosmi Ire Gnaden vn¬
+notwenndiger weiß
+Molestiert, Ainem Ersamen
+Rath. gannz vnbillich
+beschūldigt, Als ob man
+deroselben Patenten nit
+in gebirennden respect
+gehalten. Dann da
+Er Cosmi mit dem hieher
+gebrachten Traid der¬
+gleichen schien Alspald
+bezaigt. hete man Ime
+nicht Abgladen. Vnd </Unicode>
+			</TextEquiv>
+		</TextRegion>
+	</Page>
+</PcGts>

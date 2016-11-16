@@ -1,0 +1,218 @@
+<?xml version="1.0"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+	<Metadata>
+		<Creator>TRP</Creator>
+		<Created>2014-09-25T12:35:49.882+02:00</Created>
+		<LastChange>2016-01-20T11:06:49.314+01:00</LastChange>
+	</Metadata>
+	<Page imageFilename="Seite0437.JPG" imageWidth="2274" imageHeight="3511">
+		<ReadingOrder>
+			<OrderedGroup id="ro_1453284427229" caption="Regions reading order">
+				<RegionRefIndexed index="0" regionRef="region_e84ff7ac-bbb0-4936-b0af-dfeb10d6c855" />
+				<RegionRefIndexed index="1" regionRef="region_c65daefb-0947-4242-83f4-727c952016f0" />
+			</OrderedGroup>
+		</ReadingOrder>
+		<TextRegion id="region_e84ff7ac-bbb0-4936-b0af-dfeb10d6c855" custom="readingOrder {index:0;}">
+			<Coords points="1739,153 1974,153 1974,271 1739,271" />
+			<TextLine id="line_31b2a992-0b63-4439-a18a-348a8fb4e7ab" custom="readingOrder {index:0;}">
+				<Coords points="1968,186 1757,177 1757,254 1968,263" />
+				<Baseline points="1757,252 1968,261" />
+				<TextEquiv>
+					<Unicode>219</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextEquiv>
+				<Unicode>219</Unicode>
+			</TextEquiv>
+		</TextRegion>
+		<TextRegion id="region_c65daefb-0947-4242-83f4-727c952016f0" custom="readingOrder {index:1;}">
+			<Coords points="562,245 1696,245 1704,306 2006,313 2006,2845 562,2845" />
+			<TextLine id="line_1453284089382_2" custom="readingOrder {index:0;} abbrev {offset:0; length:1;expansion:ten;}">
+				<Coords points="1439,272 1323,245 1323,319 1439,356" />
+				<Baseline points="1323,298 1439,335" />
+				<TextEquiv>
+					<Unicode>t</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_bef65fb4-fc61-4fe7-9eb7-f517ad641ada" custom="readingOrder {index:1;} abbrev {offset:8; length:6;expansion:december;}">
+				<Coords points="1863,350 1453,342 828,361 828,442 1453,423 1863,431" />
+				<Baseline points="828,420 1453,401 1863,409" />
+				<TextEquiv>
+					<Unicode>Am: 23. decemb</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_1cd03744-d1d0-48cb-8f22-e95018038003" custom="readingOrder {index:2;} abbrev {offset:11; length:1;expansion:ten;}">
+				<Coords points="1800,428 1669,400 1637,447 1494,445 959,447 959,554 1494,552 1637,554 1669,507 1800,535" />
+				<Baseline points="959,508 1494,506 1637,508 1669,461 1800,489" />
+				<TextEquiv>
+					<Unicode>Anno: 1620.t</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_c6365b1f-263b-4efe-b02c-f750bd875dfc" custom="readingOrder {index:3;} abbrev {offset:13; length:11;expansion:Burgermaister;}">
+				<Coords points="1881,555 1291,549 645,564 645,715 1291,700 1881,706" />
+				<Baseline points="645,692 1291,677 1881,683" />
+				<TextEquiv>
+					<Unicode>Hat der herr Būrgermaist</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_f204f4e9-5f2b-4c9f-8b5d-1c0b1a337569" custom="readingOrder {index:4;}">
+				<Coords points="1851,719 1335,720 720,711 720,798 1335,807 1851,806" />
+				<Baseline points="720,775 1335,784 1851,783" />
+				<TextEquiv>
+					<Unicode>Hanns Prūggreüter, mit</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_1e16dbcc-7cb7-4ea2-ba78-615c4dcf40a8" custom="readingOrder {index:5;}">
+				<Coords points="1795,811 1545,812 720,795 720,883 1545,900 1795,899" />
+				<Baseline points="720,860 1545,877 1795,876" />
+				<TextEquiv>
+					<Unicode>den herrn Aines Ersamen</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_35e215a9-b4ce-48f6-9897-fd1274fe82ff" custom="readingOrder {index:6;} abbrev {offset:20; length:2;expansion:herrn;}">
+				<Coords points="1833,906 1505,891 694,891 694,983 1505,983 1833,998" />
+				<Baseline points="694,957 1505,957 1833,972" />
+				<TextEquiv>
+					<Unicode>Rats. als Ir Gnaden hn</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_aa37d0cd-6e44-4b92-ac1a-e9696a6bf493" custom="readingOrder {index:7;} abbrev {offset:14; length:6;expansion:Freȳherrn;}">
+				<Coords points="1821,1004 1548,987 703,987 703,1084 1548,1084 1821,1101" />
+				<Baseline points="703,1059 1548,1059 1821,1076" />
+				<TextEquiv>
+					<Unicode>Jacoben Kūeen Freȳhn etc</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_8addb760-9c68-4023-be52-8cd02b5f55ed" custom="readingOrder {index:8;}">
+				<Coords points="1856,1106 1516,1095 702,1097 702,1194 1516,1192 1856,1203" />
+				<Baseline points="702,1167 1516,1165 1856,1176" />
+				<TextEquiv>
+					<Unicode>herrn Anndre Wilhalmen</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_1b8bc088-8be2-42d2-b619-378eda371b39" custom="readingOrder {index:9;}">
+				<Coords points="1900,1209 1516,1190 686,1178 686,1277 1516,1289 1900,1308" />
+				<Baseline points="686,1253 1516,1265 1900,1284" />
+				<TextEquiv>
+					<Unicode>von KüePach. etc., herrn Statt¬</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_167f5298-43a5-4d3e-a13d-30b5a251fde0" custom="readingOrder {index:10;}">
+				<Coords points="1813,1313 1385,1306 702,1294 702,1384 1385,1396 1813,1403" />
+				<Baseline points="702,1361 1385,1373 1813,1380" />
+				<TextEquiv>
+					<Unicode>vnd Lanndtrichter, herrn</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_39488ed8-c831-4d8d-a661-e429830908aa" custom="readingOrder {index:11;}">
+				<Coords points="1778,1408 1417,1402 700,1389 700,1480 1417,1493 1778,1499" />
+				<Baseline points="700,1454 1417,1467 1778,1473" />
+				<TextEquiv>
+					<Unicode>Haūbtmann Cristoffen</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_1d853fba-f2e3-4f57-a25c-d3f0de0ec9b5" custom="readingOrder {index:12;}">
+				<Coords points="1752,1505 1226,1491 672,1480 672,1581 1226,1592 1752,1606" />
+				<Baseline points="672,1554 1226,1565 1752,1579" />
+				<TextEquiv>
+					<Unicode>Pennzinger. Anndreen</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_e0bc344d-0af7-417a-90cf-c302c190404b" custom="readingOrder {index:13;} abbrev {offset:15; length:8;expansion:Cristoffen;}">
+				<Coords points="1830,1612 1388,1596 656,1593 656,1692 1388,1695 1830,1711" />
+				<Baseline points="656,1668 1388,1671 1830,1687" />
+				<TextEquiv>
+					<Unicode>Rottenbūecher, Cristoff</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_43229bbf-1db9-46ef-9b9d-44e07439594a" custom="readingOrder {index:14;}">
+				<Coords points="1779,1717 1350,1705 727,1702 727,1794 1350,1797 1779,1809" />
+				<Baseline points="727,1769 1350,1772 1779,1784" />
+				<TextEquiv>
+					<Unicode>Haim. hansen Locheman</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_9ac9c824-64cc-4889-ae16-cb044ea20aab" custom="readingOrder {index:15;}">
+				<Coords points="1784,1815 1471,1803 673,1794 673,1894 1471,1903 1784,1915" />
+				<Baseline points="673,1864 1471,1873 1784,1885" />
+				<TextEquiv>
+					<Unicode>Cristoffen Waffner.</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_0cc21aee-be30-4a87-98c9-7e92e0830314" custom="readingOrder {index:16;}">
+				<Coords points="1856,1922 1853,1911 1853,1922 1700,1905 1177,1885 691,1884 691,1995 1177,1996 1700,2016 1853,2033 1853,2022 1856,2033" />
+				<Baseline points="691,1968 1177,1969 1700,1989 1853,2006 1853,1995 1856,2006" />
+				<TextEquiv>
+					<Unicode>Jeronimūsen Schgrafer.</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_7590c179-8bae-4d4c-aa4a-b90e1baf9b58" custom="readingOrder {index:17;}">
+				<Coords points="1898,2039 1717,2016 1402,1999 689,1993 689,2090 1402,2096 1717,2113 1898,2136" />
+				<Baseline points="689,2069 1402,2075 1717,2092 1898,2115" />
+				<TextEquiv>
+					<Unicode>hannsen Waldner. hansen</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_ccb98d51-6ed7-4562-82ca-ebdbd24b0583" custom="readingOrder {index:18;}">
+				<Coords points="1822,2142 1622,2120 1521,2125 683,2107 683,2190 1521,2208 1622,2203 1822,2225" />
+				<Baseline points="683,2167 1521,2185 1622,2180 1822,2202" />
+				<TextEquiv>
+					<Unicode>Kaltenhaūser. Joseffen</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_ac50a8d2-e2c8-47e3-9784-cf2e09fa15f2" custom="readingOrder {index:19;}">
+				<Coords points="1784,2230 1455,2213 702,2199 702,2293 1455,2307 1784,2324" />
+				<Baseline points="702,2264 1455,2278 1784,2295" />
+				<TextEquiv>
+					<Unicode>Achtmarckht. hannsen</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_d6925a1e-4521-409f-aa89-5df5e3124ed4" custom="readingOrder {index:20;}">
+				<Coords points="1870,2331 1563,2307 701,2285 701,2394 1563,2416 1870,2440" />
+				<Baseline points="701,2368 1563,2390 1870,2414" />
+				<TextEquiv>
+					<Unicode>Hehl. vnd Matheisen Hōr¬</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_be6368cc-8558-4a3a-a075-a9223b798787" custom="readingOrder {index:21;}">
+				<Coords points="1778,2446 1477,2430 712,2395 712,2485 1477,2520 1778,2536" />
+				<Baseline points="712,2468 1477,2503 1778,2519" />
+				<TextEquiv>
+					<Unicode>warter Rath ge¬</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_dc88e553-bd77-4906-97a3-b9aa2c6c6d7a" custom="readingOrder {index:22;} abbrev {offset:0; length:5;expansion:halten;}">
+				<Coords points="1040,2537 700,2541 700,2654 1040,2650" />
+				<Baseline points="700,2590 1040,2586" />
+				<TextEquiv>
+					<Unicode>halt:</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextEquiv>
+				<Unicode>t
+Am: 23. decemb
+Anno: 1620.t
+Hat der herr Būrgermaist
+Hanns Prūggreüter, mit
+den herrn Aines Ersamen
+Rats. als Ir Gnaden hn
+Jacoben Kūeen Freȳhn etc
+herrn Anndre Wilhalmen
+von KüePach. etc., herrn Statt¬
+vnd Lanndtrichter, herrn
+Haūbtmann Cristoffen
+Pennzinger. Anndreen
+Rottenbūecher, Cristoff
+Haim. hansen Locheman
+Cristoffen Waffner.
+Jeronimūsen Schgrafer.
+hannsen Waldner. hansen
+Kaltenhaūser. Joseffen
+Achtmarckht. hannsen
+Hehl. vnd Matheisen Hōr¬
+warter Rath ge¬
+halt:</Unicode>
+			</TextEquiv>
+		</TextRegion>
+	</Page>
+</PcGts>

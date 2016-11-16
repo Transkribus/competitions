@@ -1,0 +1,194 @@
+<?xml version="1.0"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+	<Metadata>
+		<Creator>TRP</Creator>
+		<Created>2014-09-25T12:35:49.007+02:00</Created>
+		<LastChange>2016-01-22T09:38:18.275+01:00</LastChange>
+	</Metadata>
+	<Page imageFilename="Seite0410.JPG" imageWidth="2480" imageHeight="3511">
+		<ReadingOrder>
+			<OrderedGroup id="ro_1453451917233" caption="Regions reading order">
+				<RegionRefIndexed index="0" regionRef="region_2b720054-fd08-4223-abf4-bf5d52365b7d" />
+				<RegionRefIndexed index="1" regionRef="region_9dca1a56-0685-4ed9-8f72-01bb4c640538" />
+			</OrderedGroup>
+		</ReadingOrder>
+		<TextRegion id="region_2b720054-fd08-4223-abf4-bf5d52365b7d" custom="readingOrder {index:0;}">
+			<Coords points="455,126 562,126 562,263 455,263" />
+			<TextLine id="line_023e79aa-6356-4379-b48d-4f132a2527e9" custom="readingOrder {index:0;}">
+				<Coords points="557,129 461,162 461,250 557,217" />
+				<Baseline points="461,246 557,213" />
+				<TextEquiv>
+					<Unicode>206</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextEquiv>
+				<Unicode>206</Unicode>
+			</TextEquiv>
+		</TextRegion>
+		<TextRegion id="region_9dca1a56-0685-4ed9-8f72-01bb4c640538" custom="readingOrder {index:1;}">
+			<Coords points="1010,429 2286,429 2286,2740 1010,2740" />
+			<TextLine id="line_dd5cf978-e35e-46cc-90e1-021bb7938ddd" custom="readingOrder {index:0;}">
+				<Coords points="2062,472 1083,467 1083,589 2062,594" />
+				<Baseline points="1083,565 2062,570" />
+				<TextEquiv>
+					<Unicode>des: am .16. Octobris</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_1d6b089d-0597-4545-b687-0768ed41b63f" custom="readingOrder {index:1;}">
+				<Coords points="2050,591 1068,600 1068,698 2050,689" />
+				<Baseline points="1068,669 2050,660" />
+				<TextEquiv>
+					<Unicode>negsthin. Aūsganngnen</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_75727b64-63fa-4e0f-a87e-0994f694bc8b" custom="readingOrder {index:2;}">
+				<Coords points="2022,705 1055,705 1055,813 2022,813" />
+				<Baseline points="1055,787 2022,787" />
+				<TextEquiv>
+					<Unicode>Mandat vnd beūelhs</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_db8380b2-c3ce-43bf-9f41-5f76d0f05b75" custom="readingOrder {index:3;}">
+				<Coords points="1986,816 1080,819 1080,916 1986,913" />
+				<Baseline points="1080,893 1986,890" />
+				<TextEquiv>
+					<Unicode>alles Ernnsts wider¬</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_a60a4a8b-b184-4aac-bd22-2d50021d9731" custom="readingOrder {index:4;}">
+				<Coords points="2041,921 1085,921 1085,1013 2041,1013" />
+				<Baseline points="1085,985 2041,985" />
+				<TextEquiv>
+					<Unicode>ūmben Erÿnnert, vnd</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_32a8cfb9-0c7a-4782-9529-44a7f008455d" custom="readingOrder {index:5;} abbrev {offset:12; length:8;expansion:angeregten;}">
+				<Coords points="2084,1004 1097,1020 1097,1125 2084,1109" />
+				<Baseline points="1097,1101 2084,1085" />
+				<TextEquiv>
+					<Unicode>Anbeūolhen, angeregt</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_7ccd3c56-a113-4de0-810d-1fb6965e661b" custom="readingOrder {index:6;}">
+				<Coords points="1984,1129 1053,1131 1053,1227 1984,1225" />
+				<Baseline points="1053,1199 1984,1197" />
+				<TextEquiv>
+					<Unicode>Mandat gmeß. sich</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_958f6679-80b5-48d1-828a-66bb43f03782" custom="readingOrder {index:7;}">
+				<Coords points="2160,1219 1843,1229 1093,1234 1093,1339 1843,1334 2160,1324" />
+				<Baseline points="1093,1313 1843,1308 2160,1298" />
+				<TextEquiv>
+					<Unicode>gannz angelegnen fleis</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_9374d519-f17d-4556-9e9b-358bd194a7cf" custom="readingOrder {index:8;}">
+				<Coords points="2115,1338 1089,1346 1089,1447 2115,1439" />
+				<Baseline points="1089,1420 2115,1412" />
+				<TextEquiv>
+					<Unicode>Zūūerhalten. Alle be¬</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_3b0144e3-60fa-4bbe-a423-492cc2d03768" custom="readingOrder {index:9;}">
+				<Coords points="2130,1445 1091,1453 1091,1554 2130,1546" />
+				<Baseline points="1091,1528 2130,1520" />
+				<TextEquiv>
+					<Unicode>qūeme mitl vnd weg</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_ab4a9009-66b9-4978-8fac-41f1f2afc2ed" custom="readingOrder {index:10;}">
+				<Coords points="2133,1551 1111,1561 1111,1662 2133,1652" />
+				<Baseline points="1111,1635 2133,1625" />
+				<TextEquiv>
+					<Unicode>firhannden Zūnemen,</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_8c2de0ef-6635-4045-9ed5-a326c085b4ee" custom="readingOrder {index:11;}">
+				<Coords points="2080,1660 1121,1668 1121,1772 2080,1764" />
+				<Baseline points="1121,1745 2080,1737" />
+				<TextEquiv>
+					<Unicode>vnd solhe gūeter ver¬</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_d41b9a57-b8fe-4f8b-a0b6-5c0815d0718f" custom="readingOrder {index:12;}">
+				<Coords points="2110,1771 1081,1778 1081,1879 2110,1872" />
+				<Baseline points="1081,1853 2110,1846" />
+				<TextEquiv>
+					<Unicode>ordnūng Zetūen, da¬</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_5f330fb7-1eb5-4f23-ad36-d46f4c5ec539" custom="readingOrder {index:13;}">
+				<Coords points="2222,1873 1102,1885 1102,1988 2222,1976" />
+				<Baseline points="1102,1958 2222,1946" />
+				<TextEquiv>
+					<Unicode>mit nichts wider dasselb</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_dad7fccf-a383-4149-9cfc-1274cb99cd43" custom="readingOrder {index:14;}">
+				<Coords points="2008,1995 1119,1986 1119,2097 2008,2106" />
+				<Baseline points="1119,2070 2008,2079" />
+				<TextEquiv>
+					<Unicode>Verÿebt. oder ge¬</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_09ae5448-4ff9-4f64-ad8f-25609fe667f7" custom="readingOrder {index:15;}">
+				<Coords points="2150,2107 1784,2112 1081,2109 1081,2214 1784,2217 2150,2212" />
+				<Baseline points="1081,2186 1784,2189 2150,2184" />
+				<TextEquiv>
+					<Unicode>hanndlt werde. Inn¬</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_dd5e6e1f-6bb2-45c1-a09f-30bac57322af" custom="readingOrder {index:16;}">
+				<Coords points="2118,2213 1818,2217 1067,2224 1067,2331 1818,2324 2118,2320" />
+				<Baseline points="1067,2305 1818,2298 2118,2294" />
+				<TextEquiv>
+					<Unicode>sonnderhait aber aūf</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_b7603ce8-3237-43d4-94f4-89ce51da212d" custom="readingOrder {index:17;} abbrev {offset:21; length:6;expansion:kheüffer;}">
+				<Coords points="2220,2337 1871,2335 1102,2337 1102,2440 1871,2438 2220,2440" />
+				<Baseline points="1102,2410 1871,2408 2220,2410" />
+				<TextEquiv>
+					<Unicode>die schedlichen Vieh kheüff</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_0dcec6e6-0a1a-4d0c-ac34-0e4257f1efce" custom="readingOrder {index:18;} abbrev {offset:13; length:5;expansion:Zūgeben;}">
+				<Coords points="2160,2446 1713,2446 1098,2434 1098,2545 1713,2557 2160,2557" />
+				<Baseline points="1098,2518 1713,2530 2160,2530" />
+				<TextEquiv>
+					<Unicode>gūet Achtūng Zūgeb.</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_ff532ea1-abbf-4811-8ecf-091c96a87513" custom="readingOrder {index:19;}">
+				<Coords points="2029,2563 1122,2563 1122,2665 2029,2665" />
+				<Baseline points="1122,2640 2029,2640" />
+				<TextEquiv>
+					<Unicode>Sÿ vmbstendig Ires </Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextEquiv>
+				<Unicode>des: am .16. Octobris
+negsthin. Aūsganngnen
+Mandat vnd beūelhs
+alles Ernnsts wider¬
+ūmben Erÿnnert, vnd
+Anbeūolhen, angeregt
+Mandat gmeß. sich
+gannz angelegnen fleis
+Zūūerhalten. Alle be¬
+qūeme mitl vnd weg
+firhannden Zūnemen,
+vnd solhe gūeter ver¬
+ordnūng Zetūen, da¬
+mit nichts wider dasselb
+Verÿebt. oder ge¬
+hanndlt werde. Inn¬
+sonnderhait aber aūf
+die schedlichen Vieh kheüff
+gūet Achtūng Zūgeb.
+Sÿ vmbstendig Ires </Unicode>
+			</TextEquiv>
+		</TextRegion>
+	</Page>
+</PcGts>

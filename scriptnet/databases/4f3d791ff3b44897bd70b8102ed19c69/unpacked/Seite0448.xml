@@ -1,0 +1,194 @@
+<?xml version="1.0"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+	<Metadata>
+		<Creator>TRP</Creator>
+		<Created>2014-09-25T12:35:50.225+02:00</Created>
+		<LastChange>2016-01-20T10:09:02.975+01:00</LastChange>
+	</Metadata>
+	<Page imageFilename="Seite0448.JPG" imageWidth="2432" imageHeight="3511">
+		<ReadingOrder>
+			<OrderedGroup id="ro_1453280960907" caption="Regions reading order">
+				<RegionRefIndexed index="0" regionRef="region_6eb48c0a-cb0b-4222-b583-f8f2089a30dd" />
+				<RegionRefIndexed index="1" regionRef="region_9e2ea87c-93e2-49b4-85eb-69b47098818b" />
+			</OrderedGroup>
+		</ReadingOrder>
+		<TextRegion id="region_6eb48c0a-cb0b-4222-b583-f8f2089a30dd" custom="readingOrder {index:0;}">
+			<Coords points="452,95 604,95 604,247 452,247" />
+			<TextLine id="line_1f73c22f-28f3-4928-8192-a3f7e7ab1d59" custom="readingOrder {index:0;}">
+				<Coords points="581,112 457,138 457,239 581,213" />
+				<Baseline points="457,237 581,211" />
+				<TextEquiv>
+					<Unicode>225</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextEquiv>
+				<Unicode>225</Unicode>
+			</TextEquiv>
+		</TextRegion>
+		<TextRegion id="region_9e2ea87c-93e2-49b4-85eb-69b47098818b" custom="readingOrder {index:1;}">
+			<Coords points="849,201 2259,201 2259,2693 849,2693" />
+			<TextLine id="line_1453280713998_1" custom="readingOrder {index:0;} abbrev {offset:0; length:1;expansion:ten;}">
+				<Coords points="1519,257 1376,243 1376,402 1519,416" />
+				<Baseline points="1376,371 1519,385" />
+				<TextEquiv>
+					<Unicode>t</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_6ac87577-b96e-40ac-af28-b4a29e1ddfac" custom="readingOrder {index:1;}">
+				<Coords points="2114,415 1678,423 866,420 866,536 1678,539 2114,531" />
+				<Baseline points="866,508 1678,511 2114,503" />
+				<TextEquiv>
+					<Unicode>Am 4. Tag Janūarj</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_fd014ac1-cf02-4c51-8d32-bee070d2b747" custom="readingOrder {index:2;} abbrev {offset:11; length:1;expansion:ten;}">
+				<Coords points="1984,490 1897,481 1886,546 1239,541 1239,667 1886,672 1897,607 1984,616" />
+				<Baseline points="1239,620 1886,625 1897,560 1984,569" />
+				<TextEquiv>
+					<Unicode>Anno .1621.t</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_0ae33b78-1bb7-4543-99a3-b094949d5092" custom="readingOrder {index:3;}">
+				<Coords points="2053,678 1627,682 956,674 956,831 1627,839 2053,835" />
+				<Baseline points="956,807 1627,815 2053,811" />
+				<TextEquiv>
+					<Unicode>Hat der herr Būrger¬</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_25196756-66bc-4d31-b6e7-e884ada20ac2" custom="readingOrder {index:4;}">
+				<Coords points="2022,839 1603,845 1029,839 1029,933 1603,939 2022,933" />
+				<Baseline points="1029,907 1603,913 2022,907" />
+				<TextEquiv>
+					<Unicode>maister Hanns Prūgg¬</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_73b1829d-b713-402d-9016-027fc3a9fa9c" custom="readingOrder {index:5;}">
+				<Coords points="2028,937 1646,945 1031,937 1031,1034 1646,1042 2028,1034" />
+				<Baseline points="1031,1009 1646,1017 2028,1009" />
+				<TextEquiv>
+					<Unicode>reüter. mit den herrn </Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_38146d1b-5b9e-4c56-9a21-becdd600aa9d" custom="readingOrder {index:6;}">
+				<Coords points="2063,1040 1745,1048 1030,1036 1030,1133 1745,1145 2063,1137" />
+				<Baseline points="1030,1106 1745,1118 2063,1110" />
+				<TextEquiv>
+					<Unicode>Aines Ersamen Rats. als</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_4cdf0288-1cf0-44a2-bfb3-ce077ea5bc92" custom="readingOrder {index:7;} abbrev {offset:16; length:5;expansion:Jacoben;}">
+				<Coords points="2085,1143 1684,1151 1028,1141 1028,1246 1684,1256 2085,1248" />
+				<Baseline points="1028,1218 1684,1228 2085,1220" />
+				<TextEquiv>
+					<Unicode>Ir Gnaden herrn Jacob</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_d7ecc106-73a6-4846-8e63-5692fd1fbc76" custom="readingOrder {index:8;}">
+				<Coords points="2054,1259 1657,1263 1028,1251 1028,1356 1657,1368 2054,1364" />
+				<Baseline points="1028,1330 1657,1342 2054,1338" />
+				<TextEquiv>
+					<Unicode>Khūeen. Freȳherrn etc.,</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_2974ed0f-c6df-4ec9-bcda-c7ff3435d05c" custom="readingOrder {index:9;}">
+				<Coords points="2071,1366 1684,1374 1002,1370 1002,1472 1684,1476 2071,1468" />
+				<Baseline points="1002,1442 1684,1446 2071,1438" />
+				<TextEquiv>
+					<Unicode>herrn Statt: vnd Lanndt¬</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_e4d2fa53-647a-44f0-ad1d-59e43ab4361c" custom="readingOrder {index:10;}">
+				<Coords points="2079,1482 1653,1478 1036,1464 1036,1572 1653,1586 2079,1590" />
+				<Baseline points="1036,1548 1653,1562 2079,1566" />
+				<TextEquiv>
+					<Unicode>richter Cristoffen Greb¬</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_fe47fdb7-7b7d-4c09-9044-6682905464ac" custom="readingOrder {index:11;}">
+				<Coords points="1982,1595 1659,1595 1032,1585 1032,1681 1659,1691 1982,1691" />
+				<Baseline points="1032,1652 1659,1662 1982,1662" />
+				<TextEquiv>
+					<Unicode>mer Zūm Wolfstūrn,</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_18aa05e3-fa17-4f35-8c41-5129b87a7c8a" custom="readingOrder {index:12;}">
+				<Coords points="2068,1698 1602,1694 1036,1692 1036,1801 1602,1803 2068,1807" />
+				<Baseline points="1036,1774 1602,1776 2068,1780" />
+				<TextEquiv>
+					<Unicode>Herrn Haūbtman Cris¬</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_67969bda-4aaf-4704-b2f3-dae87aae83d1" custom="readingOrder {index:13;}">
+				<Coords points="2027,1807 1589,1813 1032,1813 1032,1920 1589,1920 2027,1914" />
+				<Baseline points="1032,1890 1589,1890 2027,1884" />
+				<TextEquiv>
+					<Unicode>toffen Pennzinger. Da¬</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_233d7f71-fb0c-4bda-96f6-b84c7a0e5308" custom="readingOrder {index:14;}">
+				<Coords points="2098,1917 1595,1927 1035,1915 1035,2028 1595,2040 2098,2030" />
+				<Baseline points="1035,2000 1595,2012 2098,2002" />
+				<TextEquiv>
+					<Unicode>viden Waffner. hannsen</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_6aec3a52-b0af-46ec-a803-669c8263f918" custom="readingOrder {index:15;}">
+				<Coords points="1984,2041 1670,2047 1023,2029 1023,2134 1670,2152 1984,2146" />
+				<Baseline points="1023,2108 1670,2126 1984,2120" />
+				<TextEquiv>
+					<Unicode>Schgrafer. Cristoff</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_df411cff-48e1-4f50-aa2c-3447ec24e45c" custom="readingOrder {index:16;}">
+				<Coords points="2081,2158 1721,2158 1072,2158 1072,2258 1721,2258 2081,2258" />
+				<Baseline points="1072,2230 1721,2230 2081,2230" />
+				<TextEquiv>
+					<Unicode>Haimen, Hannsen Loche¬</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_dc062a0a-a715-4597-9260-2b70bb3da86a" custom="readingOrder {index:17;}">
+				<Coords points="2163,2256 1815,2264 1047,2252 1047,2357 1815,2369 2163,2361" />
+				<Baseline points="1047,2330 1815,2342 2163,2334" />
+				<TextEquiv>
+					<Unicode>man. Cristoffen Waff¬</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_90c0d6dc-e6ad-4606-a9f4-619239a6f763" custom="readingOrder {index:18;}">
+				<Coords points="2102,2371 1768,2375 1027,2355 1027,2461 1768,2481 2102,2477" />
+				<Baseline points="1027,2430 1768,2450 2102,2446" />
+				<TextEquiv>
+					<Unicode>ner. hannsen Waldner.</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_5e9cfc96-f2fd-40e6-a367-792948ed45cb" custom="readingOrder {index:19;}">
+				<Coords points="1990,2488 1685,2482 1019,2470 1019,2586 1685,2598 1990,2604" />
+				<Baseline points="1019,2556 1685,2568 1990,2574" />
+				<TextEquiv>
+					<Unicode>Marxen Schgrafer, </Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextEquiv>
+				<Unicode>t
+Am 4. Tag Janūarj
+Anno .1621.t
+Hat der herr Būrger¬
+maister Hanns Prūgg¬
+reüter. mit den herrn 
+Aines Ersamen Rats. als
+Ir Gnaden herrn Jacob
+Khūeen. Freȳherrn etc.,
+herrn Statt: vnd Lanndt¬
+richter Cristoffen Greb¬
+mer Zūm Wolfstūrn,
+Herrn Haūbtman Cris¬
+toffen Pennzinger. Da¬
+viden Waffner. hannsen
+Schgrafer. Cristoff
+Haimen, Hannsen Loche¬
+man. Cristoffen Waff¬
+ner. hannsen Waldner.
+Marxen Schgrafer, </Unicode>
+			</TextEquiv>
+		</TextRegion>
+	</Page>
+</PcGts>

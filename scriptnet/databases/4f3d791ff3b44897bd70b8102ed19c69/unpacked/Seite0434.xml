@@ -1,0 +1,202 @@
+<?xml version="1.0"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+	<Metadata>
+		<Creator>TRP</Creator>
+		<Created>2014-09-25T12:35:49.772+02:00</Created>
+		<LastChange>2016-01-20T11:39:12.532+01:00</LastChange>
+	</Metadata>
+	<Page imageFilename="Seite0434.JPG" imageWidth="2448" imageHeight="3511">
+		<ReadingOrder>
+			<OrderedGroup id="ro_1453286370413" caption="Regions reading order">
+				<RegionRefIndexed index="0" regionRef="region_42b91938-71c3-4a71-81f9-180e7609b659" />
+				<RegionRefIndexed index="1" regionRef="region_7cd842ab-8c4d-4b72-b31b-69313b975518" />
+			</OrderedGroup>
+		</ReadingOrder>
+		<TextRegion id="region_42b91938-71c3-4a71-81f9-180e7609b659" custom="readingOrder {index:0;}">
+			<Coords points="385,170 537,170 537,318 385,318" />
+			<TextLine id="line_666e7fb7-6cff-4b78-8e4e-c35e1ea4b833" custom="readingOrder {index:0;}">
+				<Coords points="531,170 390,211 390,309 531,263" />
+				<Baseline points="390,306 531,260" />
+				<TextEquiv>
+					<Unicode>218</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextEquiv>
+				<Unicode>218</Unicode>
+			</TextEquiv>
+		</TextRegion>
+		<TextRegion id="region_7cd842ab-8c4d-4b72-b31b-69313b975518" custom="readingOrder {index:1;}">
+			<Coords points="954,429 2367,429 2367,2826 954,2826" />
+			<TextLine id="line_6a0400f9-ed3e-413b-8ded-fcabd9105bea" custom="readingOrder {index:0;}">
+				<Coords points="2105,429 1017,473 1017,597 2105,553" />
+				<Baseline points="1017,573 2105,529" />
+				<TextEquiv>
+					<Unicode>ordenten herrn gehaimen</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_935971ff-9ae0-4c65-bf4e-6a5f8eff3063" custom="readingOrder {index:1;}">
+				<Coords points="1957,583 1695,601 1032,603 1032,695 1695,693 1957,675" />
+				<Baseline points="1032,670 1695,668 1957,650" />
+				<TextEquiv>
+					<Unicode>Räthen, im dato: 12.</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_3c89e531-d07c-47bf-b37a-3f59fdd5a3d0" custom="readingOrder {index:2;}">
+				<Coords points="1990,680 1642,698 1029,701 1029,794 1642,791 1990,773" />
+				<Baseline points="1029,771 1642,768 1990,750" />
+				<TextEquiv>
+					<Unicode>diz. die verfierūng</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_9753223f-3694-4ab0-8141-9be4cf04fdb2" custom="readingOrder {index:3;}">
+				<Coords points="2097,774 1037,799 1037,888 2097,863" />
+				<Baseline points="1037,863 2097,838" />
+				<TextEquiv>
+					<Unicode>des lieben Getraids</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_9d565e6c-b06c-4b03-9069-f4cb1a949e1c" custom="readingOrder {index:4;}">
+				<Coords points="2042,861 1580,888 1047,893 1047,986 1580,981 2042,954" />
+				<Baseline points="1047,963 1580,958 2042,931" />
+				<TextEquiv>
+					<Unicode>betreffent. Das Ire</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_7e56ae64-bd1b-4f11-b53d-7bd0093e9c8c" custom="readingOrder {index:5;} abbrev {offset:0; length:3;expansion:Gnaden;}">
+				<Coords points="2055,967 1645,992 1037,992 1037,1085 1645,1085 2055,1060" />
+				<Baseline points="1037,1058 1645,1058 2055,1033" />
+				<TextEquiv>
+					<Unicode>Gn: den Zolsbeambten</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_3dffb361-c797-4728-92fb-a0796715b3f3" custom="readingOrder {index:6;}">
+				<Coords points="2060,1064 1735,1086 1049,1091 1049,1195 1735,1190 2060,1168" />
+				<Baseline points="1049,1168 1735,1163 2060,1141" />
+				<TextEquiv>
+					<Unicode>alhie. beraits gnedige</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_58365368-1cf0-4b2a-92fe-1defef669a16" custom="readingOrder {index:7;} abbrev {offset:19; length:5;expansion:lassen;}">
+				<Coords points="2108,1178 1725,1186 1006,1201 1006,1302 1725,1287 2108,1279" />
+				<Baseline points="1006,1276 1725,1261 2108,1253" />
+				<TextEquiv>
+					<Unicode>Beūelch Zūe khomen lass.</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_7d970be9-dde8-4334-906e-8dfefbacf404" custom="readingOrder {index:8;}">
+				<Coords points="1916,1286 1645,1308 1052,1306 1052,1406 1645,1408 1916,1386" />
+				<Baseline points="1052,1380 1645,1382 1916,1360" />
+				<TextEquiv>
+					<Unicode>Alles das Getraid.</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_32ddfd06-7c8d-429a-9da4-68499995cd63" custom="readingOrder {index:9;}">
+				<Coords points="1970,1397 1734,1410 1045,1414 1045,1514 1734,1510 1970,1497" />
+				<Baseline points="1045,1488 1734,1484 1970,1471" />
+				<TextEquiv>
+					<Unicode>welhes Aintweders</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_61b7ea5a-ea34-4407-8f11-9a9c97f2a01d" custom="readingOrder {index:10;} abbrev {offset:14; length:3;expansion:Fürstlichen;} abbrev {offset:18; length:3;expansion:durchlaucht;}">
+				<Coords points="2021,1507 1693,1517 1047,1521 1047,1622 1693,1618 2021,1608" />
+				<Baseline points="1047,1595 1693,1591 2021,1581" />
+				<TextEquiv>
+					<Unicode>one. von Irer Fl: dht</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_7e409cf7-163a-40ef-94bc-98078760a07c" custom="readingOrder {index:11;} textStyle {offset:18; length:6;monospace:true;}">
+				<Coords points="2032,1599 1651,1612 1018,1628 1018,1730 1651,1714 2032,1701" />
+				<Baseline points="1018,1705 1651,1689 2032,1676" />
+				<TextEquiv>
+					<Unicode>selbsten. oder in specie</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_9735b955-1163-46ae-bc16-93bff0323985" custom="readingOrder {index:12;} abbrev {offset:17; length:2;expansion:hochlöblichen;}">
+				<Coords points="2028,1730 1645,1736 1035,1734 1035,1832 1645,1834 2028,1828" />
+				<Baseline points="1035,1804 1645,1806 2028,1800" />
+				<TextEquiv>
+					<Unicode>von wolgedachten hn</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_e6dc01a6-d86a-4d66-bd17-3a7a50c02877" custom="readingOrder {index:13;}">
+				<Coords points="2001,1823 1763,1829 1039,1841 1039,1948 1763,1936 2001,1930" />
+				<Baseline points="1039,1920 1763,1908 2001,1902" />
+				<TextEquiv>
+					<Unicode>gehaimen Räten aūs</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_4642310a-8303-4e73-989d-5785cc0062cf" custom="readingOrder {index:14;} abbrev {offset:17; length:7;expansion:ertailten;}">
+				<Coords points="2117,1921 1755,1941 1052,1954 1052,2062 1755,2049 2117,2029" />
+				<Baseline points="1052,2032 1755,2019 2117,1999" />
+				<TextEquiv>
+					<Unicode>der hof Cannzleȳ ertailt</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_954b0ed9-9a87-4bfa-bf54-8421ce2e4122" custom="readingOrder {index:15;}">
+				<Coords points="2025,2036 1049,2069 1049,2176 2025,2143" />
+				<Baseline points="1049,2153 2025,2120" />
+				<TextEquiv>
+					<Unicode>Patennten daselbst.</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_109a2721-aefb-441a-9dfe-10cf01a94924" custom="readingOrder {index:16;}">
+				<Coords points="2089,2160 1719,2181 1065,2179 1065,2274 1719,2276 2089,2255" />
+				<Baseline points="1065,2244 1719,2246 2089,2225" />
+				<TextEquiv>
+					<Unicode>dūrch: vnd vort gefiert</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_105d981c-96bf-46a4-bf54-155999a84327" custom="readingOrder {index:17;} abbrev {offset:14; length:6;expansion:Aldorten;}">
+				<Coords points="2215,2252 1068,2283 1068,2393 2215,2362" />
+				<Baseline points="1068,2367 2215,2336" />
+				<TextEquiv>
+					<Unicode>werden wolte. Aldort</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_d234672f-42f0-441c-be2b-713e1040807c" custom="readingOrder {index:18;} abbrev {offset:15; length:8;expansion:Abzelegen;}">
+				<Coords points="2114,2385 1064,2399 1064,2500 2114,2486" />
+				<Baseline points="1064,2472 2114,2458" />
+				<TextEquiv>
+					<Unicode>An der Zolstat Abzeleg.</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_7dfb705f-8130-4de0-b331-044a07893e6b" custom="readingOrder {index:19;}">
+				<Coords points="2067,2484 1775,2497 1074,2507 1074,2611 1775,2601 2067,2588" />
+				<Baseline points="1074,2586 1775,2576 2067,2563" />
+				<TextEquiv>
+					<Unicode>in Arresst Zūnemen.</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_baa12286-40c4-4c58-9c05-ebd1f96952fd" custom="readingOrder {index:20;}">
+				<Coords points="2182,2603 1812,2601 1074,2617 1074,2723 1812,2707 2182,2709" />
+				<Baseline points="1074,2689 1812,2673 2182,2675" />
+				<TextEquiv>
+					<Unicode>vnd so lanng vnnzt Sÿ</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextEquiv>
+				<Unicode>ordenten herrn gehaimen
+Räthen, im dato: 12.
+diz. die verfierūng
+des lieben Getraids
+betreffent. Das Ire
+Gn: den Zolsbeambten
+alhie. beraits gnedige
+Beūelch Zūe khomen lass.
+Alles das Getraid.
+welhes Aintweders
+one. von Irer Fl: dht
+selbsten. oder in specie
+von wolgedachten hn
+gehaimen Räten aūs
+der hof Cannzleȳ ertailt
+Patennten daselbst.
+dūrch: vnd vort gefiert
+werden wolte. Aldort
+An der Zolstat Abzeleg.
+in Arresst Zūnemen.
+vnd so lanng vnnzt Sÿ</Unicode>
+			</TextEquiv>
+		</TextRegion>
+	</Page>
+</PcGts>
