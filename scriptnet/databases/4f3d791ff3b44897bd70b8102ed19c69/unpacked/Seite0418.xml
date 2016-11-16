@@ -1,0 +1,222 @@
+<?xml version="1.0"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+	<Metadata>
+		<Creator>TRP</Creator>
+		<Created>2014-09-25T12:35:49.257+02:00</Created>
+		<LastChange>2016-01-20T13:55:29.008+01:00</LastChange>
+	</Metadata>
+	<Page imageFilename="Seite0418.JPG" imageWidth="2480" imageHeight="3511">
+		<ReadingOrder>
+			<OrderedGroup id="ro_1453294546832" caption="Regions reading order">
+				<RegionRefIndexed index="0" regionRef="region_eb515c0a-edce-40ab-943c-3e2779d6756c" />
+				<RegionRefIndexed index="1" regionRef="region_cd385b7f-2c5d-4cb6-959a-dc9f2063d0fc" />
+				<RegionRefIndexed index="2" regionRef="region_0761b603-2c41-4345-a6f5-58d4af054196" />
+				<RegionRefIndexed index="3" regionRef="region_c2a107b0-f1e5-4b49-bf24-2ed7c70a1da6" />
+			</OrderedGroup>
+		</ReadingOrder>
+		<TextRegion id="region_eb515c0a-edce-40ab-943c-3e2779d6756c" custom="readingOrder {index:0;}">
+			<Coords points="477,127 594,127 594,280 477,280" />
+			<TextLine id="line_a3284066-a395-4977-b1f1-3be98c9dc800" custom="readingOrder {index:0;}">
+				<Coords points="572,135 481,164 481,257 572,228" />
+				<Baseline points="481,250 572,221" />
+				<TextEquiv>
+					<Unicode>210</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextEquiv>
+				<Unicode>210</Unicode>
+			</TextEquiv>
+		</TextRegion>
+		<TextRegion id="region_cd385b7f-2c5d-4cb6-959a-dc9f2063d0fc" custom="readingOrder {index:1;}">
+			<Coords points="1047,408 2220,408 2220,2075 1047,2075" />
+			<TextLine id="line_5e4903e8-e991-437d-9777-c39218720103" custom="readingOrder {index:0;}">
+				<Coords points="2043,447 1073,459 1073,604 2043,592" />
+				<Baseline points="1073,578 2043,566" />
+				<TextEquiv>
+					<Unicode>sein Behaūsūng khain</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_a5131846-ff1d-48ac-84a5-385297b54f76" custom="readingOrder {index:1;}">
+				<Coords points="2086,602 1723,610 1079,604 1079,703 1723,709 2086,701" />
+				<Baseline points="1079,676 1723,682 2086,674" />
+				<TextEquiv>
+					<Unicode>Adelicher Ansiz, nit er¬</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_af62174c-5871-4e44-a6e0-afc5f25e6ae8" custom="readingOrder {index:2;} abbrev {offset:19; length:6;expansion:beniegen;}">
+				<Coords points="2135,701 1719,715 1095,711 1095,808 1719,812 2135,798" />
+				<Baseline points="1095,788 1719,792 2135,778" />
+				<TextEquiv>
+					<Unicode>heblichen, oder Zū benieg</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_18506811-f7eb-4e01-91f7-295bd0ce6815" custom="readingOrder {index:3;}">
+				<Coords points="2104,811 1099,817 1099,899 2104,893" />
+				<Baseline points="1099,874 2104,868" />
+				<TextEquiv>
+					<Unicode>Angenomen. Dero¬</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_d6dc94ce-4934-4959-bee9-9dd2068983c3" custom="readingOrder {index:4;}">
+				<Coords points="2127,895 1845,903 1081,905 1081,1002 1845,1000 2127,992" />
+				<Baseline points="1081,976 1845,974 2127,966" />
+				<TextEquiv>
+					<Unicode>wegen Zū biten, Nit</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_90af206e-5fd1-4f04-8936-ab5117e77edb" custom="readingOrder {index:5;} abbrev {offset:16; length:3;expansion:Freyherrn;}">
+				<Coords points="2192,981 1953,1006 1079,1008 1079,1106 1953,1104 2192,1079" />
+				<Baseline points="1079,1080 1953,1078 2192,1053" />
+				<TextEquiv>
+					<Unicode>mer wolerdeiten Fhn</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_43edce76-b3c2-47e5-87c0-1343d59d9e8a" custom="readingOrder {index:6;}">
+				<Coords points="2111,1092 1070,1112 1070,1210 2111,1190" />
+				<Baseline points="1070,1186 2111,1166" />
+				<TextEquiv>
+					<Unicode>Zū Wolckhenstain vnd</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_79e5f7c5-b732-4c3b-81e7-c298fff0861f" custom="readingOrder {index:7;}">
+				<Coords points="2190,1200 1111,1216 1111,1311 2190,1295" />
+				<Baseline points="1111,1284 2190,1268" />
+				<TextEquiv>
+					<Unicode>Haūbtmann Thanhaimer</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_48c03efc-dac6-40d3-97ac-17433dc0464a" custom="readingOrder {index:8;}">
+				<Coords points="2057,1305 1727,1317 1099,1305 1099,1405 1727,1417 2057,1405" />
+				<Baseline points="1099,1382 1727,1394 2057,1382" />
+				<TextEquiv>
+					<Unicode>die Notwendig vnnd</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_82b82f55-ea3f-48d0-899d-33214b67648e" custom="readingOrder {index:9;}">
+				<Coords points="2147,1417 1058,1423 1058,1516 2147,1510" />
+				<Baseline points="1058,1488 2147,1482" />
+				<TextEquiv>
+					<Unicode>Ernnstlich verfiegūng</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_def77fb3-7e38-4067-8b76-64bc63e55506" custom="readingOrder {index:10;}">
+				<Coords points="2096,1514 1860,1522 1089,1516 1089,1621 1860,1627 2096,1619" />
+				<Baseline points="1089,1594 1860,1600 2096,1592" />
+				<TextEquiv>
+					<Unicode>Zetūen. vnd Zū geben da¬</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_e5dc4c38-26da-4cb4-abfa-296aa9b600a0" custom="readingOrder {index:11;}">
+				<Coords points="2151,1623 1770,1633 1087,1629 1087,1734 1770,1738 2151,1728" />
+				<Baseline points="1087,1706 1770,1710 2151,1700" />
+				<TextEquiv>
+					<Unicode>mit die schūldig Abstat¬</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_f8ce2a9e-7eb5-41d8-b1bf-ede3f7e84592" custom="readingOrder {index:12;}">
+				<Coords points="2188,1733 1868,1745 1085,1727 1085,1831 1868,1849 2188,1837" />
+				<Baseline points="1085,1808 1868,1826 2188,1814" />
+				<TextEquiv>
+					<Unicode>ūng gelaisst: oder aber</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_1beeb9d3-3489-4074-b5ce-34012189ef68" custom="readingOrder {index:13;}">
+				<Coords points="2104,1845 1078,1855 1078,1946 2104,1936" />
+				<Baseline points="1078,1920 2104,1910" />
+				<TextEquiv>
+					<Unicode>den Steūr laden sōuil</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_906e8461-7f44-4820-a909-b92ca79ca13a" custom="readingOrder {index:14;}">
+				<Coords points="2010,1952 1086,1952 1086,2037 2010,2037" />
+				<Baseline points="1086,2024 2010,2024" />
+				<TextEquiv>
+					<Unicode>Abgenomen werde. </Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextEquiv>
+				<Unicode>sein Behaūsūng khain
+Adelicher Ansiz, nit er¬
+heblichen, oder Zū benieg
+Angenomen. Dero¬
+wegen Zū biten, Nit
+mer wolerdeiten Fhn
+Zū Wolckhenstain vnd
+Haūbtmann Thanhaimer
+die Notwendig vnnd
+Ernnstlich verfiegūng
+Zetūen. vnd Zū geben da¬
+mit die schūldig Abstat¬
+ūng gelaisst: oder aber
+den Steūr laden sōuil
+Abgenomen werde. </Unicode>
+			</TextEquiv>
+		</TextRegion>
+		<TextRegion id="region_0761b603-2c41-4345-a6f5-58d4af054196" custom="readingOrder {index:2;}">
+			<Coords points="1025,2135 2273,2135 2273,2668 1025,2668" />
+			<TextLine id="line_8f213906-db1a-4653-9f6d-dee08e661ba9" custom="readingOrder {index:0;} abbrev {offset:12; length:13;expansion:schliesslichen;}">
+				<Coords points="2164,2155 1038,2176 1038,2297 2164,2276" />
+				<Baseline points="1038,2271 2164,2250" />
+				<TextEquiv>
+					<Unicode>Dritens vnd schliesslich.</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_7cd50928-dda8-4995-b182-7c6b80871a78" custom="readingOrder {index:1;}">
+				<Coords points="2070,2292 1073,2303 1073,2402 2070,2391" />
+				<Baseline points="1073,2376 2070,2365" />
+				<TextEquiv>
+					<Unicode>so ist mann in Erfar¬</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_0d752f5c-5bd6-422f-81dd-28ad67d228e7" custom="readingOrder {index:2;}">
+				<Coords points="2135,2401 1089,2408 1089,2507 2135,2500" />
+				<Baseline points="1089,2482 2135,2475" />
+				<TextEquiv>
+					<Unicode>ūng khomen, das der</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_db4d384e-e6ae-4a10-9fe9-5ae94b2086be" custom="readingOrder {index:3;}">
+				<Coords points="2147,2506 1099,2513 1099,2605 2147,2598" />
+				<Baseline points="1099,2584 2147,2577" />
+				<TextEquiv>
+					<Unicode>Gmain Zū Keifs,.Mori </Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextEquiv>
+				<Unicode>Dritens vnd schliesslich.
+so ist mann in Erfar¬
+ūng khomen, das der
+Gmain Zū Keifs,.Mori </Unicode>
+			</TextEquiv>
+		</TextRegion>
+		<TextRegion id="region_c2a107b0-f1e5-4b49-bf24-2ed7c70a1da6" custom="readingOrder {index:3;}">
+			<Coords points="370,2147 1023,2147 1023,2650 370,2650" />
+			<TextLine id="line_6732eacc-8681-4a9d-80f8-31e4d7f58af4" custom="readingOrder {index:0;}">
+				<Coords points="946,2188 405,2192 405,2316 946,2312" />
+				<Baseline points="405,2294 946,2290" />
+				<TextEquiv>
+					<Unicode>Traid ver¬</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_8e0f350a-5e9c-4b91-bb18-83dfb2c914ba" custom="readingOrder {index:1;}">
+				<Coords points="874,2300 432,2321 432,2438 874,2417" />
+				<Baseline points="432,2384 874,2363" />
+				<TextEquiv>
+					<Unicode>fierūng.</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_08814a96-429d-4b09-84ce-08883afda7c3" custom="readingOrder {index:2;} abbrev {offset:8; length:7;expansion:Patenten;}">
+				<Coords points="1003,2450 385,2442 385,2606 1003,2614" />
+				<Baseline points="385,2594 1003,2602" />
+				<TextEquiv>
+					<Unicode>vermieg Patent.</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextEquiv>
+				<Unicode>Traid ver¬
+fierūng.
+vermieg Patent.</Unicode>
+			</TextEquiv>
+		</TextRegion>
+	</Page>
+</PcGts>

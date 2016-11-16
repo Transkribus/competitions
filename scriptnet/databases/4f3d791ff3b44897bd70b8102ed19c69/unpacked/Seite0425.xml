@@ -1,0 +1,247 @@
+<?xml version="1.0"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+	<Metadata>
+		<Creator>TRP</Creator>
+		<Created>2014-09-25T12:35:49.491+02:00</Created>
+		<LastChange>2016-01-20T12:48:47.019+01:00</LastChange>
+	</Metadata>
+	<Page imageFilename="Seite0425.JPG" imageWidth="2282" imageHeight="3511">
+		<ReadingOrder>
+			<OrderedGroup id="ro_1453290544992" caption="Regions reading order">
+				<RegionRefIndexed index="0" regionRef="region_5584d4e4-5aad-4415-9d19-656b7ef913aa" />
+				<RegionRefIndexed index="1" regionRef="region_28c3de79-60cb-4855-aa5c-03e85bd958f6" />
+				<RegionRefIndexed index="2" regionRef="region_876e9338-9a9e-4c8c-ac04-2e3dbb5eac1c" />
+				<RegionRefIndexed index="3" regionRef="region_871ded14-a552-4211-8d57-95fc1102f53a" />
+			</OrderedGroup>
+		</ReadingOrder>
+		<TextRegion id="region_5584d4e4-5aad-4415-9d19-656b7ef913aa" custom="readingOrder {index:0;}">
+			<Coords points="1615,230 1846,230 1846,326 1615,326" />
+			<TextLine id="line_39fbef3e-be60-4f90-afcc-e1fa331150c5" custom="readingOrder {index:0;}">
+				<Coords points="1835,254 1643,250 1643,310 1835,314" />
+				<Baseline points="1643,306 1835,310" />
+				<TextEquiv>
+					<Unicode>213</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextEquiv>
+				<Unicode>213</Unicode>
+			</TextEquiv>
+		</TextRegion>
+		<TextRegion id="region_28c3de79-60cb-4855-aa5c-03e85bd958f6" custom="readingOrder {index:1;}">
+			<Coords points="601,422 1842,422 1842,762 601,762" />
+			<TextLine id="line_b2e9aafe-9a1d-4251-a2a7-d707081a381e" custom="readingOrder {index:0;}">
+				<Coords points="1783,432 1096,439 686,446 686,523 1096,516 1783,509" />
+				<Baseline points="686,501 1096,494 1783,487" />
+				<TextEquiv>
+					<Unicode>Azwannger. vnd Wolf¬</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_b078fd29-d2b1-4a4c-bb8c-b18deca046a1" custom="readingOrder {index:1;}">
+				<Coords points="1707,529 1346,522 727,527 727,618 1346,613 1707,620" />
+				<Baseline points="727,590 1346,585 1707,592" />
+				<TextEquiv>
+					<Unicode>ganngen Katzmaÿr</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_031eaf8e-65e7-47d4-8ec6-3baf298326fa" custom="readingOrder {index:2;}">
+				<Coords points="1429,611 1163,607 722,627 722,720 1163,700 1429,704" />
+				<Baseline points="722,706 1163,686 1429,690" />
+				<TextEquiv>
+					<Unicode>Rath gehalten. </Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextEquiv>
+				<Unicode>Azwannger. vnd Wolf¬
+ganngen Katzmaÿr
+Rath gehalten. </Unicode>
+			</TextEquiv>
+		</TextRegion>
+		<TextRegion id="region_876e9338-9a9e-4c8c-ac04-2e3dbb5eac1c" custom="readingOrder {index:2;}">
+			<Coords points="624,2701 591,2242 693,2109 693,804 2012,804 2012,2737 693,2737" />
+			<TextLine id="line_9448c185-a69e-4711-ab04-38c2dc034c69" custom="readingOrder {index:0;}">
+				<Coords points="1800,864 1385,851 718,855 718,1020 1385,1016 1800,1029" />
+				<Baseline points="718,995 1385,991 1800,1004" />
+				<TextEquiv>
+					<Unicode>Erstens ain drūckhten Be¬</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_c94f106a-b19d-42f0-8a09-6303e072f454" custom="readingOrder {index:1;} abbrev {offset:22; length:4;expansion:sonder;}">
+				<Coords points="1853,1035 1408,1023 745,1016 745,1112 1408,1119 1853,1131" />
+				<Baseline points="745,1086 1408,1093 1853,1105" />
+				<TextEquiv>
+					<Unicode>ūelch. wegen der: aūs sond¬</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_4cad7463-312c-4b52-8870-5c5066ab2854" custom="readingOrder {index:2;}">
+				<Coords points="1836,1137 1464,1116 748,1129 748,1224 1464,1211 1836,1232" />
+				<Baseline points="748,1201 1464,1188 1836,1209" />
+				<TextEquiv>
+					<Unicode>barer von Gott dem All¬</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_121bd1ef-f20a-42d9-ad17-7b515109378f" custom="readingOrder {index:3;}">
+				<Coords points="1828,1237 1483,1223 745,1216 745,1306 1483,1313 1828,1327" />
+				<Baseline points="745,1281 1483,1288 1828,1302" />
+				<TextEquiv>
+					<Unicode>mechtigen verlihnen gnad.</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_a897ee05-16b4-4183-9344-12e9184fde1b" custom="readingOrder {index:4;}">
+				<Coords points="1887,1333 1512,1316 752,1301 752,1395 1512,1410 1887,1427" />
+				<Baseline points="752,1372 1512,1387 1887,1404" />
+				<TextEquiv>
+					<Unicode>hilff vnd Segen. ein genom¬</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_0aa072fb-4c88-45cf-b059-259b7234cc84" custom="readingOrder {index:5;}">
+				<Coords points="1770,1433 1631,1420 1392,1413 728,1411 728,1500 1392,1502 1631,1509 1770,1522" />
+				<Baseline points="728,1476 1392,1478 1631,1485 1770,1498" />
+				<TextEquiv>
+					<Unicode>nen Haūbtstat Prag. im</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_cab8404d-6026-4b73-893f-32cf026e9e81" custom="readingOrder {index:6;}">
+				<Coords points="1872,1528 1595,1519 714,1509 714,1605 1595,1615 1872,1624" />
+				<Baseline points="714,1578 1595,1588 1872,1597" />
+				<TextEquiv>
+					<Unicode>Kinigreich Böhemb. das</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_e6a92b4f-02fc-4209-a28a-b206e7bb3570" custom="readingOrder {index:7;} textStyle {offset:0; length:16;monospace:true;} abbrev {offset:17; length:7;expansion:Zūsingen;}">
+				<Coords points="1862,1630 1421,1611 760,1609 760,1711 1421,1713 1862,1732" />
+				<Baseline points="760,1686 1421,1688 1862,1707" />
+				<TextEquiv>
+					<Unicode>Te Deum Laudamus Zūsing.</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_0d75d69f-5625-481b-99a8-a3c447fa417a" custom="readingOrder {index:8;}">
+				<Coords points="1913,1737 1661,1711 733,1715 733,1808 1661,1804 1913,1830" />
+				<Baseline points="733,1785 1661,1781 1913,1807" />
+				<TextEquiv>
+					<Unicode>Abgehördt, Weiln</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_525f8a04-cd0f-41ec-9ccb-12f16a774de5" custom="readingOrder {index:9;} textStyle {offset:0; length:5;strikethrough:true;}">
+				<Coords points="1843,1826 1451,1814 735,1835 735,1922 1451,1901 1843,1913" />
+				<Baseline points="735,1900 1451,1879 1843,1891" />
+				<TextEquiv>
+					<Unicode>dises dann schon vor disem.</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_c20fc220-5a39-4f38-ac5c-f51e65f30249" custom="readingOrder {index:10;}">
+				<Coords points="1828,1927 1421,1925 735,1927 735,2014 1421,2012 1828,2014" />
+				<Baseline points="735,1989 1421,1987 1828,1989" />
+				<TextEquiv>
+					<Unicode>als den: 8. diz. solich wol¬</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_24f3a0a9-084f-4270-b2fa-2103304c603b" custom="readingOrder {index:11;}">
+				<Coords points="1769,2013 1451,2009 718,2020 718,2116 1451,2105 1769,2109" />
+				<Baseline points="718,2091 1451,2080 1769,2084" />
+				<TextEquiv>
+					<Unicode>gemeltem Beūelh. mit</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_d89ecbe5-1a54-4984-9b4f-f01181b86621" custom="readingOrder {index:12;}">
+				<Coords points="1839,2122 1432,2116 720,2122 720,2218 1432,2212 1839,2218" />
+				<Baseline points="720,2192 1432,2186 1839,2192" />
+				<TextEquiv>
+					<Unicode>haltūng der Gotsdienst,</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_6536fc24-b381-45c2-b132-4884a4b17406" custom="readingOrder {index:13;}">
+				<Coords points="1814,2224 1401,2213 683,2224 683,2323 1401,2312 1814,2323" />
+				<Baseline points="683,2297 1401,2286 1814,2297" />
+				<TextEquiv>
+					<Unicode>Item des gemelten Lobge¬</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_e098886a-2ec7-4af6-a4cc-35d628fc5ff4" custom="readingOrder {index:14;}">
+				<Coords points="1885,2316 1519,2306 712,2329 712,2427 1519,2404 1885,2414" />
+				<Baseline points="712,2403 1519,2380 1885,2390" />
+				<TextEquiv>
+					<Unicode>sanngs. vnd Los Prenūng</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_9e0d008b-244b-4ff9-b7bf-4fcabd86ffc6" custom="readingOrder {index:15;}">
+				<Coords points="1833,2433 1422,2414 701,2423 701,2516 1422,2507 1833,2526" />
+				<Baseline points="701,2492 1422,2483 1833,2502" />
+				<TextEquiv>
+					<Unicode>des Gschüz. sōvil Immer</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_d7b2fb1a-4b72-45a7-b877-372dc11c534b" custom="readingOrder {index:16;}">
+				<Coords points="1788,2522 1483,2516 716,2531 716,2622 1483,2607 1788,2613" />
+				<Baseline points="716,2598 1483,2583 1788,2589" />
+				<TextEquiv>
+					<Unicode>sein khinden, Inngegen¬</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_ef182fcc-d87b-41f5-a4a5-d614d7d91c44" custom="readingOrder {index:17;}">
+				<Coords points="1919,2626 1527,2620 739,2628 739,2707 1527,2699 1919,2705" />
+				<Baseline points="739,2697 1527,2689 1919,2695" />
+				<TextEquiv>
+					<Unicode>wiert herrn Landthaūbt¬</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextEquiv>
+				<Unicode>Erstens ain drūckhten Be¬
+ūelch. wegen der: aūs sond¬
+barer von Gott dem All¬
+mechtigen verlihnen gnad.
+hilff vnd Segen. ein genom¬
+nen Haūbtstat Prag. im
+Kinigreich Böhemb. das
+Te Deum Laudamus Zūsing.
+Abgehördt, Weiln
+dises dann schon vor disem.
+als den: 8. diz. solich wol¬
+gemeltem Beūelh. mit
+haltūng der Gotsdienst,
+Item des gemelten Lobge¬
+sanngs. vnd Los Prenūng
+des Gschüz. sōvil Immer
+sein khinden, Inngegen¬
+wiert herrn Landthaūbt¬</Unicode>
+			</TextEquiv>
+		</TextRegion>
+		<TextRegion id="region_871ded14-a552-4211-8d57-95fc1102f53a" custom="readingOrder {index:3;}">
+			<Coords points="89,936 677,936 677,1357 89,1357" />
+			<TextLine id="line_b5d0f1f9-736c-49d2-b3c7-5c3998419936" custom="readingOrder {index:0;} textStyle {offset:4; length:7;monospace:true;}">
+				<Coords points="677,962 107,954 107,1035 677,1043" />
+				<Baseline points="107,1014 677,1022" />
+				<TextEquiv>
+					<Unicode>Das Te Deum</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_3b3271d1-ad59-432d-a602-e264611ee06b" custom="readingOrder {index:1;} textStyle {offset:0; length:8;monospace:true;}">
+				<Coords points="617,1048 202,1048 202,1128 617,1128" />
+				<Baseline points="202,1108 617,1108" />
+				<TextEquiv>
+					<Unicode>Laudamus</Unicode>
+				</TextEquiv>
+				<TextStyle monospace="true" />
+			</TextLine>
+			<TextLine id="line_e807a4a3-e58d-4650-bfe8-73f710751c58" custom="readingOrder {index:2;}">
+				<Coords points="636,1123 200,1132 200,1206 636,1197" />
+				<Baseline points="200,1188 636,1179" />
+				<TextEquiv>
+					<Unicode>die Statt</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_a205098f-3f35-43e7-967a-012b87bf624f" custom="readingOrder {index:3;} abbrev {offset:5; length:4;expansion:betreffend;}">
+				<Coords points="611,1211 211,1211 211,1286 611,1286" />
+				<Baseline points="211,1263 611,1263" />
+				<TextEquiv>
+					<Unicode>Prag bet:</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextEquiv>
+				<Unicode>Das Te Deum
+Laudamus
+die Statt
+Prag bet:</Unicode>
+			</TextEquiv>
+		</TextRegion>
+	</Page>
+</PcGts>

@@ -1,0 +1,234 @@
+<?xml version="1.0"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+	<Metadata>
+		<Creator>TRP</Creator>
+		<Created>2014-09-25T12:35:49.679+02:00</Created>
+		<LastChange>2016-01-20T11:54:08.426+01:00</LastChange>
+	</Metadata>
+	<Page imageFilename="Seite0431.JPG" imageWidth="2306" imageHeight="3511">
+		<ReadingOrder>
+			<OrderedGroup id="ro_1453287266131" caption="Regions reading order">
+				<RegionRefIndexed index="0" regionRef="region_87ffb60b-b44c-4dc9-aac8-299775cb57f5" />
+				<RegionRefIndexed index="1" regionRef="region_72ff91e7-85a4-4e94-8a52-234db389f7aa" />
+				<RegionRefIndexed index="2" regionRef="region_8429f70e-a69c-478d-9c84-c7f34d9bf61b" />
+				<RegionRefIndexed index="3" regionRef="region_7303d4c3-39e4-4451-ae93-ac68c393e61d" />
+				<RegionRefIndexed index="4" regionRef="region_c8ef8e39-fa0c-4f3f-8dc3-85a0839c05e9" />
+				<RegionRefIndexed index="5" regionRef="region_a7a0458c-ce14-4129-a2ee-076083852137" />
+			</OrderedGroup>
+		</ReadingOrder>
+		<TextRegion id="region_87ffb60b-b44c-4dc9-aac8-299775cb57f5" custom="readingOrder {index:0;}">
+			<Coords points="1640,200 1918,200 1918,306 1640,306" />
+			<TextLine id="line_3127e144-679a-4f3d-8900-4e5a6bc32e9e" custom="readingOrder {index:0;}">
+				<Coords points="1870,229 1674,227 1674,295 1870,297" />
+				<Baseline points="1674,292 1870,294" />
+				<TextEquiv>
+					<Unicode>216</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextEquiv>
+				<Unicode>216</Unicode>
+			</TextEquiv>
+		</TextRegion>
+		<TextRegion id="region_72ff91e7-85a4-4e94-8a52-234db389f7aa" custom="readingOrder {index:1;}">
+			<Coords points="629,424 1925,424 1925,744 629,744" />
+			<TextLine id="line_dc58bd48-22b6-49e8-a00f-6460d8d64805" custom="readingOrder {index:0;}">
+				<Coords points="1879,433 1491,434 671,446 671,520 1491,508 1879,507" />
+				<Baseline points="671,496 1491,484 1879,483" />
+				<TextEquiv>
+					<Unicode>verhannden, well mann</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_8fd4cb95-39a0-4d8d-8fd5-ec99cf6eab52" custom="readingOrder {index:1;} textStyle {offset:21; length:3;monospace:true;}">
+				<Coords points="1866,525 1438,515 690,523 690,614 1438,606 1866,616" />
+				<Baseline points="690,590 1438,582 1866,592" />
+				<TextEquiv>
+					<Unicode>seiner aūf begebende Vac¬</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_d3936ca5-2d68-4a7b-86df-a6e6e3495eb3" custom="readingOrder {index:2;} textStyle {offset:0; length:6;monospace:true;}">
+				<Coords points="1822,617 1342,622 714,620 714,702 1342,704 1822,699" />
+				<Baseline points="714,689 1342,691 1822,686" />
+				<TextEquiv>
+					<Unicode>ierūng Inngedennckh sein,</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextEquiv>
+				<Unicode>verhannden, well mann
+seiner aūf begebende Vac¬
+ierūng Inngedennckh sein,</Unicode>
+			</TextEquiv>
+		</TextRegion>
+		<TextRegion id="region_8429f70e-a69c-478d-9c84-c7f34d9bf61b" custom="readingOrder {index:2;}">
+			<Coords points="669,797 1908,797 1908,2010 669,2010" />
+			<TextLine id="line_c6dc5a39-da2a-4b4d-91ac-7e1814f6949f" custom="readingOrder {index:0;}">
+				<Coords points="1789,863 1358,848 690,837 690,1015 1358,1026 1789,1041" />
+				<Baseline points="690,991 1358,1002 1789,1017" />
+				<TextEquiv>
+					<Unicode>Die Steirnaglischen Piten</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_e0513e5d-04a7-403e-be23-e9caad5ade0d" custom="readingOrder {index:1;}">
+				<Coords points="1798,1047 1346,1030 720,1017 720,1113 1346,1126 1798,1143" />
+				<Baseline points="720,1085 1346,1098 1798,1115" />
+				<TextEquiv>
+					<Unicode>Inen. wegen Irer Roß</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_6a01dc54-d3db-4291-96d5-8e5befb5f7a7" custom="readingOrder {index:2;}">
+				<Coords points="1832,1150 1444,1124 720,1105 720,1208 1444,1227 1832,1253" />
+				<Baseline points="720,1186 1444,1205 1832,1231" />
+				<TextEquiv>
+					<Unicode>vrkhūndt Zūertailn. das</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_9264000e-9a60-4036-9b8d-81f16d4a77c6" custom="readingOrder {index:3;} textStyle {offset:3; length:3;strikethrough:true;}">
+				<Coords points="1830,1258 1320,1236 703,1223 703,1308 1320,1321 1830,1343" />
+				<Baseline points="703,1284 1320,1297 1830,1319" />
+				<TextEquiv>
+					<Unicode>Sȳ Ire dieselben wider</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_7f6a1c34-51b1-4bf7-88df-f084807c32ad" custom="readingOrder {index:4;}">
+				<Coords points="1821,1349 1476,1322 722,1311 722,1404 1476,1415 1821,1442" />
+				<Baseline points="722,1379 1476,1390 1821,1417" />
+				<TextEquiv>
+					<Unicode>Zū Rūgg haim Zū reiten</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_6aec01ce-8495-40f9-ac57-e1fa8f54713c" custom="readingOrder {index:5;}">
+				<Coords points="1864,1448 1489,1422 718,1401 718,1495 1489,1516 1864,1542" />
+				<Baseline points="718,1471 1489,1492 1864,1518" />
+				<TextEquiv>
+					<Unicode>willens. Ist bewilligt.</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_257a6643-08d1-4dc7-95a5-1710f0f870a8" custom="readingOrder {index:6;}">
+				<Coords points="1798,1547 1410,1513 724,1490 724,1581 1410,1604 1798,1638" />
+				<Baseline points="724,1557 1410,1580 1798,1614" />
+				<TextEquiv>
+					<Unicode>das Sȳ Ire Roß Zū be¬</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_6997950e-02b8-4b2e-94d9-b1fb4cb0fa1c" custom="readingOrder {index:7;}">
+				<Coords points="1817,1644 1485,1612 701,1588 701,1687 1485,1711 1817,1743" />
+				<Baseline points="701,1657 1485,1681 1817,1713" />
+				<TextEquiv>
+					<Unicode>sūechūng des Marckhts</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_097aede5-5ae7-487e-b53b-521aeb0e91bc" custom="readingOrder {index:8;}">
+				<Coords points="1898,1749 1569,1704 731,1670 731,1774 1569,1808 1898,1853" />
+				<Baseline points="731,1754 1569,1788 1898,1833" />
+				<TextEquiv>
+					<Unicode>hergebracht. vnd selbige</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_0f94bdbc-db17-4a00-b5ad-8ca84662c89d" custom="readingOrder {index:9;}">
+				<Coords points="1868,1858 1658,1837 716,1798 716,1871 1658,1910 1868,1931" />
+				<Baseline points="716,1854 1658,1893 1868,1914" />
+				<TextEquiv>
+					<Unicode>mit Inen wider Zū Rūgg</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_1cbe6f38-6f64-43d0-82f1-4acf4d7266a7" custom="readingOrder {index:10;}">
+				<Coords points="1583,1936 701,1902 701,1957 1583,1991" />
+				<Baseline points="701,1951 1583,1985" />
+				<TextEquiv>
+					<Unicode>nach haūß geriten,</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextEquiv>
+				<Unicode>Die Steirnaglischen Piten
+Inen. wegen Irer Roß
+vrkhūndt Zūertailn. das
+Sȳ Ire dieselben wider
+Zū Rūgg haim Zū reiten
+willens. Ist bewilligt.
+das Sȳ Ire Roß Zū be¬
+sūechūng des Marckhts
+hergebracht. vnd selbige
+mit Inen wider Zū Rūgg
+nach haūß geriten,</Unicode>
+			</TextEquiv>
+		</TextRegion>
+		<TextRegion id="region_7303d4c3-39e4-4451-ae93-ac68c393e61d" custom="readingOrder {index:3;}">
+			<Coords points="140,944 659,944 659,1190 140,1190" />
+			<TextLine id="line_ab26122d-a5b5-4da0-a26b-eb14c911ba2a" custom="readingOrder {index:0;}">
+				<Coords points="650,968 172,976 172,1068 650,1060" />
+				<Baseline points="172,1049 650,1041" />
+				<TextEquiv>
+					<Unicode>Steirnag¬</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_e5137cef-95fc-4f1f-ad19-7becaba25ebc" custom="readingOrder {index:1;} abbrev {offset:0; length:6;expansion:lischen;}">
+				<Coords points="467,1060 266,1073 266,1143 467,1130" />
+				<Baseline points="266,1128 467,1115" />
+				<TextEquiv>
+					<Unicode>lisch.</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextEquiv>
+				<Unicode>Steirnag¬
+lisch.</Unicode>
+			</TextEquiv>
+		</TextRegion>
+		<TextRegion id="region_c8ef8e39-fa0c-4f3f-8dc3-85a0839c05e9" custom="readingOrder {index:4;}">
+			<Coords points="724,2036 2042,2036 2042,2710 724,2710" />
+			<TextLine id="line_1e69f0c1-5284-4e4d-a765-b29afbb0be9a" custom="readingOrder {index:0;}">
+				<Coords points="1895,2105 1376,2073 748,2078 748,2264 1376,2259 1895,2291" />
+				<Baseline points="748,2239 1376,2234 1895,2266" />
+				<TextEquiv>
+					<Unicode>Der Steūr einnemer Eū¬</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_e462d48d-0ac7-4e02-bc19-ef73423c0792" custom="readingOrder {index:1;}">
+				<Coords points="1852,2297 1619,2280 758,2267 758,2363 1619,2376 1852,2393" />
+				<Baseline points="758,2339 1619,2352 1852,2369" />
+				<TextEquiv>
+					<Unicode>stachÿ Frannzin, begert</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_3f17339c-b10b-4249-addc-7240c1f0084b" custom="readingOrder {index:2;}">
+				<Coords points="1905,2399 1529,2377 732,2364 732,2454 1529,2467 1905,2489" />
+				<Baseline points="732,2431 1529,2444 1905,2466" />
+				<TextEquiv>
+					<Unicode>nochmalln. Ime die Steūr</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_a46ff9e6-044a-4031-bf73-caa8cf42d18e" custom="readingOrder {index:3;}">
+				<Coords points="1855,2494 1555,2481 732,2470 732,2557 1555,2568 1855,2581" />
+				<Baseline points="732,2534 1555,2545 1855,2558" />
+				<TextEquiv>
+					<Unicode>Zūerlegen. Soll bis</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_171b22d6-a17e-4877-99df-8d72fafacc4b" custom="readingOrder {index:4;}">
+				<Coords points="2023,2587 1624,2558 735,2558 735,2638 1624,2638 2023,2667" />
+				<Baseline points="735,2624 1624,2624 2023,2653" />
+				<TextEquiv>
+					<Unicode>negsten Erchtag Zūr gedūlt </Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextEquiv>
+				<Unicode>Der Steūr einnemer Eū¬
+stachÿ Frannzin, begert
+nochmalln. Ime die Steūr
+Zūerlegen. Soll bis
+negsten Erchtag Zūr gedūlt </Unicode>
+			</TextEquiv>
+		</TextRegion>
+		<TextRegion id="region_a7a0458c-ce14-4129-a2ee-076083852137" custom="readingOrder {index:5;}">
+			<Coords points="117,2120 727,2120 727,2285 117,2285" />
+			<TextLine id="line_78fc05e4-5aab-4b44-afd2-4329e4ae5a57" custom="readingOrder {index:0;}">
+				<Coords points="712,2138 164,2156 164,2251 712,2233" />
+				<Baseline points="164,2240 712,2222" />
+				<TextEquiv>
+					<Unicode>Steūrgelt.</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextEquiv>
+				<Unicode>Steūrgelt.</Unicode>
+			</TextEquiv>
+		</TextRegion>
+	</Page>
+</PcGts>

@@ -1,0 +1,202 @@
+<?xml version="1.0"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+	<Metadata>
+		<Creator>TRP</Creator>
+		<Created>2014-09-25T12:35:49.397+02:00</Created>
+		<LastChange>2016-01-20T13:16:09.469+01:00</LastChange>
+	</Metadata>
+	<Page imageFilename="Seite0422.JPG" imageWidth="2456" imageHeight="3511">
+		<ReadingOrder>
+			<OrderedGroup id="ro_1453292186715" caption="Regions reading order">
+				<RegionRefIndexed index="0" regionRef="region_002d7ef0-1a6e-40ad-918d-55c923f78b09" />
+				<RegionRefIndexed index="1" regionRef="region_0d67574a-b4ed-4857-8906-cbc7c7007827" />
+			</OrderedGroup>
+		</ReadingOrder>
+		<TextRegion id="region_002d7ef0-1a6e-40ad-918d-55c923f78b09" custom="readingOrder {index:0;}">
+			<Coords points="432,113 569,113 569,260 432,260" />
+			<TextLine id="line_aa9cb5d1-7787-429f-8a40-003c849fdc2e" custom="readingOrder {index:0;}">
+				<Coords points="556,139 444,151 444,244 556,232" />
+				<Baseline points="444,239 556,227" />
+				<TextEquiv>
+					<Unicode>212</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextEquiv>
+				<Unicode>212</Unicode>
+			</TextEquiv>
+		</TextRegion>
+		<TextRegion id="region_0d67574a-b4ed-4857-8906-cbc7c7007827" custom="readingOrder {index:1;}">
+			<Coords points="993,401 2265,401 2265,2740 993,2740" />
+			<TextLine id="line_4797bd0c-d4f9-4c91-91d6-8da238878acb" custom="readingOrder {index:0;}">
+				<Coords points="2056,443 1038,445 1038,571 2056,569" />
+				<Baseline points="1038,547 2056,545" />
+				<TextEquiv>
+					<Unicode>gelegen, Aint weders</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_a3e7db92-5458-48b9-ad38-16fbb855c843" custom="readingOrder {index:1;} abbrev {offset:3; length:4;expansion:Fürstlichen;}">
+				<Coords points="2092,577 1061,577 1061,675 2092,675" />
+				<Baseline points="1061,645 2092,645" />
+				<TextEquiv>
+					<Unicode>im Frl: Ambthaūs alhie,</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_de6f314b-9c03-4777-be6d-58d8a5520b97" custom="readingOrder {index:2;}">
+				<Coords points="2015,682 1035,677 1035,787 2015,792" />
+				<Baseline points="1035,762 2015,767" />
+				<TextEquiv>
+					<Unicode>oder Anndern Zolsge¬</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_24bbfbc4-4e2d-4923-b8a8-7cd48e54ffcd" custom="readingOrder {index:3;}">
+				<Coords points="2164,788 1893,798 1056,788 1056,884 1893,894 2164,884" />
+				<Baseline points="1056,860 1893,870 2164,860" />
+				<TextEquiv>
+					<Unicode>felln. one gehorsame Maß¬</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_59a6c3b6-87a6-4602-91e5-1563517571be" custom="readingOrder {index:4;}">
+				<Coords points="2039,900 1647,900 1051,895 1051,987 1647,992 2039,992" />
+				<Baseline points="1051,962 1647,967 2039,967" />
+				<TextEquiv>
+					<Unicode>gebūng, die Abstat¬</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_35a2c475-47a8-4347-b45e-0a3766e24e68" custom="readingOrder {index:5;}">
+				<Coords points="2102,991 1818,998 1053,993 1053,1091 1818,1096 2102,1089" />
+				<Baseline points="1053,1064 1818,1069 2102,1062" />
+				<TextEquiv>
+					<Unicode>ūng geherter Wachten</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_64028561-acb0-407a-b07d-21245893da6e" custom="readingOrder {index:6;}">
+				<Coords points="2059,1090 1724,1102 1043,1097 1043,1199 1724,1204 2059,1192" />
+				<Baseline points="1043,1174 1724,1179 2059,1167" />
+				<TextEquiv>
+					<Unicode>(:darüber wochenlich</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_6c9f7eff-0f20-42d8-96a4-c702a56cd871" custom="readingOrder {index:7;}">
+				<Coords points="2036,1200 1760,1197 1069,1210 1069,1307 1760,1294 2036,1297" />
+				<Baseline points="1069,1282 1760,1269 2036,1272" />
+				<TextEquiv>
+					<Unicode>aūf :4: Personen bis</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_4182ed9b-3b33-4ee8-b924-0e7853cbd852" custom="readingOrder {index:8;} abbrev {offset:7; length:2;expansion:florin;}">
+				<Coords points="2146,1304 1757,1312 1053,1312 1053,1412 1757,1412 2146,1404" />
+				<Baseline points="1053,1382 1757,1382 2146,1374" />
+				<TextEquiv>
+					<Unicode>in: 14 fl Aūferlaūfft.).</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_dcdbed18-606a-4099-bacd-ee6e7895fb0b" custom="readingOrder {index:9;} abbrev {offset:12; length:3;expansion:gnädiglich;}">
+				<Coords points="2161,1387 1990,1397 1048,1418 1048,1526 1990,1505 2161,1495" />
+				<Baseline points="1048,1502 1990,1481 2161,1471" />
+				<TextEquiv>
+					<Unicode>Abzestaten. gl: Zūver¬</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_4ee2d247-c5d5-420c-a481-f4a8d9e79c11" custom="readingOrder {index:10;}">
+				<Coords points="2175,1513 1813,1532 1065,1530 1065,1623 1813,1625 2175,1606" />
+				<Baseline points="1065,1597 1813,1599 2175,1580" />
+				<TextEquiv>
+					<Unicode>ordnen. Dann in den</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_ae6afc8e-99e3-4cbb-81cc-516ea1363603" custom="readingOrder {index:11;}">
+				<Coords points="2088,1610 1663,1631 1043,1631 1043,1731 1663,1731 2088,1710" />
+				<Baseline points="1043,1703 1663,1703 2088,1682" />
+				<TextEquiv>
+					<Unicode>Lanndtrichter ambtß.</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_a118986f-34ce-4344-a323-6fc645555b5c" custom="readingOrder {index:12;}">
+				<Coords points="2118,1707 1769,1724 1077,1737 1077,1843 1769,1830 2118,1813" />
+				<Baseline points="1077,1815 1769,1802 2118,1785" />
+				<TextEquiv>
+					<Unicode>gfelln khain gewisses</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_636d2866-a796-4e48-9593-afd323b1b8e6" custom="readingOrder {index:13;}">
+				<Coords points="2074,1826 1784,1835 1069,1850 1069,1954 1784,1939 2074,1930" />
+				<Baseline points="1069,1929 1784,1914 2074,1905" />
+				<TextEquiv>
+					<Unicode>Einkhomen. vnd bei ob¬</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_75b34b01-798e-4b6c-bf91-c39021360467" custom="readingOrder {index:14;}">
+				<Coords points="2118,1941 1691,1958 1084,1960 1084,2061 1691,2059 2118,2042" />
+				<Baseline points="1084,2030 1691,2028 2118,2011" />
+				<TextEquiv>
+					<Unicode>habenden Angeschaffnen¬</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_7f3bdc57-92af-4c17-8a16-61845a98a2e9" custom="readingOrder {index:15;}">
+				<Coords points="2190,2034 1864,2038 1086,2068 1086,2179 1864,2149 2190,2145" />
+				<Baseline points="1086,2155 1864,2125 2190,2121" />
+				<TextEquiv>
+					<Unicode>vnd Annderen schweren</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_4f5c1ccf-35ff-4e43-9b53-68368d1af05d" custom="readingOrder {index:16;}">
+				<Coords points="2084,2166 1761,2185 1063,2183 1063,2281 1761,2283 2084,2264" />
+				<Baseline points="1063,2252 1761,2254 2084,2235" />
+				<TextEquiv>
+					<Unicode>Aūsgaben. nichts vor¬</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_307631af-df17-4d7f-a253-a11eda9fb93c" custom="readingOrder {index:17;}">
+				<Coords points="2055,2275 1712,2288 1090,2290 1090,2399 1712,2397 2055,2384" />
+				<Baseline points="1090,2373 1712,2371 2055,2358" />
+				<TextEquiv>
+					<Unicode>rätigs verhannden,</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_ca4b7c83-fb80-406c-9dcd-d01135cc0b79" custom="readingOrder {index:18;}">
+				<Coords points="2044,2396 1824,2404 1103,2406 1103,2508 1824,2506 2044,2498" />
+				<Baseline points="1103,2480 1824,2478 2044,2470" />
+				<TextEquiv>
+					<Unicode>So wūrde es Ainem</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_f07d59b9-0d3e-4134-80a0-ed03ebb7772f" custom="readingOrder {index:19;}">
+				<Coords points="2124,2506 1706,2515 1050,2504 1050,2606 1706,2617 2124,2608" />
+				<Baseline points="1050,2584 1706,2595 2124,2586" />
+				<TextEquiv>
+					<Unicode>Rath in solichen fähln.</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_dd14b93c-64cc-4cb2-8dfe-902c4f23e930" custom="readingOrder {index:20;}">
+				<Coords points="2236,2610 1820,2618 1050,2623 1050,2699 1820,2694 2236,2686" />
+				<Baseline points="1050,2686 1820,2681 2236,2673" />
+				<TextEquiv>
+					<Unicode>Aūsser was Zū Infecti¬</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextEquiv>
+				<Unicode>gelegen, Aint weders
+im Frl: Ambthaūs alhie,
+oder Anndern Zolsge¬
+felln. one gehorsame Maß¬
+gebūng, die Abstat¬
+ūng geherter Wachten
+(:darüber wochenlich
+aūf :4: Personen bis
+in: 14 fl Aūferlaūfft.).
+Abzestaten. gl: Zūver¬
+ordnen. Dann in den
+Lanndtrichter ambtß.
+gfelln khain gewisses
+Einkhomen. vnd bei ob¬
+habenden Angeschaffnen¬
+vnd Annderen schweren
+Aūsgaben. nichts vor¬
+rätigs verhannden,
+So wūrde es Ainem
+Rath in solichen fähln.
+Aūsser was Zū Infecti¬</Unicode>
+			</TextEquiv>
+		</TextRegion>
+	</Page>
+</PcGts>
