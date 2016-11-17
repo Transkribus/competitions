@@ -279,80 +279,6 @@ class ModelTests(TestCase):
         iq = Individual.objects.all()
         self.assertEqual(len(iq), 1)
 
-class EvaluatorTests(TestCase):
-    def test_icfhr14_kws_tool(self):
-        res = icfhr14_kws_tool()
-        self.assertEqual(res, {
-            'pr-curve': '["1.0000", "1.0000", "1.0000", "1.0000", "1.0000", "0.6667", "0.0000", "0.0000", "0.0000", "0.0000", "0.0000"]',
-            'p@5': '0.9000',
-            'r-precision': '0.5000',
-            'map': '0.5185',
-            'ndcg': '0.6395',
-            'p@10': '0.5000',
-            'ndcg-binary': '0.6817'
-            }
-        )
-    def test_transkribusBaseLineMetricTool(self):
-        res = transkribusBaseLineMetricTool()
-        self.assertEqual(res, {
-                'bl-avg-precision': '0.744',
-                'bl-avg-recall': '0.7586',
-                'bl-avg-fmeasure': '0.7512',
-            }
-        )
-
-
-class TranskribusErrorRateTests(TestCase):
-    def _test_transkribuserrorrate(self, params="", tgt={}):
-        res = transkribusErrorRate(privatedata="competitions/executables/TranskribusErrorRate/testresources/gt.tgz",
-                                   resultdata="competitions/executables/TranskribusErrorRate/testresources/hyp.tgz",
-                                   tmpfolder="competitions/executables/TranskribusErrorRate/testresources/tmp",
-                                   execpath="competitions/executables/TranskribusErrorRate/", params=params)
-        print("output of test is '" + str(res) + "'.")
-        print("output of tgt  is '" + str(tgt) + "'.")
-        for key in tgt:
-            self.assertEqual(float(tgt.get(key)), float(res.get(key)))
-
-    def test_transkribuserrorrate_cer(self):
-        self._test_transkribuserrorrate(
-            params="",
-            tgt={
-                'DEL': '0.05',
-                'ERR': '0.465',
-                'SUB': '0.215',
-                'INS': '0.2'
-            })
-
-    def test_transkribuserrorrate_wer(self):
-        self._test_transkribuserrorrate(
-            params="-w",
-            tgt={
-                'DEL': '0.1',
-                'ERR': '0.78',
-                'SUB': '0.3',
-                'INS': '0.38',
-            })
-
-    def test_transkribuserrorrate_cer_upper(self):
-        self._test_transkribuserrorrate(
-            params="-u",
-            tgt={
-                'DEL': '0.05',
-                'ERR': '0.335',
-                'SUB': '0.085',
-                'INS': '0.2',
-            })
-
-    def test_transkribuserrorrate_wer_letter(self):
-        self._test_transkribuserrorrate(
-            params="-l -w",
-            tgt={
-                'DEL': '0.02',
-                'ERR': '0.74',
-                'SUB': '0.32',
-                'INS': '0.4',
-            })
-
 
 class AuthenticationTests(TestCase):
     """
@@ -406,3 +332,81 @@ class FormTests(TestCase):
 class ThirdpartyTests(TestCase):
     def test_p7zip(self):
         self.assertIn('p7zip Version', cmdline('7zr'))
+
+
+#
+# Evaluator tests.
+#
+class EvaluatorTests(TestCase):
+    def test_icfhr14_kws_tool(self):
+        res = icfhr14_kws_tool()
+        self.assertEqual(res, {
+            'pr-curve': '["1.0000", "1.0000", "1.0000", "1.0000", "1.0000", "0.6667", "0.0000", "0.0000", "0.0000", "0.0000", "0.0000"]',
+            'p@5': '0.9000',
+            'r-precision': '0.5000',
+            'map': '0.5185',
+            'ndcg': '0.6395',
+            'p@10': '0.5000',
+            'ndcg-binary': '0.6817'
+            }
+        )
+    def test_transkribusBaseLineMetricTool(self):
+        res = transkribusBaseLineMetricTool()
+        self.assertEqual(res, {
+                'bl-avg-precision': '0.744',
+                'bl-avg-recall': '0.7586',
+                'bl-avg-fmeasure': '0.7512',
+            }
+        )
+
+
+class EvaluatorTests_TranskribusErrorRate(TestCase):
+    def _test_transkribuserrorrate(self, params="", tgt={}):
+        res = transkribusErrorRate(privatedata="competitions/executables/TranskribusErrorRate/testresources/gt.tgz",
+                                   resultdata="competitions/executables/TranskribusErrorRate/testresources/hyp.tgz",
+                                   tmpfolder="competitions/executables/TranskribusErrorRate/testresources/tmp",
+                                   execpath="competitions/executables/TranskribusErrorRate/", params=params)
+        print("output of test is '" + str(res) + "'.")
+        print("output of tgt  is '" + str(tgt) + "'.")
+        for key in tgt:
+            self.assertEqual(float(tgt.get(key)), float(res.get(key)))
+
+    def test_transkribuserrorrate_cer(self):
+        self._test_transkribuserrorrate(
+            params="",
+            tgt={
+                'DEL': '0.05',
+                'ERR': '0.465',
+                'SUB': '0.215',
+                'INS': '0.2'
+            })
+
+    def test_transkribuserrorrate_wer(self):
+        self._test_transkribuserrorrate(
+            params="-w",
+            tgt={
+                'DEL': '0.1',
+                'ERR': '0.78',
+                'SUB': '0.3',
+                'INS': '0.38',
+            })
+
+    def test_transkribuserrorrate_cer_upper(self):
+        self._test_transkribuserrorrate(
+            params="-u",
+            tgt={
+                'DEL': '0.05',
+                'ERR': '0.335',
+                'SUB': '0.085',
+                'INS': '0.2',
+            })
+
+    def test_transkribuserrorrate_wer_letter(self):
+        self._test_transkribuserrorrate(
+            params="-l -w",
+            tgt={
+                'DEL': '0.02',
+                'ERR': '0.74',
+                'SUB': '0.32',
+                'INS': '0.4',
+            })
