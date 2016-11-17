@@ -8,7 +8,7 @@ from .models import Affiliation, Competition, Individual
 from .models import Track, Subtrack
 
 from .evaluators import cmdline
-from .evaluators import icfhr14_kws_tool, transkribusBaseLineMetricTool, transkribusErrorRate
+from .evaluators import icfhr14_kws_tool, transkribusBaseLineMetricTool, transkribusErrorRate, icfhr16_HTR_tool
 
 def create_new_user():
     user = User.objects.create_user(
@@ -358,6 +358,21 @@ class EvaluatorTests(TestCase):
                 'bl-avg-fmeasure': '0.7512',
             }
         )
+
+class EvaluatorTests_HTR2016(TestCase):
+    def test_htr2016_dependencies(self):
+        self.assertIn('hello', cmdline('echo hello | ascii2uni') )
+        self.assertIn('hello', cmdline('echo hello | uni2ascii') )
+        self.assertIn('nan', cmdline('./tasas /tmp', cwd='competitions/executables/EvaluationCERandWER/') )
+        self.assertIn('ERROR PRHLT null', cmdline('page_format_tool', cwd='competitions/executables/EvaluationCERandWER/'))
+    def test_htr2016_evaluationtool(self):
+        res = icfhr16_HTR_tool(privatedata='competitions/executables/EvaluationCERandWER/fixtures/gt_smaller/',
+                                resultdata='competitions/executables/EvaluationCERandWER/fixtures/RWTH_smaller.tar')
+        print(res)
+        self.assertEqual(res, {
+            'CER': '4.123711', 
+            'WER': '14.864865',
+        })
 
 
 class EvaluatorTests_TranskribusErrorRate(TestCase):
