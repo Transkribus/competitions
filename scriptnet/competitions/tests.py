@@ -364,7 +364,7 @@ class EvaluatorTests_HTR2016(TestCase):
         self.assertIn('hello', cmdline('echo hello | ascii2uni') )
         self.assertIn('hello', cmdline('echo hello | uni2ascii') )
         self.assertIn('nan', cmdline('./tasas /tmp', cwd='competitions/executables/EvaluationCERandWER/') )
-        self.assertIn('ERROR PRHLT null', cmdline('page_format_tool', cwd='competitions/executables/EvaluationCERandWER/'))
+        self.assertIn('ERROR PRHLT null', cmdline('./page_format_tool', cwd='competitions/executables/EvaluationCERandWER/'))
     def test_htr2016_evaluationtool(self):
         res = icfhr16_HTR_tool(privatedata='competitions/executables/EvaluationCERandWER/fixtures/gt_smaller/',
                                 resultdata='competitions/executables/EvaluationCERandWER/fixtures/RWTH_smaller.tar')
