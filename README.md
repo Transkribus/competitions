@@ -40,6 +40,7 @@ The benchmarks in the ICFHR'16 HTR competition require the liblog4cc and boost/f
 ```
 apt-get install liblog4cxx10
 apt-get install libboost-filesystem1.54.0
+apt-get install uni2ascii
 ```
 
 ##### p7zip
