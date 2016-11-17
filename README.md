@@ -294,6 +294,25 @@ result = {
 * Keep note of the names of the evaluator functions you have defined, and the benchmark names you have used as keys on the dictionary your evaluator function returns.
 You will need these to define corresponding django models.
 
+* Create tests for your benchmark. Add code at [tests.py](https://github.com/Transkribus/competitions/blob/master/scriptnet/competitions/tests.py). Each test function should go under ```class EvaluatorTests```, or under a new class named ```class EvaluatorTests_***``` if you feel like using a lot of test functions. An example of a test function is:
+
+```python
+def test_icfhr14_kws_tool(self):
+    res = icfhr14_kws_tool()
+    self.assertEqual(res, {
+        'pr-curve': '["1.0000", "1.0000", "1.0000", "1.0000", "1.0000", "0.6667", "0.0000", "0.0000", "0.0000", "0.0000", "0.0000"]',
+        'p@5': '0.9000',
+        'r-precision': '0.5000',
+        'map': '0.5185',
+        'ndcg': '0.6395',
+        'p@10': '0.5000',
+        'ndcg-binary': '0.6817'
+        }
+    )
+```
+
+At a minimum, tests should check that some result fixture should return specific benchmark values.
+
 #### 2. Access the django administration page. 
     
 * If you are the site administrator, simply login with your credentials. The administration site URL will normally be http://my.site.com/admin/
