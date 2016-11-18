@@ -8,6 +8,7 @@ from django.core.urlresolvers import reverse
 from django.conf import settings
 from django.utils.translation import ugettext_lazy as _
 from django_tables2 import RequestConfig
+from django.core.mail import send_mail
 
 from .forms import LoginForm, RegisterForm, NEW_AFFILIATION_ID
 from .forms import SubmitForm
