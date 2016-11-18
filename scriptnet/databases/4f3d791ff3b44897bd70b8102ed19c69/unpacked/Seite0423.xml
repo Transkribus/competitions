@@ -1,0 +1,206 @@
+<?xml version="1.0"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+	<Metadata>
+		<Creator>TRP</Creator>
+		<Created>2014-09-25T12:35:49.429+02:00</Created>
+		<LastChange>2016-01-20T13:06:28.428+01:00</LastChange>
+	</Metadata>
+	<Page imageFilename="Seite0423.JPG" imageWidth="2314" imageHeight="3511">
+		<ReadingOrder>
+			<OrderedGroup id="ro_1453291606440" caption="Regions reading order">
+				<RegionRefIndexed index="0" regionRef="region_84a2b88f-5ac8-4f0b-8930-caf2312df2ca" />
+				<RegionRefIndexed index="1" regionRef="region_01961ac6-c734-45a7-b379-e0915d9c5a0b" />
+				<RegionRefIndexed index="2" regionRef="region_e85d6155-c3e5-45dc-b044-1ffd1ddba258" />
+				<RegionRefIndexed index="3" regionRef="region_14cf83cf-17db-431e-aa92-0b5e8ac8749e" />
+			</OrderedGroup>
+		</ReadingOrder>
+		<TextRegion id="region_84a2b88f-5ac8-4f0b-8930-caf2312df2ca" custom="readingOrder {index:0;}">
+			<Coords points="1668,258 1909,258 1909,389 1668,389" />
+			<TextLine id="line_6703c0b0-3027-4b8a-826c-4be6b5e6d99e" custom="readingOrder {index:0;}">
+				<Coords points="1891,286 1687,286 1687,359 1891,359" />
+				<Baseline points="1687,349 1891,349" />
+				<TextEquiv>
+					<Unicode>212</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextEquiv>
+				<Unicode>212</Unicode>
+			</TextEquiv>
+		</TextRegion>
+		<TextRegion id="region_01961ac6-c734-45a7-b379-e0915d9c5a0b" custom="readingOrder {index:1;}">
+			<Coords points="651,1724 525,1696 652,422 2008,422 2008,1956 652,1956" />
+			<TextLine id="line_84819fbd-ea6c-405e-9d0c-f8141def562f" custom="readingOrder {index:0;}">
+				<Coords points="1862,451 1459,457 739,480 739,638 1459,615 1862,609" />
+				<Baseline points="739,614 1459,591 1862,585" />
+				<TextEquiv>
+					<Unicode>ons Zeiten .(.darūor vns</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_3849ef4d-5b92-4f5b-adad-e0a94631ff45" custom="readingOrder {index:1;}">
+				<Coords points="1756,622 1324,631 732,644 732,739 1324,726 1756,717" />
+				<Baseline points="732,712 1324,699 1756,690" />
+				<TextEquiv>
+					<Unicode>Gott gnedig bewar.).</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_98296e25-f00e-41c9-8842-a0ecf83625b5" custom="readingOrder {index:2;}">
+				<Coords points="1843,734 1447,734 754,745 754,845 1447,834 1843,834" />
+				<Baseline points="754,822 1447,811 1843,811" />
+				<TextEquiv>
+					<Unicode>gannz schwerlichen begeg¬</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_c8c2266b-d95c-4bb1-a796-a614c7bb9db4" custom="readingOrder {index:3;} abbrev {offset:18; length:8;expansion:Vncossten;}">
+				<Coords points="1841,845 1499,842 756,851 756,943 1499,934 1841,937" />
+				<Baseline points="756,916 1499,907 1841,910" />
+				<TextEquiv>
+					<Unicode>nen. Ain solichen Vncosst.</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_46494765-24a2-43c3-877e-9e34c1cee85b" custom="readingOrder {index:4;} textStyle {offset:13; length:4;strikethrough:true;}">
+				<Coords points="1714,949 1315,940 745,936 745,1037 1315,1041 1714,1050" />
+				<Baseline points="745,1013 1315,1017 1714,1026" />
+				<TextEquiv>
+					<Unicode>Zūentgelten, Ains</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_733fca1a-613e-4b16-ad88-10711de5f824" custom="readingOrder {index:5;}">
+				<Coords points="1857,1056 1727,1052 1374,1045 745,1052 745,1146 1374,1139 1727,1146 1857,1150" />
+				<Baseline points="745,1120 1374,1113 1727,1120 1857,1124" />
+				<TextEquiv>
+					<Unicode>Man habe aūch nit vnnd¬</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_8d6dd9d8-5cd0-47be-b706-fe092d6014a6" custom="readingOrder {index:6;}">
+				<Coords points="1743,1149 1335,1142 752,1156 752,1254 1335,1240 1743,1247" />
+				<Baseline points="752,1230 1335,1216 1743,1223" />
+				<TextEquiv>
+					<Unicode>lassen, die wachten</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_64e0a988-15bd-47f4-9b4e-f1045b1d9944" custom="readingOrder {index:7;}">
+				<Coords points="1887,1256 1438,1247 745,1260 745,1358 1438,1345 1887,1354" />
+				<Baseline points="745,1328 1438,1315 1887,1324" />
+				<TextEquiv>
+					<Unicode>aūf baiden Prūggen vnzt</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_f7bfe694-e027-4364-b31b-597d16b1a6c4" custom="readingOrder {index:8;}">
+				<Coords points="1920,1365 1541,1343 721,1343 721,1453 1541,1453 1920,1475" />
+				<Baseline points="721,1427 1541,1427 1920,1449" />
+				<TextEquiv>
+					<Unicode>Zū Enndūnng dis Marckhts.</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_6c6eb8e9-c4a9-4a82-88d5-ef6908dc93b4" custom="readingOrder {index:9;}">
+				<Coords points="1811,1482 1594,1462 1324,1462 715,1469 715,1568 1324,1561 1594,1561 1811,1581" />
+				<Baseline points="715,1543 1324,1536 1594,1536 1811,1556" />
+				<TextEquiv>
+					<Unicode>sonnderlich wegen der</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_18834959-73e2-4338-9353-5ba5c24e2e91" custom="readingOrder {index:10;}">
+				<Coords points="1881,1587 1423,1576 715,1576 715,1670 1423,1670 1881,1681" />
+				<Baseline points="715,1646 1423,1646 1881,1657" />
+				<TextEquiv>
+					<Unicode>Pferdt, Jedes Orts. noch</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_2d4ef6b4-1bdb-47b4-a9cd-08c2ca3b0d59" custom="readingOrder {index:11;}">
+				<Coords points="1872,1682 1865,1687 1863,1687 1537,1676 759,1676 759,1768 1537,1768 1863,1779 1865,1779 1872,1774" />
+				<Baseline points="759,1745 1537,1745 1863,1756 1865,1756 1872,1751" />
+				<TextEquiv>
+					<Unicode>mit Zwaÿen Personen</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_f3382011-d356-4df7-a33a-d75dd48ea062" custom="readingOrder {index:12;}">
+				<Coords points="1291,1784 728,1779 728,1870 1291,1875" />
+				<Baseline points="728,1843 1291,1848" />
+				<TextEquiv>
+					<Unicode>Zū sterckhen. </Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextEquiv>
+				<Unicode>ons Zeiten .(.darūor vns
+Gott gnedig bewar.).
+gannz schwerlichen begeg¬
+nen. Ain solichen Vncosst.
+Zūentgelten, Ains
+Man habe aūch nit vnnd¬
+lassen, die wachten
+aūf baiden Prūggen vnzt
+Zū Enndūnng dis Marckhts.
+sonnderlich wegen der
+Pferdt, Jedes Orts. noch
+mit Zwaÿen Personen
+Zū sterckhen. </Unicode>
+			</TextEquiv>
+		</TextRegion>
+		<TextRegion id="region_e85d6155-c3e5-45dc-b044-1ffd1ddba258" custom="readingOrder {index:2;}">
+			<Coords points="623,2596 643,2493 710,2450 707,2223 443,2223 448,2180 501,2121 718,2103 2046,2103 2046,2794 718,2794" />
+			<TextLine id="line_d2be6cac-b239-4377-883b-76c9cbfda05d" custom="readingOrder {index:0;}">
+				<Coords points="2030,2134 1590,2113 1254,2119 666,2121 666,2214 1254,2212 1590,2206 2030,2227" />
+				<Baseline points="666,2191 1254,2189 1590,2183 2030,2204" />
+				<TextEquiv>
+					<Unicode>Weiln der Cristoff Grūsstner</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_46c83256-db2c-4f84-b97d-727af86108ac" custom="readingOrder {index:1;}">
+				<Coords points="1803,2233 1282,2212 732,2220 732,2309 1282,2301 1803,2322" />
+				<Baseline points="732,2285 1282,2277 1803,2298" />
+				<TextEquiv>
+					<Unicode>seiner hie wonūng halber</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_95094ac8-77ec-471b-b506-577967fc1d72" custom="readingOrder {index:2;}">
+				<Coords points="1758,2327 1387,2323 726,2319 726,2413 1387,2417 1758,2421" />
+				<Baseline points="726,2386 1387,2390 1758,2394" />
+				<TextEquiv>
+					<Unicode>noch vmb khain bschaid</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_9e6e959e-a8ee-481b-9ee0-0d7fcf5cf5b9" custom="readingOrder {index:3;}">
+				<Coords points="1791,2424 1194,2428 724,2418 724,2521 1194,2531 1791,2527" />
+				<Baseline points="724,2495 1194,2505 1791,2501" />
+				<TextEquiv>
+					<Unicode>khomen. Als soll Er aūfs</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_cfc6bd80-56df-412b-af03-3522505e0852" custom="readingOrder {index:4;}">
+				<Coords points="1782,2537 1243,2529 713,2526 713,2625 1243,2628 1782,2636" />
+				<Baseline points="713,2599 1243,2602 1782,2610" />
+				<TextEquiv>
+					<Unicode>Ratshaūs berūefft: vnd</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_707416d1-6197-406e-ae1c-838b634a46f1" custom="readingOrder {index:5;}">
+				<Coords points="1795,2643 1391,2620 737,2609 737,2702 1391,2713 1795,2736" />
+				<Baseline points="737,2683 1391,2694 1795,2717" />
+				<TextEquiv>
+					<Unicode>Ime neben benennūng </Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextEquiv>
+				<Unicode>Weiln der Cristoff Grūsstner
+seiner hie wonūng halber
+noch vmb khain bschaid
+khomen. Als soll Er aūfs
+Ratshaūs berūefft: vnd
+Ime neben benennūng </Unicode>
+			</TextEquiv>
+		</TextRegion>
+		<TextRegion id="region_14cf83cf-17db-431e-aa92-0b5e8ac8749e" custom="readingOrder {index:3;}">
+			<Coords points="125,2158 385,2157 376,2226 697,2239 698,2378 125,2378" />
+			<TextLine id="line_06a44d7f-53ae-428c-9ded-91555862dfa5" custom="readingOrder {index:0;}">
+				<Coords points="684,2238 147,2201 147,2322 684,2320" />
+				<Baseline points="147,2303 684,2301" />
+				<TextEquiv>
+					<Unicode>Grūsstner</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextEquiv>
+				<Unicode>Grūsstner</Unicode>
+			</TextEquiv>
+		</TextRegion>
+	</Page>
+</PcGts>

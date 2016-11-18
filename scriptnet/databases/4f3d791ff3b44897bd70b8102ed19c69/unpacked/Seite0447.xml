@@ -1,0 +1,206 @@
+<?xml version="1.0"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+	<Metadata>
+		<Creator>TRP</Creator>
+		<Created>2014-09-25T12:35:50.194+02:00</Created>
+		<LastChange>2016-01-20T10:13:05.275+01:00</LastChange>
+	</Metadata>
+	<Page imageFilename="Seite0447.JPG" imageWidth="2290" imageHeight="3511">
+		<ReadingOrder>
+			<OrderedGroup id="ro_1453281203316" caption="Regions reading order">
+				<RegionRefIndexed index="0" regionRef="region_53451e78-ff6a-47be-99df-e26372fb7927" />
+				<RegionRefIndexed index="1" regionRef="region_b5bca831-da8f-46d3-ad8f-1cdd5eaa8bc4" />
+				<RegionRefIndexed index="2" regionRef="region_b95a9f3a-1e06-4a17-8d5a-23e15ced5a15" />
+				<RegionRefIndexed index="3" regionRef="region_6d5a0976-3ac3-46bb-a7f4-9a47adabcc02" />
+			</OrderedGroup>
+		</ReadingOrder>
+		<TextRegion id="region_53451e78-ff6a-47be-99df-e26372fb7927" custom="readingOrder {index:0;}">
+			<Coords points="1627,245 1870,245 1870,341 1627,341" />
+			<TextLine id="line_bf558bfe-3934-4b71-b342-d1585637182a" custom="readingOrder {index:0;}">
+				<Coords points="1869,269 1651,258 1651,317 1869,328" />
+				<Baseline points="1651,313 1869,324" />
+				<TextEquiv>
+					<Unicode>224</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextEquiv>
+				<Unicode>224</Unicode>
+			</TextEquiv>
+		</TextRegion>
+		<TextRegion id="region_b5bca831-da8f-46d3-ad8f-1cdd5eaa8bc4" custom="readingOrder {index:1;}">
+			<Coords points="714,421 1884,421 1884,718 714,718" />
+			<TextLine id="line_f8f34fe1-2453-4f66-9c34-022f616f1314" custom="readingOrder {index:0;}">
+				<Coords points="1800,454 744,439 744,542 1800,557" />
+				<Baseline points="744,514 1800,529" />
+				<TextEquiv>
+					<Unicode>briefen. vmb berichts</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_b61a750f-891a-4719-b2c3-05e3403e7607" custom="readingOrder {index:1;} abbrev {offset:18; length:5;expansion:werden;}">
+				<Coords points="1831,564 1450,547 744,539 744,638 1450,646 1831,663" />
+				<Baseline points="744,620 1450,628 1831,645" />
+				<TextEquiv>
+					<Unicode>willen nachgsehen werd. </Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextEquiv>
+				<Unicode>briefen. vmb berichts
+willen nachgsehen werd. </Unicode>
+			</TextEquiv>
+		</TextRegion>
+		<TextRegion id="region_b95a9f3a-1e06-4a17-8d5a-23e15ced5a15" custom="readingOrder {index:2;}">
+			<Coords points="685,1014 576,978 493,902 511,798 611,738 698,735 2049,735 2049,2291 698,2291" />
+			<TextLine id="line_7d37117b-d53f-4d0c-860c-f33115a60b45" custom="readingOrder {index:0;}">
+				<Coords points="1796,809 1226,811 705,813 705,1018 1226,1016 1796,1014" />
+				<Baseline points="705,995 1226,993 1796,991" />
+				<TextEquiv>
+					<Unicode>Geörg Pihler. Peckh. vnnd</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_9e82e493-8cdb-4ebb-9e62-f79e29717a54" custom="readingOrder {index:1;}">
+				<Coords points="1778,1020 1373,1022 723,1024 723,1116 1373,1114 1778,1112" />
+				<Baseline points="723,1089 1373,1087 1778,1085" />
+				<TextEquiv>
+					<Unicode>Keller im Spittal. von</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_133e69e2-22b2-42ea-9003-47bd59c3056f" custom="readingOrder {index:2;}">
+				<Coords points="1803,1122 1340,1118 731,1112 731,1211 1340,1217 1803,1221" />
+				<Baseline points="731,1189 1340,1195 1803,1199" />
+				<TextEquiv>
+					<Unicode>Sterzing gebirtig. Pitet</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_6e60b7a2-654c-4f3c-8bd5-47d6774e714c" custom="readingOrder {index:3;}">
+				<Coords points="1762,1217 1249,1223 736,1227 736,1313 1249,1309 1762,1303" />
+				<Baseline points="736,1290 1249,1286 1762,1280" />
+				<TextEquiv>
+					<Unicode>vmb die Innwonūng. vnd </Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_3208d085-15ac-4c9b-9c34-b1507dbd6213" custom="readingOrder {index:4;} abbrev {offset:17; length:5;expansion:treiben;}">
+				<Coords points="1794,1312 1338,1316 723,1318 723,1409 1338,1407 1794,1403" />
+				<Baseline points="723,1382 1338,1380 1794,1376" />
+				<TextEquiv>
+					<Unicode>sein hanndtwerch treib</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_080c413d-bc01-4a1a-9379-dfe1921dd167" custom="readingOrder {index:5;}">
+				<Coords points="1858,1415 1648,1401 723,1411 723,1510 1648,1500 1858,1514" />
+				<Baseline points="723,1486 1648,1476 1858,1490" />
+				<TextEquiv>
+					<Unicode>Zelassen. Weiln</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_e11da49c-b325-428f-bd79-31219aa185a0" custom="readingOrder {index:6;} abbrev {offset:20; length:6;expansion:Pfisster;}">
+				<Coords points="1898,1515 1772,1500 1460,1502 721,1519 721,1613 1460,1596 1772,1594 1898,1609" />
+				<Baseline points="721,1586 1460,1569 1772,1567 1898,1582" />
+				<TextEquiv>
+					<Unicode>Er dann in ain Alte Pfisst</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_8fb592ca-cfa6-4bf1-bedf-da4908f77e8f" custom="readingOrder {index:7;} abbrev {offset:26; length:5;expansion:hieigen;}">
+				<Coords points="1902,1619 1623,1594 1357,1602 721,1604 721,1700 1357,1698 1623,1690 1902,1715" />
+				<Baseline points="721,1679 1357,1677 1623,1669 1902,1694" />
+				<TextEquiv>
+					<Unicode>Zeūcht. vnd sich Zū aines hieig</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_4c189bdf-42ce-4270-a3e0-f969b1ffbb1c" custom="readingOrder {index:8;}">
+				<Coords points="1758,1719 1395,1721 729,1717 729,1811 1395,1815 1758,1813" />
+				<Baseline points="729,1777 1395,1781 1758,1779" />
+				<TextEquiv>
+					<Unicode>Maisster dises hanndt¬</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_220c6291-51a7-419d-b3c8-d3547cafbf4c" custom="readingOrder {index:9;}">
+				<Coords points="2019,1823 1768,1792 1406,1792 726,1788 726,1907 1406,1911 1768,1911 2019,1942" />
+				<Baseline points="726,1884 1406,1888 1768,1888 2019,1919" />
+				<TextEquiv>
+					<Unicode>werchs Tochter. verheirat.</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_a908e190-550a-42fe-9318-333bb8d613c8" custom="readingOrder {index:10;}">
+				<Coords points="1976,1948 1781,1930 1408,1928 726,1936 726,2027 1408,2019 1781,2021 1976,2039" />
+				<Baseline points="726,2002 1408,1994 1781,1996 1976,2014" />
+				<TextEquiv>
+					<Unicode>ists Ime gegen firweisūng</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_889846dd-831e-4b84-9a1f-985fcea9e122" custom="readingOrder {index:11;}">
+				<Coords points="1960,2045 1709,2033 1487,2027 718,2033 718,2132 1487,2126 1709,2132 1960,2144" />
+				<Baseline points="718,2104 1487,2098 1709,2104 1960,2116" />
+				<TextEquiv>
+					<Unicode>Sibtschafft. vnd Lernbrief</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_3a176416-3348-49b1-bae8-f8df9a5b39af" custom="readingOrder {index:12;} abbrev {offset:7; length:2;expansion:florin;}">
+				<Coords points="1811,2150 1553,2130 758,2140 758,2234 1553,2224 1811,2244" />
+				<Baseline points="758,2218 1553,2208 1811,2228" />
+				<TextEquiv>
+					<Unicode>vnd .8 fl Tax gewilligt. </Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextEquiv>
+				<Unicode>Geörg Pihler. Peckh. vnnd
+Keller im Spittal. von
+Sterzing gebirtig. Pitet
+vmb die Innwonūng. vnd 
+sein hanndtwerch treib
+Zelassen. Weiln
+Er dann in ain Alte Pfisst
+Zeūcht. vnd sich Zū aines hieig
+Maisster dises hanndt¬
+werchs Tochter. verheirat.
+ists Ime gegen firweisūng
+Sibtschafft. vnd Lernbrief
+vnd .8 fl Tax gewilligt. </Unicode>
+			</TextEquiv>
+		</TextRegion>
+		<TextRegion id="region_6d5a0976-3ac3-46bb-a7f4-9a47adabcc02" custom="readingOrder {index:3;}">
+			<Coords points="111,1006 663,1006 663,1581 111,1581" />
+			<TextLine id="line_3d19e01f-199e-4b2a-b2f3-5228a4ab8fc7" custom="readingOrder {index:0;}">
+				<Coords points="649,1037 139,1042 139,1149 649,1144" />
+				<Baseline points="139,1126 649,1121" />
+				<TextEquiv>
+					<Unicode>Geörg Pih¬</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_73c8ba54-1478-4128-824b-54f2687376fa" custom="readingOrder {index:1;} abbrev {offset:4; length:5;expansion:Peckhen;}">
+				<Coords points="615,1137 190,1154 190,1243 615,1226" />
+				<Baseline points="190,1219 615,1202" />
+				<TextEquiv>
+					<Unicode>ler Peckh</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_1fa9b9c6-e558-41f0-8df7-0a2a6b03c6eb" custom="readingOrder {index:2;}">
+				<Coords points="642,1237 181,1249 181,1341 642,1329" />
+				<Baseline points="181,1316 642,1304" />
+				<TextEquiv>
+					<Unicode>Inwonūng.</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_f8de5cfe-81fa-402b-8f7a-5666a0d8aa60" custom="readingOrder {index:3;}">
+				<Coords points="402,1329 205,1346 205,1446 402,1429" />
+				<Baseline points="205,1416 402,1399" />
+				<TextEquiv>
+					<Unicode>Tax </Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_fc3c5245-e770-4da7-8349-0923bc1c61c1" custom="readingOrder {index:4;} abbrev {offset:5; length:3;expansion:florin;}">
+				<Coords points="611,1432 224,1453 224,1549 611,1528" />
+				<Baseline points="224,1539 611,1518" />
+				<TextEquiv>
+					<Unicode>—: 8 fl.</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextEquiv>
+				<Unicode>Geörg Pih¬
+ler Peckh
+Inwonūng.
+Tax 
+—: 8 fl.</Unicode>
+			</TextEquiv>
+		</TextRegion>
+	</Page>
+</PcGts>

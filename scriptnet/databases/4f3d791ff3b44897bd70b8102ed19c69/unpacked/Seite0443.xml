@@ -1,0 +1,202 @@
+<?xml version="1.0"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+	<Metadata>
+		<Creator>TRP</Creator>
+		<Created>2014-09-25T12:35:50.054+02:00</Created>
+		<LastChange>2016-01-20T10:32:05.874+01:00</LastChange>
+	</Metadata>
+	<Page imageFilename="Seite0443.JPG" imageWidth="2290" imageHeight="3511">
+		<ReadingOrder>
+			<OrderedGroup id="ro_1453282343900" caption="Regions reading order">
+				<RegionRefIndexed index="0" regionRef="region_396d595f-851e-4ebd-b94f-a3ffcdea184d" />
+				<RegionRefIndexed index="1" regionRef="region_9d138357-6dd5-4434-9f40-b3dfca47aa64" />
+			</OrderedGroup>
+		</ReadingOrder>
+		<TextRegion id="region_396d595f-851e-4ebd-b94f-a3ffcdea184d" custom="readingOrder {index:0;}">
+			<Coords points="1692,221 1949,221 1949,323 1692,323" />
+			<TextLine id="line_e2c31c01-33e8-4169-b491-4d733da792b6" custom="readingOrder {index:0;}">
+				<Coords points="1942,248 1709,244 1709,308 1942,312" />
+				<Baseline points="1709,304 1942,308" />
+				<TextEquiv>
+					<Unicode>222</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextEquiv>
+				<Unicode>222</Unicode>
+			</TextEquiv>
+		</TextRegion>
+		<TextRegion id="region_9d138357-6dd5-4434-9f40-b3dfca47aa64" custom="readingOrder {index:1;}">
+			<Coords points="605,450 2011,450 2011,2733 605,2733" />
+			<TextLine id="line_a964ab4d-42c3-41a0-8855-698c2883de16" custom="readingOrder {index:0;}">
+				<Coords points="1909,498 1426,471 699,463 699,599 1426,607 1909,634" />
+				<Baseline points="699,573 1426,581 1909,608" />
+				<TextEquiv>
+					<Unicode>raiten vnd Arbaiten Zelassen,</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_d3838c03-fa3f-4b88-a78a-4693112309c1" custom="readingOrder {index:1;}">
+				<Coords points="1816,640 1421,620 734,612 734,712 1421,720 1816,740" />
+				<Baseline points="734,686 1421,694 1816,714" />
+				<TextEquiv>
+					<Unicode>Wolt Ainen frembden</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_ead7f977-28ae-4ed8-ab6a-cf21acfc51d8" custom="readingOrder {index:2;}">
+				<Coords points="1772,746 1236,707 688,709 688,806 1236,804 1772,843" />
+				<Baseline points="688,783 1236,781 1772,820" />
+				<TextEquiv>
+					<Unicode>Maisster aūs Itälia. Zū</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_70c300de-fb1d-4688-9085-fdfe205db2d2" custom="readingOrder {index:3;}">
+				<Coords points="1761,848 1400,827 721,821 721,910 1400,916 1761,937" />
+				<Baseline points="721,885 1400,891 1761,912" />
+				<TextEquiv>
+					<Unicode>machūng Ainer Prob,</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_4b6c0b4b-fe49-4600-8b2f-9482bfad0474" custom="readingOrder {index:4;}">
+				<Coords points="1799,943 1474,924 731,902 731,998 1474,1020 1799,1039" />
+				<Baseline points="731,973 1474,995 1799,1014" />
+				<TextEquiv>
+					<Unicode>berūeffen, Vnd Ime </Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_1389fb9f-ea57-4e39-99a7-ee249794cf88" custom="readingOrder {index:5;}">
+				<Coords points="1847,1045 1386,1013 717,999 717,1095 1386,1109 1847,1141" />
+				<Baseline points="717,1070 1386,1084 1847,1116" />
+				<TextEquiv>
+					<Unicode>Zoanelln. damit Er diser</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_a57be195-f25b-4406-8cb9-8421c7cb8f56" custom="readingOrder {index:6;} textStyle {offset:6; length:12;monospace:true;}">
+				<Coords points="1813,1147 1397,1122 728,1099 728,1192 1397,1215 1813,1240" />
+				<Baseline points="728,1170 1397,1193 1813,1218" />
+				<TextEquiv>
+					<Unicode>Neūen Introduction aūch</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_9ea29622-02d6-4d5b-814b-7ebda09b41cf" custom="readingOrder {index:7;}">
+				<Coords points="1800,1245 1349,1216 712,1205 712,1288 1349,1299 1800,1328" />
+				<Baseline points="712,1267 1349,1278 1800,1307" />
+				<TextEquiv>
+					<Unicode>darūnter Aūfwendenden</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_7d991da1-bd45-494c-921d-e604dc926831" custom="readingOrder {index:8;}">
+				<Coords points="1726,1334 1410,1318 729,1304 729,1390 1410,1404 1726,1420" />
+				<Baseline points="729,1364 1410,1378 1726,1394" />
+				<TextEquiv>
+					<Unicode>vncosten halber nit in</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_529e4d2a-c42b-4157-984a-2ebd2831fee8" custom="readingOrder {index:9;}">
+				<Coords points="1784,1426 1302,1406 711,1395 711,1493 1302,1504 1784,1524" />
+				<Baseline points="711,1469 1302,1480 1784,1500" />
+				<TextEquiv>
+					<Unicode>schaden Zū ligen. deßhalb</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_73c7ce7d-4c29-4c9a-8298-af8a55e61bcd" custom="readingOrder {index:10;}">
+				<Coords points="1740,1530 1392,1513 706,1500 706,1597 1392,1610 1740,1627" />
+				<Baseline points="706,1569 1392,1582 1740,1599" />
+				<TextEquiv>
+					<Unicode>ain sonndern schein. vnnd</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_9805c85d-99fc-4918-a0e0-dbb756d65a42" custom="readingOrder {index:11;} textStyle {offset:0; length:11;monospace:true;}">
+				<Coords points="1806,1634 1458,1622 692,1607 692,1711 1458,1726 1806,1738" />
+				<Baseline points="692,1686 1458,1701 1806,1713" />
+				<TextEquiv>
+					<Unicode>Priuilegium Zūertailen,</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_c51d7bfd-d983-4b96-864f-9b25ff0c721f" custom="readingOrder {index:12;}">
+				<Coords points="1798,1744 1444,1731 726,1725 726,1821 1444,1827 1798,1840" />
+				<Baseline points="726,1796 1444,1802 1798,1815" />
+				<TextEquiv>
+					<Unicode>Aūf das Niemand And¬</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_25bc598f-2df2-4db1-bee9-c65d8009cf9d" custom="readingOrder {index:13;}">
+				<Coords points="1873,1846 1411,1834 713,1823 713,1920 1411,1931 1873,1943" />
+				<Baseline points="713,1894 1411,1905 1873,1917" />
+				<TextEquiv>
+					<Unicode>erer .(.one sein verwil¬</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_abc97408-619d-4e8e-ba4f-f6513081da36" custom="readingOrder {index:14;}">
+				<Coords points="1892,1941 1868,1949 1865,1949 1456,1936 733,1921 733,2022 1456,2037 1865,2050 1868,2050 1892,2042" />
+				<Baseline points="733,1995 1456,2010 1865,2023 1868,2023 1892,2015" />
+				<TextEquiv>
+					<Unicode>ligen.). in den negst nach¬</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_872f5733-de26-425c-9835-3a4d447cf30c" custom="readingOrder {index:15;}">
+				<Coords points="1863,2056 1572,2042 1240,2034 718,2019 718,2122 1240,2137 1572,2145 1863,2159" />
+				<Baseline points="718,2095 1240,2110 1572,2118 1863,2132" />
+				<TextEquiv>
+					<Unicode>einander volgenden Zwain¬</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_db26c73d-d228-42e1-8909-c401d769ae54" custom="readingOrder {index:16;}">
+				<Coords points="1859,2166 1291,2143 708,2129 708,2234 1291,2248 1859,2271" />
+				<Baseline points="708,2206 1291,2220 1859,2243" />
+				<TextEquiv>
+					<Unicode>zig Jarn. angeregte hanndt¬</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_b17dafa5-f33c-4b16-9d4a-b26ffe92a7b6" custom="readingOrder {index:17;}">
+				<Coords points="1867,2278 1443,2247 714,2234 714,2339 1443,2352 1867,2383" />
+				<Baseline points="714,2315 1443,2328 1867,2359" />
+				<TextEquiv>
+					<Unicode>ierūng Soln. vnd v̈berleder</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_13dfde88-bce0-4db9-8da3-3bd9ad8669bc" custom="readingOrder {index:18;} textStyle {offset:17; length:6;strikethrough:true;}">
+				<Coords points="1823,2388 1397,2368 705,2363 705,2458 1397,2463 1823,2483" />
+				<Baseline points="705,2430 1397,2435 1823,2455" />
+				<TextEquiv>
+					<Unicode>aūf solhe Manier Arbait</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_2aad784e-01b8-4d23-b4e0-813a3fe12f1d" custom="readingOrder {index:19;}">
+				<Coords points="1960,2489 1527,2463 720,2459 720,2560 1527,2564 1960,2590" />
+				<Baseline points="720,2537 1527,2541 1960,2567" />
+				<TextEquiv>
+					<Unicode>wie Ers Anrichten wirdet.</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_5df9816b-340d-453b-be2d-b8f9f6c9526f" custom="readingOrder {index:20;}">
+				<Coords points="1950,2595 1445,2586 720,2579 720,2661 1445,2668 1950,2677" />
+				<Baseline points="720,2643 1445,2650 1950,2659" />
+				<TextEquiv>
+					<Unicode>Alda treiben oder Anstelln </Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextEquiv>
+				<Unicode>raiten vnd Arbaiten Zelassen,
+Wolt Ainen frembden
+Maisster aūs Itälia. Zū
+machūng Ainer Prob,
+berūeffen, Vnd Ime 
+Zoanelln. damit Er diser
+Neūen Introduction aūch
+darūnter Aūfwendenden
+vncosten halber nit in
+schaden Zū ligen. deßhalb
+ain sonndern schein. vnnd
+Priuilegium Zūertailen,
+Aūf das Niemand And¬
+erer .(.one sein verwil¬
+ligen.). in den negst nach¬
+einander volgenden Zwain¬
+zig Jarn. angeregte hanndt¬
+ierūng Soln. vnd v̈berleder
+aūf solhe Manier Arbait
+wie Ers Anrichten wirdet.
+Alda treiben oder Anstelln </Unicode>
+			</TextEquiv>
+		</TextRegion>
+	</Page>
+</PcGts>

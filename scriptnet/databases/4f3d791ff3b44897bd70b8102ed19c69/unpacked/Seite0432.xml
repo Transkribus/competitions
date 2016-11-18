@@ -1,0 +1,234 @@
+<?xml version="1.0"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+	<Metadata>
+		<Creator>TRP</Creator>
+		<Created>2014-09-25T12:35:49.710+02:00</Created>
+		<LastChange>2016-01-20T11:50:36.954+01:00</LastChange>
+	</Metadata>
+	<Page imageFilename="Seite0432.JPG" imageWidth="2448" imageHeight="3511">
+		<ReadingOrder>
+			<OrderedGroup id="ro_1453287054836" caption="Regions reading order">
+				<RegionRefIndexed index="0" regionRef="region_f9161c10-20c8-4d91-84df-f920ba80fd43" />
+				<RegionRefIndexed index="1" regionRef="region_0454f681-8c28-4dec-bddb-a2534ba2ee7e" />
+				<RegionRefIndexed index="2" regionRef="region_88809529-dcaf-4293-b1c2-0b8d561c1adf" />
+				<RegionRefIndexed index="3" regionRef="region_223dfe0f-bb12-4227-9097-8ae9bb75f356" />
+				<RegionRefIndexed index="4" regionRef="region_56e389a5-e740-40f8-88d2-97699d37d282" />
+				<RegionRefIndexed index="5" regionRef="region_e07939f7-0fc6-4537-b310-a679f834ee06" />
+			</OrderedGroup>
+		</ReadingOrder>
+		<TextRegion id="region_f9161c10-20c8-4d91-84df-f920ba80fd43" custom="readingOrder {index:0;}">
+			<Coords points="397,185 538,185 538,320 397,320" />
+			<TextLine id="line_0f2e2dbd-5b01-43a7-94c6-c15b3fc7865e" custom="readingOrder {index:0;}">
+				<Coords points="534,204 405,221 405,308 534,291" />
+				<Baseline points="405,304 534,287" />
+				<TextEquiv>
+					<Unicode>217</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextEquiv>
+				<Unicode>217</Unicode>
+			</TextEquiv>
+		</TextRegion>
+		<TextRegion id="region_0454f681-8c28-4dec-bddb-a2534ba2ee7e" custom="readingOrder {index:1;}">
+			<Coords points="997,404 2157,404 2157,699 997,699" />
+			<TextLine id="line_3d30d327-6070-4046-9c63-3ea29cf28139" custom="readingOrder {index:0;}">
+				<Coords points="2143,404 1732,419 1022,441 1022,551 1732,529 2143,495" />
+				<Baseline points="1022,525 1732,503 2143,469" />
+				<TextEquiv>
+					<Unicode>gwisen, vnd der Termin</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_2857b0c4-63be-413c-9e1a-6df302326ec2" custom="readingOrder {index:1;}">
+				<Coords points="2005,506 1638,536 1053,557 1053,646 1638,625 2005,595" />
+				<Baseline points="1053,629 1638,608 2005,578" />
+				<TextEquiv>
+					<Unicode>Jorgj bezalt werden. </Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextEquiv>
+				<Unicode>gwisen, vnd der Termin
+Jorgj bezalt werden. </Unicode>
+			</TextEquiv>
+		</TextRegion>
+		<TextRegion id="region_88809529-dcaf-4293-b1c2-0b8d561c1adf" custom="readingOrder {index:2;}">
+			<Coords points="839,720 2139,720 2139,1601 839,1601" />
+			<TextLine id="line_a1dddfca-8882-4aa9-b183-d17da97d911a" custom="readingOrder {index:0;} textStyle {offset:13; length:3;strikethrough:true;} abbrev {offset:17; length:4;expansion:Burger;}">
+				<Coords points="2005,738 1718,747 993,784 993,955 1718,918 2005,909" />
+				<Baseline points="993,931 1718,894 2005,885" />
+				<TextEquiv>
+					<Unicode>Thoman Drāxl hat Būrg</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_474e5cbe-2e88-4698-82bc-c2dc43cb3996" custom="readingOrder {index:1;}">
+				<Coords points="2046,908 1716,934 1052,961 1052,1056 1716,1029 2046,1003" />
+				<Baseline points="1052,1029 1716,1002 2046,976" />
+				<TextEquiv>
+					<Unicode>vnd hanndlsmann Alhie.</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_b3341da0-1d1d-4d28-acb9-ad487b8cd6a0" custom="readingOrder {index:2;}">
+				<Coords points="1938,1012 1737,1030 1046,1062 1046,1163 1737,1131 1938,1113" />
+				<Baseline points="1046,1137 1737,1105 1938,1087" />
+				<TextEquiv>
+					<Unicode>hat von seim Son. so</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_bf513f3e-e9b6-4da1-a454-5a8388b6ed0a" custom="readingOrder {index:3;}">
+				<Coords points="2074,1114 1546,1169 1036,1161 1036,1261 1546,1269 2074,1214" />
+				<Baseline points="1036,1235 1546,1243 2074,1188" />
+				<TextEquiv>
+					<Unicode>Zū Freȳbūrg Stūdiert.</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_6ccaa589-4d83-4666-b00b-08b9749fb102" custom="readingOrder {index:4;}">
+				<Coords points="1969,1236 1586,1275 1061,1269 1061,1370 1586,1376 1969,1337" />
+				<Baseline points="1061,1343 1586,1349 1969,1310" />
+				<TextEquiv>
+					<Unicode>Aim Ersamen Rath.</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_a68c4091-816c-4feb-9675-96f13ba00eed" custom="readingOrder {index:5;}">
+				<Coords points="2071,1341 1767,1363 1058,1382 1058,1487 1767,1468 2071,1446" />
+				<Baseline points="1058,1459 1767,1440 2071,1418" />
+				<TextEquiv>
+					<Unicode>Ain dispūtation Piechl</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_aa75d1ca-695f-4ecd-aad7-95e37f8c893a" custom="readingOrder {index:6;}">
+				<Coords points="2083,1458 1700,1479 1047,1494 1047,1580 1700,1565 2083,1544" />
+				<Baseline points="1047,1573 1700,1558 2083,1537" />
+				<TextEquiv>
+					<Unicode>dediciert vnd verehrt. </Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextEquiv>
+				<Unicode>Thoman Drāxl hat Būrg
+vnd hanndlsmann Alhie.
+hat von seim Son. so
+Zū Freȳbūrg Stūdiert.
+Aim Ersamen Rath.
+Ain dispūtation Piechl
+dediciert vnd verehrt. </Unicode>
+			</TextEquiv>
+		</TextRegion>
+		<TextRegion id="region_223dfe0f-bb12-4227-9097-8ae9bb75f356" custom="readingOrder {index:3;}">
+			<Coords points="383,903 835,903 835,1244 383,1244" />
+			<TextLine id="line_03ffce79-3462-4a3f-bcb8-4f86ab8cb9fc" custom="readingOrder {index:0;}">
+				<Coords points="828,938 403,949 403,1076 828,1065" />
+				<Baseline points="403,1054 828,1043" />
+				<TextEquiv>
+					<Unicode>Thoman</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_32421438-7cf1-4e9e-b2f1-d31e4efe11c1" custom="readingOrder {index:1;}">
+				<Coords points="804,1079 430,1082 430,1170 804,1167" />
+				<Baseline points="430,1145 804,1142" />
+				<TextEquiv>
+					<Unicode>Dräxl.</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextEquiv>
+				<Unicode>Thoman
+Dräxl.</Unicode>
+			</TextEquiv>
+		</TextRegion>
+		<TextRegion id="region_56e389a5-e740-40f8-88d2-97699d37d282" custom="readingOrder {index:4;}">
+			<Coords points="923,1717 2183,1717 2183,2722 923,2722" />
+			<TextLine id="line_67038e1e-4d14-4973-ad20-7921dd3448a0" custom="readingOrder {index:0;}">
+				<Coords points="2089,1735 1788,1745 1027,1778 1027,1942 1788,1909 2089,1899" />
+				<Baseline points="1027,1918 1788,1885 2089,1875" />
+				<TextEquiv>
+					<Unicode>Dem Bartleme Grūeber</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_e0299b8a-2fbe-40dd-b7e2-063e4b526e26" custom="readingOrder {index:1;}">
+				<Coords points="2019,1910 1082,1948 1082,2042 2019,2004" />
+				<Baseline points="1082,2017 2019,1979" />
+				<TextEquiv>
+					<Unicode>Pallntrager. so sich</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_8b0df2cb-5afd-453b-9a0a-8a0575fa147e" custom="readingOrder {index:2;}">
+				<Coords points="2155,2022 1759,2035 1065,2047 1065,2143 1759,2131 2155,2118" />
+				<Baseline points="1065,2117 1759,2105 2155,2092" />
+				<TextEquiv>
+					<Unicode>in disem Marckht. mit</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_fa710eb6-ee9c-4483-bc5c-6fa936b0a603" custom="readingOrder {index:3;}">
+				<Coords points="2073,2118 1758,2135 1044,2149 1044,2253 1758,2239 2073,2222" />
+				<Baseline points="1044,2223 1758,2209 2073,2192" />
+				<TextEquiv>
+					<Unicode>Enntfrembdūng aines</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_6332d427-e3e7-430b-8be5-e8f7fc4b888e" custom="readingOrder {index:4;}">
+				<Coords points="2118,2212 1686,2233 1089,2259 1089,2370 1686,2344 2118,2323" />
+				<Baseline points="1089,2343 1686,2317 2118,2296" />
+				<TextEquiv>
+					<Unicode>Stückhls Leinbat, ver¬</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_f68e5540-40cf-4148-90eb-1f6f5772d25d" custom="readingOrder {index:5;}">
+				<Coords points="2145,2325 1903,2340 1077,2376 1077,2476 1903,2440 2145,2425" />
+				<Baseline points="1077,2452 1903,2416 2145,2401" />
+				<TextEquiv>
+					<Unicode>gessen, Pitet Ime. noch</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_474d6d28-2bee-4aa3-bf37-17e1a74f59fa" custom="readingOrder {index:6;}">
+				<Coords points="2055,2450 1710,2468 1089,2482 1089,2575 1710,2561 2055,2543" />
+				<Baseline points="1089,2549 1710,2535 2055,2517" />
+				<TextEquiv>
+					<Unicode>bei seim dienst ver¬</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_aa241f25-8cc2-400a-96ec-209ec559d55f" custom="readingOrder {index:7;}">
+				<Coords points="2072,2559 1799,2573 1095,2581 1095,2670 1799,2662 2072,2648" />
+				<Baseline points="1095,2653 1799,2645 2072,2631" />
+				<TextEquiv>
+					<Unicode>bleiben Zelassen. Ist </Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextEquiv>
+				<Unicode>Dem Bartleme Grūeber
+Pallntrager. so sich
+in disem Marckht. mit
+Enntfrembdūng aines
+Stückhls Leinbat, ver¬
+gessen, Pitet Ime. noch
+bei seim dienst ver¬
+bleiben Zelassen. Ist </Unicode>
+			</TextEquiv>
+		</TextRegion>
+		<TextRegion id="region_e07939f7-0fc6-4537-b310-a679f834ee06" custom="readingOrder {index:5;}">
+			<Coords points="377,1914 912,1914 912,2257 377,2257" />
+			<TextLine id="line_12e396a7-25c1-4176-9161-9710aa03875a" custom="readingOrder {index:0;}">
+				<Coords points="908,1937 395,1952 395,2059 908,2044" />
+				<Baseline points="395,2040 908,2025" />
+				<TextEquiv>
+					<Unicode>Bartlme</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_a4e9d382-f0d3-4c6f-a735-f90a99005bc5" custom="readingOrder {index:1;}">
+				<Coords points="858,2055 440,2063 440,2139 858,2131" />
+				<Baseline points="440,2116 858,2108" />
+				<TextEquiv>
+					<Unicode>Grūeber</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_b2d87665-a5fe-4aff-970f-472479e5057a" custom="readingOrder {index:2;} abbrev {offset:0; length:10;expansion:Pallntrager;}">
+				<Coords points="855,2136 448,2144 448,2221 855,2213" />
+				<Baseline points="448,2209 855,2201" />
+				<TextEquiv>
+					<Unicode>Pallntrag.</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextEquiv>
+				<Unicode>Bartlme
+Grūeber
+Pallntrag.</Unicode>
+			</TextEquiv>
+		</TextRegion>
+	</Page>
+</PcGts>
