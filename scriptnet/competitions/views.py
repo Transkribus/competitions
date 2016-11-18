@@ -85,7 +85,6 @@ def index(request):
                 user.individual.shortbio = register_form.cleaned_data['shortbio']
                 user.individual.affiliations.add(affiliation)
                 user.individual.save()
-                from django.core.mail import send_mail
                 mails_sent = send_mail(
                     'Account creation at Scriptnet competitions',
                     """
@@ -102,7 +101,7 @@ to participate to the site competitions.
                     """.format(register_form.cleaned_data['username']),
                     settings.EMAIL_HOST_USER,
                     [user.email, settings.EMAIL_HOST_USER],
-                    fail_silently=False,
+                    fail_silently=True,
                 )
                 #TODO: eventually will have to authenticate the new user by email
                 messages.add_message(request, messages.SUCCESS, _('User {} has been created. Use your credentials to login.').format(user.username))
