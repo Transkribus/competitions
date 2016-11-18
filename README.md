@@ -93,6 +93,7 @@ The configuration files you'll need before running uWSGI/nginx are:
 [uwsgi]
 project = scriptnet
 base = /home/sfikas/CODE/competitions
+env = SYNTHIMA=<.....>
 
 chdir = %(base)/%(project)
 module = %(project).wsgi:application
