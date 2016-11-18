@@ -86,11 +86,22 @@ def index(request):
                 user.individual.affiliations.add(affiliation)
                 user.individual.save()
                 from django.core.mail import send_mail
-                send_mail(
-                    'Scriptnet competitions',
-                    'Welcome to the Scriptnet competitions platform!',
+                mails_sent = send_mail(
+                    'Account creation at Scriptnet competitions',
+                    """
+Welcome to the Scriptnet competitions platform!
+
+Sign in with your credentials (username: {}) at 
+https://scriptnet.iit.demokritos.gr/competitions/#login 
+to participate to the site competitions.
+
+
+
+
+(c) 2016 READ Project
+                    """.format(register_form.cleaned_data['username']),
                     settings.EMAIL_HOST_USER,
-                    [user.email],
+                    [user.email, settings.EMAIL_HOST_USER],
                     fail_silently=False,
                 )
                 #TODO: eventually will have to authenticate the new user by email
