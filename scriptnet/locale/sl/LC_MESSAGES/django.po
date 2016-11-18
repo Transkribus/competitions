@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-08-30 17:49+0300\n"
+"POT-Creation-Date: 2016-11-18 15:26+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -76,135 +76,134 @@ msgstr ""
 msgid "Language"
 msgstr ""
 
-#: competitions/models.py:104
-#, python-format
-msgid "%(value)s is not a unique track id for this competition"
+#: competitions/models.py:108 competitions/models.py:178
+msgid "You must specify all required fields."
 msgstr ""
 
-#: competitions/models.py:174
-#, python-format
-msgid "%(value)s is not a unique subtrack id for this track"
-msgstr ""
-
-#: competitions/models.py:312
+#: competitions/models.py:330
 msgid "The processing state of the submission is undefined"
 msgstr ""
 
-#: competitions/models.py:313
+#: competitions/models.py:331
 msgid "We are currently processing the submitted result"
 msgstr ""
 
-#: competitions/models.py:314
+#: competitions/models.py:332
 msgid "Could not call the related evaluator function"
 msgstr ""
 
-#: competitions/models.py:315
+#: competitions/models.py:333
 msgid "An error has occured before processing could start"
 msgstr ""
 
-#: competitions/models.py:316
+#: competitions/models.py:334
 msgid "An error has occured during processing of the submitted result"
 msgstr ""
 
-#: competitions/models.py:317
+#: competitions/models.py:335
 msgid "This benchmark cannot be computed by the specified evaluator function"
 msgstr ""
 
-#: competitions/models.py:318
+#: competitions/models.py:336
 msgid ""
 "The submitted result has been succesfully processed and a numerical result "
 "has been saved"
 msgstr ""
 
-#: competitions/templates/competitions/competition.html:53
-#: competitions/templates/competitions/master.html:58
-msgid "Logged in as"
+#: competitions/templates/competitions/competition.html:65
+msgid "News"
 msgstr ""
 
-#: competitions/templates/competitions/competition.html:64
-msgid "Competition home"
-msgstr ""
-
-#: competitions/templates/competitions/competition.html:67
-#: competitions/templates/competitions/scoreboard.html:13
-msgid "Scoreboard"
-msgstr ""
-
-#: competitions/templates/competitions/competition.html:71
-#: competitions/templates/competitions/competition.html:132
-msgid "Track"
-msgstr ""
-
-#: competitions/templates/competitions/competition.html:78
-#: competitions/templates/competitions/competition.html:136
-#: competitions/templates/competitions/competition.html:155
-msgid "Subtrack"
-msgstr ""
-
-#: competitions/templates/competitions/competition.html:85
-msgid "View all submissions for this "
+#: competitions/templates/competitions/competition.html:70
+msgid "Important Dates"
 msgstr ""
 
 #: competitions/templates/competitions/competition.html:88
-msgid "competition"
-msgstr ""
-
-#: competitions/templates/competitions/competition.html:90
-#: competitions/templates/competitions/submit.html:14
-#: competitions/templates/competitions/viewresults.html:17
-msgid "track"
-msgstr ""
-
-#: competitions/templates/competitions/competition.html:93
-msgid "subtrack"
-msgstr ""
-
-#: competitions/templates/competitions/competition.html:98
-#: competitions/templates/competitions/competition.html:198
+#: competitions/templates/competitions/competition_navbar.html:71
 msgid "Organizers"
 msgstr ""
 
-#: competitions/templates/competitions/competition.html:139
-#: competitions/templates/competitions/competition.html:141
-msgid "Download training set"
+#: competitions/templates/competitions/competition.html:125
+msgid "READ - a Horizon 2020 e-infrastructure project"
 msgstr ""
 
-#: competitions/templates/competitions/competition.html:144
-#: competitions/templates/competitions/competition.html:146
+#: competitions/templates/competitions/competition_content.html:10
+#: competitions/templates/competitions/competition_navbar.html:40
+msgid "Track"
+msgstr ""
+
+#: competitions/templates/competitions/competition_content.html:17
+#: competitions/templates/competitions/competition_content.html:44
+#: competitions/templates/competitions/competition_navbar.html:50
+msgid "Subtrack"
+msgstr ""
+
+#: competitions/templates/competitions/competition_content.html:33
+#: competitions/templates/competitions/competition_content.html:35
 msgid "Submit a new method for evaluation"
 msgstr ""
 
-#: competitions/templates/competitions/competition.html:146
+#: competitions/templates/competitions/competition_content.html:35
 msgid "you have to"
 msgstr ""
 
-#: competitions/templates/competitions/competition.html:146
+#: competitions/templates/competitions/competition_content.html:35
 #: competitions/templates/competitions/submit.html:25
 msgid "login </a> first"
 msgstr ""
 
-#: competitions/templates/competitions/competition.html:148
+#: competitions/templates/competitions/competition_content.html:37
 msgid "View results for all available methods"
 msgstr ""
 
-#: competitions/templates/competitions/competition.html:152
+#: competitions/templates/competitions/competition_content.html:41
 msgid "Please choose one of the available subtracks"
 msgstr ""
 
-#: competitions/templates/competitions/competition.html:161
+#: competitions/templates/competitions/competition_content.html:50
 msgid "There are no available subtracks for the current track"
 msgstr ""
 
-#: competitions/templates/competitions/competition.html:173
-msgid "News"
+#: competitions/templates/competitions/competition_navbar.html:17
+#: competitions/templates/competitions/master.html:58
+msgid "Logged in as"
 msgstr ""
 
-#: competitions/templates/competitions/competition.html:178
-msgid "Important Dates"
+#: competitions/templates/competitions/competition_navbar.html:20
+msgid "My submissions"
 msgstr ""
 
-#: competitions/templates/competitions/competition.html:235
-msgid "READ - a Horizon 2020 e-infrastructure project"
+#: competitions/templates/competitions/competition_navbar.html:29
+msgid "Competition home"
+msgstr ""
+
+#: competitions/templates/competitions/competition_navbar.html:32
+#: competitions/templates/competitions/scoreboard.html:13
+msgid "Scoreboard"
+msgstr ""
+
+#: competitions/templates/competitions/competition_navbar.html:38
+msgid "Participate in competition"
+msgstr ""
+
+#: competitions/templates/competitions/competition_navbar.html:58
+msgid "All submissions for this "
+msgstr ""
+
+#: competitions/templates/competitions/competition_navbar.html:61
+msgid "competition"
+msgstr ""
+
+#: competitions/templates/competitions/competition_navbar.html:63
+#: competitions/templates/competitions/submit.html:14
+#: competitions/templates/competitions/viewresults.html:17
+#: competitions/templates/competitions/viewresults.html:19
+msgid "track"
+msgstr ""
+
+#: competitions/templates/competitions/competition_navbar.html:66
+#: competitions/templates/competitions/viewresults.html:21
+msgid "subtrack"
 msgstr ""
 
 #: competitions/templates/competitions/master.html:16
@@ -228,18 +227,18 @@ msgid "Competitions"
 msgstr ""
 
 #: competitions/templates/competitions/master.html:74
-#: competitions/templates/competitions/master.html:211
-#: competitions/templates/competitions/master.html:225
+#: competitions/templates/competitions/master.html:203
+#: competitions/templates/competitions/master.html:217
 msgid "Register"
 msgstr ""
 
 #: competitions/templates/competitions/master.html:78
-#: competitions/templates/competitions/master.html:245
+#: competitions/templates/competitions/master.html:237
 msgid "Login"
 msgstr ""
 
 #: competitions/templates/competitions/master.html:82
-#: competitions/templates/competitions/master.html:261
+#: competitions/templates/competitions/master.html:253
 msgid "Contact"
 msgstr ""
 
@@ -255,40 +254,67 @@ msgstr ""
 msgid "About ScriptNet"
 msgstr ""
 
-#: competitions/templates/competitions/master.html:168
+#: competitions/templates/competitions/master.html:136
+msgid ""
+"ScriptNet is a platform that hosts competitions related to Handwritten Text "
+"Recognition (HTR) and other Document Image Analysis (DIA) areas of research. "
+"It aims to attract as many research groups as possible to contribute to the "
+"task of unconstrained historical handwriting recognition. The main idea is "
+"to host several competitions in a common and uniform environment."
+msgstr ""
+
+#: competitions/templates/competitions/master.html:140
+msgid ""
+"ScriptNet contains functionality which enables everyone to submit results "
+"anytime and get evaluation results, as well as ranking, automatically.  It "
+"is an initiative of the <b>READ EU funded project</b>, aiming to provide "
+"large datasets for stimulating research in HTR and related technologies."
+msgstr ""
+
+#: competitions/templates/competitions/master.html:154
 msgid "Active Document Understanding Competitions"
 msgstr ""
 
-#: competitions/templates/competitions/master.html:196
+#: competitions/templates/competitions/master.html:187
 msgid "*No competitions are currently active*"
 msgstr ""
 
-#: competitions/templates/competitions/master.html:212
+#: competitions/templates/competitions/master.html:204
 msgid "Register to take part in one of the active competitions."
 msgstr ""
 
-#: competitions/templates/competitions/master.html:238
+#: competitions/templates/competitions/master.html:230
 msgid "Sign in"
 msgstr ""
 
-#: competitions/templates/competitions/master.html:239
+#: competitions/templates/competitions/master.html:231
 msgid "Login with your credentials if you have already registered."
 msgstr ""
 
-#: competitions/templates/competitions/master.html:268
-msgid "NCSR 'Demokritos'"
+#: competitions/templates/competitions/master.html:278
+msgid "© 2016 READ Project."
 msgstr ""
 
-#: competitions/templates/competitions/master.html:276
-msgid "Institute of Informatics and Telecommunications"
+#: competitions/templates/competitions/master.html:279
+msgid ""
+"This project has received funding from the European Union’s Horizon 2020 "
+"research and innovation programme under grant agreement No 674943."
 msgstr ""
 
-#: competitions/templates/competitions/master.html:284
-msgid "Computational Intelligence Laboratory"
+#: competitions/templates/competitions/methodlist.html:27
+msgid "Publicize"
 msgstr ""
 
-#: competitions/templates/competitions/master.html:292
-msgid "READ project"
+#: competitions/templates/competitions/methodlist.html:30
+msgid "Privatize"
+msgstr ""
+
+#: competitions/templates/competitions/methodlist.html:33
+msgid "Delete"
+msgstr ""
+
+#: competitions/templates/competitions/methodlist.html:39
+msgid "You have not submitted any methods yet!"
 msgstr ""
 
 #: competitions/templates/competitions/scoreboard.html:23
@@ -316,18 +342,10 @@ msgid "the"
 msgstr ""
 
 #: competitions/templates/competitions/viewresults.html:17
-msgid "all subtracks of the "
+msgid "all subtracks of "
 msgstr ""
 
-#: competitions/templates/competitions/viewresults.html:19
-msgid "the "
-msgstr ""
-
-#: competitions/templates/competitions/viewresults.html:19
-msgid "track/subtrack"
-msgstr ""
-
-#: competitions/templates/competitions/viewresults.html:35
+#: competitions/templates/competitions/viewresults.html:37
 msgid ""
 "There are no submissions and no assigned benchmarks for this subtrack yet"
 msgstr ""
@@ -354,13 +372,27 @@ msgstr ""
 msgid "User {} has been created. Use your credentials to login."
 msgstr ""
 
-#: competitions/views.py:134
+#: competitions/views.py:101
+msgid "User {} has been blocked. Please contact the administrator for details."
+msgstr ""
+
+#: competitions/views.py:105
+msgid ""
+"User {} does not exist. Please make sure that you have correctly typed your "
+"username, or register to create a new username."
+msgstr ""
+
+#: competitions/views.py:136
 msgid ""
 "The method name already exists for this track. Please choose another name."
 msgstr ""
 
-#: competitions/views.py:168
+#: competitions/views.py:170
 msgid "Submission {} with id {} has been submitted succesfully. "
+msgstr ""
+
+#: competitions/views.py:275
+msgid "Submission {} has been deleted."
 msgstr ""
 
 #: scriptnet/settings.py:127
