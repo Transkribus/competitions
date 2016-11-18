@@ -8,7 +8,7 @@ from django.core.urlresolvers import reverse
 from django.conf import settings
 from django.utils.translation import ugettext_lazy as _
 from django_tables2 import RequestConfig
-from django.core.mail import send_mail
+from django.core.mail import send_mail, EmailMessage
 
 from .forms import LoginForm, RegisterForm, NEW_AFFILIATION_ID
 from .forms import SubmitForm
@@ -86,7 +86,7 @@ def index(request):
                 user.individual.shortbio = register_form.cleaned_data['shortbio']
                 user.individual.affiliations.add(affiliation)
                 user.individual.save()
-                mails_sent = send_mail(
+                email = EmailMessage(
                     'Account creation at Scriptnet competitions',
                     """
 Welcome to the Scriptnet competitions platform!
@@ -101,9 +101,10 @@ to participate to the site competitions.
 (c) 2016 READ Project
                     """.format(register_form.cleaned_data['username']),
                     settings.EMAIL_HOST_USER,
-                    [user.email, settings.EMAIL_HOST_USER],
-                    fail_silently=True,
+                    [user.email],
+                    ['sfikas@iit.demokritos.gr'],
                 )
+                email.send(fail_silently=False)                
                 #TODO: eventually will have to authenticate the new user by email
                 messages.add_message(request, messages.SUCCESS, _('User {} has been created. Use your credentials to login.').format(user.username))
                 return HttpResponseRedirect('/competitions/#register')
