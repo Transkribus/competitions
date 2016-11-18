@@ -1,0 +1,274 @@
+<?xml version="1.0"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+	<Metadata>
+		<Creator>TRP</Creator>
+		<Created>2014-09-25T12:35:49.897+02:00</Created>
+		<LastChange>2016-01-20T11:00:58.380+01:00</LastChange>
+	</Metadata>
+	<Page imageFilename="Seite0438.JPG" imageWidth="2432" imageHeight="3511">
+		<ReadingOrder>
+			<OrderedGroup id="ro_1453284076304" caption="Regions reading order">
+				<RegionRefIndexed index="0" regionRef="region_0dea9643-e2cd-4d1d-9c51-5fd88d550c72" />
+				<RegionRefIndexed index="1" regionRef="region_187d9819-588b-45c1-97e3-4f8694e03d94" />
+				<RegionRefIndexed index="2" regionRef="region_10bbbe92-6d5e-4183-b8c4-fba4d0dcdf2f" />
+				<RegionRefIndexed index="3" regionRef="region_1b532a56-f061-4576-a436-c6ac7073e10e" />
+				<RegionRefIndexed index="4" regionRef="region_13572852-6eea-4580-af29-44f6504a6a74" />
+				<RegionRefIndexed index="5" regionRef="region_55f96ec3-edcc-446d-8a90-c9cf18062c41" />
+			</OrderedGroup>
+		</ReadingOrder>
+		<TextRegion id="region_0dea9643-e2cd-4d1d-9c51-5fd88d550c72" custom="readingOrder {index:0;}">
+			<Coords points="414,98 546,98 546,224 414,224" />
+			<TextLine id="line_02cdb67a-9f73-45ce-81f5-b36b190c967c" custom="readingOrder {index:0;}">
+				<Coords points="537,116 422,133 422,216 537,199" />
+				<Baseline points="422,214 537,197" />
+				<TextEquiv>
+					<Unicode>220</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextEquiv>
+				<Unicode>220</Unicode>
+			</TextEquiv>
+		</TextRegion>
+		<TextRegion id="region_187d9819-588b-45c1-97e3-4f8694e03d94" custom="readingOrder {index:1;}">
+			<Coords points="911,279 2108,279 2108,1205 911,1205" />
+			<TextLine id="line_c23fec30-9b16-4aed-a221-679c7a651341" custom="readingOrder {index:0;}">
+				<Coords points="1943,321 1616,331 969,336 969,491 1616,486 1943,476" />
+				<Baseline points="969,466 1616,461 1943,451" />
+				<TextEquiv>
+					<Unicode>Die Ratserwellūng</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_95da4d64-b3ae-49dd-94df-a01763bc43b6" custom="readingOrder {index:1;}">
+				<Coords points="1924,486 1380,496 1019,486 1019,581 1380,591 1924,581" />
+				<Baseline points="1019,556 1380,566 1924,556" />
+				<TextEquiv>
+					<Unicode>ist in den Feirtagen</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_fadacfb2-dca7-461a-88e5-ccef77db4c06" custom="readingOrder {index:2;}">
+				<Coords points="1958,581 1679,594 1020,596 1020,691 1679,689 1958,676" />
+				<Baseline points="1020,666 1679,664 1958,651" />
+				<TextEquiv>
+					<Unicode>firzenemen, Aber</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_8dfd0135-5c14-4343-9b6c-25284f677dc6" custom="readingOrder {index:3;}">
+				<Coords points="1990,674 1713,688 1001,697 1001,791 1713,782 1990,768" />
+				<Baseline points="1001,769 1713,760 1990,746" />
+				<TextEquiv>
+					<Unicode>Ir Gnaden hl Kūeen.</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_2d46e55d-fb2d-4104-b8c8-80f8e8ca083f" custom="readingOrder {index:4;}">
+				<Coords points="2057,768 1644,796 1031,795 1031,881 1644,882 2057,854" />
+				<Baseline points="1031,857 1644,858 2057,830" />
+				<TextEquiv>
+					<Unicode>vnd von KūePach haben</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_a8125295-366a-45f0-b147-db33d105fafd" custom="readingOrder {index:5;} abbrev {offset:9; length:8;expansion:Anerboten;}">
+				<Coords points="2083,864 1778,880 1016,887 1016,979 1778,972 2083,956" />
+				<Baseline points="1016,954 1778,947 2083,931" />
+				<TextEquiv>
+					<Unicode>sich gl: Anerbot. noch</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_eac1c8d0-f374-4837-91b5-99795cea639b" custom="readingOrder {index:6;}">
+				<Coords points="1952,967 1615,985 1005,982 1005,1078 1615,1081 1952,1063" />
+				<Baseline points="1005,1054 1615,1057 1952,1039" />
+				<TextEquiv>
+					<Unicode>bei Irer Stel Zūver¬</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_f75e5927-493a-407b-82a0-fbc5d0fb3999" custom="readingOrder {index:7;}">
+				<Coords points="1372,1087 1031,1086 1031,1166 1372,1167" />
+				<Baseline points="1031,1154 1372,1155" />
+				<TextEquiv>
+					<Unicode>bleiben,</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextEquiv>
+				<Unicode>Die Ratserwellūng
+ist in den Feirtagen
+firzenemen, Aber
+Ir Gnaden hl Kūeen.
+vnd von KūePach haben
+sich gl: Anerbot. noch
+bei Irer Stel Zūver¬
+bleiben,</Unicode>
+			</TextEquiv>
+		</TextRegion>
+		<TextRegion id="region_10bbbe92-6d5e-4183-b8c4-fba4d0dcdf2f" custom="readingOrder {index:2;}">
+			<Coords points="371,399 866,399 866,656 371,656" />
+			<TextLine id="line_e0a89bca-78fa-438d-8be6-e7adf8fd49be" custom="readingOrder {index:0;}">
+				<Coords points="828,430 436,426 436,519 828,523" />
+				<Baseline points="436,498 828,502" />
+				<TextEquiv>
+					<Unicode>Ratser¬</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_fceff740-66ca-4c59-9312-a8218ae43a53" custom="readingOrder {index:1;}">
+				<Coords points="860,528 426,524 426,599 860,603" />
+				<Baseline points="426,582 860,586" />
+				<TextEquiv>
+					<Unicode>wellūng.</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextEquiv>
+				<Unicode>Ratser¬
+wellūng.</Unicode>
+			</TextEquiv>
+		</TextRegion>
+		<TextRegion id="region_1b532a56-f061-4576-a436-c6ac7073e10e" custom="readingOrder {index:3;}">
+			<Coords points="356,916 883,916 883,1099 356,1099" />
+			<TextLine id="line_212c5392-dd49-4d4d-9457-94f42ebb2c3f" custom="readingOrder {index:0;}">
+				<Coords points="877,931 366,937 366,1001 877,995" />
+				<Baseline points="366,984 877,978" />
+				<TextEquiv>
+					<Unicode>auf bschehens</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_8438ac05-27d6-4f55-8068-6331ba78fc30" custom="readingOrder {index:1;}">
+				<Coords points="849,1004 430,1005 430,1064 849,1063" />
+				<Baseline points="430,1053 849,1052" />
+				<TextEquiv>
+					<Unicode>Ansūechen.</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextEquiv>
+				<Unicode>auf bschehens
+Ansūechen.</Unicode>
+			</TextEquiv>
+		</TextRegion>
+		<TextRegion id="region_13572852-6eea-4580-af29-44f6504a6a74" custom="readingOrder {index:4;}">
+			<Coords points="906,1273 2205,1273 2205,2661 906,2661" />
+			<TextLine id="line_fb559c81-7068-4e27-a93c-ddbb58452a67" custom="readingOrder {index:0;}">
+				<Coords points="1956,1320 1719,1331 951,1330 951,1491 1719,1492 1956,1481" />
+				<Baseline points="951,1465 1719,1466 1956,1455" />
+				<TextEquiv>
+					<Unicode>Ain Cammer bevelh.</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_08070b10-0a00-47a0-bc3d-39b454ae2073" custom="readingOrder {index:1;}">
+				<Coords points="1986,1491 1689,1499 1026,1484 1026,1582 1689,1597 1986,1589" />
+				<Baseline points="1026,1558 1689,1573 1986,1565" />
+				<TextEquiv>
+					<Unicode>im dato: 16. diz die</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_0e488c55-4430-4f89-ba02-7dcfb1559194" custom="readingOrder {index:2;}">
+				<Coords points="1967,1592 1671,1603 1010,1598 1010,1690 1671,1695 1967,1684" />
+				<Baseline points="1010,1666 1671,1671 1967,1660" />
+				<TextEquiv>
+					<Unicode>weg vnd Strassen</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_1a065930-875f-4c56-b3ff-5fe4c3abbaa9" custom="readingOrder {index:3;}">
+				<Coords points="2036,1694 1747,1701 1005,1692 1005,1785 1747,1794 2036,1787" />
+				<Baseline points="1005,1761 1747,1770 2036,1763" />
+				<TextEquiv>
+					<Unicode>Pesserūng betreffent,</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_34eb82cb-9514-4328-86f3-00f227566396" custom="readingOrder {index:4;}">
+				<Coords points="1881,1794 1020,1800 1020,1890 1881,1884" />
+				<Baseline points="1020,1867 1881,1861" />
+				<TextEquiv>
+					<Unicode>welhermassen Zū</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_36f5d5d9-cb8d-468d-8853-9c0ce3280795" custom="readingOrder {index:5;}">
+				<Coords points="1946,1878 1611,1896 990,1894 990,1985 1611,1987 1946,1969" />
+				<Baseline points="990,1960 1611,1962 1946,1944" />
+				<TextEquiv>
+					<Unicode>Nassen: oder Regen¬</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_992d730a-c857-456f-a6b3-9ec9880ab4d5" custom="readingOrder {index:6;}">
+				<Coords points="1970,1983 1699,1991 1022,1993 1022,2090 1699,2088 1970,2080" />
+				<Baseline points="1022,2063 1699,2061 1970,2053" />
+				<TextEquiv>
+					<Unicode>weters Zeiten negst</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_1173aacd-8d44-45c4-a47c-dc3fe82e408d" custom="readingOrder {index:7;} abbrev {offset:17; length:6;expansion:Zwischen;}">
+				<Coords points="2090,2080 1752,2088 1024,2096 1024,2195 1752,2187 2090,2179" />
+				<Baseline points="1024,2172 1752,2164 2090,2156" />
+				<TextEquiv>
+					<Unicode>ob Sigmūndscron. Zwisch</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_34a473bb-47c6-4bdd-8501-500967038d21" custom="readingOrder {index:8;}">
+				<Coords points="1975,2200 1664,2198 1017,2201 1017,2293 1664,2290 1975,2292" />
+				<Baseline points="1017,2266 1664,2263 1975,2265" />
+				<TextEquiv>
+					<Unicode>dem Closster Gries</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_2c8d6ad7-f6ef-44e9-9109-2adfb16b027c" custom="readingOrder {index:9;} abbrev {offset:15; length:9;expansion:Landtgraben;}">
+				<Coords points="2163,2290 1734,2299 1020,2299 1020,2401 1734,2401 2163,2392" />
+				<Baseline points="1020,2375 1734,2375 2163,2366" />
+				<TextEquiv>
+					<Unicode>Schafstadl vnd Landtgrab</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_3992bde7-566c-4858-bd06-289693e7817d" custom="readingOrder {index:10;}">
+				<Coords points="1932,2395 1526,2407 1041,2405 1041,2506 1526,2508 1932,2496" />
+				<Baseline points="1041,2479 1526,2481 1932,2469" />
+				<TextEquiv>
+					<Unicode>wie nicht weniger</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_356c2479-245a-4103-b15c-7d36909dd017" custom="readingOrder {index:11;} abbrev {offset:9; length:2;expansion:Sankt;}">
+				<Coords points="2037,2487 1684,2501 1037,2514 1037,2608 1684,2595 2037,2581" />
+				<Baseline points="1037,2591 1684,2578 2037,2564" />
+				<TextEquiv>
+					<Unicode>Zwischen S: Morizien </Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextEquiv>
+				<Unicode>Ain Cammer bevelh.
+im dato: 16. diz die
+weg vnd Strassen
+Pesserūng betreffent,
+welhermassen Zū
+Nassen: oder Regen¬
+weters Zeiten negst
+ob Sigmūndscron. Zwisch
+dem Closster Gries
+Schafstadl vnd Landtgrab
+wie nicht weniger
+Zwischen S: Morizien </Unicode>
+			</TextEquiv>
+		</TextRegion>
+		<TextRegion id="region_55f96ec3-edcc-446d-8a90-c9cf18062c41" custom="readingOrder {index:5;}">
+			<Coords points="341,1441 880,1441 880,1723 341,1723" />
+			<TextLine id="line_b6d6643b-e210-45e8-ae7b-c11fc794f4ce" custom="readingOrder {index:0;}">
+				<Coords points="853,1466 393,1470 393,1555 853,1551" />
+				<Baseline points="393,1536 853,1532" />
+				<TextEquiv>
+					<Unicode>Weg vnd</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_8fb2e58d-5a7d-4f9c-b546-5cbb3717f7b3" custom="readingOrder {index:1;}">
+				<Coords points="872,1557 426,1559 426,1634 872,1632" />
+				<Baseline points="426,1612 872,1610" />
+				<TextEquiv>
+					<Unicode>Strassen</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_f970d53d-ad44-4587-8a82-82f660217c72" custom="readingOrder {index:2;} abbrev {offset:0; length:4;expansion:betreffend;}">
+				<Coords points="713,1639 494,1640 494,1708 713,1707" />
+				<Baseline points="494,1703 713,1702" />
+				<TextEquiv>
+					<Unicode>bet:</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextEquiv>
+				<Unicode>Weg vnd
+Strassen
+bet:</Unicode>
+			</TextEquiv>
+		</TextRegion>
+	</Page>
+</PcGts>

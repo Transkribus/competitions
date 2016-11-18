@@ -1,0 +1,222 @@
+<?xml version="1.0"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+	<Metadata>
+		<Creator>TRP</Creator>
+		<Created>2014-09-25T12:35:49.522+02:00</Created>
+		<LastChange>2016-01-20T12:34:07.985+01:00</LastChange>
+	</Metadata>
+	<Page imageFilename="Seite0426.JPG" imageWidth="2488" imageHeight="3511">
+		<ReadingOrder>
+			<OrderedGroup id="ro_1453289665992" caption="Regions reading order">
+				<RegionRefIndexed index="0" regionRef="region_08c104b0-0b78-4cc1-a417-339a036fcbfc" />
+				<RegionRefIndexed index="1" regionRef="region_611efe34-4d3f-4c9a-be52-9465457acd21" />
+				<RegionRefIndexed index="2" regionRef="region_068bca04-ce72-4695-b2b8-04eee301c78f" />
+				<RegionRefIndexed index="3" regionRef="region_59529109-0526-4beb-ad66-c91212df2da0" />
+			</OrderedGroup>
+		</ReadingOrder>
+		<TextRegion id="region_08c104b0-0b78-4cc1-a417-339a036fcbfc" custom="readingOrder {index:0;}">
+			<Coords points="511,138 632,138 632,265 511,265" />
+			<TextLine id="line_e918616d-64f8-43d2-869c-f687726212be" custom="readingOrder {index:0;}">
+				<Coords points="624,138 511,174 511,260 624,224" />
+				<Baseline points="511,259 624,223" />
+				<TextEquiv>
+					<Unicode />
+				</TextEquiv>
+			</TextLine>
+			<TextEquiv>
+				<Unicode />
+			</TextEquiv>
+		</TextRegion>
+		<TextRegion id="region_611efe34-4d3f-4c9a-be52-9465457acd21" custom="readingOrder {index:1;}">
+			<Coords points="962,1211 992,415 1807,381 2220,415 2220,1510 992,1510" />
+			<TextLine id="line_349c59c6-0b93-4a87-a13f-d5d4d67024d2" custom="readingOrder {index:0;}">
+				<Coords points="1980,403 1680,415 1086,418 1086,528 1680,525 1980,513" />
+				<Baseline points="1086,504 1680,501 1980,489" />
+				<TextEquiv>
+					<Unicode>manns. der herrn</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_d3aa3b29-1e14-42bc-8d00-4b03f1c584f8" custom="readingOrder {index:1;} abbrev {offset:6; length:13;expansion:ComPromissarÿen;}">
+				<Coords points="2061,523 1673,534 1076,533 1076,629 1673,630 2061,619" />
+				<Baseline points="1076,601 1673,602 2061,591" />
+				<TextEquiv>
+					<Unicode>Steūr ComPromissarÿ</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_8d9b6976-a629-4b2d-84b2-318dc69f8608" custom="readingOrder {index:2;}">
+				<Coords points="2005,618 1670,633 1092,637 1092,738 1670,734 2005,719" />
+				<Baseline points="1092,717 1670,713 2005,698" />
+				<TextEquiv>
+					<Unicode>die sich eben Zūr Zeit</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_29ec6ce6-9bcb-47fa-8854-2ea0dc847152" custom="readingOrder {index:3;} abbrev {offset:19; length:4;expansion:ganzer;}">
+				<Coords points="2121,730 1696,744 1114,741 1114,824 1696,827 2121,813" />
+				<Baseline points="1114,801 1696,804 2121,790" />
+				<TextEquiv>
+					<Unicode>Alhie befūnden vnd ganz</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_24949f99-3e8b-4933-b40a-4e5fbdbac401" custom="readingOrder {index:4;} abbrev {offset:10; length:11;expansion:gehorsamisten;}">
+				<Coords points="2147,824 1827,832 1099,819 1099,910 1827,923 2147,915" />
+				<Baseline points="1099,883 1827,896 2147,888" />
+				<TextEquiv>
+					<Unicode>Gmain Ain gehorsamist</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_2e976af0-85db-4fa4-ae49-400a3357924d" custom="readingOrder {index:5;}">
+				<Coords points="2113,906 1749,926 1090,929 1090,1031 1749,1028 2113,1008" />
+				<Baseline points="1090,1005 1749,1002 2113,982" />
+				<TextEquiv>
+					<Unicode>volzūg glaisst, Alls</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_30214e87-fd5c-49ac-98cd-630a6e194755" custom="readingOrder {index:6;}">
+				<Coords points="2093,1022 1834,1030 1085,1037 1085,1137 1834,1130 2093,1122" />
+				<Baseline points="1085,1111 1834,1104 2093,1096" />
+				<TextEquiv>
+					<Unicode>solle soliches Ain hoch¬</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_b2c675ed-1235-47ef-a643-fe862122a819" custom="readingOrder {index:7;}">
+				<Coords points="2156,1114 1865,1130 1110,1143 1110,1241 1865,1228 2156,1212" />
+				<Baseline points="1110,1215 1865,1202 2156,1186" />
+				<TextEquiv>
+					<Unicode>lobliche Regierūng vnd</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_f4cc3168-291e-4ac2-b17c-79b0b51b7790" custom="readingOrder {index:8;}">
+				<Coords points="2116,1231 1855,1238 1074,1247 1074,1350 1855,1341 2116,1334" />
+				<Baseline points="1074,1321 1855,1312 2116,1305" />
+				<TextEquiv>
+					<Unicode>Cammer. gehorsamlich</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_6639053b-8998-44e7-98e7-9e502e3f40a8" custom="readingOrder {index:9;}">
+				<Coords points="1791,1345 1096,1357 1096,1457 1791,1445" />
+				<Baseline points="1096,1439 1791,1427" />
+				<TextEquiv>
+					<Unicode>bericht werden. </Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextEquiv>
+				<Unicode>manns. der herrn
+Steūr ComPromissarÿ
+die sich eben Zūr Zeit
+Alhie befūnden vnd ganz
+Gmain Ain gehorsamist
+volzūg glaisst, Alls
+solle soliches Ain hoch¬
+lobliche Regierūng vnd
+Cammer. gehorsamlich
+bericht werden. </Unicode>
+			</TextEquiv>
+		</TextRegion>
+		<TextRegion id="region_068bca04-ce72-4695-b2b8-04eee301c78f" custom="readingOrder {index:2;}">
+			<Coords points="964,1544 2285,1544 2285,2748 964,2748" />
+			<TextLine id="line_27f626cf-229e-44ae-988f-3abb14d07502" custom="readingOrder {index:0;}">
+				<Coords points="2140,1597 1827,1593 1036,1614 1036,1798 1827,1777 2140,1781" />
+				<Baseline points="1036,1777 1827,1756 2140,1760" />
+				<TextEquiv>
+					<Unicode>Verer ain Anndern Be¬</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_c0c3449f-0139-4351-abbd-ea119c58e56b" custom="readingOrder {index:1;}">
+				<Coords points="2107,1797 1812,1792 1109,1804 1109,1890 1812,1878 2107,1883" />
+				<Baseline points="1109,1864 1812,1852 2107,1857" />
+				<TextEquiv>
+					<Unicode>ūelch. dessen dato. 4.</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_a1f40817-e9b2-44ca-a2a6-4bb8823af104" custom="readingOrder {index:2;}">
+				<Coords points="2160,1883 1875,1897 1757,1890 1080,1895 1080,1992 1757,1987 1875,1994 2160,1980" />
+				<Baseline points="1080,1969 1757,1964 1875,1971 2160,1957" />
+				<TextEquiv>
+					<Unicode>diz, Abglesen, Darinn</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_aa63bbe1-3acc-490c-bd58-84eb76a4062c" custom="readingOrder {index:3;}">
+				<Coords points="2126,1993 1733,2000 1092,1997 1092,2091 1733,2094 2126,2087" />
+				<Baseline points="1092,2062 1733,2065 2126,2058" />
+				<TextEquiv>
+					<Unicode>Zūsehen. das sich Johann</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_5acc0895-ee5f-4dbb-bf2e-5a11ea5551a4" custom="readingOrder {index:4;}">
+				<Coords points="2104,2079 1671,2084 1075,2101 1075,2204 1671,2187 2104,2182" />
+				<Baseline points="1075,2182 1671,2165 2104,2160" />
+				<TextEquiv>
+					<Unicode>BaPtissta Cosmi von Ro¬</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_1eaa6df7-0661-4c96-b26c-74c8fe085a17" custom="readingOrder {index:5;}">
+				<Coords points="2184,2190 1786,2208 1113,2209 1113,2298 1786,2297 2184,2279" />
+				<Baseline points="1113,2271 1786,2270 2184,2252" />
+				<TextEquiv>
+					<Unicode>ūereid. wegen des Ime</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_641c1a12-1a6a-4a2e-b34f-6ab05002786e" custom="readingOrder {index:6;}">
+				<Coords points="2220,2270 1911,2290 1104,2304 1104,2406 1911,2392 2220,2372" />
+				<Baseline points="1104,2381 1911,2367 2220,2347" />
+				<TextEquiv>
+					<Unicode>Alhie nidergelegten Traids</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_ac04a526-a72d-4399-8480-8fddd4b1f4c5" custom="readingOrder {index:7;} abbrev {offset:9; length:7;expansion:Derowegen;}">
+				<Coords points="2104,2390 1096,2412 1096,2506 2104,2484" />
+				<Baseline points="1096,2484 2104,2462" />
+				<TextEquiv>
+					<Unicode>beclagt. Deroweg</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_89385748-461a-4ee1-84f4-f57adfb177a0" custom="readingOrder {index:8;}">
+				<Coords points="2101,2491 1785,2505 1106,2512 1106,2603 1785,2596 2101,2582" />
+				<Baseline points="1106,2575 1785,2568 2101,2554" />
+				<TextEquiv>
+					<Unicode>Aim Ersamen Rath be¬</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_a3c9f1a9-f242-4529-a221-ea231982baae" custom="readingOrder {index:9;} textStyle {offset:13; length:5;monospace:true;}">
+				<Coords points="2151,2586 1816,2598 1106,2609 1106,2702 1816,2691 2151,2679" />
+				<Baseline points="1106,2687 1816,2676 2151,2664" />
+				<TextEquiv>
+					<Unicode>ūelhend. Ime Cosmi solhes </Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextEquiv>
+				<Unicode>Verer ain Anndern Be¬
+ūelch. dessen dato. 4.
+diz, Abglesen, Darinn
+Zūsehen. das sich Johann
+BaPtissta Cosmi von Ro¬
+ūereid. wegen des Ime
+Alhie nidergelegten Traids
+beclagt. Deroweg
+Aim Ersamen Rath be¬
+ūelhend. Ime Cosmi solhes </Unicode>
+			</TextEquiv>
+		</TextRegion>
+		<TextRegion id="region_59529109-0526-4beb-ad66-c91212df2da0" custom="readingOrder {index:3;}">
+			<Coords points="434,1666 953,1666 953,1902 434,1902" />
+			<TextLine id="line_9116bacf-43d5-4dc9-a408-2b3a322b4cb3" custom="readingOrder {index:0;}">
+				<Coords points="949,1691 445,1703 445,1811 949,1799" />
+				<Baseline points="445,1788 949,1776" />
+				<TextEquiv>
+					<Unicode>Cosmi von</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_15e28712-799d-4b70-a8a9-3f310cf574cc" custom="readingOrder {index:1;}">
+				<Coords points="939,1805 450,1817 450,1888 939,1876" />
+				<Baseline points="450,1883 939,1871" />
+				<TextEquiv>
+					<Unicode>Roūereid.</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextEquiv>
+				<Unicode>Cosmi von
+Roūereid.</Unicode>
+			</TextEquiv>
+		</TextRegion>
+	</Page>
+</PcGts>

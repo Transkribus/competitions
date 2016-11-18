@@ -1,0 +1,214 @@
+<?xml version="1.0"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+	<Metadata>
+		<Creator>TRP</Creator>
+		<Created>2014-09-25T12:35:48.866+02:00</Created>
+		<LastChange>2016-01-22T10:08:34.284+01:00</LastChange>
+	</Metadata>
+	<Page imageFilename="Seite0406.JPG" imageWidth="2480" imageHeight="3511">
+		<ReadingOrder>
+			<OrderedGroup id="ro_1453453733252" caption="Regions reading order">
+				<RegionRefIndexed index="0" regionRef="region_bb225ab6-398f-4bfd-bb2f-9da9c016e3ce" />
+				<RegionRefIndexed index="1" regionRef="region_3be028fa-3aee-4f45-a980-e080beb4eb6a" />
+				<RegionRefIndexed index="2" regionRef="region_cf3d82e2-9359-4c69-8f5c-2a9b2a20b252" />
+				<RegionRefIndexed index="3" regionRef="region_b5be0ff5-0510-41c0-8bae-443b66b5fc71" />
+			</OrderedGroup>
+		</ReadingOrder>
+		<TextRegion id="region_bb225ab6-398f-4bfd-bb2f-9da9c016e3ce" custom="readingOrder {index:0;}">
+			<Coords points="444,120 589,120 589,256 444,256" />
+			<TextLine id="line_9df5f729-89ad-4291-a82c-0b91ee659e3b" custom="readingOrder {index:0;}">
+				<Coords points="586,123 453,156 453,244 586,211" />
+				<Baseline points="453,240 586,207" />
+				<TextEquiv>
+					<Unicode>204</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextEquiv>
+				<Unicode>204</Unicode>
+			</TextEquiv>
+		</TextRegion>
+		<TextRegion id="region_3be028fa-3aee-4f45-a980-e080beb4eb6a" custom="readingOrder {index:1;}">
+			<Coords points="1052,304 2225,304 2225,1053 1187,1009 1133,995 1083,978" />
+			<TextLine id="line_0b5c35e2-4189-46f1-8828-8037637f25dd" custom="readingOrder {index:0;}">
+				<Coords points="2214,375 1807,379 1069,375 1069,575 1807,579 2214,575" />
+				<Baseline points="1069,549 1807,553 2214,549" />
+				<TextEquiv>
+					<Unicode>Schgrafer, Hannsen Hehl.</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_14c43ce9-923f-499b-b3da-548f91dfb77b" custom="readingOrder {index:1;}">
+				<Coords points="2168,585 1809,578 1142,582 1142,685 1809,681 2168,688" />
+				<Baseline points="1142,655 1809,651 2168,658" />
+				<TextEquiv>
+					<Unicode>Adamen Azwannger,</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_a2a0fa11-d29a-4733-9a46-267552fd1dc9" custom="readingOrder {index:2;}">
+				<Coords points="2116,695 1778,692 1121,672 1121,784 1778,804 2116,807" />
+				<Baseline points="1121,758 1778,778 2116,781" />
+				<TextEquiv>
+					<Unicode>Matheisen Feichtner </Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_d4f1add3-1ba2-4d33-8c00-70054de91fe0" custom="readingOrder {index:3;}">
+				<Coords points="1997,813 1113,798 1113,896 1997,911" />
+				<Baseline points="1113,870 1997,885" />
+				<TextEquiv>
+					<Unicode>vnd Matheisen Hōr¬</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_e3cd40d2-d8f2-4bfe-bebe-b476cdf8f02c" custom="readingOrder {index:4;} abbrev {offset:12; length:6;expansion:gehalten;}">
+				<Coords points="2139,917 1126,915 1126,994 2139,1005" />
+				<Baseline points="1126,987 2139,989" />
+				<TextEquiv>
+					<Unicode>warter Rath gehalt.</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextEquiv>
+				<Unicode>Schgrafer, Hannsen Hehl.
+Adamen Azwannger,
+Matheisen Feichtner 
+vnd Matheisen Hōr¬
+warter Rath gehalt.</Unicode>
+			</TextEquiv>
+		</TextRegion>
+		<TextRegion id="region_cf3d82e2-9359-4c69-8f5c-2a9b2a20b252" custom="readingOrder {index:2;}">
+			<Coords points="2229,1106 1217,1059 1156,1019 1077,1024 1013,1060 1081,1186 1077,1509 1041,1547 1042,2759 2229,2759" />
+			<TextLine id="line_6b2dff02-adf5-4aa0-8c8b-0b3eea36d7c8" custom="readingOrder {index:0;} abbrev {offset:9; length:4;expansion:vnnder;}">
+				<Coords points="2080,1099 1750,1097 1082,1071 1082,1278 1750,1304 2080,1304" />
+				<Baseline points="1082,1251 1750,1277 2080,1277" />
+				<TextEquiv>
+					<Unicode>Aūf den: vnnd der</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_a2750838-a9d7-484b-86d4-345091e3696e" custom="readingOrder {index:1;} abbrev {offset:5; length:3;expansion:fürstlichen;} abbrev {offset:9; length:3;expansion:durchlauchtigen;}">
+				<Coords points="2077,1300 1738,1310 1097,1301 1097,1407 1738,1416 2077,1406" />
+				<Baseline points="1097,1377 1738,1386 2077,1376" />
+				<TextEquiv>
+					<Unicode>hoch fl: dt. Titl vnnd</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_af9a6f06-0f2e-4cd2-9ec1-67bf1f8d53f5" custom="readingOrder {index:2;}">
+				<Coords points="2076,1416 1784,1423 1099,1406 1099,1516 1784,1533 2076,1526" />
+				<Baseline points="1099,1491 1784,1508 2076,1501" />
+				<TextEquiv>
+					<Unicode>Decret. im dato .16.</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_0b66ea08-19d0-40b1-8551-091c94d9381c" custom="readingOrder {index:3;}">
+				<Coords points="2115,1530 1729,1538 1106,1539 1106,1637 1729,1636 2115,1628" />
+				<Baseline points="1106,1610 1729,1609 2115,1601" />
+				<TextEquiv>
+					<Unicode>Noūembris negsthin.</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_5b5eef36-26d4-48ad-bba6-70fd1343d0a5" custom="readingOrder {index:4;}">
+				<Coords points="2196,1628 1787,1643 1100,1640 1100,1744 1787,1747 2196,1732" />
+				<Baseline points="1100,1717 1787,1720 2196,1705" />
+				<TextEquiv>
+					<Unicode>gnedigist Aūsganngnen</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_cced5b4e-c136-40b2-bef2-1e45876b3c01" custom="readingOrder {index:5;}">
+				<Coords points="2046,1753 1885,1745 1108,1745 1108,1850 1885,1850 2046,1858" />
+				<Baseline points="1108,1822 1885,1822 2046,1830" />
+				<TextEquiv>
+					<Unicode>Beūelch. Soll</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_856b17d8-a9c7-4a04-b804-410c47311ec0" custom="readingOrder {index:6;}">
+				<Coords points="2135,1846 1837,1854 1091,1864 1091,1967 1837,1957 2135,1949" />
+				<Baseline points="1091,1942 1837,1932 2135,1924" />
+				<TextEquiv>
+					<Unicode>Cristoff Haim. Zū der¬</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_e43e82d5-c9ad-4774-aa86-485284bb1406" custom="readingOrder {index:7;}">
+				<Coords points="2184,1961 1811,1973 1132,1973 1132,2071 1811,2071 2184,2059" />
+				<Baseline points="1132,2043 1811,2043 2184,2031" />
+				<TextEquiv>
+					<Unicode>aūf heūt angestelten</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_ea5d8ac1-7492-4a83-96de-6e07d5be2692" custom="readingOrder {index:8;}">
+				<Coords points="2140,2065 1895,2071 1402,2077 1109,2062 1109,2166 1402,2181 1895,2175 2140,2169" />
+				<Baseline points="1109,2141 1402,2156 1895,2150 2140,2144" />
+				<TextEquiv>
+					<Unicode>Genneral: wie aūch</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_28826673-4975-45c1-beca-5420d7a0d989" custom="readingOrder {index:9;}">
+				<Coords points="2171,2169 1846,2178 1114,2187 1114,2286 1846,2277 2171,2268" />
+				<Baseline points="1114,2258 1846,2249 2171,2240" />
+				<TextEquiv>
+					<Unicode>der Anndern Steūrein¬</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_1bbcc53c-2152-4e1c-ba61-a8324bf2f050" custom="readingOrder {index:10;} abbrev {offset:12; length:1;expansion:ten;}">
+				<Coords points="2213,2274 1987,2277 1604,2293 1129,2271 1129,2376 1604,2398 1987,2382 2213,2379" />
+				<Baseline points="1129,2352 1604,2374 1987,2358 2213,2355" />
+				<TextEquiv>
+					<Unicode>nemer .1619.t Jar Ambts¬</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_6d146d7a-1566-4cb8-a18b-bfa8dad98370" custom="readingOrder {index:11;}">
+				<Coords points="2049,2397 1694,2403 1094,2402 1094,2495 1694,2496 2049,2490" />
+				<Baseline points="1094,2469 1694,2470 2049,2464" />
+				<TextEquiv>
+					<Unicode>Raittūngen. Zūer¬</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_c2e01a8a-4d83-487c-9638-5837fae6a797" custom="readingOrder {index:12;}">
+				<Coords points="2086,2497 1732,2502 1120,2499 1120,2598 1732,2601 2086,2596" />
+				<Baseline points="1120,2573 1732,2576 2086,2571" />
+				<TextEquiv>
+					<Unicode>scheinen, verordent</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_4e16a4d2-3055-461a-a44d-3ce54ad64a09" custom="readingOrder {index:13;}">
+				<Coords points="1587,2607 1121,2606 1121,2698 1587,2699" />
+				<Baseline points="1121,2678 1587,2679" />
+				<TextEquiv>
+					<Unicode>werden,</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextEquiv>
+				<Unicode>Aūf den: vnnd der
+hoch fl: dt. Titl vnnd
+Decret. im dato .16.
+Noūembris negsthin.
+gnedigist Aūsganngnen
+Beūelch. Soll
+Cristoff Haim. Zū der¬
+aūf heūt angestelten
+Genneral: wie aūch
+der Anndern Steūrein¬
+nemer .1619.t Jar Ambts¬
+Raittūngen. Zūer¬
+scheinen, verordent
+werden,</Unicode>
+			</TextEquiv>
+		</TextRegion>
+		<TextRegion id="region_b5be0ff5-0510-41c0-8bae-443b66b5fc71" custom="readingOrder {index:3;}">
+			<Coords points="430,1185 1073,1185 1073,1501 430,1501" />
+			<TextLine id="line_3e0fd4b7-fd83-43d6-ae10-b1f0e5f22846" custom="readingOrder {index:0;}">
+				<Coords points="1015,1230 446,1222 446,1347 1015,1355" />
+				<Baseline points="446,1325 1015,1333" />
+				<TextEquiv>
+					<Unicode>Genneral¬</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_391de157-e6a0-4754-b052-9efce1a30369" custom="readingOrder {index:1;}">
+				<Coords points="1067,1358 479,1360 479,1441 1067,1439" />
+				<Baseline points="479,1421 1067,1419" />
+				<TextEquiv>
+					<Unicode>steūr Raitūng </Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextEquiv>
+				<Unicode>Genneral¬
+steūr Raitūng </Unicode>
+			</TextEquiv>
+		</TextRegion>
+	</Page>
+</PcGts>

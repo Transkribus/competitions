@@ -1,0 +1,230 @@
+<?xml version="1.0"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+	<Metadata>
+		<Creator>TRP</Creator>
+		<Created>2014-09-25T12:35:50.413+02:00</Created>
+		<LastChange>2016-01-20T09:07:27.891+01:00</LastChange>
+	</Metadata>
+	<Page imageFilename="Seite0453.JPG" imageWidth="2290" imageHeight="3511">
+		<ReadingOrder>
+			<OrderedGroup id="ro_1453277265314" caption="Regions reading order">
+				<RegionRefIndexed index="0" regionRef="region_5cd184ec-2335-4346-b54c-196302cbedcb" />
+				<RegionRefIndexed index="1" regionRef="region_24bbb165-fb79-433c-8218-2dc56127c80a" />
+				<RegionRefIndexed index="2" regionRef="region_5853227a-cdc3-4a9b-86e1-f6bce3363760" />
+				<RegionRefIndexed index="3" regionRef="region_44153d7f-fdde-4b74-8f69-657c00876d3d" />
+				<RegionRefIndexed index="4" regionRef="region_a9803219-6ff7-40fd-9a16-fe12ddcf8012" />
+				<RegionRefIndexed index="5" regionRef="region_b48f4bd3-25fd-435a-907e-4daf51d2545e" />
+				<RegionRefIndexed index="6" regionRef="region_ffe57f3b-9553-4c35-85d2-872ed0efd39b" />
+				<RegionRefIndexed index="7" regionRef="region_2d82056a-1bb9-4938-a59e-647f19cff037" />
+			</OrderedGroup>
+		</ReadingOrder>
+		<TextRegion id="region_5cd184ec-2335-4346-b54c-196302cbedcb" custom="readingOrder {index:0;}">
+			<Coords points="1621,268 1899,268 1899,376 1621,376" />
+			<TextLine id="line_ce1ad8d6-ede7-45f9-b93e-a4570ac8a019" custom="readingOrder {index:0;}">
+				<Coords points="1877,295 1640,286 1640,352 1877,361" />
+				<Baseline points="1640,347 1877,356" />
+				<TextEquiv>
+					<Unicode>227</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextEquiv>
+				<Unicode>227</Unicode>
+			</TextEquiv>
+		</TextRegion>
+		<TextRegion id="region_24bbb165-fb79-433c-8218-2dc56127c80a" custom="readingOrder {index:1;}">
+			<Coords points="664,517 2079,517 2079,870 664,870" />
+			<TextLine id="line_a9abb5c4-52f5-4fb7-97e4-c85285b7063c" custom="readingOrder {index:0;}">
+				<Coords points="1798,539 1221,529 739,527 739,605 1221,607 1798,617" />
+				<Baseline points="739,577 1221,579 1798,589" />
+				<TextEquiv>
+					<Unicode>gegen firgwisnen Sibtsal</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_cf8f2d54-2779-46fc-8b11-0c76a69b85e9" custom="readingOrder {index:1;} abbrev {offset:21; length:2;expansion:florin;}">
+				<Coords points="1751,623 1367,612 728,605 728,705 1367,712 1751,723" />
+				<Baseline points="728,684 1367,691 1751,702" />
+				<TextEquiv>
+					<Unicode>vnd Lerbrief, vnd .3 fl</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_c4fe789e-da7d-4dc9-8254-e203fd68421a" custom="readingOrder {index:2;}">
+				<Coords points="1382,728 720,720 720,800 1382,808" />
+				<Baseline points="720,780 1382,788" />
+				<TextEquiv>
+					<Unicode>Tax bewilligt. </Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextEquiv>
+				<Unicode>gegen firgwisnen Sibtsal
+vnd Lerbrief, vnd .3 fl
+Tax bewilligt. </Unicode>
+			</TextEquiv>
+		</TextRegion>
+		<TextRegion id="region_5853227a-cdc3-4a9b-86e1-f6bce3363760" custom="readingOrder {index:2;}">
+			<Coords points="655,906 1997,906 1997,1431 655,1431" />
+			<TextLine id="line_2436b099-7779-4de3-a379-788f7a188a68" custom="readingOrder {index:0;}">
+				<Coords points="1973,975 1285,943 702,941 702,1126 1285,1128 1973,1160" />
+				<Baseline points="702,1101 1285,1103 1973,1135" />
+				<TextEquiv>
+					<Unicode>Geörg Stainman Pitet vmbs</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_9f3f5936-2ca1-49c3-bebe-17c0dbd8249a" custom="readingOrder {index:1;}">
+				<Coords points="1937,1166 1406,1123 732,1111 732,1206 1406,1218 1937,1261" />
+				<Baseline points="732,1182 1406,1194 1937,1237" />
+				<TextEquiv>
+					<Unicode>Pallntragerambt. ist gegen</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_c465affd-ac13-45f2-b26d-64c9c0b759a4" custom="readingOrder {index:2;}">
+				<Coords points="1839,1267 1304,1233 757,1233 757,1314 1304,1314 1839,1348" />
+				<Baseline points="757,1300 1304,1300 1839,1334" />
+				<TextEquiv>
+					<Unicode>laistūng Porgschafft. be¬</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_c55ca280-caa2-43d3-b8b0-88eda35b61cf" custom="readingOrder {index:3;}">
+				<Coords points="1138,1352 738,1344 738,1393 1138,1401" />
+				<Baseline points="738,1383 1138,1391" />
+				<TextEquiv>
+					<Unicode>willigt. </Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextEquiv>
+				<Unicode>Geörg Stainman Pitet vmbs
+Pallntragerambt. ist gegen
+laistūng Porgschafft. be¬
+willigt. </Unicode>
+			</TextEquiv>
+		</TextRegion>
+		<TextRegion id="region_44153d7f-fdde-4b74-8f69-657c00876d3d" custom="readingOrder {index:3;}">
+			<Coords points="131,1003 642,1003 642,1248 131,1248" />
+			<TextLine id="line_60525432-06e2-4552-bd63-c76b13842329" custom="readingOrder {index:0;} abbrev {offset:0; length:10;expansion:Pallntrager;}">
+				<Coords points="629,1044 181,1046 181,1170 629,1168" />
+				<Baseline points="181,1144 629,1142" />
+				<TextEquiv>
+					<Unicode>Pallntrag.</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextEquiv>
+				<Unicode>Pallntrag.</Unicode>
+			</TextEquiv>
+		</TextRegion>
+		<TextRegion id="region_a9803219-6ff7-40fd-9a16-fe12ddcf8012" custom="readingOrder {index:4;}">
+			<Coords points="621,1488 1962,1488 1962,2114 621,2114" />
+			<TextLine id="line_685aedaf-e1c8-4d05-9881-9ad0aeb8f2c5" custom="readingOrder {index:0;}">
+				<Coords points="1940,1570 1366,1545 657,1529 657,1743 1366,1759 1940,1784" />
+				<Baseline points="657,1720 1366,1736 1940,1761" />
+				<TextEquiv>
+					<Unicode>Melchior Mūglach. Pitet Ime</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_6cc52c81-8db0-4a59-b39c-8dbdb93b8962" custom="readingOrder {index:1;}">
+				<Coords points="1826,1790 1469,1774 732,1759 732,1854 1469,1869 1826,1885" />
+				<Baseline points="732,1824 1469,1839 1826,1855" />
+				<TextEquiv>
+					<Unicode>Siben Stäm Holtz aūs der</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_695c7882-fa4a-416e-846c-5e336fc2fa8a" custom="readingOrder {index:2;} abbrev {offset:16; length:9;expansion:bewilligen;}">
+				<Coords points="1891,1892 1487,1861 724,1846 724,1948 1487,1963 1891,1994" />
+				<Baseline points="724,1930 1487,1945 1891,1976" />
+				<TextEquiv>
+					<Unicode>Aū vnd Gmain Zū bewillig.</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_62496fc6-d237-49d1-96f2-f350c103593b" custom="readingOrder {index:3;}">
+				<Coords points="1363,1998 729,1985 729,2052 1363,2065" />
+				<Baseline points="729,2036 1363,2049" />
+				<TextEquiv>
+					<Unicode>ist Abgschlagen,</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextEquiv>
+				<Unicode>Melchior Mūglach. Pitet Ime
+Siben Stäm Holtz aūs der
+Aū vnd Gmain Zū bewillig.
+ist Abgschlagen,</Unicode>
+			</TextEquiv>
+		</TextRegion>
+		<TextRegion id="region_b48f4bd3-25fd-435a-907e-4daf51d2545e" custom="readingOrder {index:5;}">
+			<Coords points="140,1758 609,1758 609,2022 140,2022" />
+			<TextLine id="line_46052d39-8adf-4076-ab29-85b75ebe772a" custom="readingOrder {index:0;}">
+				<Coords points="600,1796 164,1789 164,1898 600,1905" />
+				<Baseline points="164,1875 600,1882" />
+				<TextEquiv>
+					<Unicode>Melchior</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_01d94262-7045-4023-8a99-846f8e13b540" custom="readingOrder {index:1;}">
+				<Coords points="556,1911 214,1909 214,1985 556,1987" />
+				<Baseline points="214,1974 556,1976" />
+				<TextEquiv>
+					<Unicode>Mūglach.</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextEquiv>
+				<Unicode>Melchior
+Mūglach.</Unicode>
+			</TextEquiv>
+		</TextRegion>
+		<TextRegion id="region_ffe57f3b-9553-4c35-85d2-872ed0efd39b" custom="readingOrder {index:6;}">
+			<Coords points="576,2130 1987,2130 1987,2755 576,2755" />
+			<TextLine id="line_f7bccf86-ce83-473a-8910-37ed1c5a22e5" custom="readingOrder {index:0;}">
+				<Coords points="1867,2209 1241,2197 722,2199 722,2410 1241,2408 1867,2420" />
+				<Baseline points="722,2382 1241,2380 1867,2392" />
+				<TextEquiv>
+					<Unicode>Cristoff Kalser Kessler</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_b3aff1d7-1ce2-4f46-888b-98b542234f26" custom="readingOrder {index:1;}">
+				<Coords points="1839,2426 1358,2408 735,2405 735,2506 1358,2509 1839,2527" />
+				<Baseline points="735,2483 1358,2486 1839,2504" />
+				<TextEquiv>
+					<Unicode>Pitet vmb verschaffūng</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_a5a2ba64-71cf-4dbd-8244-5c2441b4ca9f" custom="readingOrder {index:2;}">
+				<Coords points="1761,2532 1446,2524 737,2508 737,2600 1446,2616 1761,2624" />
+				<Baseline points="737,2573 1446,2589 1761,2597" />
+				<TextEquiv>
+					<Unicode>Ime. des Zū der Pfarr¬</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_f8e60acb-c123-403e-a814-8f752601f70d" custom="readingOrder {index:3;}">
+				<Coords points="1958,2631 1531,2613 724,2603 724,2692 1531,2702 1958,2720" />
+				<Baseline points="724,2680 1531,2690 1958,2708" />
+				<TextEquiv>
+					<Unicode>khirchen hergebnen KūPfers </Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextEquiv>
+				<Unicode>Cristoff Kalser Kessler
+Pitet vmb verschaffūng
+Ime. des Zū der Pfarr¬
+khirchen hergebnen KūPfers </Unicode>
+			</TextEquiv>
+		</TextRegion>
+		<TextRegion id="region_2d82056a-1bb9-4938-a59e-647f19cff037" custom="readingOrder {index:7;}">
+			<Coords points="116,2321 559,2321 559,2568 116,2568" />
+			<TextLine id="line_739cdc3a-58a4-422c-bb60-9129f7a8acd3" custom="readingOrder {index:0;}">
+				<Coords points="538,2351 136,2352 136,2447 538,2446" />
+				<Baseline points="136,2422 538,2421" />
+				<TextEquiv>
+					<Unicode>Cristoff</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_5f2cdc91-5093-4d5c-8c2b-289a53d2e212" custom="readingOrder {index:1;}">
+				<Coords points="457,2436 141,2453 141,2534 457,2517" />
+				<Baseline points="141,2523 457,2506" />
+				<TextEquiv>
+					<Unicode>Kalser.</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextEquiv>
+				<Unicode>Cristoff
+Kalser.</Unicode>
+			</TextEquiv>
+		</TextRegion>
+	</Page>
+</PcGts>

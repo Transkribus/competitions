@@ -1,0 +1,240 @@
+<?xml version="1.0"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+	<Metadata>
+		<Creator>TRP</Creator>
+		<Created>2014-09-25T12:35:49.647+02:00</Created>
+		<LastChange>2016-01-20T11:58:27.329+01:00</LastChange>
+	</Metadata>
+	<Page imageFilename="Seite0430.JPG" imageWidth="2464" imageHeight="3511">
+		<ReadingOrder>
+			<OrderedGroup id="ro_1453287525339" caption="Regions reading order">
+				<RegionRefIndexed index="0" regionRef="region_e7a94417-95cf-4f92-8356-c9ea80ab6fda" />
+				<RegionRefIndexed index="1" regionRef="region_69d201bd-8a46-40f4-bc2c-66c4c228d95e" />
+				<RegionRefIndexed index="2" regionRef="region_5a980644-916f-402e-ba26-67c5efc04a20" />
+				<RegionRefIndexed index="3" regionRef="region_4ef2bed6-9f12-4321-a967-b363b6456785" />
+				<RegionRefIndexed index="4" regionRef="region_f276c5eb-6ae3-40ac-9299-d0061f80f658" />
+				<RegionRefIndexed index="5" regionRef="region_492a8aee-e9d6-4dd6-97a7-0c323c393b2d" />
+				<RegionRefIndexed index="6" regionRef="region_e3c55b01-3b10-42ac-9f81-82904e642c21" />
+			</OrderedGroup>
+		</ReadingOrder>
+		<TextRegion id="region_e7a94417-95cf-4f92-8356-c9ea80ab6fda" custom="readingOrder {index:0;}">
+			<Coords points="446,123 574,123 574,256 446,256" />
+			<TextLine id="line_ebd8f850-1da5-45b1-b59c-9349497ecc8e" custom="readingOrder {index:0;}">
+				<Coords points="571,130 458,162 458,251 571,219" />
+				<Baseline points="458,250 571,218" />
+				<TextEquiv>
+					<Unicode />
+				</TextEquiv>
+			</TextLine>
+			<TextEquiv>
+				<Unicode />
+			</TextEquiv>
+		</TextRegion>
+		<TextRegion id="region_69d201bd-8a46-40f4-bc2c-66c4c228d95e" custom="readingOrder {index:1;}">
+			<Coords points="996,306 2188,306 2188,925 996,925" />
+			<TextLine id="line_3849aa6b-3e8d-46fb-bf39-0a794bcd743a" custom="readingOrder {index:0;} abbrev {offset:10; length:3;expansion:florin;}">
+				<Coords points="2173,352 1768,353 1049,369 1049,536 1768,520 2173,519" />
+				<Baseline points="1049,513 1768,497 2173,496" />
+				<TextEquiv>
+					<Unicode>Die: 3000 fl. von Bartlme</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_21e0c49b-bbf4-4c5a-b5e7-e7bdd456011b" custom="readingOrder {index:1;}">
+				<Coords points="2147,533 1785,541 1069,540 1069,631 1785,632 2147,624" />
+				<Baseline points="1069,605 1785,606 2147,598" />
+				<TextEquiv>
+					<Unicode>Gritis Kaūffgelt. sollen</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_ca1cf0e0-406d-4af1-904b-cf2060d84007" custom="readingOrder {index:2;} abbrev {offset:14; length:9;expansion:Tÿrolischen;}">
+				<Coords points="2084,629 1773,632 1078,638 1078,735 1773,729 2084,726" />
+				<Baseline points="1078,712 1773,706 2084,703" />
+				<TextEquiv>
+					<Unicode>ainer Ersamen Tÿrolisch</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_c6a28bcb-add4-4c59-9084-ef03f620e6dd" custom="readingOrder {index:3;} abbrev {offset:15; length:7;expansion:darglihen;}">
+				<Coords points="2078,736 1854,739 1069,740 1069,829 1854,828 2078,825" />
+				<Baseline points="1069,805 1854,804 2078,801" />
+				<TextEquiv>
+					<Unicode>Lanndtschafft. darglih</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_9b63cf85-59ba-4eaf-b889-1d535b7c346e" custom="readingOrder {index:4;}">
+				<Coords points="1468,835 1078,826 1078,899 1468,908" />
+				<Baseline points="1078,894 1468,903" />
+				<TextEquiv>
+					<Unicode>werden. </Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextEquiv>
+				<Unicode>Die: 3000 fl. von Bartlme
+Gritis Kaūffgelt. sollen
+ainer Ersamen Tÿrolisch
+Lanndtschafft. darglih
+werden. </Unicode>
+			</TextEquiv>
+		</TextRegion>
+		<TextRegion id="region_5a980644-916f-402e-ba26-67c5efc04a20" custom="readingOrder {index:2;}">
+			<Coords points="422,315 977,315 977,600 422,600" />
+			<TextLine id="line_a4e1903b-34bb-4569-9b30-e2a6c29d8ae5" custom="readingOrder {index:0;} abbrev {offset:8; length:1;expansion:der;}">
+				<Coords points="949,358 448,363 448,495 949,490" />
+				<Baseline points="448,474 949,469" />
+				<TextEquiv>
+					<Unicode>Anlehen d</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_259d9add-e078-4ee1-99be-73c3469b0bff" custom="readingOrder {index:1;}">
+				<Coords points="951,498 483,500 483,568 951,566" />
+				<Baseline points="483,558 951,556" />
+				<TextEquiv>
+					<Unicode>Landtschafft </Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextEquiv>
+				<Unicode>Anlehen d
+Landtschafft </Unicode>
+			</TextEquiv>
+		</TextRegion>
+		<TextRegion id="region_4ef2bed6-9f12-4321-a967-b363b6456785" custom="readingOrder {index:3;}">
+			<Coords points="884,966 2302,966 2302,1741 884,1741" />
+			<TextLine id="line_9fe2b722-8339-459a-9fd9-6f43acaa5de2" custom="readingOrder {index:0;}">
+				<Coords points="2168,997 1767,1008 946,1019 946,1165 1767,1154 2168,1143" />
+				<Baseline points="946,1141 1767,1130 2168,1119" />
+				<TextEquiv>
+					<Unicode>Zū den: dūrch wolgemelte</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_cb4fa4d6-346b-49d1-98f4-78c6a96b4a8d" custom="readingOrder {index:1;} abbrev {offset:14; length:9;expansion:bewilligten;}">
+				<Coords points="2162,1159 1814,1163 1054,1171 1054,1269 1814,1261 2162,1257" />
+				<Baseline points="1054,1240 1814,1232 2162,1228" />
+				<TextEquiv>
+					<Unicode>Lanndtschafft bewilligt</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_923bd2ca-cd77-4897-826f-aa093aa91a07" custom="readingOrder {index:2;}">
+				<Coords points="2107,1249 1810,1255 1075,1276 1075,1382 1810,1361 2107,1355" />
+				<Baseline points="1075,1359 1810,1338 2107,1332" />
+				<TextEquiv>
+					<Unicode>1000 stär Roggen, aūs</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_9149c22b-e9c0-4496-887d-1812646957ce" custom="readingOrder {index:3;}">
+				<Coords points="2041,1374 1846,1375 1066,1388 1066,1481 1846,1468 2041,1467" />
+				<Baseline points="1066,1454 1846,1441 2041,1440" />
+				<TextEquiv>
+					<Unicode>dem Traid Cassten Zū</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_e08faaa6-8f38-4ae6-9609-775deb6010c2" custom="readingOrder {index:4;}">
+				<Coords points="2155,1464 1754,1474 1059,1487 1059,1589 1754,1576 2155,1566" />
+				<Baseline points="1059,1564 1754,1551 2155,1541" />
+				<TextEquiv>
+					<Unicode>Hall. sollen noch. 500</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_539f558a-04af-4c6d-ae28-7ef22ced3cfd" custom="readingOrder {index:5;} abbrev {offset:15; length:4;expansion:werden;}">
+				<Coords points="2201,1582 1775,1576 1054,1595 1054,1684 1775,1665 2201,1671" />
+				<Baseline points="1054,1665 1775,1646 2201,1652" />
+				<TextEquiv>
+					<Unicode>stär erhanndlt werd</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextEquiv>
+				<Unicode>Zū den: dūrch wolgemelte
+Lanndtschafft bewilligt
+1000 stär Roggen, aūs
+dem Traid Cassten Zū
+Hall. sollen noch. 500
+stär erhanndlt werd</Unicode>
+			</TextEquiv>
+		</TextRegion>
+		<TextRegion id="region_f276c5eb-6ae3-40ac-9299-d0061f80f658" custom="readingOrder {index:4;}">
+			<Coords points="419,1115 841,1115 841,1326 419,1326" />
+			<TextLine id="line_1033334c-e79a-40cc-aa2d-226b226b4e45" custom="readingOrder {index:0;}">
+				<Coords points="808,1134 459,1158 459,1275 808,1251" />
+				<Baseline points="459,1258 808,1234" />
+				<TextEquiv>
+					<Unicode>Traȳd.</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextEquiv>
+				<Unicode>Traȳd.</Unicode>
+			</TextEquiv>
+		</TextRegion>
+		<TextRegion id="region_492a8aee-e9d6-4dd6-97a7-0c323c393b2d" custom="readingOrder {index:5;}">
+			<Coords points="1059,1764 2258,1764 2258,2694 1059,2694" />
+			<TextLine id="line_7dc23be6-fc75-41e2-b27c-21c78b5da0f2" custom="readingOrder {index:0;}">
+				<Coords points="2108,1832 1683,1838 1065,1825 1065,2024 1683,2037 2108,2031" />
+				<Baseline points="1065,1996 1683,2009 2108,2003" />
+				<TextEquiv>
+					<Unicode>Anndre Pennter von</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_f049a706-864d-4718-aefb-19e682314f0b" custom="readingOrder {index:1;}">
+				<Coords points="2097,2041 1791,2043 1082,2026 1082,2131 1791,2148 2097,2146" />
+				<Baseline points="1082,2104 1791,2121 2097,2119" />
+				<TextEquiv>
+					<Unicode>Passaū. Mūsicūs. vnd</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_632200b7-1076-4453-93fd-f823f5e02b8e" custom="readingOrder {index:2;}">
+				<Coords points="2163,2144 1802,2154 1067,2146 1067,2246 1802,2254 2163,2244" />
+				<Baseline points="1067,2221 1802,2229 2163,2219" />
+				<TextEquiv>
+					<Unicode>Organisst. verehrt Ain</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_33bfa9b2-9bf5-407f-8150-3bf193c37823" custom="readingOrder {index:3;}">
+				<Coords points="2183,2257 1731,2260 1088,2258 1088,2355 1731,2357 2183,2354" />
+				<Baseline points="1088,2330 1731,2332 2183,2329" />
+				<TextEquiv>
+					<Unicode>Gsanng. Pitet Ime. Alhie</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_e76231e7-199a-4483-97f9-ef85114b7773" custom="readingOrder {index:4;}">
+				<Coords points="2073,2362 1868,2355 1101,2358 1101,2453 1868,2450 2073,2457" />
+				<Baseline points="1101,2428 1868,2425 2073,2432" />
+				<TextEquiv>
+					<Unicode>mit diennsten Zū Pro¬</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_d14a3adb-735d-404f-9663-50d136743367" custom="readingOrder {index:5;}">
+				<Coords points="2141,2462 1859,2460 1095,2457 1095,2552 1859,2555 2141,2557" />
+				<Baseline points="1095,2527 1859,2530 2141,2532" />
+				<TextEquiv>
+					<Unicode>moūiern. Weiln aber</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_1a07fddf-1aa8-4558-8a48-119d3cc019c5" custom="readingOrder {index:6;}">
+				<Coords points="2233,2556 1902,2558 1075,2563 1075,2650 1902,2645 2233,2643" />
+				<Baseline points="1075,2635 1902,2630 2233,2628" />
+				<TextEquiv>
+					<Unicode>derzeit khain ledige Stel </Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextEquiv>
+				<Unicode>Anndre Pennter von
+Passaū. Mūsicūs. vnd
+Organisst. verehrt Ain
+Gsanng. Pitet Ime. Alhie
+mit diennsten Zū Pro¬
+moūiern. Weiln aber
+derzeit khain ledige Stel </Unicode>
+			</TextEquiv>
+		</TextRegion>
+		<TextRegion id="region_e3c55b01-3b10-42ac-9f81-82904e642c21" custom="readingOrder {index:6;}">
+			<Coords points="413,1952 1053,1952 1053,2083 413,2083" />
+			<TextLine id="line_41c585b0-2aa9-476d-b2bf-b07b0cc9a616" custom="readingOrder {index:0;}">
+				<Coords points="1040,1983 846,1974 429,1983 429,2062 846,2053 1040,2062" />
+				<Baseline points="429,2055 846,2046 1040,2055" />
+				<TextEquiv>
+					<Unicode>Andre Penter.</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextEquiv>
+				<Unicode>Andre Penter.</Unicode>
+			</TextEquiv>
+		</TextRegion>
+	</Page>
+</PcGts>

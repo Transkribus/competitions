@@ -1,0 +1,210 @@
+<?xml version="1.0"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+	<Metadata>
+		<Creator>TRP</Creator>
+		<Created>2014-09-25T12:35:49.132+02:00</Created>
+		<LastChange>2016-01-22T09:15:15.996+01:00</LastChange>
+	</Metadata>
+	<Page imageFilename="Seite0414.JPG" imageWidth="2480" imageHeight="3511">
+		<ReadingOrder>
+			<OrderedGroup id="ro_1453450535079" caption="Regions reading order">
+				<RegionRefIndexed index="0" regionRef="region_e9ef5154-a387-466c-95d0-c8a3e5150344" />
+				<RegionRefIndexed index="1" regionRef="region_3126f9d5-cd5b-4c1c-80e2-7204dbe0f2cd" />
+				<RegionRefIndexed index="2" regionRef="region_c2cc4907-2aac-4ee6-9e1c-bc52b0aa2a4a" />
+				<RegionRefIndexed index="3" regionRef="region_463d6c17-c4f9-4268-bd48-eea7754a5cde" />
+				<RegionRefIndexed index="4" regionRef="region_ac68d4b5-e3c1-4d05-ac00-896c588005df" />
+				<RegionRefIndexed index="5" regionRef="region_c1568298-0714-432b-91fd-07af3e1c60b9" />
+			</OrderedGroup>
+		</ReadingOrder>
+		<TextRegion id="region_e9ef5154-a387-466c-95d0-c8a3e5150344" custom="readingOrder {index:0;}">
+			<Coords points="455,146 595,146 595,247 455,247" />
+			<TextLine id="line_fafc736e-a8d3-4f15-a76f-eb0490495430" custom="readingOrder {index:0;}">
+				<Coords points="593,165 466,176 466,245 593,234" />
+				<Baseline points="466,244 593,233" />
+				<TextEquiv>
+					<Unicode>208</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextEquiv>
+				<Unicode>208</Unicode>
+			</TextEquiv>
+		</TextRegion>
+		<TextRegion id="region_3126f9d5-cd5b-4c1c-80e2-7204dbe0f2cd" custom="readingOrder {index:1;}">
+			<Coords points="1005,440 2295,440 2295,1088 1005,1088" />
+			<TextLine id="line_bcd24b59-ffca-44a7-a48b-00a7e9fdddf2" custom="readingOrder {index:0;}">
+				<Coords points="2138,458 1781,472 1049,478 1049,588 1781,582 2138,568" />
+				<Baseline points="1049,564 1781,558 2138,544" />
+				<TextEquiv>
+					<Unicode>herrn Lanndtshaūbtman</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_e5c8fb2c-dad7-40c5-bccc-d438f0f337c7" custom="readingOrder {index:1;}">
+				<Coords points="2109,590 1749,594 1099,588 1099,683 1749,689 2109,685" />
+				<Baseline points="1099,657 1749,663 2109,659" />
+				<TextEquiv>
+					<Unicode>nochmalln Clagsweise</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_7ef1de83-7586-4342-9992-c3ea499cfbb4" custom="readingOrder {index:2;}">
+				<Coords points="2031,695 1666,695 1049,691 1049,787 1666,791 2031,791" />
+				<Baseline points="1049,763 1666,767 2031,767" />
+				<TextEquiv>
+					<Unicode>firtragen. vnd da die</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_7ea9df30-4046-4d1c-88d5-86745da5c55e" custom="readingOrder {index:3;}">
+				<Coords points="2117,786 1741,796 1096,793 1096,888 1741,891 2117,881" />
+				<Baseline points="1096,860 1741,863 2117,853" />
+				<TextEquiv>
+					<Unicode>Zalūng nit bschōh. vmb</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_c28b0c32-af18-4183-a9ed-d5a115e02e47" custom="readingOrder {index:4;} abbrev {offset:14; length:8;expansion:Angehalten;}">
+				<Coords points="2158,879 1944,889 1101,897 1101,999 1944,991 2158,981" />
+				<Baseline points="1101,975 1944,967 2158,957" />
+				<TextEquiv>
+					<Unicode>ain Execūtion Angehalt</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_f90919a7-01f7-49f0-81cc-8af3fa16a735" custom="readingOrder {index:5;}">
+				<Coords points="1504,1004 1102,1003 1102,1074 1504,1075" />
+				<Baseline points="1102,1070 1504,1071" />
+				<TextEquiv>
+					<Unicode>werden. </Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextEquiv>
+				<Unicode>herrn Lanndtshaūbtman
+nochmalln Clagsweise
+firtragen. vnd da die
+Zalūng nit bschōh. vmb
+ain Execūtion Angehalt
+werden. </Unicode>
+			</TextEquiv>
+		</TextRegion>
+		<TextRegion id="region_c2cc4907-2aac-4ee6-9e1c-bc52b0aa2a4a" custom="readingOrder {index:2;}">
+			<Coords points="979,1152 2285,1152 2285,1771 979,1771" />
+			<TextLine id="line_1ee28fa4-b902-4368-aa0d-3d92fafe9d28" custom="readingOrder {index:0;}">
+				<Coords points="2186,1212 1795,1227 1003,1225 1003,1423 1795,1425 2186,1410" />
+				<Baseline points="1003,1397 1795,1399 2186,1384" />
+				<TextEquiv>
+					<Unicode>Aūf der Alhieigen Kandler</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_dc086411-5da3-49dc-9a1c-49d950c9e265" custom="readingOrder {index:1;} abbrev {offset:19; length:6;expansion:frembden;}">
+				<Coords points="2254,1401 1899,1418 1124,1431 1124,1531 1899,1518 2254,1501" />
+				<Baseline points="1124,1505 1899,1492 2254,1475" />
+				<TextEquiv>
+					<Unicode>bschwer. wider die frembd</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_293a28b0-2105-43e9-8796-65d4c8234df8" custom="readingOrder {index:2;}">
+				<Coords points="2071,1519 1124,1538 1124,1636 2071,1617" />
+				<Baseline points="1124,1612 2071,1593" />
+				<TextEquiv>
+					<Unicode>soll der Ain frembde</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_eaba8b24-810d-424f-9915-26a0706d9d54" custom="readingOrder {index:3;}">
+				<Coords points="1961,1631 1129,1642 1129,1725 1961,1714" />
+				<Baseline points="1129,1710 1961,1699" />
+				<TextEquiv>
+					<Unicode>Abgstelt werden. </Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextEquiv>
+				<Unicode>Aūf der Alhieigen Kandler
+bschwer. wider die frembd
+soll der Ain frembde
+Abgstelt werden. </Unicode>
+			</TextEquiv>
+		</TextRegion>
+		<TextRegion id="region_463d6c17-c4f9-4268-bd48-eea7754a5cde" custom="readingOrder {index:3;}">
+			<Coords points="416,1333 962,1333 962,1477 416,1477" />
+			<TextLine id="line_c65c0b31-172d-4f43-8267-c79758e5f84f" custom="readingOrder {index:0;}">
+				<Coords points="959,1370 426,1372 426,1466 959,1464" />
+				<Baseline points="426,1462 959,1460" />
+				<TextEquiv>
+					<Unicode>Kandler.</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextEquiv>
+				<Unicode>Kandler.</Unicode>
+			</TextEquiv>
+		</TextRegion>
+		<TextRegion id="region_ac68d4b5-e3c1-4d05-ac00-896c588005df" custom="readingOrder {index:4;}">
+			<Coords points="852,1850 2322,1850 2322,2772 852,2772" />
+			<TextLine id="line_21781816-ad8e-4476-a350-1c4adce584d8" custom="readingOrder {index:0;}">
+				<Coords points="2234,1900 1836,1908 1059,1887 1059,2043 1836,2064 2234,2056" />
+				<Baseline points="1059,2021 1836,2042 2234,2034" />
+				<TextEquiv>
+					<Unicode>Die .2 Sailer Alhie. Caspar</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_aa78fba5-67b7-4f81-af32-81272dfdff73" custom="readingOrder {index:1;}">
+				<Coords points="2264,2060 1945,2069 1080,2058 1080,2148 1945,2159 2264,2150" />
+				<Baseline points="1080,2121 1945,2132 2264,2123" />
+				<TextEquiv>
+					<Unicode>Patil. vnd Matheis Crainer</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_add10299-4a3d-41fe-bf6d-0fe063bfca55" custom="readingOrder {index:2;}">
+				<Coords points="2044,2163 1764,2163 1102,2165 1102,2266 1764,2264 2044,2264" />
+				<Baseline points="1102,2240 1764,2238 2044,2238" />
+				<TextEquiv>
+					<Unicode>beschwern sich wider</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_2b63e5ba-991a-4ba4-86ef-0d5fb9a7827d" custom="readingOrder {index:3;}">
+				<Coords points="2200,2258 1749,2268 1100,2272 1100,2372 1749,2368 2200,2358" />
+				<Baseline points="1100,2344 1749,2340 2200,2330" />
+				<TextEquiv>
+					<Unicode>Geörgen Wesstermair</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_f8ffdd6c-832f-45e8-868b-00b9fc25d8f4" custom="readingOrder {index:4;}">
+				<Coords points="2172,2364 1704,2378 1129,2379 1129,2486 1704,2485 2172,2471" />
+				<Baseline points="1129,2460 1704,2459 2172,2445" />
+				<TextEquiv>
+					<Unicode>das Er dūrchs gannze</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_7acf70b2-3175-418b-91c9-c630fd101658" custom="readingOrder {index:5;}">
+				<Coords points="2277,2492 1934,2490 1093,2492 1093,2593 1934,2591 2277,2593" />
+				<Baseline points="1093,2566 1934,2564 2277,2566" />
+				<TextEquiv>
+					<Unicode>Jar. Allerlaj Sail werch</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_5ab88822-e799-4df3-984c-038858855150" custom="readingOrder {index:6;}">
+				<Coords points="2181,2591 1891,2589 1066,2599 1066,2700 1891,2690 2181,2692" />
+				<Baseline points="1066,2676 1891,2666 2181,2668" />
+				<TextEquiv>
+					<Unicode>fail hat. Piten Ime das </Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextEquiv>
+				<Unicode>Die .2 Sailer Alhie. Caspar
+Patil. vnd Matheis Crainer
+beschwern sich wider
+Geörgen Wesstermair
+das Er dūrchs gannze
+Jar. Allerlaj Sail werch
+fail hat. Piten Ime das </Unicode>
+			</TextEquiv>
+		</TextRegion>
+		<TextRegion id="region_c1568298-0714-432b-91fd-07af3e1c60b9" custom="readingOrder {index:5;}">
+			<Coords points="394,1993 804,1993 804,2147 394,2147" />
+			<TextLine id="line_2fd93254-e45d-4728-abac-983b0c43aabb" custom="readingOrder {index:0;}">
+				<Coords points="792,2029 410,2025 410,2116 792,2120" />
+				<Baseline points="410,2107 792,2111" />
+				<TextEquiv>
+					<Unicode>Sailer.</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextEquiv>
+				<Unicode>Sailer.</Unicode>
+			</TextEquiv>
+		</TextRegion>
+	</Page>
+</PcGts>
