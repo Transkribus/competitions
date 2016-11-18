@@ -5,6 +5,7 @@ from django.contrib import messages
 from django.contrib.auth import authenticate, login, logout
 from django.contrib.auth.models import User
 from django.core.urlresolvers import reverse
+from django.conf import settings
 from django.utils.translation import ugettext_lazy as _
 from django_tables2 import RequestConfig
 
@@ -84,6 +85,25 @@ def index(request):
                 user.individual.shortbio = register_form.cleaned_data['shortbio']
                 user.individual.affiliations.add(affiliation)
                 user.individual.save()
+                from django.core.mail import send_mail
+                mails_sent = send_mail(
+                    'Account creation at Scriptnet competitions',
+                    """
+Welcome to the Scriptnet competitions platform!
+
+Sign in with your credentials (username: {}) at 
+https://scriptnet.iit.demokritos.gr/competitions/#login 
+to participate to the site competitions.
+
+
+
+
+(c) 2016 READ Project
+                    """.format(register_form.cleaned_data['username']),
+                    settings.EMAIL_HOST_USER,
+                    [user.email, settings.EMAIL_HOST_USER],
+                    fail_silently=False,
+                )
                 #TODO: eventually will have to authenticate the new user by email
                 messages.add_message(request, messages.SUCCESS, _('User {} has been created. Use your credentials to login.').format(user.username))
                 return HttpResponseRedirect('/competitions/#register')
