@@ -157,6 +157,11 @@ def submit(request, competition_id, track_id, subtrack_id):
                 messages.add_message(request, messages.ERROR, _('The method name already exists for this track. Please choose another name.')) 
                 context['submit_form'] = SubmitForm(request.user)
                 return render(request, 'competitions/submit.html', context)
+            if not enough_time_passed_since_last_submission:
+                #check list of 'submitters' . TODO: create a 'last submission' trait for submitters.
+                messages.add_message(request, messages.ERROR, _('You have recently submitted a method. Site policy is at most one submission per *hour*. Please re-submit at a later time.')) 
+                context['submit_form'] = SubmitForm(request.user)
+                return render(request, 'competitions/submit.html', context)                
             submission = Submission.objects.create(
                 name = submit_form.cleaned_data['name'],
                 method_info = submit_form.cleaned_data['method_info'],
