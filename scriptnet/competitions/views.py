@@ -153,15 +153,19 @@ def submit(request, competition_id, track_id, subtrack_id):
             if Submission.objects.filter(
                 subtrack=subtrack, 
                 name=submit_form.cleaned_data['name']
-                ):                
+                ):
                 messages.add_message(request, messages.ERROR, _('The method name already exists for this track. Please choose another name.')) 
                 context['submit_form'] = SubmitForm(request.user)
                 return render(request, 'competitions/submit.html', context)
-            if not enough_time_passed_since_last_submission:
+            # Check if enough time passed since last submission
+            #last_submission_timestamp = [];
+
+            #if not enough_time_passed_since_last_submission:
                 #check list of 'submitters' . TODO: create a 'last submission' trait for submitters.
-                messages.add_message(request, messages.ERROR, _('You have recently submitted a method. Site policy is at most one submission per *hour*. Please re-submit at a later time.')) 
-                context['submit_form'] = SubmitForm(request.user)
-                return render(request, 'competitions/submit.html', context)                
+                #TODO: submit_form.cleaned_data['possible_coauthors']
+            #    messages.add_message(request, messages.ERROR, _('You have recently submitted a method. Site policy is at most one submission per *hour*. Please re-submit at a later time.')) 
+            #    context['submit_form'] = SubmitForm(request.user)
+            #    return render(request, 'competitions/submit.html', context)                
             submission = Submission.objects.create(
                 name = submit_form.cleaned_data['name'],
                 method_info = submit_form.cleaned_data['method_info'],
@@ -169,7 +173,8 @@ def submit(request, competition_id, track_id, subtrack_id):
                 subtrack = subtrack,
                 resultfile = submit_form.cleaned_data['resultfile']
             )
-            #TODO: Add the authenticated user and the coworkers here            
+            #TODO: Add the authenticated user and the coworkers here
+            print(submit_form.cleaned_data['cosubmitters'])
             submission.submitter.add(request.user.individual)
             submission.save()
             # Determine which evaluator_functions we should call first, since
@@ -199,6 +204,9 @@ def submit(request, competition_id, track_id, subtrack_id):
     return render(request, 'competitions/submit.html', context)
     
 def viewresults(request, competition_id, track_id, subtrack_id):
+    for i in Individual.objects.all():
+        print(i)
+        print(i.last_submission())
     competition, track, subtrack, context = get_objects_given_uniqueIDs(competition_id, track_id, subtrack_id)
     data = []
     if subtrack:

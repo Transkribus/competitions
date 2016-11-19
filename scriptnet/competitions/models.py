@@ -56,6 +56,11 @@ class Individual(models.Model):
 			except Individual.DoesNotExist:
 				pass
 		super(Individual, self).save(*args, **kwargs)
+	def last_submission(self):
+		try:
+			return self.submission_set.latest('timestamp').timestamp
+		except:
+			return None
 		
 def create_user_profile(sender, instance, created, **kwargs):  
     if created:  
