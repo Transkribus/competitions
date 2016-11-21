@@ -158,14 +158,18 @@ def submit(request, competition_id, track_id, subtrack_id):
                 context['submit_form'] = SubmitForm(request.user)
                 return render(request, 'competitions/submit.html', context)
             # Check if enough time passed since last submission
-            #last_submission_timestamp = [];
-
-            #if not enough_time_passed_since_last_submission:
-                #check list of 'submitters' . TODO: create a 'last submission' trait for submitters.
-                #TODO: submit_form.cleaned_data['possible_coauthors']
-            #    messages.add_message(request, messages.ERROR, _('You have recently submitted a method. Site policy is at most one submission per *hour*. Please re-submit at a later time.')) 
-            #    context['submit_form'] = SubmitForm(request.user)
-            #    return render(request, 'competitions/submit.html', context)                
+            last_submission_timestamp = [request.user.individual.last_submission()]
+            for i in submit_form.cleaned_data['cosubmitters']:
+                last_submission_timestamp.append(i.last_submission())
+            enough_time_passed = True
+            for i in last_submission_timestamp:
+                dt = datetime.now() - i
+                if dt.seconds < 120:
+                    enough_time_passed = False
+            if not enough_time_passed:
+                messages.add_message(request, messages.ERROR, _('You have recently submitted a method. Site policy is at most one submission per *2 minutes*. Please re-submit at a later time.')) 
+                context['submit_form'] = SubmitForm(request.user)
+                return render(request, 'competitions/submit.html', context)                
             submission = Submission.objects.create(
                 name = submit_form.cleaned_data['name'],
                 method_info = submit_form.cleaned_data['method_info'],
@@ -176,6 +180,8 @@ def submit(request, competition_id, track_id, subtrack_id):
             #TODO: Add the authenticated user and the coworkers here
             print(submit_form.cleaned_data['cosubmitters'])
             submission.submitter.add(request.user.individual)
+            for cosub in submit_form.cleaned_data['cosubmitters']:
+                submission.submitter.add(cosub)
             submission.save()
             # Determine which evaluator_functions we should call first, since
             # benchmarks are grouped according to the evaluator_function that ..evaluates them
