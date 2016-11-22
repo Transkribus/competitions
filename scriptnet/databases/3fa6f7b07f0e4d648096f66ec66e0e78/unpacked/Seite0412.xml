@@ -1,0 +1,220 @@
+<?xml version="1.0"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+	<Metadata>
+		<Creator>TRP</Creator>
+		<Created>2014-09-25T12:35:49.069+02:00</Created>
+		<LastChange>2016-01-22T09:22:43.635+01:00</LastChange>
+	</Metadata>
+	<Page imageFilename="Seite0412.JPG" imageWidth="2480" imageHeight="3511">
+		<ReadingOrder>
+			<OrderedGroup id="ro_1453450982716" caption="Regions reading order">
+				<RegionRefIndexed index="0" regionRef="region_bffd313f-9d1f-4d76-aacb-5fcf6d1b1bec" />
+				<RegionRefIndexed index="1" regionRef="region_8728b358-f2f7-4dba-b887-7d54b0d0bc69" />
+				<RegionRefIndexed index="2" regionRef="region_7a1a5100-35a9-4fed-9967-7f38da5adfbb" />
+				<RegionRefIndexed index="3" regionRef="region_8fa4ca7d-21fc-481e-a77d-92c0822dfb81" />
+				<RegionRefIndexed index="4" regionRef="region_bb66d4b8-1ec0-4feb-b5b5-8a4bd0e279f5" />
+			</OrderedGroup>
+		</ReadingOrder>
+		<TextRegion id="region_bffd313f-9d1f-4d76-aacb-5fcf6d1b1bec" custom="readingOrder {index:0;}">
+			<Coords points="449,139 578,139 578,295 449,295" />
+			<TextLine id="line_74570256-bcf4-430d-b39d-68f39245ce91" custom="readingOrder {index:0;}">
+				<Coords points="578,158 450,179 450,278 578,257" />
+				<Baseline points="450,272 578,251" />
+				<TextEquiv>
+					<Unicode>207</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextEquiv>
+				<Unicode>207</Unicode>
+			</TextEquiv>
+		</TextRegion>
+		<TextRegion id="region_8728b358-f2f7-4dba-b887-7d54b0d0bc69" custom="readingOrder {index:1;}">
+			<Coords points="1045,444 2252,444 2252,1752 1045,1752" />
+			<TextLine id="line_1959455e-6b96-4d2b-845d-319fdda34009" custom="readingOrder {index:0;} abbrev {offset:20; length:4;expansion:werden;}">
+				<Coords points="2182,444 1082,474 1082,567 2182,529" />
+				<Baseline points="1082,543 2182,505" />
+				<TextEquiv>
+					<Unicode>gehorsamist gebeten werd.</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_690de629-7e9d-4f3a-bb18-dc699d879c67" custom="readingOrder {index:1;}">
+				<Coords points="2059,560 1773,568 1096,573 1096,667 1773,662 2059,654" />
+				<Baseline points="1096,642 1773,637 2059,629" />
+				<TextEquiv>
+					<Unicode>mit Ime die verord¬</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_aebb9282-5c8b-4ee4-85d4-ca34eb92ebbe" custom="readingOrder {index:2;}">
+				<Coords points="2096,668 1096,673 1096,768 2096,763" />
+				<Baseline points="1096,744 2096,739" />
+				<TextEquiv>
+					<Unicode>nūng Zetūen, das Er</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_d60de17a-3dd1-4b10-9b81-b3806028f21c" custom="readingOrder {index:3;}">
+				<Coords points="2231,761 1905,774 1077,774 1077,865 1905,865 2231,852" />
+				<Baseline points="1077,841 1905,841 2231,828" />
+				<TextEquiv>
+					<Unicode>sich mit Tÿrolischen Landt¬</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_1c87c9d7-c661-4c14-ba37-8c566d6b62ea" custom="readingOrder {index:4;}">
+				<Coords points="2150,863 1104,871 1104,966 2150,958" />
+				<Baseline points="1104,938 2150,930" />
+				<TextEquiv>
+					<Unicode>leüten Zū dienern ver¬</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_f4325856-4a87-4807-958a-fffcf7824235" custom="readingOrder {index:5;}">
+				<Coords points="2153,953 1101,972 1101,1076 2153,1057" />
+				<Baseline points="1101,1051 2153,1032" />
+				<TextEquiv>
+					<Unicode>sehe. vnd sich alhie. als an</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_b782c5e3-7ae3-422b-8660-807201464bb4" custom="readingOrder {index:6;}">
+				<Coords points="2236,1058 1090,1082 1090,1180 2236,1156" />
+				<Baseline points="1090,1153 2236,1129" />
+				<TextEquiv>
+					<Unicode>aim sichern ort. der Pixen</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_cc79a232-b9a0-404e-a90e-702ece54a201" custom="readingOrder {index:7;}">
+				<Coords points="2107,1181 1760,1184 1104,1187 1104,1289 1760,1286 2107,1283" />
+				<Baseline points="1104,1264 1760,1261 2107,1258" />
+				<TextEquiv>
+					<Unicode>also Zūtragen enthalten,</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_22e3b0ed-5d56-44e6-b817-e70250cde7a3" custom="readingOrder {index:8;}">
+				<Coords points="2067,1295 1096,1289 1096,1388 2067,1394" />
+				<Baseline points="1096,1360 2067,1366" />
+				<TextEquiv>
+					<Unicode>Inn mitls soll diser</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_be957854-ed39-4c37-b1bf-5ccdf9310940" custom="readingOrder {index:9;}">
+				<Coords points="2056,1400 1725,1400 1066,1397 1066,1500 1725,1503 2056,1503" />
+				<Baseline points="1066,1476 1725,1479 2056,1479" />
+				<TextEquiv>
+					<Unicode>Carära aūfs Rats¬</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_19cb63e2-504b-45d8-9dc2-dba7de7e9297" custom="readingOrder {index:10;}">
+				<Coords points="2102,1504 1085,1509 1085,1605 2102,1600" />
+				<Baseline points="1085,1578 2102,1573" />
+				<TextEquiv>
+					<Unicode>haūs berūefft vnd Ime</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_d4fceb62-ed8a-4054-b129-ce1199aab38e" custom="readingOrder {index:11;} abbrev {offset:19; length:4;expansion:werden;}">
+				<Coords points="2201,1603 1959,1611 1082,1603 1082,1696 1959,1704 2201,1696" />
+				<Baseline points="1082,1680 1959,1688 2201,1680" />
+				<TextEquiv>
+					<Unicode>solhes firgehalten werd. </Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextEquiv>
+				<Unicode>gehorsamist gebeten werd.
+mit Ime die verord¬
+nūng Zetūen, das Er
+sich mit Tÿrolischen Landt¬
+leüten Zū dienern ver¬
+sehe. vnd sich alhie. als an
+aim sichern ort. der Pixen
+also Zūtragen enthalten,
+Inn mitls soll diser
+Carära aūfs Rats¬
+haūs berūefft vnd Ime
+solhes firgehalten werd. </Unicode>
+			</TextEquiv>
+		</TextRegion>
+		<TextRegion id="region_7a1a5100-35a9-4fed-9967-7f38da5adfbb" custom="readingOrder {index:2;}">
+			<Coords points="1061,2223 1052,2001 832,1985 815,1928 889,1848 1050,1831 2243,1831 2243,2745 1050,2745" />
+			<TextLine id="line_bad84e83-ffcb-4bd1-89f3-e2defe85f205" custom="readingOrder {index:0;} textStyle {offset:4; length:3;strikethrough:true;}">
+				<Coords points="2206,1867 1842,1872 912,1867 912,1986 1842,1991 2206,1986" />
+				<Baseline points="912,1960 1842,1965 2206,1960" />
+				<TextEquiv>
+					<Unicode>Die Ins Schreiben vom hansen</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_cbba205b-2faf-49db-b65f-3d321f15a83e" custom="readingOrder {index:1;}">
+				<Coords points="2064,1993 1750,1998 1111,1983 1111,2082 1750,2097 2064,2092" />
+				<Baseline points="1111,2057 1750,2072 2064,2067" />
+				<TextEquiv>
+					<Unicode>Reichardt, was Er</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_abd62a0c-5ae2-490c-a78e-fa8d679b177a" custom="readingOrder {index:2;}">
+				<Coords points="2196,2095 1852,2102 1121,2102 1121,2198 1852,2198 2196,2191" />
+				<Baseline points="1121,2172 1852,2172 2196,2165" />
+				<TextEquiv>
+					<Unicode>wegen des Traids vnd</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_b98cc91b-7086-4247-833d-c279537b81e7" custom="readingOrder {index:3;}">
+				<Coords points="2172,2203 1106,2205 1106,2307 2172,2305" />
+				<Baseline points="1106,2279 2172,2277" />
+				<TextEquiv>
+					<Unicode>viehs verricht. ist Abge¬</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_a4ecec8b-0b20-4bd4-8f3d-c00ed6057759" custom="readingOrder {index:4;}">
+				<Coords points="2057,2305 1116,2313 1116,2435 2057,2427" />
+				<Baseline points="1116,2392 2057,2384" />
+				<TextEquiv>
+					<Unicode>lesen, Bleibt dabej.</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_ff057366-d00d-4b8e-bb7a-6bb52d9e5dde" custom="readingOrder {index:5;}">
+				<Coords points="2132,2433 1847,2445 1131,2438 1131,2587 1847,2594 2132,2582" />
+				<Baseline points="1131,2559 1847,2566 2132,2554" />
+				<TextEquiv>
+					<Unicode>Gleichsfahls von Ime</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_23f86364-c288-4032-a5e8-a5943954962f" custom="readingOrder {index:6;}">
+				<Coords points="2192,2580 1740,2600 1094,2585 1094,2680 1740,2695 2192,2675" />
+				<Baseline points="1094,2663 1740,2678 2192,2658" />
+				<TextEquiv>
+					<Unicode>Reichardt das dannckh¬</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextEquiv>
+				<Unicode>Die Ins Schreiben vom hansen
+Reichardt, was Er
+wegen des Traids vnd
+viehs verricht. ist Abge¬
+lesen, Bleibt dabej.
+Gleichsfahls von Ime
+Reichardt das dannckh¬</Unicode>
+			</TextEquiv>
+		</TextRegion>
+		<TextRegion id="region_8fa4ca7d-21fc-481e-a77d-92c0822dfb81" custom="readingOrder {index:3;}">
+			<Coords points="438,1868 765,1993 1031,2019 1043,2181 438,2181" />
+			<TextLine id="line_fbb6a3bf-0bdc-4e5f-b457-9ca4d039fb77" custom="readingOrder {index:0;}">
+				<Coords points="1011,2016 469,1939 469,2123 1011,2118" />
+				<Baseline points="469,2104 1011,2099" />
+				<TextEquiv>
+					<Unicode>Reichardt</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextEquiv>
+				<Unicode>Reichardt</Unicode>
+			</TextEquiv>
+		</TextRegion>
+		<TextRegion id="region_bb66d4b8-1ec0-4feb-b5b5-8a4bd0e279f5" custom="readingOrder {index:4;}">
+			<Coords points="396,2556 987,2556 987,2720 396,2720" />
+			<TextLine id="line_7f236dbc-ddd2-4c67-9817-2bdf6211c21b" custom="readingOrder {index:0;}">
+				<Coords points="962,2581 456,2588 456,2676 962,2669" />
+				<Baseline points="456,2661 962,2654" />
+				<TextEquiv>
+					<Unicode>Reichardt</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextEquiv>
+				<Unicode>Reichardt</Unicode>
+			</TextEquiv>
+		</TextRegion>
+	</Page>
+</PcGts>

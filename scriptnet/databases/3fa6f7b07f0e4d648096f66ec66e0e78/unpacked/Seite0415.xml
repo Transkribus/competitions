@@ -1,0 +1,264 @@
+<?xml version="1.0"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+	<Metadata>
+		<Creator>TRP</Creator>
+		<Created>2014-09-25T12:35:49.179+02:00</Created>
+		<LastChange>2016-01-22T09:12:38.245+01:00</LastChange>
+	</Metadata>
+	<Page imageFilename="Seite0415.JPG" imageWidth="2322" imageHeight="3511">
+		<ReadingOrder>
+			<OrderedGroup id="ro_1453450377275" caption="Regions reading order">
+				<RegionRefIndexed index="0" regionRef="region_8bc54fdb-2907-48cb-aedb-0b2606829a7a" />
+				<RegionRefIndexed index="1" regionRef="region_b497a5bd-6c13-4053-a930-9b93dfec3288" />
+				<RegionRefIndexed index="2" regionRef="region_feb50a95-5a97-4358-a78b-4d5dc17d092c" />
+				<RegionRefIndexed index="3" regionRef="region_89740bfc-3b09-4f99-93c2-c9a9a1c4de48" />
+				<RegionRefIndexed index="4" regionRef="region_9318e991-5a49-4c5d-983b-5aca9741dec1" />
+				<RegionRefIndexed index="5" regionRef="region_d4827cd2-3fc9-4a84-9d05-eef1a6842ee7" />
+				<RegionRefIndexed index="6" regionRef="region_4c089095-4cf6-429f-b09a-d29d53e2f41f" />
+			</OrderedGroup>
+		</ReadingOrder>
+		<TextRegion id="region_8bc54fdb-2907-48cb-aedb-0b2606829a7a" custom="readingOrder {index:0;}">
+			<Coords points="1666,265 1934,265 1934,365 1666,365" />
+			<TextLine id="line_fe1f7d4e-8189-4465-b388-fba782ef8b46" custom="readingOrder {index:0;}">
+				<Coords points="1927,287 1682,291 1682,354 1927,350" />
+				<Baseline points="1682,351 1927,347" />
+				<TextEquiv>
+					<Unicode>208</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextEquiv>
+				<Unicode>208</Unicode>
+			</TextEquiv>
+		</TextRegion>
+		<TextRegion id="region_b497a5bd-6c13-4053-a930-9b93dfec3288" custom="readingOrder {index:1;}">
+			<Coords points="701,466 1877,466 1877,774 701,774" />
+			<TextLine id="line_cf07b546-c3ab-49f4-ad8c-7836e4655764" custom="readingOrder {index:0;} textStyle {offset:25; length:2;strikethrough:true;}">
+				<Coords points="1867,508 1464,505 720,503 720,625 1464,627 1867,630" />
+				<Baseline points="720,600 1464,602 1867,605" />
+				<TextEquiv>
+					<Unicode>Abzestelln, Als aber ist Er</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_7461fccf-0667-4e9e-90bb-51af3521a3fb" custom="readingOrder {index:1;}">
+				<Coords points="1732,636 1424,625 726,627 726,715 1424,713 1732,724" />
+				<Baseline points="726,699 1424,697 1732,708" />
+				<TextEquiv>
+					<Unicode>Ime das nit Zūvērwōrn. </Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextEquiv>
+				<Unicode>Abzestelln, Als aber ist Er
+Ime das nit Zūvērwōrn. </Unicode>
+			</TextEquiv>
+		</TextRegion>
+		<TextRegion id="region_feb50a95-5a97-4358-a78b-4d5dc17d092c" custom="readingOrder {index:2;}">
+			<Coords points="659,835 1947,835 1947,1675 659,1675" />
+			<TextLine id="line_13ee4f29-4df1-4680-b011-1557aa025cc8" custom="readingOrder {index:0;}">
+				<Coords points="1930,900 1420,873 674,870 674,1046 1420,1049 1930,1076" />
+				<Baseline points="674,1021 1420,1024 1930,1051" />
+				<TextEquiv>
+					<Unicode>Eūstachȳ Frannzin. begert</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_6556e9a3-086a-4748-83fb-ab0a4a7661b0" custom="readingOrder {index:1;}">
+				<Coords points="1794,1081 1424,1058 754,1070 754,1168 1424,1156 1794,1179" />
+				<Baseline points="754,1140 1424,1128 1794,1151" />
+				<TextEquiv>
+					<Unicode>die Erlegūng des Steūr</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_e95fcfab-299b-4bfd-b14e-bc63a865c5ba" custom="readingOrder {index:2;}">
+				<Coords points="1844,1186 1369,1166 718,1168 718,1273 1369,1271 1844,1291" />
+				<Baseline points="718,1247 1369,1245 1844,1265" />
+				<TextEquiv>
+					<Unicode>gelts. noch vor verricht¬</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_68e50cf8-01e1-4857-aa74-be533754433b" custom="readingOrder {index:3;}">
+				<Coords points="1895,1297 1458,1277 738,1271 738,1370 1458,1376 1895,1396" />
+				<Baseline points="738,1345 1458,1351 1895,1371" />
+				<TextEquiv>
+					<Unicode>ūng der Steūr Raitūng.</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_1f478f80-6a96-47ba-894c-34d952805ebf" custom="readingOrder {index:4;}">
+				<Coords points="1908,1402 1536,1388 738,1382 738,1479 1536,1485 1908,1499" />
+				<Baseline points="738,1454 1536,1460 1908,1474" />
+				<TextEquiv>
+					<Unicode>Als aber soll Er Frannzin</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_5ccf2c86-d455-4310-9e2f-a4622c5c1719" custom="readingOrder {index:5;}">
+				<Coords points="1804,1505 1416,1488 727,1479 727,1571 1416,1580 1804,1597" />
+				<Baseline points="727,1550 1416,1559 1804,1576" />
+				<TextEquiv>
+					<Unicode>noch Zūr gedūlt gwisen</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_7dcd28b4-6dba-40e8-bb7d-81bbf595af01" custom="readingOrder {index:6;}">
+				<Coords points="1113,1602 727,1595 727,1657 1113,1664" />
+				<Baseline points="727,1654 1113,1661" />
+				<TextEquiv>
+					<Unicode>werden. </Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextEquiv>
+				<Unicode>Eūstachȳ Frannzin. begert
+die Erlegūng des Steūr
+gelts. noch vor verricht¬
+ūng der Steūr Raitūng.
+Als aber soll Er Frannzin
+noch Zūr gedūlt gwisen
+werden. </Unicode>
+			</TextEquiv>
+		</TextRegion>
+		<TextRegion id="region_89740bfc-3b09-4f99-93c2-c9a9a1c4de48" custom="readingOrder {index:3;}">
+			<Coords points="106,947 643,947 643,1155 106,1155" />
+			<TextLine id="line_8607ba30-b348-4212-b558-c4948326e9eb" custom="readingOrder {index:0;}">
+				<Coords points="628,990 162,990 162,1105 628,1105" />
+				<Baseline points="162,1088 628,1088" />
+				<TextEquiv>
+					<Unicode>Steūrgelt.</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextEquiv>
+				<Unicode>Steūrgelt.</Unicode>
+			</TextEquiv>
+		</TextRegion>
+		<TextRegion id="region_9318e991-5a49-4c5d-983b-5aca9741dec1" custom="readingOrder {index:4;}">
+			<Coords points="680,2116 761,1961 681,1933 681,1754 2029,1754 2029,2761 681,2761" />
+			<TextLine id="line_c6c07419-3f85-40c0-ae38-076b15c085e6" custom="readingOrder {index:0;} abbrev {offset:21; length:5;expansion:Possten;}">
+				<Coords points="1950,1819 1469,1802 731,1789 731,1952 1469,1975 1950,1992" />
+				<Baseline points="731,1939 1469,1952 1950,1969" />
+				<TextEquiv>
+					<Unicode>Dise hernachvōlgende Posst</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_55150d23-4332-4c51-9ec3-dadaca0d089d" custom="readingOrder {index:1;}">
+				<Coords points="1883,1997 1446,1975 757,1973 757,2065 1446,2067 1883,2089" />
+				<Baseline points="757,2038 1446,2040 1883,2062" />
+				<TextEquiv>
+					<Unicode>sollen dūrch ain schrifft¬</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_e7804219-82be-4450-bdd7-9d907a0d7b25" custom="readingOrder {index:2;} textStyle {offset:5; length:8;monospace:true;}">
+				<Coords points="1910,2096 1459,2082 763,2065 763,2166 1459,2183 1910,2197" />
+				<Baseline points="763,2142 1459,2159 1910,2173" />
+				<TextEquiv>
+					<Unicode>lich Memorial den herrn</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_5833181f-0da1-4e22-b022-b6146075ca55" custom="readingOrder {index:3;} abbrev {offset:6; length:13;expansion:ComPromissarÿen;}">
+				<Coords points="1855,2203 1453,2189 752,2178 752,2271 1453,2282 1855,2296" />
+				<Baseline points="752,2245 1453,2256 1855,2270" />
+				<TextEquiv>
+					<Unicode>Steūr ComPromissarÿ</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_3330f830-3faa-4068-8cd3-c5f005fbe3ea" custom="readingOrder {index:4;}">
+				<Coords points="1978,2302 1461,2283 736,2272 736,2369 1461,2380 1978,2399" />
+				<Baseline points="736,2346 1461,2357 1978,2376" />
+				<TextEquiv>
+					<Unicode>firgetragen: vnd vmb hilff</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_d60ca182-112c-41f4-8d19-5ba1a9fa95c5" custom="readingOrder {index:5;} abbrev {offset:4; length:6;expansion:einsehen;}">
+				<Coords points="1921,2404 1444,2378 719,2376 719,2477 1444,2479 1921,2505" />
+				<Baseline points="719,2441 1444,2443 1921,2469" />
+				<TextEquiv>
+					<Unicode>vnd einseh gebeten werden.</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_359d51a3-cc7e-447d-a2c2-c2d45b341bf5" custom="readingOrder {index:6;}">
+				<Coords points="1906,2513 1531,2511 716,2509 716,2633 1531,2635 1906,2637" />
+				<Baseline points="716,2611 1531,2613 1906,2615" />
+				<TextEquiv>
+					<Unicode>Erstens wegen der Aūs¬</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_eac5c5a0-3783-4923-a8d8-a0a325a1082b" custom="readingOrder {index:7;}">
+				<Coords points="2003,2640 1436,2634 794,2642 794,2717 1436,2709 2003,2715" />
+				<Baseline points="794,2703 1436,2695 2003,2701" />
+				<TextEquiv>
+					<Unicode>stendigen Steūr. vnd Wasser¬</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextEquiv>
+				<Unicode>Dise hernachvōlgende Posst
+sollen dūrch ain schrifft¬
+lich Memorial den herrn
+Steūr ComPromissarÿ
+firgetragen: vnd vmb hilff
+vnd einseh gebeten werden.
+Erstens wegen der Aūs¬
+stendigen Steūr. vnd Wasser¬</Unicode>
+			</TextEquiv>
+		</TextRegion>
+		<TextRegion id="region_d4827cd2-3fc9-4a84-9d05-eef1a6842ee7" custom="readingOrder {index:5;}">
+			<Coords points="121,1843 612,1843 675,1937 746,1972 673,2108 611,2156 612,2346 121,2346" />
+			<TextLine id="line_aec72d3e-e687-4d69-a7c9-de560d488841" custom="readingOrder {index:0;}">
+				<Coords points="611,1865 127,1868 127,1945 611,1942" />
+				<Baseline points="127,1925 611,1922" />
+				<TextEquiv>
+					<Unicode>Was den</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_7fd6b3ad-916f-4f09-9771-d675f636eeeb" custom="readingOrder {index:1;}">
+				<Coords points="717,1956 181,1949 181,2026 717,2020" />
+				<Baseline points="181,2005 717,1999" />
+				<TextEquiv>
+					<Unicode>herrn Steūr¬</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_97dd4e92-cfc2-4815-92ca-ccfcdac71d23" custom="readingOrder {index:2;}">
+				<Coords points="664,2024 173,2031 173,2110 664,2103" />
+				<Baseline points="173,2089 664,2082" />
+				<TextEquiv>
+					<Unicode>ComPromiss¬</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_8b04460e-1d16-4195-8040-e752b31439c8" custom="readingOrder {index:3;} abbrev {offset:0; length:3;expansion:arȳen;}">
+				<Coords points="593,2112 190,2115 190,2195 593,2192" />
+				<Baseline points="190,2173 593,2170" />
+				<TextEquiv>
+					<Unicode>arȳ firze¬</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_d678f44e-925f-4edd-b811-e2e8fbc8cbd4" custom="readingOrder {index:4;} abbrev {offset:0; length:4;expansion:tragen;}">
+				<Coords points="475,2197 250,2200 250,2284 475,2281" />
+				<Baseline points="250,2263 475,2260" />
+				<TextEquiv>
+					<Unicode>trag.</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextEquiv>
+				<Unicode>Was den
+herrn Steūr¬
+ComPromiss¬
+arȳ firze¬
+trag.</Unicode>
+			</TextEquiv>
+		</TextRegion>
+		<TextRegion id="region_4c089095-4cf6-429f-b09a-d29d53e2f41f" custom="readingOrder {index:6;}">
+			<Coords points="187,2520 664,2520 664,2741 187,2741" />
+			<TextLine id="line_3f18b739-021c-4d85-94d4-b3cfefd54dc6" custom="readingOrder {index:0;}">
+				<Coords points="652,2538 201,2553 201,2646 652,2631" />
+				<Baseline points="201,2628 652,2613" />
+				<TextEquiv>
+					<Unicode>Steūr vnd</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_0ed538e3-b09a-4f0c-8038-3a4d75bd4536" custom="readingOrder {index:1;}">
+				<Coords points="653,2647 232,2651 232,2712 653,2708" />
+				<Baseline points="232,2702 653,2698" />
+				<TextEquiv>
+					<Unicode>Wassergelt </Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextEquiv>
+				<Unicode>Steūr vnd
+Wassergelt </Unicode>
+			</TextEquiv>
+		</TextRegion>
+	</Page>
+</PcGts>

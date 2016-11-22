@@ -1,0 +1,234 @@
+<?xml version="1.0"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+	<Metadata>
+		<Creator>TRP</Creator>
+		<Created>2014-09-25T12:35:50.085+02:00</Created>
+		<LastChange>2016-01-20T10:35:46.075+01:00</LastChange>
+	</Metadata>
+	<Page imageFilename="Seite0444.JPG" imageWidth="2432" imageHeight="3511">
+		<ReadingOrder>
+			<OrderedGroup id="ro_1453282564099" caption="Regions reading order">
+				<RegionRefIndexed index="0" regionRef="region_3bbef366-0a45-4399-9f47-9aa1ff092d1c" />
+				<RegionRefIndexed index="1" regionRef="region_d05eb970-e6bc-4006-9099-1b775ed11244" />
+				<RegionRefIndexed index="2" regionRef="region_908b4308-c679-4c8e-bc88-22a0ce875d44" />
+				<RegionRefIndexed index="3" regionRef="region_7e5b02da-2c53-4ee5-96b6-dd2c39043a6a" />
+				<RegionRefIndexed index="4" regionRef="region_3aa4bf6d-7cc4-46a8-bbf9-7ec1c2cba039" />
+				<RegionRefIndexed index="5" regionRef="region_d1776d06-9486-4c3b-8591-166a92325d08" />
+			</OrderedGroup>
+		</ReadingOrder>
+		<TextRegion id="region_3bbef366-0a45-4399-9f47-9aa1ff092d1c" custom="readingOrder {index:0;}">
+			<Coords points="406,147 551,147 551,284 406,284" />
+			<TextLine id="line_857b17b4-38b5-490d-838e-6d17951c4b56" custom="readingOrder {index:0;}">
+				<Coords points="539,168 415,181 415,264 539,251" />
+				<Baseline points="415,258 539,245" />
+				<TextEquiv>
+					<Unicode>223</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextEquiv>
+				<Unicode>223</Unicode>
+			</TextEquiv>
+		</TextRegion>
+		<TextRegion id="region_d05eb970-e6bc-4006-9099-1b775ed11244" custom="readingOrder {index:1;}">
+			<Coords points="989,478 2108,478 2108,1450 989,1450" />
+			<TextLine id="line_a4af0cbf-84bb-40cb-a3e5-5602301f220b" custom="readingOrder {index:0;}">
+				<Coords points="2056,490 1607,508 1012,510 1012,607 1607,605 2056,587" />
+				<Baseline points="1012,583 1607,581 2056,563" />
+				<TextEquiv>
+					<Unicode>mōge, hat Ain Mūsster</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_5d8a9673-d965-4309-868f-8936a3449296" custom="readingOrder {index:1;}">
+				<Coords points="1966,602 1572,613 1010,611 1010,708 1572,710 1966,699" />
+				<Baseline points="1010,679 1572,681 1966,670" />
+				<TextEquiv>
+					<Unicode>Aines Sol Leders fir¬</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_f8d939f1-1b7d-45a3-b1d8-501b34a3dfe5" custom="readingOrder {index:2;}">
+				<Coords points="2065,692 1750,710 1014,717 1014,822 1750,815 2065,797" />
+				<Baseline points="1014,798 1750,791 2065,773" />
+				<TextEquiv>
+					<Unicode>gewisen, Ist Ime</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_00455c07-cafa-4454-8b29-984da5ab374f" custom="readingOrder {index:3;}">
+				<Coords points="2055,811 1597,825 1038,828 1038,923 1597,920 2055,906" />
+				<Baseline points="1038,897 1597,894 2055,880" />
+				<TextEquiv>
+					<Unicode>Zoanelln Ainsmals aūf</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_f8d918a0-40e0-4b87-b9a2-5187b0513085" custom="readingOrder {index:4;}">
+				<Coords points="1991,921 1699,926 1028,930 1028,1030 1699,1026 1991,1021" />
+				<Baseline points="1028,1004 1699,1000 1991,995" />
+				<TextEquiv>
+					<Unicode>die Prob gewilligt,</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_0a7bbbd7-9daf-4097-828a-9bb9e7fe25f2" custom="readingOrder {index:5;}">
+				<Coords points="2087,1026 1644,1036 1026,1030 1026,1126 1644,1132 2087,1122" />
+				<Baseline points="1026,1103 1644,1109 2087,1099" />
+				<TextEquiv>
+					<Unicode>doch das Er nit welsches</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_c8acf857-b8c4-40d8-ab7f-5592dc588da2" custom="readingOrder {index:6;}">
+				<Coords points="1972,1132 1608,1138 1032,1138 1032,1230 1608,1230 1972,1224" />
+				<Baseline points="1032,1204 1608,1204 1972,1198" />
+				<TextEquiv>
+					<Unicode>Gsindl herbringe. sond</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_550c4241-3bdb-4004-be0c-b18713133227" custom="readingOrder {index:7;} abbrev {offset:19; length:5;expansion:Maister;}">
+				<Coords points="2078,1217 1661,1232 1029,1236 1029,1337 1661,1333 2078,1318" />
+				<Baseline points="1029,1310 1661,1306 2078,1291" />
+				<TextEquiv>
+					<Unicode>neben dem welschen Maist</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_79f812f0-4c28-45b8-81df-28c925474007" custom="readingOrder {index:8;}">
+				<Coords points="2027,1322 2015,1329 2012,1329 1674,1336 1011,1343 1011,1427 1674,1420 2012,1413 2015,1413 2027,1406" />
+				<Baseline points="1011,1420 1674,1413 2012,1406 2015,1406 2027,1399" />
+				<TextEquiv>
+					<Unicode>Teütsch volckh gebraūche. </Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextEquiv>
+				<Unicode>mōge, hat Ain Mūsster
+Aines Sol Leders fir¬
+gewisen, Ist Ime
+Zoanelln Ainsmals aūf
+die Prob gewilligt,
+doch das Er nit welsches
+Gsindl herbringe. sond
+neben dem welschen Maist
+Teütsch volckh gebraūche. </Unicode>
+			</TextEquiv>
+		</TextRegion>
+		<TextRegion id="region_908b4308-c679-4c8e-bc88-22a0ce875d44" custom="readingOrder {index:2;}">
+			<Coords points="972,1537 2024,1537 2024,2057 972,2057" />
+			<TextLine id="line_30fdb486-21a6-40cb-b17a-48661fb18dd7" custom="readingOrder {index:0;}">
+				<Coords points="1963,1581 1510,1601 1029,1606 1029,1788 1510,1783 1963,1763" />
+				<Baseline points="1029,1765 1510,1760 1963,1740" />
+				<TextEquiv>
+					<Unicode>Den Būrger. vnd Inn¬</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_d2703e27-aa45-4463-a09a-89522f39489f" custom="readingOrder {index:1;}">
+				<Coords points="1949,1771 1045,1794 1045,1885 1949,1862" />
+				<Baseline points="1045,1860 1949,1837" />
+				<TextEquiv>
+					<Unicode>wonern die Pflicht</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_504334c7-a41d-42f7-a7f5-2ed12c43848a" custom="readingOrder {index:2;}">
+				<Coords points="1931,1882 1018,1891 1018,1986 1931,1977" />
+				<Baseline points="1018,1962 1931,1953" />
+				<TextEquiv>
+					<Unicode>Zūgeben, so beschehen,</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextEquiv>
+				<Unicode>Den Būrger. vnd Inn¬
+wonern die Pflicht
+Zūgeben, so beschehen,</Unicode>
+			</TextEquiv>
+		</TextRegion>
+		<TextRegion id="region_7e5b02da-2c53-4ee5-96b6-dd2c39043a6a" custom="readingOrder {index:3;}">
+			<Coords points="331,1752 963,1752 963,2241 331,2241" />
+			<TextLine id="line_3ec00ad4-88c6-4036-9f0d-0026e3822299" custom="readingOrder {index:0;}">
+				<Coords points="939,1789 713,1799 348,1792 348,1921 713,1928 939,1918" />
+				<Baseline points="348,1900 713,1907 939,1897" />
+				<TextEquiv>
+					<Unicode>Būrger. vnd</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_40fd033f-2495-4895-a5ee-8a4081055278" custom="readingOrder {index:1;}">
+				<Coords points="888,1915 887,1915 413,1933 413,2012 887,1994 888,1994" />
+				<Baseline points="413,1991 887,1973 888,1973" />
+				<TextEquiv>
+					<Unicode>Inwonern</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_4fe8830c-9d8e-4978-9e0b-171d84c0a9ba" custom="readingOrder {index:2;}">
+				<Coords points="952,2002 386,2017 386,2099 952,2084" />
+				<Baseline points="386,2076 952,2061" />
+				<TextEquiv>
+					<Unicode>die Pflicht Zū¬</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_43b24a4b-3116-493e-b2ee-6dee810a2d51" custom="readingOrder {index:3;} abbrev {offset:0; length:4;expansion:geben;}">
+				<Coords points="690,2099 572,2104 572,2186 690,2181" />
+				<Baseline points="572,2168 690,2163" />
+				<TextEquiv>
+					<Unicode>geb.</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextEquiv>
+				<Unicode>Būrger. vnd
+Inwonern
+die Pflicht Zū¬
+geb.</Unicode>
+			</TextEquiv>
+		</TextRegion>
+		<TextRegion id="region_3aa4bf6d-7cc4-46a8-bbf9-7ec1c2cba039" custom="readingOrder {index:4;}">
+			<Coords points="995,2153 2258,2153 2258,2711 995,2711" />
+			<TextLine id="line_64ebdf6e-cf88-414e-870d-ceb551d44f67" custom="readingOrder {index:0;} abbrev {offset:22; length:2;expansion:Gnaden;}">
+				<Coords points="2151,2187 2122,2191 2120,2191 1646,2202 1025,2204 1025,2347 1646,2345 2120,2334 2122,2334 2151,2330" />
+				<Baseline points="1025,2323 1646,2321 2120,2310 2122,2310 2151,2306" />
+				<TextEquiv>
+					<Unicode>Die CoPȳ. des: an Ire G:</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_a7ec7dab-2697-4f3b-b82c-635331ad9b85" custom="readingOrder {index:1;}">
+				<Coords points="2120,2331 1648,2353 1027,2353 1027,2448 1648,2448 2120,2426" />
+				<Baseline points="1027,2422 1648,2422 2120,2400" />
+				<TextEquiv>
+					<Unicode>herrn Lanndtshaūbtman</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_ed4b82d6-7330-47f9-8ab6-6d528f9c941a" custom="readingOrder {index:2;} abbrev {offset:17; length:6;expansion:Gerhaben;}">
+				<Coords points="2171,2429 1749,2445 1026,2454 1026,2552 1749,2543 2171,2527" />
+				<Baseline points="1026,2527 1749,2518 2171,2502" />
+				<TextEquiv>
+					<Unicode>der Folianischen Gerhab</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_58414775-c4ca-469a-ab9b-c833a9c37444" custom="readingOrder {index:3;}">
+				<Coords points="2028,2540 1631,2555 1044,2558 1044,2650 1631,2647 2028,2632" />
+				<Baseline points="1044,2630 1631,2627 2028,2612" />
+				<TextEquiv>
+					<Unicode>halber. gestelten Be¬</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextEquiv>
+				<Unicode>Die CoPȳ. des: an Ire G:
+herrn Lanndtshaūbtman
+der Folianischen Gerhab
+halber. gestelten Be¬</Unicode>
+			</TextEquiv>
+		</TextRegion>
+		<TextRegion id="region_d1776d06-9486-4c3b-8591-166a92325d08" custom="readingOrder {index:5;}">
+			<Coords points="349,2351 988,2351 988,2629 349,2629" />
+			<TextLine id="line_c76b446a-3621-4522-bea2-ddfaa067adb8" custom="readingOrder {index:0;}">
+				<Coords points="956,2382 733,2380 358,2393 358,2509 733,2496 956,2498" />
+				<Baseline points="358,2488 733,2475 956,2477" />
+				<TextEquiv>
+					<Unicode>Folianisch[en]</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_0dcf7e48-0222-4445-89eb-04221248d583" custom="readingOrder {index:1;} abbrev {offset:0; length:7;expansion:Gerhaben;}">
+				<Coords points="756,2504 426,2514 426,2586 756,2576" />
+				<Baseline points="426,2572 756,2562" />
+				<TextEquiv>
+					<Unicode>Gerhab.</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextEquiv>
+				<Unicode>Folianisch[en]
+Gerhab.</Unicode>
+			</TextEquiv>
+		</TextRegion>
+	</Page>
+</PcGts>

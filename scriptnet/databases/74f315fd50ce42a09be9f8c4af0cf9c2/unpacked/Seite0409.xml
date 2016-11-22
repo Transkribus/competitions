@@ -1,0 +1,246 @@
+<?xml version="1.0"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+	<Metadata>
+		<Creator>TRP</Creator>
+		<Created>2014-09-25T12:35:48.975+02:00</Created>
+		<LastChange>2016-01-22T09:46:12.765+01:00</LastChange>
+	</Metadata>
+	<Page imageFilename="Seite0409.JPG" imageWidth="2322" imageHeight="3511">
+		<ReadingOrder>
+			<OrderedGroup id="ro_1453452391717" caption="Regions reading order">
+				<RegionRefIndexed index="0" regionRef="region_0231327d-eddb-479d-94fa-6cbb3cf18438" />
+				<RegionRefIndexed index="1" regionRef="region_283a775e-9c8d-446d-b7f7-04840ddb377c" />
+				<RegionRefIndexed index="2" regionRef="region_c0764352-b52b-4847-be1d-89db8499caf5" />
+				<RegionRefIndexed index="3" regionRef="region_7270457f-bff9-41c5-9970-6908ab2fc5e1" />
+			</OrderedGroup>
+		</ReadingOrder>
+		<TextRegion id="region_0231327d-eddb-479d-94fa-6cbb3cf18438" custom="readingOrder {index:0;}">
+			<Coords points="1650,255 1885,255 1885,370 1650,370" />
+			<TextLine id="line_08f2c75d-cd84-4909-b837-b77658389f43" custom="readingOrder {index:0;}">
+				<Coords points="1856,279 1659,272 1659,337 1856,344" />
+				<Baseline points="1659,328 1856,335" />
+				<TextEquiv>
+					<Unicode>205</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextEquiv>
+				<Unicode>205</Unicode>
+			</TextEquiv>
+		</TextRegion>
+		<TextRegion id="region_283a775e-9c8d-446d-b7f7-04840ddb377c" custom="readingOrder {index:1;}">
+			<Coords points="2037,466 782,466 696,580 698,1055 699,1308 611,1309 604,1773 751,1949 746,2226 612,2397 619,2546 671,2675 782,2730 2037,2730" />
+			<TextLine id="line_84fd9328-158d-4b76-b0aa-a634035d7680" custom="readingOrder {index:0;}">
+				<Coords points="1936,520 1484,500 709,536 709,645 1484,648 1936,668" />
+				<Baseline points="709,621 1484,624 1936,644" />
+				<TextEquiv>
+					<Unicode>vnclagbar Zuūērhalten, ein¬</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_cd377d22-db49-4c9a-83fd-1c975a4a99e2" custom="readingOrder {index:1;}">
+				<Coords points="1829,674 1383,668 707,658 707,755 1383,765 1829,771" />
+				<Baseline points="707,727 1383,737 1829,743" />
+				<TextEquiv>
+					<Unicode>khomen. vnd begriffen. hat</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_dc24c440-787c-49a2-81ed-3cf0fc144dfb" custom="readingOrder {index:2;}">
+				<Coords points="1878,777 1445,769 742,764 742,869 1445,874 1878,882" />
+				<Baseline points="742,842 1445,847 1878,855" />
+				<TextEquiv>
+					<Unicode>Also dabei Zuūērbleiben, Vnd</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_b65b1964-02af-4096-b4bd-df86f795e470" custom="readingOrder {index:3;}">
+				<Coords points="1876,889 1455,877 754,869 754,973 1455,981 1876,993" />
+				<Baseline points="754,946 1455,954 1876,966" />
+				<TextEquiv>
+					<Unicode>soll mit Ainem Schreiben vnd</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_6d549c43-84c6-4b6c-9525-392571ded426" custom="readingOrder {index:4;}">
+				<Coords points="1790,999 1339,978 713,974 713,1077 1339,1081 1790,1102" />
+				<Baseline points="713,1049 1339,1053 1790,1074" />
+				<TextEquiv>
+					<Unicode>dem Beūelch An gemelten</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_740c944f-4a01-41cd-a80d-c74b1cd0ebc1" custom="readingOrder {index:5;} abbrev {offset:0; length:3;expansion:hochlöblichen;}">
+				<Coords points="1893,1108 1407,1079 713,1062 713,1167 1407,1184 1893,1213" />
+				<Baseline points="713,1140 1407,1157 1893,1186" />
+				<TextEquiv>
+					<Unicode>hln obrissten Ain Aigner Podt</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_bc089407-943e-476a-b77f-f1cc8af66067" custom="readingOrder {index:6;}">
+				<Coords points="1916,1220 1490,1191 717,1162 717,1265 1490,1294 1916,1323" />
+				<Baseline points="717,1239 1490,1268 1916,1297" />
+				<TextEquiv>
+					<Unicode>Abgesanndt: Beinebens dem</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_4ede1688-d5df-4102-8e64-a4d9ee750611" custom="readingOrder {index:7;}">
+				<Coords points="1911,1329 1585,1302 688,1285 688,1373 1585,1400 1911,1427" />
+				<Baseline points="688,1349 1585,1376 1911,1403" />
+				<TextEquiv>
+					<Unicode>Schmālzler aūch Zūegschriben¬</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_bfc62ec6-a7fd-40e4-99fc-be4f9cd6c44f" custom="readingOrder {index:8;} abbrev {offset:20; length:4;expansion:werden;}">
+				<Coords points="1969,1433 1589,1414 725,1389 725,1479 1589,1504 1969,1523" />
+				<Baseline points="725,1456 1589,1481 1969,1500" />
+				<TextEquiv>
+					<Unicode>vnd Zūwissen begert werd.</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_4add14d4-a89d-40d8-90d3-6e5509db94ef" custom="readingOrder {index:9;}">
+				<Coords points="1834,1529 1347,1513 712,1488 712,1578 1347,1603 1834,1619" />
+				<Baseline points="712,1553 1347,1578 1834,1594" />
+				<TextEquiv>
+					<Unicode>was. vnd wieuil Schmalz.</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_a88b8cdc-11aa-4b49-96d1-232857b3ca5d" custom="readingOrder {index:10;}">
+				<Coords points="1721,1625 683,1596 683,1693 1721,1722" />
+				<Baseline points="683,1666 1721,1695" />
+				<TextEquiv>
+					<Unicode>Er hieher schickhen khinde,</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_1655c702-7f94-4041-bdbb-461982127f9a" custom="readingOrder {index:11;} abbrev {offset:29; length:3;expansion:wegen;}">
+				<Coords points="1952,1728 1541,1707 666,1697 666,1787 1541,1797 1952,1818" />
+				<Baseline points="666,1772 1541,1782 1952,1803" />
+				<TextEquiv>
+					<Unicode>Nota die vortschickhūng. ist weg</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_b82932da-aac2-48a2-b92c-7694e8e523f6" custom="readingOrder {index:12;}">
+				<Coords points="1873,1822 1416,1813 726,1805 726,1862 1416,1870 1873,1879" />
+				<Baseline points="726,1848 1416,1856 1873,1865" />
+				<TextEquiv>
+					<Unicode>ein gefallnen Schneweters</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_2b38624f-1894-437e-9389-9d884ab17172" custom="readingOrder {index:13;}">
+				<Coords points="1592,1883 1305,1881 722,1879 722,1930 1305,1959 1592,1961" />
+				<Baseline points="722,1920 1305,1922 1592,1924" />
+				<TextEquiv>
+					<Unicode>erst hinach geūolgt.</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_0e204979-5be7-48f6-a1fa-987cd75dbd76" custom="readingOrder {index:14;}">
+				<Coords points="1770,1969 1259,1947 753,1934 753,2065 1259,2078 1770,2100" />
+				<Baseline points="753,2038 1259,2051 1770,2073" />
+				<TextEquiv>
+					<Unicode>Mer ain beūelch an herrn</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_b0793601-2387-42a5-8348-29ebfc7d432d" custom="readingOrder {index:15;}">
+				<Coords points="1795,2106 1373,2077 753,2062 753,2161 1373,2176 1795,2205" />
+				<Baseline points="753,2139 1373,2154 1795,2183" />
+				<TextEquiv>
+					<Unicode>Statt: vnd Lanndtrichter</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_89ccc93f-8719-4735-8cba-06c48298d482" custom="readingOrder {index:16;}">
+				<Coords points="1664,2211 1404,2203 720,2214 720,2277 1404,2292 1664,2300" />
+				<Baseline points="720,2251 1404,2266 1664,2274" />
+				<TextEquiv>
+					<Unicode>wegen der 2. Vieh¬</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_80fd0d13-413d-4da0-aaee-992924118ccc" custom="readingOrder {index:17;}">
+				<Coords points="1734,2307 1429,2295 687,2291 687,2376 1429,2395 1734,2407" />
+				<Baseline points="687,2350 1429,2369 1734,2381" />
+				<TextEquiv>
+					<Unicode>märckht. Anndrej. vnd</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_abcc1c55-2b75-43fc-90cd-23c342a1f76c" custom="readingOrder {index:18;} abbrev {offset:16; length:6;expansion:Nōuember;}">
+				<Coords points="1956,2413 1515,2410 697,2390 697,2484 1515,2504 1956,2507" />
+				<Baseline points="697,2462 1515,2482 1956,2485" />
+				<TextEquiv>
+					<Unicode>Thomj dato: 26. Nōuemb</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_a19a7143-2d7c-4017-84a3-8c991b314bc7" custom="readingOrder {index:19;}">
+				<Coords points="1798,2512 1497,2512 699,2502 699,2591 1497,2601 1798,2601" />
+				<Baseline points="699,2565 1497,2575 1798,2575" />
+				<TextEquiv>
+					<Unicode>Abganngen. Darinnen</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_fbdcbe4d-a7d6-4ea6-ac04-93df8cc0a800" custom="readingOrder {index:20;} abbrev {offset:10; length:2;expansion:hochlöblicher;} abbrev {offset:13; length:11;expansion:Lanndtrichter;}">
+				<Coords points="1873,2607 1486,2590 697,2597 697,2683 1486,2676 1873,2693" />
+				<Baseline points="697,2671 1486,2664 1873,2681" />
+				<TextEquiv>
+					<Unicode>wirdet Er hl Lanndtricht</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextEquiv>
+				<Unicode>vnclagbar Zuūērhalten, ein¬
+khomen. vnd begriffen. hat
+Also dabei Zuūērbleiben, Vnd
+soll mit Ainem Schreiben vnd
+dem Beūelch An gemelten
+hln obrissten Ain Aigner Podt
+Abgesanndt: Beinebens dem
+Schmālzler aūch Zūegschriben¬
+vnd Zūwissen begert werd.
+was. vnd wieuil Schmalz.
+Er hieher schickhen khinde,
+Nota die vortschickhūng. ist weg
+ein gefallnen Schneweters
+erst hinach geūolgt.
+Mer ain beūelch an herrn
+Statt: vnd Lanndtrichter
+wegen der 2. Vieh¬
+märckht. Anndrej. vnd
+Thomj dato: 26. Nōuemb
+Abganngen. Darinnen
+wirdet Er hl Lanndtricht</Unicode>
+			</TextEquiv>
+		</TextRegion>
+		<TextRegion id="region_c0764352-b52b-4847-be1d-89db8499caf5" custom="readingOrder {index:2;}">
+			<Coords points="202,1056 697,1056 697,1308 202,1308" />
+			<TextLine id="line_d3aecfba-3d2a-4938-b663-1dd09b197675" custom="readingOrder {index:0;}">
+				<Coords points="688,1091 216,1085 216,1188 688,1194" />
+				<Baseline points="216,1166 688,1172" />
+				<TextEquiv>
+					<Unicode>sambt dem </Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_ed853d7c-66cd-410b-ac8c-379339b73296" custom="readingOrder {index:1;}">
+				<Coords points="626,1194 244,1199 244,1273 626,1268" />
+				<Baseline points="244,1262 626,1257" />
+				<TextEquiv>
+					<Unicode>Passbrief.</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextEquiv>
+				<Unicode>sambt dem 
+Passbrief.</Unicode>
+			</TextEquiv>
+		</TextRegion>
+		<TextRegion id="region_7270457f-bff9-41c5-9970-6908ab2fc5e1" custom="readingOrder {index:3;}">
+			<Coords points="121,1967 746,1967 746,2222 121,2222" />
+			<TextLine id="line_1bde30c7-117e-4ed5-9a5d-84a51040c8be" custom="readingOrder {index:0;}">
+				<Coords points="739,2008 157,2009 157,2130 739,2129" />
+				<Baseline points="157,2106 739,2105" />
+				<TextEquiv>
+					<Unicode>Viehmarckht</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_8ba84374-d369-429c-b2f1-237de7b3d3c6" custom="readingOrder {index:1;} abbrev {offset:0; length:4;expansion:betreffend;}">
+				<Coords points="532,2132 306,2135 306,2207 532,2204" />
+				<Baseline points="306,2202 532,2199" />
+				<TextEquiv>
+					<Unicode>bet.</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextEquiv>
+				<Unicode>Viehmarckht
+bet.</Unicode>
+			</TextEquiv>
+		</TextRegion>
+	</Page>
+</PcGts>

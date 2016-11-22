@@ -1,0 +1,222 @@
+<?xml version="1.0"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+	<Metadata>
+		<Creator>TRP</Creator>
+		<Created>2014-09-25T12:35:50.257+02:00</Created>
+		<LastChange>2016-01-20T10:04:40.379+01:00</LastChange>
+	</Metadata>
+	<Page imageFilename="Seite0449.JPG" imageWidth="2290" imageHeight="3511">
+		<ReadingOrder>
+			<OrderedGroup id="ro_1453280698464" caption="Regions reading order">
+				<RegionRefIndexed index="0" regionRef="region_79d83671-2e58-41e8-860e-d155473fcc0a" />
+				<RegionRefIndexed index="1" regionRef="region_b1ae043a-c74c-4779-b188-7b4091108f9b" />
+				<RegionRefIndexed index="2" regionRef="region_94909e69-c6eb-4b9f-8a6c-31363e34c013" />
+				<RegionRefIndexed index="3" regionRef="region_5ecb54d7-b0a2-4dc5-8c7f-0f622ff3376e" />
+			</OrderedGroup>
+		</ReadingOrder>
+		<TextRegion id="region_79d83671-2e58-41e8-860e-d155473fcc0a" custom="readingOrder {index:0;}">
+			<Coords points="1628,260 1899,260 1899,366 1628,366" />
+			<TextLine id="line_e5b2d2a1-8f71-4539-9736-9280b55a55de" custom="readingOrder {index:0;}">
+				<Coords points="1886,287 1665,279 1665,346 1886,354" />
+				<Baseline points="1665,342 1886,350" />
+				<TextEquiv>
+					<Unicode>225</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextEquiv>
+				<Unicode>225</Unicode>
+			</TextEquiv>
+		</TextRegion>
+		<TextRegion id="region_b1ae043a-c74c-4779-b188-7b4091108f9b" custom="readingOrder {index:1;}">
+			<Coords points="589,435 1951,435 1951,1151 589,1151" />
+			<TextLine id="line_992364f6-f9ea-4cff-8425-ccf3cc286b0c" custom="readingOrder {index:0;}">
+				<Coords points="1915,484 1438,458 679,460 679,599 1438,597 1915,623" />
+				<Baseline points="679,572 1438,570 1915,596" />
+				<TextEquiv>
+					<Unicode>Joseffen Achtmarckht. hansen</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_2f69bd36-8ae4-4227-a535-8440529e44a4" custom="readingOrder {index:1;}">
+				<Coords points="1904,629 1537,609 759,604 759,700 1537,705 1904,725" />
+				<Baseline points="759,679 1537,684 1904,704" />
+				<TextEquiv>
+					<Unicode>Hehl. Adamen Azwannger.</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_f2b8fb30-e813-4671-9334-4e1cdc1021f9" custom="readingOrder {index:2;}">
+				<Coords points="1747,731 1429,716 732,716 732,801 1429,801 1747,816" />
+				<Baseline points="732,776 1429,776 1747,791" />
+				<TextEquiv>
+					<Unicode>Wolfganngen Kazmaȳr,</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_adcf04d9-0208-48f1-801a-b4e80ccfad61" custom="readingOrder {index:3;}">
+				<Coords points="1848,822 1452,816 759,807 759,905 1452,914 1848,920" />
+				<Baseline points="759,879 1452,888 1848,894" />
+				<TextEquiv>
+					<Unicode>Mathiasen Feichtner, vnd</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_d3adfd4b-abde-42b1-b838-6c1441ea3bfe" custom="readingOrder {index:4;}">
+				<Coords points="1770,926 1431,908 748,910 748,1004 1431,1002 1770,1020" />
+				<Baseline points="748,982 1431,980 1770,998" />
+				<TextEquiv>
+					<Unicode>Matheisen Hōrwarter</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_cf775a82-120b-43e4-80d6-2bd85ae577bc" custom="readingOrder {index:5;}">
+				<Coords points="1366,1026 692,1022 692,1100 1366,1104" />
+				<Baseline points="692,1085 1366,1089" />
+				<TextEquiv>
+					<Unicode>Rath gehalten,</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextEquiv>
+				<Unicode>Joseffen Achtmarckht. hansen
+Hehl. Adamen Azwannger.
+Wolfganngen Kazmaȳr,
+Mathiasen Feichtner, vnd
+Matheisen Hōrwarter
+Rath gehalten,</Unicode>
+			</TextEquiv>
+		</TextRegion>
+		<TextRegion id="region_94909e69-c6eb-4b9f-8a6c-31363e34c013" custom="readingOrder {index:2;}">
+			<Coords points="575,1181 2113,1181 2113,2819 575,2819" />
+			<TextLine id="line_da971d88-fcd7-469b-a02a-42dd99a89699" custom="readingOrder {index:0;}">
+				<Coords points="1794,1252 1347,1228 702,1212 702,1403 1347,1419 1794,1443" />
+				<Baseline points="702,1375 1347,1391 1794,1415" />
+				<TextEquiv>
+					<Unicode>Erstens ain Bevelch. von</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_2ed01f2b-1407-496f-9868-a5a6a3c46817" custom="readingOrder {index:1;} abbrev {offset:0; length:1;expansion:der;} abbrev {offset:6; length:3;expansion:durchlaucht;}">
+				<Coords points="1898,1449 1409,1420 769,1404 769,1507 1409,1523 1898,1552" />
+				<Baseline points="769,1483 1409,1499 1898,1528" />
+				<TextEquiv>
+					<Unicode>d Fl: dt: Leoboldj etc. herrn</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_63d67248-a051-42eb-a5f4-aeac1054dacc" custom="readingOrder {index:2;}">
+				<Coords points="1789,1557 1367,1525 720,1519 720,1608 1367,1614 1789,1646" />
+				<Baseline points="720,1586 1367,1592 1789,1624" />
+				<TextEquiv>
+					<Unicode>director. vnd gehaimen</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_3a9d82f6-fe9b-437c-9f3d-8ad4effe4945" custom="readingOrder {index:3;}">
+				<Coords points="1902,1652 1516,1632 718,1610 718,1697 1516,1719 1902,1739" />
+				<Baseline points="718,1673 1516,1695 1902,1715" />
+				<TextEquiv>
+					<Unicode>Räten, den Waizen aūf </Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_01b5138e-6c7f-4c29-b470-d49bdec337f7" custom="readingOrder {index:4;}">
+				<Coords points="1856,1745 1224,1705 734,1701 734,1790 1224,1794 1856,1834" />
+				<Baseline points="734,1769 1224,1773 1856,1813" />
+				<TextEquiv>
+					<Unicode>Laÿen betreffent. sambt</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_a3a717a0-75ae-4e35-8613-a1f4d8ca744b" custom="readingOrder {index:5;}">
+				<Coords points="1794,1840 1427,1820 724,1806 724,1892 1427,1906 1794,1926" />
+				<Baseline points="724,1866 1427,1880 1794,1900" />
+				<TextEquiv>
+					<Unicode>ainer Abschrifft. was</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_d7fab029-5389-4ac0-aca1-0fbbf598bcf0" custom="readingOrder {index:6;}">
+				<Coords points="1816,1932 1445,1908 710,1887 710,1986 1445,2007 1816,2031" />
+				<Baseline points="710,1960 1445,1981 1816,2005" />
+				<TextEquiv>
+					<Unicode>Simon Ingram aūf Laÿ</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_41bdd8d2-2b87-41b6-9960-04316d55d847" custom="readingOrder {index:7;} abbrev {offset:12; length:11;expansion:Zuegeschriben;}">
+				<Coords points="1820,2037 1389,2003 720,2001 720,2098 1389,2100 1820,2134" />
+				<Baseline points="720,2073 1389,2075 1820,2109" />
+				<TextEquiv>
+					<Unicode>Iren Gnaden Zūegeschrib</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_082065b0-b855-4bfb-8806-1fb1f909195f" custom="readingOrder {index:8;} abbrev {offset:0; length:9;expansion:Abgschrib;} textStyle {offset:0; length:9;strikethrough:true;}">
+				<Coords points="1785,2140 1318,2110 722,2120 722,2217 1318,2207 1785,2237" />
+				<Baseline points="722,2192 1318,2182 1785,2212" />
+				<TextEquiv>
+					<Unicode>Abgschrib Abgehört, vnd</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_c3bf8fba-db02-4ce9-9acd-6e06a9cc92b1" custom="readingOrder {index:9;}">
+				<Coords points="1825,2242 1455,2216 713,2206 713,2303 1455,2313 1825,2339" />
+				<Baseline points="713,2276 1455,2286 1825,2312" />
+				<TextEquiv>
+					<Unicode>da es hiermit Annderst</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_e5b17bf5-07c6-4a20-ade5-e289d9eeab1a" custom="readingOrder {index:10;}">
+				<Coords points="1809,2346 1436,2319 714,2313 714,2417 1436,2423 1809,2450" />
+				<Baseline points="714,2390 1436,2396 1809,2423" />
+				<TextEquiv>
+					<Unicode>gstaltsam. Ire Gnaden</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_801e6e59-9a9a-4f78-9e0b-96ea9b37834a" custom="readingOrder {index:11;}">
+				<Coords points="1862,2456 1418,2428 701,2438 701,2537 1418,2527 1862,2555" />
+				<Baseline points="701,2514 1418,2504 1862,2532" />
+				<TextEquiv>
+					<Unicode>sambt v̄berschickhūng des</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_7c4ed747-7eb9-49a9-a065-a9d242801e9e" custom="readingOrder {index:12;}">
+				<Coords points="1827,2561 1387,2547 684,2540 684,2633 1387,2640 1827,2654" />
+				<Baseline points="684,2606 1387,2613 1827,2627" />
+				<TextEquiv>
+					<Unicode>Einschlūß. firderlichen</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_1d3a0863-0f51-4d8d-8454-988fed62574b" custom="readingOrder {index:13;} abbrev {offset:3; length:8;expansion:berichten;} abbrev {offset:16; length:8;expansion:Anzemelden;}">
+				<Coords points="1918,2660 1428,2643 733,2625 733,2722 1428,2740 1918,2757" />
+				<Baseline points="733,2701 1428,2719 1918,2736" />
+				<TextEquiv>
+					<Unicode>Zū bericht. vnd Anzemeld</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextEquiv>
+				<Unicode>Erstens ain Bevelch. von
+d Fl: dt: Leoboldj etc. herrn
+director. vnd gehaimen
+Räten, den Waizen aūf 
+Laÿen betreffent. sambt
+ainer Abschrifft. was
+Simon Ingram aūf Laÿ
+Iren Gnaden Zūegeschrib
+Abgschrib Abgehört, vnd
+da es hiermit Annderst
+gstaltsam. Ire Gnaden
+sambt v̄berschickhūng des
+Einschlūß. firderlichen
+Zū bericht. vnd Anzemeld</Unicode>
+			</TextEquiv>
+		</TextRegion>
+		<TextRegion id="region_5ecb54d7-b0a2-4dc5-8c7f-0f622ff3376e" custom="readingOrder {index:3;}">
+			<Coords points="109,1325 562,1325 562,1576 109,1576" />
+			<TextLine id="line_69fb66d7-ec5b-4be6-843a-bccc852f639f" custom="readingOrder {index:0;}">
+				<Coords points="535,1359 130,1346 130,1442 535,1455" />
+				<Baseline points="130,1424 535,1437" />
+				<TextEquiv>
+					<Unicode>Waizen</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_d69efc23-3d7e-410f-ad7f-e3804775a8ff" custom="readingOrder {index:1;}">
+				<Coords points="495,1459 163,1444 163,1511 495,1526" />
+				<Baseline points="163,1495 495,1510" />
+				<TextEquiv>
+					<Unicode>aūf Laÿ.</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextEquiv>
+				<Unicode>Waizen
+aūf Laÿ.</Unicode>
+			</TextEquiv>
+		</TextRegion>
+	</Page>
+</PcGts>

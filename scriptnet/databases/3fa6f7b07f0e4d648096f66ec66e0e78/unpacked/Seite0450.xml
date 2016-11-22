@@ -1,0 +1,230 @@
+<?xml version="1.0"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+	<Metadata>
+		<Creator>TRP</Creator>
+		<Created>2014-09-25T12:35:50.288+02:00</Created>
+		<LastChange>2016-01-20T09:56:39.608+01:00</LastChange>
+	</Metadata>
+	<Page imageFilename="Seite0450.JPG" imageWidth="2432" imageHeight="3511">
+		<ReadingOrder>
+			<OrderedGroup id="ro_1453280217629" caption="Regions reading order">
+				<RegionRefIndexed index="0" regionRef="region_e1809993-df5e-45c7-bac4-66d457171c83" />
+				<RegionRefIndexed index="1" regionRef="region_45116fee-8fc8-4149-ac32-b54be234459d" />
+				<RegionRefIndexed index="2" regionRef="region_d36f70bf-f088-42dd-9de2-edd0391c56a3" />
+				<RegionRefIndexed index="3" regionRef="region_f8ff5e71-ba84-4252-826b-1f7683b92cd1" />
+			</OrderedGroup>
+		</ReadingOrder>
+		<TextRegion id="region_e1809993-df5e-45c7-bac4-66d457171c83" custom="readingOrder {index:0;}">
+			<Coords points="418,112 572,112 572,268 418,268" />
+			<TextLine id="line_0c35daa1-ae74-457d-ba98-502bf5d6328f" custom="readingOrder {index:0;}">
+				<Coords points="557,119 431,155 431,258 557,222" />
+				<Baseline points="431,255 557,219" />
+				<TextEquiv>
+					<Unicode>226</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextEquiv>
+				<Unicode>226</Unicode>
+			</TextEquiv>
+		</TextRegion>
+		<TextRegion id="region_45116fee-8fc8-4149-ac32-b54be234459d" custom="readingOrder {index:1;}">
+			<Coords points="932,407 2195,407 2195,2204 932,2204" />
+			<TextLine id="line_d681423e-6bc0-4fc5-b5ec-5ceb983e0be0" custom="readingOrder {index:0;}">
+				<Coords points="2111,449 1627,449 998,449 998,571 1627,571 2111,571" />
+				<Baseline points="998,544 1627,544 2111,544" />
+				<TextEquiv>
+					<Unicode>dieweiln man in disem</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_97dddb2b-0c48-457c-a10a-7bd695680957" custom="readingOrder {index:1;}">
+				<Coords points="2019,568 1577,566 1038,578 1038,680 1577,668 2019,670" />
+				<Baseline points="1038,655 1577,643 2019,645" />
+				<TextEquiv>
+					<Unicode>Lanndt Allerlai gfar.</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_7dc7a62e-51b7-4fd0-9d5b-7643040b72c4" custom="readingOrder {index:2;} abbrev {offset:16; length:7;expansion:besorgen;}">
+				<Coords points="2043,683 1770,676 1028,686 1028,784 1770,774 2043,781" />
+				<Baseline points="1028,758 1770,748 2043,755" />
+				<TextEquiv>
+					<Unicode>vnd dūrchzüg Zū besorg.</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_e9b80958-efc5-4abd-9456-275aa71967c0" custom="readingOrder {index:3;}">
+				<Coords points="1965,780 1518,790 1026,787 1026,887 1518,890 1965,880" />
+				<Baseline points="1026,861 1518,864 1965,854" />
+				<TextEquiv>
+					<Unicode>vnd dise vmbligennde</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_6469173b-fa25-4972-ac6c-2bb84056d4c5" custom="readingOrder {index:4;} abbrev {offset:18; length:5;expansion:sonsten;}">
+				<Coords points="2126,883 1717,896 1028,887 1028,985 1717,994 2126,981" />
+				<Baseline points="1028,959 1717,968 2126,955" />
+				<TextEquiv>
+					<Unicode>Gericht. Ir Traid sonst</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_28c8e1a5-a6a8-4ae5-9787-5e59320f98e7" custom="readingOrder {index:5;}">
+				<Coords points="1994,993 1695,1000 1029,993 1029,1089 1695,1096 1994,1089" />
+				<Baseline points="1029,1066 1695,1073 1994,1066" />
+				<TextEquiv>
+					<Unicode>aūfm KornPlaz. vnnd</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_1f4e03d6-0ec4-4ac7-a3f1-172b6ad9d266" custom="readingOrder {index:6;}">
+				<Coords points="2080,1102 1748,1102 1018,1101 1018,1193 1748,1194 2080,1194" />
+				<Baseline points="1018,1166 1748,1167 2080,1167" />
+				<TextEquiv>
+					<Unicode>den Peckhen hieher fiern</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_86b767d4-517d-49fb-814c-7f2c002d6cd1" custom="readingOrder {index:7;} abbrev {offset:11; length:8;expansion:APottegger;}">
+				<Coords points="2054,1197 1710,1201 1024,1194 1024,1298 1710,1305 2054,1301" />
+				<Baseline points="1024,1271 1710,1278 2054,1274" />
+				<TextEquiv>
+					<Unicode>dem Zeffer APottegg</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_9d2815ac-a59b-4eb5-b48e-96f7c79d6ff4" custom="readingOrder {index:8;}">
+				<Coords points="2054,1305 1042,1311 1042,1414 2054,1408" />
+				<Baseline points="1042,1387 2054,1381" />
+				<TextEquiv>
+					<Unicode>Zū Brixen. bei Straff</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_025309dd-0c77-47eb-8f12-7c0a91e41339" custom="readingOrder {index:9;}">
+				<Coords points="2027,1420 1715,1420 1059,1411 1059,1514 1715,1523 2027,1523" />
+				<Baseline points="1059,1488 1715,1497 2027,1497" />
+				<TextEquiv>
+					<Unicode>Aūfzūladen. sich solicher</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_07a9cfae-14ae-47fc-8f37-548394635ab0" custom="readingOrder {index:10;}">
+				<Coords points="2110,1526 1834,1529 1034,1520 1034,1621 1834,1630 2110,1627" />
+				<Baseline points="1034,1593 1834,1602 2110,1599" />
+				<TextEquiv>
+					<Unicode>Aūf khaūffūng. so allain</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_99613cbd-9387-4f23-893a-6ae2b9cd57af" custom="readingOrder {index:11;}">
+				<Coords points="2112,1623 1530,1634 1041,1636 1041,1743 1530,1741 2112,1730" />
+				<Baseline points="1041,1715 1530,1713 2112,1702" />
+				<TextEquiv>
+					<Unicode>Zū sein Aignen Nūz. vnd</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_da9923fc-11e8-4221-bf15-50a00ffc1aa0" custom="readingOrder {index:12;}">
+				<Coords points="2063,1744 1722,1750 1028,1750 1028,1857 1722,1857 2063,1851" />
+				<Baseline points="1028,1831 1722,1831 2063,1825" />
+				<TextEquiv>
+					<Unicode>gemeltem KornPlaz.</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_c4c0e9f6-b9c4-49e1-b084-70a07f25ac68" custom="readingOrder {index:13;} abbrev {offset:10; length:4;expansion:Fürstlichen;}">
+				<Coords points="1974,1863 1604,1863 1051,1848 1051,1949 1604,1964 1974,1964" />
+				<Baseline points="1051,1921 1604,1936 1974,1936" />
+				<TextEquiv>
+					<Unicode>als ainem Frl: Lehen.</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_a9635889-992b-4282-9a56-b5518e44292b" custom="readingOrder {index:14;}">
+				<Coords points="2107,1967 1773,1970 1028,1963 1028,2070 1773,2077 2107,2074" />
+				<Baseline points="1028,2041 1773,2048 2107,2045" />
+				<TextEquiv>
+					<Unicode>Zū schaden vnd Für khaūff</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_9ff4285f-5322-4de4-bb9a-547d8debd216" custom="readingOrder {index:15;}">
+				<Coords points="1410,2084 1043,2081 1043,2172 1410,2175" />
+				<Baseline points="1043,2163 1410,2166" />
+				<TextEquiv>
+					<Unicode>angsehen. </Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextEquiv>
+				<Unicode>dieweiln man in disem
+Lanndt Allerlai gfar.
+vnd dūrchzüg Zū besorg.
+vnd dise vmbligennde
+Gericht. Ir Traid sonst
+aūfm KornPlaz. vnnd
+den Peckhen hieher fiern
+dem Zeffer APottegg
+Zū Brixen. bei Straff
+Aūfzūladen. sich solicher
+Aūf khaūffūng. so allain
+Zū sein Aignen Nūz. vnd
+gemeltem KornPlaz.
+als ainem Frl: Lehen.
+Zū schaden vnd Für khaūff
+angsehen. </Unicode>
+			</TextEquiv>
+		</TextRegion>
+		<TextRegion id="region_d36f70bf-f088-42dd-9de2-edd0391c56a3" custom="readingOrder {index:2;}">
+			<Coords points="953,2280 2267,2280 2267,2737 953,2737" />
+			<TextLine id="line_bafd7d48-2652-4d4c-b53c-41059f91fb24" custom="readingOrder {index:0;} abbrev {offset:16; length:3;expansion:Gnaden;} abbrev {offset:20; length:2;expansion:hochlöblichen;}">
+				<Coords points="2088,2327 1554,2330 962,2310 962,2451 1554,2471 2088,2468" />
+				<Baseline points="962,2424 1554,2444 2088,2441" />
+				<TextEquiv>
+					<Unicode>Aūf das: von Ir Gn: hn</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_136d8ba2-ead9-442e-b5fa-7f7e866f0232" custom="readingOrder {index:1;}">
+				<Coords points="2035,2478 1636,2471 1056,2458 1056,2560 1636,2573 2035,2580" />
+				<Baseline points="1056,2535 1636,2548 2035,2555" />
+				<TextEquiv>
+					<Unicode>Lanndthaūbtmann an</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_8e4e57a2-0bee-4c33-8c0b-a19deea6bb40" custom="readingOrder {index:2;} abbrev {offset:15; length:7;expansion:Abganngen;}">
+				<Coords points="2071,2567 1699,2586 1037,2584 1037,2674 1699,2676 2071,2657" />
+				<Baseline points="1037,2654 1699,2656 2071,2637" />
+				<TextEquiv>
+					<Unicode>der Etsch etc. Abganng</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextEquiv>
+				<Unicode>Aūf das: von Ir Gn: hn
+Lanndthaūbtmann an
+der Etsch etc. Abganng</Unicode>
+			</TextEquiv>
+		</TextRegion>
+		<TextRegion id="region_f8ff5e71-ba84-4252-826b-1f7683b92cd1" custom="readingOrder {index:3;}">
+			<Coords points="341,2389 947,2389 947,2786 341,2786" />
+			<TextLine id="line_03a7e93f-cf81-4688-b6eb-50cdec624780" custom="readingOrder {index:0;}">
+				<Coords points="939,2411 359,2424 359,2523 939,2510" />
+				<Baseline points="359,2505 939,2492" />
+				<TextEquiv>
+					<Unicode>Cristoff Haim</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_c9bac147-6180-4e8a-98a3-787d977bfdb9" custom="readingOrder {index:1;}">
+				<Coords points="813,2524 462,2528 462,2595 813,2591" />
+				<Baseline points="462,2579 813,2575" />
+				<TextEquiv>
+					<Unicode>soll geen</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_44b8a65f-4012-4ffc-a896-80d29e2080f5" custom="readingOrder {index:2;}">
+				<Coords points="882,2590 401,2600 401,2665 882,2655" />
+				<Baseline points="401,2646 882,2636" />
+				<TextEquiv>
+					<Unicode>Nider läna</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="line_2367f748-6744-47e0-bfb7-f0fa0c4fcf8b" custom="readingOrder {index:3;}">
+				<Coords points="804,2652 479,2669 479,2738 804,2721" />
+				<Baseline points="479,2722 804,2705" />
+				<TextEquiv>
+					<Unicode>erscheinen.</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextEquiv>
+				<Unicode>Cristoff Haim
+soll geen
+Nider läna
+erscheinen.</Unicode>
+			</TextEquiv>
+		</TextRegion>
+	</Page>
+</PcGts>
