@@ -9,6 +9,7 @@ from django.conf import settings
 from django.utils.translation import ugettext_lazy as _
 from django_tables2 import RequestConfig
 from django.core.mail import send_mail, EmailMessage
+from django.utils import timezone
 
 from .forms import LoginForm, RegisterForm, NEW_AFFILIATION_ID
 from .forms import SubmitForm
@@ -19,7 +20,7 @@ from . import evaluators
 
 import threading
 from json import loads
-from datetime import datetime, timezone
+
 
 #TODO: Replace all hard-coded URLs with calls to 'reverse'
 
@@ -168,7 +169,7 @@ def submit(request, competition_id, track_id, subtrack_id):
             for i in last_submission_timestamp:
                 if not i:
                     continue
-                dt = datetime.now(timezone.utc) - i
+                dt = timezone.now() - i
                 if dt.seconds < 120:
                     enough_time_passed = False
             if not enough_time_passed:
