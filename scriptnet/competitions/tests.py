@@ -1,4 +1,4 @@
-from django.test import TestCase
+from django.test import TestCase, Client
 from django.core.urlresolvers import reverse
 from django.contrib.auth.models import User
 from django.core.files.uploadedfile import SimpleUploadedFile
@@ -279,6 +279,32 @@ class ModelTests(TestCase):
         iq = Individual.objects.all()
         self.assertEqual(len(iq), 1)
 
+class SubmitResultTests(TestCase):
+    def test_submit(self): 
+        create_competitions_tracks_subtracks(1, 1, 1)
+        c = Client()        
+        johndoe = User.objects.create_user(username='johndoe')
+        c.force_login(johndoe)
+        #Post something
+        resp = c.post(reverse('submit', 
+            kwargs={
+                'competition_id':'1', 
+                'track_id':'1', 
+                'subtrack_id':'1',
+                }
+            ), 
+            {
+                'name': 'SUBMISSION_01',
+                'method_info': 'This is a test submission',
+                'publishable': True,
+                'resultfile': SimpleUploadedFile('res.txt', b'OCRD TEXT: Tjis 1s an 3xample of r3$ults'),
+            }
+            )
+        print(resp.status_code)
+        print(resp.content)
+        self.client.logout()
+        self.assertEqual(1, 0)
+        
 
 class AuthenticationTests(TestCase):
     """
