@@ -19,6 +19,7 @@ from . import evaluators
 
 import threading
 from json import loads
+from datetime import datetime, timezone
 
 #TODO: Replace all hard-coded URLs with calls to 'reverse'
 
@@ -159,11 +160,15 @@ def submit(request, competition_id, track_id, subtrack_id):
                 return render(request, 'competitions/submit.html', context)
             # Check if enough time passed since last submission
             last_submission_timestamp = [request.user.individual.last_submission()]
-            for i in submit_form.cleaned_data['cosubmitters']:
+            for istr in submit_form.cleaned_data['cosubmitters']:
+                i = Individual.objects.get(pk=int(istr))
                 last_submission_timestamp.append(i.last_submission())
+            print(last_submission_timestamp)
             enough_time_passed = True
             for i in last_submission_timestamp:
-                dt = datetime.now() - i
+                if not i:
+                    continue
+                dt = datetime.now(timezone.utc) - i
                 if dt.seconds < 120:
                     enough_time_passed = False
             if not enough_time_passed:
