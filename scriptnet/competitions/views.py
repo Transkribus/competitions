@@ -183,8 +183,6 @@ def submit(request, competition_id, track_id, subtrack_id):
                 subtrack = subtrack,
                 resultfile = submit_form.cleaned_data['resultfile']
             )
-            #TODO: Add the authenticated user and the coworkers here
-            print(submit_form.cleaned_data['cosubmitters'])
             submission.submitter.add(request.user.individual)
             for cosub in submit_form.cleaned_data['cosubmitters']:
                 submission.submitter.add(cosub)
@@ -216,9 +214,6 @@ def submit(request, competition_id, track_id, subtrack_id):
     return render(request, 'competitions/submit.html', context)
     
 def viewresults(request, competition_id, track_id, subtrack_id):
-    for i in Individual.objects.all():
-        print(i)
-        print(i.last_submission())
     competition, track, subtrack, context = get_objects_given_uniqueIDs(competition_id, track_id, subtrack_id)
     data = []
     if subtrack:
