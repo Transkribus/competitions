@@ -1,4 +1,4 @@
-# ScriptNet Competitions
+# ScriptNet Competitions AAAAAA
 
 [![Build Status](https://travis-ci.org/Transkribus/competitions.svg?branch=master)](https://travis-ci.org/Transkribus/competitions)
 
