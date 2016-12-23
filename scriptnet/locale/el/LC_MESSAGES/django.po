@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-12-23 17:13+0200\n"
+"POT-Creation-Date: 2016-12-23 18:13+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -77,7 +77,7 @@ msgstr "Αρχείο αποτελεσμάτων"
 
 #: competitions/forms.py:60 competitions/templates/competitions/master.html:85
 msgid "Language"
-msgstr "Γλώσσα"
+msgstr "Γλωσσα"
 
 #: competitions/models.py:113 competitions/models.py:183
 msgid "You must specify all required fields."
@@ -197,28 +197,18 @@ msgid "Participate in competition"
 msgstr ""
 
 #: competitions/templates/competitions/competition_navbar.html:58
-#, fuzzy
-#| msgid "View all submissions for this "
 msgid "All submissions for this "
-msgstr "Δείτε όλες τις υποβολές για το "
+msgstr "Επισκόπηση υποβολών, επίπεδο: "
 
 #: competitions/templates/competitions/competition_navbar.html:61
 msgid "competition"
 msgstr "διαγωνισμός"
 
 #: competitions/templates/competitions/competition_navbar.html:63
-#: competitions/templates/competitions/submit.html:14
-#: competitions/templates/competitions/viewresults.html:17
-#: competitions/templates/competitions/viewresults.html:19
-#, fuzzy
-#| msgid "Track"
 msgid "track"
 msgstr "Ζητούμενο"
 
 #: competitions/templates/competitions/competition_navbar.html:66
-#: competitions/templates/competitions/viewresults.html:21
-#, fuzzy
-#| msgid "Subtrack"
 msgid "subtrack"
 msgstr "Υποζητούμενο"
 
@@ -277,6 +267,10 @@ msgid ""
 "ScriptNet is a platform which hosts competitions related to Handwritten Text "
 "Recognition (HTR) and other Document Image Analysis (DIA) areas of research."
 msgstr ""
+"Το ScriptNet είναι μια πλατφόρμα που συγκεντρώνει διαγωνισμούς σχετικούς με "
+"αυτόματη αναγνώριση χειρόγραφου κειμένου (Handwritten Text Recognition, HTR) "
+"αλλά και διαγωνισμούς σχετικούς με άλλα πεδία ψηφιακής επεργασίας και "
+"ανάλυσης εγγράφων."
 
 #: competitions/templates/competitions/master.html:141
 msgid ""
@@ -285,10 +279,18 @@ msgid ""
 "printed documents, competing to produce the most accurate results.  "
 "Competitions often take place at well-known conferences like the "
 msgstr ""
+"Οι διαγωνισμοί είναι ένα ζωτικό κομμάτι της έρευνας στην επιστήμη της "
+"Πληροφορικής. Ερευνητικές ομάδες από διάφορα εργαστήρια, ερευνητικά κέντρα "
+"και πανεπιστήμια ανά την υφήλιο, καλούνται να εφαρμόσουν τους αλγόριθμούς "
+"τους σε ψηφιοποιημένες εικόνες κειμένων, συναγωνιζόμενες η μία την άλλη για τα καλύτερα και "
+"πιο ακριβή αποτελέσματα. Οι διαγωνισμοί συχνά πραγματοποιούνται στο πλαίσιο "
+"σημαντικών σχετικών διεθνών συνεδρίων, όπως είναι το "
 
 #: competitions/templates/competitions/master.html:142
 msgid "International Conference on Document Analysis and Recognition (ICDAR)"
 msgstr ""
+"Διεθνές Συνέδριο στην Ανάλυση και Αναγνώριση Κειμένου (International "
+"Conference on Document Analysis and Recognition, ICDAR)"
 
 #: competitions/templates/competitions/master.html:143
 msgid ""
@@ -296,36 +298,23 @@ msgid ""
 "improved through these competitions, making it possible for computers to "
 "process, read and search historical documents."
 msgstr ""
+"Η ποιότητα της αναγνώρισης κειμένου και άλλων σχετικών τεχνολογιών "
+"βελτιώνεται μέσω αυτών των διαγωνισμών, επιτρέποντας έτσι την αυτόματη, "
+"υπολογιστική επεξεργασία, ανάγνωση και αναζήτηση σε γραπτά ντοκουμέντα "
+"ιστορικής αξίας."
 
 #: competitions/templates/competitions/master.html:145
-#, fuzzy
-#| msgid ""
-#| "ScriptNet is a platform that hosts competitions related to Handwritten "
-#| "Text Recognition (HTR) and other Document Image Analysis (DIA) areas of "
-#| "research. It aims to attract as many research groups as possible to "
-#| "contribute to the task of unconstrained historical handwriting "
-#| "recognition. The main idea is to host several competitions in a common "
-#| "and uniform environment."
 msgid ""
 "ScriptNet aims to attract as many research groups as possible to contribute "
 "to the task of unconstrained historical handwriting recognition. The main "
 "idea is to host several competitions in a common and uniform environment."
 msgstr ""
-"Το ScriptNet είναι μια πλατφόρμα που συγκεντρώνει διαγωνισμούς σχετικούς με "
-"την αναγνώριση χειρογράφων (HTR) καθώς και με άλλα πεδία έρευνας στην "
-"ανάλυση των ψηφιακών εικόνων εγγράφων (DIA). Στόχος της πλατφόρμας είναι να "
-"προσελκύσει όσο το δυνατόν περισσότερες ερευνητικές ομάδες που θα "
-"συνεισφέρουν έρευνα στην αναγνώριση χειρογράφων. Η κεντρική ιδέα είναι η "
-"συγκέντρωση διάφορων διαγωνισμών σε ένα κοινό και ομοιόμορφο περιβάλλον. "
+"Στόχος της πλατφόρμας είναι να προσελκύσει όσο το δυνατόν περισσότερες "
+"ερευνητικές ομάδες που θα συνεισφέρουν στην έρευνα στην αναγνώριση "
+"χειρογράφων. Η κεντρική ιδέα είναι η συγκέντρωση διάφορων ερευνητικών διαγωνισμών σε ένα "
+"κοινό και ομοιόμορφο περιβάλλον. "
 
 #: competitions/templates/competitions/master.html:147
-#, fuzzy
-#| msgid ""
-#| "ScriptNet contains functionality which enables everyone to submit results "
-#| "anytime and get evaluation results, as well as ranking, automatically.  "
-#| "It is an initiative of the <b>READ EU funded project</b>, aiming to "
-#| "provide large datasets for stimulating research in HTR and related "
-#| "technologies."
 msgid ""
 "ScriptNet contains functionality which enables everyone to submit results "
 "<b>at any time</b> and get evaluation results, as well as ranking, "
@@ -335,18 +324,21 @@ msgstr ""
 "συμμετέχοντες να υποβάλλουν τα αποτελέσματα των μεθόδων τους ανα πάσα "
 "στιγμή, λαμβάνοντας αυτόματα και άμεσα τα αποτέλεσματα αριθμητικής "
 "αποτίμησης, όπως και την κατάταξη τους ως προς τα αποτελέσματα άλλων ομάδων. "
-"Πρόκειται για μια πρωτοβουλία του (χρηματοδοτούμενου από την ΕΕ) έργου READ. "
-"Το έργο αποσκοπεί στην δημοσίευση μεγάλων συνόλων δεδομένων ψηφιοποιημένων "
-"χειρογράφων, προσβλέποντας στην προώθηση της έρευνας στο HTR και σε σχετικές "
-"τεχνολογίες."
+"Πρόκειται για μια πρωτοβουλία του "
+
+#"Το έργο αποσκοπεί στην δημοσίευση μεγάλων συνόλων δεδομένων ψηφιοποιημένων "
+#"χειρογράφων, προσβλέποντας στην προώθηση της έρευνας στο HTR και σε σχετικές "
+#"τεχνολογίες."
 
 #: competitions/templates/competitions/master.html:148
 msgid "project READ "
-msgstr ""
+msgstr "έργου READ "
 
 #: competitions/templates/competitions/master.html:149
 msgid "(Recognition and Enrichment of Archival Documents)"
 msgstr ""
+"(Αναγνώριση και Εμπλουτισμός Αρχειακών Ντοκουμέντων - Recognition and "
+"Enrichment of Archival Documents / υπό το πρόγραμμα Horizon 2020 για την έρευνα και καινοτομία)"
 
 #: competitions/templates/competitions/master.html:163
 msgid "Active Document Understanding Competitions"
@@ -358,7 +350,7 @@ msgstr "*Κανείς διαγωνισμός δεν είναι ενεργός*"
 
 #: competitions/templates/competitions/master.html:213
 msgid "Register to take part in one of the active competitions."
-msgstr "Εγγραφείτε για να πάρετε μέρος στον διαγωνισμό που επιθυμείτε"
+msgstr "Εγγραφείτε για να πάρετε μέρος στον διαγωνισμό που επιθυμείτε."
 
 #: competitions/templates/competitions/master.html:240
 msgid "Login with your credentials if you have already registered."
