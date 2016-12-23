@@ -260,7 +260,7 @@ msgstr "Contacter"
 #: competitions/templates/competitions/master.html:122
 msgid "ScriptNet is a platform of competitions running under the READ project"
 msgstr ""
-"ScriptNet est une plateforme de competition en cours d'execution dans le "
+"ScriptNet est une plateforme de compétition en cours d'execution dans le "
 "cadre du projet READ"
 
 #: competitions/templates/competitions/master.html:123
@@ -332,15 +332,15 @@ msgstr "('Recognition and Enrichment of Archival Documents', sous l'égide de UE
 
 #: competitions/templates/competitions/master.html:163
 msgid "Active Document Understanding Competitions"
-msgstr "Documents actifs pour comprendre la competition"
+msgstr "Compétitions actifs"
 
 #: competitions/templates/competitions/master.html:196
 msgid "*No competitions are currently active*"
-msgstr "*Pas de competitions en cours pour le moment*"
+msgstr "*Pas de compétitions en cours pour le moment*"
 
 #: competitions/templates/competitions/master.html:213
 msgid "Register to take part in one of the active competitions."
-msgstr "Inscrivez-vous pour prendre part à des competitions en cours."
+msgstr "Inscrivez-vous pour prendre part à des compétitions en cours."
 
 #: competitions/templates/competitions/master.html:240
 msgid "Login with your credentials if you have already registered."
