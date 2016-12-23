@@ -136,11 +136,17 @@
 <br>
                     <h4 class="section-heading"></h4>
                                         <p class="text-faded">
-{% trans "ScriptNet is a platform that hosts competitions related to Handwritten Text Recognition (HTR) and other Document Image Analysis (DIA) areas of research. It aims to attract as many research groups as possible to contribute to the task of unconstrained historical handwriting recognition. The main idea is to host several competitions in a common and uniform environment." %} 
-                                        </p>
-<br><br><br>
-                    <p class="text-faded">
-{% trans "ScriptNet contains functionality which enables everyone to submit results at any time and get evaluation results, as well as ranking, automatically.  It is an initiative of the <b>READ EU funded project</b>, aiming to provide large datasets for stimulating research in HTR and related technologies." %} 
+{% trans "ScriptNet is a platform which hosts competitions related to Handwritten Text Recognition (HTR) and other Document Image Analysis (DIA) areas of research." %}
+<br><br>
+{% trans  "Competitions are a vital part of research in computer science.  Research teams apply their algorithms to defined collections of handwritten and printed documents, competing to produce the most accurate results.  Competitions often take place at well-known conferences like the " %}
+<a href="http://u-pat.org/ICDAR2017/" style="color:white">{% trans "International Conference on Document Analysis and Recognition (ICDAR)" %}</a>.  
+{% trans "The quality of Handwritten Text Recognition and other technologies is improved through these competitions, making it possible for computers to process, read and search historical documents." %}
+<br><br>
+{% trans "ScriptNet aims to attract as many research groups as possible to contribute to the task of unconstrained historical handwriting recognition. The main idea is to host several competitions in a common and uniform environment." %}                                 
+<br><br>
+{% trans "ScriptNet contains functionality which enables everyone to submit results <b>at any time</b> and get evaluation results, as well as ranking, automatically.  It is an initiative of the H2020 " %} 
+<a href="http://read.transkribus.eu/" style="color:white">{% trans "project READ " %}</a> 
+{% trans "(Recognition and Enrichment of Archival Documents)" %}
     		    	</p>
                 </div>
 		<div class="col-lg-4">
@@ -230,8 +236,8 @@
         <div class="container">
             <div class="row">
 		        <div class="col-lg-8">
-                    <h2 class="section-heading">{% trans "Sign in" %}</h2>
-                    <p class="text-faded">{% trans "Login with your credentials if you have already registered." %}</p>
+                    <h2 class="section-heading">{% trans "Login" %}</h2>
+                    <p>{% trans "Login with your credentials if you have already registered." %}</p>
                     <!-- Το ονομα του action αναφερεται στους regexp ορισμους των urls.py -->
 		            <form action="" method="post" role="form">
 		                {% csrf_token %}
