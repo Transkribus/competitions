@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-11-18 15:26+0200\n"
+"POT-Creation-Date: 2016-12-23 17:13+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -79,38 +79,38 @@ msgstr "Αρχείο αποτελεσμάτων"
 msgid "Language"
 msgstr "Γλώσσα"
 
-#: competitions/models.py:108 competitions/models.py:178
+#: competitions/models.py:113 competitions/models.py:183
 msgid "You must specify all required fields."
 msgstr ""
 
-#: competitions/models.py:330
+#: competitions/models.py:335
 msgid "The processing state of the submission is undefined"
 msgstr "Η κατάσταση επεξεργασίας αυτής της υποβολής είναι απροσδιόριστη"
 
-#: competitions/models.py:331
+#: competitions/models.py:336
 msgid "We are currently processing the submitted result"
 msgstr "Το υποβεβλημένο αποτέλεσμα βρίσκεται αυτή τη στιγμή υπό επεξεργασία"
 
-#: competitions/models.py:332
+#: competitions/models.py:337
 msgid "Could not call the related evaluator function"
 msgstr "Δεν ήταν δυνατό να κληθεί η σχετική συνάρτηση αποτίμησης"
 
-#: competitions/models.py:333
+#: competitions/models.py:338
 msgid "An error has occured before processing could start"
 msgstr "Ένα σφάλμα προκλήθηκε προτού ξεκινήσει η επεξεργασία"
 
-#: competitions/models.py:334
+#: competitions/models.py:339
 msgid "An error has occured during processing of the submitted result"
 msgstr ""
 "Ένα σφάλμα προκλήθηκε κατά την διάρκεια της επεξεργασίας του υποβεβλημένου "
 "αποτελέσματος"
 
-#: competitions/models.py:335
+#: competitions/models.py:340
 msgid "This benchmark cannot be computed by the specified evaluator function"
 msgstr ""
 "Αυτή η μετρική δεν μπορεί να υπολογιστεί με την δοσμένη συνάρτηση αποτίμησης"
 
-#: competitions/models.py:336
+#: competitions/models.py:341
 msgid ""
 "The submitted result has been succesfully processed and a numerical result "
 "has been saved"
@@ -243,18 +243,19 @@ msgid "Competitions"
 msgstr "Διαγωνισμοί"
 
 #: competitions/templates/competitions/master.html:74
-#: competitions/templates/competitions/master.html:203
-#: competitions/templates/competitions/master.html:217
+#: competitions/templates/competitions/master.html:212
+#: competitions/templates/competitions/master.html:226
 msgid "Register"
 msgstr "Εγγραφή"
 
 #: competitions/templates/competitions/master.html:78
-#: competitions/templates/competitions/master.html:237
+#: competitions/templates/competitions/master.html:239
+#: competitions/templates/competitions/master.html:246
 msgid "Login"
 msgstr "Σύνδεση"
 
 #: competitions/templates/competitions/master.html:82
-#: competitions/templates/competitions/master.html:253
+#: competitions/templates/competitions/master.html:262
 msgid "Contact"
 msgstr "Επικοινωνία"
 
@@ -271,60 +272,106 @@ msgstr "Μάθετε περισσότερα"
 msgid "About ScriptNet"
 msgstr "Σχετικά με το ScriptNet"
 
-#: competitions/templates/competitions/master.html:136
+#: competitions/templates/competitions/master.html:139
 msgid ""
-"ScriptNet is a platform that hosts competitions related to Handwritten Text "
-"Recognition (HTR) and other Document Image Analysis (DIA) areas of research. "
-"It aims to attract as many research groups as possible to contribute to the "
-"task of unconstrained historical handwriting recognition. The main idea is "
-"to host several competitions in a common and uniform environment."
+"ScriptNet is a platform which hosts competitions related to Handwritten Text "
+"Recognition (HTR) and other Document Image Analysis (DIA) areas of research."
 msgstr ""
-"Το ScriptNet είναι μια πλατφόρμα που συγκεντρώνει διαγωνισμούς σχετικούς με την αναγνώριση χειρογράφων (HTR) "
-"καθώς και με άλλα πεδία έρευνας στην ανάλυση των ψηφιακών εικόνων εγγράφων (DIA). "
-"Στόχος της πλατφόρμας είναι να προσελκύσει όσο το δυνατόν περισσότερες ερευνητικές ομάδες "
-"που θα συνεισφέρουν έρευνα στην αναγνώριση χειρογράφων. "
-"Η κεντρική ιδέα είναι η συγκέντρωση διάφορων διαγωνισμών σε ένα κοινό και ομοιόμορφο περιβάλλον. "
 
-#: competitions/templates/competitions/master.html:140
+#: competitions/templates/competitions/master.html:141
+msgid ""
+"Competitions are a vital part of research in computer science.  Research "
+"teams apply their algorithms to defined collections of handwritten and "
+"printed documents, competing to produce the most accurate results.  "
+"Competitions often take place at well-known conferences like the "
+msgstr ""
+
+#: competitions/templates/competitions/master.html:142
+msgid "International Conference on Document Analysis and Recognition (ICDAR)"
+msgstr ""
+
+#: competitions/templates/competitions/master.html:143
+msgid ""
+"The quality of Handwritten Text Recognition and other technologies is "
+"improved through these competitions, making it possible for computers to "
+"process, read and search historical documents."
+msgstr ""
+
+#: competitions/templates/competitions/master.html:145
+#, fuzzy
+#| msgid ""
+#| "ScriptNet is a platform that hosts competitions related to Handwritten "
+#| "Text Recognition (HTR) and other Document Image Analysis (DIA) areas of "
+#| "research. It aims to attract as many research groups as possible to "
+#| "contribute to the task of unconstrained historical handwriting "
+#| "recognition. The main idea is to host several competitions in a common "
+#| "and uniform environment."
+msgid ""
+"ScriptNet aims to attract as many research groups as possible to contribute "
+"to the task of unconstrained historical handwriting recognition. The main "
+"idea is to host several competitions in a common and uniform environment."
+msgstr ""
+"Το ScriptNet είναι μια πλατφόρμα που συγκεντρώνει διαγωνισμούς σχετικούς με "
+"την αναγνώριση χειρογράφων (HTR) καθώς και με άλλα πεδία έρευνας στην "
+"ανάλυση των ψηφιακών εικόνων εγγράφων (DIA). Στόχος της πλατφόρμας είναι να "
+"προσελκύσει όσο το δυνατόν περισσότερες ερευνητικές ομάδες που θα "
+"συνεισφέρουν έρευνα στην αναγνώριση χειρογράφων. Η κεντρική ιδέα είναι η "
+"συγκέντρωση διάφορων διαγωνισμών σε ένα κοινό και ομοιόμορφο περιβάλλον. "
+
+#: competitions/templates/competitions/master.html:147
+#, fuzzy
+#| msgid ""
+#| "ScriptNet contains functionality which enables everyone to submit results "
+#| "anytime and get evaluation results, as well as ranking, automatically.  "
+#| "It is an initiative of the <b>READ EU funded project</b>, aiming to "
+#| "provide large datasets for stimulating research in HTR and related "
+#| "technologies."
 msgid ""
 "ScriptNet contains functionality which enables everyone to submit results "
-"anytime and get evaluation results, as well as ranking, automatically.  It "
-"is an initiative of the <b>READ EU funded project</b>, aiming to provide "
-"large datasets for stimulating research in HTR and related technologies."
+"<b>at any time</b> and get evaluation results, as well as ranking, "
+"automatically.  It is an initiative of the H2020 "
 msgstr ""
-"Το ScriptNet περιλαμβάνει λειτουργικότητες που επιτρέπουν στους συμμετέχοντες να "
-"υποβάλλουν τα αποτελέσματα των μεθόδων τους ανα πάσα στιγμή, λαμβάνοντας αυτόματα "
-"και άμεσα τα αποτέλεσματα αριθμητικής αποτίμησης, όπως και την κατάταξη τους ως προς τα αποτελέσματα άλλων ομάδων. "
-"Πρόκειται για μια πρωτοβουλία του (χρηματοδοτούμενου από την ΕΕ) έργου READ. Το έργο αποσκοπεί στην δημοσίευση μεγάλων συνόλων δεδομένων ψηφιοποιημένων χειρογράφων, προσβλέποντας στην προώθηση της έρευνας στο HTR και σε σχετικές τεχνολογίες."
+"Το ScriptNet περιλαμβάνει λειτουργικότητες που επιτρέπουν στους "
+"συμμετέχοντες να υποβάλλουν τα αποτελέσματα των μεθόδων τους ανα πάσα "
+"στιγμή, λαμβάνοντας αυτόματα και άμεσα τα αποτέλεσματα αριθμητικής "
+"αποτίμησης, όπως και την κατάταξη τους ως προς τα αποτελέσματα άλλων ομάδων. "
+"Πρόκειται για μια πρωτοβουλία του (χρηματοδοτούμενου από την ΕΕ) έργου READ. "
+"Το έργο αποσκοπεί στην δημοσίευση μεγάλων συνόλων δεδομένων ψηφιοποιημένων "
+"χειρογράφων, προσβλέποντας στην προώθηση της έρευνας στο HTR και σε σχετικές "
+"τεχνολογίες."
 
-#: competitions/templates/competitions/master.html:154
+#: competitions/templates/competitions/master.html:148
+msgid "project READ "
+msgstr ""
+
+#: competitions/templates/competitions/master.html:149
+msgid "(Recognition and Enrichment of Archival Documents)"
+msgstr ""
+
+#: competitions/templates/competitions/master.html:163
 msgid "Active Document Understanding Competitions"
 msgstr "Ενεργοί Διαγωνισμοί Κατανόησης Εγγράφων"
 
-#: competitions/templates/competitions/master.html:187
+#: competitions/templates/competitions/master.html:196
 msgid "*No competitions are currently active*"
 msgstr "*Κανείς διαγωνισμός δεν είναι ενεργός*"
 
-#: competitions/templates/competitions/master.html:204
+#: competitions/templates/competitions/master.html:213
 msgid "Register to take part in one of the active competitions."
 msgstr "Εγγραφείτε για να πάρετε μέρος στον διαγωνισμό που επιθυμείτε"
 
-#: competitions/templates/competitions/master.html:230
-msgid "Sign in"
-msgstr "Σύνδεση"
-
-#: competitions/templates/competitions/master.html:231
+#: competitions/templates/competitions/master.html:240
 msgid "Login with your credentials if you have already registered."
 msgstr ""
 "Χρησιμοποιείστε τα στοιχεία σας για να συνδεθείτε εάν έχετε ήδη εγγραφεί."
 
-#: competitions/templates/competitions/master.html:278
+#: competitions/templates/competitions/master.html:287
 #, fuzzy
 #| msgid "READ project"
 msgid "© 2016 READ Project."
 msgstr "Έργο READ"
 
-#: competitions/templates/competitions/master.html:279
+#: competitions/templates/competitions/master.html:288
 msgid ""
 "This project has received funding from the European Union’s Horizon 2020 "
 "research and innovation programme under grant agreement No 674943."
@@ -385,17 +432,17 @@ msgstr ""
 "Δεν υπάρχει ακόμα καμμία υποβολή και κανένα μέτρο αποτίμησης για αυτό το "
 "υποζητούμενο"
 
-#: competitions/views.py:56
+#: competitions/views.py:60
 #, fuzzy
 #| msgid "Username"
 msgid "The username"
 msgstr "Όνομα χρήστη"
 
-#: competitions/views.py:57
+#: competitions/views.py:61
 msgid "already exists, please pick a different one."
 msgstr "ήδη υπάρχει, παρακαλώ επιλέξτε ένα διαφορετικό."
 
-#: competitions/views.py:70
+#: competitions/views.py:74
 #, fuzzy
 #| msgid ""
 #| "Affiliation name (specify here if your affiliation does not appear above)"
@@ -404,7 +451,7 @@ msgstr ""
 "Φορέας υπαγωγής (διευκρινίστε ολογράφως εάν ο φορέας σας δεν εμφανίζεται "
 "στην προηγούμενη λίστα)"
 
-#: competitions/views.py:75
+#: competitions/views.py:79
 msgid ""
 "Please specify either an affiliation from the list, or \"other\" and specify "
 "a new affiliation."
@@ -412,34 +459,40 @@ msgstr ""
 "Παρακαλώ να ορίσετε είτε έναν φορέα από τη λίστα, είτε να επιλέξετε \"άλλος"
 "\" και να ορίσετε νέο φορέα."
 
-#: competitions/views.py:88
+#: competitions/views.py:111
 msgid "User {} has been created. Use your credentials to login."
 msgstr ""
 "Ο χρήστης {} δημιουργήθηκε. Χρησιμοποιείστε το όνομα και το συνθηματικό σας "
 "για να συνδεθείτε."
 
-#: competitions/views.py:101
+#: competitions/views.py:124
 msgid "User {} has been blocked. Please contact the administrator for details."
 msgstr ""
 
-#: competitions/views.py:105
+#: competitions/views.py:128
 msgid ""
 "User {} does not exist. Please make sure that you have correctly typed your "
 "username, or register to create a new username."
 msgstr ""
 
-#: competitions/views.py:136
+#: competitions/views.py:159
 msgid ""
 "The method name already exists for this track. Please choose another name."
 msgstr ""
 "Μία μέθοδος με το ίδιο όνομα υπάρχει ήδη για αυτό το ζητούμενο. Παρακαλώ να "
 "ορίσετε άλλο όνομα."
 
-#: competitions/views.py:170
+#: competitions/views.py:176
+msgid ""
+"You have recently submitted a method. Site policy is at most one submission "
+"per *2 minutes*. Please re-submit at a later time."
+msgstr ""
+
+#: competitions/views.py:211
 msgid "Submission {} with id {} has been submitted succesfully. "
 msgstr "Η υποβολή {} με αύξων αριθμό {} υποβλήθηκε με επιτυχία. "
 
-#: competitions/views.py:275
+#: competitions/views.py:316
 #, fuzzy
 #| msgid "Submission {} with id {} has been submitted succesfully. "
 msgid "Submission {} has been deleted."
@@ -456,6 +509,9 @@ msgstr ""
 #: scriptnet/settings.py:129
 msgid "Greek"
 msgstr ""
+
+#~ msgid "Sign in"
+#~ msgstr "Σύνδεση"
 
 #~ msgid "%(value)s is not a unique track id for this competition"
 #~ msgstr "Το %(value)s δεν είναι μοναδικό track id για αυτό το competition"

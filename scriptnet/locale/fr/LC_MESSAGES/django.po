@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-11-18 15:26+0200\n"
+"POT-Creation-Date: 2016-12-23 17:13+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -79,36 +79,36 @@ msgstr "Fichier de resultat"
 msgid "Language"
 msgstr "Langue"
 
-#: competitions/models.py:108 competitions/models.py:178
+#: competitions/models.py:113 competitions/models.py:183
 msgid "You must specify all required fields."
 msgstr ""
 
-#: competitions/models.py:330
+#: competitions/models.py:335
 msgid "The processing state of the submission is undefined"
 msgstr "L'état de traitement de cette soumission est undéfinie"
 
-#: competitions/models.py:331
+#: competitions/models.py:336
 msgid "We are currently processing the submitted result"
 msgstr "Nous sommes en train de traiter le résultat soumis"
 
-#: competitions/models.py:332
+#: competitions/models.py:337
 msgid "Could not call the related evaluator function"
 msgstr "On n'a pas pu apeller la fonction evaluateur correspondante"
 
-#: competitions/models.py:333
+#: competitions/models.py:338
 msgid "An error has occured before processing could start"
 msgstr "Une erreur est survenu avant que la traitement a pu commencer"
 
-#: competitions/models.py:334
+#: competitions/models.py:339
 msgid "An error has occured during processing of the submitted result"
 msgstr "Une erreur est survenu pendant traitement du résultat soumis"
 
-#: competitions/models.py:335
+#: competitions/models.py:340
 msgid "This benchmark cannot be computed by the specified evaluator function"
 msgstr ""
 "Ce benchmark ne peux pas être computé par la fonction evaluateur specifié"
 
-#: competitions/models.py:336
+#: competitions/models.py:341
 msgid ""
 "The submitted result has been succesfully processed and a numerical result "
 "has been saved"
@@ -241,18 +241,19 @@ msgid "Competitions"
 msgstr "Competitions"
 
 #: competitions/templates/competitions/master.html:74
-#: competitions/templates/competitions/master.html:203
-#: competitions/templates/competitions/master.html:217
+#: competitions/templates/competitions/master.html:212
+#: competitions/templates/competitions/master.html:226
 msgid "Register"
 msgstr "S'inscrire"
 
 #: competitions/templates/competitions/master.html:78
-#: competitions/templates/competitions/master.html:237
+#: competitions/templates/competitions/master.html:239
+#: competitions/templates/competitions/master.html:246
 msgid "Login"
 msgstr "Connexion"
 
 #: competitions/templates/competitions/master.html:82
-#: competitions/templates/competitions/master.html:253
+#: competitions/templates/competitions/master.html:262
 msgid "Contact"
 msgstr "Contacter"
 
@@ -270,13 +271,44 @@ msgstr "En savoir plus"
 msgid "About ScriptNet"
 msgstr "A propos de ScriptNet"
 
-#: competitions/templates/competitions/master.html:136
+#: competitions/templates/competitions/master.html:139
 msgid ""
-"ScriptNet is a platform that hosts competitions related to Handwritten Text "
-"Recognition (HTR) and other Document Image Analysis (DIA) areas of research. "
-"It aims to attract as many research groups as possible to contribute to the "
-"task of unconstrained historical handwriting recognition. The main idea is "
-"to host several competitions in a common and uniform environment."
+"ScriptNet is a platform which hosts competitions related to Handwritten Text "
+"Recognition (HTR) and other Document Image Analysis (DIA) areas of research."
+msgstr ""
+
+#: competitions/templates/competitions/master.html:141
+msgid ""
+"Competitions are a vital part of research in computer science.  Research "
+"teams apply their algorithms to defined collections of handwritten and "
+"printed documents, competing to produce the most accurate results.  "
+"Competitions often take place at well-known conferences like the "
+msgstr ""
+
+#: competitions/templates/competitions/master.html:142
+msgid "International Conference on Document Analysis and Recognition (ICDAR)"
+msgstr ""
+
+#: competitions/templates/competitions/master.html:143
+msgid ""
+"The quality of Handwritten Text Recognition and other technologies is "
+"improved through these competitions, making it possible for computers to "
+"process, read and search historical documents."
+msgstr ""
+
+#: competitions/templates/competitions/master.html:145
+#, fuzzy
+#| msgid ""
+#| "ScriptNet is a platform that hosts competitions related to Handwritten "
+#| "Text Recognition (HTR) and other Document Image Analysis (DIA) areas of "
+#| "research. It aims to attract as many research groups as possible to "
+#| "contribute to the task of unconstrained historical handwriting "
+#| "recognition. The main idea is to host several competitions in a common "
+#| "and uniform environment."
+msgid ""
+"ScriptNet aims to attract as many research groups as possible to contribute "
+"to the task of unconstrained historical handwriting recognition. The main "
+"idea is to host several competitions in a common and uniform environment."
 msgstr ""
 "ScriptNet est une plateforme qui accueille des concours liés à la "
 "reconnaissance d'écriture manuscite (HTR) et d'autres domaines d'analyse de "
@@ -285,12 +317,18 @@ msgstr ""
 "L'idée principale est d'accueillir plusieurs compétitions dans un "
 "environnement commun et uniforme. "
 
-#: competitions/templates/competitions/master.html:140
+#: competitions/templates/competitions/master.html:147
+#, fuzzy
+#| msgid ""
+#| "ScriptNet contains functionality which enables everyone to submit results "
+#| "anytime and get evaluation results, as well as ranking, automatically.  "
+#| "It is an initiative of the <b>READ EU funded project</b>, aiming to "
+#| "provide large datasets for stimulating research in HTR and related "
+#| "technologies."
 msgid ""
 "ScriptNet contains functionality which enables everyone to submit results "
-"anytime and get evaluation results, as well as ranking, automatically.  It "
-"is an initiative of the <b>READ EU funded project</b>, aiming to provide "
-"large datasets for stimulating research in HTR and related technologies."
+"<b>at any time</b> and get evaluation results, as well as ranking, "
+"automatically.  It is an initiative of the H2020 "
 msgstr ""
 "ScriptNet contient des fonctionnalités qui permettent à chaque participant "
 "de soumettre des résultats à tout moment et d'obtenir des résultats "
@@ -299,33 +337,37 @@ msgstr ""
 "ensembles de données pour stimuler la recherche sur le HTR et les "
 "technologies connexes. "
 
-#: competitions/templates/competitions/master.html:154
+#: competitions/templates/competitions/master.html:148
+msgid "project READ "
+msgstr ""
+
+#: competitions/templates/competitions/master.html:149
+msgid "(Recognition and Enrichment of Archival Documents)"
+msgstr ""
+
+#: competitions/templates/competitions/master.html:163
 msgid "Active Document Understanding Competitions"
 msgstr "Documents actifs pour comprendre la competition"
 
-#: competitions/templates/competitions/master.html:187
+#: competitions/templates/competitions/master.html:196
 msgid "*No competitions are currently active*"
 msgstr "*Pas de competitions en cours pour le moment*"
 
-#: competitions/templates/competitions/master.html:204
+#: competitions/templates/competitions/master.html:213
 msgid "Register to take part in one of the active competitions."
 msgstr "Inscrivez-vous pour prendre part à des competitions en cours"
 
-#: competitions/templates/competitions/master.html:230
-msgid "Sign in"
-msgstr "Se connecter"
-
-#: competitions/templates/competitions/master.html:231
+#: competitions/templates/competitions/master.html:240
 msgid "Login with your credentials if you have already registered."
 msgstr "Identifiez-vous avec vos identifiants si vous etes deja inscrit"
 
-#: competitions/templates/competitions/master.html:278
+#: competitions/templates/competitions/master.html:287
 #, fuzzy
 #| msgid "READ project"
 msgid "© 2016 READ Project."
 msgstr "Projet READ"
 
-#: competitions/templates/competitions/master.html:279
+#: competitions/templates/competitions/master.html:288
 msgid ""
 "This project has received funding from the European Union’s Horizon 2020 "
 "research and innovation programme under grant agreement No 674943."
@@ -384,17 +426,17 @@ msgid ""
 "There are no submissions and no assigned benchmarks for this subtrack yet"
 msgstr "Pas de soumissions et pas de bencharks pour cette sous-piste"
 
-#: competitions/views.py:56
+#: competitions/views.py:60
 #, fuzzy
 #| msgid "Username"
 msgid "The username"
 msgstr "Nom d'utilisateur"
 
-#: competitions/views.py:57
+#: competitions/views.py:61
 msgid "already exists, please pick a different one."
 msgstr "déjà existe, veuillez choisir un autre."
 
-#: competitions/views.py:70
+#: competitions/views.py:74
 #, fuzzy
 #| msgid ""
 #| "Affiliation name (optional; specify if your affiliation does not show up "
@@ -402,37 +444,43 @@ msgstr "déjà existe, veuillez choisir un autre."
 msgid "Please specify your affiliation if it does not appear on the list."
 msgstr "Nom d'affiliation"
 
-#: competitions/views.py:75
+#: competitions/views.py:79
 msgid ""
 "Please specify either an affiliation from the list, or \"other\" and specify "
 "a new affiliation."
 msgstr ""
 
-#: competitions/views.py:88
+#: competitions/views.py:111
 msgid "User {} has been created. Use your credentials to login."
 msgstr ""
 "Utilisateur {} à été créé. Utilisez votre nom et mot de passe pour entrer."
 
-#: competitions/views.py:101
+#: competitions/views.py:124
 msgid "User {} has been blocked. Please contact the administrator for details."
 msgstr ""
 
-#: competitions/views.py:105
+#: competitions/views.py:128
 msgid ""
 "User {} does not exist. Please make sure that you have correctly typed your "
 "username, or register to create a new username."
 msgstr ""
 
-#: competitions/views.py:136
+#: competitions/views.py:159
 msgid ""
 "The method name already exists for this track. Please choose another name."
 msgstr ""
 
-#: competitions/views.py:170
+#: competitions/views.py:176
+msgid ""
+"You have recently submitted a method. Site policy is at most one submission "
+"per *2 minutes*. Please re-submit at a later time."
+msgstr ""
+
+#: competitions/views.py:211
 msgid "Submission {} with id {} has been submitted succesfully. "
 msgstr "Soumission {} avec id {} à été soumise avec succès"
 
-#: competitions/views.py:275
+#: competitions/views.py:316
 #, fuzzy
 #| msgid "Submission {} with id {} has been submitted succesfully. "
 msgid "Submission {} has been deleted."
@@ -449,6 +497,9 @@ msgstr "Francais"
 #: scriptnet/settings.py:129
 msgid "Greek"
 msgstr "Grec"
+
+#~ msgid "Sign in"
+#~ msgstr "Se connecter"
 
 #~ msgid "%(value)s is not a unique track id for this competition"
 #~ msgstr "%(value)s n'est pas une id-piste unique pour cette compétition"
