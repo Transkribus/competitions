@@ -19,6 +19,7 @@ before_install:
   - sudo apt-get install liblog4cxx10 -y
   - sudo apt-get install libopencv-dev -y
   - sudo apt-get install uni2ascii -y
+  - sudo apt-get install libboost-all-dev -y
   - cd scriptnet
 install: 
   - pip install Django==$DJANGO_VERSION
