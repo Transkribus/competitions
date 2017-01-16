@@ -91,16 +91,18 @@ def index(request):
                 email = EmailMessage(
                     'Account creation at Scriptnet competitions',
                     """
-Welcome to the Scriptnet competitions platform!
+Thank you for registering at the ScriptNet Competitions Site!
 
-Sign in with your credentials (username: {}) at 
-https://scriptnet.iit.demokritos.gr/competitions/#login 
-to participate to the site competitions.
+ScriptNet is designed to support research in Document Analysis and Recognition with large scale real-world datasets, transparent procedures and easy set up of scientific competitions.
+
+Contact the organizers if you are interested in organising your own competition or providing an interesting dataset!
+
+To participate in active competitions, please login with your username ({}) and password at:
+https://scriptnet.iit.demokritos.gr/competitions/#login
 
 
-
-
-(c) 2016 READ Project
+ScriptNet is hosted by the National Centre of Scientific Research Demokritos and co-financed by the H2020 Project READ (Recognition and Enrichment of Archival Documents):
+http://read.transkribus.eu/
                     """.format(register_form.cleaned_data['username']),
                     settings.EMAIL_HOST_USER,
                     [user.email],
