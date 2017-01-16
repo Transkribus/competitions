@@ -34,3 +34,7 @@
 	border-radius: 100%;
 	overflow: hidden;
 }
+
+.dontunderline {
+	text-decoration: none;
+}

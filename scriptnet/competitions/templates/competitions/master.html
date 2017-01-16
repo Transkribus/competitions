@@ -55,34 +55,34 @@
                     <span class="icon-bar"></span>
                 </button>
                 {% if user.is_authenticated %}
-                <a class="navbar-brand page-scroll" href="#page-top"><small><small>{% trans "Logged in as" %} &nbsp;</small></small>{{ user.first_name }} {{ user.last_name }} </a>
-                <a class="navbar-brand page-scroll" href="{% url 'signout' %}"><small><small>{% trans "[Logout]" %}</small></small></a>
+                <a class="navbar-brand page-scroll dontunderline" href="#page-top"><small><small>{% trans "Logged in as" %} &nbsp;</small></small>{{ user.first_name }} {{ user.last_name }} </a>
+                <a class="navbar-brand page-scroll dontunderline" href="{% url 'signout' %}"><small><small>{% trans "[Logout]" %}</small></small></a>
                 {% else %}
-                <a class="navbar-brand page-scroll" href="#page-top"><small>{% trans "Welcome to" %}</small> ScriptNet </a>
+                <a class="navbar-brand page-scroll dontunderline" href="#page-top"><small>{% trans "Welcome to" %}</small> ScriptNet </a>
                 {% endif %}
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">                    
                     <li>
-                        <a class="page-scroll" href="#about">{% trans "About" %} </a>
+                        <a class="page-scroll dontunderline" href="#about">{% trans "About" %} </a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#services">{% trans "Competitions" %}</a>
+                        <a class="page-scroll dontunderline" href="#services">{% trans "Competitions" %}</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#register">{% trans "Register" %}</a>
+                        <a class="page-scroll dontunderline" href="#register">{% trans "Register" %}</a>
                     </li>
                     {% if not user.is_authenticated %}
                     <li>
-                        <a class="page-scroll" href="#login">{% trans "Login" %}</a>
+                        <a class="page-scroll dontunderline" href="#login">{% trans "Login" %}</a>
                     </li>
                     {% endif %}                    
                     <li>
-                        <a class="page-scroll" href="#contact">{% trans "Contact" %}</a>
+                        <a class="page-scroll dontunderline" href="#contact">{% trans "Contact" %}</a>
                     </li>
 				<li>
-				 <a class="dropdown-toggle" data-toggle="dropdown" href="#myTools" style="display:inline-block;padding-left:0px;">&nbsp;&nbsp;&nbsp;&nbsp;{% trans "Language" %}
+				 <a class="dropdown-toggle dontunderline" data-toggle="dropdown" href="#myTools" style="display:inline-block;padding-left:0px;">&nbsp;&nbsp;&nbsp;&nbsp;{% trans "Language" %}
 				 <b class="caret"></b>
                   </a>
 				<ul class="dropdown-menu">
@@ -120,7 +120,7 @@
                 <h1>ScriptNet</h1>
                 <hr>
                 <p>{% trans "ScriptNet is a platform of competitions running under the READ project" %}</p>
-                <a href="#about" class="btn btn-primary btn-xl page-scroll">{% trans "Find Out More" %}</a>
+                <a href="#about" class="btn btn-primary btn-xl page-scroll dontunderline">{% trans "Find Out More" %}</a>
             </div>
         </div>
     </header>
