@@ -28,6 +28,7 @@ a {
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
+    text-decoration: underline;
 }
 
 a:hover,

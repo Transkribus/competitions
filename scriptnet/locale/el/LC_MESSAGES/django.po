@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-12-23 18:13+0200\n"
+"POT-Creation-Date: 2017-01-16 15:25+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -205,15 +205,19 @@ msgid "competition"
 msgstr "διαγωνισμός"
 
 #: competitions/templates/competitions/competition_navbar.html:63
+#: competitions/templates/competitions/submit.html:14
+#: competitions/templates/competitions/viewresults.html:17
+#: competitions/templates/competitions/viewresults.html:19
 msgid "track"
 msgstr "Ζητούμενο"
 
 #: competitions/templates/competitions/competition_navbar.html:66
+#: competitions/templates/competitions/viewresults.html:21
 msgid "subtrack"
 msgstr "Υποζητούμενο"
 
 #: competitions/templates/competitions/master.html:16
-msgid "ScriptNet Document Understanding Competitions"
+msgid "ScriptNet Document Analysis and Recognition Competitions"
 msgstr "ScriptNet - Διαγωνισμοί κατανόησης εγγράφων"
 
 #: competitions/templates/competitions/master.html:59
@@ -282,9 +286,10 @@ msgstr ""
 "Οι διαγωνισμοί είναι ένα ζωτικό κομμάτι της έρευνας στην επιστήμη της "
 "Πληροφορικής. Ερευνητικές ομάδες από διάφορα εργαστήρια, ερευνητικά κέντρα "
 "και πανεπιστήμια ανά την υφήλιο, καλούνται να εφαρμόσουν τους αλγόριθμούς "
-"τους σε ψηφιοποιημένες εικόνες κειμένων, συναγωνιζόμενες η μία την άλλη για τα καλύτερα και "
-"πιο ακριβή αποτελέσματα. Οι διαγωνισμοί συχνά πραγματοποιούνται στο πλαίσιο "
-"σημαντικών σχετικών διεθνών συνεδρίων, όπως είναι το "
+"τους σε ψηφιοποιημένες εικόνες κειμένων, συναγωνιζόμενες η μία την άλλη για "
+"τα καλύτερα και πιο ακριβή αποτελέσματα. Οι διαγωνισμοί συχνά "
+"πραγματοποιούνται στο πλαίσιο σημαντικών σχετικών διεθνών συνεδρίων, όπως "
+"είναι το "
 
 #: competitions/templates/competitions/master.html:142
 msgid "International Conference on Document Analysis and Recognition (ICDAR)"
@@ -311,8 +316,8 @@ msgid ""
 msgstr ""
 "Στόχος της πλατφόρμας είναι να προσελκύσει όσο το δυνατόν περισσότερες "
 "ερευνητικές ομάδες που θα συνεισφέρουν στην έρευνα στην αναγνώριση "
-"χειρογράφων. Η κεντρική ιδέα είναι η συγκέντρωση διάφορων ερευνητικών διαγωνισμών σε ένα "
-"κοινό και ομοιόμορφο περιβάλλον. "
+"χειρογράφων. Η κεντρική ιδέα είναι η συγκέντρωση διάφορων ερευνητικών "
+"διαγωνισμών σε ένα κοινό και ομοιόμορφο περιβάλλον. "
 
 #: competitions/templates/competitions/master.html:147
 msgid ""
@@ -326,10 +331,9 @@ msgstr ""
 "αποτίμησης, όπως και την κατάταξη τους ως προς τα αποτελέσματα άλλων ομάδων. "
 "Πρόκειται για μια πρωτοβουλία του "
 
-#"Το έργο αποσκοπεί στην δημοσίευση μεγάλων συνόλων δεδομένων ψηφιοποιημένων "
-#"χειρογράφων, προσβλέποντας στην προώθηση της έρευνας στο HTR και σε σχετικές "
-#"τεχνολογίες."
-
+# "Το έργο αποσκοπεί στην δημοσίευση μεγάλων συνόλων δεδομένων ψηφιοποιημένων "
+# "χειρογράφων, προσβλέποντας στην προώθηση της έρευνας στο HTR και σε σχετικές "
+# "τεχνολογίες."
 #: competitions/templates/competitions/master.html:148
 msgid "project READ "
 msgstr "έργου READ "
@@ -338,10 +342,11 @@ msgstr "έργου READ "
 msgid "(Recognition and Enrichment of Archival Documents)"
 msgstr ""
 "(Αναγνώριση και Εμπλουτισμός Αρχειακών Ντοκουμέντων - Recognition and "
-"Enrichment of Archival Documents / υπό το πρόγραμμα Horizon 2020 για την έρευνα και καινοτομία)"
+"Enrichment of Archival Documents / υπό το πρόγραμμα Horizon 2020 για την "
+"έρευνα και καινοτομία)"
 
 #: competitions/templates/competitions/master.html:163
-msgid "Active Document Understanding Competitions"
+msgid "Active Document Analysis and Recognition Competitions"
 msgstr "Ενεργοί Διαγωνισμοί Κατανόησης Εγγράφων"
 
 #: competitions/templates/competitions/master.html:196
@@ -451,40 +456,40 @@ msgstr ""
 "Παρακαλώ να ορίσετε είτε έναν φορέα από τη λίστα, είτε να επιλέξετε \"άλλος"
 "\" και να ορίσετε νέο φορέα."
 
-#: competitions/views.py:111
+#: competitions/views.py:113
 msgid "User {} has been created. Use your credentials to login."
 msgstr ""
 "Ο χρήστης {} δημιουργήθηκε. Χρησιμοποιείστε το όνομα και το συνθηματικό σας "
 "για να συνδεθείτε."
 
-#: competitions/views.py:124
+#: competitions/views.py:126
 msgid "User {} has been blocked. Please contact the administrator for details."
 msgstr ""
 
-#: competitions/views.py:128
+#: competitions/views.py:130
 msgid ""
 "User {} does not exist. Please make sure that you have correctly typed your "
 "username, or register to create a new username."
 msgstr ""
 
-#: competitions/views.py:159
+#: competitions/views.py:161
 msgid ""
 "The method name already exists for this track. Please choose another name."
 msgstr ""
 "Μία μέθοδος με το ίδιο όνομα υπάρχει ήδη για αυτό το ζητούμενο. Παρακαλώ να "
 "ορίσετε άλλο όνομα."
 
-#: competitions/views.py:176
+#: competitions/views.py:178
 msgid ""
 "You have recently submitted a method. Site policy is at most one submission "
 "per *2 minutes*. Please re-submit at a later time."
 msgstr ""
 
-#: competitions/views.py:211
+#: competitions/views.py:213
 msgid "Submission {} with id {} has been submitted succesfully. "
 msgstr "Η υποβολή {} με αύξων αριθμό {} υποβλήθηκε με επιτυχία. "
 
-#: competitions/views.py:316
+#: competitions/views.py:318
 #, fuzzy
 #| msgid "Submission {} with id {} has been submitted succesfully. "
 msgid "Submission {} has been deleted."

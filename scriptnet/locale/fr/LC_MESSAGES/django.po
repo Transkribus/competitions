@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-12-23 17:13+0200\n"
+"POT-Creation-Date: 2017-01-16 15:25+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -221,8 +221,8 @@ msgid "subtrack"
 msgstr "Sous-piste"
 
 #: competitions/templates/competitions/master.html:16
-msgid "ScriptNet Document Understanding Competitions"
-msgstr "ScriptNet Documentation Technique"
+msgid "ScriptNet Document Analysis and Recognition Competitions"
+msgstr "ScriptNet Competitions"
 
 #: competitions/templates/competitions/master.html:59
 msgid "[Logout]"
@@ -276,8 +276,9 @@ msgid ""
 "ScriptNet is a platform which hosts competitions related to Handwritten Text "
 "Recognition (HTR) and other Document Image Analysis (DIA) areas of research."
 msgstr ""
-"ScriptNet est une plateforme hébergeant des concours liées à la reconnaissance de manuscrite (HTR) "
-"et d'autres domaines d'analyse d'image de documents (DIA)." 
+"ScriptNet est une plateforme hébergeant des concours liées à la "
+"reconnaissance de manuscrite (HTR) et d'autres domaines d'analyse d'image de "
+"documents (DIA)."
 
 #: competitions/templates/competitions/master.html:141
 msgid ""
@@ -286,19 +287,21 @@ msgid ""
 "printed documents, competing to produce the most accurate results.  "
 "Competitions often take place at well-known conferences like the "
 msgstr ""
-"Les concours de recherche sur l'analyse de documents souvent prennent lieu sous le cadre de colloques tels que la "
+"Les concours de recherche sur l'analyse de documents souvent prennent lieu "
+"sous le cadre de colloques tels que la "
 
 #: competitions/templates/competitions/master.html:142
 msgid "International Conference on Document Analysis and Recognition (ICDAR)"
-msgstr "Conférence Internationale d'Analyse et Reconnaisance de Documents (International Conference on Document Analysis and Recognition, ICDAR)"
+msgstr ""
+"Conférence Internationale d'Analyse et Reconnaisance de Documents "
+"(International Conference on Document Analysis and Recognition, ICDAR)"
 
 #: competitions/templates/competitions/master.html:143
 msgid ""
 "The quality of Handwritten Text Recognition and other technologies is "
 "improved through these competitions, making it possible for computers to "
 "process, read and search historical documents."
-msgstr ""
-" "
+msgstr " "
 
 #: competitions/templates/competitions/master.html:145
 msgid ""
@@ -306,8 +309,9 @@ msgid ""
 "to the task of unconstrained historical handwriting recognition. The main "
 "idea is to host several competitions in a common and uniform environment."
 msgstr ""
-"ScriptNet vise à attirer autant de groupes de recherche que possible pour contribuer à la tâche de la reconnaissance manuscrite. " 
-"L'idée principale est d'accueillir plusieurs compétitions dans un environnement commun et uniforme."
+"ScriptNet vise à attirer autant de groupes de recherche que possible pour "
+"contribuer à la tâche de la reconnaissance manuscrite. L'idée principale est "
+"d'accueillir plusieurs compétitions dans un environnement commun et uniforme."
 
 #: competitions/templates/competitions/master.html:147
 msgid ""
@@ -315,23 +319,24 @@ msgid ""
 "<b>at any time</b> and get evaluation results, as well as ranking, "
 "automatically.  It is an initiative of the H2020 "
 msgstr ""
-"ScriptNet contient des fonctionnalités qui permettent à chaque participant de soumettre ses résultats "
-"à tout moment et d'obtenir ses évaluation, ainsi que son classement. "
-"Il s'agit d'une initiative du "
+"ScriptNet contient des fonctionnalités qui permettent à chaque participant "
+"de soumettre ses résultats à tout moment et d'obtenir ses évaluation, ainsi "
+"que son classement. Il s'agit d'une initiative du "
 
-#visant à fournir de grands ensembles "
-#"de données pour stimuler la recherche sur le HTR et les technologies connexes."
-
+# visant à fournir de grands ensembles "
+# "de données pour stimuler la recherche sur le HTR et les technologies connexes."
 #: competitions/templates/competitions/master.html:148
 msgid "project READ "
 msgstr "projet READ "
 
 #: competitions/templates/competitions/master.html:149
 msgid "(Recognition and Enrichment of Archival Documents)"
-msgstr "('Recognition and Enrichment of Archival Documents', sous l'égide de UE/Horizon 2020)."
+msgstr ""
+"('Recognition and Enrichment of Archival Documents', sous l'égide de UE/"
+"Horizon 2020)."
 
 #: competitions/templates/competitions/master.html:163
-msgid "Active Document Understanding Competitions"
+msgid "Active Document Analysis and Recognition Competitions"
 msgstr "Compétitions actifs"
 
 #: competitions/templates/competitions/master.html:196
@@ -435,37 +440,37 @@ msgid ""
 "a new affiliation."
 msgstr ""
 
-#: competitions/views.py:111
+#: competitions/views.py:113
 msgid "User {} has been created. Use your credentials to login."
 msgstr ""
 "Utilisateur {} à été créé. Utilisez votre nom et mot de passe pour entrer."
 
-#: competitions/views.py:124
+#: competitions/views.py:126
 msgid "User {} has been blocked. Please contact the administrator for details."
 msgstr ""
 
-#: competitions/views.py:128
+#: competitions/views.py:130
 msgid ""
 "User {} does not exist. Please make sure that you have correctly typed your "
 "username, or register to create a new username."
 msgstr ""
 
-#: competitions/views.py:159
+#: competitions/views.py:161
 msgid ""
 "The method name already exists for this track. Please choose another name."
 msgstr ""
 
-#: competitions/views.py:176
+#: competitions/views.py:178
 msgid ""
 "You have recently submitted a method. Site policy is at most one submission "
 "per *2 minutes*. Please re-submit at a later time."
 msgstr ""
 
-#: competitions/views.py:211
+#: competitions/views.py:213
 msgid "Submission {} with id {} has been submitted succesfully. "
 msgstr "Soumission {} avec id {} à été soumise avec succès"
 
-#: competitions/views.py:316
+#: competitions/views.py:318
 #, fuzzy
 #| msgid "Submission {} with id {} has been submitted succesfully. "
 msgid "Submission {} has been deleted."
