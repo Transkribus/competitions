@@ -84,7 +84,7 @@ python3 manage.py createsuperuser
 #### Running on production
 
 To run the production server, you'll need to install [uWSGI] and [nginx].
-Follow the [links] to find tutorials on how to use each one with the rest of the Django+uWSGI+nginx stack.
+Follow the links ([Ubuntu 14.04]/upstart, [Ubuntu 16.04]/systemd) to find tutorials on how to use each one with the rest of the Django+uWSGI+nginx stack (not that in what follows an upstart installation is assumed):
 
 The configuration files you'll need before running uWSGI/nginx are:
 
@@ -415,4 +415,5 @@ Related discussion: <https://github.com/Transkribus/competitions/issues/18>
 [django-sslserver]: <https://github.com/teddziuba/django-sslserver>
 [uWSGI]: <http://uwsgi-docs.readthedocs.io/en/latest/tutorials/Django_and_nginx.html>
 [nginx]: <https://www.nginx.com/resources/admin-guide/gateway-uwsgi-django/>
-[links]: <https://www.digitalocean.com/community/tutorials/how-to-serve-django-applications-with-uwsgi-and-nginx-on-ubuntu-14-04>
+[Ubuntu 14.04]: <https://www.digitalocean.com/community/tutorials/how-to-serve-django-applications-with-uwsgi-and-nginx-on-ubuntu-14-04>
+[Ubuntu 16.04]: <https://www.digitalocean.com/community/tutorials/how-to-serve-django-applications-with-uwsgi-and-nginx-on-ubuntu-16-04>
