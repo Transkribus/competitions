@@ -91,27 +91,18 @@
         </div>
         <br>
         <div class="row">
+            {% for organotes in competition.leading_organizer.all %}
+                {% include "competitions/competition_organizer.html" %}
+            {% endfor %}
+
+            {% for organotes in competition.midtier_organizer.all %}
+                {% include "competitions/competition_organizer.html" %}
+            {% endfor %}
+
             {% for organotes in competition.organizer.all %}
             {% if organotes not in competition.leading_organizer.all %}
             {% if organotes not in competition.midtier_organizer.all %}
-            <div class="col-md-6">
-				<article class="box"> <!-- Used to reference also box-style2, this is nowhere to be found -->
-                    <!-- TODO: Fix this, it gives a 404 
-					<span class="image-left circle-image">
-                    {#    <img src="{{ organotes.avatar.url }}" width="100%" />    #}
-                    </span> -->
-					<h3 class="inlinify"><a href="mailto:{{ organotes.user.email }}">
-                        {{ organotes.user.first_name }} {{ organotes.user.last_name }}
-                    </a></h3>
-                    {% for aff in organotes.affiliations.all %}
-                        [{{ aff.name }}]&nbsp;
-                    {% endfor %}
-                    <br><br>
-					<p>
-                        {{ organotes.shortbio }}
-                    </p>
-				</article>
-            </div>
+                {% include "competitions/competition_organizer.html" %}
             {% endif %}
             {% endif %}            
             {% endfor %}
