@@ -14,10 +14,8 @@
                     <span class="icon-bar"></span>
                 </button>
                 {% if user.is_authenticated %}
-                <a class="navbar-brand" href="{% url 'index' %}#services"><small><small>{% trans "Logged in as" %} &nbsp;</small></small>{{ user.first_name }} {{ user.last_name }} </a>
-                <!--<a class="navbar-brand" href="{% url 'signout' %}"><small><small>[Logout]</small></small></a>
-                -->
-                <a class="navbar-brand" href="{% url 'methodlist' competition_id=competition.id %}"><small>{% trans "My submissions" %}</small></a>                
+                <a class="navbar-brand" href="{% url 'index' %}#services">ScriptNet</a>
+                <a class="navbar-brand" href="{% url 'methodlist' competition_id=competition.id %}"><small>{% trans "My submissions" %}&nbsp;<small><small>[{{ user.first_name }} {{ user.last_name }}]</small></small></small></a>
                 {% else %}
                 <a class="navbar-brand" href="{% url 'index' %}#services">ScriptNet</a>
                 {% endif %}            
