@@ -42,7 +42,7 @@ class Individual(models.Model):
     #TODO: The user/individual will have to be authenticated by email eventually
 	#TODO: This means that he _will_ be created, but a bool field here will check if he has been email-authenticated or not	
 	user = models.OneToOneField(User, on_delete=models.CASCADE)	
-	shortbio = models.TextField(editable=True, default="")
+	shortbio = models.TextField(editable=True, default="", blank=True)
 	affiliations = models.ManyToManyField(Affiliation)
 	#TODO: Use a unique identifier like in submission_path	
 	avatar = models.FileField(upload_to='uploads/avatars/', null=True, blank=True)
@@ -74,8 +74,8 @@ class Competition(models.Model):
 	#The following control the individual's position on the organizer list
 	# Leading_organizers show up higher than midtier_organizers and other organizers.
 	# Midtier_orginazers show up higher than other (non-leading) organizers.
-	leading_organizer = models.ManyToManyField(Individual, related_name='leading_organizer')
-	midtier_organizer = models.ManyToManyField(Individual, related_name='midtier_organizer')
+	leading_organizer = models.ManyToManyField(Individual, related_name='leading_organizer', blank=True)
+	midtier_organizer = models.ManyToManyField(Individual, related_name='midtier_organizer', blank=True)
 	#
 	name = models.CharField(max_length = 100)
 	avatar = models.FileField(upload_to='uploads/avatars/', null=True, blank=True)
