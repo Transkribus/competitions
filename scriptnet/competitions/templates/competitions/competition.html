@@ -92,6 +92,8 @@
         <br>
         <div class="row">
             {% for organotes in competition.organizer.all %}
+            {% if organotes not in competition.leading_organizer.all %}
+            {% if organotes not in competition.midtier_organizer.all %}
             <div class="col-md-6">
 				<article class="box"> <!-- Used to reference also box-style2, this is nowhere to be found -->
                     <!-- TODO: Fix this, it gives a 404 
@@ -109,7 +111,9 @@
                         {{ organotes.shortbio }}
                     </p>
 				</article>
-            </div>            
+            </div>
+            {% endif %}
+            {% endif %}            
             {% endfor %}
         </div>
    </div>

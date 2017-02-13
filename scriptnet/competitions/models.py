@@ -71,6 +71,12 @@ post_save.connect(create_user_profile, sender=User)
 
 class Competition(models.Model):
 	organizer = models.ManyToManyField(Individual)
+	#The following control the individual's position on the organizer list
+	# Leading_organizers show up higher than midtier_organizers and other organizers.
+	# Midtier_orginazers show up higher than other (non-leading) organizers.
+	leading_organizer = models.ManyToManyField(Individual, related_name='leading_organizer')
+	midtier_organizer = models.ManyToManyField(Individual, related_name='midtier_organizer')
+	#
 	name = models.CharField(max_length = 100)
 	avatar = models.FileField(upload_to='uploads/avatars/', null=True, blank=True)
 	overview = models.TextField(editable=True, default="")
