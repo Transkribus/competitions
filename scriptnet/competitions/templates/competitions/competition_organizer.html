@@ -1,9 +1,14 @@
             <div class="col-md-6">
 				<article class="box"> <!-- Used to reference also box-style2, this is nowhere to be found -->
-                    <!-- TODO: Fix this, it gives a 404 
+                    <div class="row">
+                    <div class="col-lg-3 col-md-3">
 					<span class="image-left circle-image">
-                    {#    <img src="{{ organotes.avatar.url }}" width="100%" />    #}
-                    </span> -->
+                        {% if organotes.avatar %}
+                        <img src="{{ organotes.avatar.url }}" width="100" height="105"/>
+                        {% endif %}
+                    </span>
+                    </div>
+                    <div class="col-lg-7 col-md-7">
 					<h3 class="inlinify"><a href="mailto:{{ organotes.user.email }}">
                         {{ organotes.user.first_name }} {{ organotes.user.last_name }}
                     </a></h3>
@@ -14,5 +19,9 @@
 					<p>
                         {{ organotes.shortbio }}
                     </p>
+                    </div>
+                    <div class="col-lg-2 col-md-2">
+                    </div>                    
+                    </div> <!-- class row -->
 				</article>
             </div>
