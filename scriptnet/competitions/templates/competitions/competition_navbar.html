@@ -14,10 +14,10 @@
                     <span class="icon-bar"></span>
                 </button>
                 {% if user.is_authenticated %}
-                <a class="navbar-brand" href="{% url 'index' %}#services">ScriptNet</a>
+                <a class="navbar-brand" href="{% url 'index' %}">ScriptNet</a>
                 <a class="navbar-brand" href="{% url 'methodlist' competition_id=competition.id %}"><small>{% trans "My submissions" %}&nbsp;<small><small>[{{ user.first_name }} {{ user.last_name }}]</small></small></small></a>
                 {% else %}
-                <a class="navbar-brand" href="{% url 'index' %}#services">ScriptNet</a>
+                <a class="navbar-brand" href="{% url 'index' %}">ScriptNet</a>
                 {% endif %}            
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
