@@ -83,6 +83,7 @@ class Competition(models.Model):
 	newsfeed = models.TextField(editable=True, default="")
 	important_dates = models.TextField(editable=True, default="")
 	is_public = models.BooleanField(default=True)
+	submission_is_open = models.BooleanField(default=True)
 	def __str__(self):
 		return '({}) {}'.format(self.id, self.name)
 

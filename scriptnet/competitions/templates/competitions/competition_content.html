@@ -30,9 +30,13 @@
                                         {% endfor %}
 
                                         {% if user.is_authenticated %}
-            							<li><a href="{% url 'submit' competition_id=competition.id track_id=track.percomp_uniqueid subtrack_id=subtrack.pertrack_uniqueid %}">{% trans "Submit a new method for evaluation" %}</a></li>
+                                            {% if competition.submission_is_open %}
+            							    <li><a href="{% url 'submit' competition_id=competition.id track_id=track.percomp_uniqueid subtrack_id=subtrack.pertrack_uniqueid %}">{% trans "Submit a new method for evaluation" %}</a></li>
+                                            {% endif %}
                                         {% else %}
-                                        <li>{% trans "Submit a new method for evaluation" %} ({% trans "you have to" %} <a href="{% url 'index' %}#login">{% trans "login </a> first" %})</li>
+                                            {% if competition.submission_is_open %}
+                                            <li>{% trans "Submit a new method for evaluation" %} ({% trans "you have to" %} <a href="{% url 'index' %}#login">{% trans "login </a> first" %})</li>
+                                            {% endif %}
                                         {% endif %}
         							    <li><a href="{% url 'viewresults' competition_id=competition.id track_id=track.percomp_uniqueid subtrack_id=subtrack.pertrack_uniqueid %}">{% trans "View results for all available methods" %}</a></li>                                        
           							</ul>
