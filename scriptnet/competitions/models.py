@@ -77,6 +77,7 @@ class Competition(models.Model):
 	midtier_organizer = models.ManyToManyField(Individual, related_name='midtier_organizer', blank=True)
 	#
 	name = models.CharField(max_length = 100)
+	url_alias = models.SlugField(max_length = 30, editable=True, default="") #This is used for the URL shortcut (see urls.py, issue #72)
 	avatar = models.FileField(upload_to='uploads/avatars/', null=True, blank=True)
 	overview = models.TextField(editable=True, default="")
 	newsfeed = models.TextField(editable=True, default="")

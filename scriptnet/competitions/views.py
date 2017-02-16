@@ -158,6 +158,11 @@ def activate(request, token_id):
             messages.add_message(request, messages.SUCCESS, _('Activation token has expired.'))
     return HttpResponseRedirect('/competitions/#login')
 
+def competition_alias(request, competition_name):
+    comp = get_object_or_404(Competition, url_alias=competition_name)
+    competition, track, subtrack, context = get_objects_given_uniqueIDs(comp.pk, None, None)
+    return render(request, 'competitions/competition.html', context)
+
 def signout(request):
     if request.user.is_authenticated():
         logout(request)
