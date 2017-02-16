@@ -168,37 +168,30 @@
         </div>
 
         <div class="container-fluid text-center">
-            <div class="row no-gutter">
+            <div class="row">
 				{% if competitions %}
-                <ul class="list-group">                
-				{% for c in competitions %}
-                <li class="list-group-item">
-    			<div class="row">
-    				<div class="col-lg-3"></div>
-    				<div class="col-lg-3">
-                        {% if c.avatar %}
-                        <img src="{{ c.avatar.url }}" class="img-responsive center-block" alt="">
-                        {% else %}
-                        <img src="{% static 'img/nicesamples/1.jpg' %}" class="img-responsive center-block" alt="">
-                        {% endif %}                                                          
-	    			</div>
-                    <div class="col-lg-1">
-                        <a href="{% url 'competition' competition_id=c.id %}">                    
-                    			{{ c.name }}
-                        </a>                            
-    				</div>
-    				<div class="col-lg-5"></div>                
-    			</div>
-                <br>                
-                </li>
-				{% endfor %}
+                <div class="col-md-3"></div>
+                <div class="col-md-6">
+                    <div class="row">            
+				    {% for c in competitions %}
+    			    <div class="col-md-3">
+                        <div class="row">
+                            <div class="col-md-4"></div>
+                            <div class="col-md-4">
+                                <a href="{% url 'competition' competition_id=c.id %}">{{ c.name }}</a>
+                            </div>
+                            <div class="col-md-4"></div>
+                        </div>
+                    </div>
+				    {% endfor %}
+                    </div>
+                </div>
+                <div class="col-md-3"></div>                
 				{% else %}
 				<p> {% trans "*No competitions are currently active*" %}
 				{% endif %}
-                </ul>
             </div>
-		</div>
-
+        </div>
     </section>
 
     {% if not user.is_authenticated %}
