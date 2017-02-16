@@ -2,6 +2,7 @@ from django.conf.urls import url, include
 from . import views
 
 urlpatterns = [
+    url(r'^tokens/(?P<token_id>[a-f0-9]{8}-?[a-f0-9]{4}-?4[a-f0-9]{3}-?[89ab][a-f0-9]{3}-?[a-f0-9]{12})/$', views.activate, name='activate'),    
     url(r'^logout/$', views.signout, name='signout'),
     url(r'^(?P<competition_id>[0-9]+)/mymethods/$', views.methodlist, name='methodlist'),    
     url(r'^(?P<competition_id>[0-9]+)/scoreboard/$', views.scoreboard, name='scoreboard'),

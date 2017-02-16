@@ -10,6 +10,7 @@ from django.utils.translation import ugettext_lazy as _
 from django_tables2 import RequestConfig
 from django.core.mail import send_mail, EmailMessage
 from django.utils import timezone
+from django.core.exceptions import ObjectDoesNotExist
 
 from .forms import LoginForm, RegisterForm, NEW_AFFILIATION_ID
 from .forms import SubmitForm
@@ -20,6 +21,7 @@ from . import evaluators
 
 import threading
 from json import loads
+from uuid import uuid4
 
 
 #TODO: Replace all hard-coded URLs with calls to 'reverse'
@@ -84,7 +86,9 @@ def index(request):
                     password=register_form.cleaned_data['password'],
                     email=register_form.cleaned_data['email'],
                     first_name=register_form.cleaned_data['first_name'],
-                    last_name=register_form.cleaned_data['last_name'])
+                    last_name=register_form.cleaned_data['last_name'],
+                    is_active=False,
+                )
                 user.individual.shortbio = register_form.cleaned_data['shortbio']
                 user.individual.affiliations.add(affiliation)
                 user.individual.save()
@@ -97,20 +101,22 @@ ScriptNet is designed to support research in Document Analysis and Recognition w
 
 Contact the organizers if you are interested in organising your own competition or providing an interesting dataset!
 
-To participate in active competitions, please login with your username ({}) and password at:
+To participate in active competitions, please activate your account first by following this link:
+https://scriptnet.iit.demokritos.gr/competitions/tokens/{}/
+
+After you have activated your account, please login with your username ({}) and password at:
 https://scriptnet.iit.demokritos.gr/competitions/#login
 
 
 ScriptNet is hosted by the National Centre of Scientific Research Demokritos and co-financed by the H2020 Project READ (Recognition and Enrichment of Archival Documents):
 http://read.transkribus.eu/
-                    """.format(register_form.cleaned_data['username']),
+                    """.format(user.individual.activation_token, register_form.cleaned_data['username']),
                     settings.EMAIL_HOST_USER,
                     [user.email],
                     ['sfikas@iit.demokritos.gr'],
                 )
-                email.send(fail_silently=False)                
-                #TODO: eventually will have to authenticate the new user by email
-                messages.add_message(request, messages.SUCCESS, _('User {} has been created. Use your credentials to login.').format(user.username))
+                email.send(fail_silently=False)
+                messages.add_message(request, messages.SUCCESS, _('Activation email has been sent to {} for user {}. Use the link we sent you to activate your account.').format(user.email, user.username))
                 return HttpResponseRedirect('/competitions/#register')
         elif 'login' in request.POST:
             login_form = LoginForm(request.POST)
@@ -123,7 +129,7 @@ http://read.transkribus.eu/
                         login(request, user)
                     else:
                         u = login_form.cleaned_data['username']                        
-                        messages.add_message(request, messages.ERROR, _('User {} has been blocked. Please contact the administrator for details.').format(u))                                                
+                        messages.add_message(request, messages.ERROR, _('User {} is not activated. If you are a new user, you have to activate your account with the activation link we sent you.').format(u))                                                
                         return HttpResponseRedirect('/competitions/#register')
                 else:
                     u = login_form.cleaned_data['username']                    
@@ -135,6 +141,22 @@ http://read.transkribus.eu/
         'competitions': Competition.objects.filter(is_public=True),
     }
     return render(request, 'competitions/master.html', context)
+
+def activate(request, token_id):
+    try:
+        individual = Individual.objects.get(activation_token=token_id)
+    except ObjectDoesNotExist:
+        messages.add_message(request, messages.SUCCESS, _('Invalid activation token.'))
+    else:
+        user = individual.user
+        dt = timezone.now() - user.date_joined
+        if dt.seconds < 3600:
+            messages.add_message(request, messages.SUCCESS, _('User {} has been succesfully activated. Use your credentials to login and participate to competitions.').format(user.username))
+            user.is_active=True
+            user.save()
+        else:
+            messages.add_message(request, messages.SUCCESS, _('Activation token has expired.'))
+    return HttpResponseRedirect('/competitions/#login')
 
 def signout(request):
     if request.user.is_authenticated():

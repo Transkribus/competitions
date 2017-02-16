@@ -39,9 +39,8 @@ class Affiliation(models.Model):
 
 #The custom user class
 class Individual(models.Model):
-    #TODO: The user/individual will have to be authenticated by email eventually
-	#TODO: This means that he _will_ be created, but a bool field here will check if he has been email-authenticated or not	
-	user = models.OneToOneField(User, on_delete=models.CASCADE)	
+	user = models.OneToOneField(User, on_delete=models.CASCADE)
+	activation_token = models.UUIDField(primary_key=False, default=uuid4, editable=False)
 	shortbio = models.TextField(editable=True, default="", blank=True)
 	affiliations = models.ManyToManyField(Affiliation)
 	#TODO: Use a unique identifier like in submission_path	

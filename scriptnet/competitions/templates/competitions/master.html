@@ -225,6 +225,13 @@
 		        <div class="col-lg-8">
                     <h2 class="section-heading">{% trans "Login" %}</h2>
                     <p>{% trans "Login with your credentials if you have already registered." %}</p>
+                    {% if messages %}
+                        {% for message in messages %}
+                        <div class="alert alert-{{ message.tags }}">
+                            {{ message }}
+                        </div>
+                        {% endfor %}
+                    {% endif %}                    
                     <!-- Το ονομα του action αναφερεται στους regexp ορισμους των urls.py -->
 		            <form action="" method="post" role="form">
 		                {% csrf_token %}
