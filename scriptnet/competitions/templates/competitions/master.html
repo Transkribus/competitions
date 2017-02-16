@@ -172,17 +172,9 @@
 				{% if competitions %}
                 <div class="col-md-3"></div>
                 <div class="col-md-6">
-                    <div class="row">            
+                    <div class="row">  
 				    {% for c in competitions %}
-    			    <div class="col-md-3">
-                        <div class="row">
-                            <div class="col-md-4"></div>
-                            <div class="col-md-4">
-                                <a href="{% url 'competition' competition_id=c.id %}">{{ c.name }}</a>
-                            </div>
-                            <div class="col-md-4"></div>
-                        </div>
-                    </div>
+                        {% include "competitions/master_competitions.html" %}
 				    {% endfor %}
                     </div>
                 </div>
