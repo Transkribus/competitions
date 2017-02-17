@@ -43,7 +43,6 @@ class Individual(models.Model):
 	activation_token = models.UUIDField(primary_key=False, default=uuid4, editable=False)
 	shortbio = models.TextField(editable=True, default="", blank=True)
 	affiliations = models.ManyToManyField(Affiliation)
-	#TODO: Use a unique identifier like in submission_path	
 	avatar = models.FileField(upload_to='uploads/avatars/', null=True, blank=True)
 	def __str__(self):
 		return '({}) {}'.format(self.id, self.user.username)
