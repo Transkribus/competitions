@@ -57,7 +57,6 @@ def index(request):
         if 'register' in request.POST:
             register_form = RegisterForm(request.POST)
             if register_form.is_valid():
-                #TODO: Print some error message if the form contains error, like non-unique names etc
                 if User.objects.filter(username=register_form.cleaned_data['username']):
                     errormessage_str_1 = _('The username')
                     errormessage_str_2 = _('already exists, please pick a different one.')
@@ -69,6 +68,17 @@ def index(request):
                         )
                     )
                     return HttpResponseRedirect('/competitions/#register')
+                if User.objects.filter(email=register_form.cleaned_data['email']):
+                    errormessage_str_1 = _('The email')
+                    errormessage_str_2 = _('is used by an existing account.')
+                    messages.add_message(request, messages.ERROR, 
+                        '{} {} {}'.format(
+                            errormessage_str_1,
+                            register_form.cleaned_data['email'],
+                            errormessage_str_2,
+                        )
+                    )
+                    return HttpResponseRedirect('/competitions/#register')                    
                 affiliations_id = int(register_form.cleaned_data['affiliations'])
                 affiliations_newstring = register_form.cleaned_data['new_affiliation']
                 if(affiliations_id == NEW_AFFILIATION_ID):
