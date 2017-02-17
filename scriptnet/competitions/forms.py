@@ -10,7 +10,7 @@ class RegisterForm(forms.Form):
     #TODO: This code runs only once, when the server starts. Need to rerun when possible_affiliations changes
     # Do sth like submitform ?
     possible_affiliations = []
-    for af in Affiliation.objects.all():
+    for af in Affiliation.objects.order_by('name'):
         possible_affiliations.append((af.id, af.name))
     possible_affiliations.append((NEW_AFFILIATION_ID, 'Other'))
 
