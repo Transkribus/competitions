@@ -20,7 +20,9 @@
 {% endif %}
 
 {% for tr in competition.track_set.all %}
+    {% if competition.track_set.all.count > 1 %}
     <h3>{% trans "Ranking for Track " %}{{ tr.percomp_uniqueid }}: {{ tr.name }} </h3>
+    {% endif %}
     {# dictionary is a custom tag declared in templatetags/custom.py #}
     {% render_table scoretable|dictionary:tr.percomp_uniqueid %} 
 {% endfor %}

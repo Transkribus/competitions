@@ -4,13 +4,13 @@
 
 
         				{% if track %}
-                                  {% if competition.track_set.all.count > 1 %}                        
+                                  {% if competition.track_set.all.count > 1 %}
         					        <header>
           					        <h1> 
                                     {% trans "Track" %} {{ track.percomp_uniqueid }} - 
                                     {{ track.name }} </h1>
         					        </header>
-                                  {% endif %}					
+                                  {% endif %}
         					{{ track.overview | safe }}
         					{% if subtrack %}
                                     {% if track.subtrack_set.all.count > 1 %}
