@@ -101,7 +101,7 @@ ScriptNet is designed to support research in Document Analysis and Recognition w
 
 Contact the organizers if you are interested in organising your own competition or providing an interesting dataset!
 
-To participate in active competitions, please activate your account first by following this link:
+To participate in competitions, activate your account by following this link:
 https://scriptnet.iit.demokritos.gr/competitions/tokens/{}/
 
 After you have activated your account, please login with your username ({}) and password at:
