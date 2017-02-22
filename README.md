@@ -187,11 +187,10 @@ Supposing you need to update a competitions server to the latest repo version, y
 ```sh
 git checkout master
 git pull
-service restart uwsgi
-service restart nginx
+service uwsgi reload
 ```
 
-Note that it is *very* important that you restart both uwsgi and nginx -- forgetting this can cause a server error (''Server Error 500'').
+Note that it is *very* important that you reload (or restart) uwsgi -- forgetting this can cause a server error (''Server Error 500'').
 
 ### Internationalisation
 
