@@ -214,11 +214,15 @@ def submit(request, competition_id, track_id, subtrack_id):
             if not enough_time_passed:
                 messages.add_message(request, messages.ERROR, _('You have recently submitted a method. Site policy is at most one submission per *2 minutes*. Please re-submit at a later time.')) 
                 context['submit_form'] = SubmitForm(request.user)
-                return render(request, 'competitions/submit.html', context)                
+                return render(request, 'competitions/submit.html', context)
+            if competition.force_private_submissions:
+                publishable = False
+            else:                
+                publishable = submit_form.cleaned_data['publishable']
             submission = Submission.objects.create(
                 name = submit_form.cleaned_data['name'],
                 method_info = submit_form.cleaned_data['method_info'],
-                publishable = submit_form.cleaned_data['publishable'],
+                publishable = publishable,
                 subtrack = subtrack,
                 resultfile = submit_form.cleaned_data['resultfile']
             )
@@ -283,7 +287,7 @@ def viewresults(request, competition_id, track_id, subtrack_id):
         if not s.publishable:
             if not request.user.is_authenticated():
                 continue
-            if request.user.is_superuser: 
+            if request.user.is_superuser or request.user.is_staff: 
                 pass
             elif not request.user.individual in s.submitter.all():
                 continue
@@ -342,18 +346,24 @@ def methodlist(request, competition_id):
         selected_objects = Submission.objects.filter(pk__in=pks)
         #print(selected_objects)
         if 'publicize' in request.POST:
-            for s in selected_objects:
-                s.publishable = True
-                s.save()
+            if(competition.force_private_submissions and not request.user.is_superuser and not request.user.is_staff):
+                messages.add_message(request, messages.ERROR, _('The organizers do not allow public submissions yet.'))
+            else:
+                for s in selected_objects:
+                    s.publishable = True
+                    s.save()
         elif 'privatize' in request.POST:
             for s in selected_objects:
                 s.publishable = False
                 s.save()
             print('Privatize pushed')
         elif 'delete' in request.POST:
-            for s in selected_objects:
-                messages.add_message(request, messages.SUCCESS, _('Submission {} has been deleted.').format(s))                
-                s.delete()
+            if(competition.force_undeletable and not request.user.is_superuser and not request.user.is_staff):
+                messages.add_message(request, messages.ERROR, _('The organizers do not allow deletion of submissions.'))
+            else:
+                for s in selected_objects:
+                    messages.add_message(request, messages.SUCCESS, _('Submission {} has been deleted.').format(s))                
+                    s.delete()
     #myself = request.user.individual
     mymethods = Submission.objects.filter(submitter__user=request.user).filter(subtrack__track__competition=competition_id)
     table = ManipulateMethodsTable(mymethods)
