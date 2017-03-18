@@ -358,7 +358,7 @@ def methodlist(request, competition_id):
                 s.save()
             print('Privatize pushed')
         elif 'delete' in request.POST:
-            if(competition.force_undeletable and not request.user.is_superuser and not request.user.is_staff):
+            if(competition.force_undeletable_submissions and not request.user.is_superuser and not request.user.is_staff):
                 messages.add_message(request, messages.ERROR, _('The organizers do not allow deletion of submissions.'))
             else:
                 for s in selected_objects:
