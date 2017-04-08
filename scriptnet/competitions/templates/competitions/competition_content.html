@@ -19,13 +19,23 @@
                                     <ul>
                                         {% for publink in subtrack.publiclink_set.all %}
                                             {% if publink.externalLink %}
-                                            <li><a href="{{ publink.externalLink }}">
-                                                {{ publink.legend }}
-                                                </a></li>
+                                                <li>
+                                                {% if user.is_authenticated %}
+                                                    <a href="{{ publink.externalLink }}">
+                                                    {{ publink.legend }}
+                                                    </a>
+                                                {% else %}
+                                                    {{ publink.legend }} ({% trans "you have to" %} <a href="{% url 'index' %}#login">{% trans "login </a> first" %})
+                                                {% endif %}
+                                                </li>
                                             {% else %}
-          							        <li><a href="{{ publink.downloadableFile.url }}">
-                                                {{ publink.legend }}
-                                                </a></li>
+          							            <li>
+                                                      {% if user.is_authenticated %}
+                                                      <a href="{{ publink.downloadableFile.url }}">{{ publink.legend }}</a>
+                                                      {% else %}
+                                                      {{ publink.legend }} ({% trans "you have to" %} <a href="{% url 'index' %}#login">{% trans "login </a> first" %})
+                                                      {% endif %}
+                                                </li>
                                             {% endif %}                                        
                                         {% endfor %}
 
