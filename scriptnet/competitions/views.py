@@ -187,6 +187,8 @@ def competition(request, competition_id, track_id, subtrack_id):
 
 def submit(request, competition_id, track_id, subtrack_id):
     competition, track, subtrack, context = get_objects_given_uniqueIDs(competition_id, track_id, subtrack_id)
+    watch_form = WatchForm()
+    context['watch_form'] = watch_form    
     submit_form = SubmitForm(request.user)
     if request.method == 'POST':
         if not request.user.is_authenticated():
@@ -261,6 +263,8 @@ def submit(request, competition_id, track_id, subtrack_id):
     
 def viewresults(request, competition_id, track_id, subtrack_id):
     competition, track, subtrack, context = get_objects_given_uniqueIDs(competition_id, track_id, subtrack_id)
+    watch_form = WatchForm()
+    context['watch_form'] = watch_form    
     data = []
     if subtrack:
         all_benchmarks = subtrack.benchmark_set.all()
@@ -330,6 +334,7 @@ def viewresults(request, competition_id, track_id, subtrack_id):
 
 def scoreboard(request, competition_id):
     competition = get_object_or_404(Competition, pk=competition_id)
+    watch_form = WatchForm()
     extracolumns = [
         'score',
     ]
@@ -340,10 +345,12 @@ def scoreboard(request, competition_id):
         'competition': competition,
         'scoretable': scoretable,
     }
+    context['watch_form'] = watch_form    
     return render(request, 'competitions/scoreboard.html', context)
 
 def methodlist(request, competition_id):
     competition = get_object_or_404(Competition, pk=competition_id)
+    watch_form = WatchForm()    
     if request.method == "POST":
         pks = request.POST.getlist("selection")
         selected_objects = Submission.objects.filter(pk__in=pks)
@@ -374,5 +381,6 @@ def methodlist(request, competition_id):
         'competition': competition,
         'table': table,
     }
+    context['watch_form'] = watch_form    
     return render(request, 'competitions/methodlist.html', context)
     
