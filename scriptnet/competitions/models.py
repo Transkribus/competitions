@@ -74,6 +74,7 @@ class Competition(models.Model):
 	# Midtier_orginazers show up higher than other (non-leading) organizers.
 	leading_organizer = models.ManyToManyField(Individual, related_name='leading_organizer', blank=True)
 	midtier_organizer = models.ManyToManyField(Individual, related_name='midtier_organizer', blank=True)
+	watchers = models.ManyToManyField(Individual, related_name='watchers', blank=True)
 	#
 	name = models.CharField(max_length = 100)
 	url_alias = models.SlugField(max_length = 30, editable=True, default="") #This is used for the URL shortcut (see urls.py, issue #72)
