@@ -14,6 +14,7 @@ from django.core.exceptions import ObjectDoesNotExist
 
 from .forms import LoginForm, RegisterForm, NEW_AFFILIATION_ID
 from .forms import SubmitForm
+from .forms import WatchForm
 from .models import Affiliation, Individual, Competition, Track, Subtrack
 from .models import Submission, SubmissionStatus
 from .tables import SubmissionTable, ScalarscoreTable, expandedScalarscoreTable, ManipulateMethodsTable
@@ -180,6 +181,8 @@ def signout(request):
 
 def competition(request, competition_id, track_id, subtrack_id):
     competition, track, subtrack, context = get_objects_given_uniqueIDs(competition_id, track_id, subtrack_id)
+    watch_form = WatchForm()
+    context['watch_form'] = watch_form
     return render(request, 'competitions/competition.html', context)
 
 def submit(request, competition_id, track_id, subtrack_id):
@@ -217,7 +220,7 @@ def submit(request, competition_id, track_id, subtrack_id):
                 return render(request, 'competitions/submit.html', context)
             if competition.force_private_submissions:
                 publishable = False
-            else:                
+            else:
                 publishable = submit_form.cleaned_data['publishable']
             submission = Submission.objects.create(
                 name = submit_form.cleaned_data['name'],

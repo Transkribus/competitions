@@ -49,7 +49,24 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-10 col-md-10">
-                <h1>{{ competition.name }}</h1>
+                <div class="row">                
+                    <div class="col-lg-8 col-md-8">
+                    <h1>{{ competition.name }}</h1>
+                    </div><!--
+                    --><div class="col-lg-4 col-md-4 vcenter">
+                        <br>
+                    {% if user.is_authenticated %}
+                    <form enctype="multipart/form-data" action="" method="post" role="form">
+                        {% csrf_token %}
+                        {% bootstrap_form watch_form %}
+                        You are currently *following* this competition
+                        {% buttons %}
+                            <button class="btn btn-default" type="submit" name="submit">{% trans "Unfollow this competition" %}</button>
+                        {% endbuttons %}
+                    </form>					
+                    {% endif %}                        
+                    </div>
+                </div>
                 <p class="lead">
             {% block content %}                                        
             {% if track and not subtrack and track.subtrack_set.count == 1 %}        
@@ -131,7 +148,6 @@
 
     <!-- Bootstrap Core JavaScript -->
     <script src="{% static 'js/bootstrap.min.js' %}"></script>
-
 </body>
 
 </html>

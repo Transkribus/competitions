@@ -58,3 +58,6 @@ class SubmitForm(forms.Form):
 
 class LanguageForm(forms.Form):
     language = forms.ChoiceField(label=_('Language'),choices=settings.LANGUAGES)
+
+class WatchForm(forms.Form):
+    pass
