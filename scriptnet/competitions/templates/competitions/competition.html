@@ -49,7 +49,31 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-10 col-md-10">
-                <h1>{{ competition.name }}</h1>                
+                <div class="row">                
+                    <div class="col-lg-7 col-md-7">
+                    <h1>{{ competition.name }}</h1>
+                    </div><!--
+                    --><div class="col-lg-1 col-md-1"></div>
+                    <div class="col-lg-2 col-md-2 ">
+                        <br>
+                    {% if user.is_authenticated %}
+                    <form enctype="multipart/form-data" action="" method="post" role="form">
+                        {% csrf_token %}
+                        {% bootstrap_form watch_form %}
+                        {% if user.individual in competition.watchers.all %}
+                        {% buttons %}
+                            <button class="btn btn-default" type="submit" name="submit" data-toggle="tooltip" title="Click to stop following this competition.">{% trans "Unfollow this competition" %}</button>
+                        {% endbuttons %}                        
+                        {% else %}
+                        {% buttons %}
+                            <button class="btn btn-default" type="submit" name="submit" data-toggle="tooltip" title="Click to follow this competition. This way the organizers will be able to notify you about important changes and developments on the competition status.">{% trans "Follow this competition" %}</button>
+                        {% endbuttons %}                        
+                        {% endif %}
+                    </form>					
+                    {% endif %}                        
+                    </div>
+                    <div class="col-lg-2 col-md-2"></div>
+                </div>
                 <p class="lead">
             {% block content %}                                        
             {% if track and not subtrack and track.subtrack_set.count == 1 %}        
@@ -61,24 +85,6 @@
                 </p>
             </div>
             <div class="col-lg-2 col-md-2">
-                        <br>
-                    {% if user.is_authenticated %}
-                    <form enctype="multipart/form-data" action="" method="post" role="form">
-                        {% csrf_token %}
-                        {% bootstrap_form watch_form %}
-                        {% if user.individual in competition.watchers.all %}
-                        You are currently *following* this competition
-                        {% buttons %}
-                            <button class="btn btn-default" type="submit" name="submit">{% trans "Unfollow" %}</button>
-                        {% endbuttons %}                        
-                        {% else %}
-                        {% buttons %}
-                            <button class="btn btn-default" type="submit" name="submit">{% trans "Follow" %}</button>
-                        {% endbuttons %}                        
-                        {% endif %}
-                    </form>					
-                    {% endif %}                        
-                
                 <div class="well">
                     <h4>{% trans "News" %}</h4>
 				          	{{ competition.newsfeed | safe }}
