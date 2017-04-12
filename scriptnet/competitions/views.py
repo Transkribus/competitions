@@ -452,9 +452,9 @@ def createSendMailToParticipantsButton(request, competition):
             if mailform.is_valid():        
                 mailbody = mailform.cleaned_data['email_body']
                 mailinglist = []
-                for w in user.individual.all():
-                    if w.user.email not in mailinglist:                    
-                        mailinglist.append(w.user.email)
+                for w in User.objects.all():
+                    if w.email not in mailinglist:                    
+                        mailinglist.append(w.email)
                 email = EmailMessage(
                     'Scriptnet competitions'.format(competition.name),
                     mailbody,
