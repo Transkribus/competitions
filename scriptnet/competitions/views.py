@@ -388,12 +388,32 @@ def createFollowButton(request, competition):
     watchform = WatchForm()
     if request.method == 'POST':
         if 'follow' in request.POST:
-            print("Follow button pushed")
+            email = EmailMessage(
+                    'Status update (follow) on Scriptnet competitions',
+                    """
+User {} (email: {}) has declared that wants to **follow** the competition:
+{}
+                    """.format(register_form.cleaned_data['username'], competition.name),
+                    settings.EMAIL_HOST_USER,
+                    ['sfikas@iit.demokritos.gr'],
+                    [],
+                )
+            email.send(fail_silently=False)            
             competition.watchers.add(request.user.individual)
             competition.save()            
             messages.add_message(request, messages.SUCCESS, _('You are now following this competition.'))
         elif 'unfollow' in request.POST:
-            print("Unfollow button pushed")
+            email = EmailMessage(
+                    'Status update (unfollow) on Scriptnet competitions',
+                    """
+User {} (email: {}) has declared that wants to unfollow the competition:
+{}
+                    """.format(register_form.cleaned_data['username'], competition.name),
+                    settings.EMAIL_HOST_USER,
+                    ['sfikas@iit.demokritos.gr'],
+                    [],
+                )
+            email.send(fail_silently=False)                        
             if(request.user.individual in competition.watchers.all()):
                 competition.watchers.remove(request.user.individual)
                 competition.save()
