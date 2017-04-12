@@ -393,7 +393,7 @@ def createFollowButton(request, competition):
                     """
 User {} (email: {}) has declared that wants to **follow** the competition:
 {}
-                    """.format(register_form.cleaned_data['username'], competition.name),
+                    """.format(request.user.username, request.user.email, competition.name),
                     settings.EMAIL_HOST_USER,
                     ['sfikas@iit.demokritos.gr'],
                     [],
@@ -408,7 +408,7 @@ User {} (email: {}) has declared that wants to **follow** the competition:
                     """
 User {} (email: {}) has declared that wants to unfollow the competition:
 {}
-                    """.format(register_form.cleaned_data['username'], competition.name),
+                    """.format(request.user.username, request.user.email, competition.name),
                     settings.EMAIL_HOST_USER,
                     ['sfikas@iit.demokritos.gr'],
                     [],
