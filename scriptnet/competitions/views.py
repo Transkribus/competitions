@@ -181,13 +181,13 @@ def signout(request):
 
 def competition(request, competition_id, track_id, subtrack_id):
     competition, track, subtrack, context = get_objects_given_uniqueIDs(competition_id, track_id, subtrack_id)
-    watch_form = WatchForm()
+    watch_form = createFollowButton(request, competition)
     context['watch_form'] = watch_form
     return render(request, 'competitions/competition.html', context)
 
 def submit(request, competition_id, track_id, subtrack_id):
     competition, track, subtrack, context = get_objects_given_uniqueIDs(competition_id, track_id, subtrack_id)
-    watch_form = WatchForm()
+    watch_form = createFollowButton(request, competition)
     context['watch_form'] = watch_form    
     submit_form = SubmitForm(request.user)
     if request.method == 'POST':
@@ -263,7 +263,7 @@ def submit(request, competition_id, track_id, subtrack_id):
     
 def viewresults(request, competition_id, track_id, subtrack_id):
     competition, track, subtrack, context = get_objects_given_uniqueIDs(competition_id, track_id, subtrack_id)
-    watch_form = WatchForm()
+    watch_form = createFollowButton(request, competition)
     context['watch_form'] = watch_form    
     data = []
     if subtrack:
@@ -334,7 +334,7 @@ def viewresults(request, competition_id, track_id, subtrack_id):
 
 def scoreboard(request, competition_id):
     competition = get_object_or_404(Competition, pk=competition_id)
-    watch_form = WatchForm()
+    watch_form = createFollowButton(request, competition)
     extracolumns = [
         'score',
     ]
@@ -350,7 +350,7 @@ def scoreboard(request, competition_id):
 
 def methodlist(request, competition_id):
     competition = get_object_or_404(Competition, pk=competition_id)
-    watch_form = WatchForm()    
+    watch_form = createFollowButton(request, competition)
     if request.method == "POST":
         pks = request.POST.getlist("selection")
         selected_objects = Submission.objects.filter(pk__in=pks)
@@ -384,3 +384,20 @@ def methodlist(request, competition_id):
     context['watch_form'] = watch_form    
     return render(request, 'competitions/methodlist.html', context)
     
+def createFollowButton(request, competition):
+    watchform = WatchForm()
+    if request.method == 'POST':
+        if 'follow' in request.POST:
+            print("Follow button pushed")
+            competition.watchers.add(request.user.individual)
+            competition.save()            
+            messages.add_message(request, messages.SUCCESS, _('You are now following this competition.'))
+        elif 'unfollow' in request.POST:
+            print("Unfollow button pushed")
+            if(request.user.individual in competition.watchers.all()):
+                competition.watchers.remove(request.user.individual)
+                competition.save()
+                messages.add_message(request, messages.INFO, _('You have stopped following this competition.'))
+            else:
+                messages.add_message(request, messages.ERROR, _('You are not following the current competition.'))                
+    return watchform
