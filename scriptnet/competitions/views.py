@@ -392,8 +392,8 @@ def createFollowButton(request, competition):
                     'Status update (follow) on Scriptnet competitions',
                     """
 User {} (email: {}) has declared that wants to **follow** the competition:
-{}
-                    """.format(request.user.username, request.user.email, competition.name),
+{} (id: {})
+                    """.format(request.user.username, request.user.email, competition.name, competition.id),
                     settings.EMAIL_HOST_USER,
                     ['sfikas@iit.demokritos.gr'],
                     [],
@@ -407,8 +407,8 @@ User {} (email: {}) has declared that wants to **follow** the competition:
                     'Status update (unfollow) on Scriptnet competitions',
                     """
 User {} (email: {}) has declared that wants to unfollow the competition:
-{}
-                    """.format(request.user.username, request.user.email, competition.name),
+{} (id: {})
+                    """.format(request.user.username, request.user.email, competition.name, competition.id),
                     settings.EMAIL_HOST_USER,
                     ['sfikas@iit.demokritos.gr'],
                     [],
