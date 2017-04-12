@@ -61,3 +61,6 @@ class LanguageForm(forms.Form):
 
 class WatchForm(forms.Form):
     pass
+
+class SendMailForm(forms.Form):
+    email_body = forms.CharField(required=True, widget=forms.Textarea, label=_('Fill in the email text here'), max_length = 3000)        

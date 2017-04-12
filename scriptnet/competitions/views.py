@@ -15,6 +15,7 @@ from django.core.exceptions import ObjectDoesNotExist
 from .forms import LoginForm, RegisterForm, NEW_AFFILIATION_ID
 from .forms import SubmitForm
 from .forms import WatchForm
+from .forms import SendMailForm
 from .models import Affiliation, Individual, Competition, Track, Subtrack
 from .models import Submission, SubmissionStatus
 from .tables import SubmissionTable, ScalarscoreTable, expandedScalarscoreTable, ManipulateMethodsTable
@@ -351,6 +352,7 @@ def scoreboard(request, competition_id):
 def methodlist(request, competition_id):
     competition = get_object_or_404(Competition, pk=competition_id)
     watch_form = createFollowButton(request, competition)
+    sendmail_form = createSendMailToParticipantsButton(request, competition)
     if request.method == "POST":
         pks = request.POST.getlist("selection")
         selected_objects = Submission.objects.filter(pk__in=pks)
@@ -381,7 +383,8 @@ def methodlist(request, competition_id):
         'competition': competition,
         'table': table,
     }
-    context['watch_form'] = watch_form    
+    context['watch_form'] = watch_form
+    context['sendmail_form'] = sendmail_form
     return render(request, 'competitions/methodlist.html', context)
     
 def createFollowButton(request, competition):
@@ -421,3 +424,27 @@ User {} (email: {}) has declared that wants to unfollow the competition:
             else:
                 messages.add_message(request, messages.ERROR, _('You are not following the current competition.'))                
     return watchform
+
+def createSendMailToParticipantsButton(request, competition):
+    mailform = SendMailForm()
+    if request.method == 'POST':
+        if 'sendmail_competition' in request.POST:
+            mailform = SendMailForm(request.POST)
+            if mailform.is_valid():        
+                mailbody = mailform.cleaned_data['email_body']
+                mailinglist = []
+                for w in competition.watchers.all():
+                    mailinglist.append(w.user.email)
+                email = EmailMessage(
+                    'Scriptnet competitions / {}'.format(competition.name),
+                    mailbody,
+                    settings.EMAIL_HOST_USER,
+                    mailinglist,
+                    [request.user.email, 'sfikas@iit.demokritos.gr'],
+                )
+            email.send(fail_silently=False)            
+            messages.add_message(request, messages.SUCCESS, _('You have sent an email to all followers of this competition.'))
+    return mailform            
+
+def createSendMailToAllButton(request):
+    pass    

@@ -10,6 +10,8 @@
 
 {% block content %}
 
+
+<hr><h3>{% trans "Followed competitions" %}</h3>
 {% if request.user.individual.watchers.all %}
     <p>{% trans "You are currently following these competitions:" %}
     <ul>
@@ -21,6 +23,8 @@
     <p>{% trans "You are not following any competitions yet." %}
 {% endif %}
 <br><br>
+
+<hr><h3>{% trans "Submissions to this competition" %}</h3>
 {% if table.rows %}
     <form action="" method="post">
     {% csrf_token %} 
@@ -43,4 +47,16 @@
     <p>{% trans "You have not submitted any methods yet." %}
 {% endif %}
 
+<br><br>
+
+<hr><h3>{% trans "Send mail to all participants of this competition" %}</h3>
+{% if request.user.individual in competition.organizer.all %}
+<form enctype="multipart/form-data" action="" method="post" role="form">
+{% csrf_token %}
+{% bootstrap_form sendmail_form %}
+{% buttons %}
+    <button class="btn btn-default" type="submit" name="sendmail_competition">{% trans "Send mail to participants" %}</button>
+{% endbuttons %}
+</form>			
+{% endif %}
 {% endblock %}
