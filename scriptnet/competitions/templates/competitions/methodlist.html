@@ -10,6 +10,17 @@
 
 {% block content %}
 
+{% if request.user.individual.watchers.all %}
+    <p>{% trans "You are currently following these competitions:" %}
+    <ul>
+    {% for s in request.user.individual.watchers.all %}
+        <li>{{ s.name }}
+    {% endfor %}
+    </ul>
+{% else %}
+    <p>{% trans "You are not following any competitions yet." %}
+{% endif %}
+<br><br>
 {% if table.rows %}
     <form action="" method="post">
     {% csrf_token %} 
@@ -29,7 +40,7 @@
     {% endbuttons %}        
     </form>
 {% else %}
-    <p>{% trans "You have not submitted any methods yet!" %}!</p>
+    <p>{% trans "You have not submitted any methods yet." %}
 {% endif %}
 
 {% endblock %}
