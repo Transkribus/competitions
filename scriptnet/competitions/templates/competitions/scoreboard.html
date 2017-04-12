@@ -11,13 +11,6 @@
 
 {% block content %}
 <h2>{% trans "Scoreboard" %}</h2>
-{% if messages %}
-    {% for message in messages %}
-    <div class="alert alert-{{ message.tags }}">
-        {{ message }}
-    </div>
-    {% endfor %}
-{% endif %}
 
 {% for tr in competition.track_set.all %}
     {% if competition.track_set.all.count > 1 %}

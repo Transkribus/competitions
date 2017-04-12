@@ -4,13 +4,7 @@
 
 
 {% block content %}
-{% if messages %}
-    {% for message in messages %}
-    <div class="alert alert-{{ message.tags }}">
-        {{ message }}
-    </div>
-    {% endfor %}
-{% else %}
+{% if not messages %}
 <h3>{% trans "New submission to the" %} [{{ track.percomp_uniqueid }}.{{ subtrack.pertrack_uniqueid }}]{{ track.name }}/{{ subtrack.name }} {% trans "track" %}</h3>
 {% endif %}
 {% if user.is_authenticated %}

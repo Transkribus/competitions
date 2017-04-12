@@ -22,13 +22,6 @@
         {% endif %}
     {% endif %}
 </h3>
-{% if messages %}
-    {% for message in messages %}
-    <div class="alert alert-{{ message.tags }}">
-        {{ message }}
-    </div>
-    {% endfor %}
-{% endif %}
 
 <!-- TODO: Django tables2 apparently can handle the message for an empty table itself ('empty_text') --> 
 {% if table.rows %}

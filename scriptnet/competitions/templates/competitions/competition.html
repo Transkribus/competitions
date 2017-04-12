@@ -62,11 +62,11 @@
                         {% bootstrap_form watch_form %}
                         {% if user.individual in competition.watchers.all %}
                         {% buttons %}
-                            <button class="btn btn-default" type="submit" name="submit" data-toggle="tooltip" title="Click to stop following this competition.">{% trans "Unfollow this competition" %}</button>
-                        {% endbuttons %}                        
+                            <button class="btn btn-default" type="submit" name="unfollow" data-toggle="tooltip" title="Click to stop following this competition.">{% trans "Unfollow this competition" %}</button>
+                        {% endbuttons %}
                         {% else %}
                         {% buttons %}
-                            <button class="btn btn-default" type="submit" name="submit" data-toggle="tooltip" title="Click to follow this competition. This way the organizers will be able to notify you about important changes and developments on the competition status.">{% trans "Follow this competition" %}</button>
+                            <button class="btn btn-default" type="submit" name="follow" data-toggle="tooltip" title="Click to follow this competition. This way the organizers will be able to notify you about important changes and developments on the competition status.">{% trans "Follow this competition" %}</button>
                         {% endbuttons %}                        
                         {% endif %}
                     </form>					
@@ -75,6 +75,15 @@
                     <div class="col-lg-2 col-md-2"></div>
                 </div>
                 <p class="lead">
+                    
+            {% if messages %}
+                {% for message in messages %}
+                <div class="alert alert-{{ message.tags }}">
+                    {{ message }}
+                </div>
+                {% endfor %}
+            {% endif %}
+
             {% block content %}                                        
             {% if track and not subtrack and track.subtrack_set.count == 1 %}        
             {% include "competitions/competition_content.html" with subtrack=track.subtrack_set.all|first %}
