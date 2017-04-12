@@ -447,6 +447,23 @@ def createSendMailToParticipantsButton(request, competition):
                 )
                 email.send(fail_silently=False)            
                 messages.add_message(request, messages.SUCCESS, _('You have sent an email to all followers of this competition.'))
+        elif 'sendmail_all' in request.POST:
+            mailform = SendMailForm(request.POST)
+            if mailform.is_valid():        
+                mailbody = mailform.cleaned_data['email_body']
+                mailinglist = []
+                for w in user.individual.all():
+                    if w.user.email not in mailinglist:                    
+                        mailinglist.append(w.user.email)
+                email = EmailMessage(
+                    'Scriptnet competitions'.format(competition.name),
+                    mailbody,
+                    settings.EMAIL_HOST_USER,
+                    [],
+                    mailinglist,
+                )
+                email.send(fail_silently=False)            
+                messages.add_message(request, messages.SUCCESS, _('You have sent an email to everyone in scriptnet.'))
     return mailform            
 
 def createSendMailToAllButton(request):

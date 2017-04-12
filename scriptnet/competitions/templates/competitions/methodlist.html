@@ -49,8 +49,8 @@
 
 <br><br>
 
-<hr><h3>{% trans "Send mail to all participants of this competition" %}</h3>
 {% if request.user.individual in competition.organizer.all %}
+<hr><h3>{% trans "Send mail to all participants of this competition" %}</h3>
 <form enctype="multipart/form-data" action="" method="post" role="form">
 {% csrf_token %}
 {% bootstrap_form sendmail_form %}
@@ -59,4 +59,19 @@
 {% endbuttons %}
 </form>			
 {% endif %}
+
+{% if request.user.is_superuser %}
+<hr><h3>{% trans "Send mail to everyone" %}</h3>
+<form enctype="multipart/form-data" action="" method="post" role="form">
+{% csrf_token %}
+{% bootstrap_form sendmail_form %}
+{% buttons %}
+    <button class="btn btn-default" type="submit" name="sendmail_all">{% trans "Send mail to everyone" %}</button>
+{% endbuttons %}
+</form>			
+{% endif %}
+
+
+
+
 {% endblock %}
