@@ -465,6 +465,3 @@ def createSendMailToParticipantsButton(request, competition):
                 email.send(fail_silently=False)            
                 messages.add_message(request, messages.SUCCESS, _('You have sent an email to everyone in scriptnet.'))
     return mailform            
-
-def createSendMailToAllButton(request):
-    pass    
