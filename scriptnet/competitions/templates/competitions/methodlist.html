@@ -49,6 +49,20 @@
 
 <br><br>
 
+{% if request.user.individual in competition.organizer.all or request.user.is_superuser %}
+<hr><h3>{% trans "Followers of this competition" %}</h3>
+    {% if competition.watchers.all %}
+    <p>{% trans "This competition is followed by " %} {{ competition.watchers.all|length }} {% trans " users:" %}
+        <ul>
+    {% for w in competition.watchers.all %}
+        <li> {{ w.user.first_name }} {{ w.user.last_name }} (login: {{ w.user.username }}) (email: {{ w.user.email }})
+    {% endfor %}
+        </ul>
+    {% else %}
+    <p>{% trans "No-one is following this competition." %}
+    {% endif %}
+{% endif %}
+
 {% if request.user.individual in competition.organizer.all %}
 <hr><h3>{% trans "Send mail to all participants of this competition" %}</h3>
 <form enctype="multipart/form-data" action="" method="post" role="form">
