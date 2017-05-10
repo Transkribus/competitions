@@ -1,0 +1,35 @@
+---TranskribusBaseLineEvaluationScheme--- 
+
+Evaluation performed on 2017.05.10 at 09:45:20 
+Evaluation performed for GT truth.lst
+Evaluation performed for HYPO reco.lst
+Number of pages: 10
+
+Loading protocol: 
+   Error loading: ./lineReco10_withError.txt
+
+9 out of 10 GT-HYPO pairs loaded without errors and used for evaluation.
+
+Number of groundtruth lines: 54
+Number of hypothesis lines: 53
+
+Pagewise evaluation :
+#P value, #R value, #F_1 value, #TruthFileName, #HypoFileName
+    0.6677,     0.8711,     0.7559, ./lineTruth.txt, ./lineReco9.txt
+    1.0000,     1.0000,     1.0000, ./lineTruth.txt, ./lineReco1.txt
+    1.0000,     1.0000,     1.0000, ./lineTruth.txt, ./lineReco2.txt
+    0.4634,     0.4653,     0.4643, ./lineTruth.txt, ./lineReco3.txt
+    0.6000,     0.9988,     0.7497, ./lineTruth.txt, ./lineReco4.txt
+    0.5035,     1.0000,     0.6698, ./lineTruth.txt, ./lineReco5.txt
+    0.8571,     1.0000,     0.9231, ./lineTruth.txt, ./lineReco6.txt
+    1.0000,     0.5000,     0.6667, ./lineTruth.txt, ./lineReco7.txt
+    1.0000,     0.5852,     0.7383, ./lineTruth.txt, ./lineReco8.txt
+      X            X           X  , ./lineTruth.txt, ./lineReco10_withError.txt
+
+
+#######Final Evaluation#######
+
+Avg (over pages) P value: 0.788
+Avg (over pages) R value: 0.8245
+Resulting F_1 value: 0.8058
+

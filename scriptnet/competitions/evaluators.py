@@ -141,20 +141,30 @@ def transkribusBaseLineMetricTool(*args, **kwargs):
         # Hence we have to create a temporary folder and copy everything there
         newfolder = '{}{}/'.format(temporary_folder, uuid4().hex)
         makedirs(newfolder)
+        # Since truth and hypo could be named equally we have to create two folders
+        hypofolder = join(newfolder, 'hypo')
+        makedirs(hypofolder)
+        truthfolder = join(newfolder, 'truth')
+        makedirs(truthfolder)
         if(isdir(resultdata)):
-            for filename in listdir(resultdata):
-                full_filename = join(resultdata, filename)
-                target_filename = join(newfolder, filename)
-                copyfile(full_filename, target_filename)
+            cmdline('cp -r '+resultdata+' '+hypofolder, cwd=newfolder)
         else:
             # If it is a file, it must be a tarball, or else raise an error
             tar = tarfile.open(resultdata)
-            tar.extractall(newfolder)
-            tar.close()
-        for filename in listdir(privatedata):
-            full_filename = join(privatedata, filename)
-            target_filename = join(newfolder, filename)
-            copyfile(full_filename, target_filename)
+            tar.extractall(hypofolder)
+            tar.close() 
+        cmdline('cp -r '+privatedata+' '+truthfolder, cwd=newfolder)
+        # Resultdata contains the folder structure of the result files
+
+        cmdline('find '+hypofolder+' -name "*.txt" > tmp.lst', cwd=newfolder)
+        cmdline('find '+hypofolder+' -name "*.xml" >> tmp.lst', cwd=newfolder)
+        cmdline('cat tmp.lst | sort > reco.lst', cwd=newfolder)
+        cmdline('rm tmp.lst', cwd=newfolder)
+        cmdline('find '+truthfolder+' -name "*.txt" > tmp.lst', cwd=newfolder)
+        cmdline('find '+truthfolder+' -name "*.xml" >> tmp.lst', cwd=newfolder)
+        cmdline('cat tmp.lst | sort > truth.lst', cwd=newfolder)
+        cmdline('rm tmp.lst', cwd=newfolder)
+ 
         copyfile(join(executable_folder, executable_jar), join(newfolder,
                                                                executable_jar))
         executable_folder = newfolder
@@ -167,13 +177,13 @@ def transkribusBaseLineMetricTool(*args, **kwargs):
 
     rmtree(newfolder)
     print(command_output)
-    rgx = r'Avg \(over Pages\) Avg Precision: ([\d\.]+)\nAvg \(over Pages\) '\
-        'Avg Recall: ([\d\.]+)\nAvg \(over Pages\) Avg F-Measure: ([\d\.]+)'
+    rgx = r'Avg \(over Pages\) P value: ([\d\.]+)\nAvg \(over Pages\) '\
+        'R value: ([\d\.]+)\nResulting F_1 value: ([\d\.]+)'
     r = re.search(rgx, command_output)
     result = {
-        'bl-avg-precision': r.group(1),
-        'bl-avg-recall':    r.group(2),
-        'bl-avg-fmeasure':  r.group(3),
+        'bl-avg-P-value': r.group(1),
+        'bl-avg-R-value':    r.group(2),
+        'bl-F_1-value':  r.group(3),
     }
     return result
 
