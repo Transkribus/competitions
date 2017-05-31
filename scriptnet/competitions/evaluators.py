@@ -129,9 +129,9 @@ def transkribusBaseLineMetricTool(*args, **kwargs):
         '{}/competitions/executables/TranskribusBaseLineMetricTool'\
         .format(settings.BASE_DIR)
     # resultdata = kwargs.pop('resultdata', 'reco.lst')
-    resultdata = kwargs.pop('resultdata', executable_folder)
+    resultdata = kwargs.pop('resultdata', executable_folder + '/HYPO.tar')
     # privatedata = kwargs.pop('privatedata', 'truth.lst')
-    privatedata = kwargs.pop('privatedata', executable_folder)
+    privatedata = kwargs.pop('privatedata', executable_folder + '/GT')
 
     executable_jar = 'baselineTool.jar'
     if(isdir(privatedata)):
@@ -158,7 +158,7 @@ def transkribusBaseLineMetricTool(*args, **kwargs):
 
         cmdline('find '+hypofolder+' -name "*.txt" > tmp.lst', cwd=newfolder)
         cmdline('find '+hypofolder+' -name "*.xml" >> tmp.lst', cwd=newfolder)
-        cmdline('cat tmp.lst | sort > reco.lst', cwd=newfolder)
+        cmdline('cat tmp.lst | sort > reco.lst', cwd=newfolder)        
         cmdline('rm tmp.lst', cwd=newfolder)
         cmdline('find '+truthfolder+' -name "*.txt" > tmp.lst', cwd=newfolder)
         cmdline('find '+truthfolder+' -name "*.xml" >> tmp.lst', cwd=newfolder)
@@ -177,7 +177,7 @@ def transkribusBaseLineMetricTool(*args, **kwargs):
 
     rmtree(newfolder)
     print(command_output)
-    rgx = r'Avg \(over Pages\) P value: ([\d\.]+)\nAvg \(over Pages\) '\
+    rgx = r'Avg \(over pages\) P value: ([\d\.]+)\nAvg \(over pages\) '\
         'R value: ([\d\.]+)\nResulting F_1 value: ([\d\.]+)'
     r = re.search(rgx, command_output)
     result = {
