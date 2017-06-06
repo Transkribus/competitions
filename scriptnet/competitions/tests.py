@@ -339,7 +339,7 @@ class ThirdpartyTests(TestCase):
 #
 class EvaluatorTests(TestCase):
     def test_icfhr14_kws_tool(self):
-        res = icfhr14_kws_tool()
+        (res, logfile) = icfhr14_kws_tool()
         self.assertEqual(res, {
             'pr-curve': '["1.0000", "1.0000", "1.0000", "1.0000", "1.0000", "0.6667", "0.0000", "0.0000", "0.0000", "0.0000", "0.0000"]',
             'p@5': '0.9000',
