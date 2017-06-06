@@ -86,7 +86,7 @@ class Competition(models.Model):
 	submission_is_open = models.BooleanField(default=True)
 	force_private_submissions = models.BooleanField(default=True)
 	force_undeletable_submissions = models.BooleanField(default=True)
-	submission_restriction_in_minutes = models.IntegerField(default="20", blank=False)
+	submission_restriction_in_minutes = models.IntegerField(default="20", blank=False, verbose_name="Time restriction (in minutes) between consecutive submissions (may be set to zero)")
 	def __str__(self):
 		return '({}) {}'.format(self.id, self.name)
 
