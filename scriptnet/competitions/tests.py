@@ -351,7 +351,7 @@ class EvaluatorTests(TestCase):
             }
         )
     def test_transkribusBaseLineMetricTool(self):
-        res = transkribusBaseLineMetricTool()
+        (res, logfile) = transkribusBaseLineMetricTool()
         self.assertEqual(res, {
                 'bl-avg-P-value': '0.788',
                 'bl-avg-R-value': '0.8245',

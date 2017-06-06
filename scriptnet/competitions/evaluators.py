@@ -46,10 +46,14 @@ def evaluator_worker(evaluator_function, submission_status_set):
                 submission = s.submission
                 s.status = "PROCESSING"
                 s.save()
-            result_dictionary = evaluator_function(
+            res = evaluator_function(
                 privatedata=submission.subtrack.private_data_unpacked_folder(),
                 resultdata=submission.resultfile.name,
                 )
+            if(isinstance(res, dict)):
+                result_dictionary = res
+            else:
+                (result_dictionary, logfile) = res
             for s in submission_status_set:
                 benchname = s.benchmark.name
                 if benchname in result_dictionary.keys():
@@ -185,7 +189,7 @@ def transkribusBaseLineMetricTool(*args, **kwargs):
         'bl-avg-R-value':    r.group(2),
         'bl-F_1-value':  r.group(3),
     }
-    return result
+    return (result, command_output)
 
 
 def transkribusErrorRate(*args, **kwargs):
