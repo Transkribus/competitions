@@ -4,6 +4,7 @@
 # to evaluator_function in views.py .
 
 from django.conf import settings
+from django.core.mail import send_mail, EmailMessage
 from random import random
 from time import sleep
 from os import listdir, makedirs, remove
@@ -32,12 +33,46 @@ def cmdline(command, *args, **kwargs):
     res = process.communicate()[0]
     return res.decode('utf-8')
 
+def send_feedback(status, logfile, individu):
+    uname = individu.user.username
+    uemail = individu.user.email
+    if status == "COMPLETE":
+        status_final = 'Evaluation finished succesfully.'
+    elif status == "ERROR_EVALUATOR":
+        status_final = 'Evaluation internal error; evaluator not found.'
+    elif status == "ERROR_UNSUPPORTED":
+        status_final = 'Evaluation internal error; benchmark unsupported.'        
+    elif status == "ERROR_PROCESSING":
+        status_final = 'Evaluation error; an error occured while processing your file.'
+    else:
+        status_final = 'Unknown error.'
+    email = EmailMessage(
+        'Submission to Scriptnet',
+        """
+This email is sent as feedback because you have submitted a result file to the ScriptNet Competitions Site.
+Username: {}
+{} (return code: {})
 
-def evaluator_worker(evaluator_function, submission_status_set):
+Evaluator log (if any:)
+{}
+
+ScriptNet is hosted by the National Centre of Scientific Research Demokritos and co-financed by the H2020 Project READ (Recognition and Enrichment of Archival Documents):
+http://read.transkribus.eu/
+        """.format(uname, status_final, status, logfile),
+        settings.EMAIL_HOST_USER,
+        [uemail],
+        ['sfikas@iit.demokritos.gr'],
+    )
+    email.send(fail_silently=False)
+
+
+def evaluator_worker(evaluator_function, submission_status_set, individu):
+    logfile = ''
     if not evaluator_function:
         for s in submission_status_set:
             s.status = "ERROR_EVALUATOR"
             s.save()
+        send_feedback(s.status, logfile, individu)
         return
     else:
         try:
@@ -64,10 +99,12 @@ def evaluator_worker(evaluator_function, submission_status_set):
                     s.status = "ERROR_UNSUPPORTED"
                     s.numericalresult = ''
                     s.save()
+            send_feedback(s.status, logfile, individu)
         except:
             for s in submission_status_set:
                 s.status = "ERROR_PROCESSING"
                 s.save()
+            send_feedback(s.status, logfile, individu)
             return
 
 
