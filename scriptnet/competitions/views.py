@@ -215,10 +215,10 @@ def submit(request, competition_id, track_id, subtrack_id):
                 if not i:
                     continue
                 dt = timezone.now() - i
-                if dt.seconds < 120:
+                if dt.seconds < competition.submission_restriction_in_minutes * 60:
                     enough_time_passed = False
             if not enough_time_passed:
-                messages.add_message(request, messages.ERROR, _('You have recently submitted a method. Site policy is at most one submission per *2 minutes*. Please re-submit at a later time.')) 
+                messages.add_message(request, messages.ERROR, _('You have recently submitted a method. Competition policy is at most one submission per *{} minutes*. Please re-submit at a later time.'.format(competition.submission_restriction_in_minutes))) 
                 context['submit_form'] = SubmitForm(request.user)
                 return render(request, 'competitions/submit.html', context)
             if competition.force_private_submissions:
