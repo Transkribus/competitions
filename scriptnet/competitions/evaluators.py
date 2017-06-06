@@ -162,7 +162,7 @@ def icfhr14_kws_tool(*args, **kwargs):
                                    r.group(13), r.group(14), r.group(15),
                                    r.group(16), r.group(17)])
     }
-    return result
+    return (result, command_output)
 
 
 def transkribusBaseLineMetricTool(*args, **kwargs):
