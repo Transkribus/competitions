@@ -35,6 +35,8 @@ def cmdline(command, *args, **kwargs):
 
 def send_feedback(status, logfile, individu):
     uname = individu.user.username
+    #TODO: Maybe all cosubmitters should be notified
+    #TODO: Maybe add more info about the submission
     uemail = individu.user.email
     if status == "COMPLETE":
         status_final = 'Evaluation finished succesfully.'
