@@ -13,12 +13,12 @@ class IndividualInline(admin.StackedInline):
 class UserAdmin(BaseUserAdmin):
     inlines = (IndividualInline, )
 
-class BenchmarkInline(admin.TabularInline):
-    model = Competition.count_in_scoreboard.through
-    extra = 3
+#class BenchmarkInline(admin.TabularInline):
+    #model = Competition.count_in_scoreboard.through
+#    extra = 3
 
-class CompetitionAdmin(admin.ModelAdmin):
-    inlines = (BenchmarkInline, )
+#class CompetitionAdmin(admin.ModelAdmin):
+#    inlines = (BenchmarkInline, )
 
 class PubliclinkInline(admin.TabularInline):
     model = PublicLink
@@ -33,7 +33,7 @@ admin.site.unregister(User)
 admin.site.register(User, UserAdmin)
 admin.site.register(Individual)
 admin.site.register(Affiliation)
-admin.site.register(Competition, CompetitionAdmin)
+admin.site.register(Competition)
 admin.site.register(Track)
 admin.site.register(Subtrack, SubtrackAdmin)
 admin.site.register(Submission)
