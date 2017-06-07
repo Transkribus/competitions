@@ -196,7 +196,7 @@ def transkribusBaseLineMetricTool(*args, **kwargs):
             tar = tarfile.open(resultdata)
             tar.extractall(hypofolder)
             tar.close() 
-        cmdline('cp -r '+privatedata+' '+truthfolder, cwd=newfolder)
+        cmdline('cp -r '+privatedata+' '+truthfolder)
         # Resultdata contains the folder structure of the result files
 
         cmdline('find '+hypofolder+' -name "*.txt" > tmp.lst', cwd=newfolder)
