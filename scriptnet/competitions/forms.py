@@ -58,3 +58,9 @@ class SubmitForm(forms.Form):
 
 class LanguageForm(forms.Form):
     language = forms.ChoiceField(label=_('Language'),choices=settings.LANGUAGES)
+
+class WatchForm(forms.Form):
+    pass
+
+class SendMailForm(forms.Form):
+    email_body = forms.CharField(required=True, widget=forms.Textarea, label=_('Fill in the email text here'), max_length = 3000)        

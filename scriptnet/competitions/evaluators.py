@@ -4,6 +4,7 @@
 # to evaluator_function in views.py .
 
 from django.conf import settings
+from django.core.mail import send_mail, EmailMessage
 from random import random
 from time import sleep
 from os import listdir, makedirs, remove
@@ -32,12 +33,48 @@ def cmdline(command, *args, **kwargs):
     res = process.communicate()[0]
     return res.decode('utf-8')
 
+def send_feedback(status, logfile, individu):
+    uname = individu.user.username
+    #TODO: Maybe all cosubmitters should be notified
+    #TODO: Maybe add more info about the submission
+    uemail = individu.user.email
+    if status == "COMPLETE":
+        status_final = 'Evaluation finished succesfully.'
+    elif status == "ERROR_EVALUATOR":
+        status_final = 'Evaluation internal error; evaluator not found.'
+    elif status == "ERROR_UNSUPPORTED":
+        status_final = 'Evaluation internal error; benchmark unsupported.'        
+    elif status == "ERROR_PROCESSING":
+        status_final = 'Evaluation error; an error occured while processing your file.'
+    else:
+        status_final = 'Unknown error.'
+    email = EmailMessage(
+        'Submission to Scriptnet',
+        """
+This email is sent as feedback because you have submitted a result file to the ScriptNet Competitions Site.
+Username: {}
+{} (return code: {})
 
-def evaluator_worker(evaluator_function, submission_status_set):
+Evaluator log (if any:)
+{}
+
+ScriptNet is hosted by the National Centre of Scientific Research Demokritos and co-financed by the H2020 Project READ (Recognition and Enrichment of Archival Documents):
+http://read.transkribus.eu/
+        """.format(uname, status_final, status, logfile),
+        settings.EMAIL_HOST_USER,
+        [uemail],
+        ['sfikas@iit.demokritos.gr'],
+    )
+    email.send(fail_silently=False)
+
+
+def evaluator_worker(evaluator_function, submission_status_set, individu):
+    logfile = ''
     if not evaluator_function:
         for s in submission_status_set:
             s.status = "ERROR_EVALUATOR"
             s.save()
+        send_feedback(s.status, logfile, individu)
         return
     else:
         try:
@@ -46,10 +83,14 @@ def evaluator_worker(evaluator_function, submission_status_set):
                 submission = s.submission
                 s.status = "PROCESSING"
                 s.save()
-            result_dictionary = evaluator_function(
+            res = evaluator_function(
                 privatedata=submission.subtrack.private_data_unpacked_folder(),
                 resultdata=submission.resultfile.name,
                 )
+            if(isinstance(res, dict)):
+                result_dictionary = res
+            else:
+                (result_dictionary, logfile) = res
             for s in submission_status_set:
                 benchname = s.benchmark.name
                 if benchname in result_dictionary.keys():
@@ -60,10 +101,12 @@ def evaluator_worker(evaluator_function, submission_status_set):
                     s.status = "ERROR_UNSUPPORTED"
                     s.numericalresult = ''
                     s.save()
+            send_feedback(s.status, logfile, individu)
         except:
             for s in submission_status_set:
                 s.status = "ERROR_PROCESSING"
                 s.save()
+            send_feedback(s.status, logfile, individu)
             return
 
 
@@ -121,7 +164,7 @@ def icfhr14_kws_tool(*args, **kwargs):
                                    r.group(13), r.group(14), r.group(15),
                                    r.group(16), r.group(17)])
     }
-    return result
+    return (result, command_output)
 
 
 def transkribusBaseLineMetricTool(*args, **kwargs):
@@ -129,9 +172,9 @@ def transkribusBaseLineMetricTool(*args, **kwargs):
         '{}/competitions/executables/TranskribusBaseLineMetricTool'\
         .format(settings.BASE_DIR)
     # resultdata = kwargs.pop('resultdata', 'reco.lst')
-    resultdata = kwargs.pop('resultdata', executable_folder)
+    resultdata = kwargs.pop('resultdata', executable_folder + '/HYPO.tar')
     # privatedata = kwargs.pop('privatedata', 'truth.lst')
-    privatedata = kwargs.pop('privatedata', executable_folder)
+    privatedata = kwargs.pop('privatedata', executable_folder + '/GT')
 
     executable_jar = 'baselineTool.jar'
     if(isdir(privatedata)):
@@ -141,20 +184,30 @@ def transkribusBaseLineMetricTool(*args, **kwargs):
         # Hence we have to create a temporary folder and copy everything there
         newfolder = '{}{}/'.format(temporary_folder, uuid4().hex)
         makedirs(newfolder)
+        # Since truth and hypo could be named equally we have to create two folders
+        hypofolder = join(newfolder, 'hypo')
+        makedirs(hypofolder)
+        truthfolder = join(newfolder, 'truth')
+        makedirs(truthfolder)
         if(isdir(resultdata)):
-            for filename in listdir(resultdata):
-                full_filename = join(resultdata, filename)
-                target_filename = join(newfolder, filename)
-                copyfile(full_filename, target_filename)
+            cmdline('cp -r '+resultdata+' '+hypofolder, cwd=newfolder)
         else:
             # If it is a file, it must be a tarball, or else raise an error
             tar = tarfile.open(resultdata)
-            tar.extractall(newfolder)
-            tar.close()
-        for filename in listdir(privatedata):
-            full_filename = join(privatedata, filename)
-            target_filename = join(newfolder, filename)
-            copyfile(full_filename, target_filename)
+            tar.extractall(hypofolder)
+            tar.close() 
+        cmdline('cp -r '+privatedata+' '+truthfolder)
+        # Resultdata contains the folder structure of the result files
+
+        cmdline('find '+hypofolder+' -name "*.txt" > tmp.lst', cwd=newfolder)
+        cmdline('find '+hypofolder+' -name "*.xml" >> tmp.lst', cwd=newfolder)
+        cmdline('cat tmp.lst | sort > reco.lst', cwd=newfolder)        
+        cmdline('rm tmp.lst', cwd=newfolder)
+        cmdline('find '+truthfolder+' -name "*.txt" > tmp.lst', cwd=newfolder)
+        cmdline('find '+truthfolder+' -name "*.xml" >> tmp.lst', cwd=newfolder)
+        cmdline('cat tmp.lst | sort > truth.lst', cwd=newfolder)
+        cmdline('rm tmp.lst', cwd=newfolder)
+ 
         copyfile(join(executable_folder, executable_jar), join(newfolder,
                                                                executable_jar))
         executable_folder = newfolder
@@ -167,15 +220,15 @@ def transkribusBaseLineMetricTool(*args, **kwargs):
 
     rmtree(newfolder)
     print(command_output)
-    rgx = r'Avg \(over Pages\) Avg Precision: ([\d\.]+)\nAvg \(over Pages\) '\
-        'Avg Recall: ([\d\.]+)\nAvg \(over Pages\) Avg F-Measure: ([\d\.]+)'
+    rgx = r'Avg \(over pages\) P value: ([\d\.]+)\nAvg \(over pages\) '\
+        'R value: ([\d\.]+)\nResulting F_1 value: ([\d\.]+)'
     r = re.search(rgx, command_output)
     result = {
-        'bl-avg-precision': r.group(1),
-        'bl-avg-recall':    r.group(2),
-        'bl-avg-fmeasure':  r.group(3),
+        'bl-avg-P-value': r.group(1),
+        'bl-avg-R-value':    r.group(2),
+        'bl-F_1-value':  r.group(3),
     }
-    return result
+    return (result, command_output)
 
 
 def transkribusErrorRate(*args, **kwargs):

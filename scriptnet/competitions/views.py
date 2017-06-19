@@ -14,6 +14,8 @@ from django.core.exceptions import ObjectDoesNotExist
 
 from .forms import LoginForm, RegisterForm, NEW_AFFILIATION_ID
 from .forms import SubmitForm
+from .forms import WatchForm
+from .forms import SendMailForm
 from .models import Affiliation, Individual, Competition, Track, Subtrack
 from .models import Submission, SubmissionStatus
 from .tables import SubmissionTable, ScalarscoreTable, expandedScalarscoreTable, ManipulateMethodsTable
@@ -180,10 +182,14 @@ def signout(request):
 
 def competition(request, competition_id, track_id, subtrack_id):
     competition, track, subtrack, context = get_objects_given_uniqueIDs(competition_id, track_id, subtrack_id)
+    watch_form = createFollowButton(request, competition)
+    context['watch_form'] = watch_form
     return render(request, 'competitions/competition.html', context)
 
 def submit(request, competition_id, track_id, subtrack_id):
     competition, track, subtrack, context = get_objects_given_uniqueIDs(competition_id, track_id, subtrack_id)
+    watch_form = createFollowButton(request, competition)
+    context['watch_form'] = watch_form    
     submit_form = SubmitForm(request.user)
     if request.method == 'POST':
         if not request.user.is_authenticated():
@@ -209,16 +215,20 @@ def submit(request, competition_id, track_id, subtrack_id):
                 if not i:
                     continue
                 dt = timezone.now() - i
-                if dt.seconds < 120:
+                if dt.seconds < competition.submission_restriction_in_minutes * 60:
                     enough_time_passed = False
             if not enough_time_passed:
-                messages.add_message(request, messages.ERROR, _('You have recently submitted a method. Site policy is at most one submission per *2 minutes*. Please re-submit at a later time.')) 
+                messages.add_message(request, messages.ERROR, _('You have recently submitted a method. Competition policy is at most one submission per *{} minutes*. Please re-submit at a later time.'.format(competition.submission_restriction_in_minutes))) 
                 context['submit_form'] = SubmitForm(request.user)
-                return render(request, 'competitions/submit.html', context)                
+                return render(request, 'competitions/submit.html', context)
+            if competition.force_private_submissions:
+                publishable = False
+            else:
+                publishable = submit_form.cleaned_data['publishable']
             submission = Submission.objects.create(
                 name = submit_form.cleaned_data['name'],
                 method_info = submit_form.cleaned_data['method_info'],
-                publishable = submit_form.cleaned_data['publishable'],
+                publishable = publishable,
                 subtrack = subtrack,
                 resultfile = submit_form.cleaned_data['resultfile']
             )
@@ -244,7 +254,7 @@ def submit(request, competition_id, track_id, subtrack_id):
                         status="UNDEFINED"
                     ))
                 evaluator_function = getattr(evaluators, evalfunc.name, None)
-                th = threading.Thread(name=str(evalfunc), target=evaluators.evaluator_worker, args=(evaluator_function, submission_status_set,))
+                th = threading.Thread(name=str(evalfunc), target=evaluators.evaluator_worker, args=(evaluator_function, submission_status_set, request.user.individual))
                 th.daemon = True
                 th.start()
             messages.add_message(request, messages.SUCCESS, _('Submission {} with id {} has been submitted succesfully. ').format(submission.name, submission.id))
@@ -254,6 +264,8 @@ def submit(request, competition_id, track_id, subtrack_id):
     
 def viewresults(request, competition_id, track_id, subtrack_id):
     competition, track, subtrack, context = get_objects_given_uniqueIDs(competition_id, track_id, subtrack_id)
+    watch_form = createFollowButton(request, competition)
+    context['watch_form'] = watch_form    
     data = []
     if subtrack:
         all_benchmarks = subtrack.benchmark_set.all()
@@ -283,7 +295,7 @@ def viewresults(request, competition_id, track_id, subtrack_id):
         if not s.publishable:
             if not request.user.is_authenticated():
                 continue
-            if request.user.is_superuser: 
+            if request.user.is_superuser or request.user.is_staff: 
                 pass
             elif not request.user.individual in s.submitter.all():
                 continue
@@ -323,6 +335,7 @@ def viewresults(request, competition_id, track_id, subtrack_id):
 
 def scoreboard(request, competition_id):
     competition = get_object_or_404(Competition, pk=competition_id)
+    watch_form = createFollowButton(request, competition)
     extracolumns = [
         'score',
     ]
@@ -333,27 +346,36 @@ def scoreboard(request, competition_id):
         'competition': competition,
         'scoretable': scoretable,
     }
+    context['watch_form'] = watch_form    
     return render(request, 'competitions/scoreboard.html', context)
 
 def methodlist(request, competition_id):
     competition = get_object_or_404(Competition, pk=competition_id)
+    watch_form = createFollowButton(request, competition)
+    sendmail_form = createSendMailToParticipantsButton(request, competition)
     if request.method == "POST":
         pks = request.POST.getlist("selection")
         selected_objects = Submission.objects.filter(pk__in=pks)
         #print(selected_objects)
         if 'publicize' in request.POST:
-            for s in selected_objects:
-                s.publishable = True
-                s.save()
+            if(competition.force_private_submissions and not request.user.is_superuser and not request.user.is_staff):
+                messages.add_message(request, messages.ERROR, _('The organizers do not allow public submissions yet.'))
+            else:
+                for s in selected_objects:
+                    s.publishable = True
+                    s.save()
         elif 'privatize' in request.POST:
             for s in selected_objects:
                 s.publishable = False
                 s.save()
             print('Privatize pushed')
         elif 'delete' in request.POST:
-            for s in selected_objects:
-                messages.add_message(request, messages.SUCCESS, _('Submission {} has been deleted.').format(s))                
-                s.delete()
+            if(competition.force_undeletable_submissions and not request.user.is_superuser and not request.user.is_staff):
+                messages.add_message(request, messages.ERROR, _('The organizers do not allow deletion of submissions.'))
+            else:
+                for s in selected_objects:
+                    messages.add_message(request, messages.SUCCESS, _('Submission {} has been deleted.').format(s))                
+                    s.delete()
     #myself = request.user.individual
     mymethods = Submission.objects.filter(submitter__user=request.user).filter(subtrack__track__competition=competition_id)
     table = ManipulateMethodsTable(mymethods)
@@ -361,5 +383,85 @@ def methodlist(request, competition_id):
         'competition': competition,
         'table': table,
     }
+    context['watch_form'] = watch_form
+    context['sendmail_form'] = sendmail_form
     return render(request, 'competitions/methodlist.html', context)
     
+def createFollowButton(request, competition):
+    watchform = WatchForm()
+    if request.method == 'POST':
+        if 'follow' in request.POST:
+            email = EmailMessage(
+                    'Status update (follow) on Scriptnet competitions',
+                    """
+User {} (email: {}) has declared that wants to **follow** the competition:
+{} (id: {})
+                    """.format(request.user.username, request.user.email, competition.name, competition.id),
+                    settings.EMAIL_HOST_USER,
+                    ['sfikas@iit.demokritos.gr'],
+                    [],
+                )
+            email.send(fail_silently=False)            
+            competition.watchers.add(request.user.individual)
+            competition.save()            
+            messages.add_message(request, messages.SUCCESS, _('You are now following this competition.'))
+        elif 'unfollow' in request.POST:
+            email = EmailMessage(
+                    'Status update (unfollow) on Scriptnet competitions',
+                    """
+User {} (email: {}) has declared that wants to unfollow the competition:
+{} (id: {})
+                    """.format(request.user.username, request.user.email, competition.name, competition.id),
+                    settings.EMAIL_HOST_USER,
+                    ['sfikas@iit.demokritos.gr'],
+                    [],
+                )
+            email.send(fail_silently=False)                        
+            if(request.user.individual in competition.watchers.all()):
+                competition.watchers.remove(request.user.individual)
+                competition.save()
+                messages.add_message(request, messages.INFO, _('You have stopped following this competition.'))
+            else:
+                messages.add_message(request, messages.ERROR, _('You are not following the current competition.'))                
+    return watchform
+
+def createSendMailToParticipantsButton(request, competition):
+    mailform = SendMailForm()
+    if request.method == 'POST':
+        if 'sendmail_competition' in request.POST:
+            mailform = SendMailForm(request.POST)
+            if mailform.is_valid():        
+                mailbody = mailform.cleaned_data['email_body']
+                mailinglist = []
+                for w in competition.watchers.all():
+                    mailinglist.append(w.user.email)
+                mailinglist.append('sfikas@iit.demokritos.gr')
+                if request.user.email not in mailinglist:
+                    mailinglist.append(request.user.email)
+                email = EmailMessage(
+                    'Scriptnet competitions / {}'.format(competition.name),
+                    mailbody,
+                    settings.EMAIL_HOST_USER,
+                    [],
+                    mailinglist,
+                )
+                email.send(fail_silently=False)            
+                messages.add_message(request, messages.SUCCESS, _('You have sent an email to all followers of this competition.'))
+        elif 'sendmail_all' in request.POST:
+            mailform = SendMailForm(request.POST)
+            if mailform.is_valid():        
+                mailbody = mailform.cleaned_data['email_body']
+                mailinglist = []
+                for w in User.objects.all():
+                    if w.email not in mailinglist:                    
+                        mailinglist.append(w.email)
+                email = EmailMessage(
+                    'Scriptnet competitions'.format(competition.name),
+                    mailbody,
+                    settings.EMAIL_HOST_USER,
+                    [],
+                    mailinglist,
+                )
+                email.send(fail_silently=False)            
+                messages.add_message(request, messages.SUCCESS, _('You have sent an email to everyone in scriptnet.'))
+    return mailform            
