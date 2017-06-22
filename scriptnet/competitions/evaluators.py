@@ -43,7 +43,7 @@ def send_feedback(status, logfile, individu):
     elif status == "ERROR_EVALUATOR":
         status_final = 'Evaluation internal error; evaluator not found.'
     elif status == "ERROR_UNSUPPORTED":
-        status_final = 'Evaluation internal error; benchmark unsupported.'        
+        status_final = 'Evaluation internal error; benchmark unsupported.'
     elif status == "ERROR_PROCESSING":
         status_final = 'Evaluation error; an error occured while processing your file.'
     else:
@@ -195,19 +195,19 @@ def transkribusBaseLineMetricTool(*args, **kwargs):
             # If it is a file, it must be a tarball, or else raise an error
             tar = tarfile.open(resultdata)
             tar.extractall(hypofolder)
-            tar.close() 
+            tar.close()
         cmdline('cp -r '+privatedata+' '+truthfolder)
         # Resultdata contains the folder structure of the result files
 
         cmdline('find '+hypofolder+' -name "*.txt" > tmp.lst', cwd=newfolder)
         cmdline('find '+hypofolder+' -name "*.xml" >> tmp.lst', cwd=newfolder)
-        cmdline('cat tmp.lst | sort > reco.lst', cwd=newfolder)        
+        cmdline('cat tmp.lst | sort > reco.lst', cwd=newfolder)
         cmdline('rm tmp.lst', cwd=newfolder)
         cmdline('find '+truthfolder+' -name "*.txt" > tmp.lst', cwd=newfolder)
         cmdline('find '+truthfolder+' -name "*.xml" >> tmp.lst', cwd=newfolder)
         cmdline('cat tmp.lst | sort > truth.lst', cwd=newfolder)
         cmdline('rm tmp.lst', cwd=newfolder)
- 
+
         copyfile(join(executable_folder, executable_jar), join(newfolder,
                                                                executable_jar))
         executable_folder = newfolder
@@ -368,8 +368,9 @@ def icdar2017_writer_identification(*args, **kwargs):
     rgx = r'([\d\.]+)\n+([\d\.]+)'
     r = re.search(rgx, command_output)
     result = {
-        'precision': r.group(1),
-        'map': r.group(2),
+        'WI-precision': r.group(1),
+        'WI-map': r.group(2),
     }
+    command_output = re.sub(rgx, "", command_output)
     print(result)
-    return result
+    return (result, command_output)
