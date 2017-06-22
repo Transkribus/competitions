@@ -35,17 +35,15 @@ def parseGTFile(gtfile):
         line = line.rstrip('\n')
         s = line.split('=')
         if len(s) != 2:
-            print('0\n0')
             print('syntax of GT file incorrect: ' + line)
             logger.error('syntax of GT file incorrect: ' + line)
-            exit(0)
+            return 0, 0
         gt[s[0]] = s[1]
         w = re.split('_|-', s[1])
         if len(w) == 0:
-            print('0\n0')
             print('syntax of GT file incorrect: ' + line)
             logger.error('syntax of GT file incorrect: ' + line)
-            exit(0)
+            return 0, 0
 
         writer[s[0]] = w[0]
     file.close()
@@ -67,10 +65,9 @@ def evaluate(writer, resultfile):
         ref_page = imgs.pop(0)
 
         if ref_page not in writer:
-            print('0\n0')
             print('filename \"' + ref_page + '\" unkown')
             logger.error('filename \"' + ref_page + '\" unkown')
-            exit(0)
+            return 0, 0
 
         ref_writer = writer[ref_page]
         logger.debug("ref_writer:" + ref_writer + " ref_page:" + ref_page)
@@ -94,8 +91,8 @@ def evaluate(writer, resultfile):
     file.close()
     logger.debug("top1_count:" + str(top1_count))
     logger.debug("page_count:" + str(page_count))
-    precision = (float)(top1_count)/page_count
-    meanap = float(sum(average_precision))/float(len(average_precision))
+    precision = (float)(top1_count)/len(writer)
+    meanap = float(sum(average_precision))/float(len(writer))
     return precision, meanap
 
 if __name__ == "__main__":
@@ -104,7 +101,6 @@ if __name__ == "__main__":
     import zipfile
     import tempfile
     import shutil
-
 
     logger.setLevel(logging.ERROR)
     logger.debug("starting")
