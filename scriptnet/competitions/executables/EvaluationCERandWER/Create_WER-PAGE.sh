@@ -34,9 +34,9 @@ tar -xf $name
 
 for F in `find . -name "*.xml"`; do 
   n=`basename $F`;
-  $PAGEFORMAT -i $D/$2/${n/.xml/.jpg} -l ${F} -m FILE || \
+  $PAGEFORMAT -i $D/$2/${n/.xml/.JPG} -l ${F} -m FILE || \
       {
-        echo "ERROR: \"page_format_tool\" with sample ${F/\.$IEXT/.jpg}" 
+        echo "ERROR: \"page_format_tool\" with sample ${F/\.$IEXT/.JPG}" 
         cd ..; continue
       }
   for f in `find . -name "*.txt"`; do  mv $f /tmp/trans-hip_${R}; done
@@ -59,8 +59,8 @@ sed 's/\([.,:;]\)/ \1/g' /tmp/fich_results_${R}  > /tmp/fich_results_WER_${R}
 
 sed 's/^ //g;s/ $//g;s/ [ ]*/ /g;s/ \$ /\$/g' /tmp/fich_results_${R} | sed 's/ /@/g' | sed 's/\(.\)\(.\)/\1 \2 /g' > /tmp/fich_results_CER_${R}
 
-$D/competitions/executables/EvaluationCERandWER//tasas /tmp/fich_results_CER_${R} -ie -s " "  -f "$" |  awk '{printf("%.2f\n",$1)}'
-$D/competitions/executables/EvaluationCERandWER/tasas /tmp/fich_results_WER_${R} -ie -s " "  -f "$"  |  awk '{printf("%.2f\n",$1)}'
+$D/competitions/executables/EvaluationCERandWER//tasas /tmp/fich_results_CER_${R} -ie -s " "  -f "$" 
+$D/competitions/executables/EvaluationCERandWER/tasas /tmp/fich_results_WER_${R} -ie -s " "  -f "$"
 rm -r /tmp/trans-hip_${R}
 rm -r /tmp/trans_${R}
 rm -r /tmp/Results_${R}
