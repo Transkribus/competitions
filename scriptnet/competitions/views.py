@@ -21,7 +21,7 @@ from .models import Submission, SubmissionStatus
 from .tables import SubmissionTable, ScalarscoreTable, expandedScalarscoreTable, ManipulateMethodsTable
 from . import evaluators
 
-import threading
+import multiprocessing
 from json import loads
 from uuid import uuid4
 
@@ -254,7 +254,7 @@ def submit(request, competition_id, track_id, subtrack_id):
                         status="UNDEFINED"
                     ))
                 evaluator_function = getattr(evaluators, evalfunc.name, None)
-                th = threading.Thread(name=str(evalfunc), target=evaluators.evaluator_worker, args=(evaluator_function, submission_status_set, request.user.individual))
+                th = multiprocessing.Process(name=str(evalfunc), target=evaluators.evaluator_worker, args=(evaluator_function, submission_status_set, request.user.individual))
                 th.daemon = True
                 th.start()
             messages.add_message(request, messages.SUCCESS, _('Submission {} with id {} has been submitted succesfully. ').format(submission.name, submission.id))
