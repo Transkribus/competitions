@@ -368,8 +368,8 @@ def icdar2017_writer_identification(*args, **kwargs):
     rgx = r'([\d\.]+)\n+([\d\.]+)'
     r = re.search(rgx, command_output)
     result = {
-        'precision': r.group(1),
-        'map': r.group(2),
+        'WI-precision': r.group(1),
+        'WI-map': r.group(2),
     }
     command_output = re.sub(rgx, "", command_output)
     print(result)
