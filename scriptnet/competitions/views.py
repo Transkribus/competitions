@@ -205,10 +205,10 @@ def submit(request, competition_id, track_id, subtrack_id):
                 context['submit_form'] = SubmitForm(request.user)
                 return render(request, 'competitions/submit.html', context)
             # Check if enough time passed since last submission
-            last_submission_timestamp = [request.user.individual.last_submission()]
+            last_submission_timestamp = [request.user.individual.last_submission(competition)]
             for istr in submit_form.cleaned_data['cosubmitters']:
                 i = Individual.objects.get(pk=int(istr))
-                last_submission_timestamp.append(i.last_submission())
+                last_submission_timestamp.append(i.last_submission(competition))
             print(last_submission_timestamp)
             enough_time_passed = True
             for i in last_submission_timestamp:

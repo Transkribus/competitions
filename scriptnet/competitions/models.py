@@ -54,9 +54,9 @@ class Individual(models.Model):
 			except Individual.DoesNotExist:
 				pass
 		super(Individual, self).save(*args, **kwargs)
-	def last_submission(self):
+	def last_submission(self, competition):
 		try:
-			return self.submission_set.latest('timestamp').timestamp
+			return self.submission_set.filter(subtrack__track__competition=competition).latest('timestamp').timestamp
 		except:
 			return None
 		
