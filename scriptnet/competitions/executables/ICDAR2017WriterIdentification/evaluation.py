@@ -142,7 +142,7 @@ if __name__ == "__main__":
         precision, meanap = evaluate(writer, res_file)
         logger.info("precision:" + str(precision))
         logger.info("map:" + str(meanap))
-        print(precision)
-        print(meanap)
+        print('%.6f' % precision)
+        print('%.6f' % meanap)
         if zipfile.is_zipfile(args.resultfile):
             shutil.rmtree(tmp_dir)
