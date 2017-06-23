@@ -8,7 +8,7 @@ from .models import Affiliation, Competition, Individual
 from .models import Track, Subtrack
 
 from .evaluators import cmdline
-from .evaluators import icfhr14_kws_tool, transkribusBaseLineMetricTool, transkribusErrorRate, icfhr16_HTR_tool
+from .evaluators import icfhr14_kws_tool, transkribusBaseLineMetricTool, transkribusErrorRate, icfhr16_HTR_tool, icdar2017_writer_identification
 
 def create_new_user():
     user = User.objects.create_user(
@@ -25,8 +25,8 @@ def create_new_user():
     return user
 
 def create_competitions_tracks_subtracks(
-        num_comps, 
-        num_tracks_per_comp, 
+        num_comps,
+        num_tracks_per_comp,
         num_subtracks_per_track,
         sampledata_filename='test_private_data.txt',
         sampledata_filename_contents=b'This is test data',
@@ -44,7 +44,7 @@ def create_competitions_tracks_subtracks(
             print('Created {}'.format(track))
             for snum in range(1, num_subtracks_per_track+1):
                 subtrack = Subtrack.objects.create(
-                    name='Subtrack {}'.format(snum), 
+                    name='Subtrack {}'.format(snum),
                     track=track,
                     private_data=SimpleUploadedFile(sampledata_filename, sampledata_filename_contents)
                 ) #public_data=SimpleUploadedFile(sampledata_filename, sampledata_filename_contents),
@@ -61,7 +61,7 @@ class UrlTests(TestCase):
     """
     def test_regexp_index(self):
         a = reverse('index')
-        self.assertEqual(a, '/competitions/')        
+        self.assertEqual(a, '/competitions/')
 
     def test_regexp_competitions_comp_track_subtrack(self):
         a = reverse('competition', kwargs = { 'competition_id': '1', 'track_id': '1', 'subtrack_id': '1', })
@@ -102,24 +102,24 @@ class ViewForwardTests(TestCase):
         response = self.client.get('/competitions/1/1/1')
         self.assertEqual(response.status_code, 301)
         response = self.client.get('/competitions/1/1/')
-        self.assertEqual(response.status_code, 404)        
+        self.assertEqual(response.status_code, 404)
         response = self.client.get('/competitions/1/1')
-        self.assertEqual(response.status_code, 301)        
+        self.assertEqual(response.status_code, 301)
         response = self.client.get('/competitions/1/')
-        self.assertEqual(response.status_code, 404)        
+        self.assertEqual(response.status_code, 404)
         response = self.client.get('/competitions/1')
-        self.assertEqual(response.status_code, 301)        
+        self.assertEqual(response.status_code, 301)
 
     def test_forward_competitions(self):
         create_competitions_tracks_subtracks(3, 3, 3)
         response = self.client.get('/competitions/1/')
-        self.assertEqual(response.status_code, 200)        
+        self.assertEqual(response.status_code, 200)
         response = self.client.get('/competitions/1')
-        self.assertEqual(response.status_code, 301)        
+        self.assertEqual(response.status_code, 301)
         response = self.client.get('/competitions/1/1/')
-        self.assertEqual(response.status_code, 200)        
+        self.assertEqual(response.status_code, 200)
         response = self.client.get('/competitions/1/1')
-        self.assertEqual(response.status_code, 301)                
+        self.assertEqual(response.status_code, 301)
         response = self.client.get('/competitions/1/1/1/')
         self.assertEqual(response.status_code, 200)
         response = self.client.get('/competitions/1/1/1')
@@ -135,10 +135,10 @@ class ViewReverseTests(TestCase):
         self.assertEqual(response.status_code, 200)
 
     def test_reverse_competition_with_empty_dbase_1(self):
-        response = self.client.get(reverse('competition', 
+        response = self.client.get(reverse('competition',
             kwargs={
-                'competition_id':'1', 
-                'track_id':'1', 
+                'competition_id':'1',
+                'track_id':'1',
                 'subtrack_id':'1',
                 }
             )
@@ -146,10 +146,10 @@ class ViewReverseTests(TestCase):
         self.assertEqual(response.status_code, 404)
 
     def test_reverse_competition_with_empty_dbase_2(self):
-        response = self.client.get(reverse('competition', 
+        response = self.client.get(reverse('competition',
             kwargs={
-                'competition_id':'2', 
-                'track_id':'3', 
+                'competition_id':'2',
+                'track_id':'3',
                 'subtrack_id':'1',
                 }
             )
@@ -158,10 +158,10 @@ class ViewReverseTests(TestCase):
 
     def test_reverse_competition(self):
         create_competitions_tracks_subtracks(1, 2, 2)
-        response = self.client.get(reverse('competition', 
+        response = self.client.get(reverse('competition',
             kwargs={
-                'competition_id':'1', 
-                'track_id':'2', 
+                'competition_id':'1',
+                'track_id':'2',
                 'subtrack_id':'1',
                 }
             )
@@ -173,10 +173,10 @@ class ViewReverseTests(TestCase):
         TODO: Do the same after having created some submissions
         """
         create_competitions_tracks_subtracks(1, 2, 2)
-        response = self.client.get(reverse('viewresults', 
+        response = self.client.get(reverse('viewresults',
             kwargs={
-                'competition_id':'1', 
-                'track_id':'2', 
+                'competition_id':'1',
+                'track_id':'2',
                 'subtrack_id':'1',
                 }
             )
@@ -186,11 +186,11 @@ class ViewReverseTests(TestCase):
     def test_reverse_scoreboard_nosubmissions(self):
         """
         TODO: Do the same after having created some submissions
-        """        
+        """
         create_competitions_tracks_subtracks(1, 2, 2)
-        response = self.client.get(reverse('scoreboard', 
+        response = self.client.get(reverse('scoreboard',
             kwargs={
-                'competition_id':'1', 
+                'competition_id':'1',
                 }
             )
         )
@@ -198,22 +198,22 @@ class ViewReverseTests(TestCase):
 
     def test_reverse_submit(self):
         create_competitions_tracks_subtracks(1, 2, 2)
-        response = self.client.get(reverse('submit', 
+        response = self.client.get(reverse('submit',
             kwargs={
-                'competition_id':'1', 
-                'track_id':'2', 
-                'subtrack_id':'1',                
+                'competition_id':'1',
+                'track_id':'2',
+                'subtrack_id':'1',
                 }
             )
         )
-        self.assertEqual(response.status_code, 200)        
-    
+        self.assertEqual(response.status_code, 200)
+
 
 class ModelTests(TestCase):
     def test_affiliation_creation(self):
         """
         Create an affiliation and test that it appears
-        on the master page -- should reside in one of 
+        on the master page -- should reside in one of
         the buttons of the register block
         """
         testname = 'Test affiliation'
@@ -224,14 +224,14 @@ class ModelTests(TestCase):
     def test_competition_creation(self):
         """
         Create a competition and test that it appears
-        on the master page -- there is a special block 
+        on the master page -- there is a special block
         that shows all competitions
         """
         testname = 'Test competition'
         w = Competition.objects.create(name=testname)
         response = self.client.get(reverse('index'))
         self.assertContains(response, testname)
-    
+
     def test_track_uniquepercomp_ids(self):
         """
         Check that all track 'unique per competition ids' are indeed unique
@@ -258,7 +258,7 @@ class ModelTests(TestCase):
             my_id = st.pertrack_uniqueid
             my_track = st.track
             self.assertEqual(len(Subtrack.objects.filter(track=my_track).filter(pertrack_uniqueid=my_id)), 1)
-    
+
     def test_subtrack_files(self):
         """
         Check public/private files functionality is ok.
@@ -318,7 +318,7 @@ class AuthenticationTests(TestCase):
         create_new_user()
         self.assertTrue(User.objects.all()[0].username, 'sampleuser')
         self.assertTrue(self.client.login(username='sampleuser', password='mypassword'))
-    
+
 class FormTests(TestCase):
     def test_registerform(self):
         self.assertEqual(1, 1)
@@ -358,6 +358,17 @@ class EvaluatorTests(TestCase):
                 'bl-F_1-value': '0.8058',
             }
         )
+    def test_icdar2017_writer_identification(self):
+        (res, logfile) = icdar2017_writer_identification(
+            privatedata='competitions/executables/ICDAR2017WriterIdentification/',
+            resultdata='competitions/executables/ICDAR2017WriterIdentification/test_submission.csv'
+        )
+        self.assertEqual(res, {
+                'WI-precision': '0.899038',
+                'WI-map': '0.769177',
+            }
+
+        )
 
 class EvaluatorTests_HTR2016(TestCase):
     def test_htr2016_dependencies(self):
@@ -370,7 +381,7 @@ class EvaluatorTests_HTR2016(TestCase):
                                 resultdata='competitions/executables/EvaluationCERandWER/fixtures/RWTH_smaller.tar')
         print(res)
         self.assertEqual(res, {
-            'CER': '4.123711', 
+            'CER': '4.123711',
             'WER': '14.864865',
         })
 
