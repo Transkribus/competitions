@@ -314,6 +314,20 @@ def test_icfhr14_kws_tool(self):
 
 At a minimum, tests should check that some result fixture should return specific benchmark values.
 
+* Optionally, you can specify a text log that will be sent to the submitter as feedback on their submission. This should contain information that you want the submitter to see, like how well their submission scored (this is visible on the web interface by default) or what went wrong while processing their submission file. You can do this by setting up your evaluation function to return a tuple:
+
+```python
+return (result, textlog)
+```
+
+instead of just the benchmark dictionary:
+
+```python
+return result
+```
+
+Do not forget to adjust your code on ``tests.py'' accordingly, if you choose to return a text log.
+
 #### 2. Access the django administration page. 
     
 * If you are the site administrator, simply login with your credentials. The administration site URL will normally be http://my.site.com/admin/
@@ -345,9 +359,14 @@ Note that in the overview, newsfeed and important dates fields you can write HTM
 
 On the field 'Benchmark-Competition relationships' add the benchmarks that you have defined on steps 1 and 4 below.
 
-#### 6. Create one or more Track models.
+#### 6. Create a Track/Subtrack hierarchy.
 
 Even if your competition does not distinguish between different tracks, you still have to create at least one track.
+Also, even if your competition does not distinguish between different subtracks, you still have to create at least one subtrack.
+
+*Please check issue #22 for a discussion about further information on how the Track/Subtrack hierarchy should be done, and the pros and cons related to each of the possibilities.*
+
+##### Create one or more Track models
 
 Ignore the ```percomp_uniqueid``` field -- this is an identifier that is automatically filled in.
 
@@ -357,9 +376,7 @@ Fill in the required fields:
 * Overview: A description of the track. You can use HTML here.
 * Competition: Select the competition you created on step 5 here.
 
-#### 7. Create one or more Subtrack models.
-
-Even if your competition does not distinguish between different subtracks, you still have to create at least one subtrack.
+##### Create one or more Subtrack models
 
 Ignore the ```pertrack_uniqueid``` field -- this is an identifier that is automatically filled in.
 
@@ -380,16 +397,32 @@ The private data field is meant to be used as an argument to your evaluation ben
 
 Note that uploaded ```zip``` files will *not* be automatically decompressed. You are advised to use ```tar.gz``` files, after creating them with the process described above.
 
-#### 8. Assign Benchmarks to the scoreboard.
+#### 7. Assign Benchmarks to the scoreboard.
 
 For each competition there is a 'scoreboard', that is an ordered list of all competitors. Competitors are ordered from best performing (least points) to worst performing (most points).
 The total points are calculated as a simple sum function over the rankings of the methods on benchmarks that are assigned as 'important' for the scoreboard.
 
 You can choose which benchmarks are important for the scoreboard of which competition, by changing the appropriate benchmark model info (see Step 4, field 'Count in Scoreboard')
 
+#### 8. Set other competition parameters.
+
+Through the same interface on the Django admin, you have a chance to specify:
+
+* Whether your competition is visible on the ScriptNet landing page or not (``Is public'' flag). Set this to 'false' if you are in the process of setting up your competition and are not ready to 'go public' yet.
+* Whether participants may submit results (``Submission is open'' flag). Set this to 'false' if you want your competition to be visible to participants but are not ready to open it for submissions.
+* Whether results for submissions should be visible to everyone (``Force private submissions''). This is useful if you don't want your participants to know how each one fares against the other.
+* Whether results for submissions should be visible to everyone (``Force undeletable submissions''). This is useful if you don't want your participants to be able to delete their submissions; they should be likely to do so if they got a bad result.
+* A minimum time span that should pass before a participant may re-submit a result (``Time restriction between consecutive submissions''). This is useful as a counter-measure against participants that may try to overfit their model against the test set.
+
+Note that you can change all the above options at any time.
+
 #### See also
 
-Related discussion: <https://github.com/Transkribus/competitions/issues/18>
+Related discussions: 
+
+* Open new competition <https://github.com/Transkribus/competitions/issues/18>
+* Track/Subtrack hierarchy <https://github.com/Transkribus/competitions/issues/22>
+
 
 ### Links
 
