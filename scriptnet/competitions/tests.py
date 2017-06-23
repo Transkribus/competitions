@@ -364,8 +364,8 @@ class EvaluatorTests(TestCase):
             resultdata='competitions/executables/ICDAR2017WriterIdentification/test_submission.csv'
         )
         self.assertEqual(res, {
-                'WI-precision': '0.899038461538',
-                'WI-map': '0.769176866238',
+                'WI-precision': '0.899038',
+                'WI-map': '0.769177',
             }
 
         )
