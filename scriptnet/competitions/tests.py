@@ -381,8 +381,8 @@ class EvaluatorTests_HTR2016(TestCase):
                                 resultdata='competitions/executables/EvaluationCERandWER/fixtures/RWTH_smaller.tar')
         print(res)
         self.assertEqual(res, {
-            'CER': '4.123711',
-            'WER': '14.864865',
+            'CER': '4.12', 
+            'WER': '14.86',
         })
 
 
