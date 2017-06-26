@@ -222,20 +222,17 @@ def submit(request, competition_id, track_id, subtrack_id):
                 email = EmailMessage(
                 'Submission to Scriptnet temporarily restricted',
                 """
-                This email is sent as feedback because you have attempted to submit a result file to the ScriptNet Competitions Site.
-                (Username: {})
+This email is sent as feedback because you (username: {}) have attempted to submit a result file to the ScriptNet Competitions Site.
 
-                Competition policy is however at most one submission per *{} minutes*. Please re-submit at a later time.                
+Competition policy is however at most one submission per *{} minutes*. Please re-submit at a later time.                
 
+[
+    Debug info: {} / {} / {} / {}
+]
 
-                [
-                    Debug info: {}
-                ]
-
-
-                ScriptNet is hosted by the National Centre of Scientific Research Demokritos and co-financed by the H2020 Project READ (Recognition and Enrichment of Archival Documents):
-                http://read.transkribus.eu/
-                """.format(request.user.username, competition.submission_restriction_in_minutes, last_submission_timestamp),
+ScriptNet is hosted by the National Centre of Scientific Research Demokritos and co-financed by the H2020 Project READ (Recognition and Enrichment of Archival Documents):
+http://read.transkribus.eu/
+                """.format(request.user.username, competition.submission_restriction_in_minutes, last_submission_timestamp, competition, track, subtrack),
                 settings.EMAIL_HOST_USER,
                 ['sfikas@iit.demokritos.gr'],
                 [],
