@@ -218,7 +218,29 @@ def submit(request, competition_id, track_id, subtrack_id):
                 if dt.seconds < competition.submission_restriction_in_minutes * 60:
                     enough_time_passed = False
             if not enough_time_passed:
-                messages.add_message(request, messages.ERROR, _('You have recently submitted a method. Competition policy is at most one submission per *{} minutes*. Please re-submit at a later time.'.format(competition.submission_restriction_in_minutes))) 
+                messages.add_message(request, messages.ERROR, _('You have recently submitted a method. Competition policy is at most one submission per *{} minutes*. Please re-submit at a later time.'.format(competition.submission_restriction_in_minutes)))
+                email = EmailMessage(
+                'Submission to Scriptnet temporarily restricted',
+                """
+                This email is sent as feedback because you have attempted to submit a result file to the ScriptNet Competitions Site.
+                (Username: {})
+
+                Competition policy is however at most one submission per *{} minutes*. Please re-submit at a later time.                
+
+
+                [
+                    Debug info: {}
+                ]
+
+
+                ScriptNet is hosted by the National Centre of Scientific Research Demokritos and co-financed by the H2020 Project READ (Recognition and Enrichment of Archival Documents):
+                http://read.transkribus.eu/
+                """.format(request.user.username, competition.submission_restriction_in_minutes, last_submission_timestamp),
+                settings.EMAIL_HOST_USER,
+                ['sfikas@iit.demokritos.gr'],
+                [],
+                )
+                email.send(fail_silently=False)                
                 context['submit_form'] = SubmitForm(request.user)
                 return render(request, 'competitions/submit.html', context)
             if competition.force_private_submissions:
