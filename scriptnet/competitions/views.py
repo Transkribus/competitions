@@ -13,6 +13,7 @@ from django.utils import timezone
 from django.core.exceptions import ObjectDoesNotExist
 
 from .forms import LoginForm, RegisterForm, NEW_AFFILIATION_ID
+from .forms import ForgotpassForm
 from .forms import SubmitForm
 from .forms import WatchForm
 from .forms import SendMailForm
@@ -50,6 +51,7 @@ def get_objects_given_uniqueIDs(competition_id, track_id, subtrack_id):
 
 def index(request):
     login_form = LoginForm()
+    forgotpass_form = ForgotpassForm()
     register_form = RegisterForm()
     if request.user.is_authenticated():
         #TODO: Print a warning that we were already logged in, logout current user and proceed
@@ -147,9 +149,52 @@ http://read.transkribus.eu/
                     u = login_form.cleaned_data['username']                    
                     messages.add_message(request, messages.ERROR, _('User {} does not exist. Please make sure that you have correctly typed your username, or register to create a new username.').format(u))                    
                     return HttpResponseRedirect('/competitions/#register')
+        elif 'forgotpass' in request.POST:
+            forgotpass_form = ForgotpassForm(request.POST)
+            if forgotpass_form.is_valid():
+                user = User.objects.filter(email=forgotpass_form.cleaned_data['email'])
+                if user:
+                    #If more than one people have the same email (normally this isnt allowed -- can be set manually by the admin only),
+                    #send the re-activation email to the first one in the queryset (user[0])
+                    user = user[0]
+                    user.individual.activation_token = uuid4() #Refresh token for security reasons
+                    user.individual.save()
+                    newpassword = user.individual.activation_token.hex[0:9] #This should be considered a temporary password! - we *wont* save it now for security reasons!
+                    email = EmailMessage(
+                        'Scriptnet competitions - forgot password',
+                        """
+You have received this email because you have asked to reset your password on Scriptnet competitions.
+
+If this is not the case, please ignore this email.
+
+Re-activate your account by following this link:
+https://scriptnet.iit.demokritos.gr/competitions/tokens/react/{}/
+
+Your username and new password are:
+username: {}
+password: {}
+
+After you have activated your account, please login with your credentials at:
+https://scriptnet.iit.demokritos.gr/competitions/#login
+
+
+ScriptNet is hosted by the National Centre of Scientific Research Demokritos and co-financed by the H2020 Project READ (Recognition and Enrichment of Archival Documents):
+http://read.transkribus.eu/
+                        """.format(user.individual.activation_token, user.username, newpassword),
+                        settings.EMAIL_HOST_USER,
+                        [user.email],
+                        ['sfikas@iit.demokritos.gr'],
+                    )
+                    email.send(fail_silently=False)
+                    messages.add_message(request, messages.SUCCESS, _('An activation email has been sent to {} for user {}. Use the link we sent you to activate your account.').format(user.email, user.username))
+                    return HttpResponseRedirect('/competitions/#login')                          
+                else:
+                    messages.add_message(request, messages.ERROR, _('This email was not found on our database. Please make sure that you have correctly typed your email.'))
+                    return HttpResponseRedirect('/competitions/#login')
     context = {
         'login_form': login_form,
         'register_form': register_form,
+        'forgotpass_form': forgotpass_form,
         'competitions': Competition.objects.filter(is_public=True),
     }
     return render(request, 'competitions/master.html', context)
@@ -158,7 +203,7 @@ def activate(request, token_id):
     try:
         individual = Individual.objects.get(activation_token=token_id)
     except ObjectDoesNotExist:
-        messages.add_message(request, messages.SUCCESS, _('Invalid activation token.'))
+        messages.add_message(request, messages.ERROR, _('Invalid activation token.'))
     else:
         user = individual.user
         dt = timezone.now() - user.date_joined
@@ -168,6 +213,19 @@ def activate(request, token_id):
             user.save()
         else:
             messages.add_message(request, messages.SUCCESS, _('Activation token has expired.'))
+    return HttpResponseRedirect('/competitions/#login')
+
+def reactivate(request, token_id):
+    try:
+        individual = Individual.objects.get(activation_token=token_id)
+    except ObjectDoesNotExist:
+        messages.add_message(request, messages.ERROR, _('Invalid activation token.'))
+    else:
+        user = individual.user
+        messages.add_message(request, messages.SUCCESS, _('User {} has been succesfully activated. Use your credentials (see the email we sent you) to login.').format(user.username))
+        newpassword = individual.activation_token.hex[0:9]        
+        user.set_password(newpassword)
+        user.save()
     return HttpResponseRedirect('/competitions/#login')
 
 def competition_alias(request, competition_name):

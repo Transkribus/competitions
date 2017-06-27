@@ -240,6 +240,16 @@
 		                <button class="btn btn-default" type="submit" name="login">{% trans "Login" %}</button>
                         {% endbuttons %}
 		            </form>
+                    <br><hr><br>
+                    <h3 class="section-heading">{% trans "Forgot password?" %}</h3>
+                    <!-- Το ονομα του action αναφερεται στους regexp ορισμους των urls.py -->
+		            <form action="" method="post" role="form">
+		                {% csrf_token %}
+		                {% bootstrap_form forgotpass_form %}
+                        {% buttons %}
+		                <button class="btn btn-default" type="submit" name="forgotpass">{% trans "Send activation link" %}</button>
+                        {% endbuttons %}
+		            </form>                    
                 </div>
                 <div class="col-lg-4">
                     <img src="{% static 'img/nicesamples/3.jpg' %}" class="img-responsive" alt="">

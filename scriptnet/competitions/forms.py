@@ -35,6 +35,9 @@ class LoginForm(forms.Form):
     username = forms.CharField(label=_('Username'), max_length=100)
     password = forms.CharField(widget=forms.PasswordInput(), label=_('Password'), max_length=100)
 
+class ForgotpassForm(forms.Form):
+    email = forms.EmailField(label=_('Email'), max_length=100)
+
 class SubmitForm(forms.Form):
     def __init__(self, user, *args, **kwargs):
         possible_coauthors = []
