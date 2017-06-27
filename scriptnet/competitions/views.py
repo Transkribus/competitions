@@ -228,11 +228,14 @@ Competition policy is however at most one submission per *{} minutes*. Please re
 
 [
     Debug info: {} / {} / {} / {}
+    timezone.now(): {}
+    difference of [0] to now in seconds: {}
 ]
 
 ScriptNet is hosted by the National Centre of Scientific Research Demokritos and co-financed by the H2020 Project READ (Recognition and Enrichment of Archival Documents):
 http://read.transkribus.eu/
-                """.format(request.user.username, competition.submission_restriction_in_minutes, last_submission_timestamp, competition, track, subtrack),
+                """.format(request.user.username, competition.submission_restriction_in_minutes, 
+                last_submission_timestamp, competition, track, subtrack, timezone.now(), timezone.now() - last_submission_timestamp[0]),
                 settings.EMAIL_HOST_USER,
                 ['sfikas@iit.demokritos.gr'],
                 [],
