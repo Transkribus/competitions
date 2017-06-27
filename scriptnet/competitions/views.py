@@ -158,7 +158,8 @@ http://read.transkribus.eu/
                     #send the re-activation email to the first one in the queryset (user[0])
                     user = user[0]
                     user.individual.activation_token = uuid4() #Refresh token for security reasons
-                    newpassword = user.individual.activation_token.hex[0:9] #This should be considered a temporary password!
+                    user.individual.save()
+                    newpassword = user.individual.activation_token.hex[0:9] #This should be considered a temporary password! - we *wont* save it now for security reasons!
                     email = EmailMessage(
                         'Scriptnet competitions - forgot password',
                         """
