@@ -150,10 +150,13 @@ http://read.transkribus.eu/
                     messages.add_message(request, messages.ERROR, _('User {} does not exist. Please make sure that you have correctly typed your username, or register to create a new username.').format(u))                    
                     return HttpResponseRedirect('/competitions/#register')
         elif 'forgotpass' in request.POST:
-            forgotpass_form = LoginForm(request.POST)
+            forgotpass_form = ForgotpassForm(request.POST)
             if forgotpass_form.is_valid():
-                user = User.objects.filter(email=register_form.cleaned_data['email'])
-                if user is not None:
+                user = User.objects.filter(email=forgotpass_form.cleaned_data['email'])
+                if user:
+                    #If more than one people have the same email (normally this isnt allowed -- can be set manually by the admin only),
+                    #send the re-activation email to the first one in the queryset (user[0])
+                    user = user[0]
                     user.individual.activation_token = uuid4() #Refresh token for security reasons
                     newpassword = user.individual.activation_token.hex[0:9] #This should be considered a temporary password!
                     email = EmailMessage(
@@ -176,14 +179,14 @@ https://scriptnet.iit.demokritos.gr/competitions/#login
 
 ScriptNet is hosted by the National Centre of Scientific Research Demokritos and co-financed by the H2020 Project READ (Recognition and Enrichment of Archival Documents):
 http://read.transkribus.eu/
-                        """.format(user.individual.activation_token, register_form.cleaned_data['username'], newpassword),
+                        """.format(user.individual.activation_token, user.username, newpassword),
                         settings.EMAIL_HOST_USER,
                         [user.email],
                         ['sfikas@iit.demokritos.gr'],
                     )
                     email.send(fail_silently=False)
-                    messages.add_message(request, messages.SUCCESS, _('Activation email has been sent to {} for user {}. Use the link we sent you to activate your account.').format(user.email, user.username))
-                    return HttpResponseRedirect('/competitions/#register')                          
+                    messages.add_message(request, messages.SUCCESS, _('An activation email has been sent to {} for user {}. Use the link we sent you to activate your account.').format(user.email, user.username))
+                    return HttpResponseRedirect('/competitions/#login')                          
                 else:
                     messages.add_message(request, messages.ERROR, _('This email was not found on our database. Please make sure that you have correctly typed your email.'))
                     return HttpResponseRedirect('/competitions/#login')
