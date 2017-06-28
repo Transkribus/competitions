@@ -77,7 +77,11 @@
                     <li>
                         <a class="page-scroll dontunderline" href="#login">{% trans "Login" %}</a>
                     </li>
-                    {% endif %}                    
+                    {% else %}
+                    <li>
+                        <a class="page-scroll dontunderline" href="#changeinfo">{% trans "Edit user info" %}</a>
+                    </li>                    
+                    {% endif %}
                     <li>
                         <a class="page-scroll dontunderline" href="#contact">{% trans "Contact" %}</a>
                     </li>
@@ -225,8 +229,8 @@
                     <img src="{% static 'img/nicesamples/3.jpg' %}" class="img-responsive" alt="">
                 </div>
 		        <div class="col-lg-8">
-                    <h2 class="section-heading">{% trans "Register" %}</h2>
-                    <p class="text-faded">{% trans "Edit user information." %}</p>
+                    <h2 class="section-heading">{% trans "Edit user info" %}</h2>
+                    <p class="text-faded">{% trans "Make changes to your user's personal information. Leave blank fields to be unchanged." %}</p>
                     {% if messages %}
                         {% for message in messages %}
                         <div class="alert alert-{{ message.tags }}">

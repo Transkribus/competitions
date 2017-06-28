@@ -112,8 +112,12 @@ def index(request):
                     user.last_name = changeinfo_form.cleaned_data['last_name']
                 if changeinfo_form.cleaned_data['shortbio']:
                     user.individual.shortbio = changeinfo_form.cleaned_data['shortbio']
-                user.individual.affiliations = []
+                user.individual.affiliations.clear()
                 user.individual.affiliations.add(affiliation)
+                affs = []
+                for af in user.individual.affiliations.all():
+                    affs.append(af.name)
+                ','.join(affs)
                 user.individual.save()
                 user.save()                
                 email = EmailMessage(
@@ -128,11 +132,11 @@ username/alias: {}
 password: ******
 email: {}
 shortbio: {}
-affiliation: {} 
+affiliation: {}
 
 ScriptNet is hosted by the National Centre of Scientific Research Demokritos and co-financed by the H2020 Project READ (Recognition and Enrichment of Archival Documents):
 http://read.transkribus.eu/
-                    """.format(user.first_name, user.last_name, user.username, user.email, user.individual.shortbio, user.individual.affiliation),
+                    """.format(user.first_name, user.last_name, user.username, user.email, user.individual.shortbio, affs),
                     settings.EMAIL_HOST_USER,
                     [user.email],
                     ['sfikas@iit.demokritos.gr'],
