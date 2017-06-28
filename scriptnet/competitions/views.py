@@ -281,6 +281,7 @@ http://read.transkribus.eu/
         'login_form': login_form,
         'register_form': register_form,
         'forgotpass_form': forgotpass_form,
+        'changeinfo_form': changeinfo_form,
         'competitions': Competition.objects.filter(is_public=True),
     }
     return render(request, 'competitions/master.html', context)
