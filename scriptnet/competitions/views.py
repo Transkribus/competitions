@@ -63,7 +63,7 @@ def index(request):
                     messages.add_message(request, messages.ERROR, 'The (old) password you have entered is incorrect.')
                     return HttpResponseRedirect('/competitions/#changeinfo')                    
                 tt = User.objects.filter(username=changeinfo_form.cleaned_data['username'])
-                if tt and request.user.username and request.user.username not in tt:
+                if tt and request.user.username and request.user.username not in [x.username for x in tt]:
                     errormessage_str_1 = _('The username')
                     errormessage_str_2 = _('already exists, please pick a different one.')
                     messages.add_message(request, messages.ERROR, 
@@ -142,7 +142,6 @@ http://read.transkribus.eu/
                     ['sfikas@iit.demokritos.gr'],
                 )
                 email.send(fail_silently=False)
-                #TODO (minor): For some reason the user has to re-authenticate himself -- authenticate just doesnt work
                 messages.add_message(request, messages.SUCCESS, _('An email has been sent to {}, summarizing the information you have changed.').format(user.email))
                 return HttpResponseRedirect('/competitions/#login')
         else:
