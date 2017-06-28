@@ -102,8 +102,6 @@ def index(request):
                 #Change info only for non-blank elements!
                 if changeinfo_form.cleaned_data['username']:
                     user.username = changeinfo_form.cleaned_data['username']
-                if changeinfo_form.cleaned_data['newpassword']:
-                    user.set_password('newpassword')
                 if changeinfo_form.cleaned_data['email']:
                     user.email = changeinfo_form.cleaned_data['email']
                 if changeinfo_form.cleaned_data['first_name']:
@@ -119,7 +117,9 @@ def index(request):
                     affs.append(af.name)
                 ','.join(affs)
                 user.individual.save()
-                user.save()                
+                if changeinfo_form.cleaned_data['newpassword']:
+                    user.set_password(changeinfo_form.cleaned_data['newpassword'])
+                user.save()
                 email = EmailMessage(
                     'Scriptnet competitions - edit account info',
                     """
@@ -233,11 +233,11 @@ http://read.transkribus.eu/
                         login(request, user)
                     else:
                         u = login_form.cleaned_data['username']                        
-                        messages.add_message(request, messages.ERROR, _('User {} is not activated. If you are a new user, you have to activate your account with the activation link we sent you.').format(u))                                                
+                        messages.add_message(request, messages.ERROR, _('User {} is not activated. If you are a new user, you have to activate your account with the activation link we sent you.').format(u))
                         return HttpResponseRedirect('/competitions/#register')
                 else:
-                    u = login_form.cleaned_data['username']                    
-                    messages.add_message(request, messages.ERROR, _('User {} does not exist. Please make sure that you have correctly typed your username, or register to create a new username.').format(u))                    
+                    u = login_form.cleaned_data['username']
+                    messages.add_message(request, messages.ERROR, _('This user ({})/password combination is not valid. Please make sure that you have correctly typed your username and/or your password, or register to create a new username.').format(u))
                     return HttpResponseRedirect('/competitions/#register')
         elif 'forgotpass' in request.POST:
             forgotpass_form = ForgotpassForm(request.POST)
