@@ -77,7 +77,11 @@
                     <li>
                         <a class="page-scroll dontunderline" href="#login">{% trans "Login" %}</a>
                     </li>
-                    {% endif %}                    
+                    {% else %}
+                    <li>
+                        <a class="page-scroll dontunderline" href="#changeinfo">{% trans "Edit user info" %}</a>
+                    </li>                    
+                    {% endif %}
                     <li>
                         <a class="page-scroll dontunderline" href="#contact">{% trans "Contact" %}</a>
                     </li>
@@ -216,6 +220,36 @@
             </div>
         </div>
     </section>
+    {% else %}
+    <section class="bg-primary" id="changeinfo">
+        <div class="container">
+            <div class="row">
+                <!-- <div class="col-lg-8 col-lg-offset-2 text-center"> -->
+                <div class="col-lg-4">
+                    <img src="{% static 'img/nicesamples/3.jpg' %}" class="img-responsive" alt="">
+                </div>
+		        <div class="col-lg-8">
+                    <h2 class="section-heading">{% trans "Edit user info" %}</h2>
+                    <p class="text-faded">{% trans "Make changes to your user's personal information. Leave blank fields to be unchanged." %}</p>
+                    {% if messages %}
+                        {% for message in messages %}
+                        <div class="alert alert-{{ message.tags }}">
+                            {{ message }}
+                        </div>
+                        {% endfor %}
+                    {% endif %}
+                    <!-- Το ονομα του action αναφερεται στους regexp ορισμους των urls.py -->
+		            <form action="" method="post" role="form">
+		                {% csrf_token %}
+		                {% bootstrap_form changeinfo_form %}
+                        {% buttons %}
+		                <button class="btn btn-default" type="submit" name="changeinfo">{% trans "Edit info" %}</button>
+                        {% endbuttons %}
+		            </form>
+                </div>
+            </div>
+        </div>
+    </section>    
     {% endif %}
 
     {% if not user.is_authenticated %}

@@ -14,6 +14,7 @@ from django.core.exceptions import ObjectDoesNotExist
 
 from .forms import LoginForm, RegisterForm, NEW_AFFILIATION_ID
 from .forms import ForgotpassForm
+from .forms import ChangeinfoForm
 from .forms import SubmitForm
 from .forms import WatchForm
 from .forms import SendMailForm
@@ -53,10 +54,99 @@ def index(request):
     login_form = LoginForm()
     forgotpass_form = ForgotpassForm()
     register_form = RegisterForm()
-    if request.user.is_authenticated():
-        #TODO: Print a warning that we were already logged in, logout current user and proceed
-        pass
-        #return HttpResponseRedirect('/competitions/')
+    changeinfo_form = ChangeinfoForm()
+    if request.user.is_authenticated() and request.method == 'POST':
+        if 'changeinfo' in request.POST:
+            changeinfo_form = ChangeinfoForm(request.POST)
+            if changeinfo_form.is_valid():
+                if not request.user.check_password(changeinfo_form.cleaned_data['password']):
+                    messages.add_message(request, messages.ERROR, 'The (old) password you have entered is incorrect.')
+                    return HttpResponseRedirect('/competitions/#changeinfo')                    
+                tt = User.objects.filter(username=changeinfo_form.cleaned_data['username'])
+                if tt and request.user.username and request.user.username not in [x.username for x in tt]:
+                    errormessage_str_1 = _('The username')
+                    errormessage_str_2 = _('already exists, please pick a different one.')
+                    messages.add_message(request, messages.ERROR, 
+                        '{} {} {}'.format(
+                            errormessage_str_1,
+                            changeinfo_form.cleaned_data['username'],
+                            errormessage_str_2,
+                        )
+                    )
+                    return HttpResponseRedirect('/competitions/#changeinfo')
+                tt = User.objects.filter(email=changeinfo_form.cleaned_data['email'])
+                if tt and request.user.email and request.user.email not in tt:
+                    errormessage_str_1 = _('The email')
+                    errormessage_str_2 = _('is used by an existing account.')
+                    messages.add_message(request, messages.ERROR, 
+                        '{} {} {}'.format(
+                            errormessage_str_1,
+                            changeinfo_form.cleaned_data['email'],
+                            errormessage_str_2,
+                        )
+                    )
+                    return HttpResponseRedirect('/competitions/#changeinfo')
+                affiliations_id = int(changeinfo_form.cleaned_data['affiliations'])
+                affiliations_newstring = changeinfo_form.cleaned_data['new_affiliation']
+                if(affiliations_id == NEW_AFFILIATION_ID):
+                    if not affiliations_newstring:
+                        messages.add_message(request, messages.ERROR, _('Please specify your affiliation if it does not appear on the list.'))
+                        return HttpResponseRedirect('/competitions/#changeinfo')
+                    affiliation = Affiliation.objects.create(name=affiliations_newstring)
+                else:
+                    if affiliations_newstring:
+                        messages.add_message(request, messages.ERROR, _('Please specify either an affiliation from the list, or "other" and specify a new affiliation.'))                        
+                        return HttpResponseRedirect('/competitions/#changeinfo')
+                    affiliation = Affiliation.objects.get(pk=affiliations_id)
+                user = request.user
+                #Change info only for non-blank elements!
+                if changeinfo_form.cleaned_data['username']:
+                    user.username = changeinfo_form.cleaned_data['username']
+                if changeinfo_form.cleaned_data['email']:
+                    user.email = changeinfo_form.cleaned_data['email']
+                if changeinfo_form.cleaned_data['first_name']:
+                    user.first_name = changeinfo_form.cleaned_data['first_name']
+                if changeinfo_form.cleaned_data['last_name']:
+                    user.last_name = changeinfo_form.cleaned_data['last_name']
+                if changeinfo_form.cleaned_data['shortbio']:
+                    user.individual.shortbio = changeinfo_form.cleaned_data['shortbio']
+                user.individual.affiliations.clear()
+                user.individual.affiliations.add(affiliation)
+                affs = []
+                for af in user.individual.affiliations.all():
+                    affs.append(af.name)
+                ','.join(affs)
+                user.individual.save()
+                if changeinfo_form.cleaned_data['newpassword']:
+                    user.set_password(changeinfo_form.cleaned_data['newpassword'])
+                user.save()
+                email = EmailMessage(
+                    'Scriptnet competitions - edit account info',
+                    """
+You have received this email because you have recently changed your personal account information on Scriptnet Competitions.
+
+Your info now are:
+
+name: {} {}
+username/alias: {}
+password: ******
+email: {}
+shortbio: {}
+affiliation: {}
+
+ScriptNet is hosted by the National Centre of Scientific Research Demokritos and co-financed by the H2020 Project READ (Recognition and Enrichment of Archival Documents):
+http://read.transkribus.eu/
+                    """.format(user.first_name, user.last_name, user.username, user.email, user.individual.shortbio, affs),
+                    settings.EMAIL_HOST_USER,
+                    [user.email],
+                    ['sfikas@iit.demokritos.gr'],
+                )
+                email.send(fail_silently=False)
+                messages.add_message(request, messages.SUCCESS, _('An email has been sent to {}, summarizing the information you have changed.').format(user.email))
+                return HttpResponseRedirect('/competitions/#login')
+        else:
+            #Print some warning?
+            pass
     if request.method == 'POST':
         if 'register' in request.POST:
             register_form = RegisterForm(request.POST)
@@ -143,11 +233,11 @@ http://read.transkribus.eu/
                         login(request, user)
                     else:
                         u = login_form.cleaned_data['username']                        
-                        messages.add_message(request, messages.ERROR, _('User {} is not activated. If you are a new user, you have to activate your account with the activation link we sent you.').format(u))                                                
+                        messages.add_message(request, messages.ERROR, _('User {} is not activated. If you are a new user, you have to activate your account with the activation link we sent you.').format(u))
                         return HttpResponseRedirect('/competitions/#register')
                 else:
-                    u = login_form.cleaned_data['username']                    
-                    messages.add_message(request, messages.ERROR, _('User {} does not exist. Please make sure that you have correctly typed your username, or register to create a new username.').format(u))                    
+                    u = login_form.cleaned_data['username']
+                    messages.add_message(request, messages.ERROR, _('This user ({})/password combination is not valid. Please make sure that you have correctly typed your username and/or your password, or register to create a new username.').format(u))
                     return HttpResponseRedirect('/competitions/#register')
         elif 'forgotpass' in request.POST:
             forgotpass_form = ForgotpassForm(request.POST)
@@ -195,6 +285,7 @@ http://read.transkribus.eu/
         'login_form': login_form,
         'register_form': register_form,
         'forgotpass_form': forgotpass_form,
+        'changeinfo_form': changeinfo_form,
         'competitions': Competition.objects.filter(is_public=True),
     }
     return render(request, 'competitions/master.html', context)
