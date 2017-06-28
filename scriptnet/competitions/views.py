@@ -142,8 +142,9 @@ http://read.transkribus.eu/
                     ['sfikas@iit.demokritos.gr'],
                 )
                 email.send(fail_silently=False)
+                #TODO (minor): For some reason the user has to re-authenticate himself -- authenticate just doesnt work
                 messages.add_message(request, messages.SUCCESS, _('An email has been sent to {}, summarizing the information you have changed.').format(user.email))
-                return HttpResponseRedirect('/competitions/#changeinfo')
+                return HttpResponseRedirect('/competitions/#login')
         else:
             #Print some warning?
             pass
