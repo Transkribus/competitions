@@ -139,7 +139,7 @@ http://read.transkribus.eu/
                     """.format(user.first_name, user.last_name, user.username, user.email, user.individual.shortbio, affs),
                     settings.EMAIL_HOST_USER,
                     [user.email],
-                    ['sfikas@iit.demokritos.gr'],
+                    [settings.EMAIL_ADMINISTRATOR],
                 )
                 email.send(fail_silently=False)
                 messages.add_message(request, messages.SUCCESS, _('An email has been sent to {}, summarizing the information you have changed.').format(user.email))
@@ -217,7 +217,7 @@ http://read.transkribus.eu/
                     """.format(user.individual.activation_token, register_form.cleaned_data['username']),
                     settings.EMAIL_HOST_USER,
                     [user.email],
-                    ['sfikas@iit.demokritos.gr'],
+                    [settings.EMAIL_ADMINISTRATOR],
                 )
                 email.send(fail_silently=False)
                 messages.add_message(request, messages.SUCCESS, _('Activation email has been sent to {} for user {}. Use the link we sent you to activate your account.').format(user.email, user.username))
@@ -273,7 +273,7 @@ http://read.transkribus.eu/
                         """.format(user.individual.activation_token, user.username, newpassword),
                         settings.EMAIL_HOST_USER,
                         [user.email],
-                        ['sfikas@iit.demokritos.gr'],
+                        [settings.EMAIL_ADMINISTRATOR],
                     )
                     email.send(fail_silently=False)
                     messages.add_message(request, messages.SUCCESS, _('An activation email has been sent to {} for user {}. Use the link we sent you to activate your account.').format(user.email, user.username))
@@ -386,7 +386,7 @@ http://read.transkribus.eu/
                 """.format(request.user.username, competition.submission_restriction_in_minutes, 
                 last_submission_timestamp, competition, track, subtrack, timezone.now(), timezone.now() - last_submission_timestamp[0]),
                 settings.EMAIL_HOST_USER,
-                ['sfikas@iit.demokritos.gr'],
+                [settings.EMAIL_ADMINISTRATOR],
                 [],
                 )
                 email.send(fail_silently=False)                
@@ -569,7 +569,7 @@ User {} (email: {}) has declared that wants to **follow** the competition:
 {} (id: {})
                     """.format(request.user.username, request.user.email, competition.name, competition.id),
                     settings.EMAIL_HOST_USER,
-                    ['sfikas@iit.demokritos.gr'],
+                    [settings.EMAIL_ADMINISTRATOR],
                     [],
                 )
             email.send(fail_silently=False)            
@@ -584,7 +584,7 @@ User {} (email: {}) has declared that wants to unfollow the competition:
 {} (id: {})
                     """.format(request.user.username, request.user.email, competition.name, competition.id),
                     settings.EMAIL_HOST_USER,
-                    ['sfikas@iit.demokritos.gr'],
+                    [settings.EMAIL_ADMINISTRATOR],
                     [],
                 )
             email.send(fail_silently=False)                        
@@ -606,7 +606,7 @@ def createSendMailToParticipantsButton(request, competition):
                 mailinglist = []
                 for w in competition.watchers.all():
                     mailinglist.append(w.user.email)
-                mailinglist.append('sfikas@iit.demokritos.gr')
+                mailinglist.append(settings.EMAIL_ADMINISTRATOR)
                 if request.user.email not in mailinglist:
                     mailinglist.append(request.user.email)
                 email = EmailMessage(

@@ -63,7 +63,7 @@ http://read.transkribus.eu/
         """.format(uname, status_final, status, logfile),
         settings.EMAIL_HOST_USER,
         [uemail],
-        ['sfikas@iit.demokritos.gr'],
+        [settings.EMAIL_ADMINISTRATOR],
     )
     email.send(fail_silently=False)
 
