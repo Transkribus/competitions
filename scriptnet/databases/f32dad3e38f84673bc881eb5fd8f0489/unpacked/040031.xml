@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+  <Metadata>
+    <Creator>TRP
+NCSR LineSegmentationTool, v0.3.0 (17_3_2015)</Creator>
+    <Created>2016-12-22T15:32:48.093+01:00</Created>
+    <LastChange>2016-12-30T13:00:36.490+01:00</LastChange>
+  </Metadata>
+  <Page imageFilename="040031.jpg" imageWidth="2442" imageHeight="2987">
+    <ReadingOrder>
+      <OrderedGroup id="ro_1483099236438" caption="Regions reading order">
+        <RegionRefIndexed index="0" regionRef="region_1483097062828_1"/>
+        <RegionRefIndexed index="1" regionRef="region_1483097067984_2"/>
+      </OrderedGroup>
+    </ReadingOrder>
+    <TextRegion id="region_1483097062828_1">
+      <Coords points="705,366 1688,366 1688,843 705,843"/>
+      <TextLine id="line_1483097099688_3">
+        <Coords points="855,490 1027,486 1273,497 1497,497 1497,547 1272,547 1027,536 856,540"/>
+        <Baseline points="856,535 1027,531 1272,542 1497,542"/>
+        <TextEquiv>
+          <Unicode>Hochwohlgeborner Herr,</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1483097108469_4">
+        <Coords points="713,733 1117,732 1297,729 1674,737 1673,787 1297,779 1117,782 713,783"/>
+        <Baseline points="713,778 1117,777 1297,774 1673,782"/>
+        <TextEquiv>
+          <Unicode>Hochzuverehrender Herr Archivrath!</Unicode>
+        </TextEquiv>
+      </TextLine>
+    </TextRegion>
+    <TextRegion id="region_1483097067984_2">
+      <Coords points="492,1154 2330,1154 2330,2547 492,2547"/>
+      <TextLine id="r1001">
+        <Coords points="673,1169 638,1182 577,1254 565,1327 565,1333 565,1335 626,1374 718,1376 955,1372 964,1376 2214,1368 2258,1322 2263,1291 2263,1286 2260,1280 2211,1221 2189,1221 2145,1220 2088,1220 2008,1219 1741,1219 1634,1218 1594,1218 1545,1217 1426,1217 1405,1216 1385,1216 674,1169"/>
+        <Baseline points="565,1327 847,1317 1130,1311 1412,1308 1695,1307 2263,1309"/>
+        <TextEquiv>
+          <Unicode>Recht sehr um Entschuldigung muß ich Ew. Hochwohlgeboren bitten, daß ich</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r1002">
+        <Coords points="952,1373 664,1381 575,1387 558,1391 540,1451 540,1455 543,1460 1018,1483 1587,1480 1701,1479 2162,1472 2243,1459 2253,1437 2253,1432 2250,1422 2206,1386 2204,1386 2186,1385 2145,1385 2134,1384 2131,1384 2115,1376 1347,1377 1260,1377 1247,1377 973,1376 961,1376 953,1373"/>
+        <Baseline points="540,1450 825,1438 1110,1432 1395,1431 1680,1429 2253,1426"/>
+        <TextEquiv>
+          <Unicode>die beikommende Handschrift nicht früher zurückgeschickt habe; eine in den Osterferien</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r1003">
+        <Coords points="2221,1471 1312,1480 752,1489 561,1520 546,1557 542,1605 542,1610 546,1612 1260,1582 1784,1590 2098,1591 2238,1548 2245,1533 2233,1474 2222,1471"/>
+        <Baseline points="542,1559 825,1550 1109,1546 1392,1537 1676,1532 2245,1525"/>
+        <TextEquiv>
+          <Unicode>gemachte Reise und dabei mehre unaufschiebliche Arbeiten, die ich im philologischen Se¬</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r1004">
+        <Coords points="1257,1583 876,1596 565,1628 551,1662 551,1666 557,1677 724,1704 1064,1697 1099,1679 1106,1679 2253,1691 2274,1688 2292,1626 2282,1598 2243,1588 2201,1588 2198,1587 1562,1587 1549,1586 1366,1586 1290,1586 1258,1583"/>
+        <Baseline points="551,1666 840,1651 1130,1639 1419,1634 1709,1634 2292,1637"/>
+        <TextEquiv>
+          <Unicode>minar gleich beim Anfang des Semesters einzuliefern hatte, machten es mir unmöglich</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r1005">
+        <Coords points="1097,1680 1064,1697 1063,1697 923,1696 727,1713 706,1713 617,1712 607,1712 567,1711 552,1764 553,1772 680,1814 1709,1789 2210,1797 2302,1773 2311,1751 2311,1747 2267,1693 2266,1693 2242,1692 1936,1692 1908,1691 1780,1691 1752,1690 1552,1690 1519,1690 1325,1689 1299,1689 1098,1680"/>
+        <Baseline points="552,1766 844,1755 1137,1749 1429,1744 1722,1742 2266,1748 2309,1767"/>
+        <TextEquiv>
+          <Unicode>die Abschrift der ganzen Handschrift früher zu vollenden. Da ich Weihnachten mein Examen</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r1006">
+        <Coords points="1704,1794 687,1816 663,1816 658,1816 655,1815 573,1815 570,1814 538,1856 530,1917 530,1921 535,1923 874,1901 974,1914 1044,1894 1057,1905 1390,1890 1542,1889 2071,1900 2263,1870 2282,1837 2282,1832 2282,1830 2168,1797 2045,1798 1826,1798 1817,1797 1750,1797 1705,1794"/>
+        <Baseline points="530,1872 821,1864 1113,1853 1404,1848 1696,1837 2282,1846"/>
+        <TextEquiv>
+          <Unicode>hier zu machen wünsche, so würde es mir freilich diesen Sommer nicht möglich sein, an</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r1007">
+        <Coords points="1536,1890 1390,1891 1059,1906 1058,1906 1048,1895 976,1915 971,1915 842,1914 590,1914 565,1913 543,1979 543,1987 543,1989 546,1994 642,2018 746,2016 1035,2014 1569,2008 1608,1993 2208,1982 2254,1943 2254,1919 2249,1904 2227,1903 2135,1903 2108,1902 1966,1902 1951,1901 1885,1901 1874,1901 1592,1900 1581,1900 1537,1890"/>
+        <Baseline points="543,1983 827,1969 1112,1954 1396,1945 1681,1944 2254,1940"/>
+        <TextEquiv>
+          <Unicode>die eigentliche Bearbeitung anders als nur ab und zu zu gehn, was mich aber wohl</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r1008">
+        <Coords points="1922,1995 1608,1999 1035,2015 1028,2015 967,2014 960,2014 909,2013 830,2013 805,2012 803,2012 769,2011 746,2019 730,2019 725,2009 722,2009 698,2008 643,2027 642,2027 599,2026 545,2052 531,2116 531,2122 535,2124 1134,2104 1405,2099 1669,2097 2170,2096 2212,2101 2287,2058 2290,2046 2290,2041 2221,1996 2210,1995 1923,1995"/>
+        <Baseline points="531,2081 823,2067 1116,2048 1408,2050 1701,2050 2290,2043"/>
+        <TextEquiv>
+          <Unicode>zerstreuen und der Arbeit selbst mehr schaden als nützen würde. Ich halte es im Gegen¬</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r1009">
+        <Coords points="1404,2100 1134,2105 576,2114 542,2170 543,2220 543,2223 844,2221 2232,2200 2281,2157 2284,2146 2282,2119 2280,2112 2238,2102 2186,2102 2174,2101 1673,2101 1663,2100 1405,2100"/>
+        <Baseline points="542,2184 832,2169 1122,2156 1412,2155 1702,2154 2284,2144"/>
+        <TextEquiv>
+          <Unicode>theile für viel förderlicher, sie in dieser nächsten Zeit zurückzulegen und dann das letzte</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r1010">
+        <Coords points="1736,2207 560,2226 542,2258 543,2292 544,2296 651,2320 694,2321 928,2319 1611,2312 1731,2297 1794,2309 1867,2292 2158,2303 2270,2281 2291,2242 2291,2236 2229,2212 2121,2212 2113,2208 1744,2208 1737,2207"/>
+        <Baseline points="542,2279 833,2276 1124,2271 1415,2260 1706,2252 2291,2253"/>
+        <TextEquiv>
+          <Unicode>Vierteljahr, was ich ganz für mich haben werde, ihr ausschließlich zu widmen so daß ich dann</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r1011">
+        <Coords points="1865,2293 1794,2310 1790,2310 1731,2298 1611,2313 1605,2313 1488,2312 1466,2312 1210,2311 1180,2311 1152,2310 1130,2310 1114,2309 928,2320 923,2320 702,2319 694,2322 689,2322 651,2321 648,2321 640,2320 605,2320 542,2319 530,2349 539,2388 585,2408 1279,2406 1979,2401 2126,2398 2258,2384 2286,2332 2286,2326 2286,2324 2282,2318 2027,2295 1877,2295 1866,2293"/>
+        <Baseline points="530,2378 822,2369 1114,2366 1406,2362 1698,2355 2286,2350"/>
+        <TextEquiv>
+          <Unicode>unzerstreut, und im steten Zusammenhange daran arbeiten kann. Da Ew. Hochwohlgeboren</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r1012">
+        <Coords points="2187,2404 2148,2432 2142,2449 2141,2479 2141,2481 2144,2486 2212,2500 2216,2500 2246,2490 2267,2461 2270,2438 2270,2433 2197,2404 2188,2404"/>
+        <Baseline points="2141,2454 2270,2458"/>
+        <TextEquiv>
+          <Unicode>zunächst</Unicode>
+        </TextEquiv>
+      </TextLine>
+    </TextRegion>
+  </Page>
+</PcGts>

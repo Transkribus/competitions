@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+  <Metadata>
+    <Creator>htrsh_pagexml_create</Creator>
+    <Created>2017-01-30T12:36:12</Created>
+    <LastChange>2017-02-16T13:05:46.604+01:00</LastChange>
+  </Metadata>
+  <Page imageFilename="040032.jpg" imageWidth="981" imageHeight="1440">
+    <ReadingOrder>
+      <OrderedGroup id="ro_1487246746730" caption="Regions reading order">
+        <RegionRefIndexed index="0" regionRef="pg"/>
+      </OrderedGroup>
+    </ReadingOrder>
+    <TextRegion id="pg">
+      <Coords points="24,119 969,119 969,1390 24,1390"/>
+      <TextLine id="line_1487246511744_2915">
+        <Coords points="79,142 942,121 943,171 80,192"/>
+        <Baseline points="80,187 943,166"/>
+        <TextEquiv>
+          <Unicode>moment pour faire un saut à Florence, comme j'eus</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1487246516577_2916">
+        <Coords points="70,188 950,169 951,219 71,238"/>
+        <Baseline points="71,233 951,214"/>
+        <TextEquiv>
+          <Unicode>l'honneur de vous en prévenir; c'est 8 à 10 jours de</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1487246520694_2917">
+        <Coords points="71,237 690,224 691,274 72,287"/>
+        <Baseline points="72,282 691,269"/>
+        <TextEquiv>
+          <Unicode>retard avant de rentrer à Zuric.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1487246526156_2918">
+        <Coords points="171,283 942,256 944,306 173,333"/>
+        <Baseline points="173,328 944,301"/>
+        <TextEquiv>
+          <Unicode>Je ne reviendrai pas sur le résultat de notre</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1487246532294_2919">
+        <Coords points="62,340 929,307 931,357 64,390"/>
+        <Baseline points="64,385 931,352"/>
+        <TextEquiv>
+          <Unicode>mission ici; la Concession a des conditions que l'on</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1487246537612_2920">
+        <Coords points="60,384 923,350 925,400 62,434"/>
+        <Baseline points="62,429 925,395"/>
+        <TextEquiv>
+          <Unicode>ne saurait accepter que lorsqu'on doit s'en emparer</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1487246542122_2921">
+        <Coords points="64,426 912,394 914,444 66,476"/>
+        <Baseline points="66,471 914,439"/>
+        <TextEquiv>
+          <Unicode>coûte que coûte. – M. Siegfried vous a instruit</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1487246547605_2922">
+        <Coords points="50,470 866,437 868,487 52,520"/>
+        <Baseline points="52,515 868,482"/>
+        <TextEquiv>
+          <Unicode>jour par jour, sinon heure par heure, de tous les</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1487246553930_2923">
+        <Coords points="69,511 899,490 900,540 70,561"/>
+        <Baseline points="70,556 900,535"/>
+        <TextEquiv>
+          <Unicode>incidents et de toutes les difficultés de notre</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1487246559713_2924">
+        <Coords points="46,557 938,541 939,591 47,607"/>
+        <Baseline points="47,602 939,586"/>
+        <TextEquiv>
+          <Unicode>position au milieu du choc d'intérêts fort diver-</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1487246568232_2925">
+        <Coords points="43,597 546,600 920,592 921,642 546,650 43,647"/>
+        <Baseline points="43,642 546,645 921,637"/>
+        <TextEquiv>
+          <Unicode>gents. Le résultat obtenu, dans une telle situation,</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1487246576053_2926">
+        <Coords points="60,647 533,648 939,635 940,685 534,698 60,697"/>
+        <Baseline points="60,692 534,693 940,680"/>
+        <TextEquiv>
+          <Unicode>est encore fort heureux, car le parti de l'ajourne-</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1487246586179_2927">
+        <Coords points="51,695 618,690 932,684 933,734 619,740 51,745"/>
+        <Baseline points="51,740 619,735 933,729"/>
+        <TextEquiv>
+          <Unicode>ment, l'avant dernière séance de la session, avait</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1487246591827_2928">
+        <Coords points="55,743 582,737 583,787 56,793"/>
+        <Baseline points="56,788 583,782"/>
+        <TextEquiv>
+          <Unicode>beaucoup de chances pour lui.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1487246600964_2929">
+        <Coords points="180,789 873,777 924,770 931,820 876,827 181,839"/>
+        <Baseline points="181,834 876,822 930,815"/>
+        <TextEquiv>
+          <Unicode>Je pense que vous aurez apprécié la longue</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1487246614242_2930">
+        <Coords points="37,831 190,834 934,822 935,872 190,884 36,881"/>
+        <Baseline points="36,876 190,879 935,867"/>
+        <TextEquiv>
+          <Unicode>prorogation obtenue pour les 2 Concessions du 10 </Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1487246618615_2931">
+        <Coords points="65,882 928,871 929,921 66,932"/>
+        <Baseline points="66,927 929,916"/>
+        <TextEquiv>
+          <Unicode>mai 1868; c'est 2 ans à partir de la ratification</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1487246625845_2932">
+        <Coords points="45,929 943,917 944,967 46,979"/>
+        <Baseline points="46,974 944,962"/>
+        <TextEquiv>
+          <Unicode>fédérale, tandis que leur efficacité n'allait que</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1487246636908_2933">
+        <Coords points="36,978 606,971 953,961 954,1011 607,1021 37,1028"/>
+        <Baseline points="37,1023 607,1016 954,1006"/>
+        <TextEquiv>
+          <Unicode>jusqu'au 12 oct. prochain, et devait former une</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1487246646816_2934">
+        <Coords points="43,1025 708,1020 926,1009 928,1059 709,1070 43,1075"/>
+        <Baseline points="43,1070 709,1065 928,1054"/>
+        <TextEquiv>
+          <Unicode>grande préoccupation à cause des 2 millions</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1487246652439_2935">
+        <Coords points="64,1074 940,1066 940,1116 64,1124"/>
+        <Baseline points="64,1119 940,1111"/>
+        <TextEquiv>
+          <Unicode>de subsides. Maintenant le Comité est tout à</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1487246661081_2936">
+        <Coords points="49,1115 881,1118 881,1168 49,1165"/>
+        <Baseline points="49,1160 881,1163"/>
+        <TextEquiv>
+          <Unicode>fait à son aise pour les opérations qui lui</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1487246673734_2937">
+        <Coords points="62,1162 880,1167 880,1217 62,1212"/>
+        <Baseline points="62,1207 880,1212"/>
+        <TextEquiv>
+          <Unicode>restent à faire avant la constitution dela</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1487246681671_2938">
+        <Coords points="63,1207 275,1205 275,1255 63,1257"/>
+        <Baseline points="63,1252 275,1250"/>
+        <TextEquiv>
+          <Unicode>Société. –</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1487246690878_2939">
+        <Coords points="209,1250 915,1254 915,1304 209,1300"/>
+        <Baseline points="209,1295 915,1299"/>
+        <TextEquiv>
+          <Unicode>Quant aux subsides il n'est pas douteux</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1487246701253_2940">
+        <Coords points="65,1294 804,1304 939,1301 940,1351 804,1354 64,1344"/>
+        <Baseline points="64,1339 804,1349 940,1346"/>
+        <TextEquiv>
+          <Unicode>que le Canton n'ajoute au minimum, 1 million</Unicode>
+        </TextEquiv>
+      </TextLine>
+    </TextRegion>
+  </Page>
+</PcGts>

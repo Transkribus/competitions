@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+  <Metadata>
+    <Creator>TRP</Creator>
+    <Created>2016-12-22T15:32:47.024+01:00</Created>
+    <LastChange>2017-01-20T11:32:53.802+01:00</LastChange>
+  </Metadata>
+  <Page imageFilename="040006.jpg" imageWidth="2626" imageHeight="3264">
+    <ReadingOrder>
+      <OrderedGroup id="ro_1484908373839" caption="Regions reading order">
+        <RegionRefIndexed index="0" regionRef="region_1483627647235_261"/>
+        <RegionRefIndexed index="1" regionRef="region_1483627651157_262"/>
+        <RegionRefIndexed index="2" regionRef="region_1483627657214_263"/>
+        <RegionRefIndexed index="3" regionRef="region_1483627721672_267"/>
+      </OrderedGroup>
+    </ReadingOrder>
+    <TextRegion id="region_1483627647235_261">
+      <Coords points="1658,32 1752,32 1752,111 1658,111"/>
+      <TextLine id="line_1483627667753_264">
+        <Coords points="1666,57 1740,49 1746,99 1672,107"/>
+        <Baseline points="1671,102 1745,94"/>
+        <TextEquiv>
+          <Unicode>51</Unicode>
+        </TextEquiv>
+      </TextLine>
+    </TextRegion>
+    <TextRegion id="region_1483627651157_262">
+      <Coords points="1771,104 2575,104 2575,191 1771,191"/>
+      <TextLine id="line_1483627674775_265">
+        <Coords points="1783,121 2557,117 2557,167 1783,171"/>
+        <Baseline points="1783,166 2569,162"/>
+        <TextEquiv>
+          <Unicode>Wien den 2 ten September 1857</Unicode>
+        </TextEquiv>
+      </TextLine>
+    </TextRegion>
+    <TextRegion id="region_1483627657214_263">
+      <Coords points="665,524 1741,524 1741,686 665,686"/>
+      <TextLine id="line_1483627685999_266">
+        <Coords points="716,592 1194,591 1667,582 1713,599 1694,646 1658,631 1195,641 716,642"/>
+        <Baseline points="716,637 1195,636 1659,626 1696,641"/>
+        <TextEquiv>
+          <Unicode>Hochverehrter Herr Geheimer Rath!</Unicode>
+        </TextEquiv>
+      </TextLine>
+    </TextRegion>
+    <TextRegion id="region_1483627721672_267">
+      <Coords points="206,779 2623,779 2623,2886 206,2886"/>
+      <TextLine id="line_1483627735805_268">
+        <Coords points="1626,842 1772,842 1772,892 1626,892"/>
+        <Baseline points="1626,887 1772,887"/>
+        <TextEquiv>
+          <Unicode>hatten</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1483627740086_269">
+        <Coords points="252,904 2487,895 2487,945 252,954"/>
+        <Baseline points="252,949 2487,940"/>
+        <TextEquiv>
+          <Unicode>Die Vollmacht, die Sie mir zu übersenden die Güte u für die ich Ihnen meinen</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1483627745430_270">
+        <Coords points="249,1003 2527,997 2527,1047 249,1053"/>
+        <Baseline points="249,1048 2527,1042"/>
+        <TextEquiv>
+          <Unicode>ergebensten Dank sage, führte bald den Erfolg herbei, daß mir die Benutzung</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1483627749680_271">
+        <Coords points="249,1095 2535,1097 2535,1147 249,1145"/>
+        <Baseline points="249,1140 2535,1142"/>
+        <TextEquiv>
+          <Unicode>sowohl des Staatsarchivs wie des Deutschordensarchivs gewährt wurde. Durch</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1483627753805_272">
+        <Coords points="252,1190 2516,1198 2516,1248 252,1240"/>
+        <Baseline points="252,1235 2516,1243"/>
+        <TextEquiv>
+          <Unicode>die Güte des Hofraths Schön war es mir gestattet, bereits am vergan¬</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1483627758548_273">
+        <Coords points="256,1290 2520,1292 2520,1342 256,1340"/>
+        <Baseline points="256,1335 2520,1337"/>
+        <TextEquiv>
+          <Unicode>genen Sontag fünf Stunden im Deutschordensarchiv zu arbeiten. Ich bin</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1483627767992_274">
+        <Coords points="255,1394 1622,1381 2558,1398 2557,1448 1622,1431 255,1444"/>
+        <Baseline points="255,1439 1622,1426 2557,1443"/>
+        <TextEquiv>
+          <Unicode>mit den Urkunden daselbst bis in die Mitte des 13 ten Jahrhunderts vor¬</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1483627772371_275">
+        <Coords points="247,1487 2511,1493 2511,1543 247,1537"/>
+        <Baseline points="247,1532 2511,1538"/>
+        <TextEquiv>
+          <Unicode>gerückt. Ziemlich viele derselben, wie sie in dem durch Ihren Herrn Sohn</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1483627776168_276">
+        <Coords points="257,1591 2538,1585 2538,1635 257,1641"/>
+        <Baseline points="257,1636 2538,1630"/>
+        <TextEquiv>
+          <Unicode>mir zugeschickten Packet verzeichnet sind, gehören aber der zweiten Hälfte</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1483627781052_277">
+        <Coords points="268,1701 2536,1697 2536,1747 268,1751"/>
+        <Baseline points="268,1746 2536,1742"/>
+        <TextEquiv>
+          <Unicode>des 15 ten Jahrhunderts an u ich bitte Sie, mir gütigst mittheilen zu</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1483627785630_278">
+        <Coords points="267,1803 2565,1791 2565,1841 267,1853"/>
+        <Baseline points="267,1848 2565,1836"/>
+        <TextEquiv>
+          <Unicode>wollen, ob ich auch von allen diesen Abschrift zu nehmen habe, oder etwa</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1483627793215_279">
+        <Coords points="274,1899 1624,1884 2561,1886 2561,1936 1624,1934 274,1949"/>
+        <Baseline points="274,1944 1624,1929 2561,1931"/>
+        <TextEquiv>
+          <Unicode>wie Dr. Wattenbach bei Benutzung des hiesigen Staatsarchivs nur bis zum</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1483627797365_280">
+        <Coords points="251,2000 1182,1990 1182,2040 251,2050"/>
+        <Baseline points="251,2045 1182,2035"/>
+        <TextEquiv>
+          <Unicode>Jahre 1440 vorgehen soll.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1483627802425_281">
+        <Coords points="255,2098 532,2108 2574,2094 2574,2144 531,2158 253,2148"/>
+        <Baseline points="253,2143 531,2153 2574,2139"/>
+        <TextEquiv>
+          <Unicode>Inzwischen haben meine anderen Arbeiten einen ziemlich raschen Fortgang ge¬</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1483627810926_282">
+        <Coords points="255,2208 1442,2189 2575,2204 2574,2254 1442,2239 256,2258"/>
+        <Baseline points="256,2253 1442,2234 2574,2249"/>
+        <TextEquiv>
+          <Unicode>nomen. Die Handschrift des Hermannus Altahensis (Archiv X.451) ist absolvirt</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1483627814754_283">
+        <Coords points="253,2303 2538,2276 2539,2326 254,2353"/>
+        <Baseline points="254,2348 2539,2321"/>
+        <TextEquiv>
+          <Unicode>u hat eine Reihenfolge analistischer Notizen ergeben, die von 508 bis in</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1483627819541_284">
+        <Coords points="260,2395 2580,2372 2580,2422 260,2445"/>
+        <Baseline points="260,2440 2580,2417"/>
+        <TextEquiv>
+          <Unicode>den Anfang des 16 ten Jahrhunderts sich erstreckt. Für die älteren Annales</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1483627824004_285">
+        <Coords points="258,2490 2547,2473 2547,2523 258,2540"/>
+        <Baseline points="258,2535 2547,2518"/>
+        <TextEquiv>
+          <Unicode>Altahenses ist die Ausbeute erkleklich. Herman erhält einen andern</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1483627828235_286">
+        <Coords points="249,2589 2601,2571 2601,2621 249,2639"/>
+        <Baseline points="249,2634 2601,2616"/>
+        <TextEquiv>
+          <Unicode>Anfang als bei Böhmer. Eberhard, den Böhmer durch Hineinarbeiten nicht</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1483627831836_287">
+        <Coords points="252,2689 2541,2664 2541,2714 252,2739"/>
+        <Baseline points="252,2734 2541,2709"/>
+        <TextEquiv>
+          <Unicode>hingehöriger Stücke von seiner wahren Gestalt bedeutend entfernt hat,</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1483627836034_288">
+        <Coords points="270,2789 2514,2770 2514,2820 270,2839"/>
+        <Baseline points="270,2834 1367,2807 2514,2815"/>
+        <TextEquiv>
+          <Unicode>wird aus der Reihe der Altaicher Geschichtsquellen scheiden müssen. Er</Unicode>
+        </TextEquiv>
+      </TextLine>
+    </TextRegion>
+  </Page>
+</PcGts>

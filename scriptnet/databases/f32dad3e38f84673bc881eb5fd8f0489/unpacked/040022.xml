@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+  <Metadata>
+    <Creator>htrsh_pagexml_create</Creator>
+    <Created>2017-01-30T12:33:01</Created>
+    <LastChange>2017-02-14T13:51:45.433+01:00</LastChange>
+  </Metadata>
+  <Page imageFilename="040022.jpg" imageWidth="1159" imageHeight="1440">
+    <ReadingOrder>
+      <OrderedGroup id="ro_1487076705553" caption="Regions reading order">
+        <RegionRefIndexed index="0" regionRef="region_1487076322831_2113"/>
+        <RegionRefIndexed index="1" regionRef="region_1487076368536_2114"/>
+        <RegionRefIndexed index="2" regionRef="pg"/>
+      </OrderedGroup>
+    </ReadingOrder>
+    <TextRegion id="region_1487076322831_2113">
+      <Coords points="494,12 1142,12 1142,188 494,188"/>
+      <TextLine id="line_1487076424842_2115">
+        <Coords points="491,17 1134,17 1134,67 491,67"/>
+        <Baseline points="491,62 1134,62"/>
+        <TextEquiv>
+          <Unicode>5, Great Winchester St. Buildings</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1487076428455_2116">
+        <Coords points="728,60 1075,59 1075,109 728,110"/>
+        <Baseline points="728,105 1075,104"/>
+        <TextEquiv>
+          <Unicode>8, Old Jewry London E. C.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1487076432716_2117">
+        <Coords points="716,114 1079,112 1079,162 716,164"/>
+        <Baseline points="716,159 1079,157"/>
+        <TextEquiv>
+          <Unicode>1st March  18672</Unicode>
+        </TextEquiv>
+      </TextLine>
+    </TextRegion>
+    <TextRegion id="region_1487076368536_2114">
+      <Coords points="157,205 1014,205 1014,362 157,362"/>
+      <TextLine id="line_1487076441877_2118">
+        <Coords points="165,215 788,210 788,260 165,265"/>
+        <Baseline points="165,260 788,255"/>
+        <TextEquiv>
+          <Unicode>To the Chairman of the</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1487076445576_2119">
+        <Coords points="269,265 1001,262 1001,312 269,315"/>
+        <Baseline points="269,310 1001,307"/>
+        <TextEquiv>
+          <Unicode>St. Gothard Railway Company</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1487076449752_2120">
+        <Coords points="482,313 686,311 686,361 482,363"/>
+        <Baseline points="482,358 686,356"/>
+        <TextEquiv>
+          <Unicode>Berne</Unicode>
+        </TextEquiv>
+      </TextLine>
+    </TextRegion>
+    <TextRegion id="pg">
+      <Coords points="32,361 1151,361 1151,1359 32,1359"/>
+      <TextLine id="line_1487076468196_2121">
+        <Coords points="134,364 263,361 264,411 135,414"/>
+        <Baseline points="135,409 264,406"/>
+        <TextEquiv>
+          <Unicode>Sir</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1487076471898_2122">
+        <Coords points="281,414 1132,410 1132,460 281,464"/>
+        <Baseline points="281,459 1132,455"/>
+        <TextEquiv>
+          <Unicode>Having been informed that you are</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1487076476051_2123">
+        <Coords points="70,463 1128,457 1128,507 70,513"/>
+        <Baseline points="70,508 1128,502"/>
+        <TextEquiv>
+          <Unicode>about to commence the St. Gothard Tunnel,</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1487076479816_2124">
+        <Coords points="68,510 1141,506 1141,556 68,560"/>
+        <Baseline points="68,555 1141,551"/>
+        <TextEquiv>
+          <Unicode>I beg to forward for the information of your</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1487076484613_2125">
+        <Coords points="56,556 1133,559 1133,609 56,606"/>
+        <Baseline points="56,601 1133,604"/>
+        <TextEquiv>
+          <Unicode>Board a printed extract from the report of</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1487076489326_2126">
+        <Coords points="64,610 1107,607 1107,657 64,660"/>
+        <Baseline points="64,655 1107,652"/>
+        <TextEquiv>
+          <Unicode>The Minister of Public Works of France</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1487076493148_2127">
+        <Coords points="58,660 1143,657 1143,707 58,710"/>
+        <Baseline points="58,705 1143,702"/>
+        <TextEquiv>
+          <Unicode>relating to our rock-boring machine; and I</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1487076497970_2128">
+        <Coords points="50,711 1144,706 1144,756 50,761"/>
+        <Baseline points="50,756 1144,751"/>
+        <TextEquiv>
+          <Unicode>beg to intimate that my Company is prepared</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1487076501793_2129">
+        <Coords points="59,761 1141,756 1141,806 59,811"/>
+        <Baseline points="59,806 1141,801"/>
+        <TextEquiv>
+          <Unicode>to enter into negotiations with you for driving</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1487076508681_2130">
+        <Coords points="55,811 907,804 907,854 55,861"/>
+        <Baseline points="55,856 907,849"/>
+        <TextEquiv>
+          <Unicode>the heading of any tunnels required.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1487076513116_2131">
+        <Coords points="155,858 1141,854 1141,904 155,908"/>
+        <Baseline points="155,903 1141,899"/>
+        <TextEquiv>
+          <Unicode>Captain Penrice, late Royal Engineers, the</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1487076516797_2132">
+        <Coords points="47,907 1138,903 1138,953 47,957"/>
+        <Baseline points="47,952 1138,948"/>
+        <TextEquiv>
+          <Unicode>Patentee and consulting engineer of this Company,</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1487076521539_2133">
+        <Coords points="51,955 1133,954 1133,1004 51,1005"/>
+        <Baseline points="51,1000 1133,999"/>
+        <TextEquiv>
+          <Unicode>will be at Berne shortly, and, on my hearing</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1487076528858_2134">
+        <Coords points="44,1004 1117,1007 1117,1057 44,1054"/>
+        <Baseline points="44,1049 1117,1052"/>
+        <TextEquiv>
+          <Unicode>from you regarding this matter, I shall be</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1487076533190_2135">
+        <Coords points="55,1054 1129,1059 1129,1109 55,1104"/>
+        <Baseline points="55,1099 1129,1104"/>
+        <TextEquiv>
+          <Unicode>happy to ask him to call on you to give you</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1487076538793_2136">
+        <Coords points="64,1104 913,1103 913,1153 64,1154"/>
+        <Baseline points="64,1149 913,1148"/>
+        <TextEquiv>
+          <Unicode>any further information you require.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1487076542937_2137">
+        <Coords points="377,1156 768,1152 768,1202 377,1206"/>
+        <Baseline points="377,1201 768,1197"/>
+        <TextEquiv>
+          <Unicode>I am, Dear Sir</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1487076547742_2138">
+        <Coords points="344,1207 796,1203 796,1253 344,1257"/>
+        <Baseline points="344,1252 796,1248"/>
+        <TextEquiv>
+          <Unicode>Yours very truly</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1487076552694_2139">
+        <Coords points="456,1269 1113,1273 1113,1323 456,1319"/>
+        <Baseline points="456,1314 1113,1318"/>
+        <TextEquiv>
+          <Unicode>Major</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1487076557257_2140">
+        <Coords points="674,1308 953,1306 953,1356 674,1358"/>
+        <Baseline points="674,1353 953,1351"/>
+        <TextEquiv>
+          <Unicode>Chairman</Unicode>
+        </TextEquiv>
+      </TextLine>
+    </TextRegion>
+  </Page>
+</PcGts>

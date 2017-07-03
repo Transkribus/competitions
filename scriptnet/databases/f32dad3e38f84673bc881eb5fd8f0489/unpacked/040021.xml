@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+  <Metadata>
+    <Creator>htrsh_pagexml_create</Creator>
+    <Created>2017-01-30T12:36:05</Created>
+    <LastChange>2017-02-16T12:40:56.204+01:00</LastChange>
+  </Metadata>
+  <Page imageFilename="040021.jpg" imageWidth="917" imageHeight="1440">
+    <ReadingOrder>
+      <OrderedGroup id="ro_1487245256319" caption="Regions reading order">
+        <RegionRefIndexed index="0" regionRef="pg"/>
+      </OrderedGroup>
+    </ReadingOrder>
+    <TextRegion id="pg">
+      <Coords points="19,49 910,49 910,1417 19,1417"/>
+      <TextLine id="line_1487244735004_2817">
+        <Coords points="77,58 892,40 893,90 78,108"/>
+        <Baseline points="78,103 893,85"/>
+        <TextEquiv>
+          <Unicode>Ommanney, que Mons. Pioda connait avantageusemt</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1487244744133_2818">
+        <Coords points="54,103 852,81 853,131 55,153"/>
+        <Baseline points="55,148 853,126"/>
+        <TextEquiv>
+          <Unicode>et qui se retira à tems dela combinaison Sillar.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1487244749709_2819">
+        <Coords points="92,143 905,119 906,169 93,193"/>
+        <Baseline points="93,188 909,163"/>
+        <TextEquiv>
+          <Unicode>Ce Mons. a un frère, qui est SirFrancisOmmanney,</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1487244767655_2820">
+        <Coords points="48,187 874,164 875,214 49,237"/>
+        <Baseline points="49,232 875,209"/>
+        <TextEquiv>
+          <Unicode>Coleman Street, 80, Londres, qui est avocat et</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1487244773661_2821">
+        <Coords points="28,230 903,198 905,248 30,280"/>
+        <Baseline points="33,272 905,243"/>
+        <TextEquiv>
+          <Unicode>agent financier pour les entreprises. C'est cet agent, qui</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1487244790198_2822">
+        <Coords points="58,268 899,237 901,287 60,318"/>
+        <Baseline points="60,313 901,282"/>
+        <TextEquiv>
+          <Unicode>disposant de plusieurs clients banquiers, serait</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1487244796202_2823">
+        <Coords points="61,307 889,279 891,329 63,357"/>
+        <Baseline points="63,352 891,324"/>
+        <TextEquiv>
+          <Unicode>désireux de donner suite aux sollicitations reçues</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1487244810223_2824">
+        <Coords points="55,348 589,328 883,312 885,362 591,378 57,398"/>
+        <Baseline points="57,393 591,373 885,357"/>
+        <TextEquiv>
+          <Unicode>du Tessin pour la construction des lignes Tessinoises,</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1487244821703_2825">
+        <Coords points="56,389 889,349 891,399 58,439"/>
+        <Baseline points="58,434 891,394"/>
+        <TextEquiv>
+          <Unicode>en leur assurant une partie du capital. – Il est</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1487244828882_2826">
+        <Coords points="33,433 904,389 906,439 35,483"/>
+        <Baseline points="35,478 906,434"/>
+        <TextEquiv>
+          <Unicode>probable, d'après ce que j'ai appris depuis mon retour,</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1487244838733_2827">
+        <Coords points="27,478 902,426 905,476 30,528"/>
+        <Baseline points="30,523 905,471"/>
+        <TextEquiv>
+          <Unicode>que je recevrai une communication de lui, dans quel</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1487244847399_2828">
+        <Coords points="55,517 898,466 901,516 58,567"/>
+        <Baseline points="58,562 901,511"/>
+        <TextEquiv>
+          <Unicode>cas vous en serez instruit, tout en lui répondant</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1487244851972_2829">
+        <Coords points="58,560 553,525 556,575 61,610"/>
+        <Baseline points="61,605 556,570"/>
+        <TextEquiv>
+          <Unicode>ce que vous me marquez.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1487244866216_2830">
+        <Coords points="157,591 892,567 893,617 158,641"/>
+        <Baseline points="158,636 893,612"/>
+        <TextEquiv>
+          <Unicode>À cette heure vous serez en possession de tous les</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1487244880702_2831">
+        <Coords points="48,635 842,610 843,660 49,685"/>
+        <Baseline points="49,680 843,655"/>
+        <TextEquiv>
+          <Unicode>détails de la petite mais rude campagne de</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1487244886392_2832">
+        <Coords points="77,674 889,652 890,702 78,724"/>
+        <Baseline points="78,719 890,697"/>
+        <TextEquiv>
+          <Unicode>Locarno, faite avec Mons. le Conseiller Weber; et</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1487244898127_2833">
+        <Coords points="47,718 906,693 907,743 48,768"/>
+        <Baseline points="48,763 907,738"/>
+        <TextEquiv>
+          <Unicode>serez sans doute aussi satisfait du résultat obtenu,</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1487244910313_2834">
+        <Coords points="22,756 905,733 906,783 23,806"/>
+        <Baseline points="23,801 906,778"/>
+        <TextEquiv>
+          <Unicode>que sont consternés Mons. Stop. et les siens, qui ont</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1487244918111_2835">
+        <Coords points="68,794 892,771 893,821 69,844"/>
+        <Baseline points="69,839 893,816"/>
+        <TextEquiv>
+          <Unicode>vu leur dernière planche de salut enlevée. Ils se</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1487244927655_2836">
+        <Coords points="51,837 896,815 897,865 52,887"/>
+        <Baseline points="52,882 897,860"/>
+        <TextEquiv>
+          <Unicode>vengent maintenant en dénaturant et calomniant</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1487244938562_2837">
+        <Coords points="74,881 880,856 881,906 75,931"/>
+        <Baseline points="75,926 881,901"/>
+        <TextEquiv>
+          <Unicode>les intentions et les moyens du Comité. C'est une</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1487244951103_2838">
+        <Coords points="31,921 451,912 848,900 849,950 452,962 32,971"/>
+        <Baseline points="34,966 454,957 851,945"/>
+        <TextEquiv>
+          <Unicode>petite satisfaction qu'on peut bien leur laisser.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1487244968046_2839">
+        <Coords points="155,960 895,942 896,992 156,1010"/>
+        <Baseline points="156,1005 896,987"/>
+        <TextEquiv>
+          <Unicode>Je ne doute nullement que la possession complète</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1487244973106_2840">
+        <Coords points="44,1007 891,986 892,1036 45,1057"/>
+        <Baseline points="45,1054 892,1033"/>
+        <TextEquiv>
+          <Unicode>de l'élément tessinois, ne facilite beaucoup vos com-</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1487244996998_2841">
+        <Coords points="57,1046 400,1042 897,1022 899,1072 401,1092 58,1096"/>
+        <Baseline points="58,1091 401,1087 899,1067"/>
+        <TextEquiv>
+          <Unicode>binaisons financières; et si le Comité pourait le préson-</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1487245013246_2842">
+        <Coords points="53,1084 268,1084 438,1082 903,1068 904,1118 439,1132 268,1134 53,1134"/>
+        <Baseline points="53,1129 268,1129 439,1127 904,1113"/>
+        <TextEquiv>
+          <Unicode>ter en Italie en possession également des concessions d'Uri,</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1487245021382_2843">
+        <Coords points="31,1124 884,1108 885,1158 32,1174"/>
+        <Baseline points="32,1169 885,1153"/>
+        <TextEquiv>
+          <Unicode>Schwitz, Lucerne, il n'y a nul doute que ses demandes</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1487245030570_2844">
+        <Coords points="46,1165 867,1156 867,1206 46,1215"/>
+        <Baseline points="46,1210 867,1201"/>
+        <TextEquiv>
+          <Unicode>de subsides ne soient très favorablement accueillies,</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1487245039165_2845">
+        <Coords points="40,1207 883,1200 883,1250 40,1257"/>
+        <Baseline points="40,1252 883,1245"/>
+        <TextEquiv>
+          <Unicode>les conditions d'autant plus facilitées, et son plan</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1487245059536_2846">
+        <Coords points="34,1248 178,1249 565,1239 566,1289 178,1299 34,1298"/>
+        <Baseline points="34,1293 178,1294 566,1284"/>
+        <TextEquiv>
+          <Unicode>de chemin de fer flottant, agréé.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1487245065497_2847">
+        <Coords points="155,1287 897,1278 898,1328 156,1337"/>
+        <Baseline points="156,1332 898,1323"/>
+        <TextEquiv>
+          <Unicode>Je ne dois pas vous cacher, Monsieur, que je</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1487245080535_2848">
+        <Coords points="33,1328 904,1320 904,1370 33,1378"/>
+        <Baseline points="33,1373 904,1365"/>
+        <TextEquiv>
+          <Unicode>juge toutes ces choses nécessaires pour assurer la</Unicode>
+        </TextEquiv>
+      </TextLine>
+    </TextRegion>
+  </Page>
+</PcGts>

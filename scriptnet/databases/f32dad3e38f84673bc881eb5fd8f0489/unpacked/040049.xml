@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+  <Metadata>
+    <Creator>htrsh_pagexml_create</Creator>
+    <Created>2017-01-30T12:23:22</Created>
+    <LastChange>2017-02-16T17:14:23.883+01:00</LastChange>
+  </Metadata>
+  <Page imageFilename="040049.jpg" imageWidth="1099" imageHeight="1440">
+    <ReadingOrder>
+      <OrderedGroup id="ro_1487261663996" caption="Regions reading order">
+        <RegionRefIndexed index="0" regionRef="pg"/>
+        <RegionRefIndexed index="1" regionRef="region_1487261562522_112"/>
+      </OrderedGroup>
+    </ReadingOrder>
+    <TextRegion id="pg">
+      <Coords points="25,12 1092,23 1098,1364 887,1367 399,1342 31,1336"/>
+      <TextLine id="line_1486557051326_234">
+        <Coords points="53,15 603,28 1060,20 1061,70 603,78 52,65"/>
+        <Baseline points="52,60 603,73 1061,65"/>
+        <TextEquiv>
+          <Unicode>von Karlsruhe, einen sehr tüchtigen Schauspieler, der mehrere Wochen lang dort Gastrollen gab,</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486557064220_235">
+        <Coords points="64,63 593,74 1092,71 1092,121 593,124 63,113"/>
+        <Baseline points="63,108 593,119 1092,116"/>
+        <TextEquiv>
+          <Unicode>als Ferdinand in Kabale u. Liebe sah; auch mehrere der übrigen Rollen waren recht gut besetzt.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486557075476_236">
+        <Coords points="62,102 712,119 980,116 1065,105 1072,155 983,166 712,169 61,152"/>
+        <Baseline points="61,147 712,164 983,161 1071,150"/>
+        <TextEquiv>
+          <Unicode>Meine wissenschaftliche Ausbeute auf der Bibliothek war nicht sehr bedeutend: mit Bezug auf den</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486557083826_237">
+        <Coords points="65,147 774,165 1089,157 1090,207 774,215 64,197"/>
+        <Baseline points="64,192 774,210 1090,202"/>
+        <TextEquiv>
+          <Unicode>berühmten Codex hatte ich zwar das blos negative Resultat, welches ich wirklich fand, schon erwartet, aber</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486557094375_238">
+        <Coords points="69,191 682,208 1001,205 1086,196 1092,246 1004,255 682,258 68,241"/>
+        <Baseline points="68,236 682,253 1004,250 1091,241"/>
+        <TextEquiv>
+          <Unicode>auch sonst fand ich wenig für meinen Zweck Geeignetes. Jenes Resultat, mit dem ich allerdings die Anga-</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486557103650_239">
+        <Coords points="71,237 935,251 1085,243 1087,293 936,301 70,287"/>
+        <Baseline points="70,282 936,296 1087,288"/>
+        <TextEquiv>
+          <Unicode>be vieler Bücher berichtigen kann, muß ich doch immer ein höchst unerfreuliches nennen, um so mehr da ich frü-</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486557111820_240">
+        <Coords points="70,283 813,294 1075,289 1076,339 813,344 69,333"/>
+        <Baseline points="69,328 813,339 1076,334"/>
+        <TextEquiv>
+          <Unicode>her, ehe ich bestimmtere Nachrichten von diesem Codex hatte, sehr viel von demselben erwartete, nichts</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486557130564_241">
+        <Coords points="66,322 890,338 1076,326 1079,376 891,388 65,372"/>
+        <Baseline points="65,367 891,383 1079,371"/>
+        <TextEquiv>
+          <Unicode>geringeres nämlich als eine uralte eigenthümlich glarnerische Rechtsquelle. Es ist nun aber derselbe</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486557142366_242">
+        <Coords points="37,365 754,382 1085,368 1087,418 754,432 36,415"/>
+        <Baseline points="36,410 754,427 1087,413"/>
+        <TextEquiv>
+          <Unicode>blos eine – gewiß sehr werthvolle – Handschrift des Breviarium Alaricianum, der lex salica u. lex Alaman-</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486557149477_243">
+        <Coords points="72,415 831,424 1089,409 1092,459 832,474 71,465"/>
+        <Baseline points="71,460 832,469 1092,454"/>
+        <TextEquiv>
+          <Unicode>norum mit Randbemerkungen von der mir wohl bekannten Hand Aegid. Tschudi's; daß aber nach die-</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486557198274_244">
+        <Coords points="69,460 808,465 1089,449 1092,499 809,515 69,510"/>
+        <Baseline points="69,505 809,510 1092,494"/>
+        <TextEquiv>
+          <Unicode>sem Rechtsbuche einst die Meier von Glarus gerichtet hätten, muß ich für eine bloße Fabel hal-</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486557209651_245">
+        <Coords points="71,500 694,511 1064,497 1066,547 694,561 70,550"/>
+        <Baseline points="70,545 694,556 1066,542"/>
+        <TextEquiv>
+          <Unicode>ten, da es mit der allgemeinen Geschichte der deutschen Rechtsquellen durchaus nicht übereinstimmt.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486557241136_246">
+        <Coords points="72,546 817,556 1066,540 1069,590 818,606 71,596"/>
+        <Baseline points="71,591 818,601 1069,585"/>
+        <TextEquiv>
+          <Unicode>Mehr positiven Nutzen fand ich im Archive, mit dessen innrer Einrichtung mich der sehr gefällige</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486557248006_247">
+        <Coords points="78,590 772,603 1086,585 1089,635 773,653 77,640"/>
+        <Baseline points="77,635 773,648 1089,630"/>
+        <TextEquiv>
+          <Unicode>Ehrenzeller auf's genaueste vertraut machte. Da es mir als Historiker daran gelegen seyn muß, un-</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486557254360_248">
+        <Coords points="79,637 703,650 1085,630 1087,680 704,700 78,687"/>
+        <Baseline points="78,682 704,695 1087,675"/>
+        <TextEquiv>
+          <Unicode>ser Archiv unter meiner Leitung zu behalten, so werde ich mir es nun auch angelegen seyn lassen,</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486557264498_249">
+        <Coords points="89,684 628,695 1079,681 1080,731 628,745 88,734"/>
+        <Baseline points="88,729 628,740 1080,726"/>
+        <TextEquiv>
+          <Unicode>demselben eine zweckmäßigere Einrichtung zu geben, wobei mir das in St. Gallen Gelernte sehr</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486557268732_250">
+        <Coords points="80,735 320,736 320,786 80,785"/>
+        <Baseline points="80,780 320,781"/>
+        <TextEquiv>
+          <Unicode>zu Statten kommen wird.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486557289543_251">
+        <Coords points="226,787 705,790 1086,777 1088,827 706,840 226,837"/>
+        <Baseline points="226,832 706,835 1088,822"/>
+        <TextEquiv>
+          <Unicode>Wenn ich nun auf diese Weise meine zwei Tage in St. Gallen auf sehr ange-</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486557297065_252">
+        <Coords points="88,831 623,842 1093,821 1095,871 624,892 87,881"/>
+        <Baseline points="87,876 624,887 1095,866"/>
+        <TextEquiv>
+          <Unicode>nehme u. intressante Art zugebracht habe, so glaube deßhalb nicht, daß mein früherer Aufent-</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486557308352_253">
+        <Coords points="86,878 688,886 1081,870 1083,920 689,936 85,928"/>
+        <Baseline points="85,923 689,931 1083,915"/>
+        <TextEquiv>
+          <Unicode>halt in Zürich in minder gutem Andenken bei mir stehe. Ich habe im Gegentheil seit meinem</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486557316261_254">
+        <Coords points="90,924 834,929 1085,918 1087,968 835,979 90,974"/>
+        <Baseline points="90,969 835,974 1087,963"/>
+        <TextEquiv>
+          <Unicode>Abgange von der Universität mich bei Euch nie mehr so angenehm unterhalten, wie diesmal, wozu</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486557412575_255">
+        <Coords points="90,967 872,972 1088,957 1091,1007 873,1022 90,1017"/>
+        <Baseline points="90,1012 873,1017 1091,1002"/>
+        <TextEquiv>
+          <Unicode>namentlich beitragen mochte, daß ich so viele Freunde u. Bekannte, die früher noch zerstreut waren,</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1487261611193_114">
+        <Coords points="957,990 1004,986 1008,1036 961,1040"/>
+        <Baseline points="961,1035 1008,1031"/>
+        <TextEquiv>
+          <Unicode>wieder</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486557420421_256">
+        <Coords points="96,1005 638,1016 1074,1010 1075,1060 638,1066 95,1055"/>
+        <Baseline points="95,1050 638,1061 1075,1055"/>
+        <TextEquiv>
+          <Unicode>nun wieder beisammen fand. In dir aber habe ich ganz den alten, bewährten Freund gefunden,</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486557434907_257">
+        <Coords points="93,1054 718,1066 1089,1049 1091,1099 719,1116 92,1104"/>
+        <Baseline points="92,1099 719,1111 1096,1094"/>
+        <TextEquiv>
+          <Unicode>u. du hast mir auf eine nicht genug von mir anzuerkennende Weise von deiner jetzt so kostbaren</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486557462238_258">
+        <Coords points="91,1094 650,1112 919,1106 1091,1088 1097,1138 922,1156 650,1162 90,1144"/>
+        <Baseline points="90,1139 650,1157 922,1151 1096,1133"/>
+        <TextEquiv>
+          <Unicode>Zeit einige Tage geschenkt, wofür ich dir meinen innigsten Dank sage. Meinen herzlichsten Dank</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486557473936_259">
+        <Coords points="100,1141 678,1155 934,1154 1065,1140 1071,1190 936,1204 678,1205 99,1191"/>
+        <Baseline points="99,1186 678,1200 936,1199 1070,1185"/>
+        <TextEquiv>
+          <Unicode>auch deinen verehrten Eltern für die freundschaftliche u. liebevolle Aufnahme, die sie mir</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486557498006_260">
+        <Coords points="99,1190 807,1199 1089,1190 1090,1240 807,1249 98,1240"/>
+        <Baseline points="98,1235 807,1244 1090,1235"/>
+        <TextEquiv>
+          <Unicode>auch diesmal wieder zu Theil werden ließen. Empfehle mich ihnen bestens u. grüße mir alle</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486557507096_261">
+        <Coords points="98,1234 771,1248 1077,1233 1079,1283 772,1298 97,1284"/>
+        <Baseline points="97,1279 772,1293 1079,1278"/>
+        <TextEquiv>
+          <Unicode>meine Freunde, namentlich Sinz, Zwicki, Schweizer, Nägeli. Schreibe mir recht recht bald wieder u.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486557510580_262">
+        <Coords points="284,1279 622,1282 622,1332 284,1329"/>
+        <Baseline points="284,1324 622,1327"/>
+        <TextEquiv>
+          <Unicode>sey herzlich gegrüßt von</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486557514208_263">
+        <Coords points="732,1295 842,1292 843,1342 733,1345"/>
+        <Baseline points="733,1340 843,1337"/>
+        <TextEquiv>
+          <Unicode>deinem</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486557519168_264">
+        <Coords points="893,1313 1054,1307 1056,1357 895,1363"/>
+        <Baseline points="895,1358 1056,1352"/>
+        <TextEquiv>
+          <Unicode>J J Blumer.</Unicode>
+        </TextEquiv>
+      </TextLine>
+    </TextRegion>
+    <TextRegion id="region_1487261562522_112">
+      <Coords points="112,1347 393,1347 393,1416 112,1416"/>
+      <TextLine id="line_1487261571100_113">
+        <Coords points="122,1339 387,1342 386,1392 121,1389"/>
+        <Baseline points="121,1384 386,1387"/>
+        <TextEquiv>
+          <Unicode>Glarus, 9. März 1842.</Unicode>
+        </TextEquiv>
+      </TextLine>
+    </TextRegion>
+  </Page>
+</PcGts>

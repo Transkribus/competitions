@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+    <Metadata>
+        <Creator>htrsh_pagexml_create</Creator>
+        <Created>2017-01-30T12:26:15</Created>
+        <LastChange>2017-06-30T18:38:39.642+02:00</LastChange>
+    </Metadata>
+    <Page imageFilename="040038.jpg" imageWidth="1078" imageHeight="1440">
+        <ReadingOrder>
+            <OrderedGroup id="ro_1498840719722" caption="Regions reading order">
+                <RegionRefIndexed index="0" regionRef="pg"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <TextRegion id="pg" custom="readingOrder {index:0;}">
+            <Coords points="30,33 1074,33 1074,1418 30,1418"/>
+            <TextLine id="line_1486656771784_1262" custom="readingOrder {index:0;}">
+                <Coords points="68,70 1060,35 1062,85 70,120"/>
+                <Baseline points="70,115 1062,80"/>
+                <TextEquiv>
+                    <Unicode>von Einem ausgezeichneten Arbeiter gemacht worden ist; auch</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1486656822318_1263" custom="readingOrder {index:1;}">
+                <Coords points="54,116 1067,75 1069,125 56,166"/>
+                <Baseline points="56,161 1069,120"/>
+                <TextEquiv>
+                    <Unicode>bin ich überzeugt, daß der bei H. Arter befindliche Mann es auf</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1486656827010_1264" custom="readingOrder {index:2;}">
+                <Coords points="55,159 1038,116 1040,166 57,209"/>
+                <Baseline points="57,204 1040,161"/>
+                <TextEquiv>
+                    <Unicode>die Ehre nehmen würde, die Schubladen us. f. möglichst gut</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1486656831591_1265" custom="readingOrder {index:3;}">
+                <Coords points="68,200 1015,158 1017,208 70,250"/>
+                <Baseline points="70,245 1017,203"/>
+                <TextEquiv>
+                    <Unicode>auszuführen. Es scheint mir daher, ein so seltener Anlaß</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1486656835259_1266" custom="readingOrder {index:4;}">
+                <Coords points="56,239 729,211 731,261 58,289"/>
+                <Baseline points="58,284 731,256"/>
+                <TextEquiv>
+                    <Unicode>sollte nicht unbenutzt gelassen werden.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1486656840648_1267" custom="readingOrder {index:5;}">
+                <Coords points="81,281 1055,226 1058,276 84,331"/>
+                <Baseline points="77,325 1058,271"/>
+                <TextEquiv>
+                    <Unicode>Was nun den nöthigen Kredit betrifft, so würden für einst-</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1486656845867_1268" custom="readingOrder {index:6;}">
+                <Coords points="56,320 1064,272 1066,322 58,370"/>
+                <Baseline points="58,365 1066,317"/>
+                <TextEquiv>
+                    <Unicode>weilen, wenigstens bis im Winter 500 Frcs genügen &amp;amp; es schiene</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1486656863321_1269" custom="readingOrder {index:7;}">
+                <Coords points="66,365 1062,315 1064,365 68,415"/>
+                <Baseline points="68,410 1064,360"/>
+                <TextEquiv>
+                    <Unicode>mir am zweckmäßigsten, wenn, um ganz sicher zu gehen &amp;amp; gar</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1486656866914_1270" custom="readingOrder {index:8;}">
+                <Coords points="64,415 1042,355 1045,405 67,465"/>
+                <Baseline points="67,460 1045,400"/>
+                <TextEquiv>
+                    <Unicode>nichts zu riskiren, bloß Schubladen bestellt würden, solche</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1487325586300_217" custom="readingOrder {index:9;}">
+                <Coords points="389,368 471,362 474,412 392,418"/>
+                <Baseline points="392,413 474,407"/>
+                <TextEquiv>
+                    <Unicode>dafür </Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1486656876063_1271" custom="readingOrder {index:10;}">
+                <Coords points="77,451 575,426 1022,392 1025,442 578,476 79,501"/>
+                <Baseline points="79,496 578,471 1025,437"/>
+                <TextEquiv>
+                    <Unicode>fehlen auch bei der jetzigen Sammlung noch in bedeutendem</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1486656880064_1272" custom="readingOrder {index:11;}">
+                <Coords points="65,500 1039,437 1042,487 68,550"/>
+                <Baseline points="68,545 1042,482"/>
+                <TextEquiv>
+                    <Unicode>Maaße &amp;amp; Platz zu ihrer Aufstellung im Sammlungslokale</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1486656902731_1274" custom="readingOrder {index:12;}">
+                <Coords points="86,590 1028,508 1069,515 1069,565 1026,558 90,640"/>
+                <Baseline points="90,635 1026,553 1070,560"/>
+                <TextEquiv>
+                    <Unicode>Ist es Ihnen möglich, auf dieß Gesuch einzugehn, so erweisen</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1486656883807_1273" custom="readingOrder {index:13;}">
+                <Coords points="67,537 379,518 382,568 70,587"/>
+                <Baseline points="70,575 382,563"/>
+                <TextEquiv>
+                    <Unicode>ist noch hinreichend.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1486656908669_1275" custom="readingOrder {index:14;}">
+                <Coords points="72,641 898,580 1070,568 1073,618 901,630 75,691"/>
+                <Baseline points="75,686 901,625 1073,613"/>
+                <TextEquiv>
+                    <Unicode>Sie damit, wie ich überzeugt bin, sowohl den Sammlungen</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1486656913567_1276" custom="readingOrder {index:15;}">
+                <Coords points="101,684 1061,609 1065,659 105,734"/>
+                <Baseline points="105,729 1065,654"/>
+                <TextEquiv>
+                    <Unicode>als den Personen die am Polytechnicum die mineralog.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1486656925313_1277" custom="readingOrder {index:16;}">
+                <Coords points="78,737 747,690 1051,662 1073,681 1066,732 1038,710 751,740 81,787"/>
+                <Baseline points="81,782 751,735 1039,705 1069,728"/>
+                <TextEquiv>
+                    <Unicode>&amp;amp; zoolog. Fächer zu besorgen haben werden, einen wesentlichen</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1486656928823_1278" custom="readingOrder {index:17;}">
+                <Coords points="82,791 242,772 248,822 88,841"/>
+                <Baseline points="87,836 247,817"/>
+                <TextEquiv>
+                    <Unicode>Dienst.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1486656938027_1279" custom="readingOrder {index:18;}">
+                <Coords points="95,862 1056,807 1059,857 98,912"/>
+                <Baseline points="98,907 1059,852"/>
+                <TextEquiv>
+                    <Unicode>Bei diesem Anlasse erlaube ich mir noch eine andere</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1486656942921_1280" custom="readingOrder {index:19;}">
+                <Coords points="113,912 1057,852 1060,902 116,962"/>
+                <Baseline points="116,957 1060,897"/>
+                <TextEquiv>
+                    <Unicode>Anfrage an Sie zu richten. Von der in der Publication</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1486656948463_1281" custom="readingOrder {index:20;}">
+                <Coords points="107,951 1017,902 1019,952 109,1001"/>
+                <Baseline points="109,996 1019,947"/>
+                <TextEquiv>
+                    <Unicode>begriffnen Karte des Kantons Zürich in 1/25000 sollte ich 3</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1486656952246_1282" custom="readingOrder {index:21;}">
+                <Coords points="97,998 405,980 408,1030 100,1048"/>
+                <Baseline points="100,1043 408,1025"/>
+                <TextEquiv>
+                    <Unicode>Exemplare haben.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1486656964206_1283" custom="readingOrder {index:22;}">
+                <Coords points="129,1039 706,1014 1061,987 1064,1037 709,1064 131,1089"/>
+                <Baseline points="131,1084 709,1059 1064,1032"/>
+                <TextEquiv>
+                    <Unicode>Eines, um den Studenten die Anschauung &amp;amp; den Begriff einer</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1486656972074_1284" custom="readingOrder {index:23;}">
+                <Coords points="91,1081 654,1061 1069,1033 1072,1083 656,1111 93,1131"/>
+                <Baseline points="93,1126 656,1106 1072,1078"/>
+                <TextEquiv>
+                    <Unicode>Karte zu verschaffen, die auf eine mit dem gegenwärtigen Niveau</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1486656984173_1285" custom="readingOrder {index:24;}">
+                <Coords points="95,1131 1033,1077 1068,1086 1068,1135 1030,1127 98,1181"/>
+                <Baseline points="98,1176 1030,1122 1069,1130"/>
+                <TextEquiv>
+                    <Unicode>der Wissenschaft &amp;amp; Darstellungskunst übereinstimmende Weise</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1486656987607_1286" custom="readingOrder {index:25;}">
+                <Coords points="120,1167 371,1162 372,1212 121,1217"/>
+                <Baseline points="121,1212 372,1207"/>
+                <TextEquiv>
+                    <Unicode>ausgeführt ist.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1486656992689_1287" custom="readingOrder {index:26;}">
+                <Coords points="124,1214 1041,1166 1068,1179 1071,1232 1032,1215 126,1264"/>
+                <Baseline points="126,1259 353,1254 635,1239 1033,1210 1073,1227"/>
+                <TextEquiv>
+                    <Unicode>Ein 2tes, um darauf die Vertheilung der Felsarten anzumahlen</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1486656998783_1288" custom="readingOrder {index:27;}">
+                <Coords points="126,1254 1063,1218 1065,1268 128,1304"/>
+                <Baseline points="128,1299 1065,1263"/>
+                <TextEquiv>
+                    <Unicode>die Verbreitung der Nagelfluh, Sandsteine, Megel, Kalk-Koh-</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1486657003873_1289" custom="readingOrder {index:28;}">
+                <Coords points="118,1300 1060,1257 1062,1307 120,1350"/>
+                <Baseline points="120,1345 1062,1302"/>
+                <TextEquiv>
+                    <Unicode>lenlagen us. f. Wenn die hiefür nöthigen Untersuchungen</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1486657007684_1290" custom="readingOrder {index:29;}">
+                <Coords points="121,1343 1008,1302 1010,1352 123,1393"/>
+                <Baseline points="123,1388 1010,1347"/>
+                <TextEquiv>
+                    <Unicode>einst fertig sein werden, so wird die Karte nicht nur </Unicode>
+                </TextEquiv>
+            </TextLine>
+        </TextRegion>
+    </Page>
+</PcGts>

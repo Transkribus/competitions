@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+  <Metadata>
+    <Creator>htrsh_pagexml_create</Creator>
+    <Created>2017-01-30T12:28:11</Created>
+    <LastChange>2017-02-17T11:59:43.987+01:00</LastChange>
+  </Metadata>
+  <Page imageFilename="040035.jpg" imageWidth="1143" imageHeight="1440">
+    <ReadingOrder>
+      <OrderedGroup id="ro_1487329184093" caption="Regions reading order">
+        <RegionRefIndexed index="0" regionRef="TextRegion_1487329154366_265"/>
+        <RegionRefIndexed index="1" regionRef="TextRegion_1487329154366_264"/>
+        <RegionRefIndexed index="2" regionRef="TextRegion_1487329151710_262"/>
+        <RegionRefIndexed index="3" regionRef="TextRegion_1487329150287_260"/>
+      </OrderedGroup>
+    </ReadingOrder>
+    <TextRegion id="TextRegion_1487329154366_265">
+      <Coords points="1021,164 456,164 456,34 1021,34"/>
+      <TextLine id="line_1486987264132_1703">
+        <Coords points="536,61 940,61 940,111 536,111"/>
+        <Baseline points="536,106 940,106"/>
+        <TextEquiv>
+          <Unicode>Belvoir 6 November 1863.</Unicode>
+        </TextEquiv>
+      </TextLine>
+    </TextRegion>
+    <TextRegion id="TextRegion_1487329154366_264">
+      <Coords points="1138,344 54,344 54,164 1138,164"/>
+      <TextLine id="line_1486987269459_1704">
+        <Coords points="108,206 1039,208 1039,258 108,256"/>
+        <Baseline points="108,251 1039,253"/>
+        <TextEquiv>
+          <Unicode>An Herrn a. Staatsschreiber Dr. von Gonzenbach in Muri</Unicode>
+        </TextEquiv>
+      </TextLine>
+    </TextRegion>
+    <TextRegion id="TextRegion_1487329151710_262">
+      <Coords points="751,470 203,470 203,344 751,344"/>
+      <TextLine id="line_1486987273146_1705">
+        <Coords points="271,394 669,384 670,434 272,444"/>
+        <Baseline points="272,439 670,429"/>
+        <TextEquiv>
+          <Unicode>Hochgeachteter Herr!</Unicode>
+        </TextEquiv>
+      </TextLine>
+    </TextRegion>
+    <TextRegion id="TextRegion_1487329150287_260">
+      <Coords points="1138,1371 54,1371 54,470 1138,470"/>
+      <TextLine id="line_1486987279409_1706">
+        <Coords points="378,483 1110,475 1110,525 378,533"/>
+        <Baseline points="378,528 1110,520"/>
+        <TextEquiv>
+          <Unicode>Sie machen mir mit geschätzter Zuschrift von</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486987285923_1707">
+        <Coords points="62,543 1125,523 1126,573 63,593"/>
+        <Baseline points="64,591 1127,571"/>
+        <TextEquiv>
+          <Unicode>gestern Mittheilung von einem Artikel, der in dem «Berner -</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486987302177_1708">
+        <Coords points="64,589 464,598 1101,576 1103,626 464,648 63,639"/>
+        <Baseline points="63,634 464,643 1103,621"/>
+        <TextEquiv>
+          <Unicode>blatte» erschienen ist, &amp;amp; wünschen von mir zu erfahren, was</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486987307950_1709">
+        <Coords points="71,639 317,646 572,646 572,696 316,696 70,689"/>
+        <Baseline points="70,684 316,691 572,691"/>
+        <TextEquiv>
+          <Unicode>daran wahr &amp;amp; was falsch sei.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486987312384_1710">
+        <Coords points="358,706 1126,687 1127,737 359,756"/>
+        <Baseline points="359,751 1127,732"/>
+        <TextEquiv>
+          <Unicode>Ich finde Ihre Anfrage vollkommen berechtigt</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486987321640_1711">
+        <Coords points="61,766 661,761 1125,742 1127,792 662,811 61,816"/>
+        <Baseline points="61,811 662,806 1127,787"/>
+        <TextEquiv>
+          <Unicode>&amp;amp; will es daher keinen Augenblick anstehen lassen, auf diesel-</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486987325269_1712">
+        <Coords points="58,815 352,816 352,866 58,865"/>
+        <Baseline points="58,860 352,861"/>
+        <TextEquiv>
+          <Unicode>be zu antworten.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486987364014_1713">
+        <Coords points="341,855 1129,835 1130,885 342,905"/>
+        <Baseline points="342,900 1130,880"/>
+        <TextEquiv>
+          <Unicode>Vorerst habe ich hervorzuheben, daß ich noch</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486987376877_1714">
+        <Coords points="60,904 352,906 1123,886 1124,936 352,956 60,954"/>
+        <Baseline points="60,949 352,951 1124,931"/>
+        <TextEquiv>
+          <Unicode>nie eine Nummer des «Bernerblattes» vor Augen gehabt habe</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486987392651_1715">
+        <Coords points="65,947 162,956 388,958 1126,938 1127,988 388,1008 160,1006 61,997"/>
+        <Baseline points="61,992 160,1001 388,1003 1127,983"/>
+        <TextEquiv>
+          <Unicode>&amp;amp; daß mir daher auch diejenige, in welcher der fragliche Arti-</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486987400882_1716">
+        <Coords points="63,1002 200,1011 1129,991 1130,1041 199,1061 60,1052"/>
+        <Baseline points="60,1047 199,1056 1130,1036"/>
+        <TextEquiv>
+          <Unicode>kel enthalten ist, nie zu Gesichte kam. Der Inhalt des Artikels</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486987408398_1717">
+        <Coords points="64,1049 226,1062 878,1054 879,1104 225,1112 60,1099"/>
+        <Baseline points="60,1094 225,1107 879,1099"/>
+        <TextEquiv>
+          <Unicode>ist mir also erst durch Sie bekannt geworden.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486987415937_1718">
+        <Coords points="355,1122 1120,1113 1121,1163 356,1172"/>
+        <Baseline points="356,1167 1121,1158"/>
+        <TextEquiv>
+          <Unicode>Daß ich Sie irgend jemandem gegenüber</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486987422077_1719">
+        <Coords points="57,1171 1127,1164 1127,1214 57,1221"/>
+        <Baseline points="57,1219 1129,1209"/>
+        <TextEquiv>
+          <Unicode>als einen Mann bezeichnet habe, «den ich aus tiefster Seele ver-</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486987444944_1720">
+        <Coords points="59,1224 467,1223 1113,1215 1114,1265 467,1273 59,1274"/>
+        <Baseline points="59,1269 467,1268 1114,1260"/>
+        <TextEquiv>
+          <Unicode>achte», stellt sich, wenn es hiefür noch eines Beweises bedarf,</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486987453635_1721">
+        <Coords points="55,1276 362,1277 1120,1264 1121,1314 362,1327 55,1326"/>
+        <Baseline points="55,1321 362,1322 1121,1309"/>
+        <TextEquiv>
+          <Unicode>schon darum geradezu als eine Unmöglichkeit heraus, weil </Unicode>
+        </TextEquiv>
+      </TextLine>
+    </TextRegion>
+  </Page>
+</PcGts>

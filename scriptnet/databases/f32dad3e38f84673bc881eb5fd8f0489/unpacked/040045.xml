@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+    <Metadata>
+        <Creator>htrsh_pagexml_create</Creator>
+        <Created>2017-01-30T12:24:13</Created>
+        <LastChange>2017-06-30T18:39:31.654+02:00</LastChange>
+    </Metadata>
+    <Page imageFilename="040045.jpg" imageWidth="1096" imageHeight="1440">
+        <ReadingOrder>
+            <OrderedGroup id="ro_1498840771695" caption="Regions reading order">
+                <RegionRefIndexed index="0" regionRef="pg"/>
+                <RegionRefIndexed index="1" regionRef="region_1487321710046_136"/>
+                <RegionRefIndexed index="2" regionRef="region_1487321703358_135"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <TextRegion id="pg" custom="readingOrder {index:0;}">
+            <Coords points="39,137 1095,137 1095,1195 39,1274"/>
+            <TextLine id="line_1486641643125_639" custom="readingOrder {index:0;}">
+                <Coords points="70,174 758,165 1029,165 1029,215 758,215 71,224"/>
+                <Baseline points="71,219 758,210 1029,210"/>
+                <TextEquiv>
+                    <Unicode>&amp;amp; soviel ich vernehmen konnte ist die Stimmung für ihn</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1486641653217_640" custom="readingOrder {index:1;}">
+                <Coords points="46,206 803,195 1075,193 1075,243 803,245 47,256"/>
+                <Baseline points="47,251 803,240 1075,238"/>
+                <TextEquiv>
+                    <Unicode>durchweg eine günstige. Allein würde Sulzer zurück-</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1486641658305_641" custom="readingOrder {index:2;}">
+                <Coords points="65,237 1068,226 1068,276 65,287"/>
+                <Baseline points="65,282 1068,271"/>
+                <TextEquiv>
+                    <Unicode>treten, so käme dann in Frage, wer an seine Stelle</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1486641673195_642" custom="readingOrder {index:3;}">
+                <Coords points="56,265 773,255 1008,260 1088,295 1084,339 999,309 773,305 57,315"/>
+                <Baseline points="57,310 773,300 1000,304 1086,334"/>
+                <TextEquiv>
+                    <Unicode>treten soll. In diesem Falle würde Bucher ohne Zweifel</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1486641680977_643" custom="readingOrder {index:4;}">
+                <Coords points="69,301 960,292 1072,307 1065,357 957,342 69,351"/>
+                <Baseline points="69,346 957,337 1066,352"/>
+                <TextEquiv>
+                    <Unicode>aspiriren, &amp;amp; es wäre dann unsere Meinung, daß Bucher</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1486641687382_644" custom="readingOrder {index:5;}">
+                <Coords points="76,336 1049,325 1050,375 77,386"/>
+                <Baseline points="77,381 1050,370"/>
+                <TextEquiv>
+                    <Unicode>als erster &amp;amp; Hagenb. als zweiter (womit dieser</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1486641695166_645" custom="readingOrder {index:6;}">
+                <Coords points="70,368 986,355 1077,364 1071,414 984,405 71,418"/>
+                <Baseline points="71,413 984,400 1072,409"/>
+                <TextEquiv>
+                    <Unicode>auch ganz einverstanden wäre) gewählt werden sollte.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1486641704748_646" custom="readingOrder {index:7;}">
+                <Coords points="67,404 1026,392 1088,415 1069,462 1017,441 68,454"/>
+                <Baseline points="68,449 1018,436 1071,457"/>
+                <TextEquiv>
+                    <Unicode>Man sollte also schon vor der Wahl des erstern wissen,</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1486641711733_647" custom="readingOrder {index:8;}">
+                <Coords points="84,430 566,428 566,478 84,480"/>
+                <Baseline points="84,475 566,473"/>
+                <TextEquiv>
+                    <Unicode>was Sulzer thun will. –</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1487321612982_134" custom="readingOrder {index:9;}">
+                <Coords points="315,449 368,451 366,501 313,499"/>
+                <Baseline points="313,494 366,496"/>
+                <TextEquiv>
+                    <Unicode>Ott </Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1486641725744_648" custom="readingOrder {index:10;}">
+                <Coords points="123,469 1032,464 1088,471 1081,521 1029,514 123,519"/>
+                <Baseline points="123,514 1029,509 1082,516"/>
+                <TextEquiv>
+                    <Unicode>Hr Stabsmajor beschwerte sich bei mir darüber, daß sein College</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1486641731450_649" custom="readingOrder {index:11;}">
+                <Coords points="102,507 1067,493 1068,543 103,557"/>
+                <Baseline points="103,552 1068,538"/>
+                <TextEquiv>
+                    <Unicode>(Müller) Wehrli als Oberstlieutnt im Generalstab vor-</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1486641741304_650" custom="readingOrder {index:12;}">
+                <Coords points="90,540 1043,527 1044,577 91,590"/>
+                <Baseline points="91,585 1044,572"/>
+                <TextEquiv>
+                    <Unicode>geschlagen worden sei &amp;amp; er – Ott – nicht; während sie beide</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1486641746413_651" custom="readingOrder {index:13;}">
+                <Coords points="105,575 1066,563 1067,613 106,625"/>
+                <Baseline points="106,620 1067,608"/>
+                <TextEquiv>
+                    <Unicode>am gleichen Tage das Majorsbrevet erhalten haben.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1486641836965_652" custom="readingOrder {index:14;}">
+                <Coords points="99,603 1021,591 1095,606 1085,655 1017,641 100,653"/>
+                <Baseline points="100,652 1017,640 1086,647"/>
+                <TextEquiv>
+                    <Unicode>Wehrli habe zwar die Erfordernisse zum Avancement,</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1486641857835_653" custom="readingOrder {index:15;}">
+                <Coords points="109,634 1044,623 1045,673 110,684"/>
+                <Baseline points="110,679 1045,668"/>
+                <TextEquiv>
+                    <Unicode>welche nach dem Reglement gefordert werden, nicht;</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1486641867590_654" custom="readingOrder {index:16;}">
+                <Coords points="111,666 828,661 1020,659 1091,666 1085,716 1018,709 828,711 111,716"/>
+                <Baseline points="111,711 828,706 1018,704 1086,711"/>
+                <TextEquiv>
+                    <Unicode>allein sollte derselbe dennoch gewählt werden, so würde es ihn</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1486641875073_655" custom="readingOrder {index:17;}">
+                <Coords points="90,693 1001,687 1092,700 1084,750 998,737 90,743"/>
+                <Baseline points="89,742 1023,732 1084,749"/>
+                <TextEquiv>
+                    <Unicode>sehr ärgern, daß nicht auch er in Vorschlag gebracht</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1486641930264_656" custom="readingOrder {index:18;}">
+                <Coords points="108,728 1028,723 1082,736 1070,785 1022,773 108,778"/>
+                <Baseline points="108,773 1023,768 1071,780"/>
+                <TextEquiv>
+                    <Unicode>worden sei. – Willst Du Dich vielleicht bei Herrn Frei-Herosee</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1486641953979_657" custom="readingOrder {index:19;}">
+                <Coords points="104,764 1051,753 1052,803 105,814"/>
+                <Baseline points="105,809 1052,798"/>
+                <TextEquiv>
+                    <Unicode>erkundigen welche Chancen W. habe? Falls diese</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1486641961915_658" custom="readingOrder {index:20;}">
+                <Coords points="94,799 723,785 1081,789 1080,839 723,835 95,849"/>
+                <Baseline points="95,844 723,830 1080,834"/>
+                <TextEquiv>
+                    <Unicode>günstig wären, so sollte auch Ott vorgeschlagen werden,</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1486641968214_659" custom="readingOrder {index:21;}">
+                <Coords points="116,837 679,816 1076,817 1076,867 680,866 118,887"/>
+                <Baseline points="118,882 680,861 1076,862"/>
+                <TextEquiv>
+                    <Unicode>was die Gesandtschaft wohl von sich aus thun könnte. –</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1486641974421_660" custom="readingOrder {index:22;}">
+                <Coords points="127,874 742,858 1043,858 1043,908 743,908 128,924"/>
+                <Baseline points="128,919 743,903 1043,903"/>
+                <TextEquiv>
+                    <Unicode>Ebenso empfehle ich Dir dringend den Herrn Wild als</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1486641980575_661" custom="readingOrder {index:23;}">
+                <Coords points="123,914 800,892 1052,883 1054,933 802,942 124,964"/>
+                <Baseline points="124,959 802,937 1054,928"/>
+                <TextEquiv>
+                    <Unicode>Major in den Generalstab. Wild verdient</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1486641986411_662" custom="readingOrder {index:24;}">
+                <Coords points="127,952 1001,917 1003,967 129,1002"/>
+                <Baseline points="129,997 1003,962"/>
+                <TextEquiv>
+                    <Unicode>gewiß diese Anerkennung im höchsten Grade. –</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1486641997179_663" custom="readingOrder {index:25;}">
+                <Coords points="165,991 1055,955 1090,961 1082,1010 1052,1005 167,1041"/>
+                <Baseline points="167,1036 1052,1000 1083,1005"/>
+                <TextEquiv>
+                    <Unicode>Neues von Bedeutung nichts. Daß Oberst Bürkli</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1486642004175_664" custom="readingOrder {index:26;}">
+                <Coords points="118,1019 1080,992 1081,1042 119,1069"/>
+                <Baseline points="80,1070 1081,1037"/>
+                <TextEquiv>
+                    <Unicode>– wie E. G. sagt, wahrscheinlich wegen «religiöser Bewegungen» –</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1486642019561_665" custom="readingOrder {index:27;}">
+                <Coords points="60,1057 603,1045 782,1032 785,1082 605,1095 61,1107"/>
+                <Baseline points="61,1102 605,1090 785,1077"/>
+                <TextEquiv>
+                    <Unicode>geisteskrank ist, wirst Du wissen! –</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1486642029542_666" custom="readingOrder {index:28;}">
+                <Coords points="95,1104 1068,1073 1069,1123 96,1154"/>
+                <Baseline points="96,1149 1069,1118"/>
+                <TextEquiv>
+                    <Unicode>Herzliche Grüße an die Herren Hoffmann, Hungerbühler &amp;amp;</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1486642055671_667" custom="readingOrder {index:29;}">
+                <Coords points="114,1138 1079,1104 1081,1154 116,1188"/>
+                <Baseline points="112,1189 1076,1149"/>
+                <TextEquiv>
+                    <Unicode>Siegfried. Dich grüßt &amp;amp; weilt im Geiste oft</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1486642075215_668" custom="readingOrder {index:30;}">
+                <Coords points="131,1188 1083,1145 1085,1195 133,1238"/>
+                <Baseline points="133,1233 1085,1190"/>
+                <TextEquiv>
+                    <Unicode>bei Dir Dein «unveränderter &amp;amp; sich nie verändern-</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1486642078327_669" custom="readingOrder {index:31;}">
+                <Coords points="130,1216 214,1209 218,1259 134,1266"/>
+                <Baseline points="134,1261 218,1254"/>
+                <TextEquiv>
+                    <Unicode>der»</Unicode>
+                </TextEquiv>
+            </TextLine>
+        </TextRegion>
+        <TextRegion id="region_1487321710046_136" custom="readingOrder {index:1;}">
+            <Coords points="758,1225 1029,1203 1028,1375 758,1375"/>
+            <TextLine id="line_1487321802509_138" custom="readingOrder {index:0;}">
+                <Coords points="769,1238 1005,1226 1007,1276 771,1288"/>
+                <Baseline points="771,1283 1007,1271"/>
+                <TextEquiv>
+                    <Unicode>J Bollier</Unicode>
+                </TextEquiv>
+            </TextLine>
+        </TextRegion>
+        <TextRegion id="region_1487321703358_135" custom="readingOrder {index:2;}">
+            <Coords points="138,1274 489,1274 489,1367 138,1367"/>
+            <TextLine id="line_1487321751885_137" custom="readingOrder {index:0;}">
+                <Coords points="146,1283 473,1277 474,1327 147,1333"/>
+                <Baseline points="147,1328 474,1322"/>
+                <TextEquiv>
+                    <Unicode>Zürich d. 11/6/48.</Unicode>
+                </TextEquiv>
+            </TextLine>
+        </TextRegion>
+    </Page>
+</PcGts>

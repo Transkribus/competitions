@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+    <Metadata>
+        <Creator>htrsh_pagexml_create</Creator>
+        <Created>2017-01-30T12:23:53</Created>
+        <LastChange>2017-06-30T18:45:48.801+02:00</LastChange>
+    </Metadata>
+    <Page imageFilename="040047.jpg" imageWidth="1099" imageHeight="1440">
+        <ReadingOrder>
+            <OrderedGroup id="ro_1498841148953" caption="Regions reading order">
+                <RegionRefIndexed index="0" regionRef="TextRegion_1487321396050_131"/>
+                <RegionRefIndexed index="1" regionRef="TextRegion_1487321396049_130"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <TextRegion id="TextRegion_1487321396050_131" custom="readingOrder {index:0;}">
+            <Coords points="871,164 307,164 307,95 871,95"/>
+            <TextLine id="line_1486640305221_590" custom="readingOrder {index:0;}">
+                <Coords points="323,90 859,97 858,147 322,140"/>
+                <Baseline points="322,135 858,142"/>
+                <TextEquiv>
+                    <Unicode>Werthgeschätzter Herr &amp;amp; Freund!</Unicode>
+                </TextEquiv>
+            </TextLine>
+        </TextRegion>
+        <TextRegion id="TextRegion_1487321396049_130" custom="readingOrder {index:1;}">
+            <Coords points="1089,1419 266,1421 266,164 1098,164"/>
+            <TextLine id="line_1487321396098_132" custom="readingOrder {index:0;}">
+                <Coords points="1072,217 336,210 336,164 756,164 1072,167"/>
+                <Baseline points="336,205 1072,212"/>
+                <TextEquiv>
+                    <Unicode>Weit entfert Ihren Ansichten &amp;amp; Ueberzeugung, als</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1486640320778_592" custom="readingOrder {index:1;}">
+                <Coords points="306,201 1072,217 1071,267 305,251"/>
+                <Baseline points="305,246 1071,262"/>
+                <TextEquiv>
+                    <Unicode>Mitglied des H: Erziehungsrathes vorzugreiffen</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1486640326235_593" custom="readingOrder {index:2;}">
+                <Coords points="307,250 1059,259 1058,309 306,300"/>
+                <Baseline points="306,295 1058,304"/>
+                <TextEquiv>
+                    <Unicode>erlaube ich mir, im Intresse unserer Schule, die</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1486640335274_594" custom="readingOrder {index:3;}">
+                <Coords points="298,298 990,296 1094,299 1097,350 989,346 298,348"/>
+                <Baseline points="298,343 989,341 1097,345"/>
+                <TextEquiv>
+                    <Unicode>Wünsche, mit denen alle besser gesinnten Schulfreunde</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1486640346649_595" custom="readingOrder {index:4;}">
+                <Coords points="301,349 958,337 1069,338 1069,388 958,387 302,399"/>
+                <Baseline points="302,394 958,382 1069,383"/>
+                <TextEquiv>
+                    <Unicode>in unserer Gmde. einig gehen, mit zu theilen, mit</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1486640352959_596" custom="readingOrder {index:5;}">
+                <Coords points="300,397 1083,380 1084,430 301,447"/>
+                <Baseline points="301,442 1084,425"/>
+                <TextEquiv>
+                    <Unicode>der ehrerbietigen Bitte, dieselben bei dem näch-</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1486640357845_597" custom="readingOrder {index:6;}">
+                <Coords points="298,440 1084,423 1085,473 299,490"/>
+                <Baseline points="299,485 1085,468"/>
+                <TextEquiv>
+                    <Unicode>stens zu bildenden Dreiervorschlag gefälligst zu be-</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1486640364176_598" custom="readingOrder {index:7;}">
+                <Coords points="300,485 463,477 465,527 302,535"/>
+                <Baseline points="302,530 465,522"/>
+                <TextEquiv>
+                    <Unicode>rüksichtigen.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1486640369404_599" custom="readingOrder {index:8;}">
+                <Coords points="397,524 1093,511 1094,561 398,574"/>
+                <Baseline points="398,569 1094,556"/>
+                <TextEquiv>
+                    <Unicode>Wir wünschen nähmlich daß von den sich ange-</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1486640384128_600" custom="readingOrder {index:9;}">
+                <Coords points="303,567 1081,563 1081,613 303,617"/>
+                <Baseline points="303,612 1081,608"/>
+                <TextEquiv>
+                    <Unicode>meldeten Candidaten die H: Egli v: Unterwezikon,</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1486640388838_601" custom="readingOrder {index:10;}">
+                <Coords points="300,616 1084,605 1085,655 301,666"/>
+                <Baseline points="301,661 1085,650"/>
+                <TextEquiv>
+                    <Unicode>&amp;amp; Hch: Wettstein v: Rußikon in den Dreiervorschlag</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1486640396320_602" custom="readingOrder {index:11;}">
+                <Coords points="302,670 1067,646 1068,696 303,720"/>
+                <Baseline points="303,715 1068,691"/>
+                <TextEquiv>
+                    <Unicode>aufgenohmen werden möchten, indem wenn der</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1486640402826_603" custom="readingOrder {index:12;}">
+                <Coords points="293,714 1073,689 1074,739 294,764"/>
+                <Baseline points="294,759 1074,734"/>
+                <TextEquiv>
+                    <Unicode>Einte od: der Andere von diesen 2en gewählt wird,</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1486640409183_604" custom="readingOrder {index:13;}">
+                <Coords points="295,763 1061,735 1063,785 297,813"/>
+                <Baseline points="297,808 1063,780"/>
+                <TextEquiv>
+                    <Unicode>die Wahl eine erfreüliche ist. Im fall, wie ich</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1486640415083_605" custom="readingOrder {index:14;}">
+                <Coords points="286,811 1077,783 1079,833 288,861"/>
+                <Baseline points="288,856 1079,828"/>
+                <TextEquiv>
+                    <Unicode>zuverläßig vernohmen habe, von gewisser Seite</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1486640421422_606" custom="readingOrder {index:15;}">
+                <Coords points="289,857 1084,838 1085,888 290,907"/>
+                <Baseline points="290,902 1085,883"/>
+                <TextEquiv>
+                    <Unicode>für Jb: Bodmer in Wiedikon gearbeittet werden,</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1486640433541_607" custom="readingOrder {index:16;}">
+                <Coords points="291,901 1080,879 1081,929 292,951"/>
+                <Baseline points="292,946 1081,924"/>
+                <TextEquiv>
+                    <Unicode>der allerdings für unsere Schule am wenigsten taugt,</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1486640465957_608" custom="readingOrder {index:17;}">
+                <Coords points="296,945 1087,924 1088,974 297,995"/>
+                <Baseline points="297,990 1088,969"/>
+                <TextEquiv>
+                    <Unicode>um allfälligen Intriguen vorzubeugen, wäre sehr</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1486640473776_609" custom="readingOrder {index:18;}">
+                <Coords points="297,994 1089,969 1090,1019 298,1044"/>
+                <Baseline points="298,1039 1090,1014"/>
+                <TextEquiv>
+                    <Unicode>wünschbar wenn dieser nicht im Vorschlag aufgenohmen</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1486640482790_610" custom="readingOrder {index:19;}">
+                <Coords points="299,1038 1088,1015 1089,1065 300,1088"/>
+                <Baseline points="300,1083 1089,1060"/>
+                <TextEquiv>
+                    <Unicode>würde. H: Statthalter Zangger soll auch im gl: Sinn</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1486640489783_611" custom="readingOrder {index:20;}">
+                <Coords points="294,1084 1061,1061 1062,1111 295,1134"/>
+                <Baseline points="295,1129 1062,1106"/>
+                <TextEquiv>
+                    <Unicode>mit einigen Mitgliedern des H: Erziehungsrathes</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1486640493455_612" custom="readingOrder {index:21;}">
+                <Coords points="298,1124 1084,1101 1085,1151 299,1174"/>
+                <Baseline points="299,1169 706,1163 1085,1146"/>
+                <TextEquiv>
+                    <Unicode>Rüksprache genohmen haben &amp;amp; wie ich hoffe, nicht</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1486640511492_613" custom="readingOrder {index:22;}">
+                <Coords points="294,1162 692,1162 1054,1140 1057,1190 693,1212 294,1212"/>
+                <Baseline points="294,1207 693,1207 1057,1185"/>
+                <TextEquiv>
+                    <Unicode>ohne Erfolg. In der Hoffnung Sie werden mir die</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1486640521431_614" custom="readingOrder {index:23;}">
+                <Coords points="294,1206 780,1197 1066,1179 1069,1229 782,1247 295,1256"/>
+                <Baseline points="295,1251 782,1242 1069,1224"/>
+                <TextEquiv>
+                    <Unicode>angemaßte Freiheit, die aus meinem Intresse für das</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1486640528500_615" custom="readingOrder {index:24;}">
+                <Coords points="283,1247 732,1240 1087,1220 1090,1270 734,1290 284,1297"/>
+                <Baseline points="284,1292 734,1285 1090,1265"/>
+                <TextEquiv>
+                    <Unicode>Wohl unserer Schule hervorgegangen ist, nicht Übel nehmen</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1486640535140_616" custom="readingOrder {index:25;}">
+                <Coords points="292,1286 775,1278 977,1265 980,1315 777,1328 293,1336"/>
+                <Baseline points="293,1331 777,1323 980,1310"/>
+                <TextEquiv>
+                    <Unicode>versichere Sie meiner ... vollen Ergebenheit.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1486640542802_618" custom="readingOrder {index:26;}">
+                <Coords points="804,1307 1012,1307 1012,1357 804,1357"/>
+                <Baseline points="818,1357 1012,1352"/>
+                <TextEquiv>
+                    <Unicode>J: Stiefel</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1486640539863_617" custom="readingOrder {index:27;}">
+                <Coords points="292,1337 635,1333 636,1383 293,1387"/>
+                <Baseline points="293,1382 636,1378"/>
+                <TextEquiv>
+                    <Unicode>Uster den 26 April 1846.</Unicode>
+                </TextEquiv>
+            </TextLine>
+        </TextRegion>
+    </Page>
+</PcGts>

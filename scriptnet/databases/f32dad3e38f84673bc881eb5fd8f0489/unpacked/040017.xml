@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+  <Metadata>
+    <Creator>TRP</Creator>
+    <Created>2016-12-22T15:32:47.031+01:00</Created>
+    <LastChange>2017-01-20T11:33:53.184+01:00</LastChange>
+  </Metadata>
+  <Page imageFilename="040017.jpg" imageWidth="1644" imageHeight="2576">
+    <ReadingOrder>
+      <OrderedGroup id="ro_1484908433220" caption="Regions reading order">
+        <RegionRefIndexed index="0" regionRef="region_1483620806208_113"/>
+        <RegionRefIndexed index="1" regionRef="region_1483620810598_114"/>
+        <RegionRefIndexed index="2" regionRef="region_1483620814055_115"/>
+        <RegionRefIndexed index="3" regionRef="region_1483620821567_116"/>
+      </OrderedGroup>
+    </ReadingOrder>
+    <TextRegion id="region_1483620806208_113">
+      <Coords points="1545,12 1623,12 1623,109 1545,109"/>
+      <TextLine id="line_1483620831925_117">
+        <Coords points="1557,42 1610,42 1610,92 1557,92"/>
+        <Baseline points="1557,87 1610,87"/>
+        <TextEquiv>
+          <Unicode>9</Unicode>
+        </TextEquiv>
+      </TextLine>
+    </TextRegion>
+    <TextRegion id="region_1483620810598_114">
+      <Coords points="1039,730 1636,730 1636,942 1039,942"/>
+      <TextLine id="line_1483620844749_118">
+        <Coords points="1102,762 1146,787 1620,781 1620,831 1134,836 1079,806"/>
+        <Baseline points="1081,802 1135,831 1620,826"/>
+        <TextEquiv>
+          <Unicode>Göttingen, den 5. April</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1483620847859_119">
+        <Coords points="1340,859 1438,869 1432,919 1334,909"/>
+        <Baseline points="1335,904 1433,914"/>
+        <TextEquiv>
+          <Unicode>1877.</Unicode>
+        </TextEquiv>
+      </TextLine>
+    </TextRegion>
+    <TextRegion id="region_1483620814055_115">
+      <Coords points="611,980 1302,980 1302,1145 611,1145"/>
+      <TextLine id="line_1483620866498_120">
+        <Coords points="636,1041 1278,1055 1277,1105 635,1091"/>
+        <Baseline points="635,1086 1277,1100"/>
+        <TextEquiv>
+          <Unicode>Hochgeehrter Herr Geheimrath!</Unicode>
+        </TextEquiv>
+      </TextLine>
+    </TextRegion>
+    <TextRegion id="region_1483620821567_116">
+      <Coords points="99,1233 1639,1233 1639,2263 99,2263"/>
+      <TextLine id="line_1483620890528_121">
+        <Coords points="133,1268 1611,1266 1611,1316 133,1318"/>
+        <Baseline points="133,1313 1611,1311"/>
+        <TextEquiv>
+          <Unicode>Meine Arbeit an der Stadtrechtssammlung ist seit vorige Ostern,</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1483620896317_122">
+        <Coords points="120,1354 1590,1346 1590,1396 120,1404"/>
+        <Baseline points="120,1399 1590,1391"/>
+        <TextEquiv>
+          <Unicode>wo Sie mir die Herausgabe der ältern Stadtrechte für die Mon.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1483620901332_123">
+        <Coords points="168,1437 188,1452 1604,1439 1604,1489 175,1500 141,1479"/>
+        <Baseline points="144,1475 176,1495 1604,1484"/>
+        <TextEquiv>
+          <Unicode>Germ. übertrugen, in der Weise fortgeführt, daß ich jetzt eine</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1483620905195_124">
+        <Coords points="153,1540 1606,1532 1606,1582 153,1590"/>
+        <Baseline points="153,1585 1606,1577"/>
+        <TextEquiv>
+          <Unicode>ungefähre Übersicht über das Material besitze, das wohl aus¬</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1483620909957_125">
+        <Coords points="173,1636 1596,1624 1596,1674 173,1686"/>
+        <Baseline points="173,1681 1596,1669"/>
+        <TextEquiv>
+          <Unicode>reichen würde, den ersten Band zu füllen. Ich bin von</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1483620916827_126">
+        <Coords points="175,1731 1467,1723 1590,1718 1592,1768 1468,1773 175,1781"/>
+        <Baseline points="175,1776 1468,1768 1592,1763"/>
+        <TextEquiv>
+          <Unicode>Belgien ausgegangen, habe dann Holland und ferner den</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1483620921636_127">
+        <Coords points="191,1838 1614,1821 1615,1871 192,1888"/>
+        <Baseline points="192,1883 1615,1866"/>
+        <TextEquiv>
+          <Unicode>Niederrhein, um damit Cöln Achen und ihnen verwandte</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1483620925977_128">
+        <Coords points="213,1948 1602,1937 1602,1987 213,1998"/>
+        <Baseline points="213,1993 1602,1982"/>
+        <TextEquiv>
+          <Unicode>Städte zu bezeichnen, bearbeitet. So mit war ich bis</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1483620936427_129">
+        <Coords points="236,2056 1601,2040 1602,2090 237,2106"/>
+        <Baseline points="237,2101 1602,2085"/>
+        <TextEquiv>
+          <Unicode>zum Beginn des Wintersemesters gelangt. Während</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1483620940759_130">
+        <Coords points="255,2170 1622,2169 1622,2219 255,2220"/>
+        <Baseline points="255,2215 1622,2214"/>
+        <TextEquiv>
+          <Unicode>desselben, wo ich durch zwei große Vorlesungen wie</Unicode>
+        </TextEquiv>
+      </TextLine>
+    </TextRegion>
+  </Page>
+</PcGts>

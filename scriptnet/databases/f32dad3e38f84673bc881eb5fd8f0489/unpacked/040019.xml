@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+  <Metadata>
+    <Creator>TRP
+NCSR LineSegmentationTool, v0.3.0 (17_3_2015)</Creator>
+    <Created>2016-12-22T15:32:47.039+01:00</Created>
+    <LastChange>2017-01-20T09:26:41.381+01:00</LastChange>
+  </Metadata>
+  <Page imageFilename="040019.jpg" imageWidth="1578" imageHeight="2464">
+    <ReadingOrder>
+      <OrderedGroup id="ro_1484900801419" caption="Regions reading order">
+        <RegionRefIndexed index="0" regionRef="region_1483099451037_6"/>
+        <RegionRefIndexed index="1" regionRef="region_1483099457615_7"/>
+        <RegionRefIndexed index="2" regionRef="region_1483099466412_8"/>
+      </OrderedGroup>
+    </ReadingOrder>
+    <TextRegion id="region_1483099451037_6">
+      <Coords points="708,25 1522,25 1522,230 708,230"/>
+      <TextLine id="line_1483099501472_9">
+        <Coords points="1474,45 1518,50 1512,100 1468,95"/>
+        <Baseline points="1469,90 1513,95"/>
+        <TextEquiv>
+          <Unicode>5</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1483099507847_10">
+        <Coords points="730,85 1054,98 1352,84 1507,89 1506,139 1352,134 1054,148 728,135"/>
+        <Baseline points="728,130 1054,143 1352,129 1506,134"/>
+        <TextEquiv>
+          <Unicode>Montpellier Villa Marie</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1483099512410_11">
+        <Coords points="965,159 1483,167 1482,217 964,209"/>
+        <Baseline points="964,204 1482,212"/>
+        <TextEquiv>
+          <Unicode>den 25ten dec. 1882</Unicode>
+        </TextEquiv>
+      </TextLine>
+    </TextRegion>
+    <TextRegion id="region_1483099457615_7">
+      <Coords points="272,366 1333,366 1333,544 272,544"/>
+      <TextLine id="line_1483099586794_12">
+        <Coords points="282,467 414,456 686,456 929,448 1327,454 1326,504 929,498 687,506 416,506 286,517"/>
+        <Baseline points="286,512 416,501 687,501 929,493 1326,499"/>
+        <TextEquiv>
+          <Unicode>Hochgeehrter Herr Professor</Unicode>
+        </TextEquiv>
+      </TextLine>
+    </TextRegion>
+    <TextRegion id="region_1483099466412_8">
+      <Coords points="123,561 1574,561 1574,2389 123,2389"/>
+      <TextLine id="r1001">
+        <Coords points="659,573 632,577 616,580 565,646 564,650 565,657 571,667 1333,674 1533,661 1548,651 1558,598 1558,594 1555,589 1536,588 1495,588 1410,574 709,574 660,573"/>
+        <Baseline points="564,656 729,642 894,640 1059,638 1224,634 1558,637"/>
+        <TextEquiv>
+          <Unicode>Für Ihre so aeusserst freund¬</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r1002">
+        <Coords points="1105,692 220,695 204,698 177,710 160,763 162,779 169,781 1539,770 1560,748 1561,742 1558,705 1557,700 1541,699 1499,699 1461,692 1106,692"/>
+        <Baseline points="160,773 393,761 626,745 859,744 1092,750 1561,748"/>
+        <TextEquiv>
+          <Unicode>liche antwort danke ich Ihnen vielmals,</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r1003">
+        <Coords points="1556,769 913,772 223,788 140,877 138,884 138,888 835,884 1461,859 1512,860 1562,775 1562,769 1557,769"/>
+        <Baseline points="138,874 375,860 612,840 849,841 1086,838 1562,836"/>
+        <TextEquiv>
+          <Unicode>bedaure nur und fühle mich sehr</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r1004">
+        <Coords points="1461,876 993,877 215,881 148,944 148,950 151,956 1246,971 1485,950 1515,917 1515,912 1462,876"/>
+        <Baseline points="148,954 375,944 603,931 830,932 1058,934 1515,925"/>
+        <TextEquiv>
+          <Unicode>beschämt dass ich Ihnen wegen der</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r1005">
+        <Coords points="1412,958 1251,972 1243,972 1202,963 743,963 215,967 146,1036 146,1041 165,1065 791,1066 1214,1053 1265,1066 1401,1061 1537,1054 1555,1038 1555,1033 1413,958"/>
+        <Baseline points="146,1057 380,1043 615,1037 849,1027 1084,1019 1555,1032"/>
+        <TextEquiv>
+          <Unicode>bitte um mittheilung der aushängebogen</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r1006">
+        <Coords points="1211,1054 791,1067 371,1067 351,1066 202,1080 150,1140 150,1146 155,1152 389,1157 1518,1145 1534,1119 1537,1085 1537,1081 1534,1076 1474,1060 1424,1060 1413,1059 1380,1059 1371,1058 1269,1067 1262,1067 1212,1054"/>
+        <Baseline points="150,1142 380,1134 611,1125 841,1120 1072,1114 1537,1119"/>
+        <TextEquiv>
+          <Unicode>so viel mühe verursacht habe. Freilich</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r1007">
+        <Coords points="1430,1148 480,1156 302,1159 198,1166 169,1201 169,1206 173,1218 187,1242 423,1261 547,1228 842,1230 951,1260 1108,1224 1207,1221 1438,1208 1520,1232 1553,1193 1553,1189 1450,1149 1439,1149 1431,1148"/>
+        <Baseline points="169,1222 399,1221 629,1206 859,1203 1089,1203 1553,1196"/>
+        <TextEquiv>
+          <Unicode>wird es für mich vom grössten werthe</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r1008">
+        <Coords points="1433,1217 1206,1222 1108,1225 954,1261 948,1261 842,1231 558,1231 539,1230 426,1262 420,1262 192,1249 191,1249 165,1248 134,1305 134,1310 134,1312 136,1315 933,1330 1104,1315 1149,1328 1352,1304 1550,1290 1553,1283 1553,1279 1445,1217 1434,1217"/>
+        <Baseline points="134,1307 370,1305 606,1298 842,1291 1078,1279 1553,1280"/>
+        <TextEquiv>
+          <Unicode>sein dieselben einsehen zu dürfen. Wenn</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r1009">
+        <Coords points="1348,1311 1151,1329 1146,1329 1107,1316 936,1331 931,1331 644,1319 296,1327 190,1339 163,1384 162,1391 162,1393 165,1398 181,1413 322,1397 453,1425 612,1398 710,1431 1034,1390 1403,1376 1473,1394 1477,1395 1501,1324 1501,1320 1498,1314 1365,1314 1349,1311"/>
+        <Baseline points="162,1391 384,1386 607,1382 829,1380 1052,1368 1501,1359"/>
+        <TextEquiv>
+          <Unicode>auch die zuverlässigkeit der aeltesten hand¬</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r1010">
+        <Coords points="1401,1384 1034,1391 710,1432 708,1432 618,1399 455,1426 452,1426 322,1398 193,1415 143,1464 143,1470 263,1519 269,1519 275,1513 299,1496 933,1513 1046,1489 1097,1508 1140,1481 1147,1481 1181,1502 1344,1503 1455,1466 1521,1482 1554,1441 1555,1433 1553,1425 1545,1411 1402,1384"/>
+        <Baseline points="143,1468 378,1467 613,1462 848,1456 1083,1448 1555,1438"/>
+        <TextEquiv>
+          <Unicode>schriften selbst erst sorgfältig geprüft sein</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r1011">
+        <Coords points="1140,1482 1104,1506 1081,1506 1049,1487 938,1514 930,1514 495,1495 299,1497 269,1520 240,1520 182,1519 160,1556 160,1562 163,1567 709,1587 716,1587 928,1561 934,1561 1408,1565 1552,1546 1565,1524 1565,1517 1563,1509 1557,1499 1541,1498 1532,1498 1526,1497 1520,1497 1510,1496 1502,1496 1458,1484 1344,1504 1331,1504 1141,1482"/>
+        <Baseline points="160,1560 393,1554 627,1544 860,1539 1094,1535 1565,1521"/>
+        <TextEquiv>
+          <Unicode>will und ihr zeugniss sich kaum auf ein</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r1012">
+        <Coords points="925,1562 716,1588 707,1588 383,1571 181,1582 155,1623 153,1632 153,1635 156,1641 172,1657 573,1650 668,1677 912,1615 914,1618 915,1618 917,1620 917,1621 935,1639 992,1617 993,1617 994,1619 995,1619 997,1621 997,1622 1020,1646 1266,1624 1442,1651 1527,1641 1545,1613 1546,1600 1537,1579 1537,1578 1509,1577 1465,1577 1401,1567 1287,1567 1284,1566 1009,1566 1003,1566 961,1565 956,1565 926,1562"/>
+        <Baseline points="153,1634 384,1630 616,1631 847,1618 1079,1603 1546,1608"/>
+        <TextEquiv>
+          <Unicode>viertheil der schriften Gregors erstreckt, so</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r1013">
+        <Coords points="909,1614 672,1678 666,1678 573,1650 390,1650 386,1649 235,1658 174,1695 169,1708 169,1716 169,1718 174,1726 737,1726 968,1742 1036,1715 1085,1739 1313,1709 1319,1710 1335,1735 1422,1719 1474,1739 1574,1678 1575,1674 1574,1671 1402,1631 1353,1631 1322,1630 1286,1630 1250,1629 1004,1629 995,1620 994,1620 993,1618 992,1618 985,1617 960,1628 924,1628 915,1619 914,1619 913,1617 912,1616 910,1615"/>
+        <Baseline points="169,1716 403,1715 637,1715 871,1702 1105,1680 1575,1693"/>
+        <TextEquiv>
+          <Unicode>ist doch andrerseits die ganze überlieferung</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r1014">
+        <Coords points="1309,1710 1089,1735 1084,1735 1039,1716 968,1743 964,1743 737,1727 734,1727 725,1726 409,1730 197,1747 168,1798 167,1804 167,1806 171,1812 500,1824 1532,1820 1545,1816 1555,1787 1555,1754 1554,1747 1543,1731 1491,1730 1479,1740 1471,1740 1426,1720 1354,1734 1349,1734 1317,1711 1310,1710"/>
+        <Baseline points="167,1804 398,1795 629,1784 823,1788 1083,1781 1555,1782"/>
+        <TextEquiv>
+          <Unicode>nicht ohne jene handschriften zu beurtheilen,</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r1015">
+        <Coords points="543,1822 433,1825 184,1840 165,1845 145,1920 145,1926 150,1929 422,1890 593,1876 745,1919 844,1880 1064,1873 1176,1887 1218,1865 1227,1865 1503,1881 1529,1853 1529,1845 1528,1840 1523,1832 1516,1831 1501,1831 1496,1830 1485,1830 1466,1823 1224,1823 1214,1822 655,1822 544,1822"/>
+        <Baseline points="145,1882 375,1878 605,1869 835,1863 1065,1851 1529,1852"/>
+        <TextEquiv>
+          <Unicode>ja, ich denke den grundstein müssen sie</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r1016">
+        <Coords points="1217,1866 1178,1888 1176,1888 1128,1887 1095,1887 1064,1874 844,1881 750,1921 747,1921 598,1877 422,1891 183,1920 169,1944 168,1958 168,1960 171,1965 743,1977 858,1959 897,1976 925,1957 1054,1954 1223,1980 1323,1953 1544,1956 1565,1923 1569,1886 1569,1880 1566,1875 1551,1874 1253,1874 1227,1866 1218,1866"/>
+        <Baseline points="168,1959 401,1953 634,1947 867,1934 1100,1929 1569,1928"/>
+        <TextEquiv>
+          <Unicode>immerhin bilden, da ja die übrigen wohl</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r1017">
+        <Coords points="1319,1954 1227,1981 1220,1981 1054,1955 925,1958 905,1974 889,1974 885,1963 848,1962 744,1978 742,1978 621,1965 298,1977 195,1989 170,2040 170,2044 173,2049 396,2069 520,2040 820,2064 916,2040 950,2059 985,2035 1016,2034 1070,2067 1212,2037 1297,2063 1542,2014 1545,2007 1545,2004 1408,1962 1353,1962 1320,1954"/>
+        <Baseline points="170,2038 398,2031 627,2025 849,2015 1030,2015 1545,2011"/>
+        <TextEquiv>
+          <Unicode>auch auf solche des 7ten jh. zurückgehen</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r1018">
+        <Coords points="987,2035 962,2057 943,2057 940,2044 859,2043 820,2062 819,2062 520,2041 398,2070 394,2070 191,2069 167,2110 167,2116 170,2122 326,2116 427,2132 457,2116 466,2115 1147,2134 1541,2119 1547,2120 1553,2120 1566,2070 1566,2066 1563,2061 1489,2039 1299,2064 1294,2064 1277,2042 1241,2042 1135,2041 1075,2068 1070,2068 1018,2036 1011,2035 988,2035"/>
+        <Baseline points="167,2110 399,2104 625,2099 864,2091 1097,2093 1455,2095 1509,2101 1568,2125"/>
+        <TextEquiv>
+          <Unicode>werden, keine unmittelbar auf die urhand¬</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r1019">
+        <Coords points="459,2116 428,2133 426,2133 328,2117 246,2127 173,2162 162,2188 162,2191 165,2196 277,2224 750,2205 869,2206 968,2204 995,2220 1143,2203 1399,2202 1547,2207 1565,2188 1550,2124 1526,2122 1148,2135 1143,2135 460,2116"/>
+        <Baseline points="162,2186 395,2178 629,2180 862,2174 1096,2171 1565,2186"/>
+        <TextEquiv>
+          <Unicode>schrift bezw. (wenn eine eigentliche ausgabe</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r1020">
+        <Coords points="1141,2204 998,2221 995,2221 994,2220 988,2220 971,2206 970,2206 965,2205 750,2206 281,2237 269,2237 172,2236 158,2269 158,2272 226,2311 232,2311 240,2304 326,2276 521,2280 869,2279 923,2302 944,2286 1025,2280 1087,2302 1149,2285 1428,2266 1508,2270 1529,2216 1529,2211 1516,2210 1464,2210 1420,2209 1417,2209 1399,2204 1142,2204"/>
+        <Baseline points="158,2269 386,2263 614,2255 842,2253 1070,2258 1437,2250 1558,2269"/>
+        <TextEquiv>
+          <Unicode>angenommen werden darf). auf die urhand¬</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r1021">
+        <Coords points="1514,2276 1428,2277 1149,2279 1096,2303 1084,2303 1025,2279 926,2302 915,2302 869,2280 334,2280 317,2279 241,2304 234,2312 214,2312 178,2311 159,2339 158,2347 158,2349 271,2386 1237,2390 1548,2366 1557,2348 1557,2337 1525,2277 1523,2277 1515,2276"/>
+        <Baseline points="158,2340 390,2340 549,2342 653,2333 1030,2337 1269,2324 1443,2336 1562,2349"/>
+        <TextEquiv>
+          <Unicode>schriften. Die wichtigkeit der miracula bin</Unicode>
+        </TextEquiv>
+      </TextLine>
+    </TextRegion>
+  </Page>
+</PcGts>

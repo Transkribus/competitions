@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+  <Metadata>
+    <Creator>htrsh_pagexml_create</Creator>
+    <Created>2017-01-30T12:25:31</Created>
+    <LastChange>2017-02-17T10:30:24.443+01:00</LastChange>
+  </Metadata>
+  <Page imageFilename="040055.jpg" imageWidth="1113" imageHeight="1440">
+    <ReadingOrder>
+      <OrderedGroup id="ro_1487323824549" caption="Regions reading order">
+        <RegionRefIndexed index="0" regionRef="TextRegion_1487323755751_188"/>
+        <RegionRefIndexed index="1" regionRef="TextRegion_1487323755751_187"/>
+      </OrderedGroup>
+    </ReadingOrder>
+    <TextRegion id="TextRegion_1487323755751_188">
+      <Coords points="615,206 194,206 194,77 615,77"/>
+      <TextLine id="line_1487323755785_190">
+        <Coords points="1025,206 1005,206 1025,205"/>
+        <TextEquiv>
+          <Unicode>Entschuldige mich, wenn ich Dich im Wesentlichen auf</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486653688413_1071">
+        <Coords points="249,131 548,114 551,164 252,181"/>
+        <Baseline points="252,176 551,159"/>
+        <TextEquiv>
+          <Unicode>Mein lieber Freund!</Unicode>
+        </TextEquiv>
+      </TextLine>
+    </TextRegion>
+    <TextRegion id="TextRegion_1487323755751_187">
+      <Coords points="1090,1275 212,1275 212,206 1090,206"/>
+      <TextLine id="line_1487323755784_189">
+        <Coords points="332,290 330,240 1005,206 1025,206 1027,255"/>
+        <Baseline points="332,285 1027,250"/>
+        <TextEquiv>
+          <Unicode>Entschuldige mich, wenn ich Dich im Wesentlichen auf</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486653696686_1073">
+        <Coords points="270,280 1038,248 1040,298 272,330"/>
+        <Baseline points="272,325 1040,293"/>
+        <TextEquiv>
+          <Unicode>die Berichte der thurg. Blätter &amp;amp;. mein kurzes Referat</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486653700720_1074">
+        <Coords points="270,328 1049,307 1050,357 271,378"/>
+        <Baseline points="271,373 1050,352"/>
+        <TextEquiv>
+          <Unicode>in der N.Z.Z. vom 12t Octob.  über die Gründungsgesellschaft</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486653706463_1075">
+        <Coords points="258,381 1011,362 1012,412 259,431"/>
+        <Baseline points="259,426 1012,407"/>
+        <TextEquiv>
+          <Unicode>von gestern verweise. Du siehst daraus, daß die Sache</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486653711377_1076">
+        <Coords points="259,433 1030,408 1031,458 260,483"/>
+        <Baseline points="260,478 1031,453"/>
+        <TextEquiv>
+          <Unicode>vorwärts geht, aber auch zugleich, daß es nicht die</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486653721900_1077">
+        <Coords points="273,480 758,473 1075,455 1078,505 760,523 274,530"/>
+        <Baseline points="274,525 760,518 1078,500"/>
+        <TextEquiv>
+          <Unicode>Landjunker (wie ein Kreis &amp;amp; dgl.) sind, welche das Verdienst</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486653727656_1078">
+        <Coords points="266,530 1042,514 1043,564 267,580"/>
+        <Baseline points="267,575 1043,559"/>
+        <TextEquiv>
+          <Unicode>haben. Die «Philister» sind halt überall......</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486653734320_1079">
+        <Coords points="346,600 1024,577 1026,627 348,650"/>
+        <Baseline points="348,645 1026,622"/>
+        <TextEquiv>
+          <Unicode>Mit der Form der Behandlung war ich nicht ganz</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486653739542_1080">
+        <Coords points="302,638 1031,617 1032,667 303,688"/>
+        <Baseline points="303,683 1032,662"/>
+        <TextEquiv>
+          <Unicode>einverstanden, mochte jedoch um der Strömung willen</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1487323772658_191">
+        <Coords points="814,649 888,647 889,697 815,699"/>
+        <Baseline points="815,694 889,692"/>
+        <TextEquiv>
+          <Unicode>übrigens</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486653744566_1081">
+        <Coords points="297,691 1041,669 1042,719 298,741"/>
+        <Baseline points="298,736 1042,714"/>
+        <TextEquiv>
+          <Unicode>nicht ernstlich einreden, weil die Sache gut im Fluße</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486653748232_1082">
+        <Coords points="304,739 365,738 366,788 305,789"/>
+        <Baseline points="305,784 366,783"/>
+        <TextEquiv>
+          <Unicode>war.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486653768252_1083">
+        <Coords points="392,771 1024,764 1024,814 392,821"/>
+        <Baseline points="392,816 1024,809"/>
+        <TextEquiv>
+          <Unicode>Da das bisherige Komité, auf meinen eignen Antrag,</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486653775633_1084">
+        <Coords points="363,814 1033,808 1033,858 363,864"/>
+        <Baseline points="363,859 1033,853"/>
+        <TextEquiv>
+          <Unicode>bestätigt wurde &amp;amp;. ich das Glück hatte, im Loose</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486653780055_1085">
+        <Coords points="341,864 1034,861 1034,911 341,914"/>
+        <Baseline points="341,909 1034,906"/>
+        <TextEquiv>
+          <Unicode>unter den 6 neuen Mitgliedern nicht herauszukommen,</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486653784304_1086">
+        <Coords points="309,923 1019,917 1019,967 309,973"/>
+        <Baseline points="309,968 1019,962"/>
+        <TextEquiv>
+          <Unicode>so bin ich nicht im Falle, offizielle Mittheilungen</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486653790525_1087">
+        <Coords points="314,986 1013,978 1014,1028 315,1036"/>
+        <Baseline points="314,1026 1014,1023"/>
+        <TextEquiv>
+          <Unicode>zu machen, es wäre denn, daß ich vielleicht mit</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486653804503_1088">
+        <Coords points="308,1040 955,1035 955,1085 308,1090"/>
+        <Baseline points="308,1085 955,1080"/>
+        <TextEquiv>
+          <Unicode>Appelle vor dem Ausschuße selbst nachträglich</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486653809789_1089">
+        <Coords points="305,1099 1017,1092 1017,1142 305,1149"/>
+        <Baseline points="305,1144 1017,1137"/>
+        <TextEquiv>
+          <Unicode>berufen würde (was ich nicht wünsche). Freilich, wenn</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486653814993_1090">
+        <Coords points="306,1160 1026,1149 1027,1199 307,1210"/>
+        <Baseline points="307,1205 1027,1194"/>
+        <TextEquiv>
+          <Unicode>ich dannzumal bestimmt würde, in Zürich mit Euch</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486653818906_1091">
+        <Coords points="307,1214 1029,1204 1030,1254 308,1264"/>
+        <Baseline points="308,1259 1030,1249"/>
+        <TextEquiv>
+          <Unicode>zu verhandeln: das hätte ein anderes Gesicht?! </Unicode>
+        </TextEquiv>
+      </TextLine>
+    </TextRegion>
+  </Page>
+</PcGts>

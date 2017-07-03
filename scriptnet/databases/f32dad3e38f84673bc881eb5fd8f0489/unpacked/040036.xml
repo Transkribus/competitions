@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+  <Metadata>
+    <Creator>htrsh_pagexml_create</Creator>
+    <Created>2017-01-30T12:33:49</Created>
+    <LastChange>2017-02-14T16:27:22.987+01:00</LastChange>
+  </Metadata>
+  <Page imageFilename="040036.jpg" imageWidth="940" imageHeight="1440">
+    <ReadingOrder>
+      <OrderedGroup id="ro_1487086043081" caption="Regions reading order">
+        <RegionRefIndexed index="0" regionRef="region_1487085763163_2252"/>
+        <RegionRefIndexed index="1" regionRef="region_1487085766025_2253"/>
+        <RegionRefIndexed index="2" regionRef="region_1487085772876_2254"/>
+      </OrderedGroup>
+    </ReadingOrder>
+    <TextRegion id="region_1487085763163_2252">
+      <Coords points="418,46 809,46 809,130 418,130"/>
+      <TextLine id="line_1487085813524_2255">
+        <Coords points="428,49 798,49 798,99 428,99"/>
+        <Baseline points="428,94 798,94"/>
+        <TextEquiv>
+          <Unicode>Florenz, 5 Dec. 65. </Unicode>
+        </TextEquiv>
+      </TextLine>
+    </TextRegion>
+    <TextRegion id="region_1487085766025_2253">
+      <Coords points="36,143 689,143 689,320 36,320"/>
+      <TextLine id="line_1487085830549_2256">
+        <Coords points="45,141 391,147 390,197 44,191"/>
+        <Baseline points="43,189 390,192"/>
+        <TextEquiv>
+          <Unicode>Herrn Dr A. Escher.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1487085843445_2257">
+        <Coords points="261,254 655,259 654,309 260,304"/>
+        <Baseline points="260,299 654,304"/>
+        <TextEquiv>
+          <Unicode>Hochgeachteter Herr, </Unicode>
+        </TextEquiv>
+      </TextLine>
+    </TextRegion>
+    <TextRegion id="region_1487085772876_2254">
+      <Coords points="57,361 916,361 916,1378 57,1378"/>
+      <TextLine id="line_1487085857689_2258">
+        <Coords points="327,368 910,372 910,422 327,418"/>
+        <Baseline points="327,413 910,417"/>
+        <TextEquiv>
+          <Unicode>Indem ich die Eile u Unvollständig-</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1487085863730_2259">
+        <Coords points="129,408 871,415 871,465 129,458"/>
+        <Baseline points="129,453 871,460"/>
+        <TextEquiv>
+          <Unicode>keit des heute abgegangenen Briefs wegen</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1487085869514_2260">
+        <Coords points="149,453 910,454 910,504 149,503"/>
+        <Baseline points="149,498 910,499"/>
+        <TextEquiv>
+          <Unicode>einer Menge von Abhaltungen zu entschuldigen</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1487085873204_2261">
+        <Coords points="150,499 892,498 892,548 150,549"/>
+        <Baseline points="150,544 892,543"/>
+        <TextEquiv>
+          <Unicode>bitte, versuche ich nachzuholen, was ich ver-</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1487085877250_2262">
+        <Coords points="105,538 812,541 812,591 105,588"/>
+        <Baseline points="105,583 812,586"/>
+        <TextEquiv>
+          <Unicode>säumt oder nur flüchtig berührt habe.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1487085881986_2263">
+        <Coords points="248,581 895,580 895,630 248,631"/>
+        <Baseline points="248,626 895,625"/>
+        <TextEquiv>
+          <Unicode>Der Minister, um mit dem Höchsten zu</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1487085887621_2264">
+        <Coords points="148,622 895,624 895,674 148,672"/>
+        <Baseline points="148,667 895,669"/>
+        <TextEquiv>
+          <Unicode>beginnen, ist durch u durch Gotthardfreundlich</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1487085894179_2265">
+        <Coords points="147,664 900,666 900,716 147,714"/>
+        <Baseline points="147,709 900,711"/>
+        <TextEquiv>
+          <Unicode>mehr selbst als Formen u Verhältnisse er-</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1487085899609_2266">
+        <Coords points="102,708 906,703 906,753 102,758"/>
+        <Baseline points="102,753 906,748"/>
+        <TextEquiv>
+          <Unicode>lauben. So einstimmig dieses Urtheil aber</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1487085904675_2267">
+        <Coords points="148,750 903,745 903,795 148,800"/>
+        <Baseline points="148,795 903,790"/>
+        <TextEquiv>
+          <Unicode>ist, so einstimmig auch die Meinung von</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1487085915238_2268">
+        <Coords points="152,789 910,786 910,836 152,839"/>
+        <Baseline points="152,834 910,831"/>
+        <TextEquiv>
+          <Unicode>dem Mangel seiner Beharrlichkeit u Umsicht.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1487085919851_2269">
+        <Coords points="150,831 897,824 897,874 150,881"/>
+        <Baseline points="150,876 897,869"/>
+        <TextEquiv>
+          <Unicode>Er ist unzuverlässig, wenn nicht in seiner</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1487085924843_2270">
+        <Coords points="131,872 901,866 901,916 131,922"/>
+        <Baseline points="131,917 901,911"/>
+        <TextEquiv>
+          <Unicode>Zuneigung, doch in seinem Planen. Viele ur-</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1487085928184_2271">
+        <Coords points="126,917 829,908 830,958 127,967"/>
+        <Baseline points="127,962 830,953"/>
+        <TextEquiv>
+          <Unicode>theilen noch viel schärfer über ihn.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1487085933243_2272">
+        <Coords points="156,953 907,947 907,997 156,1003"/>
+        <Baseline points="156,998 907,992"/>
+        <TextEquiv>
+          <Unicode>Genug, die Kälte des ersten Besuchs war</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1487085937619_2273">
+        <Coords points="141,997 908,994 908,1044 141,1047"/>
+        <Baseline points="141,1042 908,1039"/>
+        <TextEquiv>
+          <Unicode>wohl die Folge des Ärgers, daß die Erklärung</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1487085941857_2274">
+        <Coords points="156,1036 870,1032 870,1082 156,1086"/>
+        <Baseline points="156,1081 870,1077"/>
+        <TextEquiv>
+          <Unicode>der preußischen Bereitwilligkeit zur</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1487085951421_2275">
+        <Coords points="150,1079 894,1074 894,1124 150,1129"/>
+        <Baseline points="150,1124 894,1119"/>
+        <TextEquiv>
+          <Unicode>Subvention nicht rechtzeitig eingetroffen</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1487085956268_2276">
+        <Coords points="156,1120 878,1116 878,1166 156,1170"/>
+        <Baseline points="156,1165 878,1161"/>
+        <TextEquiv>
+          <Unicode>war um das Alpenbahnprojekt in der</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1487085960778_2277">
+        <Coords points="138,1161 748,1160 748,1210 138,1211"/>
+        <Baseline points="138,1206 748,1205"/>
+        <TextEquiv>
+          <Unicode>Thronrede erwähnen zu können.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1487085965617_2278">
+        <Coords points="178,1202 860,1197 860,1247 178,1252"/>
+        <Baseline points="178,1247 860,1242"/>
+        <TextEquiv>
+          <Unicode>Auch die Depesche aus Berlin über die</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1487085970917_2279">
+        <Coords points="150,1244 863,1239 863,1289 150,1294"/>
+        <Baseline points="150,1289 863,1284"/>
+        <TextEquiv>
+          <Unicode>ungeschickte oder ungenügende Anregung</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1487085975411_2280">
+        <Coords points="162,1282 866,1275 866,1325 162,1332"/>
+        <Baseline points="162,1327 866,1320"/>
+        <TextEquiv>
+          <Unicode>von Seiten des Gotthardausschußes in den</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1487085979103_2281">
+        <Coords points="154,1318 883,1313 883,1363 154,1368"/>
+        <Baseline points="154,1363 883,1358"/>
+        <TextEquiv>
+          <Unicode>Rheinlanden findet ihre Erklärung</Unicode>
+        </TextEquiv>
+      </TextLine>
+    </TextRegion>
+  </Page>
+</PcGts>

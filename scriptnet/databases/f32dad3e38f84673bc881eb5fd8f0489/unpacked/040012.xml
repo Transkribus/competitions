@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+  <Metadata>
+    <Creator>htrsh_pagexml_create</Creator>
+    <Created>2017-01-30T12:24:21</Created>
+    <LastChange>2017-02-17T10:06:20.258+01:00</LastChange>
+  </Metadata>
+  <Page imageFilename="040012.jpg" imageWidth="1104" imageHeight="1440">
+    <ReadingOrder>
+      <OrderedGroup id="ro_1487322380544" caption="Regions reading order">
+        <RegionRefIndexed index="0" regionRef="pg"/>
+      </OrderedGroup>
+    </ReadingOrder>
+    <TextRegion id="pg">
+      <Coords points="80,59 1093,59 1093,1310 80,1310"/>
+      <TextLine id="line_1486644083602_761">
+        <Coords points="141,77 1087,69 1087,119 141,127"/>
+        <Baseline points="141,122 1087,114"/>
+        <TextEquiv>
+          <Unicode>in deren Folge es wohl seine – einstweilen eingestellten – Funktionen wieder</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1487322349911_145">
+        <Coords points="662,105 731,106 730,156 661,155"/>
+        <Baseline points="661,150 730,151"/>
+        <TextEquiv>
+          <Unicode>Appell.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486644088761_762">
+        <Coords points="142,135 1084,140 1084,190 142,185"/>
+        <Baseline points="142,180 1084,185"/>
+        <TextEquiv>
+          <Unicode>wird aufnehmen können. – Meine Stelle als Gerichtspräsident giebt mir üb-</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486644093528_763">
+        <Coords points="135,198 1073,202 1073,252 135,248"/>
+        <Baseline points="135,243 1073,247"/>
+        <TextEquiv>
+          <Unicode>rigens überhaupt nicht sehr viel zu thun; mehr beschäftigt mich dagegen das</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486644098058_764">
+        <Coords points="134,261 1078,266 1078,316 134,311"/>
+        <Baseline points="134,306 1078,311"/>
+        <TextEquiv>
+          <Unicode>Präsidium der Landes-Armenkommission, welches ich auch seit letztem Sommer</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486644103259_765">
+        <Coords points="123,324 1053,328 1053,378 123,374"/>
+        <Baseline points="123,369 1053,373"/>
+        <TextEquiv>
+          <Unicode>übernommen habe. Das Armenwesen ist bei uns ein äußerst wichtiges Gebiet,</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486644108369_766">
+        <Coords points="115,386 1066,397 1065,447 114,436"/>
+        <Baseline points="114,431 1065,442"/>
+        <TextEquiv>
+          <Unicode>welches die größte Aufmerksamkeit verdient; obgleich früher wenig damit</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486644112256_767">
+        <Coords points="128,453 1085,464 1084,514 127,503"/>
+        <Baseline points="127,498 362,492 1084,509"/>
+        <TextEquiv>
+          <Unicode>vertraut, habe ich mich nun doch mit der größten Vorliebe hineingearbeitet,</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486644118024_768">
+        <Coords points="124,516 1049,529 1048,579 123,566"/>
+        <Baseline points="123,561 432,554 1048,574"/>
+        <TextEquiv>
+          <Unicode>zumal ich gerade einen neuen Gesetzesentwurf auszuarbeiten hatte.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486644169599_769">
+        <Coords points="128,581 563,580 1039,589 1038,639 563,630 128,631"/>
+        <Baseline points="128,626 563,625 1038,634"/>
+        <TextEquiv>
+          <Unicode>Ueberhaupt herrscht gegenwärtig bei uns in gesetzgeberischer Beziehung</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486644173719_770">
+        <Coords points="119,645 393,640 394,690 120,695"/>
+        <Baseline points="120,690 394,685"/>
+        <TextEquiv>
+          <Unicode>eine grosse Thätigkeit.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486644184013_771">
+        <Coords points="304,726 658,719 1096,730 1095,780 658,769 305,776"/>
+        <Baseline points="305,771 658,764 1095,775"/>
+        <TextEquiv>
+          <Unicode>Ich freue mich sehr auf die nächste Sitzung der Bundesversamm-</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486644192214_772">
+        <Coords points="130,785 1076,795 1076,845 130,835"/>
+        <Baseline points="130,830 1076,840"/>
+        <TextEquiv>
+          <Unicode>lung, theils wegen der vielen lieben Freunde, die ich in Bern wieder treffen</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486644197802_773">
+        <Coords points="125,851 1087,858 1087,908 125,901"/>
+        <Baseline points="125,896 1087,903"/>
+        <TextEquiv>
+          <Unicode>werde (daß Aepli nun hinzugekommen ist, hat Dich gewiß auch gefreut), theils</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486644203530_774">
+        <Coords points="133,915 1082,929 1081,979 132,965"/>
+        <Baseline points="132,960 1081,974"/>
+        <TextEquiv>
+          <Unicode>wegen der intressanten Geschäfte, die uns bevorstehen. ich überlasse mich zum</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486644213918_775">
+        <Coords points="129,987 525,981 1046,993 1045,1043 525,1031 130,1037"/>
+        <Baseline points="130,1032 525,1026 1045,1038"/>
+        <TextEquiv>
+          <Unicode>voraus der frohen Hoffnung, daß ich mit Deinen Ansichten wieder so ganz</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486644226657_776">
+        <Coords points="125,1053 639,1045 1066,1055 1065,1105 639,1095 126,1103"/>
+        <Baseline points="126,1098 639,1090 1065,1100"/>
+        <TextEquiv>
+          <Unicode>übereinstimmen werde, wie es im letzten November der Fall war. Es ist dies</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486644233352_777">
+        <Coords points="126,1114 542,1109 1061,1118 1060,1168 542,1159 127,1164"/>
+        <Baseline points="127,1159 542,1154 1060,1163"/>
+        <TextEquiv>
+          <Unicode>die schönste Weihe, die eine innige Jugendfreundschaft erlangen kann, daß</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486644241465_778">
+        <Coords points="132,1180 716,1174 1083,1181 1082,1231 716,1224 132,1230"/>
+        <Baseline points="132,1225 716,1219 1082,1226"/>
+        <TextEquiv>
+          <Unicode>man auch später im Ernste des Geschäftslebens sich auf ungezwungne Weise</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486644246155_779">
+        <Coords points="134,1237 378,1237 378,1287 134,1287"/>
+        <Baseline points="134,1282 378,1282"/>
+        <TextEquiv>
+          <Unicode>wieder zusammenfindet. </Unicode>
+        </TextEquiv>
+      </TextLine>
+    </TextRegion>
+  </Page>
+</PcGts>

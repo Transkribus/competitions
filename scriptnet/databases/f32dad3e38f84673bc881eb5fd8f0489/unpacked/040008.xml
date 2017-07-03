@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+  <Metadata>
+    <Creator>TRP</Creator>
+    <Created>2016-12-22T15:32:47.024+01:00</Created>
+    <LastChange>2017-01-20T11:34:49.355+01:00</LastChange>
+  </Metadata>
+  <Page imageFilename="040008.jpg" imageWidth="1324" imageHeight="2096">
+    <ReadingOrder>
+      <OrderedGroup id="ro_1484908489393" caption="Regions reading order">
+        <RegionRefIndexed index="0" regionRef="region_1483617623802_42"/>
+        <RegionRefIndexed index="1" regionRef="region_1483617629824_43"/>
+        <RegionRefIndexed index="2" regionRef="region_1483617761143_47"/>
+        <RegionRefIndexed index="3" regionRef="region_1483617766423_48"/>
+      </OrderedGroup>
+    </ReadingOrder>
+    <TextRegion id="region_1483617623802_42">
+      <Coords points="1250,55 1295,55 1295,144 1250,144"/>
+      <TextLine id="line_1483617667340_44">
+        <Coords points="1258,88 1288,89 1287,139 1257,138"/>
+        <Baseline points="1257,133 1287,134"/>
+        <TextEquiv>
+          <Unicode>1</Unicode>
+        </TextEquiv>
+      </TextLine>
+    </TextRegion>
+    <TextRegion id="region_1483617629824_43">
+      <Coords points="666,28 1245,28 1245,327 666,327"/>
+      <TextLine id="line_1483617683810_45">
+        <Coords points="675,121 819,121 926,125 1110,127 1149,138 1182,128 1195,176 1150,188 1103,177 925,175 818,171 675,171"/>
+        <Baseline points="675,166 818,166 925,170 1104,172 1150,183 1194,171"/>
+        <TextEquiv>
+          <Unicode>Kiel 14 Aug. 81.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1483617691440_46">
+        <Coords points="683,240 918,231 1123,233 1245,248 1238,298 1120,283 919,281 685,290"/>
+        <Baseline points="685,285 919,276 1120,278 1239,293"/>
+        <TextEquiv>
+          <Unicode>Muhliusstraße 6.</Unicode>
+        </TextEquiv>
+      </TextLine>
+    </TextRegion>
+    <TextRegion id="region_1483617761143_47">
+      <Coords points="154,355 1148,355 1148,584 154,584"/>
+      <TextLine id="line_1483618017360_79">
+        <Coords points="175,468 1130,456 1131,506 176,518"/>
+        <Baseline points="176,513 1131,501"/>
+        <TextEquiv>
+          <Unicode>Sehr geehrter Herr Geheimrath,</Unicode>
+        </TextEquiv>
+      </TextLine>
+    </TextRegion>
+    <TextRegion id="region_1483617766423_48">
+      <Coords points="37,584 1319,584 1319,1778 37,1778"/>
+      <TextLine id="line_1483617791619_49">
+        <Coords points="80,624 480,626 770,625 871,618 1252,624 1251,674 872,668 772,675 480,676 80,674"/>
+        <Baseline points="80,669 480,671 772,670 872,663 1251,669"/>
+        <TextEquiv>
+          <Unicode>Nur mit einer gewissen Ueberwindung</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1483617799377_50">
+        <Coords points="84,714 398,713 778,708 1170,716 1314,730 1310,780 1167,766 778,758 398,763 84,764"/>
+        <Baseline points="84,759 398,758 778,753 1167,761 1310,775"/>
+        <TextEquiv>
+          <Unicode>unternehme ich es, Ihnen ein Anliegen vor¬</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1483617808181_51">
+        <Coords points="82,805 247,805 535,796 771,796 1146,805 1312,817 1309,867 1144,855 770,846 536,846 248,855 82,855"/>
+        <Baseline points="82,850 248,850 536,841 770,841 1144,850 1309,862"/>
+        <TextEquiv>
+          <Unicode>zutragen, welches sich auf meine eigene Per¬</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1483617817329_52">
+        <Coords points="66,891 366,890 810,887 981,894 1267,895 1267,945 980,944 809,937 366,940 66,941"/>
+        <Baseline points="66,936 366,935 809,932 980,939 1267,940"/>
+        <TextEquiv>
+          <Unicode>son bezieht; und ich wage es nur in der</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1483617824025_53">
+        <Coords points="74,969 142,978 455,971 790,971 1181,979 1180,1029 790,1021 455,1021 140,1028 67,1019"/>
+        <Baseline points="68,1014 140,1023 455,1016 790,1016 1180,1024"/>
+        <TextEquiv>
+          <Unicode>Hoffnung, daß Sie, wenn Sie dasselbe</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1483617831096_54">
+        <Coords points="73,1060 467,1058 824,1056 1148,1062 1295,1064 1294,1114 1147,1112 824,1106 467,1108 73,1110"/>
+        <Baseline points="73,1105 467,1103 824,1101 1147,1107 1294,1109"/>
+        <TextEquiv>
+          <Unicode>einer Beantwortung würdigen sollten, sich</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1483617838358_55">
+        <Coords points="70,1150 288,1152 602,1150 854,1153 1299,1168 1297,1218 853,1203 602,1200 288,1202 70,1200"/>
+        <Baseline points="70,1195 288,1197 602,1195 853,1198 1297,1213"/>
+        <TextEquiv>
+          <Unicode>nur von sachlichen Erwägungen werden</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1483617841421_56">
+        <Coords points="69,1236 429,1243 428,1293 68,1286"/>
+        <Baseline points="68,1281 428,1288"/>
+        <TextEquiv>
+          <Unicode>leiten lassen.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1483617852528_57">
+        <Coords points="57,1331 624,1332 955,1335 1306,1357 1303,1407 953,1385 624,1382 57,1381"/>
+        <Baseline points="57,1376 624,1377 953,1380 1303,1402"/>
+        <TextEquiv>
+          <Unicode>Vor etwa 2 Jahren theilte mir Herr Geheim¬</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1483617857098_58">
+        <Coords points="62,1418 695,1422 1286,1446 1284,1496 694,1472 62,1468"/>
+        <Baseline points="62,1463 694,1467 1284,1491"/>
+        <TextEquiv>
+          <Unicode>rath von Giesebrecht mit, daß die Direction</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1483617862504_59">
+        <Coords points="54,1499 807,1511 1282,1527 1280,1577 806,1561 53,1549"/>
+        <Baseline points="53,1544 806,1556 1280,1572"/>
+        <TextEquiv>
+          <Unicode>der Monumenta Germaniae eine Hülfsar¬</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1483617868220_60">
+        <Coords points="59,1586 839,1587 1254,1590 1254,1640 839,1637 59,1636"/>
+        <Baseline points="59,1631 839,1632 1254,1635"/>
+        <TextEquiv>
+          <Unicode>beiterstelle zu besetzen habe, und fragte</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1483617877223_61">
+        <Coords points="53,1677 531,1669 625,1676 640,1667 1247,1669 1247,1719 652,1716 636,1725 530,1719 54,1727"/>
+        <Baseline points="54,1722 530,1714 635,1720 651,1711 1247,1714"/>
+        <TextEquiv>
+          <Unicode>mich, ob ich etwa zu einer derartigen</Unicode>
+        </TextEquiv>
+      </TextLine>
+    </TextRegion>
+  </Page>
+</PcGts>

@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+  <Metadata>
+    <Creator>TRP</Creator>
+    <Created>2016-12-22T15:32:47.048+01:00</Created>
+    <LastChange>2017-01-20T11:37:31.354+01:00</LastChange>
+  </Metadata>
+  <Page imageFilename="040009.jpg" imageWidth="1690" imageHeight="2656">
+    <ReadingOrder>
+      <OrderedGroup id="ro_1484908651391" caption="Regions reading order">
+        <RegionRefIndexed index="0" regionRef="region_1483624123672_210"/>
+        <RegionRefIndexed index="1" regionRef="region_1483624130904_211"/>
+        <RegionRefIndexed index="2" regionRef="region_1483624139088_212"/>
+      </OrderedGroup>
+    </ReadingOrder>
+    <TextRegion id="region_1483624123672_210">
+      <Coords points="914,32 1402,32 1402,152 914,152"/>
+      <TextLine id="line_1483624152214_213">
+        <Coords points="932,67 1386,59 1387,109 933,117"/>
+        <Baseline points="933,112 1387,104"/>
+        <TextEquiv>
+          <Unicode>Innsbruck 1875 Apr. 27.</Unicode>
+        </TextEquiv>
+      </TextLine>
+    </TextRegion>
+    <TextRegion id="region_1483624130904_211">
+      <Coords points="423,377 1057,377 1057,524 423,524"/>
+      <TextLine id="line_1483624162237_214">
+        <Coords points="457,437 1044,428 1045,478 458,487"/>
+        <Baseline points="458,482 1045,473"/>
+        <TextEquiv>
+          <Unicode>Hochverehrtester Herr Kollege!</Unicode>
+        </TextEquiv>
+      </TextLine>
+    </TextRegion>
+    <TextRegion id="region_1483624139088_212">
+      <Coords points="198,550 1682,550 1682,2597 198,2597"/>
+      <TextLine id="line_1483624172911_215">
+        <Coords points="270,605 1645,581 1646,631 271,655"/>
+        <Baseline points="271,650 1646,626"/>
+        <TextEquiv>
+          <Unicode>Die ehrenvolle Aufforderung, welche Sie in Ihrem Schreiben vom 23. d. M. an mich rich¬</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1483624179844_216">
+        <Coords points="215,713 1620,685 1621,735 216,763"/>
+        <Baseline points="216,758 1621,730"/>
+        <TextEquiv>
+          <Unicode>teten, kam mir in so fern nicht ganz unerwartet, als mir Dümmler schon einmal</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1483624184765_217">
+        <Coords points="226,811 1651,784 1652,834 227,861"/>
+        <Baseline points="227,856 1652,829"/>
+        <TextEquiv>
+          <Unicode>vor längerer Zeit schrieb, daß man in dieser Richtung an mich denke. Der Gegenstand</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1483624190283_218">
+        <Coords points="232,908 1611,880 1612,930 233,958"/>
+        <Baseline points="233,953 1612,925"/>
+        <TextEquiv>
+          <Unicode>ist daher längst von mir in Erwägung gezogen. Aber ich bedaure lebhaft, jetzt auch</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1483624194969_219">
+        <Coords points="231,1007 1306,991 1307,1041 232,1057"/>
+        <Baseline points="232,1052 1307,1036"/>
+        <TextEquiv>
+          <Unicode>Ihnen nach bester Überlegung nur ablehnend antworten zu können.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1483624199777_220">
+        <Coords points="268,1108 1668,1088 1669,1138 269,1158"/>
+        <Baseline points="269,1153 1669,1133"/>
+        <TextEquiv>
+          <Unicode>Ich kann dabei ganz von der Frage absehen, in wie fern die Gründe, welche mich, wenn</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1483624205031_221">
+        <Coords points="211,1210 1634,1183 1635,1233 212,1260"/>
+        <Baseline points="212,1255 1635,1228"/>
+        <TextEquiv>
+          <Unicode>mich eine Wahl in die Kommission getroffen hätte, von der Annahme abgehalten hätten,</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1483624209767_222">
+        <Coords points="209,1310 1637,1281 1638,1331 210,1360"/>
+        <Baseline points="210,1355 1638,1326"/>
+        <TextEquiv>
+          <Unicode>mich auch zur Ablehnung Ihrer Aufforderung bestimmen müßten, da die anderweitigen Gründe</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1483624215466_223">
+        <Coords points="214,1409 1640,1384 1641,1434 215,1459"/>
+        <Baseline points="215,1454 1641,1429"/>
+        <TextEquiv>
+          <Unicode>an und für sich ganz ausschlaggebend sind. Nur insofern Sie bemerken, daß die Bearbeitung</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1483624220408_224">
+        <Coords points="215,1512 1659,1487 1660,1537 216,1562"/>
+        <Baseline points="216,1557 1660,1532"/>
+        <TextEquiv>
+          <Unicode>noch einer weiteren Abtheilung in Österreich an und für sich wünschenswerth sei, möchte ich da Ihnen</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1483624227479_225">
+        <Coords points="212,1610 1645,1588 1646,1638 213,1660"/>
+        <Baseline points="213,1655 1646,1633"/>
+        <TextEquiv>
+          <Unicode>gegenüber mit meiner entgegengesetzten persönlichen Ansicht nicht zurückhalten. Unter andern</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1483624232016_226">
+        <Coords points="220,1713 1660,1680 1661,1730 221,1763"/>
+        <Baseline points="221,1758 1661,1725"/>
+        <TextEquiv>
+          <Unicode>Verhältnissen hätte allerdings, wenn irgend etwas, gerade dieser Gesichtspunkt mich bestimmen</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1483624237833_227">
+        <Coords points="841,1747 929,1748 928,1798 840,1797"/>
+        <Baseline points="840,1792 928,1793"/>
+        <TextEquiv>
+          <Unicode>setzen</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1483624242889_228">
+        <Coords points="220,1810 1646,1785 1647,1835 221,1860"/>
+        <Baseline points="221,1855 1647,1830"/>
+        <TextEquiv>
+          <Unicode>können, alle andern Rücksichten hintanzuhalten. Aber nachdem einmal das Unternehmen demon¬</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1483624247401_229">
+        <Coords points="227,1909 1623,1880 1624,1930 228,1959"/>
+        <Baseline points="228,1954 1624,1925"/>
+        <TextEquiv>
+          <Unicode>strativ unter Leitung der Berliner Akademie gestellt und zur deutschen Reichsangelegenheit</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1483624253329_230">
+        <Coords points="224,2008 1672,1983 1673,2033 225,2058"/>
+        <Baseline points="225,2053 1673,2028"/>
+        <TextEquiv>
+          <Unicode>gemacht wurde und man das später nicht mehr rückgängig machen konnte oder wollte, schien mir</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1483624258002_231">
+        <Coords points="211,2110 1640,2087 1641,2137 212,2160"/>
+        <Baseline points="212,2155 1641,2132"/>
+        <TextEquiv>
+          <Unicode>das einzig Richtige, daß Oesterreich als solches und die Wiener Akademie dem Unternehmen</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1483624262418_232">
+        <Coords points="221,2209 1650,2182 1651,2232 222,2259"/>
+        <Baseline points="222,2254 1651,2227"/>
+        <TextEquiv>
+          <Unicode>überhaupt fern blieben, was dann ja nicht ausschloß, daß österreichische Gelehrte sich daran</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1483624269599_233">
+        <Coords points="225,2310 1644,2288 1645,2338 226,2360"/>
+        <Baseline points="226,2355 1645,2333"/>
+        <TextEquiv>
+          <Unicode>betheiligten, wie das auch bei schweizerischen oder niederländischen Gelehrten der Fall sein</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1483624275528_234">
+        <Coords points="224,2410 1661,2386 1662,2436 225,2460"/>
+        <Baseline points="225,2455 1662,2431"/>
+        <TextEquiv>
+          <Unicode>könnte. Das hätte mir das Natürliche geschienen, wenn man einmal von der gegenwärtigen poli¬</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1483624280416_235">
+        <Coords points="221,2511 1651,2491 1652,2541 222,2561"/>
+        <Baseline points="222,2556 1652,2536"/>
+        <TextEquiv>
+          <Unicode>tischen Gestaltung nicht absehen wollte oder konnte. Dagegen widerstrebt mir durchaus eine</Unicode>
+        </TextEquiv>
+      </TextLine>
+    </TextRegion>
+  </Page>
+</PcGts>

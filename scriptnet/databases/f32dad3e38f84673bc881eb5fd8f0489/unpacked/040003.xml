@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+  <Metadata>
+    <Creator>TRP</Creator>
+    <Created>2016-12-22T15:32:48.020+01:00</Created>
+    <LastChange>2017-01-05T13:44:28.189+01:00</LastChange>
+  </Metadata>
+  <Page imageFilename="040003.jpg" imageWidth="1298" imageHeight="2096">
+    <ReadingOrder>
+      <OrderedGroup id="ro_1483620268225" caption="Regions reading order">
+        <RegionRefIndexed index="0" regionRef="region_1483617897687_62"/>
+      </OrderedGroup>
+    </ReadingOrder>
+    <TextRegion id="region_1483617897687_62">
+      <Coords points="88,234 1294,234 1294,1801 88,1801"/>
+      <TextLine id="line_1483617906144_63">
+        <Coords points="157,312 1277,295 1278,345 158,362"/>
+        <Baseline points="158,357 1278,340"/>
+        <TextEquiv>
+          <Unicode>Thätigkeit Neigung hätte. Damals mußte</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1483617912207_64">
+        <Coords points="149,404 559,394 837,383 1273,392 1272,442 837,433 560,444 150,454"/>
+        <Baseline points="150,449 560,439 837,428 1272,437"/>
+        <TextEquiv>
+          <Unicode>ich mir gestehen, daß ich für eine solche</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1483617917729_65">
+        <Coords points="145,490 208,501 512,483 1222,478 1222,528 513,533 205,551 136,539"/>
+        <Baseline points="137,534 205,546 513,528 1222,523"/>
+        <TextEquiv>
+          <Unicode>Aufgabe nicht hinlänglich vorbereitet</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1483617922852_66">
+        <Coords points="145,588 516,575 1281,573 1281,623 517,625 147,638"/>
+        <Baseline points="147,633 517,620 1281,618"/>
+        <TextEquiv>
+          <Unicode>war, und ich bat Herrn von Giesebrecht</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1483617928757_67">
+        <Coords points="141,677 444,679 1143,663 1144,713 444,729 141,727"/>
+        <Baseline points="141,722 444,724 1144,708"/>
+        <TextEquiv>
+          <Unicode>daher, von mir gänzlich abzusehen.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1483617935476_68">
+        <Coords points="149,768 200,786 537,769 727,774 1288,775 1288,825 726,824 538,819 192,836 132,815"/>
+        <Baseline points="134,810 193,831 538,814 726,819 1288,820"/>
+        <TextEquiv>
+          <Unicode>Inzwischen bin ich Lehrer geworden; und</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1483617944701_69">
+        <Coords points="147,879 671,864 1271,871 1270,921 671,914 148,929"/>
+        <Baseline points="148,924 671,909 1270,916"/>
+        <TextEquiv>
+          <Unicode>wenn mir nun auch der Verkehr mit</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1483617953163_70">
+        <Coords points="160,965 210,984 279,965 347,972 682,961 1258,961 1258,1011 683,1011 345,1022 282,1015 208,1034 144,1013"/>
+        <Baseline points="146,1008 208,1029 282,1010 345,1017 683,1006 1258,1006"/>
+        <TextEquiv>
+          <Unicode>der Jugend große Freude macht, so sehe</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1483617959870_71">
+        <Coords points="150,1064 606,1059 1257,1053 1257,1103 606,1109 150,1114"/>
+        <Baseline points="150,1109 606,1104 1257,1098"/>
+        <TextEquiv>
+          <Unicode>ich doch, daß mit einem solchen Amte</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1483617966649_72">
+        <Coords points="148,1158 1283,1138 1284,1188 149,1208"/>
+        <Baseline points="149,1203 1284,1183"/>
+        <TextEquiv>
+          <Unicode>auf die Dauer eine wissenschaftliche Be¬</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1483617972289_73">
+        <Coords points="142,1236 292,1243 730,1234 1200,1234 1200,1284 730,1284 291,1293 140,1286"/>
+        <Baseline points="140,1281 291,1288 730,1279 1200,1279"/>
+        <TextEquiv>
+          <Unicode>schäftigung, wie ich sie mir wünschte,</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1483617980097_74">
+        <Coords points="159,1322 238,1337 588,1325 890,1322 1286,1322 1286,1372 890,1372 589,1375 235,1387 150,1371"/>
+        <Baseline points="151,1366 235,1382 589,1370 890,1367 1286,1367"/>
+        <TextEquiv>
+          <Unicode>schwer vereinbar ist. Der Gedanke, an</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1483617984648_75">
+        <Coords points="141,1427 742,1416 1267,1419 1267,1469 742,1466 142,1477"/>
+        <Baseline points="142,1472 742,1461 1267,1464"/>
+        <TextEquiv>
+          <Unicode>jenem großen Werke der Monumenta</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1483617992029_76">
+        <Coords points="147,1518 390,1519 577,1505 807,1509 1232,1496 1233,1546 807,1559 578,1555 392,1569 147,1568"/>
+        <Baseline points="147,1563 392,1564 578,1550 807,1554 1233,1541"/>
+        <TextEquiv>
+          <Unicode>einen wenn auch noch so geringfügigen</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1483617998066_77">
+        <Coords points="151,1604 235,1615 469,1604 739,1594 1258,1578 1259,1628 741,1644 471,1654 233,1665 144,1654"/>
+        <Baseline points="145,1649 233,1660 471,1649 741,1639 1259,1623"/>
+        <TextEquiv>
+          <Unicode>Antheil zu nehmen, hat darum für</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1483618005260_78">
+        <Coords points="137,1707 381,1697 756,1685 1286,1677 1287,1727 757,1735 383,1747 139,1757"/>
+        <Baseline points="139,1752 383,1742 757,1730 1287,1722"/>
+        <TextEquiv>
+          <Unicode>mich nunmehr etwas noch Verlockenderes</Unicode>
+        </TextEquiv>
+      </TextLine>
+    </TextRegion>
+  </Page>
+</PcGts>

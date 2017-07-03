@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+    <Metadata>
+        <Creator>TRP</Creator>
+        <Created>2016-12-22T15:32:48.020+01:00</Created>
+        <LastChange>2017-06-30T18:32:23.821+02:00</LastChange>
+    </Metadata>
+    <Page imageFilename="040004.jpg" imageWidth="1112" imageHeight="1440">
+        <ReadingOrder>
+            <OrderedGroup id="ro_1498840343961" caption="Regions reading order">
+                <RegionRefIndexed index="0" regionRef="pg"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <TextRegion id="pg" custom="readingOrder {index:0;}">
+            <Coords points="80,70 1102,70 1102,1426 80,1426"/>
+            <TextLine id="line_1487083469000_2206" custom="readingOrder {index:0;}">
+                <Coords points="129,127 1041,108 1042,158 130,177"/>
+                <Baseline points="130,172 1042,153"/>
+                <TextEquiv>
+                    <Unicode>aber als ganz liquid bezeichnete, bestund in der</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1487083482331_2207" custom="readingOrder {index:1;}">
+                <Coords points="120,190 1037,169 1108,187 1096,236 1031,219 121,240"/>
+                <Baseline points="121,235 1032,214 1097,231"/>
+                <TextEquiv>
+                    <Unicode>Frage über die Bedeutung der Bestimmung des Schluß-</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1487083485830_2208" custom="readingOrder {index:2;}">
+                <Coords points="358,208 405,208 405,258 358,258"/>
+                <Baseline points="358,253 405,253"/>
+                <TextEquiv>
+                    <Unicode>des</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1487083492166_2209" custom="readingOrder {index:3;}">
+                <Coords points="129,250 1088,228 1089,278 130,300"/>
+                <Baseline points="130,291 1089,273"/>
+                <TextEquiv>
+                    <Unicode>protokolls &amp;amp; Vertrags mit Italien, daß in den</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1487083507199_2210" custom="readingOrder {index:4;}">
+                <Coords points="138,312 351,299 950,292 1086,295 1085,345 950,342 353,349 141,362"/>
+                <Baseline points="141,357 353,344 950,337 1085,340"/>
+                <TextEquiv>
+                    <Unicode>ersten 3 Jahren v. Biascabis an den Langensee</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1487083516586_2211" custom="readingOrder {index:5;}">
+                <Coords points="135,362 420,353 569,356 990,351 1094,360 1090,410 988,401 569,406 420,403 136,412"/>
+                <Baseline points="136,407 420,398 569,401 988,396 1090,405"/>
+                <TextEquiv>
+                    <Unicode>gebaut werde. Meine bestimmte Antwort, daß</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1487083520462_2212" custom="readingOrder {index:6;}">
+                <Coords points="148,424 1088,408 1089,458 149,474"/>
+                <Baseline points="149,469 1089,453"/>
+                <TextEquiv>
+                    <Unicode>die Linie nach Locarno hiemit gemeint sei &amp;amp; die-</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1487083534530_2213" custom="readingOrder {index:7;}">
+                <Coords points="123,483 751,465 1099,464 1099,514 752,515 124,533"/>
+                <Baseline points="124,528 755,514 1099,509"/>
+                <TextEquiv>
+                    <Unicode>jenige an das linke Ufer dagegen erst auf</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1487083557254_2214" custom="readingOrder {index:8;}">
+                <Coords points="145,545 547,524 1015,515 1107,526 1100,576 1013,565 549,574 147,595"/>
+                <Baseline points="147,590 549,569 1013,560 1101,571"/>
+                <TextEquiv>
+                    <Unicode>die Eröffnung der durchgehenden Linie vollendet</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1487083578935_2215" custom="readingOrder {index:9;}">
+                <Coords points="142,599 360,584 1090,570 1091,620 362,634 145,649"/>
+                <Baseline points="145,644 362,629 1091,615"/>
+                <TextEquiv>
+                    <Unicode>werde, befriedigte. Endlich hat Herr Staatsrath</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1487083588228_2216" custom="readingOrder {index:10;}">
+                <Coords points="119,665 337,641 1099,628 1100,678 340,691 125,715"/>
+                <Baseline points="124,710 340,686 1100,673"/>
+                <TextEquiv>
+                    <Unicode>Forni – wohl der Ernsteste &amp;amp; Zuverlässigste, wenn auch</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1487083600151_2217" custom="readingOrder {index:11;}">
+                <Coords points="136,711 1091,675 1093,725 138,761"/>
+                <Baseline points="138,756 1093,720"/>
+                <TextEquiv>
+                    <Unicode>weniger sich hervorwagende unter den Gliedern</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1487083607813_2218" custom="readingOrder {index:12;}">
+                <Coords points="122,767 420,747 1102,723 1104,773 422,797 125,817"/>
+                <Baseline points="125,812 422,792 1104,768"/>
+                <TextEquiv>
+                    <Unicode>der Regierung – betont, daß eine etwas hinausge-</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1487083617749_2219" custom="readingOrder {index:13;}">
+                <Coords points="113,821 1095,774 1097,824 115,871"/>
+                <Baseline points="115,866 1097,819"/>
+                <TextEquiv>
+                    <Unicode>schobene Einzahlung der Beiträge die Möglichkeit</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1487083623938_2220" custom="readingOrder {index:14;}">
+                <Coords points="139,879 1091,827 1093,877 141,929"/>
+                <Baseline points="141,924 1093,872"/>
+                <TextEquiv>
+                    <Unicode>einer grösseren Subvention wesentlich erleichtern</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1487083629050_2221" custom="readingOrder {index:15;}">
+                <Coords points="121,934 1063,885 1065,935 123,984"/>
+                <Baseline points="123,979 1065,930"/>
+                <TextEquiv>
+                    <Unicode>oder steigern dürfte. Ich habe dagegen auf die</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1487083636295_2222" custom="readingOrder {index:16;}">
+                <Coords points="120,991 1085,933 1088,983 123,1041"/>
+                <Baseline points="123,1036 1088,978"/>
+                <TextEquiv>
+                    <Unicode>Vorschriften des Protokolls &amp;amp; die Schwierigkeit</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1487083649966_2223" custom="readingOrder {index:17;}">
+                <Coords points="106,1043 1099,985 1102,1035 109,1093"/>
+                <Baseline points="109,1088 1102,1030"/>
+                <TextEquiv>
+                    <Unicode>aufmerksam gemacht, dießfällige Abweichung resp.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1487083656184_2224" custom="readingOrder {index:18;}">
+                <Coords points="104,1093 1053,1033 1056,1083 107,1143"/>
+                <Baseline points="107,1138 1056,1078"/>
+                <TextEquiv>
+                    <Unicode>Begünstigung einerseits &amp;amp; mehrere Belastung</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1487083664721_2225" custom="readingOrder {index:19;}">
+                <Coords points="117,1141 1016,1087 1103,1099 1096,1149 1014,1137 120,1191"/>
+                <Baseline points="120,1186 1014,1132 1097,1144"/>
+                <TextEquiv>
+                    <Unicode>anderseits eintreten zu lassen. Da idessen dieser</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1487083671552_2226" custom="readingOrder {index:20;}">
+                <Coords points="87,1190 921,1138 1095,1146 1093,1196 921,1188 90,1240"/>
+                <Baseline points="90,1235 921,1183 1093,1191"/>
+                <TextEquiv>
+                    <Unicode>Gedanke für hiesige Verhältnisse von Belang &amp;amp; für</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1487083681512_2227" custom="readingOrder {index:21;}">
+                <Coords points="111,1237 857,1188 1035,1189 1100,1217 1100,1265 1026,1238 858,1238 114,1287"/>
+                <Baseline points="114,1282 858,1233 1027,1233 1102,1260"/>
+                <TextEquiv>
+                    <Unicode>einen Entschluß f. 4 Millionen förderlich werden könnte,</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1487083695117_2228" custom="readingOrder {index:22;}">
+                <Coords points="93,1284 706,1256 1066,1248 1067,1298 708,1306 95,1334"/>
+                <Baseline points="95,1329 708,1301 1067,1293"/>
+                <TextEquiv>
+                    <Unicode>so erwäge ihn &amp;amp; sage mir gefälligst, ob ich auf</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1487083702732_2229" custom="readingOrder {index:23;}">
+                <Coords points="110,1346 640,1320 1073,1308 1074,1358 642,1370 112,1396"/>
+                <Baseline points="112,1391 642,1365 1074,1353"/>
+                <TextEquiv>
+                    <Unicode>unbedingter Ablehnung desselben beharren soll, wenn er </Unicode>
+                </TextEquiv>
+            </TextLine>
+        </TextRegion>
+    </Page>
+</PcGts>

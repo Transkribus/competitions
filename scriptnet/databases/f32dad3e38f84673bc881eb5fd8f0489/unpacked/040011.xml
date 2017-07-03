@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+  <Metadata>
+    <Creator>TRP</Creator>
+    <Created>2016-12-22T15:32:47.043+01:00</Created>
+    <LastChange>2017-01-20T11:31:57.370+01:00</LastChange>
+  </Metadata>
+  <Page imageFilename="040011.jpg" imageWidth="1720" imageHeight="2672">
+    <ReadingOrder>
+      <OrderedGroup id="ro_1484908317406" caption="Regions reading order">
+        <RegionRefIndexed index="0" regionRef="region_1484305354839_74"/>
+        <RegionRefIndexed index="1" regionRef="region_1484305358336_75"/>
+        <RegionRefIndexed index="2" regionRef="region_1484305365554_76"/>
+      </OrderedGroup>
+    </ReadingOrder>
+    <TextRegion id="region_1484305354839_74">
+      <Coords points="466,142 670,142 670,246 466,246"/>
+      <TextLine id="line_1484305380044_77">
+        <Coords points="490,176 662,182 660,232 488,226"/>
+        <Baseline points="488,221 660,227"/>
+        <TextEquiv>
+          <Unicode>Z. 16.</Unicode>
+        </TextEquiv>
+      </TextLine>
+    </TextRegion>
+    <TextRegion id="region_1484305358336_75">
+      <Coords points="1013,148 1606,148 1606,262 1013,262"/>
+      <TextLine id="line_1484305389843_78">
+        <Coords points="1039,178 1339,188 1413,180 1560,193 1577,184 1597,230 1569,242 1414,230 1341,238 1038,228"/>
+        <Baseline points="1038,223 1341,233 1414,225 1568,237 1595,225"/>
+        <TextEquiv>
+          <Unicode>Wien 17 Jan. 1879.</Unicode>
+        </TextEquiv>
+      </TextLine>
+    </TextRegion>
+    <TextRegion id="region_1484305365554_76">
+      <Coords points="122,356 1667,356 1667,2523 122,2523"/>
+      <TextLine id="line_1484305398545_79">
+        <Coords points="276,404 1575,408 1575,458 276,454"/>
+        <Baseline points="276,449 1575,453"/>
+        <TextEquiv>
+          <Unicode>Zu dem neuen Probebogen habe ich folgendes zu bemerken:</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1484305402189_80">
+        <Coords points="226,514 1594,518 1594,568 226,564"/>
+        <Baseline points="226,559 1594,563"/>
+        <TextEquiv>
+          <Unicode>1.). Die Druckerei hat sich verpflichtet, durchgehends neue Lettern</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1484305405705_81">
+        <Coords points="233,618 1632,632 1632,682 233,668"/>
+        <Baseline points="233,663 1632,677"/>
+        <TextEquiv>
+          <Unicode>zu verwenden. Aber einige Sorten waren noch nicht vorhanden und werden</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1484305411314_82">
+        <Coords points="225,727 800,739 1585,736 1585,786 800,789 224,777"/>
+        <Baseline points="224,772 800,784 1585,781"/>
+        <TextEquiv>
+          <Unicode>erst jetzt gegossen. Das gilt z.B. von den Typen, mit denen die Regesten</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1484305416236_83">
+        <Coords points="224,844 1632,848 1632,898 224,894"/>
+        <Baseline points="224,889 1635,895"/>
+        <TextEquiv>
+          <Unicode>gedruckt sind. Desgleichen müssen die Typen für Ŏ, uͦ u. dergleichen</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1484305419611_84">
+        <Coords points="222,956 1566,961 1566,1011 222,1006"/>
+        <Baseline points="222,1001 1566,1006"/>
+        <TextEquiv>
+          <Unicode>erst nach meinen Angaben geschnitten werden. Sonst ist die Auswahl der</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1484305426051_85">
+        <Coords points="174,1068 1583,1072 1583,1122 174,1118"/>
+        <Baseline points="174,1113 1583,1117"/>
+        <TextEquiv>
+          <Unicode>‖ Typen bereits difinitiv, es müsste denn das Zeichen &lt; &gt; (für Interpo¬</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1484305430270_86">
+        <Coords points="220,1173 1397,1186 1397,1236 220,1223"/>
+        <Baseline points="220,1218 1397,1231"/>
+        <TextEquiv>
+          <Unicode>lationen) wie S. 4 Zeile 19 u. 22 etwa beanstandet werden.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1484305436759_87">
+        <Coords points="215,1279 1608,1291 1608,1341 215,1329"/>
+        <Baseline points="215,1324 1608,1336"/>
+        <TextEquiv>
+          <Unicode>2) Einrichtung der Drucke. An den früheren Probedrucken ist nur das geän¬</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1484305441481_88">
+        <Coords points="246,1391 1599,1408 1598,1458 245,1441"/>
+        <Baseline points="245,1436 1598,1453"/>
+        <TextEquiv>
+          <Unicode>dert worden, was in der betreffenden Commissionssitzung zu Berlin bean¬</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1484305444731_89">
+        <Coords points="236,1507 1580,1519 1580,1569 236,1557"/>
+        <Baseline points="236,1552 1583,1568"/>
+        <TextEquiv>
+          <Unicode>standet wurde. Die wesentlichste Aenderung besteht darin daß früher,</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1484305449229_90">
+        <Coords points="241,1611 1599,1628 1598,1678 240,1661"/>
+        <Baseline points="240,1656 1607,1679"/>
+        <TextEquiv>
+          <Unicode>was über die Urkunde im allgemeinen zu bemerken war (Schreiber, Dicta¬</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1484305452847_91">
+        <Coords points="235,1720 1589,1742 1588,1792 234,1770"/>
+        <Baseline points="234,1765 1588,1787"/>
+        <TextEquiv>
+          <Unicode>tor, kritischer oder sachlicher Commentar) in Petit u. als Anmerkung ge¬</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1484305456287_92">
+        <Coords points="235,1829 1633,1847 1632,1897 234,1879"/>
+        <Baseline points="234,1874 1632,1892"/>
+        <TextEquiv>
+          <Unicode>druckt war, und daß jetzt auf Waitz' Vorschlag die betreffenden Bemerkungen</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1484305460938_93">
+        <Coords points="245,1942 1610,1959 1609,2009 244,1992"/>
+        <Baseline points="244,1987 1609,2004"/>
+        <TextEquiv>
+          <Unicode>dem Text vorausgeschickt sind, dem gemäß mit denselben cursiven Lettern</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1484305469392_94">
+        <Coords points="141,2051 276,2054 640,2057 1622,2065 1622,2115 640,2107 275,2104 140,2101"/>
+        <Baseline points="140,2096 275,2099 640,2102 1622,2110"/>
+        <TextEquiv>
+          <Unicode>11! gedruckt, in denen die Quellen und Editionen angegeben werden. Natürlich</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1484305472683_95">
+        <Coords points="244,2161 1637,2186 1636,2236 243,2211"/>
+        <Baseline points="243,2206 1636,2231"/>
+        <TextEquiv>
+          <Unicode>werden wir uns da möglichst knapp halten. Aber bei schlecht überlieferten und</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1484305476530_96">
+        <Coords points="244,2272 1634,2297 1633,2347 243,2322"/>
+        <Baseline points="243,2317 1633,2342"/>
+        <TextEquiv>
+          <Unicode>bisher beanstandeten Stücken, wie DC. 3, ist Ausführlichkeit geboten. Dann kommt</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1484305480311_97">
+        <Coords points="239,2384 1605,2408 1604,2458 238,2434"/>
+        <Baseline points="238,2429 1604,2453"/>
+        <TextEquiv>
+          <Unicode>hier noch zuweilen ein äusserlicher Umstand in Betracht. Jede Urkunde wird</Unicode>
+        </TextEquiv>
+      </TextLine>
+    </TextRegion>
+  </Page>
+</PcGts>

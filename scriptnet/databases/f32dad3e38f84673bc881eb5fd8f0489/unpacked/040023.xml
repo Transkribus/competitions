@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+  <Metadata>
+    <Creator>TRP</Creator>
+    <Created>2016-12-22T15:33:14.214+01:00</Created>
+    <LastChange>2017-01-20T11:31:04.132+01:00</LastChange>
+  </Metadata>
+  <Page imageFilename="040023.jpg" imageWidth="2484" imageHeight="3871">
+    <ReadingOrder>
+      <OrderedGroup id="ro_1484908264169" caption="Regions reading order">
+        <RegionRefIndexed index="0" regionRef="region_1484211995284_1"/>
+        <RegionRefIndexed index="1" regionRef="region_1484212001826_2"/>
+        <RegionRefIndexed index="2" regionRef="region_1484212016103_3"/>
+      </OrderedGroup>
+    </ReadingOrder>
+    <TextRegion id="region_1484211995284_1">
+      <Coords points="2369,131 2279,131 2279,67 2369,67"/>
+      <TextLine id="line_1484212039532_4">
+        <Coords points="2298,73 2357,76 2355,126 2296,123"/>
+        <Baseline points="2296,118 2355,121"/>
+        <TextEquiv>
+          <Unicode>25</Unicode>
+        </TextEquiv>
+      </TextLine>
+    </TextRegion>
+    <TextRegion id="region_1484212001826_2">
+      <Coords points="969,159 2075,159 2075,438 969,438"/>
+      <TextLine id="line_1484212058540_5">
+        <Coords points="981,201 1260,199 1543,191 1651,190 1712,245 1676,281 1633,237 1545,241 1261,249 981,251"/>
+        <Baseline points="981,246 1261,244 1545,236 1635,232 1680,277"/>
+        <TextEquiv>
+          <Unicode>München 3 XI 87</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1484212065934_6">
+        <Coords points="1213,329 1449,342 1735,347 1893,355 2053,354 2053,404 1892,405 1733,397 1447,392 1211,379"/>
+        <Baseline points="1211,374 1447,387 1733,392 1892,400 2061,400"/>
+        <TextEquiv>
+          <Unicode>von der Tannstr 9/II</Unicode>
+        </TextEquiv>
+      </TextLine>
+    </TextRegion>
+    <TextRegion id="region_1484212016103_3">
+      <Coords points="36,453 2443,453 2443,3667 36,3667"/>
+      <TextLine id="line_1484212094782_7">
+        <Coords points="93,482 526,500 1071,510 1537,516 1969,527 2190,512 2193,562 1970,577 1536,566 1070,560 525,550 91,532"/>
+        <Baseline points="91,527 525,545 1070,555 1536,561 1970,572 2193,557"/>
+        <TextEquiv>
+          <Unicode>fuͤr Ihre liebenswürdige karte, hochverehrter herr professor,</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1484212100841_8">
+        <Coords points="87,597 471,600 954,621 1321,625 1321,675 953,671 470,650 87,647"/>
+        <Baseline points="87,642 470,645 953,666 1321,670"/>
+        <TextEquiv>
+          <Unicode>bin ich Ihnen noch dank schuldig.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1484212112410_9">
+        <Coords points="87,706 303,714 425,725 479,712 952,733 1337,734 1679,751 2194,738 2195,788 1678,801 1336,784 951,783 483,762 428,775 300,764 85,756"/>
+        <Baseline points="85,751 300,759 428,770 483,757 951,778 1336,779 1678,796 2195,783"/>
+        <TextEquiv>
+          <Unicode>ich muß Ihnen gestehen, daß ich darauf gefasst war,</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1484212122721_10">
+        <Coords points="93,816 489,838 1133,859 1547,874 2201,880 2201,930 1546,924 1131,909 487,888 91,866"/>
+        <Baseline points="91,861 487,883 1131,904 1546,919 2220,933"/>
+        <TextEquiv>
+          <Unicode>keiner guͤnstigen anzeige gewürdigt zu werden: ich gehoͤ¬</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1484212132680_11">
+        <Coords points="88,919 341,938 655,955 1100,968 1686,995 2269,997 2269,1047 1685,1045 1098,1018 653,1005 338,988 85,969"/>
+        <Baseline points="85,964 338,983 653,1000 1098,1013 1685,1040 2269,1042"/>
+        <TextEquiv>
+          <Unicode>re nicht zum "ring". was bin ich herrn Huͤmer und hrn</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1484212144499_12">
+        <Coords points="83,1057 500,1070 920,1080 1393,1101 2205,1135 2203,1185 1391,1151 918,1130 499,1120 82,1107"/>
+        <Baseline points="82,1102 499,1115 918,1125 1391,1146 2203,1180"/>
+        <TextEquiv>
+          <Unicode>Ebert (d.i. doch wol der anonymus des lit. centrlbl.?)?</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1484212155166_13">
+        <Coords points="86,1172 395,1187 1233,1203 1700,1233 2297,1233 2297,1283 1699,1283 1231,1253 393,1237 84,1222"/>
+        <Baseline points="84,1217 393,1232 1231,1248 1699,1278 2297,1278"/>
+        <TextEquiv>
+          <Unicode>freilich auch was sind sie mir? — sehen Sie nur wie der¬</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1484212181450_14">
+        <Coords points="106,1295 610,1314 1170,1333 1740,1348 2246,1352 2246,1402 1739,1398 1169,1383 608,1364 104,1345"/>
+        <Baseline points="104,1340 608,1359 1169,1378 1739,1393 2246,1397"/>
+        <TextEquiv>
+          <Unicode>selbe hr Huͤmer der mir zu verstehen gibt ich sei kein</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1484212188556_15">
+        <Coords points="89,1421 697,1448 1432,1476 2302,1488 2301,1538 1431,1526 695,1498 87,1471"/>
+        <Baseline points="87,1466 695,1493 1431,1521 2301,1533"/>
+        <TextEquiv>
+          <Unicode>philologe herrn Hassler in der liebenswürdigsten weise als</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1484212199310_16">
+        <Coords points="122,1541 340,1554 1152,1582 1803,1614 2283,1624 2282,1674 1801,1664 1150,1632 338,1604 119,1591"/>
+        <Baseline points="119,1586 338,1599 1150,1627 1801,1659 2282,1669"/>
+        <TextEquiv>
+          <Unicode>frater in Apolline begrüsst. und doch aufrichtig gespro¬</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1484212212908_17">
+        <Coords points="116,1675 765,1695 1550,1727 1978,1750 2292,1758 2291,1808 1976,1800 1548,1777 763,1745 115,1725"/>
+        <Baseline points="115,1720 763,1740 1548,1772 1976,1795 2291,1803"/>
+        <TextEquiv>
+          <Unicode>chen halte ich die Hasslerschen vitae fuͤr eine fleissige</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1484212225187_18">
+        <Coords points="115,1797 614,1818 1233,1848 1591,1867 2086,1878 2284,1877 2284,1927 2086,1928 1589,1917 1231,1898 612,1868 113,1847"/>
+        <Baseline points="113,1842 612,1863 1231,1893 1589,1912 2086,1923 2284,1922"/>
+        <TextEquiv>
+          <Unicode>schuͤlerarbeit, meine poetae fuͤr eine auf dem gebiet</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1484212245972_19">
+        <Coords points="116,1930 407,1951 686,1964 955,1983 1167,1983 1917,2017 2286,2014 2286,2064 1916,2067 1166,2033 953,2033 683,2014 404,2001 113,1980"/>
+        <Baseline points="113,1975 404,1996 683,2009 953,2028 1166,2028 1916,2062 2286,2059"/>
+        <TextEquiv>
+          <Unicode>malicher philologie erträgliche leistung. trotzdem</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1484212257967_20">
+        <Coords points="128,2068 727,2102 1397,2129 2291,2172 2289,2222 1395,2179 725,2152 125,2118"/>
+        <Baseline points="125,2113 725,2147 1395,2174 2289,2217"/>
+        <TextEquiv>
+          <Unicode>ich nicht leugne, daß sie hinter meinen eignen aller¬</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1484212267095_21">
+        <Coords points="124,2208 878,2232 1603,2278 1677,2285 1858,2291 2303,2306 2301,2356 1857,2341 1674,2335 1599,2328 876,2282 123,2258"/>
+        <Baseline points="123,2253 876,2277 1599,2323 1674,2330 1857,2336 2301,2351"/>
+        <TextEquiv>
+          <Unicode>dings sehr hochgespannten anforderungen zuruͤckbleiben.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1484212281958_22">
+        <Coords points="116,2337 845,2373 1526,2409 2249,2437 2247,2487 1524,2459 843,2423 114,2387"/>
+        <Baseline points="114,2382 843,2418 1524,2454 2247,2482"/>
+        <TextEquiv>
+          <Unicode>je unerbittlicher man der wahrheit durch dick und</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1484212289225_23">
+        <Coords points="112,2454 757,2498 1193,2534 1658,2566 2266,2570 2266,2620 1656,2616 1190,2584 754,2548 109,2504"/>
+        <Baseline points="109,2499 754,2543 1190,2579 1656,2611 2266,2615"/>
+        <TextEquiv>
+          <Unicode>duͤnn nachstrebt und derartige kritische ausgaben</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1484212299095_24">
+        <Coords points="117,2590 773,2641 1220,2656 1520,2687 2348,2700 2347,2750 1517,2737 1217,2706 771,2691 114,2640"/>
+        <Baseline points="114,2635 771,2686 1217,2701 1517,2732 2347,2745"/>
+        <TextEquiv>
+          <Unicode>weder zu muͤssigem spiel willkuͤrlicher launen mis¬</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1484212306440_25">
+        <Coords points="1189,2728 1257,2730 1256,2780 1188,2778"/>
+        <Baseline points="1188,2773 1256,2775"/>
+        <TextEquiv>
+          <Unicode>sie</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1484212314522_26">
+        <Coords points="118,2730 661,2757 1199,2792 1801,2828 2348,2836 2347,2886 1799,2878 1196,2842 658,2807 116,2780"/>
+        <Baseline points="116,2775 658,2802 1196,2837 1799,2873 2347,2881"/>
+        <TextEquiv>
+          <Unicode>braucht noch sich genuͤgt als unverarbeitetes material</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1484212330962_27">
+        <Coords points="2149,2913 2296,2919 2294,2969 2147,2963"/>
+        <Baseline points="2147,2958 2294,2964"/>
+        <TextEquiv>
+          <Unicode>eben</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1484212336384_28">
+        <Coords points="121,2851 974,2917 2351,2991 2349,3041 971,2967 118,2901"/>
+        <Baseline points="118,2896 971,2962 2349,3036"/>
+        <TextEquiv>
+          <Unicode>von sich zu schleudern, um so hoͤher steigern sich diese</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1484212346384_29">
+        <Coords points="112,2998 638,3025 838,3042 1174,3064 1518,3087 2330,3121 2328,3171 1516,3137 1171,3114 835,3092 635,3075 110,3048"/>
+        <Baseline points="110,3043 635,3070 835,3087 1171,3109 1516,3132 2328,3166"/>
+        <TextEquiv>
+          <Unicode>anforderungen an die "reinlichkeit" wie es Haupt nan¬</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1484212354572_30">
+        <Coords points="115,3126 486,3149 895,3189 1473,3221 2311,3253 2309,3303 1471,3271 892,3239 482,3199 112,3176"/>
+        <Baseline points="112,3171 482,3194 892,3234 1471,3266 2309,3298"/>
+        <TextEquiv>
+          <Unicode>nte, — bis zur einseitigkeit, krankhaftigkeit, un¬</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1484212367474_31">
+        <Coords points="112,3268 650,3293 1111,3321 1304,3343 1611,3351 1676,3345 2332,3374 2330,3424 1677,3395 1613,3401 1301,3393 1107,3371 648,3343 110,3318"/>
+        <Baseline points="110,3313 648,3338 1107,3366 1301,3388 1613,3396 1677,3390 2330,3419"/>
+        <TextEquiv>
+          <Unicode>produktivitaet. so hat sich Haupt nie genuͤgt, viel</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1484212377170_32">
+        <Coords points="95,3404 573,3425 965,3447 1454,3468 2419,3510 2417,3560 1452,3518 963,3497 571,3475 93,3454"/>
+        <Baseline points="93,3449 571,3470 963,3492 1452,3513 2417,3555"/>
+        <TextEquiv>
+          <Unicode>angefangenes verworfen, wenig abzuschliessen (= herausgeben)</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1484212381170_33">
+        <Coords points="105,3540 769,3570 767,3620 103,3590"/>
+        <Baseline points="103,3585 767,3615"/>
+        <TextEquiv>
+          <Unicode>sich entschlossen.</Unicode>
+        </TextEquiv>
+      </TextLine>
+    </TextRegion>
+  </Page>
+</PcGts>

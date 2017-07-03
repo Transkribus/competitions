@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+  <Metadata>
+    <Creator>TRP</Creator>
+    <Created>2016-12-22T15:35:44.163+01:00</Created>
+    <LastChange>2017-01-20T11:29:26.884+01:00</LastChange>
+  </Metadata>
+  <Page imageFilename="040016.jpg" imageWidth="2542" imageHeight="3061">
+    <ReadingOrder>
+      <OrderedGroup id="ro_1484908166923" caption="Regions reading order">
+        <RegionRefIndexed index="0" regionRef="region_1483544810564_6"/>
+        <RegionRefIndexed index="1" regionRef="region_1483544750773_1"/>
+        <RegionRefIndexed index="2" regionRef="region_1483544761444_2"/>
+        <RegionRefIndexed index="3" regionRef="region_1483544776636_3"/>
+        <RegionRefIndexed index="4" regionRef="region_1483544782180_4"/>
+        <RegionRefIndexed index="5" regionRef="region_1483544786916_5"/>
+      </OrderedGroup>
+    </ReadingOrder>
+    <TextRegion id="region_1483544810564_6">
+      <Coords points="2333,10 2386,10 2386,69 2333,69"/>
+      <TextLine id="line_1483544818625_7">
+        <Coords points="2344,14 2376,16 2373,66 2341,64"/>
+        <Baseline points="2341,59 2373,61"/>
+        <TextEquiv>
+          <Unicode>1</Unicode>
+        </TextEquiv>
+      </TextLine>
+    </TextRegion>
+    <TextRegion id="region_1483544750773_1">
+      <Coords points="713,625 1419,625 1419,801 713,801"/>
+      <TextLine id="line_1483545840224_8">
+        <Coords points="750,668 999,669 1117,678 1404,668 1406,718 1116,728 997,719 750,718"/>
+        <Baseline points="750,713 997,714 1116,723 1406,713"/>
+        <TextEquiv>
+          <Unicode>Hochgeehrter Herr Geheimrath.</Unicode>
+        </TextEquiv>
+      </TextLine>
+    </TextRegion>
+    <TextRegion id="region_1483544761444_2">
+      <Coords points="419,1022 2225,1022 2225,1996 419,1996"/>
+      <TextLine id="line_1483545872876_9">
+        <Coords points="678,1093 2182,1071 2183,1121 679,1143"/>
+        <Baseline points="679,1138 2183,1116"/>
+        <TextEquiv>
+          <Unicode>Heute Morgen ist von der Hahnschen Buchhandlung der letzte Bogen und</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1483545881460_10">
+        <Coords points="439,1183 1516,1178 1800,1172 2196,1172 2196,1222 1800,1222 1517,1228 439,1233"/>
+        <Baseline points="439,1228 1517,1223 1800,1217 2196,1217"/>
+        <TextEquiv>
+          <Unicode>Titel des Chr. N. gekommen, aber leider ohne das dazu gehörende Manuscript.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1483545888624_11">
+        <Coords points="461,1289 2185,1271 2185,1321 461,1339"/>
+        <Baseline points="461,1334 2185,1316"/>
+        <TextEquiv>
+          <Unicode>Da also die Correctur unmöglich ist, habe ich gleich nach Hannover geschrieben, und</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1483545897271_12">
+        <Coords points="467,1381 831,1383 1044,1369 1216,1380 2125,1374 2125,1424 1215,1430 1044,1419 832,1433 467,1431"/>
+        <Baseline points="467,1426 832,1428 1044,1414 1215,1425 2125,1419"/>
+        <TextEquiv>
+          <Unicode>gebeten es nachzuschicken. Zugleich sind 3 Exemplare vom 4. Bogen der</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1483545904256_13">
+        <Coords points="483,1505 1149,1479 1885,1469 2164,1478 2163,1528 1885,1519 1150,1529 485,1555"/>
+        <Baseline points="485,1550 1150,1524 1885,1514 2163,1523"/>
+        <TextEquiv>
+          <Unicode>Oktavausgabe angekommen — ich vermuthe auch dabei ein Mißverständniß</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1483545911951_14">
+        <Coords points="489,1598 1232,1574 2191,1568 2191,1618 1233,1624 490,1648"/>
+        <Baseline points="490,1643 1233,1619 2191,1613"/>
+        <TextEquiv>
+          <Unicode>da ich die ersten 3. zum Register nicht habe, und habe darum gebeten. Könnte</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1483545919186_15">
+        <Coords points="465,1699 961,1681 1432,1670 2160,1661 2161,1711 1433,1720 962,1731 467,1749"/>
+        <Baseline points="467,1744 962,1726 1433,1715 2161,1706"/>
+        <TextEquiv>
+          <Unicode>ich wohl Ihr Exemplar der Aushängebogen der Folioausgabe bekommen, um</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1483545923780_16">
+        <Coords points="480,1808 2170,1759 2171,1809 481,1858"/>
+        <Baseline points="481,1853 2179,1806"/>
+        <TextEquiv>
+          <Unicode>die Anmerkungen zum Reg. zu benutzen? Es kann freilich auch warten,</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1483545927595_17">
+        <Coords points="484,1908 1362,1874 1364,1924 486,1958"/>
+        <Baseline points="486,1953 1364,1919"/>
+        <TextEquiv>
+          <Unicode>bis Sie wieder zur Stadt kommen.</Unicode>
+        </TextEquiv>
+      </TextLine>
+    </TextRegion>
+    <TextRegion id="region_1483544776636_3">
+      <Coords points="1354,2037 1629,2037 1629,2167 1354,2167"/>
+      <TextLine id="line_1483545937781_18">
+        <Coords points="1400,2051 1599,2051 1599,2101 1400,2101"/>
+        <Baseline points="1400,2096 1599,2096"/>
+        <TextEquiv>
+          <Unicode>Ergebenst</Unicode>
+        </TextEquiv>
+      </TextLine>
+    </TextRegion>
+    <TextRegion id="region_1483544782180_4">
+      <Coords points="366,2301 1003,2301 1003,2427 366,2427"/>
+      <TextLine id="line_1483545944061_19">
+        <Coords points="387,2347 989,2332 990,2382 388,2397"/>
+        <Baseline points="388,2392 990,2377"/>
+        <TextEquiv>
+          <Unicode>Berlin d. 10. Juli 1845.</Unicode>
+        </TextEquiv>
+      </TextLine>
+    </TextRegion>
+    <TextRegion id="region_1483544786916_5">
+      <Coords points="1534,2286 2019,2286 2019,2411 1534,2411"/>
+      <TextLine id="line_1483545951870_20">
+        <Coords points="1553,2338 1741,2331 1992,2322 1994,2372 1743,2381 1555,2388"/>
+        <Baseline points="1555,2383 1743,2376 1994,2367"/>
+        <TextEquiv>
+          <Unicode>W Wattenbach.</Unicode>
+        </TextEquiv>
+      </TextLine>
+    </TextRegion>
+  </Page>
+</PcGts>

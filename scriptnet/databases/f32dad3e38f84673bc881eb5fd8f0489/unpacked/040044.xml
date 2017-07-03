@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+  <Metadata>
+    <Creator>TRP</Creator>
+    <Created>2016-12-23T09:51:25.937+01:00</Created>
+    <LastChange>2017-01-20T11:21:39.364+01:00</LastChange>
+  </Metadata>
+  <Page imageFilename="040044.jpg" imageWidth="1622" imageHeight="2608">
+    <ReadingOrder>
+      <OrderedGroup id="ro_1484907699400" caption="Regions reading order">
+        <RegionRefIndexed index="0" regionRef="region_1483531174213_41"/>
+        <RegionRefIndexed index="1" regionRef="region_1483531185444_42"/>
+        <RegionRefIndexed index="2" regionRef="region_1483531189992_43"/>
+        <RegionRefIndexed index="3" regionRef="region_1483531195348_44"/>
+        <RegionRefIndexed index="4" regionRef="region_1483531200963_45"/>
+      </OrderedGroup>
+    </ReadingOrder>
+    <TextRegion type="page-number" id="region_1483531174213_41">
+      <Coords points="1516,64 1595,64 1595,146 1516,146"/>
+      <TextLine id="line_1483531211152_46">
+        <Coords points="1541,84 1582,82 1584,132 1543,134"/>
+        <Baseline points="1543,129 1584,127"/>
+        <TextEquiv>
+          <Unicode>2</Unicode>
+        </TextEquiv>
+      </TextLine>
+    </TextRegion>
+    <TextRegion id="region_1483531185444_42">
+      <Coords points="201,358 1581,358 1581,697 201,697"/>
+      <TextLine id="line_1483531237255_47">
+        <Coords points="278,391 563,394 1146,391 1551,389 1551,439 1146,441 563,444 278,441"/>
+        <Baseline points="278,436 563,439 1146,436 1551,434"/>
+        <TextEquiv>
+          <Unicode>Ihnen die Notiz rechtzeitig Beginn</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1483531243810_48">
+        <Coords points="270,489 422,494 931,488 1572,484 1572,534 931,538 422,544 269,539"/>
+        <Baseline points="269,534 422,539 931,533 1572,529"/>
+        <TextEquiv>
+          <Unicode>Ihrer Forschungsreise senden zu dürfen,</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1483531247810_49">
+        <Coords points="264,590 1297,585 1297,635 264,640"/>
+        <Baseline points="264,635 1297,630"/>
+        <TextEquiv>
+          <Unicode>hochgeehrter Herr Geheimrath.</Unicode>
+        </TextEquiv>
+      </TextLine>
+    </TextRegion>
+    <TextRegion id="region_1483531189992_43">
+      <Coords points="561,722 1468,722 1468,867 561,867"/>
+      <TextLine id="line_1483531255863_50">
+        <Coords points="611,747 658,750 1039,742 1459,743 1459,793 1039,792 657,800 608,797"/>
+        <Baseline points="608,792 657,795 1039,787 1459,788"/>
+        <TextEquiv>
+          <Unicode>Ich empfehle mich Ihnen</Unicode>
+        </TextEquiv>
+      </TextLine>
+    </TextRegion>
+    <TextRegion id="region_1483531195348_44">
+      <Coords points="797,1123 1596,1123 1596,1264 797,1264"/>
+      <TextLine id="line_1483531264377_51">
+        <Coords points="805,1149 1262,1148 1583,1145 1583,1195 1262,1198 805,1199"/>
+        <Baseline points="805,1194 1262,1193 1583,1190"/>
+        <TextEquiv>
+          <Unicode>mit ergebener Hochachtung</Unicode>
+        </TextEquiv>
+      </TextLine>
+    </TextRegion>
+    <TextRegion id="region_1483531200963_45">
+      <Coords points="109,2145 1466,2145 1466,2282 109,2282"/>
+      <TextLine id="line_1483531276348_52">
+        <Coords points="158,2177 271,2178 832,2170 984,2180 1449,2164 1451,2214 983,2230 831,2220 271,2228 158,2227"/>
+        <Baseline points="158,2222 271,2223 831,2215 983,2225 1451,2209"/>
+        <TextEquiv>
+          <Unicode>Göttingen. 30. Mai 1877. Ernst Bernheim</Unicode>
+        </TextEquiv>
+      </TextLine>
+    </TextRegion>
+  </Page>
+</PcGts>

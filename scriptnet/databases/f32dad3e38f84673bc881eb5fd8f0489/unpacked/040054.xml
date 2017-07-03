@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+  <Metadata>
+    <Creator>htrsh_pagexml_create</Creator>
+    <Created>2017-01-30T12:24:50</Created>
+    <LastChange>2017-02-17T10:17:51.738+01:00</LastChange>
+  </Metadata>
+  <Page imageFilename="040054.jpg" imageWidth="1113" imageHeight="1440">
+    <ReadingOrder>
+      <OrderedGroup id="ro_1487323071856" caption="Regions reading order">
+        <RegionRefIndexed index="0" regionRef="TextRegion_1487323047754_154"/>
+        <RegionRefIndexed index="1" regionRef="TextRegion_1487323047754_153"/>
+      </OrderedGroup>
+    </ReadingOrder>
+    <TextRegion id="TextRegion_1487323047754_154">
+      <Coords points="1100,984 87,984 87,143 1100,143"/>
+      <TextLine id="line_1487323047795_156">
+        <Coords points="758,984 639,984 639,977 758,968"/>
+        <TextEquiv>
+          <Unicode>Dein</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486649613363_895">
+        <Coords points="142,146 465,150 1006,147 1006,197 465,200 141,196"/>
+        <Baseline points="141,191 465,195 1006,192"/>
+        <TextEquiv>
+          <Unicode>Regierung gewollt habe. Ich glaube, die einzige Möglichkeit M.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486649624673_896">
+        <Coords points="139,192 608,192 973,185 1072,194 1068,244 971,235 608,242 139,242"/>
+        <Baseline points="139,237 608,237 971,230 1068,239"/>
+        <TextEquiv>
+          <Unicode>zu retten, war die, den E. rechtzeitig nicht erst zuletzt zu wählen. Diesen</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486649632577_897">
+        <Coords points="149,235 1025,226 1025,276 149,285"/>
+        <Baseline points="149,280 1025,271"/>
+        <TextEquiv>
+          <Unicode>wollte man aber nicht u die Nemesis der Ausschließung folgte auf</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486649637642_898">
+        <Coords points="140,281 1058,270 1059,320 141,331"/>
+        <Baseline points="141,326 1059,315"/>
+        <TextEquiv>
+          <Unicode>dem Fuß nach. Indeß nützt es nichts, hierüber nachträglich zu rechten.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486649643267_899">
+        <Coords points="138,325 1070,312 1071,362 139,375"/>
+        <Baseline points="139,370 1071,357"/>
+        <TextEquiv>
+          <Unicode>Lassen wir die Sache im Frieden auf sich beruhen u trachten wir, dem am</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486649649341_900">
+        <Coords points="138,369 1042,355 1043,405 139,419"/>
+        <Baseline points="139,414 1043,400"/>
+        <TextEquiv>
+          <Unicode>schwersten Betroffnen beförderlich auf geeignete Weise einen Ersatz zu ver-</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486649655223_901">
+        <Coords points="125,415 267,406 270,456 128,465"/>
+        <Baseline points="128,460 270,451"/>
+        <TextEquiv>
+          <Unicode>schaffen. –</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486649673505_902">
+        <Coords points="189,446 749,454 1040,455 1040,505 749,504 188,496"/>
+        <Baseline points="188,491 749,499 1040,500"/>
+        <TextEquiv>
+          <Unicode>Nächsten Samstag gedenke ich meinen Urlaub anzutreten; allein der</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486649678613_903">
+        <Coords points="141,492 1043,490 1043,540 141,542"/>
+        <Baseline points="141,537 1043,535"/>
+        <TextEquiv>
+          <Unicode>Arzt hat mir erklärt, ich müße reisen u nicht an einen bestimmten Ort hin-</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486649684061_904">
+        <Coords points="134,533 1049,535 1049,585 134,583"/>
+        <Baseline points="134,578 1049,580"/>
+        <TextEquiv>
+          <Unicode>sitzen. Nach Zürich ginge ich jetzt am allerwenigsten, so oft ich mich schon</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486649690249_905">
+        <Coords points="138,580 1032,577 1032,627 138,630"/>
+        <Baseline points="138,625 1032,622"/>
+        <TextEquiv>
+          <Unicode>darnach gesehnt habe; denn ich will jetzt weit weg von allem Politisiren,</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486649700448_906">
+        <Coords points="140,630 1039,620 1040,670 141,680"/>
+        <Baseline points="141,675 1040,665"/>
+        <TextEquiv>
+          <Unicode>das ich gegenwärtig in Zürich viel betreiben müßte u zwar nicht ohne</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486649713575_907">
+        <Coords points="136,677 849,676 1055,666 1057,716 850,726 136,727"/>
+        <Baseline points="136,722 850,721 1057,711"/>
+        <TextEquiv>
+          <Unicode>Verdruß. Ich danke dir recht sehr für deine freundschaftliche Einladung.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486649739296_908">
+        <Coords points="125,718 1087,717 1087,767 125,768"/>
+        <Baseline points="125,763 1087,762"/>
+        <TextEquiv>
+          <Unicode>Ich muß das weite suchen u gedenke, das südliche Frankreich u vielleicht</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486649745832_909">
+        <Coords points="146,767 1057,762 1057,812 146,817"/>
+        <Baseline points="146,812 1057,807"/>
+        <TextEquiv>
+          <Unicode>auch Sardinien (d. h. Piemont) zu besuchen. Wenn du nur Zeit fändest,</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486649755040_910">
+        <Coords points="151,815 1062,802 1063,852 152,865"/>
+        <Baseline points="152,860 1063,847"/>
+        <TextEquiv>
+          <Unicode>mitzukommen! – Du weißt ich habe auch sehr viel zu thun – allein jetzt</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486649762457_911">
+        <Coords points="137,860 1079,848 1080,898 138,910"/>
+        <Baseline points="138,905 1080,893"/>
+        <TextEquiv>
+          <Unicode>kann ich unmöglich mehr; ich bedarf nothwendig eines neuen Aufschwungs.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486649772285_912">
+        <Coords points="205,913 1035,902 1036,952 206,963"/>
+        <Baseline points="206,958 1036,947"/>
+        <TextEquiv>
+          <Unicode>Lebe wohl! Grüße mir deine verehrte Familie u unsre Freunde!</Unicode>
+        </TextEquiv>
+      </TextLine>
+    </TextRegion>
+    <TextRegion id="TextRegion_1487323047754_153">
+      <Coords points="955,1191 619,1191 619,984 955,984"/>
+      <TextLine id="line_1487323047795_155">
+        <Coords points="642,1027 639,984 758,984 761,1018"/>
+        <Baseline points="642,1022 761,1013"/>
+        <TextEquiv>
+          <Unicode>Dein</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486649833477_914">
+        <Coords points="728,1034 908,1006 916,1055 736,1083"/>
+        <Baseline points="735,1078 915,1050"/>
+        <TextEquiv>
+          <Unicode>F J</Unicode>
+        </TextEquiv>
+      </TextLine>
+    </TextRegion>
+  </Page>
+</PcGts>

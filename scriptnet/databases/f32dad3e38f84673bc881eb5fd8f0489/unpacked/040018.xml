@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+    <Metadata>
+        <Creator>htrsh_pagexml_create</Creator>
+        <Created>2017-01-30T12:24:30</Created>
+        <LastChange>2017-06-30T18:35:19.679+02:00</LastChange>
+    </Metadata>
+    <Page imageFilename="040018.jpg" imageWidth="1217" imageHeight="1440">
+        <ReadingOrder>
+            <OrderedGroup id="ro_1498840519758" caption="Regions reading order">
+                <RegionRefIndexed index="0" regionRef="pg"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <TextRegion id="pg" custom="readingOrder {index:0;}">
+            <Coords points="104,103 1216,103 1216,1380 104,1380"/>
+            <TextLine id="line_1486644978661_828" custom="readingOrder {index:0;}">
+                <Coords points="145,124 1164,118 1164,168 145,174"/>
+                <Baseline points="145,169 1164,163"/>
+                <TextEquiv>
+                    <Unicode>in letztern immerhin mehr oder weniger einen Haltpunkt u. in letzter Zeit</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1486644984114_829" custom="readingOrder {index:1;}">
+                <Coords points="138,168 1184,161 1184,211 138,218"/>
+                <Baseline points="138,213 1184,206"/>
+                <TextEquiv>
+                    <Unicode>für ihre Theilnehmer wenigstens eine Zufluchtsstätte gefunden hat. Ich habe</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1486644989781_830" custom="readingOrder {index:2;}">
+                <Coords points="135,212 878,200 1180,202 1180,252 878,250 136,262"/>
+                <Baseline points="136,257 878,245 1180,247"/>
+                <TextEquiv>
+                    <Unicode>Gelegenheit gehabt in neuster Zeit den Profeßor Gustav Pfizzer u.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1487322644481_147" custom="readingOrder {index:3;}">
+                <Coords points="906,215 1033,212 1034,262 907,265"/>
+                <Baseline points="907,260 1034,257"/>
+                <TextEquiv>
+                    <Unicode>genannten </Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1486644996593_831" custom="readingOrder {index:4;}">
+                <Coords points="149,250 831,240 1183,236 1184,286 832,290 150,300"/>
+                <Baseline points="150,295 832,285 1184,281"/>
+                <TextEquiv>
+                    <Unicode>deßen Frau (eine politische Amazone), welche mit den Häuptern in in-</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1486645002883_832" custom="readingOrder {index:5;}">
+                <Coords points="145,282 686,276 1151,270 1152,320 687,326 145,332"/>
+                <Baseline points="145,327 687,321 1152,315"/>
+                <TextEquiv>
+                    <Unicode>timer Verbindung zu stehen scheinen, kennen zu lernen u. bin durch die</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1486645011563_833" custom="readingOrder {index:6;}">
+                <Coords points="144,319 903,308 1208,306 1208,356 903,358 145,369"/>
+                <Baseline points="145,364 903,353 1208,351"/>
+                <TextEquiv>
+                    <Unicode>Unterhaltung mit denselben zu dieser Ansicht gelangt. Würde also die Schweiz</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1486645019864_834" custom="readingOrder {index:7;}">
+                <Coords points="142,355 748,341 1095,337 1210,344 1207,394 1094,387 749,391 143,405"/>
+                <Baseline points="143,400 749,386 1094,382 1207,389"/>
+                <TextEquiv>
+                    <Unicode>in einen ernsten Conflikt mit Deutschland oder Preußen gerathen, so könnte</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1486645033268_835" custom="readingOrder {index:8;}">
+                <Coords points="139,385 1198,370 1199,420 140,435"/>
+                <Baseline points="140,430 1199,415"/>
+                <TextEquiv>
+                    <Unicode>sie nur auf die Sympathien der dortigen Republikaner, d. h. des gerin-</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1486645039829_836" custom="readingOrder {index:9;}">
+                <Coords points="135,423 1174,403 1175,453 136,473"/>
+                <Baseline points="136,468 1175,448"/>
+                <TextEquiv>
+                    <Unicode>gern, von den Regierungen u. dem beßern Theil der Bevölkerung ver-</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1486645055660_837" custom="readingOrder {index:10;}">
+                <Coords points="145,457 607,441 1202,440 1202,490 608,491 147,507"/>
+                <Baseline points="147,502 608,486 1202,485"/>
+                <TextEquiv>
+                    <Unicode>folgten u. verwünschten Volkstheiles zählen, d. h. sie wäre ganz u. gar</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1486645062612_838" custom="readingOrder {index:11;}">
+                <Coords points="141,488 1204,476 1205,526 142,538"/>
+                <Baseline points="142,533 1205,521"/>
+                <TextEquiv>
+                    <Unicode>sich selbst überlaßen. Wenn daher geheime Intimationen erfolgten, d. h. auf</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1486645072135_839" custom="readingOrder {index:12;}">
+                <Coords points="146,524 1196,510 1197,560 147,574"/>
+                <Baseline points="147,569 1197,555"/>
+                <TextEquiv>
+                    <Unicode>eine Weise, daß das Decorum dabei gerettet wird, so könnte ich kei-</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1487322749109_149" custom="readingOrder {index:13;}">
+                <Coords points="1119,531 1164,539 1155,588 1110,580"/>
+                <Baseline points="1111,575 1156,583"/>
+                <TextEquiv>
+                    <Unicode>nicht</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1486645085762_840" custom="readingOrder {index:14;}">
+                <Coords points="143,555 637,545 1188,553 1187,603 637,595 144,605"/>
+                <Baseline points="144,600 637,590 1187,598"/>
+                <TextEquiv>
+                    <Unicode>nen genügenden Grund finden, sich ihnen zu widersetzen, zumal dann, wenn</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1486645099236_841" custom="readingOrder {index:15;}">
+                <Coords points="145,588 551,581 1159,581 1209,599 1207,647 1152,631 551,631 146,638"/>
+                <Baseline points="146,633 551,626 1153,626 1208,642"/>
+                <TextEquiv>
+                    <Unicode>auch materielle Gründe in hinreichendem Maße vorhanden sind. Und darüber</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1486645109937_842" custom="readingOrder {index:16;}">
+                <Coords points="138,624 513,612 1186,619 1186,669 513,662 139,674"/>
+                <Baseline points="139,669 513,657 1186,664"/>
+                <TextEquiv>
+                    <Unicode>kann man, wenn man die ganze Geschichte des badischen Aufstandes, u. die</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1487322706342_148" custom="readingOrder {index:17;}">
+                <Coords points="720,629 838,627 839,677 721,679"/>
+                <Baseline points="721,674 839,672"/>
+                <TextEquiv>
+                    <Unicode>überschaut,</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1486645128285_843" custom="readingOrder {index:18;}">
+                <Coords points="142,655 513,648 1182,651 1182,701 513,698 143,705"/>
+                <Baseline points="143,700 513,693 1182,696"/>
+                <TextEquiv>
+                    <Unicode>Personen, welche sich dabei betheiligt haben, doch kaum im Zweifel sein!</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1486645138586_844" custom="readingOrder {index:19;}">
+                <Coords points="148,692 1164,686 1164,736 148,742"/>
+                <Baseline points="148,737 1164,731"/>
+                <TextEquiv>
+                    <Unicode>Leute welche eine republikanische Regierungsform einführen wollen</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1486645146747_845" custom="readingOrder {index:20;}">
+                <Coords points="150,726 1190,721 1190,771 150,776"/>
+                <Baseline points="150,771 1190,766"/>
+                <TextEquiv>
+                    <Unicode>u. statt mit der Macht der Überzeugung des Volkes u. der einer auf-</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1486645153416_846" custom="readingOrder {index:21;}">
+                <Coords points="140,758 1161,752 1161,802 140,808"/>
+                <Baseline points="140,803 1161,797"/>
+                <TextEquiv>
+                    <Unicode>richtigen u. allgemeinen Begeisterung u. Hingabe, mit allen Mitteln</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1486645162555_847" custom="readingOrder {index:22;}">
+                <Coords points="151,792 1200,788 1200,838 151,842"/>
+                <Baseline points="151,837 1200,833"/>
+                <TextEquiv>
+                    <Unicode>des Terrorismus ihre Plane durchzusetzen suchen müßen, verdienen</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1487322807186_150" custom="readingOrder {index:23;}">
+                <Coords points="567,803 604,804 603,854 566,853"/>
+                <Baseline points="566,848 603,849"/>
+                <TextEquiv>
+                    <Unicode>den</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1486645172932_848" custom="readingOrder {index:24;}">
+                <Coords points="146,825 563,816 1183,815 1183,865 564,866 147,875"/>
+                <Baseline points="147,870 564,861 1183,860"/>
+                <TextEquiv>
+                    <Unicode>schon um ihrer wahnsinnigen, Freunden noch mehr als den Feinden ge-</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1486645189588_849" custom="readingOrder {index:25;}">
+                <Coords points="154,857 1193,846 1193,896 154,907"/>
+                <Baseline points="154,902 1193,891"/>
+                <TextEquiv>
+                    <Unicode>fährlichen Überspanntheit willen keine besonders zärtliche Aufmerk-</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1486645196763_850" custom="readingOrder {index:26;}">
+                <Coords points="154,894 1206,882 1207,932 155,944"/>
+                <Baseline points="155,939 564,925 1207,927"/>
+                <TextEquiv>
+                    <Unicode>samkeit. Ich glaube der Bundesrath hat richtig geurtheilt, wenn er meint,</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1486645217813_851" custom="readingOrder {index:27;}">
+                <Coords points="164,926 1168,914 1169,964 165,976"/>
+                <Baseline points="165,971 1169,959"/>
+                <TextEquiv>
+                    <Unicode>die bloße Anwesenheit des Chefs in der Schweiz, sey für das benach-</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1486645224901_852" custom="readingOrder {index:28;}">
+                <Coords points="161,957 1196,944 1197,994 162,1007"/>
+                <Baseline points="162,1002 1197,989"/>
+                <TextEquiv>
+                    <Unicode>barte Deutschland u. damit auch für jene gefährlich. Als Beispiel hie-</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1486645229992_853" custom="readingOrder {index:29;}">
+                <Coords points="158,989 1175,981 1175,1031 158,1039"/>
+                <Baseline points="158,1034 1175,1026"/>
+                <TextEquiv>
+                    <Unicode>für kann ich die Äußerung Siegels, welche er zu RR. Weder ge-</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1486645234257_854" custom="readingOrder {index:30;}">
+                <Coords points="159,1023 1136,1010 1137,1060 160,1073"/>
+                <Baseline points="160,1068 1137,1055"/>
+                <TextEquiv>
+                    <Unicode>macht, u. die ich von diesem selbst erzählen hörte, anführen. Als</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1486645240083_855" custom="readingOrder {index:31;}">
+                <Coords points="148,1059 1188,1047 1189,1097 149,1109"/>
+                <Baseline points="149,1104 1189,1092"/>
+                <TextEquiv>
+                    <Unicode>Siegel im letzten Spätjahr in St. Fiden bei St Gallen verborgen lag,</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1486645245682_856" custom="readingOrder {index:32;}">
+                <Coords points="147,1096 1189,1083 1190,1133 148,1146"/>
+                <Baseline points="148,1141 1190,1128"/>
+                <TextEquiv>
+                    <Unicode>wollte man ihm das Versprechen abnehmen, daß er sich, allen solan-</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1486645250629_857" custom="readingOrder {index:33;}">
+                <Coords points="140,1126 1179,1116 1179,1166 140,1176"/>
+                <Baseline points="140,1171 1179,1161"/>
+                <TextEquiv>
+                    <Unicode>ge er sich auf St Gallischem Gebiete aufhalte, aller Umtriebe gegen</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1486645259327_858" custom="readingOrder {index:34;}">
+                <Coords points="168,1159 1167,1149 1167,1199 168,1209"/>
+                <Baseline points="168,1204 1167,1194"/>
+                <TextEquiv>
+                    <Unicode>die deutschen Nachbarstaaten enthalte. Er antwortete, daß er sich</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1486645270928_859" custom="readingOrder {index:35;}">
+                <Coords points="178,1185 557,1185 1163,1176 1164,1226 557,1235 178,1235"/>
+                <Baseline points="171,1230 557,1230 1164,1221"/>
+                <TextEquiv>
+                    <Unicode>ruhig verhalten wolle, wenn es aber wieder losgehe, so werde</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1486645297168_860" custom="readingOrder {index:36;}">
+                <Coords points="149,1219 662,1220 1178,1206 1179,1256 663,1270 149,1269"/>
+                <Baseline points="149,1264 663,1265 1179,1251"/>
+                <TextEquiv>
+                    <Unicode>man ihm nicht zumuthen, daß er im Exil zurück bleibe! So</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1486645304679_861" custom="readingOrder {index:37;}">
+                <Coords points="154,1252 802,1250 1201,1244 1202,1294 802,1300 154,1302"/>
+                <Baseline points="154,1297 802,1295 1202,1289"/>
+                <TextEquiv>
+                    <Unicode>würden es Alle machen. Sie betrachten die Schweiz als einen Hinter-</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1486645322480_862" custom="readingOrder {index:38;}">
+                <Coords points="155,1280 1161,1281 1161,1331 155,1330"/>
+                <Baseline points="155,1325 1161,1326"/>
+                <TextEquiv>
+                    <Unicode>halt, aus dem sie bei nächster Gelegenheit wieder hervor-</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1486645329491_863" custom="readingOrder {index:39;}">
+                <Coords points="164,1313 1200,1315 1200,1365 164,1363"/>
+                <Baseline points="164,1358 1200,1360"/>
+                <TextEquiv>
+                    <Unicode>brechen. Könnte man es nun den Nachbarstaaten verargen, wenn </Unicode>
+                </TextEquiv>
+            </TextLine>
+        </TextRegion>
+    </Page>
+</PcGts>

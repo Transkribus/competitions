@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+  <Metadata>
+    <Creator>TRP</Creator>
+    <Created>2016-12-14T16:13:58.269+01:00</Created>
+    <LastChange>2016-12-15T16:33:37.891+01:00</LastChange>
+  </Metadata>
+  <Page imageFilename="040028.jpg" imageWidth="2601" imageHeight="3554">
+    <ReadingOrder>
+      <OrderedGroup id="ro_1481816017420" caption="Regions reading order">
+        <RegionRefIndexed index="0" regionRef="region_1481800115581_21"/>
+        <RegionRefIndexed index="1" regionRef="region_1481800126374_22"/>
+      </OrderedGroup>
+    </ReadingOrder>
+    <TextRegion id="region_1481800115581_21">
+      <Coords points="658,499 1447,499 1447,641 658,641"/>
+      <TextLine id="line_1481800172898_24">
+        <Coords points="681,559 1242,549 1315,540 1402,564 1389,612 1312,590 1245,599 682,609"/>
+        <Baseline points="682,604 1245,594 1312,585 1390,607"/>
+        <TextEquiv>
+          <Unicode>Verehrte Freundin!</Unicode>
+        </TextEquiv>
+      </TextLine>
+    </TextRegion>
+    <TextRegion id="region_1481800126374_22">
+      <Coords points="46,700 2509,700 2509,3264 46,3264"/>
+      <TextLine id="line_1481800217338_25">
+        <Coords points="272,778 579,780 1162,776 1759,780 2266,771 2267,821 1759,830 1162,826 579,830 272,828"/>
+        <Baseline points="272,823 579,825 1162,821 1759,825 2267,816"/>
+        <TextEquiv>
+          <Unicode>Mit Ihnen stehe ich recht viel Kreuz aus. Ich habe Ihnen einmal</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1481800228196_26">
+        <Coords points="122,902 632,893 1458,889 1880,887 2408,876 2409,926 1881,937 1458,939 633,943 123,952"/>
+        <Baseline points="123,947 633,938 1458,934 1881,932 2409,921"/>
+        <TextEquiv>
+          <Unicode>gesagt, d Sie an unserer Freundschaft durchaus nicht zweifeln sollen, u jezt zwei¬</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1481800240561_27">
+        <Coords points="120,1009 228,1012 356,998 795,991 1323,996 2349,992 2349,1042 1323,1046 795,1041 359,1048 230,1062 119,1059"/>
+        <Baseline points="119,1054 230,1057 359,1043 795,1036 1323,1041 2349,1037"/>
+        <TextEquiv>
+          <Unicode>feln Sie doch wieder lustig darauf los. Ich muß Sie am Eingange dieser Zeilen in¬</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1481800254911_28">
+        <Coords points="134,1101 361,1109 806,1095 1312,1097 2441,1109 2441,1159 1312,1147 807,1145 361,1159 132,1151"/>
+        <Baseline points="132,1146 361,1154 807,1140 1312,1142 2441,1154"/>
+        <TextEquiv>
+          <Unicode>ständig bitten, d Sie, selbst wen Wunder u Zeichen geschehen, nicht mehr zweifeln mögen.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1481800266464_29">
+        <Coords points="102,1212 395,1195 886,1195 1592,1197 2381,1205 2381,1255 1592,1247 886,1245 396,1245 105,1262"/>
+        <Baseline points="105,1257 396,1240 886,1240 1592,1242 2381,1250"/>
+        <TextEquiv>
+          <Unicode>Es ist in der That eine Kränkung für mich, zu meinen, d ich ohne Grund meine</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1481800274701_30">
+        <Coords points="126,1310 659,1298 1334,1298 2399,1290 2399,1340 1334,1348 660,1348 127,1360"/>
+        <Baseline points="127,1355 660,1343 1334,1343 2399,1335"/>
+        <TextEquiv>
+          <Unicode>Gedanken über Sie ändern werde. Ich verschenke meine Neigung nicht leicht, fordere</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1481800285091_31">
+        <Coords points="113,1411 382,1399 1001,1383 1400,1391 2406,1371 2407,1421 1400,1441 1001,1433 384,1449 115,1461"/>
+        <Baseline points="115,1456 384,1444 1001,1428 1400,1436 2407,1416"/>
+        <TextEquiv>
+          <Unicode>sie dan aber nie mehr zurück. D ich Sie wie eine Fremde von uns wegstelle ist voll¬</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1481800309312_32">
+        <Coords points="109,1508 405,1496 884,1490 1294,1488 2425,1476 2425,1526 1294,1538 884,1540 406,1546 111,1558"/>
+        <Baseline points="111,1553 406,1541 884,1535 1294,1533 2425,1521"/>
+        <TextEquiv>
+          <Unicode>ständig nicht wahr, es ist nur wahr, d ich Ihnen schon sehr lange nicht geschrieben</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1481800319003_33">
+        <Coords points="101,1613 427,1595 1142,1587 1647,1587 2465,1569 2466,1619 1647,1637 1142,1637 428,1645 103,1663"/>
+        <Baseline points="103,1658 428,1640 1142,1632 1647,1632 2466,1614"/>
+        <TextEquiv>
+          <Unicode>habe, u Ihren lezten Brief auch wieder 3 Wochen alt werden ließ. Das ist eine Thatsache,</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1481800331885_34">
+        <Coords points="99,1724 432,1710 1079,1694 1817,1682 2462,1659 2464,1709 1818,1732 1080,1744 434,1760 101,1774"/>
+        <Baseline points="101,1769 434,1755 1080,1739 1818,1727 2464,1704"/>
+        <TextEquiv>
+          <Unicode>die mir jezt oft begegnet, die mir nur in meiner Jugend, da ich sonst nichts zu thun hatte, als</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1481800346331_35">
+        <Coords points="96,1824 294,1824 711,1794 1277,1776 1671,1776 2457,1756 2458,1806 1672,1826 1278,1826 713,1844 296,1874 96,1874"/>
+        <Baseline points="96,1869 296,1869 713,1839 1278,1821 1672,1821 2458,1801"/>
+        <TextEquiv>
+          <Unicode>aus Büchern zu lernen u Briefe zu schreiben, nicht zustieß. Später geschah es mir sogar</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1481800356460_36">
+        <Coords points="116,1921 318,1913 688,1899 1184,1889 1892,1863 2444,1859 2444,1909 1893,1913 1185,1939 689,1949 320,1963 118,1971"/>
+        <Baseline points="118,1966 320,1958 689,1944 1185,1934 1893,1908 2444,1904"/>
+        <TextEquiv>
+          <Unicode>gegen meine über alles geliebte Mutter. Es ist bei mir ein Zeichen, d ich Leute sehr liebe</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1481800369984_37">
+        <Coords points="102,2016 627,1988 1126,1978 1324,1972 1681,1963 2177,1951 2448,1949 2448,1999 2178,2001 1682,2013 1325,2022 1127,2028 629,2038 104,2066"/>
+        <Baseline points="104,2061 629,2033 1127,2023 1325,2017 1682,2008 2178,1996 2448,1994"/>
+        <TextEquiv>
+          <Unicode>wen ich Ihnen schier gar nicht schreibe. Menschen, die mir gleichgültig sind, erhalten in der</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1481800384097_38">
+        <Coords points="105,2118 264,2106 699,2084 1172,2072 1539,2068 1957,2050 2463,2042 2464,2092 1958,2100 1540,2118 1173,2122 701,2134 267,2156 108,2168"/>
+        <Baseline points="108,2163 267,2151 701,2129 1173,2117 1540,2113 1958,2095 2464,2087"/>
+        <TextEquiv>
+          <Unicode>Regel sogleich eine Antwort in den wenigst möglichen Zeilen. Sie werden das sonderbar</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1481800400440_39">
+        <Coords points="86,2211 220,2205 489,2183 1050,2171 1465,2173 1966,2139 2360,2124 2491,2134 2487,2184 2359,2174 1968,2189 1466,2223 1050,2221 491,2233 223,2255 88,2261"/>
+        <Baseline points="88,2256 223,2250 491,2228 1050,2216 1466,2218 1968,2184 2359,2169 2489,2178"/>
+        <TextEquiv>
+          <Unicode>finden, aber es ist doch so begreiflich. Ich werde Ihnen ein mal den Grund mündlich auseinander¬</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1481800416946_40">
+        <Coords points="85,2298 238,2288 519,2274 906,2272 1320,2258 1596,2258 1938,2237 2489,2213 2491,2263 1940,2287 1597,2308 1321,2308 907,2322 520,2324 241,2338 88,2348"/>
+        <Baseline points="88,2343 241,2333 520,2319 907,2317 1321,2303 1597,2303 1940,2282 2491,2258"/>
+        <TextEquiv>
+          <Unicode>sezen. Hier nur so viel. Gegen liebe Personen müßte ich so genau in Briefen mein ganzes</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1481800433998_41">
+        <Coords points="94,2393 413,2366 718,2362 1254,2346 1426,2348 1831,2328 2262,2306 2468,2306 2468,2356 2263,2356 1833,2378 1427,2398 1254,2396 719,2412 415,2416 98,2443"/>
+        <Baseline points="98,2438 415,2411 719,2407 1254,2391 1427,2393 1833,2373 2263,2351 2468,2351"/>
+        <TextEquiv>
+          <Unicode>Wesen aussprechen, dazu ist Zeit u günstige Stunde nöthig, u beides ist bei mir jezt so selten,</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1481800445240_42">
+        <Coords points="86,2488 321,2475 850,2445 1566,2429 2451,2407 2452,2457 1567,2479 852,2495 324,2525 88,2538"/>
+        <Baseline points="88,2533 324,2520 852,2490 1567,2474 2452,2452"/>
+        <TextEquiv>
+          <Unicode>u so verziehen sich zu meinem eigenen Schreken Monate, ehe ich zum Briefschreiben kome,</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1481800464620_43">
+        <Coords points="86,2578 358,2564 858,2544 1161,2538 1867,2504 2356,2488 2475,2506 2471,2506 2475,2505 2486,2554 2477,2556 2472,2556 2353,2538 1869,2554 1163,2588 859,2594 360,2614 88,2628"/>
+        <Baseline points="88,2623 360,2609 859,2589 1163,2583 1869,2549 2353,2533 2472,2551 2476,2551 2485,2549"/>
+        <TextEquiv>
+          <Unicode>ja gegen Josefienes Mutter ist es schon über ein Jahr. Und zu allem dem habe ich noch als Last</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1481800480330_44">
+        <Coords points="81,2673 497,2647 744,2635 1299,2619 1484,2617 1749,2598 1932,2603 2177,2592 2418,2572 2422,2622 2180,2642 1932,2653 1750,2648 1486,2667 1300,2669 746,2685 499,2697 84,2723"/>
+        <Baseline points="84,2718 499,2692 746,2680 1300,2664 1486,2662 1750,2643 1932,2648 2180,2637 2422,2617"/>
+        <TextEquiv>
+          <Unicode>Gewissensbisse. Und doch kan ich es nicht ändern. Schweigen gegen liebe Menschen ist nicht</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1481800493483_45">
+        <Coords points="66,2768 485,2750 940,2720 1096,2722 1399,2711 1934,2687 2423,2671 2424,2721 1936,2737 1401,2761 1097,2772 941,2770 487,2800 68,2818"/>
+        <Baseline points="68,2813 487,2795 941,2765 1097,2767 1401,2756 1936,2732 2424,2716"/>
+        <TextEquiv>
+          <Unicode>lieblos, ich kan sie im Schweigen imer fort lieben, aber ihnen einen kalten lieblosen</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1481800505614_46">
+        <Coords points="76,2861 495,2843 1005,2820 1209,2820 1817,2784 2423,2770 2424,2820 1819,2834 1210,2870 1006,2870 497,2893 78,2911"/>
+        <Baseline points="78,2906 497,2888 1006,2865 1210,2865 1819,2829 2424,2815"/>
+        <TextEquiv>
+          <Unicode>gehudelten Brief schreiben ist eine lieblose Handlung gegen sie, die ich mir nicht ver¬</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1481800520404_47">
+        <Coords points="69,2972 294,2958 508,2952 800,2933 1126,2927 1614,2907 1906,2885 2242,2877 2455,2881 2454,2931 2242,2927 1908,2935 1617,2957 1127,2977 802,2983 510,3002 296,3008 72,3022"/>
+        <Baseline points="72,3017 296,3003 510,2997 815,2985 1127,2972 1617,2952 1908,2930 2242,2922 2454,2926"/>
+        <TextEquiv>
+          <Unicode>zeihen könte. So ist es. Freilich ist es viel verlangt, d Freunde wissen sollen ich liebe</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1481800536359_48">
+        <Coords points="74,3073 282,3065 626,3044 872,3030 930,3042 1224,3018 1366,3018 1776,2996 2415,2984 2416,3034 1778,3046 1367,3068 1226,3068 927,3092 869,3080 629,3094 284,3115 76,3123"/>
+        <Baseline points="76,3118 284,3110 629,3089 869,3075 927,3087 1226,3063 1367,3063 1778,3041 2416,3029"/>
+        <TextEquiv>
+          <Unicode>sie im Schweigen fort; aber doch bin ich wieder so naiv, zu glauben, d sie es wissen müssen.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1481800552009_49">
+        <Coords points="58,3171 448,3157 616,3159 784,3145 950,3145 1436,3121 2021,3103 2301,3091 2429,3105 2423,3155 2299,3141 2023,3153 1438,3171 951,3195 786,3195 618,3209 449,3207 60,3221"/>
+        <Baseline points="60,3216 449,3202 618,3204 786,3190 951,3190 1438,3166 2023,3148 2299,3136 2423,3151"/>
+        <TextEquiv>
+          <Unicode>Mir der Unmöglichkeit einer Änderung einfach bewußt, ist mir, das sei allen anderen auch klar,</Unicode>
+        </TextEquiv>
+      </TextLine>
+    </TextRegion>
+  </Page>
+</PcGts>

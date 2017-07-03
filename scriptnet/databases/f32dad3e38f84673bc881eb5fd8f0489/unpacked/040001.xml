@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+  <Metadata>
+    <Creator>htrsh_pagexml_create</Creator>
+    <Created>2017-01-30T12:23:00</Created>
+    <LastChange>2017-02-16T16:43:15.555+01:00</LastChange>
+  </Metadata>
+  <Page imageFilename="040001.jpg" imageWidth="1206" imageHeight="1440">
+    <ReadingOrder>
+      <OrderedGroup id="ro_1487259795653" caption="Regions reading order">
+        <RegionRefIndexed index="0" regionRef="TextRegion_1487259733315_83"/>
+        <RegionRefIndexed index="1" regionRef="TextRegion_1487259733314_82"/>
+      </OrderedGroup>
+    </ReadingOrder>
+    <TextRegion id="TextRegion_1487259733315_83">
+      <Coords points="1147,76 754,76 754,11 1147,11"/>
+      <TextLine id="line_1486551473445_44">
+        <Coords points="765,12 1127,2 1128,52 766,62"/>
+        <Baseline points="766,57 1128,47"/>
+        <TextEquiv>
+          <Unicode>Basel, den 1 Decembr. 37.</Unicode>
+        </TextEquiv>
+      </TextLine>
+    </TextRegion>
+    <TextRegion id="TextRegion_1487259733314_82">
+      <Coords points="1182,1394 18,1394 18,103 1182,103"/>
+      <TextLine id="line_1486551484371_45">
+        <Coords points="205,113 581,119 580,169 204,163"/>
+        <Baseline points="204,158 580,164"/>
+        <TextEquiv>
+          <Unicode>Mein theurer Alfred!</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486551512745_46">
+        <Coords points="51,151 1097,169 1096,219 50,201"/>
+        <Baseline points="50,196 1096,214"/>
+        <TextEquiv>
+          <Unicode>Es wird mir gewiß recht schwer auf deinen lieben, mir ewig unvergeßlichen Brief zu</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486551522585_47">
+        <Coords points="54,192 1124,204 1123,254 53,242"/>
+        <Baseline points="53,237 1123,249"/>
+        <TextEquiv>
+          <Unicode>antworten; was ich gerne sagen möchte, muß ich in die Brust zurückdrängen, um männlich</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486551558818_49">
+        <Coords points="43,224 856,243 1117,241 1117,291 856,293 42,274"/>
+        <Baseline points="42,269 855,287 1117,286"/>
+        <TextEquiv>
+          <Unicode>denkend &amp;amp;. fühlend vor dir zu erscheinen. Nur den einen Wunsch, die eine tröstende</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486551598383_50">
+        <Coords points="46,265 804,279 1125,276 1125,326 804,329 45,315"/>
+        <Baseline points="45,310 804,324 1125,321"/>
+        <TextEquiv>
+          <Unicode>Hoffnung kann ich nicht unterdrücken: im Leben das darstellen, das durch Thatkraft aus-</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486551613539_51">
+        <Coords points="52,307 1126,318 1126,368 52,357"/>
+        <Baseline points="52,352 1126,363"/>
+        <TextEquiv>
+          <Unicode>drücken zu können, was sich so mächtig im Innern für dich reget. Schon als Knabe schien es</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486551643647_53">
+        <Coords points="55,348 1144,359 1144,409 55,398"/>
+        <Baseline points="55,393 1144,404"/>
+        <TextEquiv>
+          <Unicode>mir ein schöner Tod zu sein, für den Freund zu sterben, &amp;amp;. jener Spruch unseres Herren:</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486551650491_54">
+        <Coords points="55,388 1136,402 1135,452 54,438"/>
+        <Baseline points="54,433 1135,447"/>
+        <TextEquiv>
+          <Unicode>«Niemand zeigt größere Liebe, als wenn er sein Leben lässet für seine Freunde», machte</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486551664892_55">
+        <Coords points="48,428 877,444 1150,440 1151,490 877,494 47,478"/>
+        <Baseline points="47,473 877,489 1151,485"/>
+        <TextEquiv>
+          <Unicode>stets einen tiefen Eindruck auf mich. Wie vieles liegt in diesen Worten! Wie herrlich, göttlich,</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486551671869_56">
+        <Coords points="52,476 1126,487 1126,537 52,526"/>
+        <Baseline points="52,521 1126,532"/>
+        <TextEquiv>
+          <Unicode>muß das Gemüth sein, welches solche Liebe auch ausübte. – Diesen &amp;amp;. keinen andern</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486551682286_57">
+        <Coords points="56,516 752,530 1161,528 1161,578 752,580 55,566"/>
+        <Baseline points="55,561 752,575 1161,573"/>
+        <TextEquiv>
+          <Unicode>Maaßstab mag ich anerkennen für innige, wahre Liebe, und um so eher, als ich nur dann</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486551714936_58">
+        <Coords points="42,559 739,575 1128,574 1128,624 739,625 41,609"/>
+        <Baseline points="41,604 739,620 1128,619"/>
+        <TextEquiv>
+          <Unicode>das Leben würdig zu schätzen erachte, wenn ich einst geschickt sein werde, es jeden Augenblick</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486551737161_59">
+        <Coords points="44,605 1171,622 1170,672 43,655"/>
+        <Baseline points="43,650 1170,667"/>
+        <TextEquiv>
+          <Unicode>für das Gute &amp;amp;. Wahre zu opfern. Aber wenn jene Worte nur die Grenze bezeichnen unserer</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486551742948_60">
+        <Coords points="48,650 1157,666 1156,716 47,700"/>
+        <Baseline points="47,695 1156,711"/>
+        <TextEquiv>
+          <Unicode>Liebe als That, wie vieles liegt innerhalb derselben, wie vieles zwischen Selbstaufopferung</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486551749152_61">
+        <Coords points="44,692 1134,704 1134,754 44,742"/>
+        <Baseline points="44,737 1134,749"/>
+        <TextEquiv>
+          <Unicode>im Streben &amp;amp;. zwischen Liebe als bloßes Gefühl. Und das Vaterland, das alles, was uns</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486551756119_62">
+        <Coords points="46,732 1115,744 1114,794 45,782"/>
+        <Baseline points="45,777 1114,789"/>
+        <TextEquiv>
+          <Unicode>theuer ist, umschließt, verdient es etwa weniger Liebe, als der einzelne Freund? es</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486551806805_63">
+        <Coords points="55,777 1113,788 1113,838 55,827"/>
+        <Baseline points="55,822 1113,833"/>
+        <TextEquiv>
+          <Unicode>fordert aber nur von wenigen jenes größte Opfer, aber selbst den kleinsten sucht</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486551814055_64">
+        <Coords points="48,823 1150,830 1150,880 48,873"/>
+        <Baseline points="48,868 1150,875"/>
+        <TextEquiv>
+          <Unicode>man sich zu entziehen. – Welche Freundschaft!? Welche Vaterlandsliebe!? O, diese heiligen</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486551822714_65">
+        <Coords points="48,866 1118,874 1118,924 48,916"/>
+        <Baseline points="48,911 1118,919"/>
+        <TextEquiv>
+          <Unicode>süßen Worte erfahren so unwürdigen, traurigen Mißbrauch. Von wem werden</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486551844749_66">
+        <Coords points="49,914 648,919 1122,911 1123,961 648,969 49,964"/>
+        <Baseline points="49,959 648,964 1123,956"/>
+        <TextEquiv>
+          <Unicode>sie gemißbraucht, etwa nur von Ungebildeten. Ich zweifle. Wenn aber Gebildete</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486551857305_67">
+        <Coords points="43,959 776,964 1123,954 1124,1004 776,1014 43,1009"/>
+        <Baseline points="43,1004 776,1009 1124,999"/>
+        <TextEquiv>
+          <Unicode>bloß ihr Inneres zu zergliedern, das Gemüth allein in vielfache Eigenschaften</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486551869367_68">
+        <Coords points="51,1004 662,1010 1115,1000 1116,1050 662,1060 51,1054"/>
+        <Baseline points="51,1049 662,1055 1116,1045"/>
+        <TextEquiv>
+          <Unicode>zu spalten wissen, wenn, was sie Liebe nennen, bloß als künstlich entwickeltes</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486551884903_69">
+        <Coords points="50,1049 787,1055 1137,1047 1138,1097 787,1105 50,1099"/>
+        <Baseline points="50,1094 787,1100 1138,1092"/>
+        <TextEquiv>
+          <Unicode>und gebildetes Bewußtsein sich ohne Herzensgrundlage in ihnen findet, wenn sie nicht</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486551901496_70">
+        <Coords points="45,1096 642,1102 1147,1097 1147,1147 642,1152 45,1146"/>
+        <Baseline points="45,1141 642,1147 1147,1142"/>
+        <TextEquiv>
+          <Unicode>edler handeln und großherziger als Ungebildete, sind sie nicht viel selbstsüchtiger, ver-</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486551913512_71">
+        <Coords points="49,1140 638,1146 1121,1140 1122,1190 638,1196 49,1190"/>
+        <Baseline points="49,1185 638,1191 1122,1185"/>
+        <TextEquiv>
+          <Unicode>achtungswürdiger als diese, die nicht wissen, warum sie lieben, warum sie fühlen, &amp;amp;.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486551927005_72">
+        <Coords points="51,1184 587,1191 1123,1183 1124,1233 587,1241 50,1234"/>
+        <Baseline points="50,1229 587,1236 1124,1228"/>
+        <TextEquiv>
+          <Unicode>doch der Liebe Werke thun. Wer arbeitet, sei er Laie od. Nicht-Laie, ohne daß</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486551938292_73">
+        <Coords points="48,1230 559,1239 1172,1221 1173,1271 559,1289 47,1280"/>
+        <Baseline points="47,1275 559,1284 1173,1266"/>
+        <TextEquiv>
+          <Unicode>irgend eine höhere Idee ihm vorschwebt &amp;amp;. ihn belebt, den halte ich nicht für Freundschaft</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486551948123_74">
+        <Coords points="40,1280 985,1276 1123,1264 1127,1314 987,1326 40,1330"/>
+        <Baseline points="40,1325 987,1321 1127,1309"/>
+        <TextEquiv>
+          <Unicode>fähig im edlen Sinne des Wortes, aber alle möchte ich Freunde nennen, &amp;amp;. sind es</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486551969853_75">
+        <Coords points="44,1326 967,1317 1155,1301 1159,1351 969,1367 44,1376"/>
+        <Baseline points="44,1371 969,1362 1159,1346"/>
+        <TextEquiv>
+          <Unicode>auch, ob sie auch Sternenweite trennte, welche etwas Höheres kennen, als sich selbst.</Unicode>
+        </TextEquiv>
+      </TextLine>
+    </TextRegion>
+  </Page>
+</PcGts>

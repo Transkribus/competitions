@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+  <Metadata>
+    <Creator>TRP</Creator>
+    <Created>2016-12-22T15:34:48.022+01:00</Created>
+    <LastChange>2017-01-04T16:03:49.065+01:00</LastChange>
+  </Metadata>
+  <Page imageFilename="040043.jpg" imageWidth="1708" imageHeight="2640">
+    <ReadingOrder>
+      <OrderedGroup id="ro_1483542229102" caption="Regions reading order">
+        <RegionRefIndexed index="0" regionRef="region_1483534142878_73"/>
+        <RegionRefIndexed index="1" regionRef="region_1483534146428_74"/>
+        <RegionRefIndexed index="2" regionRef="region_1483534259962_78"/>
+        <RegionRefIndexed index="3" regionRef="region_1483534269650_79"/>
+      </OrderedGroup>
+    </ReadingOrder>
+    <TextRegion type="page-number" id="region_1483534142878_73">
+      <Coords points="1562,36 1642,36 1642,101 1562,101"/>
+      <TextLine id="line_1483534161162_75">
+        <Coords points="1565,47 1631,42 1634,92 1568,97"/>
+        <Baseline points="1568,92 1634,87"/>
+        <TextEquiv>
+          <Unicode>14</Unicode>
+        </TextEquiv>
+      </TextLine>
+    </TextRegion>
+    <TextRegion id="region_1483534146428_74">
+      <Coords points="860,26 1658,26 1658,183 860,183"/>
+      <TextLine id="line_1483534181447_76">
+        <Coords points="879,83 1076,98 1278,101 1479,104 1638,112 1636,162 1478,154 1277,151 1074,148 876,133"/>
+        <Baseline points="876,128 1074,143 1277,146 1478,149 1637,159"/>
+        <TextEquiv>
+          <Unicode>Münster den 27ten Maerz 1856</Unicode>
+        </TextEquiv>
+      </TextLine>
+    </TextRegion>
+    <TextRegion id="region_1483534259962_78">
+      <Coords points="428,234 1383,234 1383,410 428,410"/>
+      <TextLine id="line_1483534283057_80">
+        <Coords points="448,300 627,313 839,315 1002,322 1200,328 1370,328 1370,378 1199,378 1000,372 838,365 625,363 445,350"/>
+        <Baseline points="445,345 625,358 838,360 1000,367 1199,373 1370,373"/>
+        <TextEquiv>
+          <Unicode>Hochverehrtester Herr Geheim Rath</Unicode>
+        </TextEquiv>
+      </TextLine>
+    </TextRegion>
+    <TextRegion id="region_1483534269650_79">
+      <Coords points="209,623 1666,623 1666,2434 209,2434"/>
+      <TextLine id="line_1483534310526_81">
+        <Coords points="258,691 392,699 774,714 1182,732 1645,739 1644,789 1181,782 772,764 390,749 255,741"/>
+        <Baseline points="255,736 390,744 772,759 1181,777 1644,784"/>
+        <TextEquiv>
+          <Unicode>Indem ich Ihrem Wunsche gemäß, Ihnen beifolgend:</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1483534318237_82">
+        <Coords points="406,844 942,867 1658,879 1657,929 941,917 404,894"/>
+        <Baseline points="404,889 941,912 1657,924"/>
+        <TextEquiv>
+          <Unicode>1, den Text des Chron. Marbacense, mit dem Facsimile,</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1483534329577_83">
+        <Coords points="405,936 638,953 781,946 908,959 1091,963 1328,968 1529,960 1588,975 1576,1024 1523,1010 1328,1018 1090,1013 905,1009 780,996 637,1003 402,986"/>
+        <Baseline points="402,981 637,998 780,991 905,1004 1090,1008 1328,1013 1524,1005 1577,1019"/>
+        <TextEquiv>
+          <Unicode>2, die Abschrift der Annales Bawari minores,</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1483534337830_84">
+        <Coords points="420,1019 659,1036 917,1042 1176,1047 1574,1041 1575,1091 1176,1097 916,1092 657,1086 417,1069"/>
+        <Baseline points="417,1064 657,1081 916,1087 1176,1092 1575,1086"/>
+        <TextEquiv>
+          <Unicode>3, Fickers Abschrift der Annales Iburgenses, und</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1483534347239_85">
+        <Coords points="407,1102 650,1108 1088,1120 1336,1121 1640,1124 1640,1174 1336,1171 1087,1170 649,1158 406,1152"/>
+        <Baseline points="406,1147 649,1153 1087,1165 1336,1166 1640,1169"/>
+        <TextEquiv>
+          <Unicode>4, das der Bibliothek des Vereins f. A. u G. W.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1483534353373_86">
+        <Coords points="447,1171 770,1193 1122,1204 1636,1203 1636,1253 1121,1254 768,1243 444,1221"/>
+        <Baseline points="444,1216 768,1238 1121,1249 1636,1248"/>
+        <TextEquiv>
+          <Unicode>gehörige Original der Annales Iburgenses, zwei</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1483534359460_87">
+        <Coords points="447,1251 1134,1277 1132,1327 445,1301"/>
+        <Baseline points="445,1296 1132,1322"/>
+        <TextEquiv>
+          <Unicode>Blätter Pergament. folio.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1483534374553_88">
+        <Coords points="278,1357 557,1369 653,1362 1043,1375 1644,1384 1643,1434 1042,1425 654,1412 558,1419 276,1407"/>
+        <Baseline points="276,1402 558,1414 654,1407 1042,1420 1643,1429"/>
+        <TextEquiv>
+          <Unicode>übersende, erlaube ich mir die Bemerkung, daß ich</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1483534379611_89">
+        <Coords points="555,1407 689,1410 688,1460 554,1457"/>
+        <Baseline points="554,1452 688,1455"/>
+        <TextEquiv>
+          <Unicode>Brief</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1483534386293_90">
+        <Coords points="285,1438 683,1448 1309,1463 1651,1468 1650,1518 1308,1513 682,1498 284,1488"/>
+        <Baseline points="284,1483 682,1493 1308,1508 1650,1513"/>
+        <TextEquiv>
+          <Unicode>aus Ihrem vom 14ten dieses nicht klar ersehen habe,</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1483534394585_91">
+        <Coords points="292,1514 574,1524 1029,1542 1185,1547 1463,1545 1655,1556 1652,1606 1462,1595 1184,1597 1027,1592 572,1574 290,1564"/>
+        <Baseline points="290,1559 572,1569 1027,1587 1184,1592 1462,1590 1652,1601"/>
+        <TextEquiv>
+          <Unicode>ob Sie das Chron. Marbacense und die Annales Iburgenses</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1483534401526_92">
+        <Coords points="287,1583 547,1595 1041,1614 1648,1627 1647,1677 1040,1664 545,1645 285,1633"/>
+        <Baseline points="285,1628 545,1640 1040,1659 1647,1672"/>
+        <TextEquiv>
+          <Unicode>selbst herauszugeben beabsichtigen, oder, wie ich bis¬</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1483534410404_93">
+        <Coords points="282,1664 386,1671 601,1671 899,1684 1466,1698 1637,1693 1638,1743 1466,1748 897,1734 600,1721 385,1721 279,1714"/>
+        <Baseline points="279,1709 385,1716 600,1716 897,1729 1466,1743 1638,1738"/>
+        <TextEquiv>
+          <Unicode>her glaubte annehmen zu dürfen, mir die Bear¬</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1483534421216_94">
+        <Coords points="283,1747 497,1753 567,1748 692,1762 907,1764 1162,1773 1650,1784 1649,1834 1161,1823 906,1814 689,1812 566,1798 498,1803 282,1797"/>
+        <Baseline points="282,1792 498,1798 566,1793 689,1807 906,1809 1161,1818 1649,1829"/>
+        <TextEquiv>
+          <Unicode>beitung dieser beiden Quellen überlassen wollen.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1483534428070_95">
+        <Coords points="262,1825 742,1843 1625,1867 1624,1917 741,1893 260,1875"/>
+        <Baseline points="260,1870 741,1888 1624,1912"/>
+        <TextEquiv>
+          <Unicode>Wäre die erstere Voraussetzung begründet, so</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1483534433882_96">
+        <Coords points="275,1896 895,1924 1652,1942 1651,1992 893,1974 273,1946"/>
+        <Baseline points="273,1941 893,1969 1651,1987"/>
+        <TextEquiv>
+          <Unicode>würde ich mich hierdurch beeinträchtigt halten müs¬</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1483534443717_97">
+        <Coords points="259,1978 554,1994 571,1987 1068,2001 1651,2029 1649,2079 1066,2051 580,2036 562,2043 257,2028"/>
+        <Baseline points="257,2023 561,2038 579,2031 1066,2046 1649,2074"/>
+        <TextEquiv>
+          <Unicode>sen. Das Chron. Marbacense, so wie seinen histori¬</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1483534450504_98">
+        <Coords points="233,2062 693,2078 1617,2099 1616,2149 692,2128 231,2112"/>
+        <Baseline points="231,2107 692,2123 1616,2144"/>
+        <TextEquiv>
+          <Unicode>schen Werth und seine Verschiedenheit vom Fragm.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1483534459114_99">
+        <Coords points="237,2152 412,2157 574,2154 963,2167 1632,2181 1631,2231 962,2217 574,2204 412,2207 236,2202"/>
+        <Baseline points="236,2197 412,2202 574,2199 962,2212 1631,2226"/>
+        <TextEquiv>
+          <Unicode>histor. bei Urstis. II. 74 habe ich gleichzeitig mit</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1483534468078_100">
+        <Coords points="257,2231 471,2238 844,2245 1477,2263 1647,2273 1644,2323 1475,2313 843,2295 470,2288 256,2281"/>
+        <Baseline points="256,2276 470,2283 843,2290 1475,2308 1644,2318"/>
+        <TextEquiv>
+          <Unicode>Böhmer entdeckt, die seine Abfassung betreffenden</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1483534477915_101">
+        <Coords points="247,2315 673,2329 823,2336 1296,2344 1560,2346 1653,2361 1645,2410 1556,2396 1295,2394 822,2386 671,2379 246,2365"/>
+        <Baseline points="246,2360 671,2374 822,2381 1295,2389 1556,2391 1646,2405"/>
+        <TextEquiv>
+          <Unicode>kritischen Fragen im Archiv XI. p. 115 erörtert und</Unicode>
+        </TextEquiv>
+      </TextLine>
+    </TextRegion>
+  </Page>
+</PcGts>

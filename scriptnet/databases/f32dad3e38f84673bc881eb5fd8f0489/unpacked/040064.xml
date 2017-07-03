@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+  <Metadata>
+    <Creator>TRP</Creator>
+    <Created>2016-12-14T16:10:36.695+01:00</Created>
+    <LastChange>2016-12-15T12:07:26.133+01:00</LastChange>
+  </Metadata>
+  <Page imageFilename="040064.jpg" imageWidth="2876" imageHeight="3781">
+    <ReadingOrder>
+      <OrderedGroup id="ro_1481800045786" caption="Regions reading order">
+        <RegionRefIndexed index="0" regionRef="region_1481799038664_1"/>
+        <RegionRefIndexed index="1" regionRef="region_1481799051047_2"/>
+      </OrderedGroup>
+    </ReadingOrder>
+    <TextRegion id="region_1481799038664_1">
+      <Coords points="834,1003 2190,1003 2190,1247 834,1247"/>
+      <TextLine id="line_1481799070184_3">
+        <Coords points="891,1088 1954,1094 2152,1127 2144,1176 1950,1144 891,1138"/>
+        <Baseline points="891,1133 1950,1139 2145,1171"/>
+        <TextEquiv>
+          <Unicode>Euer Wohlgeboren!</Unicode>
+        </TextEquiv>
+      </TextLine>
+    </TextRegion>
+    <TextRegion id="region_1481799051047_2">
+      <Coords points="314,1416 2819,1416 2819,3203 314,3203"/>
+      <TextLine id="line_1481799104700_4">
+        <Coords points="462,1542 991,1538 1710,1546 2738,1554 2738,1604 1710,1596 991,1588 462,1592"/>
+        <Baseline points="462,1587 991,1583 1710,1591 2738,1599"/>
+        <TextEquiv>
+          <Unicode>Ich muß sehr bedauern, dß meine Zeit</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1481799114653_5">
+        <Coords points="538,1665 1397,1661 2076,1663 2660,1665 2660,1715 2076,1713 1397,1711 538,1715"/>
+        <Baseline points="538,1710 1397,1706 2076,1708 2660,1710"/>
+        <TextEquiv>
+          <Unicode>mir unmöglich gestattet, Vereins¬</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1481799123122_6">
+        <Coords points="439,1779 1206,1767 1703,1769 2228,1787 2746,1789 2746,1839 2227,1837 1702,1819 1206,1817 440,1829"/>
+        <Baseline points="440,1824 1206,1812 1702,1814 2227,1832 2746,1834"/>
+        <TextEquiv>
+          <Unicode>zwecke besorgen zu können. Kaum</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1481799132607_7">
+        <Coords points="416,1904 983,1884 1269,1888 1743,1892 2774,1888 2774,1938 1743,1942 1268,1938 983,1934 418,1954"/>
+        <Baseline points="418,1949 983,1929 1268,1933 1743,1937 2774,1933"/>
+        <TextEquiv>
+          <Unicode>kann ich componiren aus Mangel an</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1481799142232_8">
+        <Coords points="442,2000 918,2002 1457,2002 1996,2007 2722,2000 2722,2050 1996,2057 1457,2052 918,2052 442,2050"/>
+        <Baseline points="442,2045 918,2047 1457,2047 1996,2052 2722,2045"/>
+        <TextEquiv>
+          <Unicode>Zeit, da man mich in keiner Weise</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1481799152482_9">
+        <Coords points="435,2115 1157,2115 1877,2113 2763,2123 2762,2173 1877,2163 1157,2165 435,2165"/>
+        <Baseline points="435,2160 1157,2160 1877,2158 2762,2168"/>
+        <TextEquiv>
+          <Unicode>unterstützt. Übrigens habe ich meines</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1481799160201_10">
+        <Coords points="449,2236 875,2222 1719,2228 2725,2248 2724,2298 1718,2278 876,2272 450,2286"/>
+        <Baseline points="450,2281 876,2267 1718,2273 2724,2293"/>
+        <TextEquiv>
+          <Unicode>Wissens bis dato keine Einladung er¬</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1481799175482_11">
+        <Coords points="464,2347 865,2333 1784,2341 2643,2357 2754,2367 2814,2396 2792,2440 2741,2415 2641,2407 1783,2391 866,2383 466,2397"/>
+        <Baseline points="466,2392 866,2378 1783,2386 2641,2402 2742,2410 2794,2436"/>
+        <TextEquiv>
+          <Unicode>halten, außer Ihrem geschätzten Schreiben.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1481799184420_12">
+        <Coords points="442,2475 843,2463 1572,2461 2702,2471 2702,2521 1572,2511 844,2513 443,2525"/>
+        <Baseline points="443,2520 844,2508 1572,2506 2702,2516"/>
+        <TextEquiv>
+          <Unicode>Ich hoffe Euer Wohlgeboren werden</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1481799196670_13">
+        <Coords points="386,2592 1036,2576 1479,2564 2140,2580 2753,2590 2752,2640 2139,2630 1479,2614 1037,2626 387,2642"/>
+        <Baseline points="387,2637 1037,2621 1479,2609 2139,2625 2752,2635"/>
+        <TextEquiv>
+          <Unicode>mich entschuldigen, u meine traurigen</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1481799204170_14">
+        <Coords points="445,2699 1131,2680 1806,2695 2454,2695 2454,2745 1805,2745 1131,2730 446,2749"/>
+        <Baseline points="446,2744 1131,2725 1805,2740 2454,2740"/>
+        <TextEquiv>
+          <Unicode>Verhältnisse zu würdigen wissen.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1481799264436_15">
+        <Coords points="426,2817 1078,2799 1079,2849 427,2867"/>
+        <Baseline points="427,2862 1079,2844"/>
+        <TextEquiv>
+          <Unicode>Ergebenst</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1481799923389_20">
+        <Coords points="1723,2915 2586,2927 2743,2937 2817,2975 2794,3019 2730,2985 2584,2977 1722,2965"/>
+        <Baseline points="1722,2960 2584,2972 2731,2980 2796,3015"/>
+        <TextEquiv>
+          <Unicode>Anton Bruckner.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1481799878422_19">
+        <Coords points="389,3026 388,2976 1365,2960 1544,2940 1544,2991 1368,3010"/>
+        <Baseline points="389,3021 1350,3007"/>
+        <TextEquiv>
+          <Unicode>Wien 31. Dezember</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1481799282061_17">
+        <Coords points="610,3137 980,3123 982,3173 612,3187"/>
+        <Baseline points="612,3182 982,3168"/>
+        <TextEquiv>
+          <Unicode>1874.</Unicode>
+        </TextEquiv>
+      </TextLine>
+    </TextRegion>
+  </Page>
+</PcGts>

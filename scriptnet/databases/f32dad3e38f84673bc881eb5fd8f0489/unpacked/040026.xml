@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+    <Metadata>
+        <Creator>htrsh_pagexml_create</Creator>
+        <Created>2017-01-30T12:34:05</Created>
+        <LastChange>2017-06-30T18:45:08.838+02:00</LastChange>
+    </Metadata>
+    <Page imageFilename="040026.jpg" imageWidth="1142" imageHeight="1440">
+        <ReadingOrder>
+            <OrderedGroup id="ro_1498841109038" caption="Regions reading order">
+                <RegionRefIndexed index="0" regionRef="pg"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <TextRegion id="pg" custom="readingOrder {index:0;}">
+            <Coords points="110,138 1120,138 1120,1277 110,1277"/>
+            <TextLine id="line_1487088638066_2421" custom="readingOrder {index:0;}">
+                <Coords points="147,147 1091,149 1091,199 147,197"/>
+                <Baseline points="147,192 1091,194"/>
+                <TextEquiv>
+                    <Unicode>Herr Pioda war nämlich sehr entmuthigt – und</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1487088646158_2422" custom="readingOrder {index:1;}">
+                <Coords points="147,190 1071,188 1071,238 147,240"/>
+                <Baseline points="147,235 1071,233"/>
+                <TextEquiv>
+                    <Unicode>hatte alle möglichen Bedenken mich zu den</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1487088652446_2423" custom="readingOrder {index:2;}">
+                <Coords points="158,234 1084,229 1084,279 158,284"/>
+                <Baseline points="158,279 1084,274"/>
+                <TextEquiv>
+                    <Unicode>Ministern zu begleiten –. oder eine Audienz</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1487088657065_2424" custom="readingOrder {index:3;}">
+                <Coords points="153,274 1107,272 1107,322 153,324"/>
+                <Baseline points="153,319 1107,317"/>
+                <TextEquiv>
+                    <Unicode>für mich bei Lanza und Sella zu verlangen!</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1487088664681_2425" custom="readingOrder {index:4;}">
+                <Coords points="153,319 1114,314 1114,364 153,369"/>
+                <Baseline points="153,364 1114,359"/>
+                <TextEquiv>
+                    <Unicode>Heute hingegen glaube ich Sie versichern zu können</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1487088671645_2426" custom="readingOrder {index:5;}">
+                <Coords points="157,360 1103,357 1103,407 157,410"/>
+                <Baseline points="157,405 1103,402"/>
+                <TextEquiv>
+                    <Unicode>daß der Beschluß innerlich schon nicht mehr besteht.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1487088675282_2427" custom="readingOrder {index:6;}">
+                <Coords points="934,372 1113,378 1111,428 932,422"/>
+                <Baseline points="932,417 1111,423"/>
+                <TextEquiv>
+                    <Unicode>bestehtgeführt wird</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1487088679953_2428" custom="readingOrder {index:7;}">
+                <Coords points="155,403 1106,398 1106,448 155,453"/>
+                <Baseline points="155,448 1106,443"/>
+                <TextEquiv>
+                    <Unicode>Da kein Protocoll des Ministerraths ...</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1487088687962_2429" custom="readingOrder {index:8;}">
+                <Coords points="153,443 1114,442 1114,492 153,493"/>
+                <Baseline points="153,488 1114,487"/>
+                <TextEquiv>
+                    <Unicode>sondern die Herrn nur mündlich – über diese oder</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1487088693342_2430" custom="readingOrder {index:9;}">
+                <Coords points="160,487 1068,485 1068,535 160,537"/>
+                <Baseline points="160,532 1068,530"/>
+                <TextEquiv>
+                    <Unicode>jene Haltung übereinkommen – beinah wie</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1487088701034_2431" custom="readingOrder {index:10;}">
+                <Coords points="166,530 1103,525 1103,575 166,580"/>
+                <Baseline points="166,575 1103,570"/>
+                <TextEquiv>
+                    <Unicode>in Graubünden wo die 3 Regierenden den</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1487088708430_2432" custom="readingOrder {index:11;}">
+                <Coords points="157,573 1106,566 1106,616 157,623"/>
+                <Baseline points="157,618 1106,611"/>
+                <TextEquiv>
+                    <Unicode>Hut auf dem Kopf – dem Canzlei Director ins</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1487088722338_2433" custom="readingOrder {index:12;}">
+                <Coords points="176,613 1062,611 1111,625 1114,635 1110,687 1095,668 1058,661 176,663"/>
+                <Baseline points="176,658 1058,656 1098,664 1114,684"/>
+                <TextEquiv>
+                    <Unicode>andere Zimmer herüberrufen – was sie beschloßen –</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1487088729693_2434" custom="readingOrder {index:13;}">
+                <Coords points="404,626 473,629 471,679 402,676"/>
+                <Baseline points="402,671 471,674"/>
+                <TextEquiv>
+                    <Unicode>auch</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1487088751754_2435" custom="readingOrder {index:14;}">
+                <Coords points="159,656 1114,652 1114,702 159,706"/>
+                <Baseline points="159,701 1114,697"/>
+                <TextEquiv>
+                    <Unicode>so komt es dem italienischen Ministerium nicht</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1487088756388_2436" custom="readingOrder {index:15;}">
+                <Coords points="165,698 1108,692 1108,742 165,748"/>
+                <Baseline points="165,743 1108,737"/>
+                <TextEquiv>
+                    <Unicode>schwer an – von Beschlüßen – die der eine so – und</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1487088764078_2437" custom="readingOrder {index:16;}">
+                <Coords points="169,739 1113,739 1113,789 169,789"/>
+                <Baseline points="169,784 1113,784"/>
+                <TextEquiv>
+                    <Unicode>der andere anders – aufgefaßt hat wiederum</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1487088779328_2438" custom="readingOrder {index:17;}">
+                <Coords points="165,780 764,781 1100,776 1101,826 764,831 165,830"/>
+                <Baseline points="165,825 764,826 1101,821"/>
+                <TextEquiv>
+                    <Unicode>abzugehen – da der frühere Beschluß nirgends</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1487088786905_2439" custom="readingOrder {index:18;}">
+                <Coords points="162,823 1107,818 1107,868 162,873"/>
+                <Baseline points="162,868 1107,863"/>
+                <TextEquiv>
+                    <Unicode>fixirt ist und das «Scripta manent» daher keine</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1487088792963_2440" custom="readingOrder {index:19;}">
+                <Coords points="176,863 645,861 645,911 176,913"/>
+                <Baseline points="176,908 645,906"/>
+                <TextEquiv>
+                    <Unicode>Anwendung finden kann.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1487088806142_2441" custom="readingOrder {index:20;}">
+                <Coords points="169,906 1100,901 1100,951 169,956"/>
+                <Baseline points="169,951 1100,946"/>
+                <TextEquiv>
+                    <Unicode>Zuerst sagte mir der Director der römischen</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1487088810997_2442" custom="readingOrder {index:21;}">
+                <Coords points="160,949 1111,944 1111,994 160,999"/>
+                <Baseline points="160,994 1111,989"/>
+                <TextEquiv>
+                    <Unicode>Bahnen de Martino – «Je puis vous assurer que</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1487088817164_2443" custom="readingOrder {index:22;}">
+                <Coords points="137,988 1107,984 1107,1034 137,1038"/>
+                <Baseline points="137,1033 1107,1029"/>
+                <TextEquiv>
+                    <Unicode>Sella est disposé de revenir de l'ajournement</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1487088821393_2444" custom="readingOrder {index:23;}">
+                <Coords points="140,1032 1112,1029 1112,1079 140,1082"/>
+                <Baseline points="140,1077 1112,1074"/>
+                <TextEquiv>
+                    <Unicode>il s'est trompé, et sait que cet ajournement</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1487088829903_2445" custom="readingOrder {index:24;}">
+                <Coords points="133,1075 1096,1073 1096,1123 133,1125"/>
+                <Baseline points="133,1120 1096,1118"/>
+                <TextEquiv>
+                    <Unicode>fait un très mauvais effet; donnant lieu</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1487088834807_2446" custom="readingOrder {index:25;}">
+                <Coords points="124,1118 1102,1112 1102,1162 124,1168"/>
+                <Baseline points="124,1163 1102,1157"/>
+                <TextEquiv>
+                    <Unicode>à des interprétations très fausses – comme si</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1487088847791_2447" custom="readingOrder {index:26;}">
+                <Coords points="131,1160 1058,1160 1113,1172 1117,1193 1114,1238 1091,1216 1054,1210 131,1210"/>
+                <Baseline points="131,1205 1054,1205 1093,1212 1117,1234"/>
+                <TextEquiv>
+                    <Unicode>le ministère eut plié durant des insinuations</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1487088852189_2448" custom="readingOrder {index:27;}">
+                <Coords points="127,1199 467,1198 467,1248 127,1249"/>
+                <Baseline points="127,1244 467,1243"/>
+                <TextEquiv>
+                    <Unicode>de la France ».</Unicode>
+                </TextEquiv>
+            </TextLine>
+        </TextRegion>
+    </Page>
+</PcGts>
