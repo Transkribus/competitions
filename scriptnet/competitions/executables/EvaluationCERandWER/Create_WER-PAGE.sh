@@ -34,7 +34,7 @@ tar -xf $name
 
 for F in `find . -name "*.xml"`; do 
   n=`basename $F`;
-  $PAGEFORMAT -i $D/$2/${n/.xml/.JPG} -l ${F} -m FILE || \
+  $PAGEFORMAT -v 0 -i $D/$2/${n/.xml/.JPG} -l ${F} -m FILE > /dev/null|| \
       {
         echo "ERROR: \"page_format_tool\" with sample ${F/\.$IEXT/.JPG}" 
         cd ..; continue
@@ -64,5 +64,5 @@ $D/competitions/executables/EvaluationCERandWER/tasas /tmp/fich_results_WER_${R}
 rm -r /tmp/trans-hip_${R}
 rm -r /tmp/trans_${R}
 rm -r /tmp/Results_${R}
-rm /tmp/fich_results_${R} /tmp/fich_results_WER_${R} /tmp/fich_results_CER_${R}
+#rm /tmp/fich_results_${R} /tmp/fich_results_WER_${R} /tmp/fich_results_CER_${R}
 rm /tmp/kk_${R}
