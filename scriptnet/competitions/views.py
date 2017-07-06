@@ -298,7 +298,7 @@ def activate(request, token_id):
     else:
         user = individual.user
         dt = timezone.now() - user.date_joined
-        if dt.seconds < 3600:
+        if dt.total_seconds() < 3600:
             messages.add_message(request, messages.SUCCESS, _('User {} has been succesfully activated. Use your credentials to login and participate to competitions.').format(user.username))
             user.is_active=True
             user.save()
@@ -364,7 +364,7 @@ def submit(request, competition_id, track_id, subtrack_id):
                 if not i:
                     continue
                 dt = timezone.now() - i
-                if dt.seconds < competition.submission_restriction_in_minutes * 60:
+                if dt.total_seconds() < competition.submission_restriction_in_minutes * 60:
                     enough_time_passed = False
             if not enough_time_passed:
                 messages.add_message(request, messages.ERROR, _('You have recently submitted a method. Competition policy is at most one submission per *{} minutes*. Please re-submit at a later time.'.format(competition.submission_restriction_in_minutes)))
