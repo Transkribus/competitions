@@ -374,3 +374,36 @@ def icdar2017_writer_identification(*args, **kwargs):
     command_output = re.sub(rgx, "", command_output)
     print(result)
     return (result, command_output)
+
+
+def icdar17_BLEU_tool(*args, **kwargs):
+    print("icdar17_BLEU_tool")
+    executable_folder = '{}/competitions/executables/'\
+        'EvaluationBLEU'.format(settings.BASE_DIR)
+    resultdata = kwargs.pop('resultdata', executable_folder)
+    privatedata = kwargs.pop('privatedata',
+                             '{}/gt.zip'.format(executable_folder))
+
+    print(resultdata)
+    print(privatedata)
+
+    executable = '{}/Create_BLEU-PAGE.sh'.format(executable_folder)
+    commandline = '{} {} {}'.format(executable, resultdata, privatedata)
+    print(commandline)
+
+    command_output = cmdline(commandline)
+
+    print("output of algorithm:")
+    print(command_output)
+    print("output of algorithm: [DONE]")
+
+    rgx = r'BLEU = ([\d\.]+), .*'
+
+    r = re.search(rgx, command_output)
+    result = {
+        'BLEU':             r.group(1),
+    }
+    print(result)
+    return result
+
+
