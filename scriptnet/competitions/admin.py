@@ -28,6 +28,14 @@ class PubliclinkInline(admin.TabularInline):
 class SubtrackAdmin(admin.ModelAdmin):
     inlines = (PubliclinkInline, )
 
+class SubmissionStatusInline(admin.TabularInline):
+    model = SubmissionStatus
+    can_delete = False
+    extra = 0
+
+class SubmissionAdmin(admin.ModelAdmin):
+    inlines = (SubmissionStatusInline, )
+
 # Re-register UserAdmin
 admin.site.unregister(User)
 admin.site.register(User, UserAdmin)
@@ -36,7 +44,7 @@ admin.site.register(Affiliation)
 admin.site.register(Competition)
 admin.site.register(Track)
 admin.site.register(Subtrack, SubtrackAdmin)
-admin.site.register(Submission)
+admin.site.register(Submission, SubmissionAdmin)
 admin.site.register(Benchmark)
 admin.site.register(EvaluatorFunction)
 admin.site.register(SubmissionStatus)

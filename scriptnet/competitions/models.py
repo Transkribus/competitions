@@ -285,18 +285,30 @@ class PublicLink(models.Model):
 		return '({}) {}'.format(self.legend, self.subtrack)	
 
 class Submission(models.Model):
-    #TODO: The submission will have to be authenticated by at least one individual per submitting institution to show up on the scoreboard eventually
-	#TODO: Add a bool field that checks if the submission has been authenticated
 	name = models.SlugField(max_length = 20, null=False, blank=False, default="")
 	method_info = models.TextField(editable=True, default="")
 	publishable = models.BooleanField(default=True)
 	submitter = models.ManyToManyField(Individual)
-	#secondary_submitters = models.ManyToManyField(Individual, related_name="coworker_submission")
 	subtrack = models.ForeignKey(Subtrack, on_delete = models.CASCADE, null=True)
 	timestamp = models.DateTimeField(auto_now_add=True, null=True)
 	resultfile = models.FileField(upload_to=submission_path, null=True) #Nullable because migrations complained, but it shouldnt ever be null
 	def __str__(self):
-		return '({}) {}'.format(self.id, self.method_info)
+		submitter_str = '';
+		for k in self.submitter.all():
+			submitter_str += k.user.username + ' '
+		return '[{}/{}/{}/{}] ({}/{}) [{}] [{}...] [{}/{}/{}]'.format(
+			submitter_str,
+			self.subtrack.track.competition.id,			
+			self.subtrack.track.percomp_uniqueid,
+			self.subtrack.pertrack_uniqueid,
+			self.id,
+			self.name, 
+			self.timestamp, 
+			self.method_info[0:40],
+			self.subtrack.track.competition.name[0:20],
+			self.subtrack.track.name[0:20],
+			self.subtrack.name[0:20]
+		)
 
 class EvaluatorFunction(models.Model):
 	# The name of the callable 'evaluator' function is identical to the 'name' field of this model
