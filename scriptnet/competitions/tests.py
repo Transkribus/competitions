@@ -8,7 +8,7 @@ from .models import Affiliation, Competition, Individual
 from .models import Track, Subtrack
 
 from .evaluators import cmdline
-from .evaluators import icfhr14_kws_tool, transkribusBaseLineMetricTool, transkribusErrorRate, icfhr16_HTR_tool, icdar2017_writer_identification
+from .evaluators import icfhr14_kws_tool, transkribusBaseLineMetricTool, transkribusErrorRate, icfhr16_HTR_tool, icdar2017_writer_identification, icdar2017_kws_tool
 
 def create_new_user():
     user = User.objects.create_user(
@@ -369,6 +369,18 @@ class EvaluatorTests(TestCase):
             }
 
         )
+    def test_icdar2017_kws_tool(self):
+        # Generic test
+        wdir = 'competitions/executables/Icdar17KwsEval'
+        res = icdar2017_kws_tool()
+        self.assertEqual(res, {'gAP': 0.00058712, 'mAP': 0.000426333})
+        # Wrong submission format
+        res = icdar2017_kws_tool(
+            resultdata  = '%s/QbS_ValidGT.txt' % wdir,
+            privatedata = '%s/QbS_ValidGT.txt' % wdir,
+            querylist   = '%s/QbS_ValidQry.txt' % wdir)
+        self.assertEqual(res, {'gAP' : None, 'mAP' : None})
+
 
 class EvaluatorTests_HTR2016(TestCase):
     def test_htr2016_dependencies(self):
@@ -381,7 +393,7 @@ class EvaluatorTests_HTR2016(TestCase):
                                 resultdata='competitions/executables/EvaluationCERandWER/fixtures/RWTH_smaller.tar')
         print(res)
         self.assertEqual(res, {
-            'CER': '4.12', 
+            'CER': '4.12',
             'WER': '14.86',
         })
 

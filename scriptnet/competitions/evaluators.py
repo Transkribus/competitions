@@ -8,7 +8,7 @@ from django.core.mail import send_mail, EmailMessage
 from random import random
 from time import sleep
 from os import listdir, makedirs, remove
-from os.path import splitext, isdir, join, abspath, normpath, basename
+from os.path import splitext, isdir, isfile, join, abspath, normpath, basename
 from shutil import copyfile, rmtree
 from subprocess import PIPE, Popen
 from uuid import uuid4
@@ -375,6 +375,50 @@ def icdar2017_writer_identification(*args, **kwargs):
     print(result)
     return (result, command_output)
 
+def icdar2017_kws_tool(*args, **kwargs):
+    print("==== icdar2017_kws_tool ====")
+    executable_folder = \
+        '{}/competitions/executables/Icdar17KwsEval'.format(settings.BASE_DIR)
+    resultdata = kwargs.pop('resultdata',
+                            '{}/QbS_ValidExample.txt'.format(executable_folder))
+    privatedata = kwargs.pop('privatedata',
+                             '{}/QbS_ValidGT.txt'.format(executable_folder))
+    print(resultdata)
+    print(privatedata)
+    executable = '{}/Icdar17KwsEval'.format(executable_folder)
+
+    if isdir(privatedata):
+        gt      = '%s/gt.txt' % privatedata
+        qset    = '%s/keywords.txt' % privatedata
+        qgroups = '%s/groups.txt' % privatedata
+
+        if not isfile(gt):
+            return None
+        elif isfile(qset):
+            print('Query-by-String Track')
+            commandline = '{} --query_set {} {} {}'\
+                          .format(executable, qset, gt, resultdata)
+        elif isfile(qgroups):
+            print('Query-by-Example Track')
+            commandline = '{} --query_groups {} {} {}'\
+                          .format(executable, qgroups, gt, resultdata)
+        else:
+            commandline = '{} {} {}'.format(executable, gt, resultdata)
+    else:
+        commandline = '{} {} {}'.format(executable, privatedata, resultdata)
+
+    print(commandline)
+    command_output = cmdline(commandline)
+
+    r = re.search(r'gAP = (\S+)', command_output)
+    gAP = float(r.group(1)) if r else None
+
+    r = re.search(r'mAP = (\S+)', command_output)
+    mAP = float(r.group(1)) if r else None
+
+    result = { 'gAP' : gAP, 'mAP' : mAP }
+    print(result)
+    return result
 
 def icdar17_BLEU_tool(*args, **kwargs):
     print("icdar17_BLEU_tool")
@@ -405,5 +449,3 @@ def icdar17_BLEU_tool(*args, **kwargs):
     }
     print(result)
     return result
-
-
