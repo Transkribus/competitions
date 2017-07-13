@@ -48,14 +48,14 @@ for file in /tmp/ref_${R}/*xml; do
    n=`basename ${file/.xml/}`; 
    for i in /tmp/ref_${R}/${n}*txt; do 
 	cat $i;
-   done | sed 's/\([.,:;]\)/ \1/g' >> /tmp/ref_${R}/reference.txt;
+   done | sed 's/\([.,:;]\)/ \1/g' | sed 's/\&amp/\&/g'  >> /tmp/ref_${R}/reference.txt;
    echo "" >> /tmp/ref_${R}/reference.txt;
 
 
    if [ -e /tmp/Results_${R}/${n}.xml ] ; then 
 	for j in /tmp/hip_${R}/${n}*txt; do 
-	        cat $j;
-   	done | sed 's/\([.,:;]\)/ \1/g' >> /tmp/hip_${R}/hipotesis.txt;
+             awk '{printf $0" "}' $j;
+   	done | sed 's/\([.,:;]\)/ \1/g' | sed 's/\&amp/\&/g' >> /tmp/hip_${R}/hipotesis.txt;
         echo "" >> /tmp/hip_${R}/hipotesis.txt
    else
 	echo "" >> /tmp/hip_${R}/hipotesis.txt;
