@@ -31,6 +31,10 @@ cd /tmp/Results_${R}
 name=`basename $1`
 tar -xf $name
 
+for F in `find . -name "*.xml"`; do
+ mv $F /tmp/Results_${R} > /dev/null 2>&1
+done
+
 
 for F in `find . -name "*.xml"`; do 
   n=`basename $F`;
@@ -47,14 +51,14 @@ cd ..
 for file in /tmp/ref_${R}/*xml; do 
    n=`basename ${file/.xml/}`; 
    for i in /tmp/ref_${R}/${n}*txt; do 
-	cat $i;
+        awk '{printf("%s ",$0)}' $i;
    done | sed 's/\([.,:;]\)/ \1/g' | sed 's/\&amp/\&/g'  >> /tmp/ref_${R}/reference.txt;
    echo "" >> /tmp/ref_${R}/reference.txt;
 
 
    if [ -e /tmp/Results_${R}/${n}.xml ] ; then 
 	for j in /tmp/hip_${R}/${n}*txt; do 
-             awk '{printf $0" "}' $j;
+             if [ -e $j ]; then awk '{printf("%s ",$0)}' $j; fi
    	done | sed 's/\([.,:;]\)/ \1/g' | sed 's/\&amp/\&/g' >> /tmp/hip_${R}/hipotesis.txt;
         echo "" >> /tmp/hip_${R}/hipotesis.txt
    else
