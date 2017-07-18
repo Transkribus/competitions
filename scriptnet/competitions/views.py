@@ -466,7 +466,7 @@ def viewresults(request, competition_id, track_id, subtrack_id):
         if not s.publishable:
             if not request.user.is_authenticated():
                 continue
-            if request.user.individual in competition.organizer_set.all() or request.user.is_superuser: 
+            if request.user.is_superuser: 
                 pass
             elif not request.user.individual in s.submitter.all():
                 continue
