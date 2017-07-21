@@ -72,6 +72,7 @@ def evaluate(writer, result_file, pages_per_writer):
 
     soft_count = [0] * len(writer)
     hard_count = [0] * len(writer)
+    perc_count = [0] * len(writer)
 
     average_precision = []
     line_count = 0
@@ -86,7 +87,7 @@ def evaluate(writer, result_file, pages_per_writer):
         if ref_page not in writer:
             print('filename \"' + ref_page + '\" unkown')
             logger.error('filename \"' + ref_page + '\" unkown')
-            return 0, 0, 0, 0
+            return 0, 0, 0, 0, 0
 
         ref_writer = writer[ref_page]
         logger.debug("ref_writer:" + ref_writer + " ref_page:" + ref_page)
@@ -106,12 +107,13 @@ def evaluate(writer, result_file, pages_per_writer):
             if i_true == i_count:
                 if i_count < len(hard_count):
                     hard_count[i_count] += 1
-
+            if i_count < len(perc_count):
+                perc_count[i_count] += i_true
         # +1 because reference page is not counted
         if i_count + 1 != len(writer):
-            print('line %d only contains %d pages, instead of %d' % (line_count, i_count + 1, len(writer)))
-            logger.error('line %d only contains %d pages, instead of %d' % (line_count, i_count + 1, len(writer)))
-            return 0, 0, 0, 0
+            print('line %d contains %d pages, instead of %d' % (line_count, i_count + 1, len(writer)))
+            logger.error('line %d contains %d pages, instead of %d' % (line_count, i_count + 1, len(writer)))
+            return 0, 0, 0, 0, 0
 
         page_count = page_count + 1
         if i_true != 0:
@@ -122,17 +124,23 @@ def evaluate(writer, result_file, pages_per_writer):
     file.close()
     soft_eval = [x / len(writer) for x in soft_count]
     hard_eval = [x / len(writer) for x in hard_count]
+    perc_eval = [0] * len(writer)
+    for i,p in enumerate(perc_count):
+        if i == 0:
+            continue
+        perc_eval[i] = p / (len(writer) * i)
+
     if line_count != len(writer):
         print('result file does not the correct line number (lines in result file: %d, lines in GT: %d' % (
             line_count, len(writer)))
         logger.error('result file does not the correct line number (lines in result file: %d, lines in GT: %d' % (
             line_count, len(writer)))
-        return 0,0
+        return 0, 0, 0, 0, 0
     logger.debug("top1_count:" + str(top1_count))
     logger.debug("page_count:" + str(page_count))
     prec = float(top1_count)/len(writer)
     mean_ap = float(sum(average_precision))/float(len(writer))
-    return prec, mean_ap, soft_eval, hard_eval
+    return prec, mean_ap, soft_eval, hard_eval, perc_eval
 
 if __name__ == "__main__":
     import argparse
@@ -183,7 +191,10 @@ if __name__ == "__main__":
                 fzip.extract(files_in_zip[0], tmp_dir)
                 res_file = os.path.join(tmp_dir, files_in_zip[0])
 
-        precision, meanap, soft, hard = evaluate(cur_writer, res_file, writer_pages)
+        precision, meanap, soft, hard, perc = evaluate(cur_writer, res_file, writer_pages)
+        print('%.6f' % precision)
+        print('%.6f' % meanap)
+
         logger.info("precision:" + str(precision))
         logger.info("map:" + str(meanap))
 
@@ -208,7 +219,15 @@ if __name__ == "__main__":
             logger.info(out_str1)
             logger.info(out_str2)
 
-        print('%.6f' % precision)
-        print('%.6f' % meanap)
+            perc_output = [2, 3, 4]
+            out_str1 = ''
+            out_str2 = ''
+            for s in perc_output:
+                out_str1 += 'Top %d\t' % s
+                out_str2 += '%.3f\t' % perc[s]
+            logger.info('perc evaluation')
+            logger.info(out_str1)
+            logger.info(out_str2)
+
         if zipfile.is_zipfile(args.resultfile):
             shutil.rmtree(tmp_dir)
