@@ -101,9 +101,11 @@ def evaluate(writer, result_file, pages_per_writer):
                 i_true = i_true + 1
                 cur_sum = cur_sum + float(i_true)/i_count
             if i_true > 0:
-                soft_count[i_count] += 1
+                if i_count < len(soft_count):
+                    soft_count[i_count] += 1
             if i_true == i_count:
-                hard_count[i_count] += 1
+                if i_count < len(hard_count):
+                    hard_count[i_count] += 1
 
         # +1 because reference page is not counted
         if i_count + 1 != len(writer):
