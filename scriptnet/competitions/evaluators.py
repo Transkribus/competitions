@@ -447,6 +447,5 @@ def icdar17_BLEU_tool(*args, **kwargs):
     result = {
         'BLEU':             r.group(1),
     }
-    command_output = re.sub(rgx, "", command_output)
     print(result)
-    return (result, command_output)
+    return result
