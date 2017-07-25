@@ -381,7 +381,6 @@ class EvaluatorTests(TestCase):
             querylist   = '%s/QbS_ValidQry.txt' % wdir)
         self.assertEqual(res, {'gAP' : None, 'mAP' : None})
 
-
 class EvaluatorTests_HTR2016(TestCase):
     def test_htr2016_dependencies(self):
         self.assertIn('hello', cmdline('echo hello | ascii2uni') )

@@ -24,40 +24,60 @@ logging.basicConfig(level=logging.INFO, format=OUTPUT_NAME +
 logger = logging.getLogger()
 
 
-def parseGTFile(gtfile):
+def parse_gt_file(file):
     import re
 
-    file = open(gtfile, "r")
+    file = open(file, "r")
 
     gt = {}
     writer = {}
+    writer_list = []
     for line in file:
         line = line.rstrip('\n')
-        s = line.split('=')
-        if len(s) != 2:
+        split = line.split('=')
+        if len(split) != 2:
             print('syntax of GT file incorrect: ' + line)
             logger.error('syntax of GT file incorrect: ' + line)
-            return 0, 0
-        gt[s[0]] = s[1]
-        w = re.split('_|-', s[1])
+            return 0, 0, 0
+        gt[split[0]] = split[1]
+        # w = re.split('_|-', s[1])
+        w = re.split('[_-]', split[1])
         if len(w) == 0:
             print('syntax of GT file incorrect: ' + line)
             logger.error('syntax of GT file incorrect: ' + line)
-            return 0, 0
+            return 0, 0, 0
 
-        writer[s[0]] = w[0]
+        writer[split[0]] = w[0]
+        writer_list.append(w[0])
+        
     file.close()
-    return gt, writer
+
+    uniq_writer = list(set(writer_list))
+    writer_count = []
+    for w in uniq_writer:
+        writer_count.append(writer_list.count(w))
+
+    if  len(list(set(writer_count))) != 1:
+        print('writers in GT not equally distributed')
+        logger.error('writers in GT not equally distributed')
+        return 0,0
+    return gt, writer, writer_count[0]
 
 
-def evaluate(writer, resultfile):
-    file = open(resultfile, "r")
+def evaluate(writer, result_file, pages_per_writer):
+    file = open(result_file, "r")
 
     page_count = 0
     top1_count = 0
 
+    soft_count = [0] * len(writer)
+    hard_count = [0] * len(writer)
+    perc_count = [0] * len(writer)
+
     average_precision = []
+    line_count = 0
     for line in file:
+        line_count += 1
 
         line = line.rstrip()
         imgs = line.split(',')
@@ -67,7 +87,8 @@ def evaluate(writer, resultfile):
         if ref_page not in writer:
             print('filename \"' + ref_page + '\" unkown')
             logger.error('filename \"' + ref_page + '\" unkown')
-            return 0, 0
+            return 0, 0, 0, 0, 0
+
 
         ref_writer = writer[ref_page]
         logger.debug("ref_writer:" + ref_writer + " ref_page:" + ref_page)
@@ -80,20 +101,47 @@ def evaluate(writer, resultfile):
             i_count = i_count + 1
             if writer[i] == ref_writer:
                 i_true = i_true + 1
-                cur_sum = cur_sum + (float)(i_true)/i_count
+                cur_sum = cur_sum + float(i_true)/i_count
+            if i_true > 0:
+                if i_count < len(soft_count):
+                    soft_count[i_count] += 1
+            if i_true == i_count:
+                if i_count < len(hard_count):
+                    hard_count[i_count] += 1
+            if i_count < len(perc_count):
+                perc_count[i_count] += i_true
+        # +1 because reference page is not counted
+        if i_count + 1 != len(writer):
+            print('line %d contains %d pages, instead of %d' % (line_count, i_count + 1, len(writer)))
+            logger.error('line %d contains %d pages, instead of %d' % (line_count, i_count + 1, len(writer)))
+            return 0, 0, 0, 0, 0
 
         page_count = page_count + 1
         if i_true != 0:
-            average_precision.append((float)(cur_sum)/i_true)
+            average_precision.append(float(cur_sum)/(pages_per_writer-1))
         else:
             average_precision.append(0)
 
     file.close()
+    soft_eval = [x / len(writer) for x in soft_count]
+    hard_eval = [x / len(writer) for x in hard_count]
+    perc_eval = [0] * len(writer)
+    for i,p in enumerate(perc_count):
+        if i == 0:
+            continue
+        perc_eval[i] = p / (len(writer) * i)
+
+    if line_count != len(writer):
+        print('result file does not the correct line number (lines in result file: %d, lines in GT: %d' % (
+            line_count, len(writer)))
+        logger.error('result file does not the correct line number (lines in result file: %d, lines in GT: %d' % (
+            line_count, len(writer)))
+        return 0, 0, 0, 0, 0
     logger.debug("top1_count:" + str(top1_count))
     logger.debug("page_count:" + str(page_count))
-    precision = (float)(top1_count)/len(writer)
-    meanap = float(sum(average_precision))/float(len(writer))
-    return precision, meanap
+    prec = float(top1_count)/len(writer)
+    mean_ap = float(sum(average_precision))/float(len(writer))
+    return prec, mean_ap, soft_eval, hard_eval, perc_eval
 
 if __name__ == "__main__":
     import argparse
@@ -117,13 +165,17 @@ if __name__ == "__main__":
 
     args = parser.parse_args()
 
+    cur_gt = None
+    cur_writer = None
+    writer_pages = 0
+
     if not os.path.isfile(args.gtfile):
         print('0\n0')
         print('GT file does not exist')
         logger.error("GT file does not exist!")
         exit(0)
     else:
-        gt, writer = parseGTFile(args.gtfile)
+        cur_gt, cur_writer, writer_pages = parse_gt_file(args.gtfile)
 
     if not os.path.isfile(args.resultfile):
         print('0\n0')
@@ -132,6 +184,7 @@ if __name__ == "__main__":
         exit(0)
     else:
         res_file = args.resultfile
+        tmp_dir = None
         if zipfile.is_zipfile(res_file):
             tmp_dir = tempfile.mkdtemp()
             with zipfile.ZipFile(args.resultfile) as fzip:
@@ -139,10 +192,43 @@ if __name__ == "__main__":
                 fzip.extract(files_in_zip[0], tmp_dir)
                 res_file = os.path.join(tmp_dir, files_in_zip[0])
 
-        precision, meanap = evaluate(writer, res_file)
-        logger.info("precision:" + str(precision))
-        logger.info("map:" + str(meanap))
+        precision, meanap, soft, hard, perc = evaluate(cur_writer, res_file, writer_pages)
         print('%.6f' % precision)
         print('%.6f' % meanap)
+
+        logger.info("precision:" + str(precision))
+        logger.info("map:" + str(meanap))
+
+        if precision != 0 and meanap != 0:
+            soft_output = [1, 2, 3, 4, 5, 6]
+            out_str1 = ''
+            out_str2 = ''
+            for s in soft_output:
+                out_str1 += 'Top %d\t' % s
+                out_str2 += '%.3f\t' % soft[s]
+            logger.info('soft evaluation')
+            logger.info(out_str1)
+            logger.info(out_str2)
+
+            hard_output = [1, 2, 3, 4]
+            out_str1 = ''
+            out_str2 = ''
+            for s in hard_output:
+                out_str1 += 'Top %d\t' % s
+                out_str2 += '%.3f\t' % hard[s]
+            logger.info('hard evaluation')
+            logger.info(out_str1)
+            logger.info(out_str2)
+
+            perc_output = [2, 3, 4]
+            out_str1 = ''
+            out_str2 = ''
+            for s in perc_output:
+                out_str1 += 'Top %d\t' % s
+                out_str2 += '%.3f\t' % perc[s]
+            logger.info('perc evaluation')
+            logger.info(out_str1)
+            logger.info(out_str2)
+
         if zipfile.is_zipfile(args.resultfile):
             shutil.rmtree(tmp_dir)
