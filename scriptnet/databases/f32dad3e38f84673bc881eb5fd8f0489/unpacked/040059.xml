@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+  <Metadata>
+    <Creator>TRP</Creator>
+    <Created>2016-12-22T15:32:47.066+01:00</Created>
+    <LastChange>2017-01-05T12:52:20.296+01:00</LastChange>
+  </Metadata>
+  <Page imageFilename="040059.jpg" imageWidth="1500" imageHeight="2368">
+    <ReadingOrder>
+      <OrderedGroup id="ro_1483617140331" caption="Regions reading order">
+        <RegionRefIndexed index="0" regionRef="region_1483614546932_1"/>
+        <RegionRefIndexed index="1" regionRef="region_1483614553954_2"/>
+        <RegionRefIndexed index="2" regionRef="region_1483614565233_3"/>
+      </OrderedGroup>
+    </ReadingOrder>
+    <TextRegion id="region_1483614546932_1">
+      <Coords points="1414,49 1471,49 1471,114 1414,114"/>
+      <TextLine id="line_1483614583668_4">
+        <Coords points="1423,59 1459,59 1459,109 1423,109"/>
+        <Baseline points="1423,104 1459,104"/>
+        <TextEquiv>
+          <Unicode>1</Unicode>
+        </TextEquiv>
+      </TextLine>
+    </TextRegion>
+    <TextRegion id="region_1483614553954_2">
+      <Coords points="283,346 1305,346 1305,498 283,498"/>
+      <TextLine id="line_1483614602800_5">
+        <Coords points="302,386 424,394 693,400 833,405 986,410 1181,421 1292,430 1288,480 1178,471 984,460 831,455 692,450 422,444 299,436"/>
+        <Baseline points="299,431 422,439 692,445 831,450 984,455 1178,466 1288,475"/>
+        <TextEquiv>
+          <Unicode>Sehr geehrter Herr Professor!</Unicode>
+        </TextEquiv>
+      </TextLine>
+    </TextRegion>
+    <TextRegion id="region_1483614565233_3">
+      <Coords points="24,515 1498,515 1498,2234 24,2234"/>
+      <TextLine id="line_1483614629295_6">
+        <Coords points="184,532 444,551 955,575 1411,589 1410,639 953,625 441,601 181,582"/>
+        <Baseline points="181,577 441,596 953,620 1410,634"/>
+        <TextEquiv>
+          <Unicode>In Brüssel finde ich endlich Zeit, über die</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1483614636514_7">
+        <Coords points="79,647 428,673 879,690 1460,708 1459,758 877,740 425,723 76,697"/>
+        <Baseline points="76,692 425,718 877,735 1459,753"/>
+        <TextEquiv>
+          <Unicode>Arbeiten zu berichten, welche ich in Nordfrank¬</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1483614643951_8">
+        <Coords points="88,751 792,812 1360,826 1494,844 1487,894 1356,876 790,862 84,801"/>
+        <Baseline points="84,796 790,857 1356,871 1488,889"/>
+        <TextEquiv>
+          <Unicode>reich für die Abtheilung Scriptores gemacht habe.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1483615319322_41">
+        <Coords points="892,930 953,936 949,986 888,980"/>
+        <Baseline points="888,975 949,981"/>
+        <TextEquiv>
+          <Unicode>in</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1483614652311_9">
+        <Coords points="152,911 668,953 972,970 1462,972 1462,1022 971,1020 665,1003 148,961"/>
+        <Baseline points="148,956 665,998 971,1015 1462,1017"/>
+        <TextEquiv>
+          <Unicode>1. Arras. Collation (der Handschrift 453,</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1483614660717_10">
+        <Coords points="55,1016 285,1043 686,1058 942,1072 1469,1085 1468,1135 940,1122 684,1108 282,1093 49,1066"/>
+        <Baseline points="50,1061 282,1088 684,1103 940,1117 1468,1130"/>
+        <TextEquiv>
+          <Unicode>anc. 364) der Chronik des Andreas von Mar¬</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1483614680389_11">
+        <Coords points="68,1125 632,1161 991,1176 1285,1182 1331,1169 1468,1171 1467,1221 1338,1219 1292,1232 990,1226 630,1211 65,1175"/>
+        <Baseline points="65,1170 630,1206 990,1221 1292,1226 1337,1214 1467,1216"/>
+        <TextEquiv>
+          <Unicode>chiennes: prefatio, prologus libri I. II. III., Text</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1483614692679_12">
+        <Coords points="64,1217 308,1233 659,1250 972,1258 1202,1272 1447,1272 1447,1322 1201,1322 970,1308 657,1300 305,1283 61,1267"/>
+        <Baseline points="61,1262 305,1278 657,1295 970,1303 1201,1317 1447,1317"/>
+        <TextEquiv>
+          <Unicode>von lib. III cap. 3 — 5. Der Rest fehlt leider in</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1483614701773_13">
+        <Coords points="72,1319 255,1335 498,1345 691,1358 1458,1381 1457,1431 689,1408 496,1395 252,1385 68,1369"/>
+        <Baseline points="68,1364 252,1380 496,1390 689,1403 1457,1426"/>
+        <TextEquiv>
+          <Unicode>der Handschrift, welche einen sehr guten Text</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1483614705132_14">
+        <Coords points="60,1430 311,1446 308,1496 57,1480"/>
+        <Baseline points="57,1475 308,1491"/>
+        <TextEquiv>
+          <Unicode>bietet.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1483614712476_15">
+        <Coords points="113,1513 302,1523 533,1531 762,1544 1413,1560 1412,1610 760,1594 531,1581 300,1573 111,1563"/>
+        <Baseline points="111,1558 300,1568 531,1576 760,1589 1412,1605"/>
+        <TextEquiv>
+          <Unicode>2. Douai. Hier konnte ich nichts ausrichten,</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1483614720683_16">
+        <Coords points="51,1610 151,1619 456,1627 789,1640 1433,1651 1432,1701 788,1690 455,1677 148,1669 47,1660"/>
+        <Baseline points="47,1655 148,1664 455,1672 788,1685 1432,1696"/>
+        <TextEquiv>
+          <Unicode>und bedauerte ich, keine genaueren Instruc¬</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1483614732714_17">
+        <Coords points="41,1717 334,1731 747,1739 968,1754 1446,1763 1445,1813 966,1804 745,1789 332,1781 39,1767"/>
+        <Baseline points="39,1762 332,1776 745,1784 903,1791 937,1815 1049,1828 1094,1828 1128,1797 1445,1808"/>
+        <TextEquiv>
+          <Unicode>tionen zu haben. Denn in cod. 799 findet sich</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1483614770137_18">
+        <Coords points="40,1828 750,1867 1042,1877 1125,1870 1464,1874 1463,1924 1127,1920 1043,1927 748,1917 38,1878"/>
+        <Baseline points="38,1873 748,1912 1043,1922 1127,1915 1463,1919"/>
+        <TextEquiv>
+          <Unicode>nicht der mir unter Acta SS. Mai 3, 89 bezeichnete</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1483614783371_19">
+        <Coords points="42,1919 147,1930 303,1932 439,1940 735,1948 902,1947 1169,1961 1330,1969 1439,1956 1445,2006 1331,2019 1167,2011 901,1997 735,1998 437,1990 301,1982 144,1980 36,1969"/>
+        <Baseline points="37,1964 144,1975 301,1977 437,1985 735,1993 901,1992 1167,2006 1331,2014 1444,2001"/>
+        <TextEquiv>
+          <Unicode>Text. Der Codex enthält aber Schriften, welche</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1483614792562_20">
+        <Coords points="43,2003 103,2014 317,2025 426,2033 622,2041 933,2049 1431,2057 1430,2107 932,2099 621,2091 423,2083 314,2075 97,2064 34,2052"/>
+        <Baseline points="35,2047 98,2059 314,2070 423,2078 621,2086 932,2094 1430,2102"/>
+        <TextEquiv>
+          <Unicode>ebenda 118 — 120. 120 — 140. 140 — 154 gedruckt</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1483614800511_21">
+        <Coords points="54,2107 396,2119 933,2145 1445,2159 1444,2209 931,2195 394,2169 52,2157"/>
+        <Baseline points="52,2152 394,2164 931,2190 1444,2204"/>
+        <TextEquiv>
+          <Unicode>sind und sich auf die Geschichte der Marchien¬</Unicode>
+        </TextEquiv>
+      </TextLine>
+    </TextRegion>
+  </Page>
+</PcGts>

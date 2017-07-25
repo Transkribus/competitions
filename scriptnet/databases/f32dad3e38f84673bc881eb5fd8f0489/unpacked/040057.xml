@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+  <Metadata>
+    <Creator>TRP</Creator>
+    <Created>2016-12-21T10:00:10.251+01:00</Created>
+    <LastChange>2016-12-21T14:03:46.689+01:00</LastChange>
+  </Metadata>
+  <Page imageFilename="040057.jpg" imageWidth="2524" imageHeight="3375">
+    <ReadingOrder>
+      <OrderedGroup id="ro_1482325429059" caption="Regions reading order">
+        <RegionRefIndexed index="0" regionRef="region_1482318081251_34"/>
+      </OrderedGroup>
+    </ReadingOrder>
+    <TextRegion id="region_1482318081251_34">
+      <Coords points="19,74 2378,74 2378,799 19,799"/>
+      <TextLine id="line_1482318094518_35">
+        <Coords points="88,174 655,140 2272,113 2273,163 657,190 91,224"/>
+        <Baseline points="91,219 657,185 2273,158"/>
+        <TextEquiv>
+          <Unicode>Interessen vollständig &amp; ohne das geringste Bedenken P</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1482318100768_36">
+        <Coords points="86,287 780,233 2301,202 2302,252 782,283 89,337"/>
+        <Baseline points="89,332 782,278 2302,247"/>
+        <TextEquiv>
+          <Unicode>Mousson anvertrauen könen. Denken Sie an xxx</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1482318107925_37">
+        <Coords points="82,394 315,366 1374,313 2303,295 2304,345 1376,363 319,416 88,444"/>
+        <Baseline points="87,439 319,411 1376,358 2304,340"/>
+        <TextEquiv>
+          <Unicode>xxx so wollen Sie sich nur mit meinem Freund</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1482318112253_38">
+        <Coords points="95,473 1028,441 1030,491 97,523"/>
+        <Baseline points="97,518 1030,486"/>
+        <TextEquiv>
+          <Unicode>in Verbindung setzen.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1482318116190_39">
+        <Coords points="230,641 1726,507 1730,557 234,691"/>
+        <Baseline points="234,686 1730,552"/>
+        <TextEquiv>
+          <Unicode>Mit achtungsvoller Ergebenheit</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1482318122300_40">
+        <Coords points="1483,679 2346,566 2353,616 1490,729"/>
+        <Baseline points="1489,724 2352,611"/>
+        <TextEquiv>
+          <Unicode>Arn Escher v. d. L.</Unicode>
+        </TextEquiv>
+      </TextLine>
+    </TextRegion>
+  </Page>
+</PcGts>

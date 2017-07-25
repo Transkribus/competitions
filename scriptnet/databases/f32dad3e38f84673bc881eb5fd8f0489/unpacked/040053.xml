@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+    <Metadata>
+        <Creator>TRP</Creator>
+        <Created>2016-12-22T15:32:48.059+01:00</Created>
+        <LastChange>2017-06-30T18:46:22.420+02:00</LastChange>
+    </Metadata>
+    <Page imageFilename="040053.jpg" imageWidth="1280" imageHeight="1664">
+        <ReadingOrder>
+            <OrderedGroup id="ro_1498841182542" caption="Regions reading order">
+                <RegionRefIndexed index="0" regionRef="region_1483108042937_39"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <TextRegion id="region_1483108042937_39" custom="readingOrder {index:0;}">
+            <Coords points="-2,11 1276,11 1276,1658 -2,1658"/>
+            <TextLine id="line_1483108064551_41" custom="readingOrder {index:0;}">
+                <Coords points="911,103 1249,114 1248,164 910,153"/>
+                <Baseline points="910,148 1248,159"/>
+                <TextEquiv>
+                    <Unicode>K. 29. I. 79.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1483108061033_40" custom="readingOrder {index:1;}">
+                <Coords points="71,137 671,146 670,196 70,187"/>
+                <Baseline points="70,182 670,191"/>
+                <TextEquiv>
+                    <Unicode>Sehr geehrter Herr!</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1483108068270_42" custom="readingOrder {index:2;}">
+                <Coords points="91,258 1267,237 1268,287 92,308"/>
+                <Baseline points="92,303 1268,282"/>
+                <TextEquiv>
+                    <Unicode>Empfangen Sie meinen verbindlichsten</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1483108071254_43" custom="readingOrder {index:3;}">
+                <Coords points="62,370 1169,338 1170,388 63,420"/>
+                <Baseline points="63,415 1170,383"/>
+                <TextEquiv>
+                    <Unicode>Dank für das mich hoch ehrende Ver¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1483108074335_44" custom="readingOrder {index:4;}">
+                <Coords points="71,475 1245,441 1246,491 72,525"/>
+                <Baseline points="72,520 1246,486"/>
+                <TextEquiv>
+                    <Unicode>trauen, welches Sie in Ihrer Zuschrift</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1483108077136_45" custom="readingOrder {index:5;}">
+                <Coords points="90,589 1240,549 1242,599 92,639"/>
+                <Baseline points="92,634 1242,594"/>
+                <TextEquiv>
+                    <Unicode>vom 26. d. M. mir bewähren. Ich bin</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1483108086758_46" custom="readingOrder {index:6;}">
+                <Coords points="71,695 397,686 1104,643 1249,645 1276,671 1265,717 1233,693 1105,693 399,736 72,745"/>
+                <Baseline points="72,740 399,731 1105,688 1235,688 1268,713"/>
+                <TextEquiv>
+                    <Unicode>mit Ihrer von edeln Motiven eingegebenen,</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1483108090776_47" custom="readingOrder {index:7;}">
+                <Coords points="73,813 1198,742 1201,792 76,863"/>
+                <Baseline points="76,858 1201,787"/>
+                <TextEquiv>
+                    <Unicode>mit klarem Verständniß gedachten</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1483108096720_48" custom="readingOrder {index:8;}">
+                <Coords points="61,932 668,878 882,878 1248,860 1250,910 883,928 670,928 65,982"/>
+                <Baseline points="65,977 670,923 883,923 1250,905"/>
+                <TextEquiv>
+                    <Unicode>und in maßvoller Form ausgesproch¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1483108106491_49" custom="readingOrder {index:9;}">
+                <Coords points="48,1040 468,1019 912,986 1131,979 1275,990 1271,1040 1130,1029 914,1036 471,1069 50,1090"/>
+                <Baseline points="50,1085 471,1064 914,1031 1130,1024 1271,1035"/>
+                <TextEquiv>
+                    <Unicode>nen Erörterung vollständig einverstanden</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1483108112031_50" custom="readingOrder {index:10;}">
+                <Coords points="51,1147 473,1140 929,1100 1235,1089 1237,1139 932,1150 475,1190 52,1197"/>
+                <Baseline points="52,1192 475,1185 932,1145 1237,1134"/>
+                <TextEquiv>
+                    <Unicode>und finde dann eine Begabung und</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1483108117531_51" custom="readingOrder {index:11;}">
+                <Coords points="47,1275 179,1282 544,1252 1264,1221 1266,1271 547,1302 180,1332 45,1325"/>
+                <Baseline points="45,1320 180,1327 547,1297 1266,1266"/>
+                <TextEquiv>
+                    <Unicode>eine Reife, welche ganz außerordentlich</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1483108122422_52" custom="readingOrder {index:12;}">
+                <Coords points="44,1414 533,1380 1218,1333 1221,1383 536,1430 47,1464"/>
+                <Baseline points="47,1459 536,1425 1221,1378"/>
+                <TextEquiv>
+                    <Unicode>sind: ich freue mich herzlich, einen</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1483108130610_53" custom="readingOrder {index:13;}">
+                <Coords points="30,1512 1145,1456 1147,1506 32,1562"/>
+                <Baseline points="32,1557 1147,1501"/>
+                <TextEquiv>
+                    <Unicode>so ausgezeichneten jungen Mann</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1483108147503_54" custom="readingOrder {index:14;}">
+                <Coords points="11,1587 292,1586 292,1636 11,1637"/>
+                <Baseline points="2,1631 292,1631"/>
+                <TextEquiv>
+                    <Unicode>Felix Dahn.</Unicode>
+                </TextEquiv>
+            </TextLine>
+        </TextRegion>
+    </Page>
+</PcGts>

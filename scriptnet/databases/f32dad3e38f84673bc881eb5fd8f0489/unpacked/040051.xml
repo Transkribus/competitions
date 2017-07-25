@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+  <Metadata>
+    <Creator>htrsh_pagexml_create</Creator>
+    <Created>2017-01-30T12:26:52</Created>
+    <LastChange>2017-02-17T11:46:11.356+01:00</LastChange>
+  </Metadata>
+  <Page imageFilename="040051.jpg" imageWidth="1136" imageHeight="1440">
+    <ReadingOrder>
+      <OrderedGroup id="ro_1487328371482" caption="Regions reading order">
+        <RegionRefIndexed index="0" regionRef="pg"/>
+        <RegionRefIndexed index="1" regionRef="region_1487328314828_241"/>
+      </OrderedGroup>
+    </ReadingOrder>
+    <TextRegion id="pg">
+      <Coords points="118,1323 119,113 1122,113 1122,1426 432,1425 432,1324"/>
+      <TextLine id="line_1486730793332_1421">
+        <Coords points="174,147 1021,149 1021,199 174,197"/>
+        <Baseline points="174,192 1021,194"/>
+        <TextEquiv>
+          <Unicode>Man nimmt an der Siz komme nach Zürich u. das will</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486730799168_1422">
+        <Coords points="147,200 1028,202 1028,252 147,250"/>
+        <Baseline points="147,245 1028,247"/>
+        <TextEquiv>
+          <Unicode>man nicht! – Geigy selbst scheint nicht Lust zu haben</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486730804442_1423">
+        <Coords points="166,251 1002,253 1002,303 166,301"/>
+        <Baseline points="166,296 1002,298"/>
+        <TextEquiv>
+          <Unicode>viele Lanzen in diesem Krieg zu brechen, so daß ich</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486730810515_1424">
+        <Coords points="174,302 1090,315 1089,365 173,352"/>
+        <Baseline points="173,347 1089,360"/>
+        <TextEquiv>
+          <Unicode>sehr besorge, schon in Baselhabedringe man – ehe es an die</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486730815585_1425">
+        <Coords points="173,356 1068,365 1068,415 173,406"/>
+        <Baseline points="173,401 1068,410"/>
+        <TextEquiv>
+          <Unicode>Behörden kommt – schwerlich durch. – Man müßte auf</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486730820561_1426">
+        <Coords points="188,411 1054,420 1054,470 188,461"/>
+        <Baseline points="188,456 1054,465"/>
+        <TextEquiv>
+          <Unicode>die nicht-baslerischen Mitglieder des Verwaltungsrathes</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486730824630_1427">
+        <Coords points="177,460 488,460 488,510 177,510"/>
+        <Baseline points="177,505 488,505"/>
+        <TextEquiv>
+          <Unicode>zu wirken suchen. –</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486730833711_1428">
+        <Coords points="204,511 1060,523 1059,573 203,561"/>
+        <Baseline points="203,556 1059,568"/>
+        <TextEquiv>
+          <Unicode>Betreffend die silberne Kanne bei Fontana, so ging ich am</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486730838270_1429">
+        <Coords points="191,562 1100,583 1099,633 190,612"/>
+        <Baseline points="190,607 1099,628"/>
+        <TextEquiv>
+          <Unicode>Tag nach deiner Abreise zu lezterm u. sagte ihm, er soll</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486730842149_1430">
+        <Coords points="202,615 1033,634 1032,684 201,665"/>
+        <Baseline points="201,660 1032,679"/>
+        <TextEquiv>
+          <Unicode>sie 3 Wochen noch behalten; wenn ich sie innert dieser</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486730847476_1431">
+        <Coords points="197,668 1074,689 1073,739 196,718"/>
+        <Baseline points="196,713 1073,734"/>
+        <TextEquiv>
+          <Unicode>Zeit nicht abhole, so möge er sie unter deiner Adresse</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486730853097_1432">
+        <Coords points="225,713 1082,743 1080,793 223,763"/>
+        <Baseline points="223,758 1080,788"/>
+        <TextEquiv>
+          <Unicode>nach Zürich senden, ganz im Sinn unsrer Verabredg.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486730861347_1433">
+        <Coords points="225,783 1085,804 1084,854 224,833"/>
+        <Baseline points="227,822 1084,849"/>
+        <TextEquiv>
+          <Unicode>Ich fühlte mich wieder sehr isolirt u. wieder in der</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486730878535_1434">
+        <Coords points="209,830 1099,864 1097,914 207,880"/>
+        <Baseline points="207,875 1097,909"/>
+        <TextEquiv>
+          <Unicode>Fremde als du von hier abgereist warest. – In neuester</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486730901083_1435">
+        <Coords points="217,881 1097,915 1095,965 215,931"/>
+        <Baseline points="215,926 1095,960"/>
+        <TextEquiv>
+          <Unicode>Zeit habe ich nun verschiedene Schweizer, die hier etablirt sind</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486730906450_1436">
+        <Coords points="233,926 1109,968 1107,1018 231,976"/>
+        <Baseline points="231,971 1107,1013"/>
+        <TextEquiv>
+          <Unicode>kennen gelernt, u. recht wakre Leute darunter gefunden.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486730916056_1437">
+        <Coords points="245,973 721,990 1080,1022 1076,1072 718,1040 243,1023"/>
+        <Baseline points="243,1018 718,1035 1076,1067"/>
+        <TextEquiv>
+          <Unicode>Meine Frau u. meine beiden Niècen wären in diesen lezten</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486730924237_1438">
+        <Coords points="263,1027 658,1039 1057,1068 1054,1118 656,1089 262,1077"/>
+        <Baseline points="262,1072 656,1084 1054,1113"/>
+        <TextEquiv>
+          <Unicode>Tagen hier eingetroffen, wenn nicht meine Frau</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486730932224_1439">
+        <Coords points="263,1072 1079,1112 1077,1162 261,1122"/>
+        <Baseline points="261,1117 1077,1157"/>
+        <TextEquiv>
+          <Unicode>durch ein rheumatisches Fieber leider ins Zimmer od.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486730938031_1440">
+        <Coords points="263,1119 1085,1164 1083,1214 261,1169"/>
+        <Baseline points="261,1164 1083,1209"/>
+        <TextEquiv>
+          <Unicode>gar ins Bett gefeßelt worden wäre, so daß sie auf</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486730942957_1441">
+        <Coords points="251,1167 1074,1213 1071,1263 248,1217"/>
+        <Baseline points="248,1212 1071,1258"/>
+        <TextEquiv>
+          <Unicode>den schönen Plan, mich abzuholen, verzichten muß. – –</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486730949123_1442">
+        <Coords points="215,1222 1047,1260 1045,1310 213,1272"/>
+        <Baseline points="213,1267 1045,1305"/>
+        <TextEquiv>
+          <Unicode>Mit freundschaftlichen Empfehlungen an d. l. Deinen</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486730953919_1443">
+        <Coords points="246,1261 1061,1314 1058,1364 243,1311"/>
+        <Baseline points="243,1306 1058,1359"/>
+        <TextEquiv>
+          <Unicode>u. insbesondere an deine werthe Braut u. mit den besten Grüßen</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486731057482_1446">
+        <Coords points="626,1334 762,1337 761,1387 625,1384"/>
+        <Baseline points="625,1379 761,1382"/>
+        <TextEquiv>
+          <Unicode>stets Dein</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486731064521_1447">
+        <Coords points="802,1337 919,1346 1045,1376 1033,1425 911,1395 799,1387"/>
+        <Baseline points="799,1382 912,1390 1034,1420"/>
+        <TextEquiv>
+          <Unicode>Kern</Unicode>
+        </TextEquiv>
+      </TextLine>
+    </TextRegion>
+    <TextRegion id="region_1487328314828_241">
+      <Coords points="59,1327 428,1327 428,1408 59,1408"/>
+      <TextLine id="line_1487328344999_242">
+        <Coords points="71,1334 212,1341 422,1341 422,1391 211,1391 69,1384"/>
+        <Baseline points="69,1379 211,1386 422,1386"/>
+        <TextEquiv>
+          <Unicode>Paris den 10 Aprill 1857.</Unicode>
+        </TextEquiv>
+      </TextLine>
+    </TextRegion>
+  </Page>
+</PcGts>

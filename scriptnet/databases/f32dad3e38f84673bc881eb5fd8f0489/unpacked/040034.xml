@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+  <Metadata>
+    <Creator>htrsh_pagexml_create</Creator>
+    <Created>2017-01-30T12:36:11</Created>
+    <LastChange>2017-02-16T13:00:04.271+01:00</LastChange>
+  </Metadata>
+  <Page imageFilename="040034.jpg" imageWidth="915" imageHeight="1440">
+    <ReadingOrder>
+      <OrderedGroup id="ro_1487246404371" caption="Regions reading order">
+        <RegionRefIndexed index="0" regionRef="region_1487246025490_2879"/>
+        <RegionRefIndexed index="1" regionRef="region_1487246051891_2881"/>
+        <RegionRefIndexed index="2" regionRef="pg"/>
+        <RegionRefIndexed index="3" regionRef="region_1487245963961_2878"/>
+      </OrderedGroup>
+    </ReadingOrder>
+    <TextRegion id="region_1487246025490_2879">
+      <Coords points="680,116 893,116 893,183 680,183"/>
+      <TextLine id="line_1487246033494_2880">
+        <Coords points="685,119 885,119 885,169 685,169"/>
+        <Baseline points="685,164 885,164"/>
+        <TextEquiv>
+          <Unicode>Zurich, le 16 Octobre 1871 </Unicode>
+        </TextEquiv>
+      </TextLine>
+    </TextRegion>
+    <TextRegion id="region_1487246051891_2881">
+      <Coords points="479,298 708,298 708,347 479,347"/>
+      <TextLine id="line_1487246069065_2882">
+        <Coords points="492,288 700,288 700,338 492,338"/>
+        <Baseline points="492,333 700,333"/>
+        <TextEquiv>
+          <Unicode>Monsieur le Commandeur </Unicode>
+        </TextEquiv>
+      </TextLine>
+    </TextRegion>
+    <TextRegion id="pg">
+      <Coords points="435,375 905,370 905,1395 462,1392"/>
+      <TextLine id="line_1487246112560_2887">
+        <Coords points="577,357 902,357 902,407 577,407"/>
+        <Baseline points="577,402 902,402"/>
+        <TextEquiv>
+          <Unicode>En réponse à vos dépêches d'hier et d'avant </Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1487246116885_2888">
+        <Coords points="460,391 888,392 888,442 460,441"/>
+        <Baseline points="460,436 888,437"/>
+        <TextEquiv>
+          <Unicode>hier, je viens de vous adresser le télégramme suivant:</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1487246122649_2889">
+        <Coords points="484,425 898,424 898,474 484,475"/>
+        <Baseline points="484,470 898,469"/>
+        <TextEquiv>
+          <Unicode>«Vous envoie Convention conclue avec financiers alle-</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1487246128527_2890">
+        <Coords points="455,456 894,459 894,509 455,506"/>
+        <Baseline points="455,501 894,504"/>
+        <TextEquiv>
+          <Unicode>mands, contenant toutes les dispositions relatives à par-</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1487246133552_2891">
+        <Coords points="453,491 875,493 875,543 453,541"/>
+        <Baseline points="453,536 875,538"/>
+        <TextEquiv>
+          <Unicode>ticipation italienne. Vous enverrai au plus tôt mes</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1487246138596_2892">
+        <Coords points="450,523 893,527 893,577 450,573"/>
+        <Baseline points="450,569 893,573"/>
+        <TextEquiv>
+          <Unicode>lettres aux maisons italiennes qui seront invitées à</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1487246155044_2893">
+        <Coords points="449,559 898,559 898,609 449,609"/>
+        <Baseline points="449,604 898,604"/>
+        <TextEquiv>
+          <Unicode>participer. Délai pour se déclarer expire le 24. Comme</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1487246159824_2894">
+        <Coords points="447,594 882,594 882,644 447,644"/>
+        <Baseline points="447,639 882,639"/>
+        <TextEquiv>
+          <Unicode>vous êtes indisposé, peut-être utile de m'envoyer</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1487246165845_2895">
+        <Coords points="452,628 895,629 895,679 452,678"/>
+        <Baseline points="452,673 895,674"/>
+        <TextEquiv>
+          <Unicode>immédiatement votre Secrétaire pour conférer avec moi,</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1487246170905_2896">
+        <Coords points="452,662 634,661 634,711 452,712"/>
+        <Baseline points="452,707 634,706"/>
+        <TextEquiv>
+          <Unicode>si jugez nécessaire.»</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1487246177291_2897">
+        <Coords points="517,698 904,698 904,748 517,748"/>
+        <Baseline points="517,743 904,743"/>
+        <TextEquiv>
+          <Unicode>Je regrette excessivement les obstacles que rencontre</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1487246181203_2898">
+        <Coords points="458,730 817,731 817,781 458,780"/>
+        <Baseline points="458,775 817,776"/>
+        <TextEquiv>
+          <Unicode>notre entrevue et les retards qui en résultent.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1487246190991_2899">
+        <Coords points="479,764 898,767 898,817 479,814"/>
+        <Baseline points="479,809 898,812"/>
+        <TextEquiv>
+          <Unicode>Les choses étant ainsi, il ne me reste pas autre chose</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1487246197960_2900">
+        <Coords points="463,800 899,803 899,853 463,850"/>
+        <Baseline points="463,845 899,848"/>
+        <TextEquiv>
+          <Unicode>à faire qu'à vous envoyer la Convention du 10 Octobre 1871,</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1487246207072_2901">
+        <Coords points="461,835 894,837 894,887 461,885"/>
+        <Baseline points="461,880 898,883"/>
+        <TextEquiv>
+          <Unicode>relative à la formation du capital de construction pour</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1487246226191_2902">
+        <Coords points="460,868 889,872 889,922 460,918"/>
+        <Baseline points="460,913 889,917"/>
+        <TextEquiv>
+          <Unicode>le chemin de fer du S. Gothard, avec ses annexes; savoir:</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1487246230000_2903">
+        <Coords points="460,903 885,905 885,955 460,953"/>
+        <Baseline points="460,948 885,950"/>
+        <TextEquiv>
+          <Unicode>1o Statuts de la Société du chemin de fer du S. Gothard,</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1487246235005_2904">
+        <Coords points="460,938 889,938 889,988 460,988"/>
+        <Baseline points="460,983 889,983"/>
+        <TextEquiv>
+          <Unicode>2o Convention syndicale entre les membres du Consortium</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1487246239439_2905">
+        <Coords points="456,972 882,972 882,1022 456,1022"/>
+        <Baseline points="456,1017 882,1017"/>
+        <TextEquiv>
+          <Unicode>pour la formation de la Société du chemin de fer du</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1487246244593_2906">
+        <Coords points="471,1005 556,1006 555,1056 470,1055"/>
+        <Baseline points="470,1050 555,1051"/>
+        <TextEquiv>
+          <Unicode>S. Gothard.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1487246251781_2907">
+        <Coords points="488,1038 900,1042 900,1092 488,1088"/>
+        <Baseline points="488,1083 900,1087"/>
+        <TextEquiv>
+          <Unicode>Ces pièces, d'ailleurs, vous mettront, mieux que toute</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1487246257036_2908">
+        <Coords points="461,1072 889,1074 889,1124 461,1122"/>
+        <Baseline points="461,1117 889,1119"/>
+        <TextEquiv>
+          <Unicode>autre chose, au fait de la combinaison financière pour</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1487246263401_2909">
+        <Coords points="461,1105 889,1108 889,1158 461,1155"/>
+        <Baseline points="461,1150 889,1153"/>
+        <TextEquiv>
+          <Unicode>la formation du capital nécessaire à la construction de</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1487246269128_2910">
+        <Coords points="460,1141 890,1143 890,1193 460,1191"/>
+        <Baseline points="460,1186 890,1188"/>
+        <TextEquiv>
+          <Unicode>chemin de fer du S. Gothard, et de la participation qui</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1487246273937_2911">
+        <Coords points="462,1175 894,1179 894,1229 462,1225"/>
+        <Baseline points="462,1220 894,1224"/>
+        <TextEquiv>
+          <Unicode>est réservée aux capitaux italiens. J'espère que vous</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1487246279188_2912">
+        <Coords points="462,1210 900,1213 900,1263 462,1260"/>
+        <Baseline points="462,1255 900,1258"/>
+        <TextEquiv>
+          <Unicode>reconnaîtrez que j'ai sauvegardé au mieux les intérêts</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1487246285899_2913">
+        <Coords points="465,1242 735,1245 735,1295 465,1292"/>
+        <Baseline points="465,1287 735,1290"/>
+        <TextEquiv>
+          <Unicode>de l'Italie dans cette circonstance.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1487246288642_2914">
+        <Coords points="812,1307 857,1309 855,1359 810,1357"/>
+        <Baseline points="810,1352 855,1354"/>
+        <TextEquiv>
+          <Unicode/>
+        </TextEquiv>
+      </TextLine>
+    </TextRegion>
+    <TextRegion id="region_1487245963961_2878">
+      <Coords points="48,1114 450,1116 459,1325 48,1325"/>
+      <TextLine id="line_1487246081838_2883">
+        <Coords points="58,1100 385,1106 384,1156 57,1150"/>
+        <Baseline points="57,1145 384,1151"/>
+        <TextEquiv>
+          <Unicode>Monsieur le Commandeur Servadio,</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1487246086593_2884">
+        <Coords points="85,1139 380,1141 380,1191 85,1189"/>
+        <Baseline points="85,1184 380,1186"/>
+        <TextEquiv>
+          <Unicode>Président de la «Società Generale di</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1487246092030_2885">
+        <Coords points="72,1173 342,1176 342,1226 72,1223"/>
+        <Baseline points="72,1218 342,1221"/>
+        <TextEquiv>
+          <Unicode>Credito Provinciale e Communale»</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1487246095470_2886">
+        <Coords points="302,1227 418,1228 418,1278 302,1277"/>
+        <Baseline points="302,1272 418,1273"/>
+        <TextEquiv>
+          <Unicode>à Florence </Unicode>
+        </TextEquiv>
+      </TextLine>
+    </TextRegion>
+  </Page>
+</PcGts>

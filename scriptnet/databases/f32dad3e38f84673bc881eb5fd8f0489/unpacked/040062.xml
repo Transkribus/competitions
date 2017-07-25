@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+    <Metadata>
+        <Creator>htrsh_pagexml_create</Creator>
+        <Created>2017-01-30T12:31:22</Created>
+        <LastChange>2017-06-30T18:41:32.175+02:00</LastChange>
+    </Metadata>
+    <Page imageFilename="040062.jpg" imageWidth="1148" imageHeight="1440">
+        <ReadingOrder>
+            <OrderedGroup id="ro_1498840892263" caption="Regions reading order">
+                <RegionRefIndexed index="0" regionRef="pg"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <TextRegion id="pg" custom="readingOrder {index:0;}">
+            <Coords points="283,113 1141,114 1135,1343 283,1343"/>
+            <TextLine id="line_1487072315358_2016" custom="readingOrder {index:0;}">
+                <Coords points="358,105 632,115 927,109 1126,99 1128,149 929,159 632,165 356,155"/>
+                <Baseline points="356,150 632,160 929,154 1128,144"/>
+                <TextEquiv>
+                    <Unicode>Diese 51 Stimmen wurden abgegeben von</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1487072325913_2017" custom="readingOrder {index:1;}">
+                <Coords points="358,145 674,153 1118,142 1119,192 674,203 357,195"/>
+                <Baseline points="357,190 674,198 1119,187"/>
+                <TextEquiv>
+                    <Unicode>der Linken (außer Bertani der offen für</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1487072350218_2018" custom="readingOrder {index:2;}">
+                <Coords points="363,183 929,187 1109,178 1111,228 930,237 363,233"/>
+                <Baseline points="363,228 930,232 1111,223"/>
+                <TextEquiv>
+                    <Unicode>den Gotthard stimmte) den Veltlinern wie</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1487072369424_2019" custom="readingOrder {index:3;}">
+                <Coords points="357,222 864,227 1137,230 1140,247 1133,289 1119,277 864,277 357,272"/>
+                <Baseline points="357,267 864,272 1121,272 1136,285"/>
+                <TextEquiv>
+                    <Unicode>Bonfadini usw u anderen Splugisten – und andern</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1487072380142_2020" custom="readingOrder {index:4;}">
+                <Coords points="352,265 1100,268 1136,293 1130,339 1088,317 352,315"/>
+                <Baseline points="352,310 1089,312 1132,335"/>
+                <TextEquiv>
+                    <Unicode>von den mit Peruzzi stimmenden Toskanern.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1487072390127_2021" custom="readingOrder {index:5;}">
+                <Coords points="362,309 741,323 1125,316 1126,366 741,373 360,359"/>
+                <Baseline points="360,354 741,368 1126,361"/>
+                <TextEquiv>
+                    <Unicode>Im Senat ist der Entscheid nicht zweifelhaft,</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1487072406178_2022" custom="readingOrder {index:6;}">
+                <Coords points="359,350 764,362 1112,358 1113,408 764,412 358,400"/>
+                <Baseline points="358,395 764,407 1113,403"/>
+                <TextEquiv>
+                    <Unicode>ich glaube daher um so weniger länger</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1487072416473_2023" custom="readingOrder {index:7;}">
+                <Coords points="354,395 769,399 1123,397 1123,447 769,449 354,445"/>
+                <Baseline points="354,440 769,444 1123,442"/>
+                <TextEquiv>
+                    <Unicode>hier blieben zu sollen – als Herr Pioda</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1487072429390_2024" custom="readingOrder {index:8;}">
+                <Coords points="359,430 753,438 1114,428 1115,478 753,488 358,480"/>
+                <Baseline points="358,475 753,483 1115,473"/>
+                <TextEquiv>
+                    <Unicode>wieder soweit hergestellt scheint um</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1487072440287_2025" custom="readingOrder {index:9;}">
+                <Coords points="358,469 763,476 1124,470 1125,520 763,526 357,519"/>
+                <Baseline points="357,514 763,521 1125,515"/>
+                <TextEquiv>
+                    <Unicode>sich der Geschäfte annehmen zu können. –</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1487072449338_2026" custom="readingOrder {index:10;}">
+                <Coords points="361,517 688,514 1115,515 1115,565 688,564 361,567"/>
+                <Baseline points="361,562 688,559 1115,560"/>
+                <TextEquiv>
+                    <Unicode>Zum Schluß hochgeachteter Herr erlaube</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1487072461692_2027" custom="readingOrder {index:11;}">
+                <Coords points="353,556 1113,549 1113,599 353,606"/>
+                <Baseline points="353,601 1113,594"/>
+                <TextEquiv>
+                    <Unicode>ich mir noch ein Curiosum mitzutheilen</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1487072470393_2028" custom="readingOrder {index:12;}">
+                <Coords points="363,593 1094,589 1094,639 363,643"/>
+                <Baseline points="363,638 1094,634"/>
+                <TextEquiv>
+                    <Unicode>und eine Nutzanwendung daran zu</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1487072476031_2029" custom="readingOrder {index:13;}">
+                <Coords points="360,627 516,623 517,673 361,677"/>
+                <Baseline points="361,672 517,668"/>
+                <TextEquiv>
+                    <Unicode>knüpfen.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1487072493575_2030" custom="readingOrder {index:14;}">
+                <Coords points="359,668 1112,663 1112,713 359,718"/>
+                <Baseline points="359,713 1112,708"/>
+                <TextEquiv>
+                    <Unicode>Gestern theilte ein erster, glaubwürdinger</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1487072502176_2031" custom="readingOrder {index:15;}">
+                <Coords points="357,704 745,712 1069,701 1071,751 745,762 356,754"/>
+                <Baseline points="356,749 745,757 1071,746"/>
+                <TextEquiv>
+                    <Unicode>Deputirter Herrn Pioda &amp;amp; mir mit:</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1487072510198_2032" custom="readingOrder {index:16;}">
+                <Coords points="326,753 652,750 1122,744 1123,794 652,800 326,803"/>
+                <Baseline points="326,798 652,795 1123,789"/>
+                <TextEquiv>
+                    <Unicode>«Graf Brassien habe einen Splügisten</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1487072527109_2033" custom="readingOrder {index:17;}">
+                <Coords points="331,787 571,791 1121,785 1121,835 571,841 330,837"/>
+                <Baseline points="330,832 571,836 1121,830"/>
+                <TextEquiv>
+                    <Unicode>gefragt: «Sie hätten ganz recht gehabt sich</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1487072538312_2034" custom="readingOrder {index:18;}">
+                <Coords points="303,829 766,830 1122,826 1123,876 766,880 303,879"/>
+                <Baseline points="303,874 766,875 1123,871"/>
+                <TextEquiv>
+                    <Unicode>tüchtig zu wehren – denn es unterliege</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1487072549388_2035" custom="readingOrder {index:19;}">
+                <Coords points="302,864 778,869 1093,866 1093,916 778,919 302,914"/>
+                <Baseline points="302,909 778,914 1093,911"/>
+                <TextEquiv>
+                    <Unicode>keinem Zweifel, daß Italien und</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1487072560434_2036" custom="readingOrder {index:20;}">
+                <Coords points="297,903 852,907 1127,904 1127,954 852,957 297,953"/>
+                <Baseline points="297,948 852,952 1127,949"/>
+                <TextEquiv>
+                    <Unicode>Deutschland durch den Vertrag durch</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1487072579493_2037" custom="readingOrder {index:21;}">
+                <Coords points="297,945 1119,947 1119,997 297,995"/>
+                <Baseline points="297,990 1119,992"/>
+                <TextEquiv>
+                    <Unicode>die Schweiz übervortheilt werden!»»– (das</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1487072598244_2038" custom="readingOrder {index:22;}">
+                <Coords points="292,990 725,995 1014,989 1015,1039 725,1045 291,1040"/>
+                <Baseline points="291,1035 725,1040 1015,1034"/>
+                <TextEquiv>
+                    <Unicode>«Wort war noch viel stärker!»).</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1487072606753_2039" custom="readingOrder {index:23;}">
+                <Coords points="359,1036 891,1042 1094,1036 1095,1086 891,1092 358,1086"/>
+                <Baseline points="358,1081 891,1087 1095,1081"/>
+                <TextEquiv>
+                    <Unicode>Wenn ich diese einfältige Klatscherei dem</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1487072617303_2040" custom="readingOrder {index:24;}">
+                <Coords points="360,1076 543,1081 1117,1081 1117,1131 542,1131 359,1126"/>
+                <Baseline points="359,1121 542,1126 1117,1126"/>
+                <TextEquiv>
+                    <Unicode>Oberst Flammen mitgetheilt – und dieser</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1487072634248_2041" custom="readingOrder {index:25;}">
+                <Coords points="359,1119 927,1128 1107,1122 1108,1172 927,1178 358,1169"/>
+                <Baseline points="358,1164 927,1173 1108,1167"/>
+                <TextEquiv>
+                    <Unicode>sie Hrn Dellbrük hinterbracht hätte –</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1487072643518_2042" custom="readingOrder {index:26;}">
+                <Coords points="359,1156 982,1165 1117,1179 1128,1201 1130,1207 1126,1251 1097,1225 980,1215 358,1206"/>
+                <Baseline points="358,1201 980,1210 1099,1220 1129,1247"/>
+                <TextEquiv>
+                    <Unicode>wie hätte dieser sich wohl dabei benommen?</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1487072654374_2043" custom="readingOrder {index:27;}">
+                <Coords points="350,1202 779,1203 1123,1214 1122,1264 778,1253 350,1252"/>
+                <Baseline points="350,1247 778,1248 1122,1259"/>
+                <TextEquiv>
+                    <Unicode>Ich zweifle nicht daran, daß er Hrn Flammen</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1487072662163_2044" custom="readingOrder {index:28;}">
+                <Coords points="350,1237 851,1240 1073,1240 1073,1290 851,1290 350,1287"/>
+                <Baseline points="350,1282 851,1285 1073,1285"/>
+                <TextEquiv>
+                    <Unicode>einfach den Rücken gekehrt hätte – und</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1487072667803_2045" custom="readingOrder {index:29;}">
+                <Coords points="358,1273 921,1276 921,1326 358,1323"/>
+                <Baseline points="358,1318 921,1321"/>
+                <TextEquiv>
+                    <Unicode>dabei hätte er Recht gehabt! –</Unicode>
+                </TextEquiv>
+            </TextLine>
+        </TextRegion>
+    </Page>
+</PcGts>

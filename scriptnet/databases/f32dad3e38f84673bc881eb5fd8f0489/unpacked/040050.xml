@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+  <Metadata>
+    <Creator>htrsh_pagexml_create</Creator>
+    <Created>2017-01-30T12:36:39</Created>
+    <LastChange>2017-02-16T15:10:22.069+01:00</LastChange>
+  </Metadata>
+  <Page imageFilename="040050.jpg" imageWidth="1134" imageHeight="1440">
+    <ReadingOrder>
+      <OrderedGroup id="ro_1487254222177" caption="Regions reading order">
+        <RegionRefIndexed index="0" regionRef="pg"/>
+      </OrderedGroup>
+    </ReadingOrder>
+    <TextRegion id="pg">
+      <Coords points="86,86 1124,86 1124,1345 86,1345"/>
+      <TextLine id="line_1487253950254_3120">
+        <Coords points="113,97 1068,103 1068,153 113,147"/>
+        <Baseline points="113,142 1068,148"/>
+        <TextEquiv>
+          <Unicode>müßte. Dagegen habe ich vom technischen Bureau der</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1487253961937_3121">
+        <Coords points="112,141 1053,145 1053,195 112,191"/>
+        <Baseline points="112,186 1053,190"/>
+        <TextEquiv>
+          <Unicode>königl: Eisenbahn–Direction so eben einen Zeichner, Herrn</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1487253967771_3122">
+        <Coords points="103,189 1106,187 1106,237 103,239"/>
+        <Baseline points="103,234 1106,232"/>
+        <TextEquiv>
+          <Unicode>Mundorf entlehnt, welcher morgen eintreten wird, um mit</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1487253976558_3123">
+        <Coords points="111,228 1102,232 1102,282 111,278"/>
+        <Baseline points="111,273 1102,277"/>
+        <TextEquiv>
+          <Unicode>der Fertigung der Schriften auf den Blättern des Längen–Pro-</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1487253980925_3124">
+        <Coords points="97,271 386,265 387,315 98,321"/>
+        <Baseline points="98,316 387,310"/>
+        <TextEquiv>
+          <Unicode>files zu beginnen.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1487253986047_3125">
+        <Coords points="158,316 1080,317 1080,367 158,366"/>
+        <Baseline points="158,361 1080,362"/>
+        <TextEquiv>
+          <Unicode>Sobald das vierte Blatt des Längen–Profiles (bis Faido )</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1487253991293_3126">
+        <Coords points="116,357 1103,359 1103,409 116,407"/>
+        <Baseline points="116,402 1103,404"/>
+        <TextEquiv>
+          <Unicode>aufgetragen ist, wird Herr Stocks dasselbe zur Hand nehmen,</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1487253997896_3127">
+        <Coords points="119,401 1070,404 1070,454 119,451"/>
+        <Baseline points="119,446 1070,449"/>
+        <TextEquiv>
+          <Unicode>um darauf mit der Berechnung der Grundflächen pp  zu be-</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1487254005751_3128">
+        <Coords points="90,445 1093,444 1093,494 90,495"/>
+        <Baseline points="90,490 1093,489"/>
+        <TextEquiv>
+          <Unicode>ginnen. Mittlerweile werde ich mit der Berechnung der</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1487254012353_3129">
+        <Coords points="113,488 1071,483 1071,533 113,538"/>
+        <Baseline points="113,533 1071,528"/>
+        <TextEquiv>
+          <Unicode>Maßen der Kunstbauten auf dem ersten Blatt fort-</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1487254021100_3130">
+        <Coords points="102,531 236,531 236,581 102,581"/>
+        <Baseline points="102,576 236,576"/>
+        <TextEquiv>
+          <Unicode>fahren.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1487254035410_3131">
+        <Coords points="175,573 1073,575 1073,625 175,623"/>
+        <Baseline points="175,618 1073,620"/>
+        <TextEquiv>
+          <Unicode>Von Herrn Oberbaurath Gerwig habe ich dieser Tage</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1487254052628_3132">
+        <Coords points="117,614 1086,619 1086,669 117,664"/>
+        <Baseline points="117,659 1086,664"/>
+        <TextEquiv>
+          <Unicode>einige Notizen über den Mont-Cenis Tunnel erhalten.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1487254058598_3133">
+        <Coords points="109,660 1099,658 1099,708 109,710"/>
+        <Baseline points="109,705 1099,703"/>
+        <TextEquiv>
+          <Unicode>Den Bericht der technischen Comission über die Arbeiten</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1487254066220_3134">
+        <Coords points="126,704 1107,702 1107,752 126,754"/>
+        <Baseline points="126,749 1107,747"/>
+        <TextEquiv>
+          <Unicode>am Mont–Cenis habe ich, mit der Feder in der Hand, durch-</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1487254077854_3135">
+        <Coords points="94,746 1099,745 1099,795 94,796"/>
+        <Baseline points="94,791 1099,790"/>
+        <TextEquiv>
+          <Unicode>gelesen. Ich hoffe auf weitere Notizen durch einen Par-</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1487254082779_3136">
+        <Coords points="125,788 1095,787 1095,837 125,838"/>
+        <Baseline points="125,833 1095,832"/>
+        <TextEquiv>
+          <Unicode>laments-Abgeordneten in Mailand zu erhalten. Da das</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1487254088726_3137">
+        <Coords points="125,831 1107,831 1107,881 125,881"/>
+        <Baseline points="125,876 1107,876"/>
+        <TextEquiv>
+          <Unicode>Längen–Profil bis Biasca zu Anfang oder bis Mitte der</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1487254096025_3138">
+        <Coords points="127,875 1097,874 1097,924 127,925"/>
+        <Baseline points="127,920 1097,919"/>
+        <TextEquiv>
+          <Unicode>nächsten Woche aufgetragen sein wird, so werde ich Herrn</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1487254106087_3139">
+        <Coords points="105,917 1108,917 1108,967 105,967"/>
+        <Baseline points="105,962 1108,962"/>
+        <TextEquiv>
+          <Unicode>Gerwig hievon benachrichtigen, und ihn einladen, undhie-</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1487254112557_3140">
+        <Coords points="126,960 1101,959 1101,1009 126,1010"/>
+        <Baseline points="126,1005 1101,1004"/>
+        <TextEquiv>
+          <Unicode>von, so wie von dem Fortgang unserer Arbeiten hier</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1487254120282_3141">
+        <Coords points="114,1004 1096,1003 1096,1053 114,1054"/>
+        <Baseline points="114,1049 1096,1048"/>
+        <TextEquiv>
+          <Unicode>Einsicht zu nehmen. Vielleicht kann er mir sein Gegen-</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1487254136452_3142">
+        <Coords points="115,1046 1111,1043 1111,1093 115,1096"/>
+        <Baseline points="115,1091 1111,1088"/>
+        <TextEquiv>
+          <Unicode>Projekt einer Bahn-Linie mitbringen, das er auf einen</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1487254144920_3143">
+        <Coords points="134,1090 1112,1088 1112,1138 134,1140"/>
+        <Baseline points="134,1135 1112,1133"/>
+        <TextEquiv>
+          <Unicode>von Herrn Regierungsrath Zingg erbetenen Plan einzeich-</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1487254150834_3144">
+        <Coords points="138,1134 1107,1130 1107,1180 138,1184"/>
+        <Baseline points="138,1179 1107,1175"/>
+        <TextEquiv>
+          <Unicode>nen will. Herr Gerwig hatte ursprünglich die Meinung</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1487254158438_3145">
+        <Coords points="138,1176 1110,1175 1110,1225 138,1226"/>
+        <Baseline points="138,1221 1110,1220"/>
+        <TextEquiv>
+          <Unicode>daß diese letzteren ausschliesslich zu wählen und unsrem</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1487254165981_3146">
+        <Coords points="118,1221 1110,1218 1110,1268 118,1271"/>
+        <Baseline points="118,1266 1110,1263"/>
+        <TextEquiv>
+          <Unicode>Gutachten zu Grunde zu legen sei. In Folge meiner tech-</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1487254172961_3147">
+        <Coords points="137,1264 1119,1262 1119,1312 137,1314"/>
+        <Baseline points="137,1309 1119,1307"/>
+        <TextEquiv>
+          <Unicode>nischen und mit Rücksicht auf den Bahnbetrieb gemachten Einwen-</Unicode>
+        </TextEquiv>
+      </TextLine>
+    </TextRegion>
+  </Page>
+</PcGts>

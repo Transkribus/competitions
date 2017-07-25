@@ -1,0 +1,3 @@
+[submodule "scriptnet/competitions/executables/Icdar17KwsEval/source"]
+	path = scriptnet/competitions/executables/Icdar17KwsEval/source
+	url = https://github.com/jpuigcerver/kws-eval.git

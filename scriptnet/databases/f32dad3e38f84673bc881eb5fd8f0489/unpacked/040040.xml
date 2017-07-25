@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+  <Metadata>
+    <Creator>htrsh_pagexml_create</Creator>
+    <Created>2017-01-30T12:27:22</Created>
+    <LastChange>2017-02-17T11:51:34.966+01:00</LastChange>
+  </Metadata>
+  <Page imageFilename="040040.jpg" imageWidth="1140" imageHeight="1440">
+    <ReadingOrder>
+      <OrderedGroup id="ro_1487328695245" caption="Regions reading order">
+        <RegionRefIndexed index="0" regionRef="pg"/>
+      </OrderedGroup>
+    </ReadingOrder>
+    <TextRegion id="pg">
+      <Coords points="104,62 1137,63 1137,1357 104,1361"/>
+      <TextLine id="line_1486984474535_1527">
+        <Coords points="165,96 1106,71 1107,121 166,146"/>
+        <Baseline points="166,141 1107,116"/>
+        <TextEquiv>
+          <Unicode>Berechnung f 3000- f 4000 pr Kilometer fehlen, um die Obligationszinse</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486984539149_1528">
+        <Coords points="153,134 1083,108 1084,158 154,184"/>
+        <Baseline points="154,179 1084,158"/>
+        <TextEquiv>
+          <Unicode>zu bezahlen, so daß also nicht nur Stamm Aktien &amp;amp; Prioritäts-Aktien leer</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486984557650_1529">
+        <Coords points="172,169 1083,143 1084,193 173,219"/>
+        <Baseline points="173,214 1084,188"/>
+        <TextEquiv>
+          <Unicode>ausgehen, sondern sich noch überdies ein Defizit von F 825.000–1.100.000</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486984566454_1530">
+        <Coords points="169,206 341,202 342,252 170,256"/>
+        <Baseline points="170,251 342,247"/>
+        <TextEquiv>
+          <Unicode>ergeben wird.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486984588653_1531">
+        <Coords points="249,240 1096,208 1098,258 251,290"/>
+        <Baseline points="251,285 1098,253"/>
+        <TextEquiv>
+          <Unicode>Ich fand mich daher veranlaßt, ihn direkt zu fragen, ob er eine Wahl in</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486984653558_1532">
+        <Coords points="160,278 1095,250 1096,300 161,328"/>
+        <Baseline points="161,323 1096,295"/>
+        <TextEquiv>
+          <Unicode>den Verwaltungsrath der schweiz. Kreditanstalt annehmen würde, was er ganz</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486984661313_1533">
+        <Coords points="142,308 447,305 447,355 142,358"/>
+        <Baseline points="142,353 447,350"/>
+        <TextEquiv>
+          <Unicode>ohne Umschweife bejahte.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486984668354_1534">
+        <Coords points="256,346 1100,328 1101,378 257,396"/>
+        <Baseline points="257,391 1101,373"/>
+        <TextEquiv>
+          <Unicode>Es war dieses am Tage nach meiner vorletzten Anwesenheit in Zürich,</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486984676621_1535">
+        <Coords points="134,386 649,378 1113,362 1115,412 650,428 135,436"/>
+        <Baseline points="135,431 650,423 1115,407"/>
+        <TextEquiv>
+          <Unicode>&amp;amp; als Sie mir das letzte Mal dann von Hr. F. sprachen, war ich darüber etwas</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486984691488_1536">
+        <Coords points="154,425 447,421 1097,401 1098,451 448,471 155,475"/>
+        <Baseline points="155,470 448,466 1098,446"/>
+        <TextEquiv>
+          <Unicode>betroffen, weil ich daraus schließen mußte, ich habe Sie das vorige Mal miß-</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486984702908_1537">
+        <Coords points="155,459 429,460 1069,436 1071,486 430,510 155,509"/>
+        <Baseline points="155,504 430,505 1071,481"/>
+        <TextEquiv>
+          <Unicode>verstanden, &amp;amp; meine Schritte bei Herrn T. seien daher voreilige gewesen.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486984712975_1538">
+        <Coords points="258,499 624,503 1113,484 1115,534 625,553 258,549"/>
+        <Baseline points="258,544 625,548 1115,529"/>
+        <TextEquiv>
+          <Unicode>Meine Ansichten über die Wünschbarkeit der Aufstellung eines engern</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486984722973_1539">
+        <Coords points="150,532 356,543 1131,524 1132,574 355,593 148,582"/>
+        <Baseline points="148,577 355,588 1132,569"/>
+        <TextEquiv>
+          <Unicode>Comité haben sich nicht geändert. Ich wünsche, daß ich mich in meinem Urtheil</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486984733572_1540">
+        <Coords points="168,582 535,584 1076,561 1078,611 536,634 168,632"/>
+        <Baseline points="168,627 536,629 1078,606"/>
+        <TextEquiv>
+          <Unicode>über Herrn H. täuschen möge, allein ich gestehe Ihnen aufrichtig, daß ich</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486984825838_1541">
+        <Coords points="172,625 505,629 1079,604 1081,654 506,679 171,675"/>
+        <Baseline points="171,670 506,674 1081,649"/>
+        <TextEquiv>
+          <Unicode>bei der Sache nie ganz ruhig bin, und daß auch die letzte Verhandlung mich</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486984834384_1542">
+        <Coords points="166,662 457,670 1114,650 1115,700 457,720 165,712"/>
+        <Baseline points="165,707 457,715 1115,695"/>
+        <TextEquiv>
+          <Unicode>wieder in meinen Besorgnissen bestärkt hat, Herr H. möchte gelegentlich wie-</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486984843088_1543">
+        <Coords points="158,700 455,707 1109,691 1110,741 455,757 157,750"/>
+        <Baseline points="157,745 455,752 1110,736"/>
+        <TextEquiv>
+          <Unicode>der Bockssprünge machen. Um Statuten &amp;amp; Geschäfts Ordnungen bekümmert er</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486984856681_1544">
+        <Coords points="146,733 523,743 1096,730 1097,780 523,793 145,783"/>
+        <Baseline points="145,778 523,788 1097,775"/>
+        <TextEquiv>
+          <Unicode>sich nichts, &amp;amp; seine feinen Combinationen scheinen mir die namliche Tendenz</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486984865435_1545">
+        <Coords points="151,774 429,781 1093,770 1094,820 429,831 150,824"/>
+        <Baseline points="150,819 429,826 1094,815"/>
+        <TextEquiv>
+          <Unicode>zu beurkunden, welche anderwärts die Creditanstalten so sehr in Verruf</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486984879031_1546">
+        <Coords points="136,810 551,820 1079,804 1080,854 551,870 135,860"/>
+        <Baseline points="135,855 551,865 1080,849"/>
+        <TextEquiv>
+          <Unicode>gebracht hat. Wenn ich daher das letzte Mal das Vertrauens Votum nicht</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486984892702_1547">
+        <Coords points="170,854 482,860 1131,841 1132,891 482,910 169,904"/>
+        <Baseline points="169,899 482,905 1132,886"/>
+        <TextEquiv>
+          <Unicode>eifriger bekämpft habe, so geschah es nur, weil es von Herrn Rüttimann bean-</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486984906066_1548">
+        <Coords points="162,893 508,900 857,886 859,936 508,950 161,943"/>
+        <Baseline points="161,938 508,945 859,931"/>
+        <TextEquiv>
+          <Unicode>tragt wurde, &amp;amp; gar nicht, weil ich dieses Vertrauen theile.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486984921566_1549">
+        <Coords points="264,937 583,937 1098,920 1099,970 584,987 264,987"/>
+        <Baseline points="264,982 584,982 1099,965"/>
+        <TextEquiv>
+          <Unicode>Diese Nothwendigkeit, ein engeres Comité aufzustellen, ist es nun,</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486984933224_1550">
+        <Coords points="167,969 351,979 624,978 1076,959 1078,1009 625,1028 350,1029 165,1019"/>
+        <Baseline points="165,1014 350,1024 625,1023 1078,1004"/>
+        <TextEquiv>
+          <Unicode>warum ich einen Werth auf die Wahl des Hr. T. setze. Herr F. ist ein</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486984952526_1551">
+        <Coords points="149,1008 551,1019 865,1012 1095,996 1098,1046 867,1062 551,1069 148,1058"/>
+        <Baseline points="148,1053 551,1064 867,1057 1098,1041"/>
+        <TextEquiv>
+          <Unicode>sehr achtungswerther Mann, &amp;amp; erfahren in seiner Spezialität, und ungeachtet</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486984971663_1552">
+        <Coords points="161,1047 413,1058 795,1054 1106,1042 1108,1092 796,1104 412,1108 159,1097"/>
+        <Baseline points="159,1092 412,1103 796,1099 1108,1087"/>
+        <TextEquiv>
+          <Unicode>der untergeordneten Stellung, die er bis dahin eingenommen, und als Agent für</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486984983195_1553">
+        <Coords points="161,1085 596,1096 1133,1083 1134,1133 596,1146 160,1135"/>
+        <Baseline points="160,1130 596,1141 1134,1128"/>
+        <TextEquiv>
+          <Unicode>auswärtige Bwollhäuser – was mit der Funktion eines Provisionsreisenden</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486984995106_1554">
+        <Coords points="161,1123 545,1128 1095,1120 1096,1170 545,1178 160,1173"/>
+        <Baseline points="160,1168 545,1173 1096,1165"/>
+        <TextEquiv>
+          <Unicode>ungefähr übereinstimmt – jezt noch einnimmt, hätte ich keine Einwendung</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486985004775_1555">
+        <Coords points="154,1159 424,1166 1079,1155 1080,1205 424,1216 153,1209"/>
+        <Baseline points="153,1204 424,1211 1099,1200"/>
+        <TextEquiv>
+          <Unicode>gegen seine Wahl zu machen gehabt, wenn es sich um die Wahl eines</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486985013571_1556">
+        <Coords points="160,1200 535,1202 1098,1178 1100,1228 536,1252 160,1250"/>
+        <Baseline points="163,1247 539,1249 1103,1225"/>
+        <TextEquiv>
+          <Unicode>einfachen Mitglieds gehandelt hätte. Für eine Stelle im engern Comité</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486985042283_1557">
+        <Coords points="161,1235 543,1241 1110,1215 1112,1265 544,1291 160,1285"/>
+        <Baseline points="160,1280 544,1286 1112,1260"/>
+        <TextEquiv>
+          <Unicode>ist aber erforderlich, daß der zu Wählende vor Allem aus Zeit habe,</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486985061352_1558">
+        <Coords points="162,1273 439,1281 1103,1253 1105,1303 439,1331 161,1323"/>
+        <Baseline points="161,1318 439,1326 1105,1298"/>
+        <TextEquiv>
+          <Unicode>um auf den ersten Ruf, wenn sich ein Geschäft darbietet, bereit zu sein,</Unicode>
+        </TextEquiv>
+      </TextLine>
+    </TextRegion>
+  </Page>
+</PcGts>

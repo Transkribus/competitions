@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+    <Metadata>
+        <Creator>htrsh_pagexml_create</Creator>
+        <Created>2017-01-30T12:23:05</Created>
+        <LastChange>2017-06-30T18:37:39.824+02:00</LastChange>
+    </Metadata>
+    <Page imageFilename="040030.jpg" imageWidth="1191" imageHeight="1440">
+        <ReadingOrder>
+            <OrderedGroup id="ro_1498840659894" caption="Regions reading order">
+                <RegionRefIndexed index="0" regionRef="TextRegion_1487259810075_87"/>
+                <RegionRefIndexed index="1" regionRef="TextRegion_1487259808084_84"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <TextRegion id="TextRegion_1487259810075_87" custom="readingOrder {index:0;}">
+            <Coords points="1187,290 10,290 10,7 1187,7"/>
+            <TextLine id="line_1486552149396_76" custom="readingOrder {index:0;}">
+                <Coords points="26,8 1160,12 1164,40 29,41"/>
+                <Baseline points="29,36 1164,35"/>
+                <TextEquiv>
+                    <Unicode>auf eine recht schöne u. rührende Gratulationsrede für den künftigen Hochehrwürdigen zu studiren! Du magst sie dann vorläufig</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1486552155978_77" custom="readingOrder {index:1;}">
+                <Coords points="26,14 1171,16 1171,66 26,64"/>
+                <Baseline points="26,59 1171,61"/>
+                <TextEquiv>
+                    <Unicode>in Bereitschaft halten u. an Deinen vielgeliebten Freund in Uster adressiren; nur nicht nach Schwzbch, wo der Geringsten Gering-</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1486552163203_78" custom="readingOrder {index:2;}">
+                <Coords points="23,34 1172,40 1172,90 23,84"/>
+                <Baseline points="23,82 1172,88"/>
+                <TextEquiv>
+                    <Unicode>ster in stiller Zurückgezogenheit wohnt u. sein Lebtag nie weder in Versuchung noch in d. Fall kommen wird, etwas mehr u. Höheres</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1486552180923_79" custom="readingOrder {index:3;}">
+                <Coords points="22,64 1161,60 1161,110 22,114"/>
+                <Baseline points="22,109 1161,105"/>
+                <TextEquiv>
+                    <Unicode>zu werden, als er ist. Und selbst wenn ich Erzbischof von Canterburi würde, möchte ich von Dir, mein Lieber, nie eine</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1486552188326_80" custom="readingOrder {index:4;}">
+                <Coords points="31,86 1154,82 1154,132 31,136"/>
+                <Baseline points="31,131 916,125 1155,122"/>
+                <TextEquiv>
+                    <Unicode>andere Anrede hören, als die, womit Du mich in Deinem l. Schreiben begrüßtest, sowie auch ich, magst Du in der Welt</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1486552197726_81" custom="readingOrder {index:5;}">
+                <Coords points="32,108 1170,104 1170,154 32,158"/>
+                <Baseline points="32,158 776,155 1170,146"/>
+                <TextEquiv>
+                    <Unicode>noch werden, was Du willst, Bürgermeister in Zürich, Landammann der unirten Helvetika od. gar Gemeindschreiber</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1486552358582_82" custom="readingOrder {index:6;}">
+                <Coords points="35,138 1166,135 1166,185 35,188"/>
+                <Baseline points="35,183 1166,180"/>
+                <TextEquiv>
+                    <Unicode>in Enge, ich mir, wenigstens in unsern Privatverhältnissen, das Vorrecht ausbitten möchte, Dich meinen lieben,</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1486552368978_83" custom="readingOrder {index:7;}">
+                <Coords points="34,166 1174,161 1174,211 34,216"/>
+                <Baseline points="34,211 1174,206"/>
+                <TextEquiv>
+                    <Unicode>theuern Alfred nennen zu dürfen. Das warst u. bist Du meinem Herzen, seitdem ich Dich kennen lernte, u. das sollst</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1486552400739_84" custom="readingOrder {index:8;}">
+                <Coords points="40,190 1172,181 1172,231 40,240"/>
+                <Baseline points="41,239 1172,226"/>
+                <TextEquiv>
+                    <Unicode>u. wirst Du mir Zeit Lebens bleiben, selbst dann, wenn ich mit meinen Äußerungen dessen, was mein Herz für Dich fühlt,</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1486552424501_85" custom="readingOrder {index:9;}">
+                <Coords points="34,217 1151,208 1151,258 34,267"/>
+                <Baseline points="37,265 1154,256"/>
+                <TextEquiv>
+                    <Unicode>zurückzuhalten durch äußere Verhältnisse genöthigt wäre. Also immerhin sei weder von Wohl- noch gar von Hochehrwürden die</Unicode>
+                </TextEquiv>
+            </TextLine>
+        </TextRegion>
+        <TextRegion id="TextRegion_1487259808084_84" custom="readingOrder {index:1;}">
+            <Coords points="1184,1339 10,1339 10,1053 1184,1053"/>
+            <TextLine id="line_1486552448204_86" custom="readingOrder {index:0;}">
+                <Coords points="61,1084 1143,1069 1144,1119 62,1134"/>
+                <Baseline points="62,1129 1144,1114"/>
+                <TextEquiv>
+                    <Unicode>Rede, wenn Du etwa in einem künft. Briefchen mich begrüßen u. erfreuen willst. Wahre alte Titulatur ist mir die</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1486552452682_87" custom="readingOrder {index:1;}">
+                <Coords points="40,1110 540,1104 541,1154 41,1160"/>
+                <Baseline points="41,1155 541,1149"/>
+                <TextEquiv>
+                    <Unicode>allein erwünschte; denn sie ist die freundlichste u. herzliche!</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1486552462916_88" custom="readingOrder {index:2;}">
+                <Coords points="81,1137 1180,1129 1180,1179 81,1187"/>
+                <Baseline points="81,1182 1180,1174"/>
+                <TextEquiv>
+                    <Unicode>Nun aber, mein Lieber, Gott befohlen! Ich schließe, um sogleich über d. Berg nach Belvoir zu pilgern, in der freu-</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1486552475408_89" custom="readingOrder {index:3;}">
+                <Coords points="42,1161 1180,1154 1180,1204 42,1211"/>
+                <Baseline points="42,1206 1180,1199"/>
+                <TextEquiv>
+                    <Unicode>digen Hoffnung, Deine Lieben dort wohl anzutreffen u. neue günstige Nachrichten v. Dir zu vernehmen! Meine besten</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1486552483430_90" custom="readingOrder {index:4;}">
+                <Coords points="34,1190 1134,1179 1134,1229 34,1240"/>
+                <Baseline points="34,1235 1134,1224"/>
+                <TextEquiv>
+                    <Unicode>Wünsche auf Deine Reise sowie für Dein stetes Glück u. Wohlergehen! – Mit herzlicher Liebe u. steter Treue</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1486552487875_91" custom="readingOrder {index:5;}">
+                <Coords points="922,1205 980,1206 979,1256 921,1255"/>
+                <Baseline points="921,1250 979,1251"/>
+                <TextEquiv>
+                    <Unicode>Dein</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1486552492588_92" custom="readingOrder {index:6;}">
+                <Coords points="886,1235 1055,1233 1056,1283 887,1285"/>
+                <Baseline points="887,1280 1056,1278"/>
+                <TextEquiv>
+                    <Unicode>H. Schweizer.</Unicode>
+                </TextEquiv>
+            </TextLine>
+        </TextRegion>
+    </Page>
+</PcGts>

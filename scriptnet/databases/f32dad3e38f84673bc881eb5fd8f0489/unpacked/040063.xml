@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+    <Metadata>
+        <Creator>TRP</Creator>
+        <Created>2016-12-23T09:50:53.187+01:00</Created>
+        <LastChange>2017-06-30T19:49:38.491+02:00</LastChange>
+    </Metadata>
+    <Page imageFilename="040063.jpg" imageWidth="2698" imageHeight="4512">
+        <ReadingOrder>
+            <OrderedGroup id="ro_1498844978652" caption="Regions reading order">
+                <RegionRefIndexed index="0" regionRef="region_1484298204770_2"/>
+                <RegionRefIndexed index="1" regionRef="region_1484298196535_1"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <TextRegion id="region_1484298204770_2" custom="readingOrder {index:0;}">
+            <Coords points="1334,125 2699,125 2699,4484 1334,4484"/>
+            <TextLine id="line_1484298233631_4" custom="readingOrder {index:0;}">
+                <Coords points="1631,244 1807,216 2610,214 2610,264 1811,266 1639,293"/>
+                <Baseline points="1638,288 1811,261 2610,259"/>
+                <TextEquiv>
+                    <Unicode>Noten zum Text.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1484298239241_5" custom="readingOrder {index:1;}">
+                <Coords points="1424,362 1763,358 2395,362 2664,356 2665,406 2395,412 1763,408 1425,412"/>
+                <Baseline points="1425,407 1763,403 2395,407 2665,401"/>
+                <TextEquiv>
+                    <Unicode>a) Ich kann nicht ganz</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1484298250413_6" custom="readingOrder {index:2;}">
+                <Coords points="1436,508 1874,496 2307,475 2563,469 2651,476 2696,488 2689,537 2643,525 2562,519 2309,525 1876,546 1437,558"/>
+                <Baseline points="1437,553 1876,541 2309,520 2562,514 2644,520 2690,532"/>
+                <TextEquiv>
+                    <Unicode>einstimmen mit dem, was Herr</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1484298257976_7" custom="readingOrder {index:3;}">
+                <Coords points="1464,627 1861,623 2044,636 2512,613 2689,609 2690,659 2514,663 2044,686 1860,673 1464,677"/>
+                <Baseline points="1464,672 1860,668 2044,681 2514,658 2690,654"/>
+                <TextEquiv>
+                    <Unicode>Hëllmann auf der ersten Seite</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1484298265741_8" custom="readingOrder {index:4;}">
+                <Coords points="1478,749 1855,742 2418,745 2589,742 2695,753 2689,803 2587,792 2418,795 1855,792 1479,799"/>
+                <Baseline points="1479,794 1855,787 2418,790 2587,787 2690,798"/>
+                <TextEquiv>
+                    <Unicode>seines Blattes sagt. Diejenigen,</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1484298279398_9" custom="readingOrder {index:5;}">
+                <Coords points="1426,870 1896,876 2218,859 2504,860 2679,859 2679,909 2504,910 2219,909 1897,926 1425,920"/>
+                <Baseline points="1425,915 1897,921 2219,904 2504,905 2679,904"/>
+                <TextEquiv>
+                    <Unicode>däucht mir, haben Recht, welche</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1484298284212_10" custom="readingOrder {index:6;}">
+                <Coords points="1424,993 1838,985 2666,975 2667,1025 1839,1035 1425,1043"/>
+                <Baseline points="1425,1038 1839,1030 2667,1020"/>
+                <TextEquiv>
+                    <Unicode>da meinen, bis auf die Begründung</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1484298290399_11" custom="readingOrder {index:7;}">
+                <Coords points="1403,1110 1796,1108 2348,1100 2637,1110 2635,1160 2348,1150 1796,1158 1403,1160"/>
+                <Baseline points="1403,1155 1796,1153 2348,1145 2635,1155"/>
+                <TextEquiv>
+                    <Unicode>des sogenannten Teutschen Reichs</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1484298295869_12" custom="readingOrder {index:8;}">
+                <Coords points="1384,1219 1763,1223 2160,1223 2638,1213 2639,1263 2160,1273 1763,1273 1384,1269"/>
+                <Baseline points="1384,1264 1763,1268 2160,1268 2639,1258"/>
+                <TextEquiv>
+                    <Unicode>im engern Sinn (bis zum Tod</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1484298305323_13" custom="readingOrder {index:9;}">
+                <Coords points="1400,1328 1585,1332 1726,1344 1948,1334 2317,1342 2649,1342 2649,1392 2317,1392 1949,1384 1725,1394 1583,1382 1399,1378"/>
+                <Baseline points="1399,1373 1583,1377 1725,1389 1949,1379 2317,1387 2649,1387"/>
+                <TextEquiv>
+                    <Unicode>Ludwigs des Frommen) hange d</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1484298311401_14" custom="readingOrder {index:10;}">
+                <Coords points="1394,1457 1709,1464 2060,1459 2666,1461 2666,1511 2060,1509 1709,1514 1393,1507"/>
+                <Baseline points="1393,1502 1709,1509 2060,1504 2666,1506"/>
+                <TextEquiv>
+                    <Unicode>Geschichte aller germanischen</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1484298320307_15" custom="readingOrder {index:11;}">
+                <Coords points="1403,1566 2052,1570 2522,1585 2677,1597 2674,1647 2520,1635 2051,1620 1403,1616"/>
+                <Baseline points="1403,1611 2051,1615 2520,1630 2674,1642"/>
+                <TextEquiv>
+                    <Unicode>Stämme noch viel enger zusammen</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1484298328026_16" custom="readingOrder {index:12;}">
+                <Coords points="1408,1679 1886,1689 2162,1687 2496,1691 2628,1702 2695,1745 2673,1787 2612,1750 2494,1741 2162,1737 1886,1739 1407,1729"/>
+                <Baseline points="1407,1724 1886,1734 2162,1732 2494,1736 2614,1745 2676,1783"/>
+                <TextEquiv>
+                    <Unicode>als späterhin, wo sich alles mehr</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1484298336245_17" custom="readingOrder {index:13;}">
+                <Coords points="1408,1792 1805,1802 2158,1798 2560,1806 2685,1831 2675,1880 2554,1856 2158,1848 1805,1852 1407,1842"/>
+                <Baseline points="1407,1837 1805,1847 2158,1843 2555,1851 2676,1875"/>
+                <TextEquiv>
+                    <Unicode>löst und zu eigener besonderer</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1484298344514_18" custom="readingOrder {index:14;}">
+                <Coords points="1407,1915 1614,1917 1907,1909 2252,1919 2569,1913 2689,1935 2680,1984 2565,1963 2252,1969 1907,1959 1614,1967 1407,1965"/>
+                <Baseline points="1407,1960 1614,1962 1907,1954 2252,1964 2565,1958 2681,1979"/>
+                <TextEquiv>
+                    <Unicode>Gestalt entwickelt. Ich mögte</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1484298352358_19" custom="readingOrder {index:15;}">
+                <Coords points="1388,2034 1754,2028 2291,2032 2503,2043 2688,2047 2687,2097 2501,2093 2290,2082 1754,2078 1389,2084"/>
+                <Baseline points="1389,2079 1754,2073 2290,2077 2501,2088 2687,2092"/>
+                <TextEquiv>
+                    <Unicode>also den Tornacensis P. Diacon</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1484298359999_20" custom="readingOrder {index:16;}">
+                <Coords points="1396,2119 1896,2119 2190,2123 2680,2140 2678,2190 2189,2173 1896,2169 1396,2169"/>
+                <Baseline points="1396,2164 1896,2164 2189,2168 2678,2185"/>
+                <TextEquiv>
+                    <Unicode>Gregor. Tur. Fredegar etc. aus</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1484298367796_21" custom="readingOrder {index:17;}">
+                <Coords points="1395,2228 1749,2224 2161,2232 2564,2232 2694,2248 2691,2297 2561,2282 2161,2282 1749,2274 1396,2278"/>
+                <Baseline points="1396,2273 1749,2269 2161,2277 2561,2277 2692,2292"/>
+                <TextEquiv>
+                    <Unicode>der Sammlung nicht ausgeschlossen</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1484298375093_22" custom="readingOrder {index:18;}">
+                <Coords points="1369,2339 1657,2339 2191,2337 2497,2337 2641,2353 2635,2403 2494,2387 2191,2387 1657,2389 1369,2389"/>
+                <Baseline points="1369,2384 1657,2384 2191,2382 2494,2382 2636,2398"/>
+                <TextEquiv>
+                    <Unicode>wissen; ja ich mögte selbst</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1484298382561_23" custom="readingOrder {index:19;}">
+                <Coords points="1409,2458 1967,2456 2312,2456 2453,2466 2670,2458 2672,2508 2452,2516 2310,2506 1967,2506 1409,2508"/>
+                <Baseline points="1409,2503 1967,2501 2310,2501 2452,2511 2672,2503"/>
+                <TextEquiv>
+                    <Unicode>das Wenige, was j. H</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1484298387968_24" custom="readingOrder {index:20;}">
+                <Coords points="1393,2585 1900,2579 2376,2575 2686,2586 2684,2636 2375,2625 1900,2629 1394,2635"/>
+                <Baseline points="1394,2630 1900,2624 2375,2620 2684,2631"/>
+                <TextEquiv>
+                    <Unicode>die Spanier und Angelsachsen</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1484298393577_25" custom="readingOrder {index:21;}">
+                <Coords points="1366,2717 1766,2711 2166,2711 2649,2723 2648,2773 2165,2761 1766,2761 1367,2767"/>
+                <Baseline points="1367,2762 1766,2756 2165,2756 2648,2768"/>
+                <TextEquiv>
+                    <Unicode>vom 5n bis 9n Jahrhundert</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1484298401140_26" custom="readingOrder {index:22;}">
+                <Coords points="1369,2842 2096,2842 2661,2844 2661,2894 2096,2892 1369,2892"/>
+                <Baseline points="1369,2887 2096,2887 2661,2889"/>
+                <TextEquiv>
+                    <Unicode>von histor. Denkmälern haben</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1484298404968_27" custom="readingOrder {index:23;}">
+                <Coords points="1375,2965 2198,2957 2675,2974 2673,3024 2197,3007 1375,3015"/>
+                <Baseline points="1375,3010 2197,3002 2673,3019"/>
+                <TextEquiv>
+                    <Unicode>als hieher gehörig mit ein</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1484298409671_28" custom="readingOrder {index:24;}">
+                <Coords points="1382,3095 2034,3088 2658,3099 2657,3149 2034,3138 1382,3145"/>
+                <Baseline points="1382,3140 2034,3133 2657,3144"/>
+                <TextEquiv>
+                    <Unicode>geschlossen wissen, zumal</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1484298414171_29" custom="readingOrder {index:25;}">
+                <Coords points="1392,3231 2054,3229 2673,3214 2674,3264 2055,3279 1392,3281"/>
+                <Baseline points="1392,3276 2055,3274 2674,3259"/>
+                <TextEquiv>
+                    <Unicode>da dies keine xxx xxx</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1484298420890_30" custom="readingOrder {index:26;}">
+                <Coords points="1406,3368 2002,3363 2256,3365 2686,3349 2688,3399 2257,3415 2002,3413 1406,3418"/>
+                <Baseline points="1406,3413 2002,3408 2257,3410 2688,3394"/>
+                <TextEquiv>
+                    <Unicode>giebt; ja selbst die Skandina¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1484298428156_31" custom="readingOrder {index:27;}">
+                <Coords points="1381,3493 1555,3501 1961,3489 2541,3480 2696,3509 2695,3560 2537,3530 1962,3539 1555,3551 1379,3543"/>
+                <Baseline points="1379,3538 1555,3546 1962,3534 2537,3525 2696,3555"/>
+                <TextEquiv>
+                    <Unicode>vier würde ich mit einschließen;</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1484298435063_32" custom="readingOrder {index:28;}">
+                <Coords points="1384,3606 1843,3614 2121,3612 2645,3621 2644,3671 2121,3662 1843,3664 1383,3656"/>
+                <Baseline points="1383,3651 1843,3659 2121,3657 2644,3666"/>
+                <TextEquiv>
+                    <Unicode>die haben aber aus jener</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1484298441344_33" custom="readingOrder {index:29;}">
+                <Coords points="1368,3729 1825,3736 2309,3735 2685,3744 2684,3794 2309,3785 1825,3786 1367,3779"/>
+                <Baseline points="1367,3774 1825,3781 2309,3780 2684,3789"/>
+                <TextEquiv>
+                    <Unicode>Zeit bloß mythische Denkmäler,</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1484298449063_34" custom="readingOrder {index:30;}">
+                <Coords points="1390,3861 1870,3863 2344,3867 2644,3853 2646,3903 2345,3917 1870,3913 1390,3911"/>
+                <Baseline points="1390,3906 1870,3908 2345,3912 2646,3898"/>
+                <TextEquiv>
+                    <Unicode>die, wo sie historisch sind,</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1484298457516_35" custom="readingOrder {index:31;}">
+                <Coords points="1359,3993 1454,3980 2031,3982 2421,3978 2596,3986 2692,3999 2685,4049 2592,4036 2420,4028 2031,4032 1457,4030 1366,4043"/>
+                <Baseline points="1365,4038 1457,4025 2031,4027 2420,4023 2592,4031 2686,4044"/>
+                <TextEquiv>
+                    <Unicode>doch wenigstens von uns Teutschen</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1484298463985_36" custom="readingOrder {index:32;}">
+                <Coords points="1394,4100 1918,4104 2669,4110 2669,4160 1918,4154 1394,4150"/>
+                <Baseline points="1394,4145 1918,4149 2669,4155"/>
+                <TextEquiv>
+                    <Unicode>aus Mangel an Hülfsmitteln</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1484298469470_37" custom="readingOrder {index:33;}">
+                <Coords points="1369,4227 2130,4225 2658,4219 2659,4269 2130,4275 1369,4277"/>
+                <Baseline points="1369,4272 2130,4270 2659,4264"/>
+                <TextEquiv>
+                    <Unicode>und Vorkenntnißen bis zulzt noch </Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1484298474767_38" custom="readingOrder {index:34;}">
+                <Coords points="1367,4346 1914,4359 2645,4340 2646,4390 1914,4409 1366,4396"/>
+                <Baseline points="1366,4391 1914,4404 2646,4385"/>
+                <TextEquiv>
+                    <Unicode>nicht kritisch behandelt werden kä</Unicode>
+                </TextEquiv>
+            </TextLine>
+        </TextRegion>
+        <TextRegion id="region_1484298196535_1" custom="readingOrder {index:1;}">
+            <Coords points="546,672 1077,672 1077,869 546,869"/>
+            <TextLine id="line_1484298222036_3" custom="readingOrder {index:0;}">
+                <Coords points="574,763 1045,721 1049,771 578,813"/>
+                <Baseline points="578,808 1049,766"/>
+                <TextEquiv>
+                    <Unicode>15 Jun 1818</Unicode>
+                </TextEquiv>
+            </TextLine>
+        </TextRegion>
+    </Page>
+</PcGts>

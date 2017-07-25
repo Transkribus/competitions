@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+  <Metadata>
+    <Creator>TRP</Creator>
+    <Created>2016-12-22T15:32:49.030+01:00</Created>
+    <LastChange>2017-01-20T09:31:19.380+01:00</LastChange>
+  </Metadata>
+  <Page imageFilename="040037.jpg" imageWidth="1264" imageHeight="1648">
+    <ReadingOrder>
+      <OrderedGroup id="ro_1484901079421" caption="Regions reading order">
+        <RegionRefIndexed index="0" regionRef="region_1483108649823_55"/>
+      </OrderedGroup>
+    </ReadingOrder>
+    <TextRegion id="region_1483108649823_55">
+      <Coords points="34,33 1263,33 1263,1645 34,1645"/>
+      <TextLine id="line_1483108664079_56">
+        <Coords points="67,139 776,93 1189,84 1190,134 778,143 70,189"/>
+        <Baseline points="70,184 778,138 1190,129"/>
+        <TextEquiv>
+          <Unicode>kennen zu lernen und sende Ihnen</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1483108669368_57">
+        <Coords points="63,246 418,225 1135,180 1138,230 421,275 66,296"/>
+        <Baseline points="66,291 421,270 1138,225"/>
+        <TextEquiv>
+          <Unicode>als Zeichen meiner wärmsten</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1483108677384_58">
+        <Coords points="80,364 532,328 780,321 1213,280 1217,330 783,371 534,378 84,414"/>
+        <Baseline points="84,409 534,373 783,366 1217,325"/>
+        <TextEquiv>
+          <Unicode>Anerkennung beifolgendes Drama.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1483108682941_59">
+        <Coords points="62,487 745,433 1253,398 1256,448 748,483 66,537"/>
+        <Baseline points="66,532 748,478 1256,443"/>
+        <TextEquiv>
+          <Unicode>Ich könnte aus meiner eignen Jugend¬</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1483108701565_60">
+        <Coords points="77,599 600,574 732,549 1254,521 1256,571 738,599 606,624 79,649"/>
+        <Baseline points="79,644 605,619 737,594 1256,566"/>
+        <TextEquiv>
+          <Unicode>geschichte Belege für so manchen Ihrer</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1483108706259_61">
+        <Coords points="84,715 545,694 1232,635 1236,685 548,744 86,765"/>
+        <Baseline points="86,760 548,739 1236,680"/>
+        <TextEquiv>
+          <Unicode>Sätze anführen: ich ward confirmirt</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1483108715984_62">
+        <Coords points="81,829 306,820 333,844 355,839 423,816 931,774 1238,747 1242,797 935,824 433,865 365,888 316,892 289,867 84,879"/>
+        <Baseline points="84,874 291,862 318,887 364,883 432,860 935,819 1242,792"/>
+        <TextEquiv>
+          <Unicode>mit 15/16 Jahren in Grima: während</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1483108722035_63">
+        <Coords points="97,931 272,938 798,895 1217,865 1220,915 801,945 273,988 95,981"/>
+        <Baseline points="95,976 273,983 801,940 1220,910"/>
+        <TextEquiv>
+          <Unicode>ich bereits Aristoteles und Spinoza</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1483108729414_64">
+        <Coords points="84,1045 330,1043 622,1022 1029,988 1252,970 1256,1020 1033,1038 625,1072 332,1093 84,1095"/>
+        <Baseline points="84,1090 332,1088 625,1067 1033,1033 1256,1015"/>
+        <TextEquiv>
+          <Unicode>studirte, mußte ich im Confirmations</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1483108737376_65">
+        <Coords points="85,1165 403,1143 548,1129 694,1129 797,1118 1182,1095 1185,1145 801,1168 696,1179 550,1179 407,1193 88,1215"/>
+        <Baseline points="88,1210 407,1188 550,1174 696,1174 801,1163 1185,1140"/>
+        <TextEquiv>
+          <Unicode>Unterricht noch alle Mirakel beider</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1483108746011_66">
+        <Coords points="63,1284 257,1261 817,1238 1254,1220 1256,1270 819,1288 261,1311 69,1334"/>
+        <Baseline points="68,1329 261,1306 819,1283 1256,1265"/>
+        <TextEquiv>
+          <Unicode>Testamente als Glaubenssätze hinnehmen.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1483108752399_67">
+        <Coords points="89,1379 862,1345 1254,1325 1256,1375 864,1395 91,1429"/>
+        <Baseline points="91,1424 864,1390 1256,1370"/>
+        <TextEquiv>
+          <Unicode>Ich verweigerte die Ablegung des Glaubens¬</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1483108755809_68">
+        <Coords points="86,1482 1206,1443 1208,1493 88,1532"/>
+        <Baseline points="88,1527 1208,1488"/>
+        <TextEquiv>
+          <Unicode>bekenntnißes vor der Confirmation</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1483108763187_69">
+        <Coords points="97,1559 609,1559 1203,1523 1206,1573 610,1609 97,1609"/>
+        <Baseline points="97,1604 610,1604 1206,1568"/>
+        <TextEquiv>
+          <Unicode>und setzte durch, daß ich auf eine</Unicode>
+        </TextEquiv>
+      </TextLine>
+    </TextRegion>
+  </Page>
+</PcGts>

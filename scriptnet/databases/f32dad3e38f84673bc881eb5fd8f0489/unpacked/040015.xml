@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+    <Metadata>
+        <Creator>htrsh_pagexml_create</Creator>
+        <Created>2017-01-30T12:31:45</Created>
+        <LastChange>2017-06-30T18:34:50.783+02:00</LastChange>
+    </Metadata>
+    <Page imageFilename="040015.jpg" imageWidth="919" imageHeight="1440">
+        <ReadingOrder>
+            <OrderedGroup id="ro_1498840490885" caption="Regions reading order">
+                <RegionRefIndexed index="0" regionRef="region_1487072855014_2046"/>
+                <RegionRefIndexed index="1" regionRef="region_1487072862213_2047"/>
+                <RegionRefIndexed index="2" regionRef="pg"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <TextRegion id="region_1487072855014_2046" custom="readingOrder {index:0;}">
+            <Coords points="390,34 803,34 803,115 390,115"/>
+            <TextLine id="line_1487072872446_2048" custom="readingOrder {index:0;}">
+                <Coords points="408,43 789,32 790,82 409,93"/>
+                <Baseline points="409,88 790,77"/>
+                <TextEquiv>
+                    <Unicode>Basel den 3t 9bris 1864. </Unicode>
+                </TextEquiv>
+            </TextLine>
+        </TextRegion>
+        <TextRegion id="region_1487072862213_2047" custom="readingOrder {index:1;}">
+            <Coords points="92,125 608,125 608,218 92,218"/>
+            <TextLine id="line_1487072878473_2049" custom="readingOrder {index:0;}">
+                <Coords points="99,159 597,150 598,200 100,209"/>
+                <Baseline points="100,204 598,195"/>
+                <TextEquiv>
+                    <Unicode>Mein lieber Herr &amp;amp; Freund! </Unicode>
+                </TextEquiv>
+            </TextLine>
+        </TextRegion>
+        <TextRegion id="pg" custom="readingOrder {index:2;}">
+            <Coords points="25,250 904,250 904,1395 25,1395"/>
+            <TextLine id="line_1487072905726_2050" custom="readingOrder {index:0;}">
+                <Coords points="84,266 637,268 902,268 902,318 637,318 84,316"/>
+                <Baseline points="84,311 637,313 902,313"/>
+                <TextEquiv>
+                    <Unicode>Ihre interressanten Mittheilungen von vorgestern </Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1487072914527_2051" custom="readingOrder {index:1;}">
+                <Coords points="58,322 454,318 893,323 892,373 454,368 58,372"/>
+                <Baseline points="58,367 454,363 892,368"/>
+                <TextEquiv>
+                    <Unicode>bedanke Ihnen bestens und lasse den Brief Pioda's</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1487072918190_2052" custom="readingOrder {index:2;}">
+                <Coords points="58,368 416,364 417,414 59,418"/>
+                <Baseline points="59,413 417,409"/>
+                <TextEquiv>
+                    <Unicode>wieder zurückfolgen.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1487072925898_2053" custom="readingOrder {index:3;}">
+                <Coords points="66,415 902,424 902,474 66,465"/>
+                <Baseline points="66,460 902,469"/>
+                <TextEquiv>
+                    <Unicode>Auch nach den Aeußerungen Jacini's ist es von höchster</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1487072939289_2054" custom="readingOrder {index:4;}">
+                <Coords points="33,470 870,475 901,491 902,540 861,524 33,520"/>
+                <Baseline points="33,515 877,519 901,535"/>
+                <TextEquiv>
+                    <Unicode>Wichtigkeit, daß unser technisches Gutachten baldigst</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1487072959700_2055" custom="readingOrder {index:5;}">
+                <Coords points="45,521 389,518 855,530 854,580 389,568 45,571"/>
+                <Baseline points="45,566 389,563 854,575"/>
+                <TextEquiv>
+                    <Unicode>geboren werde und ich zweifle nun nicht mehr, daß</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1487072967169_2056" custom="readingOrder {index:6;}">
+                <Coords points="54,570 657,578 831,573 832,623 657,628 53,620"/>
+                <Baseline points="53,615 657,623 832,618"/>
+                <TextEquiv>
+                    <Unicode>dieses in Folge der Anwesenheit Bekh's in Zürich</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1487072972564_2057" custom="readingOrder {index:7;}">
+                <Coords points="45,624 892,628 892,678 45,674"/>
+                <Baseline points="45,669 892,673"/>
+                <TextEquiv>
+                    <Unicode>unter Ihrer kräftigen Intervention &amp;amp; Leitung ge-</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1487072976402_2058" custom="readingOrder {index:8;}">
+                <Coords points="36,676 338,674 338,724 36,726"/>
+                <Baseline points="36,721 338,719"/>
+                <TextEquiv>
+                    <Unicode>schehen werde. –</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1487072996783_2059" custom="readingOrder {index:9;}">
+                <Coords points="41,721 325,720 896,735 895,785 324,770 41,771"/>
+                <Baseline points="41,766 324,765 895,780"/>
+                <TextEquiv>
+                    <Unicode>Die Zeitungen melden «Der Italj: Minister der öffentl. </Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1487073004919_2060" custom="readingOrder {index:10;}">
+                <Coords points="50,776 344,776 883,789 882,839 343,826 50,826"/>
+                <Baseline points="50,821 343,821 882,834"/>
+                <TextEquiv>
+                    <Unicode>Arbeiten begebe sich nach Florenz um die Uebersiedlung</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1487073011099_2061" custom="readingOrder {index:11;}">
+                <Coords points="47,828 883,837 883,887 47,878"/>
+                <Baseline points="47,873 883,882"/>
+                <TextEquiv>
+                    <Unicode>der Capitale zu beschleunigen.» Dieser Umstand</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1487073015826_2062" custom="readingOrder {index:12;}">
+                <Coords points="53,883 882,889 882,939 53,933"/>
+                <Baseline points="53,928 882,934"/>
+                <TextEquiv>
+                    <Unicode>wird möglicherweise eine Hinausschiebung unserer</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1487073023212_2063" custom="readingOrder {index:13;}">
+                <Coords points="46,937 876,946 876,996 46,987"/>
+                <Baseline points="46,982 876,991"/>
+                <TextEquiv>
+                    <Unicode>Reise nach Italien zur Folge haben, was ich nicht</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1487073029665_2064" custom="readingOrder {index:14;}">
+                <Coords points="49,991 890,1003 889,1053 48,1041"/>
+                <Baseline points="48,1036 889,1048"/>
+                <TextEquiv>
+                    <Unicode>im Interesse der Gotthardtsfrage ansehen könnte,</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1487073035585_2065" custom="readingOrder {index:15;}">
+                <Coords points="50,1045 892,1059 891,1109 49,1095"/>
+                <Baseline points="49,1090 891,1104"/>
+                <TextEquiv>
+                    <Unicode>denn Italien muß ohne Verzögerungen auch von uns</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1487073047902_2066" custom="readingOrder {index:16;}">
+                <Coords points="57,1097 390,1100 453,1108 864,1113 863,1163 450,1158 387,1150 57,1147"/>
+                <Baseline points="57,1142 387,1145 450,1153 863,1158"/>
+                <TextEquiv>
+                    <Unicode>occupiert werden. – Vielleicht ist Jacini auch</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1487073053712_2067" custom="readingOrder {index:17;}">
+                <Coords points="40,1153 730,1162 729,1212 39,1203"/>
+                <Baseline points="39,1198 729,1207"/>
+                <TextEquiv>
+                    <Unicode>geneigt uns in Florenz zu empfangen?</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1487073058574_2068" custom="readingOrder {index:18;}">
+                <Coords points="42,1213 893,1224 892,1274 41,1263"/>
+                <Baseline points="39,1252 892,1269"/>
+                <TextEquiv>
+                    <Unicode>Vor einigen Tagen habe eine Brochüre sous bande er-</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1487073072184_2069" custom="readingOrder {index:19;}">
+                <Coords points="37,1262 863,1270 863,1320 37,1312"/>
+                <Baseline points="37,1307 863,1315"/>
+                <TextEquiv>
+                    <Unicode>halten betitelt «il Settimo od il Lucmagno memoria</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1487073078328_2070" custom="readingOrder {index:20;}">
+                <Coords points="40,1305 863,1321 862,1371 39,1355"/>
+                <Baseline points="39,1350 862,1366"/>
+                <TextEquiv>
+                    <Unicode>dell Luigi Tatti 1863.» Worin folgende Stelle vorkömmt</Unicode>
+                </TextEquiv>
+            </TextLine>
+        </TextRegion>
+    </Page>
+</PcGts>

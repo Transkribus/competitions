@@ -31,9 +31,19 @@ class RegisterForm(forms.Form):
     username = forms.CharField(label=_('Username'), max_length=100)
     password = forms.CharField(widget=forms.PasswordInput(), label=_('Password'), max_length=100)
 
+class ChangeinfoForm(RegisterForm):
+    newpassword = forms.CharField(widget=forms.PasswordInput(), label=_('New password'), max_length=100, required=False)
+    first_name = forms.CharField(label=_('Given name'), max_length=100, required=False)
+    last_name = forms.CharField(label=_('Family name'), max_length=100, required=False)
+    email = forms.EmailField(label=_('Email'), max_length=100, required=False)    
+    username = forms.CharField(label=_('Username'), max_length=100, required=False)
+
 class LoginForm(forms.Form):
     username = forms.CharField(label=_('Username'), max_length=100)
     password = forms.CharField(widget=forms.PasswordInput(), label=_('Password'), max_length=100)
+
+class ForgotpassForm(forms.Form):
+    email = forms.EmailField(label=_('Email'), max_length=100)
 
 class SubmitForm(forms.Form):
     def __init__(self, user, *args, **kwargs):

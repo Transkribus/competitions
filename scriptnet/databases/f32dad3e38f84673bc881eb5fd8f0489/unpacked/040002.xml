@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+  <Metadata>
+    <Creator>htrsh_pagexml_create</Creator>
+    <Created>2017-01-30T12:34:30</Created>
+    <LastChange>2017-02-15T11:27:41.494+01:00</LastChange>
+  </Metadata>
+  <Page imageFilename="040002.jpg" imageWidth="958" imageHeight="1440">
+    <ReadingOrder>
+      <OrderedGroup id="ro_1487154461586" caption="Regions reading order">
+        <RegionRefIndexed index="0" regionRef="region_1487152849270_2500"/>
+        <RegionRefIndexed index="1" regionRef="pg"/>
+      </OrderedGroup>
+    </ReadingOrder>
+    <TextRegion id="region_1487152849270_2500">
+      <Coords points="373,102 946,102 946,275 373,275"/>
+      <TextLine id="line_1487152860646_2501">
+        <Coords points="388,113 942,121 941,171 387,163"/>
+        <Baseline points="387,158 941,166"/>
+        <TextEquiv>
+          <Unicode>A Monsieur Escher, Président</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1487152867095_2502">
+        <Coords points="385,157 908,159 908,209 385,207"/>
+        <Baseline points="385,202 908,204"/>
+        <TextEquiv>
+          <Unicode>du Comité pour le Chemin de fer du</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1487152871830_2503">
+        <Coords points="381,198 596,199 596,249 381,248"/>
+        <Baseline points="381,243 596,244"/>
+        <TextEquiv>
+          <Unicode>St Gothard. </Unicode>
+        </TextEquiv>
+      </TextLine>
+    </TextRegion>
+    <TextRegion id="pg">
+      <Coords points="332,351 945,351 945,1398 332,1398"/>
+      <TextLine id="line_1487152882765_2504">
+        <Coords points="465,357 928,359 928,409 465,407"/>
+        <Baseline points="465,402 928,404"/>
+        <TextEquiv>
+          <Unicode>Conformément à l'invitation verbale</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1487152887099_2505">
+        <Coords points="372,399 923,400 923,450 372,449"/>
+        <Baseline points="372,444 923,445"/>
+        <TextEquiv>
+          <Unicode>que vous avez bien voulu nous faire dans la</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1487152891609_2506">
+        <Coords points="382,440 936,443 936,493 382,490"/>
+        <Baseline points="382,485 936,488"/>
+        <TextEquiv>
+          <Unicode>récente conférence que nous avons eue avec vous</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1487152898284_2507">
+        <Coords points="379,482 920,482 920,532 379,532"/>
+        <Baseline points="379,527 920,527"/>
+        <TextEquiv>
+          <Unicode>à Zurich, nous venons vous communiquer les</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1487152903018_2508">
+        <Coords points="381,521 579,521 579,571 381,571"/>
+        <Baseline points="381,566 579,566"/>
+        <TextEquiv>
+          <Unicode>notes Suivantes.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1487152909648_2509">
+        <Coords points="443,560 935,562 935,612 443,610"/>
+        <Baseline points="443,605 935,607"/>
+        <TextEquiv>
+          <Unicode>1o Nous sommes en mesure de former</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1487152914986_2510">
+        <Coords points="379,601 934,600 934,650 379,651"/>
+        <Baseline points="379,646 934,645"/>
+        <TextEquiv>
+          <Unicode>une Société d'Entreprise au Capital de douze</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1487152921137_2511">
+        <Coords points="374,641 927,641 927,691 374,691"/>
+        <Baseline points="374,686 927,686"/>
+        <TextEquiv>
+          <Unicode>millions de francs (12,000,000 F ) représentés</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1487152929429_2512">
+        <Coords points="370,680 929,682 929,732 370,730"/>
+        <Baseline points="370,725 929,727"/>
+        <TextEquiv>
+          <Unicode>par 24,000 actions dont le tiers serait mis à</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1487152937408_2513">
+        <Coords points="375,723 939,723 939,773 375,773"/>
+        <Baseline points="375,768 944,769"/>
+        <TextEquiv>
+          <Unicode>la disposition des Capitalistes Suisses qui voudront</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1487152942695_2514">
+        <Coords points="377,761 683,761 683,811 377,811"/>
+        <Baseline points="377,806 683,806"/>
+        <TextEquiv>
+          <Unicode>nous aider de leur concours.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1487152948029_2515">
+        <Coords points="464,802 929,802 929,852 464,852"/>
+        <Baseline points="464,847 929,847"/>
+        <TextEquiv>
+          <Unicode>Cette société se propose d'entreprendre le</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1487152965470_2516">
+        <Coords points="364,840 912,842 912,892 364,890"/>
+        <Baseline points="364,885 912,887"/>
+        <TextEquiv>
+          <Unicode>percement du St Gothard et la construction</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1487152971364_2517">
+        <Coords points="379,882 919,883 919,933 379,932"/>
+        <Baseline points="379,927 919,928"/>
+        <TextEquiv>
+          <Unicode>des Sections de Fluelen à Goeschenen et de</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1487152980796_2518">
+        <Coords points="379,920 939,924 939,974 379,970"/>
+        <Baseline points="379,965 939,969"/>
+        <TextEquiv>
+          <Unicode>Biasca à Airolo. Elle aura le caractère d'une</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1487152984812_2519">
+        <Coords points="378,963 943,963 943,1013 378,1013"/>
+        <Baseline points="378,1008 943,1008"/>
+        <TextEquiv>
+          <Unicode>Société Suisse et établira son siège social en Suisse.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1487152990546_2520">
+        <Coords points="444,999 937,1003 937,1053 444,1049"/>
+        <Baseline points="444,1044 937,1048"/>
+        <TextEquiv>
+          <Unicode>2o Elle s'engagerait à exécuter le grand</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1487152996914_2521">
+        <Coords points="374,1041 923,1041 923,1091 374,1091"/>
+        <Baseline points="374,1086 923,1086"/>
+        <TextEquiv>
+          <Unicode>tunnel en neuf ans pour la Somme de</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1487153128786_2522">
+        <Coords points="372,1083 929,1084 929,1134 372,1133"/>
+        <Baseline points="372,1128 929,1129"/>
+        <TextEquiv>
+          <Unicode>Soixante deux millions (62,000,000 F ) qu'elle</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1487153134802_2523">
+        <Coords points="378,1123 923,1124 923,1174 378,1173"/>
+        <Baseline points="378,1168 923,1169"/>
+        <TextEquiv>
+          <Unicode>réduirait à Cinquante neuf millions et demi</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1487153141783_2524">
+        <Coords points="371,1162 921,1163 921,1213 371,1212"/>
+        <Baseline points="371,1207 921,1208"/>
+        <TextEquiv>
+          <Unicode>(59,500000 F ) si on lui abandonnait aussi,</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1487153148068_2525">
+        <Coords points="384,1203 925,1205 925,1255 384,1253"/>
+        <Baseline points="384,1248 925,1250"/>
+        <TextEquiv>
+          <Unicode>à des prix à débattre, l'exécution des sections</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1487153155854_2526">
+        <Coords points="381,1244 927,1246 927,1296 381,1294"/>
+        <Baseline points="381,1289 927,1291"/>
+        <TextEquiv>
+          <Unicode>d'approche depuis Fluelen et Biasca, pour</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1487153162352_2527">
+        <Coords points="378,1283 920,1284 920,1334 378,1333"/>
+        <Baseline points="378,1328 920,1329"/>
+        <TextEquiv>
+          <Unicode>lesquelles, elle se reserverait, en tout cas, un</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1487153166380_2528">
+        <Coords points="385,1324 623,1323 623,1373 385,1374"/>
+        <Baseline points="385,1369 623,1368"/>
+        <TextEquiv>
+          <Unicode>droit de préférence.</Unicode>
+        </TextEquiv>
+      </TextLine>
+    </TextRegion>
+  </Page>
+</PcGts>

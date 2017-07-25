@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+  <Metadata>
+    <Creator>htrsh_pagexml_create</Creator>
+    <Created>2017-01-30T12:23:13</Created>
+    <LastChange>2017-02-17T12:22:17.874+01:00</LastChange>
+  </Metadata>
+  <Page imageFilename="040058.jpg" imageWidth="1183" imageHeight="1440">
+    <ReadingOrder>
+      <OrderedGroup id="ro_1487330537978" caption="Regions reading order">
+        <RegionRefIndexed index="0" regionRef="pg"/>
+      </OrderedGroup>
+    </ReadingOrder>
+    <TextRegion id="pg">
+      <Coords points="69,16 1178,16 1178,1396 69,1396"/>
+      <TextLine id="line_1486555479778_184">
+        <Coords points="88,16 1157,18 1157,68 88,66"/>
+        <Baseline points="88,61 1157,63"/>
+        <TextEquiv>
+          <Unicode>zum Theil noch mitzunehmen; allein in München empfand ich theils wirkliche Sättigung</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486555494250_185">
+        <Coords points="106,59 967,54 1168,47 1170,97 968,104 106,109"/>
+        <Baseline points="106,104 968,99 1170,92"/>
+        <TextEquiv>
+          <Unicode>am Reisen, theils erwachte durch das Wiedersehen einiger lieben Freunde in mir eine gewal-</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486555505678_186">
+        <Coords points="108,99 885,97 1164,85 1166,135 886,147 108,149"/>
+        <Baseline points="108,144 886,142 1166,130"/>
+        <TextEquiv>
+          <Unicode>tige Sehnsucht nach der Heimath, theils nahmen die Ereignisse in Zürich meine volle Aufmerk-</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486555518501_187">
+        <Coords points="113,146 686,141 982,133 1153,123 1156,173 984,183 687,191 113,196"/>
+        <Baseline points="113,191 687,186 984,178 1156,168"/>
+        <TextEquiv>
+          <Unicode>samkeit in Anspruch u. beunruhigten mich in Bezug auf meine Erwartungen vom nächsten</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486555527446_188">
+        <Coords points="105,190 945,175 1164,165 1166,215 946,225 106,240"/>
+        <Baseline points="106,235 946,220 1166,210"/>
+        <TextEquiv>
+          <Unicode>Winter. Ich wünschte mich darüber mit Aepli in St. Gallen zu besprechen, traf ihn aber lei-</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486555546964_189">
+        <Coords points="111,231 905,223 1160,205 1163,255 907,273 111,281"/>
+        <Baseline points="111,276 907,268 1163,250"/>
+        <TextEquiv>
+          <Unicode>der dort nicht an. Du wirst mir gerne glauben, daß mich Manches zu Euch nach Zürich zog,</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486555561153_190">
+        <Coords points="110,276 709,269 1165,246 1167,296 710,319 111,326"/>
+        <Baseline points="111,321 710,314 1167,291"/>
+        <TextEquiv>
+          <Unicode>aber wäre ich noch hingekommen, so hätte ich doch mehrere Tage verweilen müssen, u. das konnte</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486555574916_191">
+        <Coords points="114,311 625,311 1173,284 1175,334 626,361 114,361"/>
+        <Baseline points="114,356 626,356 1175,329"/>
+        <TextEquiv>
+          <Unicode>ich nicht, weil meine Eltern mit Sehnsucht auf mich harrten u. mich selber doch vor Allem</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486555588790_192">
+        <Coords points="113,356 719,348 1152,324 1154,374 721,398 114,406"/>
+        <Baseline points="114,401 721,393 1154,369"/>
+        <TextEquiv>
+          <Unicode>die Heimath anzog. Die Freuden des Wiedersehens brauche ich Dir nicht zu schildern, da</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486555597527_193">
+        <Coords points="116,398 917,381 1161,360 1165,410 919,431 117,448"/>
+        <Baseline points="117,443 919,426 1165,405"/>
+        <TextEquiv>
+          <Unicode>Du sie selbst erlebt hast; in diesen Augenblicken habe ich erfahren, was mir sonst gar</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486555605901_194">
+        <Coords points="111,442 1044,416 1166,403 1172,453 1047,466 112,492"/>
+        <Baseline points="112,487 1047,461 1171,448"/>
+        <TextEquiv>
+          <Unicode>nicht immer so klar war, daß auch ich mit ganzer Seele an der Scholle hänge, auf der ich</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486555615887_195">
+        <Coords points="113,482 787,469 1154,449 1156,499 789,519 114,532"/>
+        <Baseline points="114,527 789,514 1156,494"/>
+        <TextEquiv>
+          <Unicode>geboren bin, an dem rauhen u. doch wunderlieblichen Gebirgsthale, dessen Vorzüge</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486555622142_196">
+        <Coords points="109,529 791,508 1134,491 1136,541 793,558 110,579"/>
+        <Baseline points="110,574 793,553 1136,536"/>
+        <TextEquiv>
+          <Unicode>ich jetzt erst zu schätzen weiß. Auch Du, mein Freund! hast unterdessen manche</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486555636104_197">
+        <Coords points="114,573 967,545 1155,530 1159,580 970,595 115,623"/>
+        <Baseline points="115,618 970,590 1159,575"/>
+        <TextEquiv>
+          <Unicode>bedeutende Erfahrungen gemacht; Du kannst versichert seyn, daß ich oft an Dich dachte u.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486555660180_198">
+        <Coords points="111,618 913,589 1166,570 1169,620 915,639 113,668"/>
+        <Baseline points="113,663 915,634 1169,615"/>
+        <TextEquiv>
+          <Unicode>mich gern an Deine Stelle versetzte bei den Berichten, die ich aus Deiner Vaterstadt ver-</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486555696066_199">
+        <Coords points="115,657 855,632 1165,615 1167,665 857,682 117,707"/>
+        <Baseline points="117,702 857,677 1167,660"/>
+        <TextEquiv>
+          <Unicode>nahm. Die erste Kunde von Eurer Revolution – so darf man ja wohl die Bewegung nennen –</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486555707892_200">
+        <Coords points="115,697 973,669 1166,656 1169,706 975,719 116,747"/>
+        <Baseline points="116,742 407,740 975,714 1169,701"/>
+        <TextEquiv>
+          <Unicode>die mir in Linz in einem ganz kurzen Artikel der Allg. Zeitung zukam, machte mich im</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486555746647_201">
+        <Coords points="113,737 639,732 1167,694 1170,744 641,782 113,787"/>
+        <Baseline points="113,782 641,777 1170,739"/>
+        <TextEquiv>
+          <Unicode>höchsten Grade betroffen u. gespannt auf nähere Aufschlüsse; denn ich konnte gar nicht begreifen,</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486555765385_202">
+        <Coords points="116,779 636,773 1153,742 1156,792 638,823 117,829"/>
+        <Baseline points="117,824 638,818 1156,787"/>
+        <TextEquiv>
+          <Unicode>wie nach dem ganz ruhigen Sommer ein solcher Sturm ausgebrochen seyn konnte, u. daß</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486555788305_203">
+        <Coords points="114,823 663,811 990,797 1162,778 1168,828 993,847 664,861 115,873"/>
+        <Baseline points="115,868 664,856 993,842 1167,823"/>
+        <TextEquiv>
+          <Unicode>die Regierung etwas fester sitzen würde, hatte ich natürlich auch geglaubt. Seither habe</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486555803864_204">
+        <Coords points="120,865 770,853 1056,830 1168,820 1172,870 1060,880 772,903 121,915"/>
+        <Baseline points="121,910 772,898 1060,875 1172,865"/>
+        <TextEquiv>
+          <Unicode>ich darüber soviel gelesen, gehört u. nachgedacht, daß mir nun das Ereigniß in seinen</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486555815092_205">
+        <Coords points="128,909 717,899 1167,867 1170,917 719,949 129,959"/>
+        <Baseline points="129,954 719,944 1170,912"/>
+        <TextEquiv>
+          <Unicode>innern, nothwendigen Gründen ziemlich klar geworden ist, wenn ich auch die nächste äuß-</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486555824620_206">
+        <Coords points="132,949 759,939 1162,913 1165,963 761,989 133,999"/>
+        <Baseline points="133,994 761,984 1165,958"/>
+        <TextEquiv>
+          <Unicode>re Veranlassung, wodurch das Volk zu jenem hohen Grade der Erbitterung gebracht</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1487261237171_103">
+        <Coords points="527,972 556,972 556,1022 527,1022"/>
+        <Baseline points="527,1017 556,1017"/>
+        <TextEquiv>
+          <Unicode>ann</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486555833073_207">
+        <Coords points="132,993 547,993 1160,962 1162,1012 548,1043 132,1043"/>
+        <Baseline points="132,1038 548,1038 1162,1007"/>
+        <TextEquiv>
+          <Unicode>wurde, noch nicht ganz begreiflicheni stk. Daß die gestürzte Regierung in jeder Beziehung zu</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486555841694_208">
+        <Coords points="116,1044 567,1034 1162,1001 1164,1051 569,1084 117,1094"/>
+        <Baseline points="117,1089 569,1079 1164,1046"/>
+        <TextEquiv>
+          <Unicode>schwach war, daß die Parthei, auf welche sie sich stützte, neben vielem Großen u. Treffli-</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486555852120_209">
+        <Coords points="123,1086 815,1068 1167,1040 1171,1090 817,1118 124,1136"/>
+        <Baseline points="124,1131 817,1113 1171,1085"/>
+        <TextEquiv>
+          <Unicode>chen, was sie für den Canton herbeiführte, doch auch zu gerechter Unzufriedenheit An-</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486555863807_210">
+        <Coords points="126,1132 590,1122 842,1103 1170,1089 1172,1139 845,1153 592,1172 127,1182"/>
+        <Baseline points="127,1177 592,1167 845,1148 1172,1134"/>
+        <TextEquiv>
+          <Unicode>laß gab, muß ich annehmen; aber daß die Heilung der Mängel am Staatsorganismus</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486555872805_211">
+        <Coords points="123,1173 693,1159 1154,1126 1157,1176 695,1209 124,1223"/>
+        <Baseline points="124,1218 695,1204 1157,1171"/>
+        <TextEquiv>
+          <Unicode>auf diese heillos stürmische, ungesetzliche Weise, die gewiß von den traurigsten Fol-</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486555884147_212">
+        <Coords points="116,1216 694,1203 1170,1168 1173,1218 696,1253 117,1266"/>
+        <Baseline points="117,1261 696,1248 1173,1213"/>
+        <TextEquiv>
+          <Unicode>gen seyn wird, versucht u. unternommen wurde, muß ich sehr bedauern, u. die Mittel,</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486555898844_213">
+        <Coords points="125,1260 818,1238 1169,1213 1172,1263 820,1288 126,1310"/>
+        <Baseline points="126,1305 820,1283 1172,1258"/>
+        <TextEquiv>
+          <Unicode>die zur Aufregung des Volkes angewandt worden sind, werde ich nie billigen können.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486555917558_214">
+        <Coords points="133,1297 541,1290 1102,1259 1125,1256 1133,1305 1108,1309 543,1340 134,1347"/>
+        <Baseline points="134,1342 543,1335 1132,1300"/>
+        <TextEquiv>
+          <Unicode>Dies in kurzem meine Meinung, so weit ich sie mir bis dahin habe bilden können, u.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486555929640_215">
+        <Coords points="138,1333 673,1326 1168,1300 1170,1350 674,1376 139,1383"/>
+        <Baseline points="139,1378 674,1371 1170,1345"/>
+        <TextEquiv>
+          <Unicode>nun zu meiner persönlichen Angelegenheit! Ich muß nämlich befürchten, daß die </Unicode>
+        </TextEquiv>
+      </TextLine>
+    </TextRegion>
+  </Page>
+</PcGts>

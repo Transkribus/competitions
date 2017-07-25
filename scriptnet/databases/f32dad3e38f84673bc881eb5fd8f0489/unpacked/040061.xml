@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+  <Metadata>
+    <Creator>htrsh_pagexml_create</Creator>
+    <Created>2017-01-30T12:23:51</Created>
+    <LastChange>2017-02-17T09:49:01.283+01:00</LastChange>
+  </Metadata>
+  <Page imageFilename="040061.jpg" imageWidth="1121" imageHeight="1440">
+    <ReadingOrder>
+      <OrderedGroup id="ro_1487321341631" caption="Regions reading order">
+        <RegionRefIndexed index="0" regionRef="pg"/>
+      </OrderedGroup>
+    </ReadingOrder>
+    <TextRegion id="pg">
+      <Coords points="115,85 1120,85 1120,1385 115,1385"/>
+      <TextLine id="line_1486639560734_552">
+        <Coords points="188,100 1112,98 1112,148 188,150"/>
+        <Baseline points="188,145 1112,143"/>
+        <TextEquiv>
+          <Unicode>responsables des désordres. Mais déjà l'orage passait des dissidents sur l'Eglise</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486639567345_553">
+        <Coords points="175,130 1107,126 1107,176 175,180"/>
+        <Baseline points="175,175 1107,171"/>
+        <TextEquiv>
+          <Unicode>nationale. Le Grand-Conseil n'ose proclamer la liberté religieuse dans la</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486639576727_554">
+        <Coords points="175,162 1114,161 1114,211 175,212"/>
+        <Baseline points="175,207 1114,206"/>
+        <TextEquiv>
+          <Unicode>Constitution, et peu après il adopte comme principe d'une loi future que le</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486639588275_555">
+        <Coords points="175,190 915,193 1117,187 1118,237 916,243 175,240"/>
+        <Baseline points="175,235 916,238 1118,232"/>
+        <TextEquiv>
+          <Unicode>salaire sera retranché à ceux des pasteurs nationaux qui fonctionneront</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486639605122_556">
+        <Coords points="175,220 796,226 1106,220 1107,270 796,276 175,270"/>
+        <Baseline points="175,265 796,271 1107,265"/>
+        <TextEquiv>
+          <Unicode>hors des heures du culte officiel et dans d'autres lieux que les temples. Ceux</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1487321106733_127">
+        <Coords points="698,238 747,238 747,288 698,288"/>
+        <Baseline points="698,283 747,283"/>
+        <TextEquiv>
+          <Unicode>faire </Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486639613419_557">
+        <Coords points="159,250 861,258 1114,251 1115,301 861,308 158,300"/>
+        <Baseline points="158,295 861,303 1115,296"/>
+        <TextEquiv>
+          <Unicode>qui soutinrent cette mesure s'efforcèrent de confondre les pasteurs et les dissi-</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486639642267_558">
+        <Coords points="177,287 849,288 1111,279 1113,329 850,338 177,337"/>
+        <Baseline points="177,332 850,333 1113,324"/>
+        <TextEquiv>
+          <Unicode>dents, et les réunions libres présidées par les pasteurs avec les assemblées</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486639659429_559">
+        <Coords points="170,318 825,321 1114,313 1115,363 826,371 170,368"/>
+        <Baseline points="170,363 826,366 1115,358"/>
+        <TextEquiv>
+          <Unicode>séparatistes, tandis que les doctrines de nos pasteurs ne sont autre que celles con-</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486639674310_560">
+        <Coords points="176,348 1115,349 1115,399 176,398"/>
+        <Baseline points="176,393 1115,394"/>
+        <TextEquiv>
+          <Unicode>nues en Allemagne sous le nom d'orthodoxes et de piétistes, et qui ne sont</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486639688895_561">
+        <Coords points="164,378 920,382 1112,375 1114,425 921,432 164,428"/>
+        <Baseline points="164,423 921,427 1114,420"/>
+        <TextEquiv>
+          <Unicode>nullement séparatistes. Les pasteurs, qui avaient déjà plaidé pour la liberté</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486639728595_564">
+        <Coords points="166,473 796,478 1106,470 1107,520 796,528 166,523"/>
+        <Baseline points="166,518 796,523 1107,515"/>
+        <TextEquiv>
+          <Unicode>religieuse, protestent contre la décision du Grand-Conseil au nom de la liberté</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486639697213_562">
+        <Coords points="167,411 890,414 1114,403 1116,453 891,464 167,461"/>
+        <Baseline points="167,456 891,459 1116,448"/>
+        <TextEquiv>
+          <Unicode>du ministère. On ne les honore pas même d'une réponse. Vint la proclamation</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486639709466_563">
+        <Coords points="170,441 691,444 1113,439 1114,489 691,494 170,491"/>
+        <Baseline points="170,488 691,491 1114,486"/>
+        <TextEquiv>
+          <Unicode>du 3 Août; le refus de la lire fait par plusieurs pasteurs. Le Conseil d'Etat, qui n'a-</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486639741429_565">
+        <Coords points="165,504 640,512 1113,501 1114,551 640,562 164,554"/>
+        <Baseline points="164,549 640,557 1114,546"/>
+        <TextEquiv>
+          <Unicode>vait pas le droit de préjuger la question, les traduit comme rebelles devant le peuple</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486639750365_566">
+        <Coords points="163,538 880,540 1116,535 1117,585 880,590 163,588"/>
+        <Baseline points="163,583 880,585 1117,580"/>
+        <TextEquiv>
+          <Unicode>dans une Circulaire. Une consultation des avocats prouve que les pasteurs ont</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486639762536_567">
+        <Coords points="159,573 808,574 1114,569 1115,619 808,624 159,623"/>
+        <Baseline points="159,618 808,619 1115,614"/>
+        <TextEquiv>
+          <Unicode>agi légalement; les Classes les absolvent, le Conseil d'Etat les punit, et accompa-</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486639775475_568">
+        <Coords points="157,606 723,609 1115,596 1116,646 724,659 157,656"/>
+        <Baseline points="157,651 724,654 1116,641"/>
+        <TextEquiv>
+          <Unicode>gne sa sentence de Considérants dans lesquels il prétend faire des pasteurs</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486639788583_569">
+        <Coords points="156,640 560,640 1105,630 1106,680 560,690 156,690"/>
+        <Baseline points="156,685 560,685 1106,675"/>
+        <TextEquiv>
+          <Unicode>de simples fonctionnaires de l'Etat et où il leur enlève tout caractère religieux.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486639802664_570">
+        <Coords points="158,671 594,676 1115,662 1116,712 594,726 157,721"/>
+        <Baseline points="157,716 594,721 1116,707"/>
+        <TextEquiv>
+          <Unicode>Là-dessus les Pasteurs s'assemblent, et, en donnant leur démission, revendiquent</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486639818707_571">
+        <Coords points="161,704 537,709 1115,697 1116,747 537,759 160,754"/>
+        <Baseline points="160,749 537,754 1116,742"/>
+        <TextEquiv>
+          <Unicode>la liberté de l'Eglise. On a élevé bien des opinions sur cette démission; beaucoup</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1487321152100_128">
+        <Coords points="580,723 656,716 660,766 584,773"/>
+        <Baseline points="584,768 662,761"/>
+        <TextEquiv>
+          <Unicode>les pasteurs</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486639849350_572">
+        <Coords points="161,738 467,741 1113,730 1114,780 467,791 161,788"/>
+        <Baseline points="161,783 467,786 1114,775"/>
+        <TextEquiv>
+          <Unicode>l'ont blâmée; pour moi, je crois que 'il n'ont fait que leur devoir; mais qu'il en</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486639860060_573">
+        <Coords points="155,769 424,776 1110,764 1111,814 424,826 154,819"/>
+        <Baseline points="154,814 424,821 1111,809"/>
+        <TextEquiv>
+          <Unicode>soit ce qu'on voudra. La démission a été provoquée par l'arbitraire du Conseil</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486639868097_574">
+        <Coords points="157,805 761,805 1111,795 1112,845 762,855 157,855"/>
+        <Baseline points="157,850 762,850 1112,840"/>
+        <TextEquiv>
+          <Unicode>d'Etat; c'est un fait patent. Après cela le Conseil d'Etat demande au Grand--</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486639882100_575">
+        <Coords points="160,836 579,838 1101,825 1102,875 579,888 160,886"/>
+        <Baseline points="160,881 579,883 1102,870"/>
+        <TextEquiv>
+          <Unicode>Conseil des pleins-pouvoirs législatifs, et le Grand-Conseil les lui accorde.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486639902177_576">
+        <Coords points="165,866 464,872 1107,858 1108,908 464,922 164,916"/>
+        <Baseline points="164,911 464,917 1108,903"/>
+        <TextEquiv>
+          <Unicode>Là-dessus le Conseil d'Etat invite une partie des pasteurs à rentrer, mais sans leur</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486639923009_577">
+        <Coords points="162,899 805,901 1103,890 1105,940 806,951 162,949"/>
+        <Baseline points="162,944 396,949 806,946 1105,935"/>
+        <TextEquiv>
+          <Unicode>accorder même en un seul point; «ce que», dit une autre Circulaire, «ils appellent des</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486639943199_578">
+        <Coords points="152,933 460,938 1110,918 1111,968 460,988 151,983"/>
+        <Baseline points="151,980 460,985 1111,965"/>
+        <TextEquiv>
+          <Unicode>garanties». Un certain nombre de pasteurs acceptent, les autres restent fermes</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486639974547_579">
+        <Coords points="167,969 1108,953 1109,1003 168,1019"/>
+        <Baseline points="167,1017 1108,1001"/>
+        <TextEquiv>
+          <Unicode>et veulent continuer librement leurs fonctions pour ceux qui leur sont attachés.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486639983980_580">
+        <Coords points="159,1000 826,995 1110,980 1112,1030 827,1045 159,1050"/>
+        <Baseline points="161,1047 580,1044 1114,1027"/>
+        <TextEquiv>
+          <Unicode>Des disordres ont lieu à Lausanne; ceux qui veulent assaillir l'Oratoire sont re-</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486640018753_581">
+        <Coords points="144,1035 529,1035 1105,1014 1107,1064 530,1085 144,1085"/>
+        <Baseline points="144,1080 530,1080 1107,1059"/>
+        <TextEquiv>
+          <Unicode>poussés avec perte, et le Conseil d'Etat interdit les réunions religieuses à Lau-</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486640032325_582">
+        <Coords points="159,1067 398,1071 1111,1049 1112,1099 398,1121 158,1117"/>
+        <Baseline points="158,1112 398,1116 1112,1094"/>
+        <TextEquiv>
+          <Unicode>sanne, annonçant qu'il en fera de même dans toutes les localités où l'on trou-</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486640043200_583">
+        <Coords points="156,1104 489,1100 1108,1080 1109,1130 490,1150 157,1154"/>
+        <Baseline points="157,1149 490,1145 1109,1125"/>
+        <TextEquiv>
+          <Unicode>blera l'ordre. C'était en effet assez clair et assez encourageant pour les ennemis</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486640060600_584">
+        <Coords points="156,1137 449,1135 1105,1120 1106,1170 450,1185 156,1187"/>
+        <Baseline points="156,1182 450,1180 1106,1165"/>
+        <TextEquiv>
+          <Unicode>des réunions. Cependant l'orage se calma; et, sauf des menaces, tout fut pai-</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486640078743_585">
+        <Coords points="164,1167 890,1159 1112,1149 1114,1199 891,1209 164,1217"/>
+        <Baseline points="164,1217 869,1207 1115,1194"/>
+        <TextEquiv>
+          <Unicode>sible pendant quelque temps. Le Conseil d'Etat lui-même recommanda</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486640105565_586">
+        <Coords points="157,1200 443,1202 1106,1186 1107,1236 443,1252 157,1250"/>
+        <Baseline points="157,1245 443,1247 1107,1231"/>
+        <TextEquiv>
+          <Unicode>aux préfets de protéger les réunions religieuses tenues dans des maisons</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486640112320_587">
+        <Coords points="140,1235 621,1232 1099,1219 1100,1269 622,1282 140,1285"/>
+        <Baseline points="140,1280 622,1277 1100,1264"/>
+        <TextEquiv>
+          <Unicode>particulières. Maintenant le vent a de nouveau tourné à la tempête;</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486640124466_588">
+        <Coords points="162,1269 606,1265 1105,1255 1106,1305 607,1315 162,1319"/>
+        <Baseline points="162,1314 607,1310 1106,1300"/>
+        <TextEquiv>
+          <Unicode>tu sais l'indigne traitement que Monnard a subi à Montreux; les réu-</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486640131368_589">
+        <Coords points="160,1303 1107,1288 1108,1338 161,1353"/>
+        <Baseline points="161,1348 1108,1333"/>
+        <TextEquiv>
+          <Unicode>nions viennent d'y être défendues. Un garde-forêt a été destitué pour</Unicode>
+        </TextEquiv>
+      </TextLine>
+    </TextRegion>
+  </Page>
+</PcGts>

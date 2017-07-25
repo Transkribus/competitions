@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+  <Metadata>
+    <Creator>htrsh_pagexml_create</Creator>
+    <Created>2017-01-30T12:38:10</Created>
+    <LastChange>2017-02-16T16:21:29.763+01:00</LastChange>
+  </Metadata>
+  <Page imageFilename="040039.jpg" imageWidth="1117" imageHeight="1440">
+    <ReadingOrder>
+      <OrderedGroup id="ro_1487258489868" caption="Regions reading order">
+        <RegionRefIndexed index="0" regionRef="region_1487257646192_32"/>
+        <RegionRefIndexed index="1" regionRef="region_1487257653303_33"/>
+        <RegionRefIndexed index="2" regionRef="pg"/>
+      </OrderedGroup>
+    </ReadingOrder>
+    <TextRegion id="region_1487257646192_32">
+      <Coords points="610,42 1076,42 1076,124 610,124"/>
+      <TextLine id="line_1487258097405_34">
+        <Coords points="617,45 1069,38 1070,88 618,95"/>
+        <Baseline points="618,90 1070,83"/>
+        <TextEquiv>
+          <Unicode>Lugano le 16 Décembre 1877. </Unicode>
+        </TextEquiv>
+      </TextLine>
+    </TextRegion>
+    <TextRegion id="region_1487257653303_33">
+      <Coords points="233,228 233,140 1035,140 1035,290 480,291 481,230"/>
+      <TextLine id="line_1487258108728_35">
+        <Coords points="366,135 737,133 737,183 366,185"/>
+        <Baseline points="366,180 737,178"/>
+        <TextEquiv>
+          <Unicode>Monsieur A. Escher</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1487258117297_36">
+        <Coords points="240,178 1017,181 1017,231 240,228"/>
+        <Baseline points="240,223 1017,226"/>
+        <TextEquiv>
+          <Unicode>Président de la Direction de la Gothardbahn</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1487258121090_37">
+        <Coords points="812,226 966,226 966,276 812,276"/>
+        <Baseline points="812,271 966,271"/>
+        <TextEquiv>
+          <Unicode>Zurich</Unicode>
+        </TextEquiv>
+      </TextLine>
+    </TextRegion>
+    <TextRegion id="pg">
+      <Coords points="165,1232 161,397 418,323 1108,323 1108,1423 194,1331 230,1283 337,1294 351,1243"/>
+      <TextLine id="line_1487258138374_38">
+        <Coords points="419,316 1062,317 1062,367 419,366"/>
+        <Baseline points="419,361 1062,362"/>
+        <TextEquiv>
+          <Unicode>Mon séjour au dela des Alpes a été beau-</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1487258144353_39">
+        <Coords points="172,361 1007,361 1007,411 172,411"/>
+        <Baseline points="172,406 1007,406"/>
+        <TextEquiv>
+          <Unicode>coup plus long que je ne l'avais pensé d'abord.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1487258149917_40">
+        <Coords points="431,406 990,409 990,459 431,456"/>
+        <Baseline points="431,451 990,454"/>
+        <TextEquiv>
+          <Unicode>En rentrant a Lugano j'ai</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1487258155671_41">
+        <Coords points="178,451 1098,452 1098,502 178,501"/>
+        <Baseline points="178,496 1098,497"/>
+        <TextEquiv>
+          <Unicode>trouvé votre estimée lettre du 29/30 Novembre déf.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1487258167567_42">
+        <Coords points="160,496 1069,497 1069,547 160,546"/>
+        <Baseline points="160,541 1069,542"/>
+        <TextEquiv>
+          <Unicode>qui contient le reglement de la question</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1487258181784_43">
+        <Coords points="171,539 1083,545 1083,595 171,589"/>
+        <Baseline points="171,584 1083,590"/>
+        <TextEquiv>
+          <Unicode>pendante entre la Gothb. et Mesr Réalini et</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1487258184944_44">
+        <Coords points="163,590 324,592 323,642 162,640"/>
+        <Baseline points="162,635 323,637"/>
+        <TextEquiv>
+          <Unicode>Induni.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1487258192171_45">
+        <Coords points="440,639 1064,635 1064,685 440,689"/>
+        <Baseline points="440,684 1064,680"/>
+        <TextEquiv>
+          <Unicode>Communication en avait déjá été</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1487258200015_46">
+        <Coords points="202,683 1085,680 1085,730 202,733"/>
+        <Baseline points="202,728 1085,725"/>
+        <TextEquiv>
+          <Unicode>donnée à ces Messieurs même avant ma</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1487258208337_47">
+        <Coords points="200,730 1103,728 1103,778 200,780"/>
+        <Baseline points="200,775 1103,773"/>
+        <TextEquiv>
+          <Unicode>rentrée. Il ne me reste donc qu'a Vous remercier</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1487258213624_48">
+        <Coords points="202,774 1087,775 1087,825 202,824"/>
+        <Baseline points="202,819 1087,820"/>
+        <TextEquiv>
+          <Unicode>Monsieur le Président, de la bienveillance et</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1487258221641_49">
+        <Coords points="195,820 1101,817 1101,867 195,870"/>
+        <Baseline points="195,865 1101,862"/>
+        <TextEquiv>
+          <Unicode>de l'empressement avec lesquels Vs. avez bien voulu</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1487258228521_50">
+        <Coords points="201,865 678,863 678,913 201,915"/>
+        <Baseline points="201,910 683,909"/>
+        <TextEquiv>
+          <Unicode>accueillir mes instances.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1487258248000_51">
+        <Coords points="396,908 1082,907 1082,957 396,958"/>
+        <Baseline points="396,953 1082,952"/>
+        <TextEquiv>
+          <Unicode>Je forme des voeux pour que la</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1487258259550_52">
+        <Coords points="169,954 1096,955 1096,1005 169,1004"/>
+        <Baseline points="169,999 1096,1000"/>
+        <TextEquiv>
+          <Unicode>grande Oeuvre du Chemin de fer du Gothard à la</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1487258277112_53">
+        <Coords points="169,997 1107,999 1107,1049 169,1047"/>
+        <Baseline points="169,1042 1107,1044"/>
+        <TextEquiv>
+          <Unicode>quelle Vs. avez consacré votre nom et votre travail</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1487258284590_54">
+        <Coords points="195,1045 1092,1047 1092,1097 195,1095"/>
+        <Baseline points="195,1090 1092,1092"/>
+        <TextEquiv>
+          <Unicode>trouve une prompte réalisation. Et j'espère que</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1487258292583_55">
+        <Coords points="192,1090 1087,1092 1087,1142 192,1140"/>
+        <Baseline points="192,1135 1087,1137"/>
+        <TextEquiv>
+          <Unicode>dans toute combinaison à venir le Monte Cenere et</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1487258299912_56">
+        <Coords points="196,1136 1058,1138 1058,1188 196,1186"/>
+        <Baseline points="196,1181 1058,1183"/>
+        <TextEquiv>
+          <Unicode>les districts méridionaux du Tessin ne seront pas</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1487258305057_57">
+        <Coords points="198,1185 396,1183 396,1233 198,1235"/>
+        <Baseline points="198,1230 396,1228"/>
+        <TextEquiv>
+          <Unicode>compromis.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1487258311669_58">
+        <Coords points="374,1230 1105,1232 1105,1282 374,1280"/>
+        <Baseline points="374,1275 1105,1277"/>
+        <TextEquiv>
+          <Unicode>Veuillez agréer, Monsieur le Président, les sentiments</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1487258319561_59">
+        <Coords points="204,1273 336,1271 1063,1277 1063,1327 336,1321 205,1323"/>
+        <Baseline points="205,1318 336,1316 1063,1322"/>
+        <TextEquiv>
+          <Unicode>de ma reconnaissance et de ma parfaite estime.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1487258324204_60">
+        <Coords points="623,1328 995,1322 996,1372 624,1378"/>
+        <Baseline points="624,1373 996,1367"/>
+        <TextEquiv>
+          <Unicode>L. de Stoppani</Unicode>
+        </TextEquiv>
+      </TextLine>
+    </TextRegion>
+  </Page>
+</PcGts>

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+  <Metadata>
+    <Creator>TRP</Creator>
+    <Created>2016-12-22T15:35:44.131+01:00</Created>
+    <LastChange>2017-01-20T11:30:07.413+01:00</LastChange>
+  </Metadata>
+  <Page imageFilename="040048.jpg" imageWidth="2646" imageHeight="3328">
+    <ReadingOrder>
+      <OrderedGroup id="ro_1484908207450" caption="Regions reading order">
+        <RegionRefIndexed index="0" regionRef="region_1484126653422_20"/>
+        <RegionRefIndexed index="1" regionRef="region_1484126656850_21"/>
+        <RegionRefIndexed index="2" regionRef="region_1484126662461_22"/>
+      </OrderedGroup>
+    </ReadingOrder>
+    <TextRegion id="region_1484126653422_20">
+      <Coords points="1738,112 2552,112 2552,349 1738,349"/>
+      <TextLine id="line_1484126686933_23">
+        <Coords points="1772,165 2123,153 2361,139 2542,136 2543,186 2363,189 2125,203 1774,215"/>
+        <Baseline points="1774,210 2125,198 2363,184 2543,181"/>
+        <TextEquiv>
+          <Unicode>Berlin den 17. Juni 1879.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1484126692290_24">
+        <Coords points="1756,288 1944,279 2430,260 2432,310 1946,329 1758,338"/>
+        <Baseline points="1758,333 1946,324 2432,305"/>
+        <TextEquiv>
+          <Unicode>w. Bendlerstrasse 41.</Unicode>
+        </TextEquiv>
+      </TextLine>
+    </TextRegion>
+    <TextRegion id="region_1484126656850_21">
+      <Coords points="732,712 2025,712 2025,1055 732,1055"/>
+      <TextLine id="line_1484126700536_25">
+        <Coords points="771,799 860,801 1351,767 1354,817 861,851 770,849"/>
+        <Baseline points="770,844 861,846 1354,812"/>
+        <TextEquiv>
+          <Unicode>Hochwohlgeborener</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1484126714042_26">
+        <Coords points="779,945 913,945 1003,931 1456,908 1541,896 1761,894 1842,873 1994,873 1994,923 1849,923 1768,944 1544,946 1460,958 1009,981 916,995 779,995"/>
+        <Baseline points="779,990 916,990 1008,976 1460,953 1544,941 1767,939 1848,918 1994,918"/>
+        <TextEquiv>
+          <Unicode>Hochzuverehrender Herr Geheimer Rath!</Unicode>
+        </TextEquiv>
+      </TextLine>
+    </TextRegion>
+    <TextRegion id="region_1484126662461_22">
+      <Coords points="247,1085 2590,1085 2590,2767 247,2767"/>
+      <TextLine id="line_1484126733826_27">
+        <Coords points="342,1331 422,1305 997,1256 1304,1248 1774,1206 2519,1147 2523,1197 1778,1256 1307,1298 999,1306 432,1354 358,1379"/>
+        <Baseline points="356,1374 431,1349 999,1301 1307,1293 1778,1251 2523,1192"/>
+        <TextEquiv>
+          <Unicode>Ew. Hochwohlgeboren sehr geehrtes Schreiben mit der hierbei zurück</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1484126749277_28">
+        <Coords points="337,1445 575,1431 908,1403 1213,1379 1472,1361 1681,1353 1809,1337 2279,1294 2464,1294 2573,1304 2569,1354 2462,1344 2281,1344 1815,1387 1685,1403 1474,1411 1216,1429 912,1453 578,1481 340,1495"/>
+        <Baseline points="340,1490 578,1476 912,1448 1216,1424 1474,1406 1685,1398 1814,1382 2281,1339 2462,1339 2569,1349"/>
+        <TextEquiv>
+          <Unicode>erfolgenden Einlage des H. G. K. Höppert hat mir Veranlassung gegeben,</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1484126760574_29">
+        <Coords points="332,1590 597,1566 927,1546 1365,1514 1836,1470 2227,1435 2492,1431 2493,1481 2229,1485 1840,1520 1369,1564 930,1596 600,1616 336,1640"/>
+        <Baseline points="336,1635 600,1611 930,1591 1369,1559 1840,1515 2229,1480 2493,1476"/>
+        <TextEquiv>
+          <Unicode>in Gemeinschaft zunächst mit G. K. von Sybel das bezeichnete Local in der</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1484126774299_30">
+        <Coords points="341,1725 714,1697 1272,1653 1838,1600 2343,1562 2487,1556 2489,1606 2346,1612 1842,1650 1276,1703 717,1747 344,1775"/>
+        <Baseline points="344,1770 717,1742 1276,1698 1842,1645 2346,1607 2489,1601"/>
+        <TextEquiv>
+          <Unicode>Akademie in Augenschein zu nehmen. Dabei hat sich leider ergeben,</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1484126784593_31">
+        <Coords points="329,1854 702,1830 1170,1800 1637,1747 2137,1709 2447,1687 2450,1737 2140,1759 1641,1797 1174,1850 705,1880 332,1904"/>
+        <Baseline points="332,1899 705,1875 1174,1845 1641,1792 2140,1754 2450,1732"/>
+        <TextEquiv>
+          <Unicode>daß daßelbe für unsere Zwecke durchaus ungenügend ist. Es liegt</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1484126799286_32">
+        <Coords points="331,1992 600,1973 812,1973 1147,1931 1721,1863 2098,1832 2326,1826 2516,1812 2519,1862 2328,1876 2100,1882 1727,1913 1153,1981 815,2023 602,2023 334,2042"/>
+        <Baseline points="332,2039 600,2020 813,2020 1150,1978 1724,1910 2098,1879 2312,1871 2517,1860"/>
+        <TextEquiv>
+          <Unicode>in einem schlecht gebauten Seitenflügel der Akademie, zwei steile</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1484126809021_33">
+        <Coords points="345,2137 733,2110 1177,2060 1645,2018 2453,1945 2457,1995 1649,2068 1183,2110 737,2160 348,2187"/>
+        <Baseline points="348,2182 737,2155 1182,2105 1649,2063 2457,1990"/>
+        <TextEquiv>
+          <Unicode>Treppen hoch, unmittelbar unter dem Dach, ein Teil sehr niedrig,</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1484126834079_35">
+        <Coords points="335,2402 843,2368 1226,2336 1635,2294 2483,2215 2487,2265 1639,2344 1230,2386 846,2418 338,2452"/>
+        <Baseline points="338,2447 846,2413 1230,2381 1639,2339 2487,2260"/>
+        <TextEquiv>
+          <Unicode>wie anderes, um als Atelier zu dienen, mit Fenstern zwischen dem Gebälke</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1484126824841_34">
+        <Coords points="344,2276 890,2229 1141,2201 1218,2208 1254,2190 1615,2163 2307,2100 2529,2092 2531,2142 2310,2150 1619,2213 1266,2239 1227,2257 1142,2251 894,2279 348,2326"/>
+        <Baseline points="348,2321 894,2274 1142,2246 1226,2252 1265,2234 1619,2208 2310,2145 2531,2137"/>
+        <TextEquiv>
+          <Unicode>des Dachs. Die Feuergefährlichkeit würde hier eine noch viel größere</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1484126844954_36">
+        <Coords points="341,2543 608,2515 1163,2481 1615,2443 2238,2380 2513,2366 2515,2416 2241,2430 1619,2493 1166,2531 612,2565 347,2593"/>
+        <Baseline points="346,2588 612,2560 1166,2526 1619,2488 2241,2425 2515,2411"/>
+        <TextEquiv>
+          <Unicode>sein als in dem bisherigen Local, die Möglichkeit einem jüngeren</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1484126856270_37">
+        <Coords points="352,2664 760,2642 1306,2606 2173,2545 2320,2529 2482,2533 2481,2583 2322,2579 2177,2595 1309,2656 763,2692 354,2714"/>
+        <Baseline points="354,2709 763,2687 1309,2651 2177,2590 2322,2574 2481,2578"/>
+        <TextEquiv>
+          <Unicode>Mitarbeiter oder sonst jemand eine Wohnung einzuräumen, um einen</Unicode>
+        </TextEquiv>
+      </TextLine>
+    </TextRegion>
+  </Page>
+</PcGts>

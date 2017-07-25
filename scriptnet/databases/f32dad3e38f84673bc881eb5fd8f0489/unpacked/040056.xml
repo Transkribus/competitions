@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+  <Metadata>
+    <Creator>TRP</Creator>
+    <Created>2016-12-22T15:35:44.128+01:00</Created>
+    <LastChange>2017-01-20T11:28:20.651+01:00</LastChange>
+  </Metadata>
+  <Page imageFilename="040056.jpg" imageWidth="1622" imageHeight="2592">
+    <ReadingOrder>
+      <OrderedGroup id="ro_1484908100687" caption="Regions reading order">
+        <RegionRefIndexed index="0" regionRef="region_1483542247346_102"/>
+        <RegionRefIndexed index="1" regionRef="region_1483542252850_103"/>
+        <RegionRefIndexed index="2" regionRef="region_1483542349410_106"/>
+        <RegionRefIndexed index="3" regionRef="region_1483542357745_107"/>
+      </OrderedGroup>
+    </ReadingOrder>
+    <TextRegion id="region_1483542247346_102">
+      <Coords points="1516,19 1565,18 1565,88 1516,89"/>
+      <TextLine id="line_1483542266981_104">
+        <Coords points="1525,30 1557,30 1557,80 1525,80"/>
+        <Baseline points="1525,75 1557,75"/>
+        <TextEquiv>
+          <Unicode>1</Unicode>
+        </TextEquiv>
+      </TextLine>
+    </TextRegion>
+    <TextRegion id="region_1483542252850_103">
+      <Coords points="628,49 1468,49 1468,219 628,219"/>
+      <TextLine id="line_1483542286089_105">
+        <Coords points="661,110 671,117 848,113 1031,107 1288,116 1432,120 1463,131 1445,178 1422,169 1287,166 1031,157 849,163 659,166 637,153"/>
+        <Baseline points="639,149 660,161 849,158 1031,152 1287,161 1423,164 1447,173"/>
+        <TextEquiv>
+          <Unicode>Hamburg den 26. Apr. 1866.</Unicode>
+        </TextEquiv>
+      </TextLine>
+    </TextRegion>
+    <TextRegion id="region_1483542349410_106">
+      <Coords points="220,305 1425,305 1425,511 220,511"/>
+      <TextLine id="line_1483542379300_108">
+        <Coords points="246,368 476,379 953,387 1410,403 1408,453 952,437 475,429 244,418"/>
+        <Baseline points="244,413 475,424 952,432 1408,448"/>
+        <TextEquiv>
+          <Unicode>Hochzuverehrender Herr Geheimer Rath!</Unicode>
+        </TextEquiv>
+      </TextLine>
+    </TextRegion>
+    <TextRegion id="region_1483542357745_107">
+      <Coords points="71,521 1607,521 1607,2378 71,2378"/>
+      <TextLine id="line_1483542417000_109">
+        <Coords points="158,593 239,577 683,590 1070,603 1150,612 1453,618 1452,668 1147,662 1067,653 682,640 243,627 168,642"/>
+        <Baseline points="167,637 243,622 682,635 1067,648 1147,657 1452,663"/>
+        <TextEquiv>
+          <Unicode>Anbei übersende ich Ihnen mit Bewilligung</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1483542431191_110">
+        <Coords points="149,689 342,678 446,680 523,692 667,685 732,698 858,687 1164,705 1439,716 1437,766 1162,755 859,737 730,748 664,735 521,742 442,730 343,728 152,739"/>
+        <Baseline points="152,734 343,723 442,725 521,737 664,730 730,743 859,732 1162,750 1437,761"/>
+        <TextEquiv>
+          <Unicode>des Dr. Lappenberg die Materialien der von</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1483542442599_111">
+        <Coords points="122,766 209,769 492,780 747,783 1104,783 1272,791 1514,806 1511,856 1270,841 1103,833 747,833 491,830 207,819 120,816"/>
+        <Baseline points="120,811 207,814 491,825 747,828 1103,828 1270,836 1511,851"/>
+        <TextEquiv>
+          <Unicode>seinem Vater für die Monumenta bearbeiteten</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1483542454024_112">
+        <Coords points="135,849 229,866 362,859 493,870 892,888 1511,911 1509,961 890,938 490,920 361,909 226,916 126,898"/>
+        <Baseline points="127,893 226,911 361,904 490,915 890,933 1509,956"/>
+        <TextEquiv>
+          <Unicode>Quellen, da wir von Prof. Waitz erfuhren, daß</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1483542464053_113">
+        <Coords points="142,959 509,958 815,967 1109,982 1454,999 1586,1026 1576,1075 1447,1049 1107,1032 813,1017 508,1008 142,1009"/>
+        <Baseline points="142,1004 508,1003 813,1012 1107,1027 1448,1044 1577,1070"/>
+        <TextEquiv>
+          <Unicode>Sie dieselben sammelten. Ein Verzeichniß liegt bei.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1483542471808_114">
+        <Coords points="248,1058 674,1070 1113,1083 1249,1098 1453,1102 1452,1152 1246,1148 1110,1133 673,1120 247,1108"/>
+        <Baseline points="247,1103 673,1115 1110,1128 1246,1143 1452,1147"/>
+        <TextEquiv>
+          <Unicode>Daß ich Ihrem Wunsche Ihnen Ihre in der</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1483542479437_115">
+        <Coords points="113,1153 810,1171 1286,1184 1426,1188 1598,1220 1589,1269 1420,1238 1285,1234 809,1221 112,1203"/>
+        <Baseline points="112,1198 809,1216 1285,1229 1421,1233 1590,1264"/>
+        <TextEquiv>
+          <Unicode>Angelegenheit der Monumenta an den Verewigten</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1483542496720_116">
+        <Coords points="151,1228 240,1241 676,1257 1018,1264 1249,1271 1368,1289 1572,1306 1577,1339 1575,1329 1573,1379 1544,1377 1539,1344 1364,1339 1245,1321 1017,1314 675,1307 236,1291 143,1277"/>
+        <Baseline points="144,1272 236,1286 675,1302 1017,1309 1245,1316 1364,1334 1542,1340 1547,1373 1573,1374"/>
+        <TextEquiv>
+          <Unicode>gerichteten Briefe zu schicken, so spät erst nach¬</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1483542506390_117">
+        <Coords points="135,1328 883,1359 1264,1382 1498,1404 1529,1440 1488,1469 1474,1447 1261,1432 881,1409 133,1378"/>
+        <Baseline points="133,1373 881,1404 1261,1427 1476,1443 1492,1466"/>
+        <TextEquiv>
+          <Unicode>komme, werden Sie wohl gütigst damit entschul¬</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1483542513903_118">
+        <Coords points="125,1418 469,1422 727,1446 1444,1490 1441,1540 724,1496 467,1472 124,1468"/>
+        <Baseline points="124,1463 467,1467 724,1491 1441,1535"/>
+        <TextEquiv>
+          <Unicode>digen, daß ich zuvor mit der Durchsicht des</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1483542526311_119">
+        <Coords points="116,1495 243,1512 720,1524 913,1547 1058,1550 1237,1576 1359,1576 1545,1600 1538,1650 1356,1626 1234,1626 1054,1600 910,1597 717,1574 239,1562 109,1545"/>
+        <Baseline points="110,1540 239,1557 717,1569 910,1592 1054,1595 1234,1621 1356,1621 1539,1645"/>
+        <TextEquiv>
+          <Unicode>gesammten literarischen und brieflichen Nachlasses</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1483542538063_120">
+        <Coords points="129,1596 465,1607 688,1617 793,1640 985,1640 1497,1679 1546,1704 1523,1748 1483,1727 983,1690 787,1690 681,1667 463,1657 128,1646"/>
+        <Baseline points="128,1641 463,1652 682,1662 788,1685 983,1685 1484,1722 1525,1744"/>
+        <TextEquiv>
+          <Unicode>zu Ende sein wollte, um desto sicherer alle be¬</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1483542546992_121">
+        <Coords points="121,1698 599,1712 817,1724 1005,1739 1144,1746 1522,1773 1519,1823 1141,1796 1002,1789 814,1774 597,1762 120,1748"/>
+        <Baseline points="120,1743 597,1757 814,1769 1002,1784 1141,1791 1519,1818"/>
+        <TextEquiv>
+          <Unicode>treffenden, da und dort zerstreuten Papiere in</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1483542557251_122">
+        <Coords points="96,1779 350,1800 656,1804 835,1824 1090,1841 1492,1877 1488,1927 1086,1891 831,1874 653,1854 348,1850 92,1829"/>
+        <Baseline points="92,1824 348,1845 653,1849 831,1869 1086,1886 1488,1922"/>
+        <TextEquiv>
+          <Unicode>Ihre Hände gelangen lassen zu können. Aber</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1483542567369_123">
+        <Coords points="108,1881 554,1900 704,1922 1031,1929 1126,1944 1516,1969 1513,2019 1120,1994 1027,1979 700,1972 550,1950 106,1931"/>
+        <Baseline points="106,1926 550,1945 700,1967 1027,1974 1121,1989 1513,2014"/>
+        <TextEquiv>
+          <Unicode>selbst so kann ich Ihnen einige Ihrer Briefe nicht</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1483542578921_124">
+        <Coords points="82,1991 410,2000 524,2013 776,2028 1059,2029 1361,2055 1426,2068 1554,2069 1554,2119 1422,2118 1354,2105 1057,2079 775,2078 520,2063 407,2050 81,2041"/>
+        <Baseline points="81,2036 407,2045 520,2058 775,2073 1057,2074 1355,2100 1422,2113 1554,2114"/>
+        <TextEquiv>
+          <Unicode>mitschicken, da Dr. Lappenberg dieselben gefunden,</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1483542588991_125">
+        <Coords points="110,2080 185,2091 374,2088 695,2107 977,2117 1192,2139 1351,2157 1570,2169 1568,2219 1347,2207 1186,2189 974,2167 693,2157 373,2138 182,2141 102,2129"/>
+        <Baseline points="103,2124 182,2136 373,2133 693,2152 974,2162 1187,2184 1347,2202 1568,2214"/>
+        <TextEquiv>
+          <Unicode>aber augenblicklich verlangt hat, ich aber, da ich</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1483542600721_126">
+        <Coords points="99,2205 475,2208 752,2230 930,2238 1514,2257 1513,2307 928,2288 749,2280 473,2258 99,2255"/>
+        <Baseline points="99,2250 473,2253 749,2275 928,2283 1513,2302"/>
+        <TextEquiv>
+          <Unicode>übermorgen abreise, diese Sendung nicht auf¬</Unicode>
+        </TextEquiv>
+      </TextLine>
+    </TextRegion>
+  </Page>
+</PcGts>

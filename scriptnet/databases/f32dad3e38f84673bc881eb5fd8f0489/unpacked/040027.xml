@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+  <Metadata>
+    <Creator>htrsh_pagexml_create</Creator>
+    <Created>2017-01-30T12:33:55</Created>
+    <LastChange>2017-02-14T16:32:54.089+01:00</LastChange>
+  </Metadata>
+  <Page imageFilename="040027.jpg" imageWidth="952" imageHeight="1440">
+    <ReadingOrder>
+      <OrderedGroup id="ro_1487086374204" caption="Regions reading order">
+        <RegionRefIndexed index="0" regionRef="pg"/>
+      </OrderedGroup>
+    </ReadingOrder>
+    <TextRegion id="pg">
+      <Coords points="71,159 929,156 942,1387 71,1387"/>
+      <TextLine id="line_1487086089796_2282">
+        <Coords points="137,161 878,154 878,204 137,211"/>
+        <Baseline points="137,206 878,199"/>
+        <TextEquiv>
+          <Unicode>an den Tag legen durch Broschüren. So Allievi der Direktor</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1487086099512_2283">
+        <Coords points="108,210 896,202 896,252 108,260"/>
+        <Baseline points="108,255 896,247"/>
+        <TextEquiv>
+          <Unicode>der Perseveranza &amp;amp; nunmehriger Deputirter, der entschieden</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1487086105185_2284">
+        <Coords points="98,264 923,259 923,309 98,314"/>
+        <Baseline points="98,309 923,304"/>
+        <TextEquiv>
+          <Unicode>für den Gotthard ist &amp;amp; also entgegen der von seinen Freunden in</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1487086118315_2286">
+        <Coords points="343,289 397,288 398,338 344,339"/>
+        <Baseline points="344,334 398,333"/>
+        <TextEquiv>
+          <Unicode>Ansicht</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1487086115270_2285">
+        <Coords points="102,316 894,307 895,357 103,366"/>
+        <Baseline points="103,361 895,352"/>
+        <TextEquiv>
+          <Unicode>der P. vertretenen; dann der Direktor der polyt. Schule</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1487086122942_2287">
+        <Coords points="99,371 924,360 925,410 100,421"/>
+        <Baseline points="100,416 925,405"/>
+        <TextEquiv>
+          <Unicode>DeBrioschi, zwar ein Freund von Vanotti, aber vor Allem</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1487086126064_2288">
+        <Coords points="110,418 914,410 914,460 110,468"/>
+        <Baseline points="110,463 914,455"/>
+        <TextEquiv>
+          <Unicode>ein Freund der Wahrheit, der im Journal Politecnico die</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1487086130099_2289">
+        <Coords points="86,472 907,465 907,515 86,522"/>
+        <Baseline points="86,517 907,510"/>
+        <TextEquiv>
+          <Unicode>ganze Frage möglichst unpartheiisch behandeln will, sobald die</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1487086137092_2290">
+        <Coords points="104,525 927,518 927,568 104,575"/>
+        <Baseline points="104,570 927,563"/>
+        <TextEquiv>
+          <Unicode>Berichte der Gr. Kommission gedruckt sind. Ich denke im Laufe dieser</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1487086142267_2291">
+        <Coords points="101,581 926,573 926,623 101,631"/>
+        <Baseline points="101,626 926,618"/>
+        <TextEquiv>
+          <Unicode>Woche wird man diese Petitionskommission gebildet haben, so daß</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1487086147369_2292">
+        <Coords points="93,634 889,624 890,674 94,684"/>
+        <Baseline points="94,679 890,669"/>
+        <TextEquiv>
+          <Unicode>ich Ihnen in etwa 8 Tagen darüber Mittheilung machen kann.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1487086154482_2293">
+        <Coords points="106,687 900,673 901,723 107,737"/>
+        <Baseline points="107,732 901,718"/>
+        <TextEquiv>
+          <Unicode>Unterdessen werde dann in Florenz an dem Memorial arbeiten.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1487086158944_2294">
+        <Coords points="95,738 909,724 910,774 96,788"/>
+        <Baseline points="96,783 910,769"/>
+        <TextEquiv>
+          <Unicode>Wir werden auch versuchen Correnti, Allievi &amp;amp; einige andere</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1487086164188_2295">
+        <Coords points="102,791 910,781 911,831 103,841"/>
+        <Baseline points="103,836 911,826"/>
+        <TextEquiv>
+          <Unicode>Deputirte in diese Kommission zu bringen. Reussirt unser Vor-</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1487086169988_2296">
+        <Coords points="93,845 882,833 883,883 94,895"/>
+        <Baseline points="94,890 883,878"/>
+        <TextEquiv>
+          <Unicode>haben, woran kaum zu zweifeln ist, so ist damit auch in der</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1487086174556_2297">
+        <Coords points="104,897 888,886 889,936 105,947"/>
+        <Baseline points="105,942 889,931"/>
+        <TextEquiv>
+          <Unicode>Deputirtenkammer die Hauptopposition gelegt, die sich außer der</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1487086180035_2298">
+        <Coords points="109,948 888,936 889,986 110,998"/>
+        <Baseline points="110,993 889,981"/>
+        <TextEquiv>
+          <Unicode>von Rothschild noch hätte zeigen können. – Allieri sagt mir</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1487086186521_2299">
+        <Coords points="111,1000 924,988 925,1038 112,1050"/>
+        <Baseline points="112,1045 925,1033"/>
+        <TextEquiv>
+          <Unicode>bis jetzt halten sich seine Freunde, d. h. die Splügisten, noch nicht ge-</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1487086191123_2300">
+        <Coords points="98,1053 923,1037 924,1087 99,1103"/>
+        <Baseline points="99,1098 924,1082"/>
+        <TextEquiv>
+          <Unicode>schlagen &amp;amp; ich habe auch von anderer Seite erfahren, daß Boccardo</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1487086197591_2301">
+        <Coords points="93,1107 924,1091 925,1141 94,1157"/>
+        <Baseline points="94,1152 925,1136"/>
+        <TextEquiv>
+          <Unicode>hier war, um mit ihnen ein Schutz- &amp;amp; Truzbündniß abzuschließen.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1487086203248_2302">
+        <Coords points="140,1154 927,1144 928,1194 141,1204"/>
+        <Baseline points="141,1199 928,1189"/>
+        <TextEquiv>
+          <Unicode>Von den Journalen haben wir zu unserer Disposition die Gazette de</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1487086209089_2303">
+        <Coords points="108,1211 936,1196 937,1246 109,1261"/>
+        <Baseline points="109,1256 937,1241"/>
+        <TextEquiv>
+          <Unicode>Milan &amp;amp; den Sole, der einen 2t Artikel gebracht hat. – Der Pungolo,</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1487086216830_2304">
+        <Coords points="110,1264 915,1249 916,1299 111,1314"/>
+        <Baseline points="111,1309 916,1294"/>
+        <TextEquiv>
+          <Unicode>der, wie mir bestimmt versichert wird, auch von den Splügisten in</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1487086223154_2305">
+        <Coords points="99,1317 918,1300 919,1350 100,1367"/>
+        <Baseline points="100,1362 919,1345"/>
+        <TextEquiv>
+          <Unicode>Anspruch genommen werden wollte, wird aber für Mailand als </Unicode>
+        </TextEquiv>
+      </TextLine>
+    </TextRegion>
+  </Page>
+</PcGts>

@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+  <Metadata>
+    <Creator>TRP</Creator>
+    <Created>2016-12-21T10:00:10.142+01:00</Created>
+    <LastChange>2016-12-21T14:32:51.176+01:00</LastChange>
+  </Metadata>
+  <Page imageFilename="040014.jpg" imageWidth="2524" imageHeight="3375">
+    <ReadingOrder>
+      <OrderedGroup id="ro_1482327172850" caption="Regions reading order">
+        <RegionRefIndexed index="0" regionRef="region_1482310969633_1"/>
+        <RegionRefIndexed index="1" regionRef="region_1482310982316_2"/>
+      </OrderedGroup>
+    </ReadingOrder>
+    <TextRegion id="region_1482310969633_1">
+      <Coords points="1591,86 2252,86 2252,259 1591,259"/>
+      <TextLine id="line_1482310996437_3">
+        <Coords points="1656,144 1778,130 2226,132 2226,182 1781,180 1662,194"/>
+        <Baseline points="1661,189 1781,175 2226,177"/>
+        <TextEquiv>
+          <Unicode>Zürich 13. Aug. 52.</Unicode>
+        </TextEquiv>
+      </TextLine>
+    </TextRegion>
+    <TextRegion id="region_1482310982316_2">
+      <Coords points="78,277 2410,277 2410,3239 78,3239"/>
+      <TextLine id="line_1482311009219_4">
+        <Coords points="274,377 834,342 837,392 277,427"/>
+        <Baseline points="277,422 837,387"/>
+        <TextEquiv>
+          <Unicode>Geehrter Herr!</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1482311019406_5">
+        <Coords points="169,564 789,520 1517,483 2089,433 2333,403 2339,453 2095,483 1520,533 792,570 172,614"/>
+        <Baseline points="172,609 792,565 1520,528 2094,478 2338,448"/>
+        <TextEquiv>
+          <Unicode>2 Todesfälle, die in meiner Familie vorgefallen sind haben</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1482311029559_6">
+        <Coords points="157,657 1009,594 1470,576 2364,501 2368,551 1473,626 1012,644 160,707"/>
+        <Baseline points="160,702 1012,639 1473,621 2368,546"/>
+        <TextEquiv>
+          <Unicode>mich gehindert Ihnen früher auf. Ihr werth Brief vom</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1482311045234_7">
+        <Coords points="165,761 558,719 996,707 1263,689 1607,669 2237,608 2322,602 2405,631 2388,678 2315,652 2241,658 1610,719 1266,739 998,757 561,769 171,811"/>
+        <Baseline points="170,806 561,764 998,752 1266,734 1610,714 2241,653 2316,647 2390,673"/>
+        <TextEquiv>
+          <Unicode>5 t diß zu antworten &amp; zudem hat mir meine bevorstehende</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1482311056155_8">
+        <Coords points="173,854 985,808 1689,761 2227,701 2399,721 2393,771 2227,751 1693,811 988,858 176,904"/>
+        <Baseline points="176,899 988,853 1693,806 2227,746 2394,766"/>
+        <TextEquiv>
+          <Unicode>Abreise nicht gestattet, die Petrefakten, die Sie mir geschickt</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1482311067100_9">
+        <Coords points="144,970 280,945 857,921 1156,910 1613,870 2329,794 2335,844 1617,920 1159,960 859,971 286,995 153,1019"/>
+        <Baseline points="152,1014 285,990 859,966 1159,955 1617,915 2334,839"/>
+        <TextEquiv>
+          <Unicode>haben, genauer zu betrachten. Da ich indeß denke Sie</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1482311082101_10">
+        <Coords points="174,1049 584,1027 832,1025 1225,1005 1764,950 2315,867 2323,916 1771,1000 1228,1055 833,1075 585,1077 176,1099"/>
+        <Baseline points="176,1094 585,1072 833,1070 1228,1050 1770,995 2322,911"/>
+        <TextEquiv>
+          <Unicode>werden Sie diese Angelegenheit bald abgethan wünschen,</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1482311093632_11">
+        <Coords points="164,1150 508,1120 882,1109 1642,1059 2241,974 2383,974 2383,1024 2244,1024 1648,1109 884,1159 511,1170 168,1200"/>
+        <Baseline points="168,1195 511,1165 884,1154 1647,1104 2244,1019 2383,1019"/>
+        <TextEquiv>
+          <Unicode>so sende ich Ihnen dafür beiliegend 50 frcs, freilich ohne</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1482311105058_12">
+        <Coords points="182,1238 567,1208 694,1216 1132,1186 1579,1152 2378,1063 2384,1113 1583,1202 1135,1236 694,1266 567,1258 186,1288"/>
+        <Baseline points="186,1283 567,1253 694,1261 1135,1231 1583,1197 2383,1108"/>
+        <TextEquiv>
+          <Unicode>zu wissen, wie viel Sie erwartet haben. &amp; nach dem was ich</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1482311113657_13">
+        <Coords points="161,1327 1177,1267 1669,1226 2333,1156 2339,1206 1673,1276 1180,1317 164,1377"/>
+        <Baseline points="164,1372 1180,1312 1673,1271 2338,1201"/>
+        <TextEquiv>
+          <Unicode>in der Eile habe sehen könen, in der Ansicht stehend die Petref.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1482311124558_14">
+        <Coords points="156,1412 712,1387 1351,1351 2357,1246 2363,1296 1355,1401 714,1437 158,1462"/>
+        <Baseline points="158,1457 714,1432 1355,1396 2362,1291"/>
+        <TextEquiv>
+          <Unicode>seien damit gehörig honorirt. Theilen Sie diese Ansicht</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1482311137509_15">
+        <Coords points="164,1506 806,1481 1510,1429 2184,1344 2316,1332 2396,1340 2390,1390 2316,1382 2190,1394 1514,1479 809,1531 166,1556"/>
+        <Baseline points="166,1551 809,1526 1514,1474 2189,1389 2316,1377 2391,1385"/>
+        <TextEquiv>
+          <Unicode>nicht, so ersuche ich Sie mir poste restante nach Varena am</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1482311159524_16">
+        <Coords points="149,1623 1009,1560 1729,1490 2362,1405 2369,1455 1735,1540 1013,1610 152,1673"/>
+        <Baseline points="152,1668 1013,1605 1734,1535 2368,1450"/>
+        <TextEquiv>
+          <Unicode>Comer See zu schreiben, wo ich in ca 2 Wochen einzutreffen ge¬</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1482311168284_17">
+        <Coords points="166,1709 746,1677 1459,1629 2389,1504 2396,1554 1465,1679 749,1727 168,1759"/>
+        <Baseline points="168,1754 749,1722 1464,1674 2395,1549"/>
+        <TextEquiv>
+          <Unicode>denke. Ihre andere Samlung betreffend ist es allerdings</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1482311181052_18">
+        <Coords points="166,1810 538,1780 1610,1711 2189,1623 2313,1665 2352,1709 2352,1659 2363,1664 2193,1673 1616,1761 541,1830 170,1860"/>
+        <Baseline points="170,1855 541,1825 1632,1754 2193,1668 2358,1664 2352,1664"/>
+        <TextEquiv>
+          <Unicode>xxx daß sie noch in Salzburg liegen; haben Sie dafür kein</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1482311192425_19">
+        <Coords points="155,1905 830,1848 1302,1834 1650,1802 2350,1717 2356,1767 1656,1852 1305,1884 833,1898 159,1955"/>
+        <Baseline points="159,1950 833,1893 1305,1879 1655,1847 2355,1762"/>
+        <TextEquiv>
+          <Unicode>andern Käufer, der Ihnen noch vor Ihrer Abreise dieselben</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1482311203524_20">
+        <Coords points="174,1993 844,1955 1015,1931 1278,1941 1784,1899 2348,1807 2356,1856 1791,1949 1279,1991 1017,1981 848,2005 177,2043"/>
+        <Baseline points="177,2038 848,2000 1017,1976 1279,1986 1790,1944 2355,1851"/>
+        <TextEquiv>
+          <Unicode>abnimt &amp; bezahlt so wäre es vielleicht am einfachsten</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1482311213985_21">
+        <Coords points="181,2080 976,2038 1453,2026 1845,1979 2243,1918 2251,1967 1852,2029 1456,2076 978,2088 183,2130"/>
+        <Baseline points="183,2125 978,2083 1456,2071 1851,2024 2250,1962"/>
+        <TextEquiv>
+          <Unicode>sie in Frick liegen zu lassen, wo ich sie dan aber im</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1482311227045_22">
+        <Coords points="177,2181 345,2159 823,2155 1386,2114 1924,2062 2343,2005 2350,2055 1930,2112 1390,2164 825,2205 348,2209 184,2231"/>
+        <Baseline points="183,2226 348,2204 825,2200 1390,2159 1929,2107 2349,2050"/>
+        <TextEquiv>
+          <Unicode>Oktober nach Beendigung meiner Alpenreise ansehen könte.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1482311240513_23">
+        <Coords points="172,2284 427,2255 839,2241 1174,2215 1804,2159 2339,2088 2346,2138 1810,2209 1178,2265 842,2291 430,2305 178,2334"/>
+        <Baseline points="177,2329 430,2300 842,2286 1178,2260 1809,2204 2345,2133"/>
+        <TextEquiv>
+          <Unicode>Ziehen Sie es vor, die Petrefakten nach Zürich zu schicken</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1482311250526_24">
+        <Coords points="150,2378 641,2334 882,2340 1640,2257 2335,2179 2341,2229 1646,2307 884,2390 642,2384 154,2428"/>
+        <Baseline points="154,2423 642,2379 884,2385 1645,2302 2340,2224"/>
+        <TextEquiv>
+          <Unicode>(da ich nicht weiß, in was Ihre andern Samlung bestehe,</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1482311264030_25">
+        <Coords points="184,2471 625,2423 782,2421 1212,2400 1764,2324 2180,2273 2373,2271 2373,2321 2183,2323 1771,2374 1216,2450 783,2471 628,2473 190,2521"/>
+        <Baseline points="189,2516 628,2468 783,2466 1216,2445 1770,2369 2183,2318 2373,2316"/>
+        <TextEquiv>
+          <Unicode>so kan ich auch nicht sagen ob sie irgendwie für unser Mu¬</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1482311280833_26">
+        <Coords points="169,2560 651,2519 767,2525 961,2495 1279,2475 2055,2375 2193,2348 2390,2389 2380,2438 2193,2398 2063,2424 1283,2525 967,2545 769,2575 652,2569 173,2610"/>
+        <Baseline points="173,2605 652,2564 769,2570 966,2540 1283,2520 2062,2419 2193,2393 2381,2433"/>
+        <TextEquiv>
+          <Unicode>seum passen würden) wo sie vielleicht leichter ausgepackt</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1482311293879_27">
+        <Coords points="156,2683 329,2648 970,2588 1461,2551 1998,2473 2185,2451 2399,2498 2388,2547 2183,2501 2005,2523 1467,2601 974,2638 337,2698 166,2732"/>
+        <Baseline points="165,2727 336,2693 974,2633 1466,2596 2004,2518 2183,2496 2389,2542"/>
+        <TextEquiv>
+          <Unicode>&amp; betrachtet werden könten, so bitte ich Sie nur dieselbe</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1482311306010_28">
+        <Coords points="191,2761 485,2725 863,2707 1422,2662 1969,2571 2117,2551 2328,2558 2326,2608 2119,2601 1977,2620 1429,2712 866,2757 489,2775 198,2811"/>
+        <Baseline points="197,2806 489,2770 866,2752 1428,2707 1976,2615 2119,2596 2326,2603"/>
+        <TextEquiv>
+          <Unicode>unter meiner Adresse aus aber mit deutlicher Bezeichnung</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1482311316738_29">
+        <Coords points="159,2851 459,2828 1036,2784 1480,2752 1928,2669 2255,2649 2258,2699 1934,2719 1487,2802 1039,2834 462,2878 162,2901"/>
+        <Baseline points="162,2896 462,2873 1039,2829 1486,2797 1933,2714 2258,2694"/>
+        <TextEquiv>
+          <Unicode>der Kisten her zu schicken. Vielleicht hätte in dsm Fall</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1482311325313_30">
+        <Coords points="151,2953 537,2923 1260,2853 1462,2841 2282,2726 2289,2776 1466,2891 1264,2903 541,2973 154,3003"/>
+        <Baseline points="154,2998 541,2968 1264,2898 1466,2886 2288,2771"/>
+        <TextEquiv>
+          <Unicode>Prof. Mousson die Gefälligkeit, die Sachen anzusehen &amp;</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1482311333876_31">
+        <Coords points="153,3042 574,3016 1135,2978 2020,2881 2343,2833 2351,2882 2027,2931 1139,3028 577,3066 156,3092"/>
+        <Baseline points="156,3087 577,3061 1139,3023 2026,2926 2350,2877"/>
+        <TextEquiv>
+          <Unicode>den Handel für unser Museum abzuschließen, wen es</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1482311345637_32">
+        <Coords points="163,3133 785,3092 1185,3074 1745,3032 2240,2956 2248,3005 1751,3082 1188,3124 787,3142 166,3183"/>
+        <Baseline points="166,3178 787,3137 1188,3119 1750,3077 2253,3006"/>
+        <TextEquiv>
+          <Unicode>sich thun läßt. Wollen Sie mir darüber noch schreiben,</Unicode>
+        </TextEquiv>
+      </TextLine>
+    </TextRegion>
+  </Page>
+</PcGts>

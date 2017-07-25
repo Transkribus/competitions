@@ -155,3 +155,5 @@ EMAIL_HOST_USER = 'scriptnet@iit.demokritos.gr'
 EMAIL_HOST_PASSWORD = os.environ.get('SYNTHIMA') #EMAIL_SSL_CERTFILE tou ftoxou
 EMAIL_USE_SSL = True
 EMAIL_PORT = 465
+# Administrator credentials (this is the address where almost every email is cc'ed)
+EMAIL_ADMINISTRATOR = 'sfikas@iit.demokritos.gr'

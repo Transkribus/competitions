@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+  <Metadata>
+    <Creator>TRP</Creator>
+    <Created>2016-12-22T15:32:49.362+01:00</Created>
+    <LastChange>2017-01-20T09:58:55.244+01:00</LastChange>
+  </Metadata>
+  <Page imageFilename="040060.jpg" imageWidth="2650" imageHeight="3296">
+    <ReadingOrder>
+      <OrderedGroup id="ro_1484902735278" caption="Regions reading order">
+        <RegionRefIndexed index="0" regionRef="region_1484842097903_54"/>
+        <RegionRefIndexed index="1" regionRef="region_1484842108307_55"/>
+      </OrderedGroup>
+    </ReadingOrder>
+    <TextRegion id="region_1484842097903_54">
+      <Coords points="1780,78 1909,78 1909,195 1780,195"/>
+      <TextLine id="line_1484842118715_56">
+        <Coords points="1794,121 1873,113 1879,163 1800,171"/>
+        <Baseline points="1799,166 1878,158"/>
+        <TextEquiv>
+          <Unicode>52</Unicode>
+        </TextEquiv>
+      </TextLine>
+    </TextRegion>
+    <TextRegion id="region_1484842108307_55">
+      <Coords points="124,277 2612,277 2612,3022 124,3022"/>
+      <TextLine id="line_1484847679370_57">
+        <Coords points="180,378 1091,364 1902,330 2515,293 2518,343 1904,380 1092,414 181,428"/>
+        <Baseline points="181,423 1092,409 1904,375 2518,338"/>
+        <TextEquiv>
+          <Unicode>auf der Bibliothek mitgetheilt wird, im Januar dieses Jahres von oben</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1484847686844_58">
+        <Coords points="184,473 849,453 1657,430 2516,384 2518,434 1659,480 850,503 185,523"/>
+        <Baseline points="185,518 850,498 1659,475 2518,429"/>
+        <TextEquiv>
+          <Unicode>herab die Bestimmung erfolgt, daß Handschriften nach auswärts verliehen</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1484847695784_59">
+        <Coords points="194,574 1155,531 2536,460 2538,510 1157,581 196,624"/>
+        <Baseline points="196,619 1157,576 2538,505"/>
+        <TextEquiv>
+          <Unicode>werden dürfen. Der Weg geht durch das heimischen Ministerium u den</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1484847699614_60">
+        <Coords points="1309,570 1396,559 1403,609 1316,620"/>
+        <Baseline points="1315,615 1402,604"/>
+        <TextEquiv>
+          <Unicode>von</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1484847706509_61">
+        <Coords points="181,674 731,650 1882,594 2494,557 2497,607 1884,644 733,700 183,724"/>
+        <Baseline points="183,719 733,695 1884,639 2497,602"/>
+        <TextEquiv>
+          <Unicode>hiesigen Gesandten an das Hofamt, dem die Hofbibliothek ressortirt</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1484847724051_62">
+        <Coords points="198,772 585,758 1175,724 1765,683 2135,674 2474,646 2539,660 2528,709 2471,696 2137,724 1767,733 1178,774 587,808 200,822"/>
+        <Baseline points="200,817 587,803 1178,769 1767,728 2137,719 2471,691 2529,704"/>
+        <TextEquiv>
+          <Unicode>(Oberstkämmereramt). Sollten Sie Herr Geheimrath es für gut finden, diese</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1484847732517_63">
+        <Coords points="207,864 860,834 1965,778 2549,750 2551,800 1967,828 862,884 209,914"/>
+        <Baseline points="209,909 862,879 1967,823 2551,795"/>
+        <TextEquiv>
+          <Unicode>Handschrift nach Berlin komen zu lassen, so würde ich in etwa 8 spätestens</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1484847737167_64">
+        <Coords points="200,960 1289,904 1291,954 202,1010"/>
+        <Baseline points="202,1005 1291,949"/>
+        <TextEquiv>
+          <Unicode>10 Tagen Wien verlassen könen.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1484847746262_65">
+        <Coords points="211,1053 494,1060 1459,1017 2515,969 2517,1019 1461,1067 494,1110 210,1103"/>
+        <Baseline points="210,1098 494,1105 1461,1062 2517,1014"/>
+        <TextEquiv>
+          <Unicode>Am liebsten ginge ich von hier gleich weiter nach München u Augsburg. In</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1484847749747_66">
+        <Coords points="607,1095 690,1093 691,1143 608,1145"/>
+        <Baseline points="608,1140 691,1138"/>
+        <TextEquiv>
+          <Unicode>eine</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1484847756531_67">
+        <Coords points="198,1162 565,1151 1173,1121 2463,1049 2466,1099 1175,1171 567,1201 199,1212"/>
+        <Baseline points="199,1207 567,1196 1175,1166 2466,1094"/>
+        <TextEquiv>
+          <Unicode>München ist noch Urkundensammlung des Hermann. Außerdem müssen die</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1484847763921_68">
+        <Coords points="233,1250 1074,1222 1935,1175 2483,1155 2485,1205 1937,1225 1076,1272 234,1300"/>
+        <Baseline points="234,1295 1076,1267 1937,1220 2485,1200"/>
+        <TextEquiv>
+          <Unicode>älteren Altaicher Analen dort noch in der lange gesuchten Abschrift vor¬</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1484847769281_69">
+        <Coords points="217,1350 1091,1326 2481,1255 2483,1305 1093,1376 218,1400"/>
+        <Baseline points="218,1395 1093,1371 2483,1300"/>
+        <TextEquiv>
+          <Unicode>handen sein u ich würde es wenigstens an Stelle u Stelle an Mühe nicht</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1484847776822_70">
+        <Coords points="209,1454 1035,1435 2340,1369 2510,1365 2511,1415 2342,1419 1037,1485 210,1504"/>
+        <Baseline points="210,1499 1037,1480 2342,1414 2511,1410"/>
+        <TextEquiv>
+          <Unicode>fehlen lassen sie aufzusuchen. In Augsburg würde die einschlagende Hs. zu</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1484847783728_71">
+        <Coords points="223,1551 973,1545 2474,1471 2476,1521 974,1595 223,1601"/>
+        <Baseline points="223,1596 974,1590 2476,1516"/>
+        <TextEquiv>
+          <Unicode>benützen sein. Fast dünkt mich, daß Sie Herr Geheimrath schon bei Aus¬</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1484847789782_72">
+        <Coords points="202,1656 986,1643 2472,1571 2474,1621 987,1693 203,1706"/>
+        <Baseline points="203,1701 987,1688 2474,1616"/>
+        <TextEquiv>
+          <Unicode>stellung meiner Vollmacht an diese Ausdehnung meiner Reise gedacht</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1484847797094_73">
+        <Coords points="211,1766 674,1755 2258,1695 2260,1745 675,1805 212,1816"/>
+        <Baseline points="212,1811 675,1800 2260,1740"/>
+        <TextEquiv>
+          <Unicode>haben, den in ihr ist auf Baiern bereits Bezug genommen.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1484847804790_74">
+        <Coords points="215,1878 522,1868 1427,1829 2505,1790 2507,1840 1429,1879 524,1918 216,1928"/>
+        <Baseline points="216,1923 524,1913 1429,1874 2507,1835"/>
+        <TextEquiv>
+          <Unicode>Ich bitte Sie hochverehrter Herr Geheimrath mir in Betreff der erwähnten</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1484847812290_75">
+        <Coords points="208,1987 1392,1935 2361,1889 2491,1894 2489,1944 2361,1939 1394,1985 210,2037"/>
+        <Baseline points="210,2032 1394,1980 2361,1934 2489,1939"/>
+        <TextEquiv>
+          <Unicode>Kaiserurkunden, der Placentiner Chronik, so wie der Bairischen Reise</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1484847817796_76">
+        <Coords points="214,2086 1069,2056 1952,2019 1954,2069 1071,2106 216,2136"/>
+        <Baseline points="216,2131 1071,2101 1954,2064"/>
+        <TextEquiv>
+          <Unicode>möglichst bald Ihre Entschließungen mittheilen zu wollen.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1484847823928_77">
+        <Coords points="217,2190 1130,2160 2537,2090 2539,2140 1132,2210 218,2240"/>
+        <Baseline points="218,2235 1132,2205 2539,2135"/>
+        <TextEquiv>
+          <Unicode>In Ansehung des mir gereichten Reisevorschusses füge ich nur noch hinzu, daß</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1484847833150_78">
+        <Coords points="219,2281 796,2263 1721,2218 2517,2175 2519,2225 1723,2268 798,2313 220,2331"/>
+        <Baseline points="220,2326 798,2308 1723,2263 2519,2220"/>
+        <TextEquiv>
+          <Unicode>er noch vollkommen ausreichen würde, sowohl die Kosten meines hiesigen</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1484847843828_79">
+        <Coords points="217,2382 779,2350 1234,2331 1599,2309 2206,2276 2505,2268 2506,2318 2208,2326 1602,2359 1236,2381 781,2400 220,2432"/>
+        <Baseline points="220,2427 781,2395 1236,2376 1602,2354 2208,2321 2506,2313"/>
+        <TextEquiv>
+          <Unicode>Aufenthaltes bis Mitte dieses Monats, wie die der Rückkehr nach</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1484847850977_80">
+        <Coords points="230,2473 1259,2415 2124,2367 2539,2367 2539,2417 2125,2417 1262,2465 233,2523"/>
+        <Baseline points="233,2518 1262,2460 2125,2412 2539,2412"/>
+        <TextEquiv>
+          <Unicode>Berlin zu decken, muß jedoch, um nach Baiern gehen u dort verweilen</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1484847856287_81">
+        <Coords points="234,2564 833,2536 2126,2469 2128,2519 835,2586 236,2614"/>
+        <Baseline points="236,2609 835,2581 2128,2514"/>
+        <TextEquiv>
+          <Unicode>zu können eine Vermehrung desselben erwünscht sein möchte.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1484847864826_82">
+        <Coords points="234,2664 551,2668 1363,2618 2052,2584 2530,2562 2532,2612 2054,2634 1365,2668 552,2718 233,2714"/>
+        <Baseline points="233,2709 552,2713 1365,2663 2054,2629 2532,2607"/>
+        <TextEquiv>
+          <Unicode>Genehmigen Sie, hochverehrter Herr Geheimrath, die Versicherung meiner</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1484847870827_83">
+        <Coords points="242,2779 1398,2725 1400,2775 244,2829"/>
+        <Baseline points="244,2824 1400,2770"/>
+        <TextEquiv>
+          <Unicode>innigsten Verehrung u Hochachtung.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1484847874617_84">
+        <Coords points="1750,2705 2274,2696 2275,2746 1751,2755"/>
+        <Baseline points="1751,2750 2275,2741"/>
+        <TextEquiv>
+          <Unicode>Ganz ergebenst</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1484847877885_85">
+        <Coords points="1769,2816 2062,2807 2063,2857 1770,2866"/>
+        <Baseline points="1770,2861 2063,2852"/>
+        <TextEquiv>
+          <Unicode>Dr. Jaffé.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1484847882748_86">
+        <Coords points="1540,2919 1877,2908 2370,2891 2372,2941 1879,2958 1541,2969"/>
+        <Baseline points="1541,2964 1879,2953 2372,2936"/>
+        <TextEquiv>
+          <Unicode>Altervorstadt, Spitalgasse No" 345</Unicode>
+        </TextEquiv>
+      </TextLine>
+    </TextRegion>
+  </Page>
+</PcGts>

@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+  <Metadata>
+    <Creator>TRP</Creator>
+    <Created>2016-12-23T09:51:25.529+01:00</Created>
+    <LastChange>2017-01-04T13:04:31.915+01:00</LastChange>
+  </Metadata>
+  <Page imageFilename="040042.jpg" imageWidth="1598" imageHeight="2624">
+    <ReadingOrder>
+      <OrderedGroup id="ro_1483531471948" caption="Regions reading order">
+        <RegionRefIndexed index="0" regionRef="region_1483530670379_20"/>
+      </OrderedGroup>
+    </ReadingOrder>
+    <TextRegion id="region_1483530670379_20">
+      <Coords points="286,395 1594,395 1594,2313 286,2313"/>
+      <TextLine id="line_1483530692473_21">
+        <Coords points="349,452 598,449 857,436 1398,405 1401,455 859,486 599,499 350,502"/>
+        <Baseline points="350,497 599,494 859,481 1401,450"/>
+        <TextEquiv>
+          <Unicode>Für den Traktat de investitura</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1483530709010_22">
+        <Coords points="326,554 741,538 1547,494 1549,544 743,588 328,604"/>
+        <Baseline points="328,599 743,583 1549,539"/>
+        <TextEquiv>
+          <Unicode>habe ich gelegentlich auch den anderen</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1483530716310_23">
+        <Coords points="315,652 903,627 1197,611 1556,579 1560,629 1200,661 905,677 317,702"/>
+        <Baseline points="317,697 905,672 1200,656 1560,624"/>
+        <TextEquiv>
+          <Unicode>Bamberger Codex P I 9, 64 verglichen,</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1483530721896_24">
+        <Coords points="318,741 568,732 946,707 1495,690 1496,740 948,757 570,782 320,791"/>
+        <Baseline points="320,786 570,777 948,752 1496,735"/>
+        <TextEquiv>
+          <Unicode>und ich fand die Meinung über</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1483530732192_25">
+        <Coords points="313,833 846,809 1431,788 1433,838 848,859 315,883"/>
+        <Baseline points="315,878 848,854 1433,833"/>
+        <TextEquiv>
+          <Unicode>einen gewissen Zusammenhang</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1483530740223_26">
+        <Coords points="311,929 731,914 1274,889 1579,877 1581,927 1276,939 733,964 313,979"/>
+        <Baseline points="313,974 733,959 1276,934 1581,922"/>
+        <TextEquiv>
+          <Unicode>des Traktats mit dem Brief Sigebert's</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1483530745602_27">
+        <Coords points="326,1016 766,998 1512,970 1514,1020 768,1048 328,1066"/>
+        <Baseline points="328,1061 768,1043 1514,1015"/>
+        <TextEquiv>
+          <Unicode>an Paschalis einerseits und dem</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1483530753955_28">
+        <Coords points="328,1111 685,1101 766,1086 874,1086 1196,1072 1510,1064 1511,1114 1198,1122 875,1136 770,1136 691,1151 329,1161"/>
+        <Baseline points="329,1156 690,1146 770,1131 875,1131 1198,1117 1511,1109"/>
+        <TextEquiv>
+          <Unicode>Briefe Ivo's von Chartres an Hugo</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1483530762670_29">
+        <Coords points="317,1200 619,1189 1054,1169 1335,1170 1560,1169 1560,1219 1335,1220 1055,1219 621,1239 319,1250"/>
+        <Baseline points="319,1245 621,1234 1055,1214 1335,1215 1560,1214"/>
+        <TextEquiv>
+          <Unicode>von Lyon andererseits insofern unter¬</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1483530770285_30">
+        <Coords points="325,1292 481,1288 742,1274 1018,1271 1546,1259 1547,1309 1019,1321 743,1324 483,1338 326,1342"/>
+        <Baseline points="326,1337 483,1333 743,1319 1019,1316 1547,1304"/>
+        <TextEquiv>
+          <Unicode>stützt, als in jenem Codex der Trak¬</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1483530776129_31">
+        <Coords points="336,1390 915,1363 1530,1341 1532,1391 917,1413 338,1440"/>
+        <Baseline points="338,1435 917,1408 1532,1386"/>
+        <TextEquiv>
+          <Unicode>tat sich inmitten der beiden Briefe</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1483530779019_32">
+        <Coords points="338,1481 561,1480 561,1530 338,1531"/>
+        <Baseline points="338,1526 561,1525"/>
+        <TextEquiv>
+          <Unicode>findet.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1483530784207_33">
+        <Coords points="594,1549 1551,1542 1551,1592 594,1599"/>
+        <Baseline points="594,1594 1551,1587"/>
+        <TextEquiv>
+          <Unicode>Sehr Leid that es mir, daß</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1483530789112_34">
+        <Coords points="333,1657 1535,1630 1536,1680 334,1707"/>
+        <Baseline points="334,1702 1536,1675"/>
+        <TextEquiv>
+          <Unicode>in dem Codex in Venedig nicht eine</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1483530793815_35">
+        <Coords points="338,1746 1526,1737 1526,1787 338,1796"/>
+        <Baseline points="338,1791 1526,1782"/>
+        <TextEquiv>
+          <Unicode>neue Streitschrift enthalten war,</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1483530799006_36">
+        <Coords points="333,1835 812,1833 812,1883 333,1885"/>
+        <Baseline points="333,1880 812,1878"/>
+        <TextEquiv>
+          <Unicode>wie ich hoffte.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1483530803535_37">
+        <Coords points="579,1928 1492,1933 1492,1983 579,1978"/>
+        <Baseline points="579,1973 1492,1978"/>
+        <TextEquiv>
+          <Unicode>Ueber fernere Handschriften</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1483530810146_38">
+        <Coords points="351,2031 816,2020 1112,2023 1519,2019 1519,2069 1112,2073 816,2070 352,2081"/>
+        <Baseline points="352,2076 816,2065 1112,2068 1519,2064"/>
+        <TextEquiv>
+          <Unicode>habe ich Einiges notirt; ich möchte</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1483530816938_39">
+        <Coords points="345,2119 730,2114 1235,2119 1498,2119 1498,2169 1235,2169 730,2164 346,2169"/>
+        <Baseline points="346,2164 730,2159 1235,2164 1498,2164"/>
+        <TextEquiv>
+          <Unicode>das aber zu vervollständigen suchen</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1483530825463_40">
+        <Coords points="338,2207 791,2207 1146,2207 1496,2208 1496,2258 1146,2257 791,2257 338,2257"/>
+        <Baseline points="338,2252 791,2252 1146,2252 1496,2253"/>
+        <TextEquiv>
+          <Unicode>und um die Erlaubniß bitten,</Unicode>
+        </TextEquiv>
+      </TextLine>
+    </TextRegion>
+  </Page>
+</PcGts>

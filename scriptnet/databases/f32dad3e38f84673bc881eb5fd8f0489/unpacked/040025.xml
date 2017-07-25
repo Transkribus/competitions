@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+    <Metadata>
+        <Creator>htrsh_pagexml_create</Creator>
+        <Created>2017-01-30T12:27:19</Created>
+        <LastChange>2017-06-30T18:44:51.816+02:00</LastChange>
+    </Metadata>
+    <Page imageFilename="040025.jpg" imageWidth="1152" imageHeight="1440">
+        <ReadingOrder>
+            <OrderedGroup id="ro_1498841091959" caption="Regions reading order">
+                <RegionRefIndexed index="0" regionRef="pg"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <TextRegion id="pg" custom="readingOrder {index:0;}">
+            <Coords points="52,46 1151,46 1151,1403 52,1403"/>
+            <TextLine id="line_1486980195175_1505" custom="readingOrder {index:0;}">
+                <Coords points="136,77 1126,75 1126,125 136,127"/>
+                <Baseline points="136,122 1126,120"/>
+                <TextEquiv>
+                    <Unicode>Schweizerischen Bank Institute weit leichter einarbeiten</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1486980202468_1506" custom="readingOrder {index:1;}">
+                <Coords points="121,139 1136,129 1136,179 121,189"/>
+                <Baseline points="121,184 1136,174"/>
+                <TextEquiv>
+                    <Unicode>könne, als dieß in einem entfernter liegenden Bank-</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1486980219796_1507" custom="readingOrder {index:2;}">
+                <Coords points="95,197 1142,186 1142,236 95,247"/>
+                <Baseline points="95,242 1142,231"/>
+                <TextEquiv>
+                    <Unicode>geschäfte der Fall sein würde, und zwar aus dem Grunde,</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1486980228239_1508" custom="readingOrder {index:3;}">
+                <Coords points="124,255 1138,242 1139,292 125,305"/>
+                <Baseline points="125,300 1139,287"/>
+                <TextEquiv>
+                    <Unicode>weil mir die Schweizerischen Handelsbeziehungen mehr</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1486980233903_1509" custom="readingOrder {index:4;}">
+                <Coords points="112,316 796,304 797,354 113,366"/>
+                <Baseline points="113,361 797,349"/>
+                <TextEquiv>
+                    <Unicode>als irgendwelche andere bekannt sind.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1486980238579_1510" custom="readingOrder {index:5;}">
+                <Coords points="397,367 1147,367 1148,418 397,417"/>
+                <Baseline points="397,412 1150,410"/>
+                <TextEquiv>
+                    <Unicode>Bei meinem Eintritt in die Credit Anstalt</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1486980243659_1511" custom="readingOrder {index:6;}">
+                <Coords points="102,432 1145,421 1145,471 102,482"/>
+                <Baseline points="102,477 1145,466"/>
+                <TextEquiv>
+                    <Unicode>ist jedoch gleich von Anfang an darin gefehlt worden,</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1486980248679_1512" custom="readingOrder {index:7;}">
+                <Coords points="134,486 1106,472 1107,522 135,536"/>
+                <Baseline points="135,531 1107,517"/>
+                <TextEquiv>
+                    <Unicode>daß man mich nicht in die unmittelbare Nähe</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1486980260263_1513" custom="readingOrder {index:8;}">
+                <Coords points="132,544 1122,527 1123,577 133,594"/>
+                <Baseline points="133,589 1123,572"/>
+                <TextEquiv>
+                    <Unicode>des Herrn Huber gestellt hat, denn nur durch eine</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1486980268973_1514" custom="readingOrder {index:9;}">
+                <Coords points="131,603 863,590 1149,590 1148,641 863,640 132,653"/>
+                <Baseline points="132,648 863,635 1151,636"/>
+                <TextEquiv>
+                    <Unicode>nahe Beziehung zu demselben, durch einen beständigen</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1486980274536_1515" custom="readingOrder {index:10;}">
+                <Coords points="143,659 1148,647 1149,697 144,709"/>
+                <Baseline points="144,704 1149,692"/>
+                <TextEquiv>
+                    <Unicode>Austausch der Ideen und Besprechung der Geschäfte wäre</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1486980283402_1516" custom="readingOrder {index:11;}">
+                <Coords points="124,719 1142,697 1143,747 125,769"/>
+                <Baseline points="125,764 1143,742"/>
+                <TextEquiv>
+                    <Unicode>es möglich gewesen, mich in verhältnißmäßig kurzer</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1486980288378_1517" custom="readingOrder {index:12;}">
+                <Coords points="115,771 1140,753 1141,803 116,821"/>
+                <Baseline points="116,816 1141,798"/>
+                <TextEquiv>
+                    <Unicode>Zeit vorwärts zu bringen, mich auf einen Standpunkt</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1486980295355_1518" custom="readingOrder {index:13;}">
+                <Coords points="91,839 1132,810 1133,860 92,889"/>
+                <Baseline points="92,884 1133,855"/>
+                <TextEquiv>
+                    <Unicode>zu erheben, von wo aus ich fördernd und reformirend</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1486980299722_1519" custom="readingOrder {index:14;}">
+                <Coords points="98,891 613,881 614,931 99,941"/>
+                <Baseline points="99,936 614,926"/>
+                <TextEquiv>
+                    <Unicode>hätte mitwirken können.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1486980311862_1520" custom="readingOrder {index:15;}">
+                <Coords points="268,940 1147,926 1149,975 269,990"/>
+                <Baseline points="269,985 1151,971"/>
+                <TextEquiv>
+                    <Unicode>Statt dessen bin ich nun aber einem Angestellten</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1486980317008_1521" custom="readingOrder {index:16;}">
+                <Coords points="146,1003 1149,986 1150,1033 147,1053"/>
+                <Baseline points="147,1048 1152,1028"/>
+                <TextEquiv>
+                    <Unicode>der Anstalt untergeordnet, und dadurch seiner, sowie</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1486980323489_1522" custom="readingOrder {index:17;}">
+                <Coords points="155,1060 1149,1043 1150,1093 156,1110"/>
+                <Baseline points="156,1105 1150,1088"/>
+                <TextEquiv>
+                    <Unicode>der Willkühr seiner mitangestellten brutalen Freunde</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1486980327743_1523" custom="readingOrder {index:18;}">
+                <Coords points="155,1123 552,1109 554,1159 157,1173"/>
+                <Baseline points="157,1168 554,1154"/>
+                <TextEquiv>
+                    <Unicode>ausgesetzt worden!</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1486980332132_1524" custom="readingOrder {index:19;}">
+                <Coords points="327,1172 1142,1153 1143,1203 328,1222"/>
+                <Baseline points="328,1217 1143,1198"/>
+                <TextEquiv>
+                    <Unicode>Es bedurfte keines langen Studiums, um</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1486980337578_1525" custom="readingOrder {index:20;}">
+                <Coords points="136,1239 1134,1210 1135,1260 137,1289"/>
+                <Baseline points="137,1284 1135,1255"/>
+                <TextEquiv>
+                    <Unicode>mich zu überzeugen, wie wenig eigentlich die</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1486980343908_1526" custom="readingOrder {index:21;}">
+                <Coords points="163,1298 1140,1294 1140,1344 163,1348"/>
+                <Baseline points="163,1343 1140,1339"/>
+                <TextEquiv>
+                    <Unicode>Direction des Ganzen in den Händen der Direction </Unicode>
+                </TextEquiv>
+            </TextLine>
+        </TextRegion>
+    </Page>
+</PcGts>

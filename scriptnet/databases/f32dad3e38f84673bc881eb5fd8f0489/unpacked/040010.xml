@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+  <Metadata>
+    <Creator>TRP</Creator>
+    <Created>2016-12-16T11:52:13.098+01:00</Created>
+    <LastChange>2016-12-16T13:16:26.149+01:00</LastChange>
+  </Metadata>
+  <Page imageFilename="040010.jpg" imageWidth="1397" imageHeight="1772">
+    <ReadingOrder>
+      <OrderedGroup id="ro_1481890586467" caption="Regions reading order">
+        <RegionRefIndexed index="0" regionRef="region_1481886062191_88"/>
+        <RegionRefIndexed index="1" regionRef="region_1481886066219_89"/>
+        <RegionRefIndexed index="2" regionRef="region_1481886070789_90"/>
+        <RegionRefIndexed index="3" regionRef="region_1481886076727_91"/>
+      </OrderedGroup>
+    </ReadingOrder>
+    <TextRegion id="region_1481886062191_88">
+      <Coords points="309,454 1384,454 1384,989 309,989"/>
+      <TextLine id="line_1481886113093_92">
+        <Coords points="343,492 695,491 1309,488 1309,538 695,541 343,542"/>
+        <Baseline points="343,537 695,536 1309,533"/>
+        <TextEquiv>
+          <Unicode>Semerings durch Rampen, an deren Enden</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1481886117890_93">
+        <Coords points="368,538 811,540 1351,544 1351,594 811,590 368,588"/>
+        <Baseline points="368,583 811,585 1352,589"/>
+        <TextEquiv>
+          <Unicode>Ausweichgeleise projectirt wurden. Diese Idee</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1481886122374_94">
+        <Coords points="377,582 684,583 1366,594 1365,644 684,633 377,632"/>
+        <Baseline points="377,627 684,628 1365,639"/>
+        <TextEquiv>
+          <Unicode>scheinbar gut, hat wegen dem Wechsel der Loko¬</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1481886126749_95">
+        <Coords points="379,632 844,632 1365,641 1364,691 844,682 379,682"/>
+        <Baseline points="379,677 844,677 1364,686"/>
+        <TextEquiv>
+          <Unicode>motive und der großen Länge der Ausweichge¬</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1481886131208_96">
+        <Coords points="375,680 774,677 1361,690 1360,740 774,727 375,730"/>
+        <Baseline points="375,725 774,722 1360,735"/>
+        <TextEquiv>
+          <Unicode>leise keine Beachtung gefunden, im Falle der</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1481886135255_97">
+        <Coords points="372,731 754,727 1362,741 1361,791 754,777 372,781"/>
+        <Baseline points="372,776 754,772 1361,786"/>
+        <TextEquiv>
+          <Unicode>Auffindung bitte ich um die Erlaubniß, dieselbe</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1481886139196_98">
+        <Coords points="382,779 903,782 903,832 382,829"/>
+        <Baseline points="382,824 903,827"/>
+        <TextEquiv>
+          <Unicode>übermitteln zu dürfen.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1481886146234_99">
+        <Coords points="449,834 891,834 1342,837 1342,887 891,884 449,884"/>
+        <Baseline points="449,879 891,879 1342,882"/>
+        <TextEquiv>
+          <Unicode>Mit dem Ausdrucke seines verbindlichsten</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1481886163147_100">
+        <Coords points="372,879 621,883 906,885 1377,887 1377,937 906,935 620,933 371,929"/>
+        <Baseline points="371,924 620,928 906,930 1377,932"/>
+        <TextEquiv>
+          <Unicode>Dankes und seiner vollkommensten Hochachtung</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1481886168701_101">
+        <Coords points="369,929 957,929 957,979 369,979"/>
+        <Baseline points="369,974 957,974"/>
+        <TextEquiv>
+          <Unicode>hat die Ehre sich zu zeichnen</Unicode>
+        </TextEquiv>
+      </TextLine>
+    </TextRegion>
+    <TextRegion id="region_1481886066219_89">
+      <Coords points="189,980 708,980 708,1102 189,1102"/>
+      <TextLine id="line_1481886179734_102">
+        <Coords points="233,1015 326,1010 389,998 698,1005 697,1055 393,1048 332,1060 235,1065"/>
+        <Baseline points="235,1060 331,1055 393,1043 697,1050"/>
+        <TextEquiv>
+          <Unicode>d. Wien den 15t August</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1481886183390_103">
+        <Coords points="398,1045 512,1045 512,1095 398,1095"/>
+        <Baseline points="398,1090 512,1090"/>
+        <TextEquiv>
+          <Unicode>1885</Unicode>
+        </TextEquiv>
+      </TextLine>
+    </TextRegion>
+    <TextRegion id="region_1481886070789_90">
+      <Coords points="816,991 1365,991 1365,1117 816,1117"/>
+      <TextLine id="line_1481886188920_104">
+        <Coords points="833,1009 993,1007 1355,998 1356,1048 994,1057 834,1059"/>
+        <Baseline points="834,1054 994,1052 1356,1043"/>
+        <TextEquiv>
+          <Unicode>Euer Hochwohlgeboren</Unicode>
+        </TextEquiv>
+      </TextLine>
+    </TextRegion>
+    <TextRegion id="region_1481886076727_91">
+      <Coords points="768,1365 1384,1365 1384,1586 768,1586"/>
+      <TextLine id="line_1481886195913_105">
+        <Coords points="841,1400 1022,1386 1368,1381 1369,1431 1024,1436 845,1450"/>
+        <Baseline points="845,1445 1024,1431 1369,1426"/>
+        <TextEquiv>
+          <Unicode>gehorsamster Diener</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1481886204340_106">
+        <Coords points="784,1466 854,1471 914,1450 1310,1441 1311,1491 923,1499 861,1521 781,1516"/>
+        <Baseline points="781,1511 860,1516 922,1494 1311,1486"/>
+        <TextEquiv>
+          <Unicode>Franz Czerwenka</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1481886218246_107">
+        <Coords points="870,1493 1041,1493 1371,1481 1373,1531 1042,1543 870,1543"/>
+        <Baseline points="870,1538 1042,1538 1373,1526"/>
+        <TextEquiv>
+          <Unicode>Beh. aut. Civil-Ingenieur</Unicode>
+        </TextEquiv>
+      </TextLine>
+    </TextRegion>
+  </Page>
+</PcGts>

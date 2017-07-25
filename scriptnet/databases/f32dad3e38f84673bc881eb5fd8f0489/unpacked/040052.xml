@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+  <Metadata>
+    <Creator>TRP</Creator>
+    <Created>2016-12-16T09:48:30.517+01:00</Created>
+    <LastChange>2016-12-16T11:10:07.848+01:00</LastChange>
+  </Metadata>
+  <Page imageFilename="040052.jpg" imageWidth="2000" imageHeight="2825">
+    <ReadingOrder>
+      <OrderedGroup id="ro_1481883008209" caption="Regions reading order">
+        <RegionRefIndexed index="0" regionRef="region_1481880235461_42"/>
+        <RegionRefIndexed index="1" regionRef="region_1481880240384_43"/>
+        <RegionRefIndexed index="2" regionRef="region_1481880247307_44"/>
+      </OrderedGroup>
+    </ReadingOrder>
+    <TextRegion id="region_1481880235461_42">
+      <Coords points="987,345 1824,345 1824,500 987,500"/>
+      <TextLine id="line_1481880275670_45">
+        <Coords points="1008,402 1122,417 1802,404 1803,454 1120,467 1001,452"/>
+        <Baseline points="1002,447 1120,462 1803,449"/>
+        <TextEquiv>
+          <Unicode>Bonn, 15 November 1886.</Unicode>
+        </TextEquiv>
+      </TextLine>
+    </TextRegion>
+    <TextRegion id="region_1481880240384_43">
+      <Coords points="324,606 1577,606 1577,884 324,884"/>
+      <TextLine id="line_1481880286803_46">
+        <Coords points="412,708 711,714 1018,721 1550,716 1550,766 1018,771 710,764 411,758"/>
+        <Baseline points="411,753 710,759 1018,766 1550,761"/>
+        <TextEquiv>
+          <Unicode>Sehr geehrter Herr Geheimrath!</Unicode>
+        </TextEquiv>
+      </TextLine>
+    </TextRegion>
+    <TextRegion id="region_1481880247307_44">
+      <Coords points="166,905 1914,905 1914,2119 166,2119"/>
+      <TextLine id="line_1481880296053_47">
+        <Coords points="206,984 489,997 1100,1002 1845,1019 1844,1069 1099,1052 488,1047 204,1034"/>
+        <Baseline points="204,1029 488,1042 1099,1047 1844,1064"/>
+        <TextEquiv>
+          <Unicode>Ich erlaube mir Ew. Hochwohlgeboren einige Besprechungen</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1481880302944_48">
+        <Coords points="221,1084 703,1073 992,1089 1828,1093 1828,1143 991,1139 702,1123 222,1134"/>
+        <Baseline points="222,1129 702,1118 991,1134 1828,1138"/>
+        <TextEquiv>
+          <Unicode>meines Werkes: "Anthropologische Studien" zur gefälligen</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1481880308698_49">
+        <Coords points="213,1158 967,1165 1793,1175 1792,1225 967,1215 213,1208"/>
+        <Baseline points="213,1203 967,1210 1792,1220"/>
+        <TextEquiv>
+          <Unicode>Kenntnißnahme zu übersenden und bitte um spätere gütige</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1481880315604_50">
+        <Coords points="209,1236 849,1242 1770,1247 1770,1297 849,1292 209,1286"/>
+        <Baseline points="209,1281 849,1287 1770,1292"/>
+        <TextEquiv>
+          <Unicode>Rücksendung. Auch wird es Sie gewiß interessiren, aus</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1481880322051_51">
+        <Coords points="229,1312 931,1316 1801,1320 1801,1370 931,1366 229,1362"/>
+        <Baseline points="229,1357 931,1361 1801,1365"/>
+        <TextEquiv>
+          <Unicode>dem Berichte der Stettiner Anthropologischen Versammlung zu</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1481880332812_52">
+        <Coords points="206,1394 770,1388 913,1397 1409,1407 1810,1403 1810,1453 1409,1457 911,1447 769,1438 206,1444"/>
+        <Baseline points="206,1439 769,1433 911,1442 1409,1452 1810,1448"/>
+        <TextEquiv>
+          <Unicode>ersehen, mit welcher Freude und Anerkennung diese Ver¬</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1481880341745_53">
+        <Coords points="223,1466 311,1468 1034,1463 1782,1474 1781,1524 1034,1513 311,1518 222,1516"/>
+        <Baseline points="222,1511 311,1513 1034,1508 1781,1519"/>
+        <TextEquiv>
+          <Unicode>sammlung die Gründung der ersten ordentlichen Professur</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1481880349602_54">
+        <Coords points="231,1545 439,1547 1170,1540 1849,1549 1848,1599 1170,1590 439,1597 231,1595"/>
+        <Baseline points="231,1590 439,1592 1170,1585 1848,1594"/>
+        <TextEquiv>
+          <Unicode>für Anthropologie an einer deutschen Universität begrüßt</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1481880356472_55">
+        <Coords points="220,1619 320,1618 835,1618 1846,1623 1846,1673 835,1668 320,1668 220,1669"/>
+        <Baseline points="220,1664 320,1663 835,1663 1846,1668"/>
+        <TextEquiv>
+          <Unicode>hat. Die Fortsetzung des Berichtes werde ich mich beehren,</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1481880364020_56">
+        <Coords points="214,1706 345,1695 552,1694 994,1695 994,1745 552,1744 347,1745 218,1756"/>
+        <Baseline points="218,1751 347,1740 552,1739 994,1740"/>
+        <TextEquiv>
+          <Unicode>Ihnen später nachzusenden.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1481880371279_57">
+        <Coords points="956,1775 1119,1768 1276,1775 1752,1773 1752,1823 1275,1825 1119,1818 958,1825"/>
+        <Baseline points="958,1820 1119,1813 1275,1820 1752,1818"/>
+        <TextEquiv>
+          <Unicode>Mit vorzüglicher Hochachtung</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1481880375915_58">
+        <Coords points="1280,1864 1529,1862 1529,1912 1280,1914"/>
+        <Baseline points="1280,1909 1529,1907"/>
+        <TextEquiv>
+          <Unicode>zeichnet</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1481880380497_59">
+        <Coords points="1508,1913 1742,1908 1743,1958 1509,1963"/>
+        <Baseline points="1509,1958 1743,1953"/>
+        <TextEquiv>
+          <Unicode>ergebenst</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1481880385266_60">
+        <Coords points="1083,2000 1895,1998 1895,2048 1083,2050"/>
+        <Baseline points="1083,2045 1895,2043"/>
+        <TextEquiv>
+          <Unicode>Professor Dr. H. Schaafhausen.</Unicode>
+        </TextEquiv>
+      </TextLine>
+    </TextRegion>
+  </Page>
+</PcGts>

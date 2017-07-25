@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+  <Metadata>
+    <Creator>htrsh_pagexml_create</Creator>
+    <Created>2017-01-30T12:23:50</Created>
+    <LastChange>2017-02-17T09:42:37.089+01:00</LastChange>
+  </Metadata>
+  <Page imageFilename="040033.jpg" imageWidth="1145" imageHeight="1440">
+    <ReadingOrder>
+      <OrderedGroup id="ro_1487320957366" caption="Regions reading order">
+        <RegionRefIndexed index="0" regionRef="TextRegion_1487320924623_125"/>
+        <RegionRefIndexed index="1" regionRef="TextRegion_1487320924623_124"/>
+      </OrderedGroup>
+    </ReadingOrder>
+    <TextRegion id="TextRegion_1487320924623_125">
+      <Coords points="862,201 337,201 337,93 862,99"/>
+      <TextLine id="line_1486638785727_502">
+        <Coords points="365,121 846,126 846,176 365,171"/>
+        <Baseline points="365,166 846,171"/>
+        <TextEquiv>
+          <Unicode>Hochgeachteter Herr u. Freund!</Unicode>
+        </TextEquiv>
+      </TextLine>
+    </TextRegion>
+    <TextRegion id="TextRegion_1487320924623_124">
+      <Coords points="1144,1231 126,1231 126,209 1139,209"/>
+      <TextLine id="line_1486638795150_503">
+        <Coords points="317,216 1131,238 1130,288 316,266"/>
+        <Baseline points="316,261 1130,283"/>
+        <TextEquiv>
+          <Unicode>Nachträglich überreiche ich Ihnen hier noch 3 Verpflichtungs-</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486638803903_504">
+        <Coords points="242,252 1108,276 1107,326 241,302"/>
+        <Baseline points="241,297 1107,321"/>
+        <TextEquiv>
+          <Unicode>scheine für den Republicaner von den Herrn Reg.R. Rud. Sulzer,</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486638811867_505">
+        <Coords points="248,282 1123,318 1121,368 246,332"/>
+        <Baseline points="246,327 1121,363"/>
+        <TextEquiv>
+          <Unicode>Herren Wäffler u. Stahel. Immer hoffte ich, die Sache noch weiter</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486638818949_506">
+        <Coords points="247,313 1118,355 1116,405 245,363"/>
+        <Baseline points="245,358 1136,401"/>
+        <TextEquiv>
+          <Unicode>bringen zu können, was aber im gegenwärtigen Augen-</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486638840434_507">
+        <Coords points="246,345 1101,388 1099,438 244,395"/>
+        <Baseline points="244,390 1099,433"/>
+        <TextEquiv>
+          <Unicode>blik wirklich eine Aufgabe ist! – Von einem Manne</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486638848867_508">
+        <Coords points="219,368 1106,419 1103,469 216,418"/>
+        <Baseline points="216,413 1103,464"/>
+        <TextEquiv>
+          <Unicode>hätte ich noch etwas erwartet, der es ganz gut hätte</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486638857297_509">
+        <Coords points="242,402 1120,450 1118,500 240,452"/>
+        <Baseline points="240,447 1118,495"/>
+        <TextEquiv>
+          <Unicode>thun können, zumal er sich nie besonders anstrengt</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486638874251_510">
+        <Coords points="237,428 1049,480 1143,499 1133,548 1042,530 234,478"/>
+        <Baseline points="234,473 1043,525 1134,543"/>
+        <TextEquiv>
+          <Unicode>u. doch mehr oder minder dafür gehalten seyn will; ich sagte</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486638886094_511">
+        <Coords points="240,457 568,469 1078,516 1074,566 565,519 238,507"/>
+        <Baseline points="238,502 565,514 1074,561"/>
+        <TextEquiv>
+          <Unicode>dieß ihm auch deutsch heraus. – Da Sie mir meine</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486638895949_512">
+        <Coords points="239,485 1102,544 1099,594 236,535"/>
+        <Baseline points="236,530 584,548 1099,589"/>
+        <TextEquiv>
+          <Unicode>Bemerkung in meinem letzten Schreiben nicht erwiederten,</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486638903948_513">
+        <Coords points="231,513 715,536 1057,569 1053,619 712,586 229,563"/>
+        <Baseline points="229,558 712,581 1053,614"/>
+        <TextEquiv>
+          <Unicode>so hat auch Hr. Rüegg bis jezt nicht unterzeichnet.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486638921343_514">
+        <Coords points="271,564 1095,619 1092,669 268,614"/>
+        <Baseline points="268,609 1092,664"/>
+        <TextEquiv>
+          <Unicode>Die neuen Angriffe auf Ihre Person u. Ihre werthe</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486638929971_515">
+        <Coords points="259,602 1110,649 1108,699 257,652"/>
+        <Baseline points="257,647 1108,694"/>
+        <TextEquiv>
+          <Unicode>Familie sind auch gar zu absurd, als daß Sie nicht</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486638934710_516">
+        <Coords points="226,624 1087,681 1084,731 223,674"/>
+        <Baseline points="223,669 1084,726"/>
+        <TextEquiv>
+          <Unicode>jeden rechtlichen Mann empören müßten. Unsere</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486638946483_517">
+        <Coords points="236,657 701,679 1106,711 1102,761 698,729 234,707"/>
+        <Baseline points="234,702 698,724 1102,756"/>
+        <TextEquiv>
+          <Unicode>Gegner zeigen sich wie verrükt, daß sie mit dergleichen</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486638958848_518">
+        <Coords points="241,690 651,708 1073,741 1069,791 648,758 239,740"/>
+        <Baseline points="239,735 648,753 1069,786"/>
+        <TextEquiv>
+          <Unicode>Waffen fechten, deren Schläge nothwendig auf sie</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486638978934_519">
+        <Coords points="200,717 1114,772 1111,822 197,767"/>
+        <Baseline points="197,762 1111,817"/>
+        <TextEquiv>
+          <Unicode>zurückfallen; darüber scheint mir nur eine Stimme</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486638987400_520">
+        <Coords points="228,747 771,774 1083,802 1079,852 768,824 226,797"/>
+        <Baseline points="226,792 768,819 1079,847"/>
+        <TextEquiv>
+          <Unicode>zu herrschen. Dergleichen Erfahrungen sind auch ganz</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486638997849_521">
+        <Coords points="235,781 972,815 1123,840 1115,889 966,865 233,831"/>
+        <Baseline points="233,826 967,860 1116,884"/>
+        <TextEquiv>
+          <Unicode>geeignet, für den Kampf gegen die Niederträchtig-</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486639015749_522">
+        <Coords points="247,808 898,840 1063,856 1059,906 895,890 245,858"/>
+        <Baseline points="245,853 895,885 1059,901"/>
+        <TextEquiv>
+          <Unicode>keiten einer gewißen Claße von Menschen zu</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486639027789_523">
+        <Coords points="229,833 672,856 1110,885 1107,935 669,906 227,883"/>
+        <Baseline points="227,878 669,901 1107,930"/>
+        <TextEquiv>
+          <Unicode>stächeln u. zu kräftigen; denn jeder der es kann,</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486639040829_524">
+        <Coords points="223,864 634,880 1096,913 1093,963 632,930 221,914"/>
+        <Baseline points="221,909 632,925 1093,958"/>
+        <TextEquiv>
+          <Unicode>hat die heilige Pflicht auf sich, gegen einen solchen</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486639050738_525">
+        <Coords points="240,894 647,912 1105,952 1101,1002 644,962 238,944"/>
+        <Baseline points="238,939 644,957 1101,997"/>
+        <TextEquiv>
+          <Unicode>Feind alter Pietät den Kampf auf Tod u. Leben</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486639058993_526">
+        <Coords points="220,922 704,944 1133,983 1129,1033 701,994 218,972"/>
+        <Baseline points="218,967 701,989 1129,1028"/>
+        <TextEquiv>
+          <Unicode>zu wagen; die Schlechtigkeit muß fallen u. die Wahr-</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486639064635_527">
+        <Coords points="224,949 730,972 728,1022 222,999"/>
+        <Baseline points="222,994 728,1017"/>
+        <TextEquiv>
+          <Unicode>heit muß siegen! –</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486639071271_528">
+        <Coords points="261,995 1042,1030 1040,1080 259,1045"/>
+        <Baseline points="259,1040 1040,1075"/>
+        <TextEquiv>
+          <Unicode>Immer Ihr hochachtungsvoll ergebenster</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486639089888_530">
+        <Coords points="885,1059 1121,1093 1114,1143 878,1109"/>
+        <Baseline points="879,1104 1115,1138"/>
+        <TextEquiv>
+          <Unicode>Huggenberger.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486639077481_529">
+        <Coords points="155,1043 757,1055 756,1105 154,1093"/>
+        <Baseline points="154,1088 756,1100"/>
+        <TextEquiv>
+          <Unicode>Winterthur den 26. Oct. 1845.</Unicode>
+        </TextEquiv>
+      </TextLine>
+    </TextRegion>
+  </Page>
+</PcGts>

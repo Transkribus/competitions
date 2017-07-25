@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+  <Metadata>
+    <Creator>TRP
+NCSR LineSegmentationTool, v0.3.0 (17_3_2015)</Creator>
+    <Created>2016-12-22T15:32:47.038+01:00</Created>
+    <LastChange>2017-01-20T09:29:31.210+01:00</LastChange>
+  </Metadata>
+  <Page imageFilename="040005.jpg" imageWidth="1640" imageHeight="2576">
+    <ReadingOrder>
+      <OrderedGroup id="ro_1484900971248" caption="Regions reading order">
+        <RegionRefIndexed index="0" regionRef="region_1483100979013_14"/>
+        <RegionRefIndexed index="1" regionRef="region_1483100982373_15"/>
+        <RegionRefIndexed index="2" regionRef="region_1483100995785_16"/>
+        <RegionRefIndexed index="3" regionRef="region_1483101011879_18"/>
+        <RegionRefIndexed index="4" regionRef="region_1483101003051_17"/>
+      </OrderedGroup>
+    </ReadingOrder>
+    <TextRegion id="region_1483100979013_14">
+      <Coords points="1516,16 1574,16 1574,93 1516,93"/>
+      <TextLine id="line_1483101060119_19">
+        <Coords points="1526,38 1564,38 1564,88 1526,88"/>
+        <Baseline points="1526,83 1564,83"/>
+        <TextEquiv>
+          <Unicode>1</Unicode>
+        </TextEquiv>
+      </TextLine>
+    </TextRegion>
+    <TextRegion id="region_1483100982373_15">
+      <Coords points="1016,109 1626,109 1626,244 1016,244"/>
+      <TextLine id="line_1483101076374_20">
+        <Coords points="1026,148 1524,163 1618,169 1618,169 1618,219 1617,219 1522,213 1025,198"/>
+        <Baseline points="1025,193 1522,208 1617,214 1618,214"/>
+        <TextEquiv>
+          <Unicode>Lausanne, 17 August 1879</Unicode>
+        </TextEquiv>
+      </TextLine>
+    </TextRegion>
+    <TextRegion id="region_1483100995785_16">
+      <Coords points="535,468 1385,468 1385,610 535,610"/>
+      <TextLine id="line_1483101098244_21">
+        <Coords points="543,511 1375,526 1374,576 542,561"/>
+        <Baseline points="542,556 1374,571"/>
+        <TextEquiv>
+          <Unicode>Sehr geehrter Herr Geheimer Rath!</Unicode>
+        </TextEquiv>
+      </TextLine>
+    </TextRegion>
+    <TextRegion id="region_1483101011879_18">
+      <Coords points="719,2355 1447,2355 1447,2575 719,2575"/>
+      <TextLine id="line_1483101119774_22">
+        <Coords points="725,2359 1440,2363 1440,2413 725,2409"/>
+        <Baseline points="725,2404 1440,2408"/>
+        <TextEquiv>
+          <Unicode>Mit hochachtungsvollem Gruß</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1483101122915_23">
+        <Coords points="825,2436 1434,2448 1433,2498 824,2486"/>
+        <Baseline points="824,2481 1433,2493"/>
+        <TextEquiv>
+          <Unicode>Ihr aufrichtig ergebenster</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1483101126944_24">
+        <Coords points="1132,2515 1411,2525 1409,2575 1130,2565"/>
+        <Baseline points="1130,2560 1409,2570"/>
+        <TextEquiv>
+          <Unicode>H Bresslau</Unicode>
+        </TextEquiv>
+      </TextLine>
+    </TextRegion>
+    <TextRegion id="region_1483101003051_17">
+      <Coords points="209,621 1628,621 1628,2348 209,2348"/>
+      <TextLine id="r1001">
+        <Coords points="252,629 235,636 223,672 223,681 224,685 242,704 905,722 1035,723 1173,724 1595,719 1603,699 1603,684 1603,682 1600,677 1455,647 1297,647 1259,646 1002,646 909,634 513,635 465,635 464,635 253,629"/>
+        <Baseline points="223,675 452,679 682,685 911,688 1141,690 1603,705"/>
+        <TextEquiv>
+          <Unicode>Bei meiner Anwesenheit in Engelberg vorige Woche habe ich</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r1002">
+        <Coords points="262,731 242,739 235,761 233,804 233,809 234,814 237,818 472,820 1600,823 1605,823 1610,809 1610,803 1579,762 1577,762 1569,761 1545,761 1511,760 1409,760 1380,759 1351,759 1321,758 1270,758 1248,757 1189,757 1148,741 798,741 769,740 589,740 554,740 263,731"/>
+        <Baseline points="233,767 462,774 691,779 920,788 1145,801 1610,815"/>
+        <TextEquiv>
+          <Unicode>Gelegenheit gehabt, den Codex des Chr. Suev. noch einmal ein¬</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r1003">
+        <Coords points="646,833 521,834 255,840 246,842 233,902 233,908 236,914 1616,942 1628,940 1629,932 1591,856 1518,855 1294,855 1285,854 1239,854 1236,853 1223,853 647,833"/>
+        <Baseline points="233,866 465,869 697,876 929,883 1161,892 1629,901"/>
+        <TextEquiv>
+          <Unicode>zusehen und mich zu überzeugen, daß die uns gesandte</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r1004">
+        <Coords points="273,927 253,934 243,968 243,975 247,983 514,1002 751,1004 1299,1007 1546,1002 1559,999 1566,974 1566,963 1564,958 1107,928 284,928 274,927"/>
+        <Baseline points="243,969 463,971 683,972 903,975 1123,983 1584,1000"/>
+        <TextEquiv>
+          <Unicode>Collation resp. Abschrift in einem Punkte ungenau ist.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r1005">
+        <Coords points="272,1013 260,1016 247,1058 247,1063 297,1096 1270,1100 1584,1097 1590,1083 1590,1078 1590,1076 1566,1039 1539,1038 1502,1038 1489,1037 1340,1037 1334,1036 1317,1036 1265,1035 1252,1035 1245,1034 1235,1034 1173,1033 1123,1033 1116,1032 1091,1032 1055,1031 973,1031 968,1030 887,1030 821,1029 774,1029 734,1028 665,1028 273,1013"/>
+        <Baseline points="247,1061 470,1063 678,1070 910,1070 1147,1078 1590,1087"/>
+        <TextEquiv>
+          <Unicode>P. Gottwald hat in derselben von 1010 - 1024 (resp. nach den</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r1006">
+        <Coords points="272,1114 243,1145 240,1185 240,1191 243,1196 953,1200 1337,1200 1547,1195 1612,1189 1617,1169 1617,1166 1600,1135 1563,1134 1554,1134 1465,1133 1440,1133 1424,1132 1418,1132 1379,1131 1315,1131 1157,1117 708,1117 698,1116 282,1116 273,1114"/>
+        <Baseline points="240,1151 469,1152 698,1143 927,1157 1156,1165 1617,1172"/>
+        <TextEquiv>
+          <Unicode>falschen Zahlen des Cod. 1012 - 1026) eine Lücke angedeutet, die</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r1007">
+        <Coords points="333,1207 266,1212 256,1221 252,1240 252,1244 257,1252 1562,1274 1570,1274 1574,1273 1575,1269 1572,1255 1559,1236 1303,1216 1101,1216 1083,1215 1048,1215 1040,1214 1027,1214 998,1213 873,1213 855,1212 737,1212 729,1211 602,1211 592,1210 535,1210 530,1209 341,1209 334,1207"/>
+        <Baseline points="252,1239 472,1241 692,1244 912,1246 1132,1246 1575,1268"/>
+        <TextEquiv>
+          <Unicode>in Wirklichkeit nicht existiert. Ich habe nun die in unserer</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r1008">
+        <Coords points="704,1278 271,1282 257,1285 249,1310 249,1316 249,1318 252,1323 391,1355 1440,1378 1582,1371 1593,1361 1595,1348 1595,1342 1578,1314 1260,1287 928,1287 908,1287 705,1278"/>
+        <Baseline points="249,1315 473,1311 697,1318 921,1325 1145,1330 1595,1352"/>
+        <TextEquiv>
+          <Unicode>Abschrift fehlenden Jahre copirt und sende Ihnen eingeschlos¬</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r1009">
+        <Coords points="503,1365 264,1370 255,1376 252,1396 252,1399 258,1408 593,1442 1590,1454 1611,1446 1612,1439 1596,1405 871,1365 504,1365"/>
+        <Baseline points="252,1396 478,1399 704,1397 930,1408 1156,1420 1612,1446"/>
+        <TextEquiv>
+          <Unicode>sen meine Copie; für den Fall, daß ich nicht selbst eine Cor¬</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r1010">
+        <Coords points="334,1450 257,1456 249,1467 248,1479 249,1485 253,1491 681,1538 1609,1555 1613,1555 1619,1545 1619,1540 1611,1524 1584,1488 1570,1488 997,1457 775,1457 748,1456 588,1456 579,1452 448,1452 441,1451 341,1451 335,1450"/>
+        <Baseline points="248,1480 476,1487 704,1494 932,1501 1160,1510 1619,1536"/>
+        <TextEquiv>
+          <Unicode>rectur lesen kann, würde ich Ihnen sehr dankbar sein, wenn</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r1011">
+        <Coords points="293,1526 264,1537 261,1547 261,1574 262,1580 428,1621 1597,1632 1608,1629 1609,1616 1605,1583 1603,1575 1548,1574 1520,1574 1459,1573 1455,1573 294,1526"/>
+        <Baseline points="261,1575 485,1581 709,1587 933,1594 1157,1606 1609,1627"/>
+        <TextEquiv>
+          <Unicode>Sie die große Güte haben wollten, bei der Correctur die Les¬</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r1012">
+        <Coords points="527,1635 326,1637 269,1641 253,1654 250,1666 250,1672 250,1674 253,1679 540,1722 1217,1736 1573,1726 1578,1716 1579,1700 1571,1678 1377,1648 1097,1648 1086,1647 989,1647 959,1646 863,1646 789,1638 604,1639 598,1639 528,1635"/>
+        <Baseline points="250,1669 471,1675 692,1677 913,1685 1134,1697 1579,1710"/>
+        <TextEquiv>
+          <Unicode>arten der Engelberger Handschrift einzutragen. Ebenso habe</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r1013">
+        <Coords points="443,1725 312,1726 270,1733 255,1755 255,1761 264,1774 1051,1814 1596,1816 1605,1815 1611,1812 1615,1793 1614,1781 1570,1748 1483,1748 1462,1747 1372,1747 1361,1746 1345,1746 1336,1745 1153,1745 994,1728 908,1728 898,1727 453,1727 444,1725"/>
+        <Baseline points="255,1757 481,1761 707,1765 933,1775 1159,1786 1615,1804"/>
+        <TextEquiv>
+          <Unicode>ich die Jahre 1040 - 44, deren Lesarten Gottwald nicht notirt hat¬</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r1014">
+        <Coords points="477,1805 286,1806 266,1813 259,1845 259,1848 262,1855 300,1872 891,1874 902,1874 904,1874 918,1855 915,1838 908,1829 885,1828 864,1828 859,1827 824,1827 815,1826 808,1826 478,1805"/>
+        <Baseline points="259,1848 368,1847 478,1852 587,1856 697,1858 918,1871"/>
+        <TextEquiv>
+          <Unicode>te, mit Pistorius collationirt.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r1015">
+        <Coords points="429,1896 411,1900 402,1933 402,1939 407,1947 708,1985 1031,1995 1517,1986 1524,1973 1525,1958 1525,1956 1459,1913 1061,1913 1039,1903 615,1903 430,1896"/>
+        <Baseline points="402,1931 588,1938 775,1940 961,1949 1148,1955 1525,1974"/>
+        <TextEquiv>
+          <Unicode>Ich bin bis jetzt mit den Ergebnissen meiner Reise</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r1016">
+        <Coords points="645,1988 323,1990 287,1992 274,2004 272,2020 273,2025 375,2059 953,2061 1460,2061 1525,2061 1537,2060 1541,2056 1541,2050 1535,2038 1104,1993 1033,1998 991,1998 646,1988"/>
+        <Baseline points="272,2018 483,2024 694,2029 905,2035 1116,2042 1541,2058"/>
+        <TextEquiv>
+          <Unicode>sehr zufrieden. Bis auf ein einziges Stück habe ich von</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r1017">
+        <Coords points="776,2079 402,2083 282,2085 269,2101 267,2115 267,2120 271,2125 865,2158 1591,2156 1593,2156 1595,2147 1595,2143 1592,2135 1573,2105 1535,2104 1514,2104 1417,2103 1392,2103 1238,2084 887,2084 777,2079"/>
+        <Baseline points="267,2114 488,2118 709,2119 930,2123 1151,2129 1595,2145"/>
+        <TextEquiv>
+          <Unicode>sämmtlichen in der Schweiz vorhandenen xxx der salischen</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r1018">
+        <Coords points="289,2163 281,2166 264,2206 264,2211 264,2213 269,2221 550,2247 1470,2250 1585,2241 1588,2234 1587,2224 1587,2221 1578,2208 1530,2184 1471,2184 1460,2183 1397,2183 1384,2182 1222,2182 1201,2181 1017,2181 968,2180 896,2180 894,2180 482,2165 302,2165 290,2163"/>
+        <Baseline points="264,2209 484,2213 704,2217 924,2218 1144,2218 1588,2231"/>
+        <TextEquiv>
+          <Unicode>Periode Schriftproben nehmen können und manche diploma¬</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r1019">
+        <Coords points="293,2266 266,2299 265,2304 265,2306 281,2328 980,2345 1029,2343 1175,2319 1179,2299 1178,2294 1126,2273 946,2273 941,2272 864,2272 846,2271 584,2271 528,2271 498,2271 294,2266"/>
+        <Baseline points="265,2305 417,2306 569,2310 721,2311 873,2312 1179,2308"/>
+        <TextEquiv>
+          <Unicode>tisch sehr interessanten Urkk. gefunden.</Unicode>
+        </TextEquiv>
+      </TextLine>
+    </TextRegion>
+  </Page>
+</PcGts>

@@ -30,7 +30,10 @@ def parse_gt_file(file):
     file = open(file, "r")
 
     gt = {}
-    writer = {}
+    writer = {}They are all affiliated with BYU computer science dpt., link: https://cs.byu.edu/
+
+Unfortunately their 'biographies' on scriptnet are empty.
+
     writer_list = []
     for line in file:
         line = line.rstrip('\n')
@@ -49,7 +52,7 @@ def parse_gt_file(file):
 
         writer[split[0]] = w[0]
         writer_list.append(w[0])
-
+        
     file.close()
 
     uniq_writer = list(set(writer_list))
@@ -88,6 +91,7 @@ def evaluate(writer, result_file, pages_per_writer):
             print('filename \"' + ref_page + '\" unkown')
             logger.error('filename \"' + ref_page + '\" unkown')
             return 0, 0, 0, 0, 0
+
 
         ref_writer = writer[ref_page]
         logger.debug("ref_writer:" + ref_writer + " ref_page:" + ref_page)

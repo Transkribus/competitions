@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+    <Metadata>
+        <Creator>htrsh_pagexml_create</Creator>
+        <Created>2017-01-30T12:26:48</Created>
+        <LastChange>2017-06-30T18:37:14.261+02:00</LastChange>
+    </Metadata>
+    <Page imageFilename="040029.jpg" imageWidth="1124" imageHeight="1440">
+        <ReadingOrder>
+            <OrderedGroup id="ro_1498840634328" caption="Regions reading order">
+                <RegionRefIndexed index="0" regionRef="TextRegion_1487328218514_240"/>
+                <RegionRefIndexed index="1" regionRef="TextRegion_1487328218514_239"/>
+                <RegionRefIndexed index="2" regionRef="TextRegion_1487328215811_237"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <TextRegion id="TextRegion_1487328218514_240" custom="readingOrder {index:0;}">
+            <Coords points="1038,166 518,166 518,39 1040,39"/>
+            <TextLine id="line_1486721590441_1394" custom="readingOrder {index:0;}">
+                <Coords points="564,66 1013,67 1013,117 564,116"/>
+                <Baseline points="564,111 1013,112"/>
+                <TextEquiv>
+                    <Unicode>Aarau, den 28. Febr. 1857.</Unicode>
+                </TextEquiv>
+            </TextLine>
+        </TextRegion>
+        <TextRegion id="TextRegion_1487328218514_239" custom="readingOrder {index:1;}">
+            <Coords points="941,269 354,269 354,172 941,172"/>
+            <TextLine id="line_1486721611681_1395" custom="readingOrder {index:0;}">
+                <Coords points="390,185 897,187 897,237 390,235"/>
+                <Baseline points="390,230 897,232"/>
+                <TextEquiv>
+                    <Unicode>Verehrtester Herr &amp;amp; Freund!</Unicode>
+                </TextEquiv>
+            </TextLine>
+        </TextRegion>
+        <TextRegion id="TextRegion_1487328215811_237" custom="readingOrder {index:2;}">
+            <Coords points="273,1305 273,269 1110,269 1106,1304"/>
+            <TextLine id="line_1486721616529_1396" custom="readingOrder {index:0;}">
+                <Coords points="370,289 1089,285 1089,335 370,339"/>
+                <Baseline points="370,334 1089,330"/>
+                <TextEquiv>
+                    <Unicode>Ihre verehrliche Einladung zur Sizzung</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1486721623708_1397" custom="readingOrder {index:1;}">
+                <Coords points="317,339 1096,327 1097,377 318,389"/>
+                <Baseline points="318,384 1097,372"/>
+                <TextEquiv>
+                    <Unicode>des Schulrathes habe ich erhalten. Da ich aber</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1486722025159_1398" custom="readingOrder {index:2;}">
+                <Coords points="314,379 1090,370 1091,420 315,429"/>
+                <Baseline points="315,424 1091,415"/>
+                <TextEquiv>
+                    <Unicode>bereits auf jene Tage einen Konkursprü-</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1486722029286_1399" custom="readingOrder {index:3;}">
+                <Coords points="311,419 1090,409 1091,459 312,469"/>
+                <Baseline points="312,464 1091,454"/>
+                <TextEquiv>
+                    <Unicode>fung angesezzt hatte, die sich nicht mehr ver-</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1486722036014_1400" custom="readingOrder {index:4;}">
+                <Coords points="311,460 1094,451 1095,501 312,510"/>
+                <Baseline points="312,505 1095,496"/>
+                <TextEquiv>
+                    <Unicode>tagen ließ; so wäre es möglich, daß ich der</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1486722042037_1401" custom="readingOrder {index:5;}">
+                <Coords points="310,513 1085,493 1086,543 311,563"/>
+                <Baseline points="313,553 1086,538"/>
+                <TextEquiv>
+                    <Unicode>Sizzung vom 4. März nicht bewohnen könnte,</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1486729503190_1402" custom="readingOrder {index:6;}">
+                <Coords points="312,552 1081,535 1082,585 313,602"/>
+                <Baseline points="313,597 1082,580"/>
+                <TextEquiv>
+                    <Unicode>in welchem Falle Sie mich dann gefälligst</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1486729512067_1403" custom="readingOrder {index:7;}">
+                <Coords points="315,589 900,572 1103,580 1111,635 899,622 316,639"/>
+                <Baseline points="316,634 899,617 1111,630"/>
+                <TextEquiv>
+                    <Unicode>entschuldigen wollen. Ich werde übrigens mein</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1486729516404_1404" custom="readingOrder {index:8;}">
+                <Coords points="312,627 1101,607 1102,657 313,677"/>
+                <Baseline points="313,672 1102,652"/>
+                <TextEquiv>
+                    <Unicode>möglichstes thun, um schon am ersten Tage</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1486729520461_1405" custom="readingOrder {index:9;}">
+                <Coords points="311,667 1062,640 1064,690 313,717"/>
+                <Baseline points="313,712 1064,685"/>
+                <TextEquiv>
+                    <Unicode>an den Verhandlungen Theil nehmen zu</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1486729524623_1406" custom="readingOrder {index:10;}">
+                <Coords points="306,707 453,698 456,748 309,757"/>
+                <Baseline points="309,752 456,743"/>
+                <TextEquiv>
+                    <Unicode>können.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1486729530246_1407" custom="readingOrder {index:11;}">
+                <Coords points="366,748 1100,725 1101,775 367,798"/>
+                <Baseline points="367,793 1101,770"/>
+                <TextEquiv>
+                    <Unicode>Die leidige Eisenbahngeschichte, bei der es</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1486729534134_1408" custom="readingOrder {index:12;}">
+                <Coords points="308,784 1069,766 1070,816 309,834"/>
+                <Baseline points="309,829 1070,811"/>
+                <TextEquiv>
+                    <Unicode>mir immer unheimelig wurde, so oft ich an</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1486729537976_1409" custom="readingOrder {index:13;}">
+                <Coords points="304,825 1086,800 1087,850 305,875"/>
+                <Baseline points="305,870 1087,845"/>
+                <TextEquiv>
+                    <Unicode>sie dachte, ist leider noch viel schlechter</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1486729545578_1410" custom="readingOrder {index:14;}">
+                <Coords points="315,860 1073,835 1074,885 316,910"/>
+                <Baseline points="316,905 1074,880"/>
+                <TextEquiv>
+                    <Unicode>&amp;amp; schmählicher ausgefallen, als ich früher be-</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1486729549467_1411" custom="readingOrder {index:15;}">
+                <Coords points="303,907 1092,877 1094,927 305,957"/>
+                <Baseline points="305,952 1094,922"/>
+                <TextEquiv>
+                    <Unicode>sorgte. Ich fühlte zwar wohl, daß die Frage schwer-</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1486729553393_1412" custom="readingOrder {index:16;}">
+                <Coords points="312,945 1079,912 1081,962 314,995"/>
+                <Baseline points="314,990 1081,957"/>
+                <TextEquiv>
+                    <Unicode>lich mehr vom gemeinen Geldmarkte werde</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1486729558366_1413" custom="readingOrder {index:17;}">
+                <Coords points="307,987 1061,949 1063,999 309,1037"/>
+                <Baseline points="309,1032 1063,994"/>
+                <TextEquiv>
+                    <Unicode>herunter zu bringen sein. Darum sah sich</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1486729778599_1414" custom="readingOrder {index:18;}">
+                <Coords points="312,1023 1064,987 1066,1037 314,1073"/>
+                <Baseline points="314,1068 1066,1032"/>
+                <TextEquiv>
+                    <Unicode>auch die Regierung genöthiget, einen Antrag</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1486729785885_1415" custom="readingOrder {index:19;}">
+                <Coords points="301,1065 889,1026 1084,1029 1083,1079 890,1076 304,1115"/>
+                <Baseline points="304,1110 890,1071 1083,1074"/>
+                <TextEquiv>
+                    <Unicode>zu bringen, der das Sauerbeck sche Gutachten</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1486729792850_1416" custom="readingOrder {index:20;}">
+                <Coords points="307,1103 686,1076 1040,1063 1042,1113 688,1126 310,1153"/>
+                <Baseline points="310,1148 688,1121 1042,1108"/>
+                <TextEquiv>
+                    <Unicode>&amp;amp; den Geldmarkt alternativ vermittelte.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1486729796873_1417" custom="readingOrder {index:21;}">
+                <Coords points="308,1141 1064,1095 1067,1145 311,1191"/>
+                <Baseline points="311,1186 1067,1140"/>
+                <TextEquiv>
+                    <Unicode>Sie sagte: Zweigbahn oder Geld, &amp;amp; wollte</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1486729801061_1418" custom="readingOrder {index:22;}">
+                <Coords points="305,1178 1092,1128 1095,1178 308,1228"/>
+                <Baseline points="308,1223 1095,1173"/>
+                <TextEquiv>
+                    <Unicode>der NOBGesellsch. wenigstens die Wahl des einen</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1486729804999_1419" custom="readingOrder {index:23;}">
+                <Coords points="307,1215 1071,1160 1074,1210 310,1265"/>
+                <Baseline points="310,1260 1074,1205"/>
+                <TextEquiv>
+                    <Unicode>oder andern laßen, um nicht den Schein der</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1486729809408_1420" custom="readingOrder {index:24;}">
+                <Coords points="308,1247 1058,1202 1061,1252 311,1297"/>
+                <Baseline points="311,1292 1061,1247"/>
+                <TextEquiv>
+                    <Unicode>Beutelschneiderei auf den Kanton zu werfen.</Unicode>
+                </TextEquiv>
+            </TextLine>
+        </TextRegion>
+    </Page>
+</PcGts>

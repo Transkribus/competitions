@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+  <Metadata>
+    <Creator>htrsh_pagexml_create</Creator>
+    <Created>2017-01-30T12:28:16</Created>
+    <LastChange>2017-02-17T12:03:03.182+01:00</LastChange>
+  </Metadata>
+  <Page imageFilename="040020.jpg" imageWidth="1067" imageHeight="1440">
+    <ReadingOrder>
+      <OrderedGroup id="ro_1487329383266" caption="Regions reading order">
+        <RegionRefIndexed index="0" regionRef="TextRegion_1487329364571_276"/>
+        <RegionRefIndexed index="1" regionRef="TextRegion_1487329371696_284"/>
+        <RegionRefIndexed index="2" regionRef="TextRegion_1487329371695_283"/>
+      </OrderedGroup>
+    </ReadingOrder>
+    <TextRegion id="TextRegion_1487329364571_276">
+      <Coords points="1046,1300 122,1300 129,112 1056,113"/>
+      <TextLine id="line_1487329364626_280">
+        <Coords points="583,1300 248,1300 583,1292"/>
+        <TextEquiv>
+          <Unicode>Es umarmt dich</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1487329364643_282">
+        <Coords points="1019,1300 665,1300 665,1296 1019,1290"/>
+        <TextEquiv>
+          <Unicode>Dein alter treuer</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486987645671_1722">
+        <Coords points="147,131 1042,134 1042,184 147,181"/>
+        <Baseline points="147,176 1042,179"/>
+        <TextEquiv>
+          <Unicode>gerer Zeit, in welcher wir uns gegenseitig </Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486987651434_1723">
+        <Coords points="143,187 1049,182 1049,232 143,237"/>
+        <Baseline points="143,232 1049,227"/>
+        <TextEquiv>
+          <Unicode>mehr angehören können, für einige Tage</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486987657295_1724">
+        <Coords points="134,243 1060,236 1060,286 134,293"/>
+        <Baseline points="134,288 1060,281"/>
+        <TextEquiv>
+          <Unicode>zu Euch herauf. – Ich bitte dich sehr, an dem</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486987662826_1725">
+        <Coords points="136,298 1053,291 1053,341 136,348"/>
+        <Baseline points="136,343 1053,336"/>
+        <TextEquiv>
+          <Unicode>Plane, den ich dir anmit vorlege, keine</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486987670684_1726">
+        <Coords points="133,347 1034,343 1034,393 133,397"/>
+        <Baseline points="133,392 1034,388"/>
+        <TextEquiv>
+          <Unicode>Veränderungen vorzuschlagen. Dagegen</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486987680826_1727">
+        <Coords points="141,399 736,396 1043,391 1044,441 736,446 141,449"/>
+        <Baseline points="141,444 736,441 1044,436"/>
+        <TextEquiv>
+          <Unicode>ersuche ich dich, mir melden zu wollen, zu</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486987689364_1728">
+        <Coords points="136,447 1045,444 1045,494 136,497"/>
+        <Baseline points="136,492 1045,489"/>
+        <TextEquiv>
+          <Unicode>welcher Stunde der Gottesdienst am 16. dß. </Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486987697524_1729">
+        <Coords points="132,498 264,503 1020,495 1020,545 263,553 130,548"/>
+        <Baseline points="130,543 263,548 1020,540"/>
+        <TextEquiv>
+          <Unicode>beginnen wird. Ich wünsche zu gehöriger</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486987711230_1730">
+        <Coords points="139,559 1043,544 1044,594 140,609"/>
+        <Baseline points="140,604 1044,589"/>
+        <TextEquiv>
+          <Unicode>Zeit vor dem Anfange des Gottesdien-</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486987720875_1731">
+        <Coords points="127,607 873,608 1051,602 1053,652 874,658 127,657"/>
+        <Baseline points="127,652 874,653 1053,647"/>
+        <TextEquiv>
+          <Unicode>stes in Deinem lieben Hause einzutreffen.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486987725475_1732">
+        <Coords points="201,665 1030,660 1030,710 201,715"/>
+        <Baseline points="201,710 1030,705"/>
+        <TextEquiv>
+          <Unicode>Endlich noch eine Frage, deren offene</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486987733602_1733">
+        <Coords points="133,714 324,725 1022,714 1023,764 323,775 130,764"/>
+        <Baseline points="130,759 323,770 1023,759"/>
+        <TextEquiv>
+          <Unicode>Beantwortung ich von dir erwarten zu</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486987742977_1734">
+        <Coords points="126,771 410,773 1051,768 1051,818 410,823 126,821"/>
+        <Baseline points="126,816 410,818 1051,813"/>
+        <TextEquiv>
+          <Unicode>dürfen glaube. Ist es bei Euch Sitte, der</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486987751585_1735">
+        <Coords points="128,818 331,824 1023,817 1023,867 331,874 127,868"/>
+        <Baseline points="127,863 331,869 1023,862"/>
+        <TextEquiv>
+          <Unicode>Pathinn, der Hebamme u. s. f., kurz noch je-</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486987757042_1736">
+        <Coords points="123,876 1053,872 1053,922 123,926"/>
+        <Baseline points="123,921 1053,917"/>
+        <TextEquiv>
+          <Unicode>mand anderm als dem Täufling anläß-</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486987769251_1737">
+        <Coords points="132,924 365,928 1050,925 1050,975 365,978 131,974"/>
+        <Baseline points="131,969 365,973 1050,970"/>
+        <TextEquiv>
+          <Unicode>lich der Taufe Geschenke zu machen? – Ich bitte</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486987775447_1738">
+        <Coords points="130,978 281,987 1044,976 1045,1026 280,1037 127,1028"/>
+        <Baseline points="127,1023 280,1032 1045,1021"/>
+        <TextEquiv>
+          <Unicode>dich sehr, mir hierüber ganz offene &amp;amp; mög-</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486987784388_1739">
+        <Coords points="128,1033 308,1037 921,1029 922,1079 308,1087 127,1083"/>
+        <Baseline points="127,1078 308,1082 922,1074"/>
+        <TextEquiv>
+          <Unicode>lichst einläßliche Auskunft zu geben.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486987792764_1740">
+        <Coords points="202,1100 1039,1095 1039,1145 202,1150"/>
+        <Baseline points="202,1145 1039,1140"/>
+        <TextEquiv>
+          <Unicode>Und nun noch meine herzlichen Wünsche</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486987797133_1741">
+        <Coords points="131,1146 1005,1143 1005,1193 131,1196"/>
+        <Baseline points="131,1191 1005,1188"/>
+        <TextEquiv>
+          <Unicode>für die baldige Genesung Deiner lieben </Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486987805524_1742">
+        <Coords points="126,1198 454,1201 1047,1184 1048,1234 454,1251 126,1248"/>
+        <Baseline points="126,1243 454,1246 1048,1229"/>
+        <TextEquiv>
+          <Unicode>Frau &amp;amp; für das Wohlbefinden der Neugebore-</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1487329364626_278">
+        <Coords points="282,1300 243,1300 129,1297 130,1247 283,1251"/>
+        <Baseline points="129,1292 282,1296"/>
+        <TextEquiv>
+          <Unicode>nen!</Unicode>
+        </TextEquiv>
+      </TextLine>
+    </TextRegion>
+    <TextRegion id="TextRegion_1487329371696_284">
+      <Coords points="637,1391 148,1391 148,1300 637,1300"/>
+      <TextLine id="line_1487329364626_279">
+        <Coords points="208,1351 207,1301 248,1300 583,1300 584,1342"/>
+        <Baseline points="208,1346 584,1337"/>
+        <TextEquiv>
+          <Unicode>Es umarmt dich</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1487329364626_277">
+        <Coords points="282,1301 243,1300 282,1300"/>
+        <TextEquiv>
+          <Unicode>nen!</Unicode>
+        </TextEquiv>
+      </TextLine>
+    </TextRegion>
+    <TextRegion id="TextRegion_1487329371695_283">
+      <Coords points="1046,1430 637,1429 637,1300 1046,1300"/>
+      <TextLine id="line_1487329364627_281">
+        <Coords points="666,1346 665,1300 1019,1300 1020,1340"/>
+        <Baseline points="666,1341 1020,1335"/>
+        <TextEquiv>
+          <Unicode>Dein alter treuer</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486987821666_1746">
+        <Coords points="739,1333 907,1324 909,1374 741,1383"/>
+        <Baseline points="741,1378 909,1369"/>
+        <TextEquiv>
+          <Unicode>Freund</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486987824624_1747">
+        <Coords points="910,1359 1047,1377 1040,1427 903,1409"/>
+        <Baseline points="904,1404 1041,1422"/>
+        <TextEquiv>
+          <Unicode>A Escher</Unicode>
+        </TextEquiv>
+      </TextLine>
+    </TextRegion>
+  </Page>
+</PcGts>

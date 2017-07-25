@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+  <Metadata>
+    <Creator>htrsh_pagexml_create</Creator>
+    <Created>2017-01-30T12:24:20</Created>
+    <LastChange>2017-02-17T10:05:07.662+01:00</LastChange>
+  </Metadata>
+  <Page imageFilename="040024.jpg" imageWidth="1123" imageHeight="1440">
+    <ReadingOrder>
+      <OrderedGroup id="ro_1487322307757" caption="Regions reading order">
+        <RegionRefIndexed index="0" regionRef="pg"/>
+      </OrderedGroup>
+    </ReadingOrder>
+    <TextRegion id="pg">
+      <Coords points="82,34 1118,34 1118,1421 82,1421"/>
+      <TextLine id="line_1486643760440_737">
+        <Coords points="215,57 667,50 925,56 924,106 667,100 216,107"/>
+        <Baseline points="216,102 667,95 924,101"/>
+        <TextEquiv>
+          <Unicode>mitzutheilen nicht zukommenlaßen, &amp;amp; wenn ich auch von</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486643771957_738">
+        <Coords points="121,120 497,106 890,114 889,164 497,156 123,170"/>
+        <Baseline points="123,165 497,151 889,159"/>
+        <TextEquiv>
+          <Unicode>der richtigen Ansicht ausgehe daß es gerade unglücklich wäre</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486643781673_739">
+        <Coords points="132,168 543,161 1099,182 1097,232 543,211 133,218"/>
+        <Baseline points="133,213 543,206 1097,227"/>
+        <TextEquiv>
+          <Unicode>wenn alle Mitglieder der Bundesversammlung sprechen wollten, dieses Requisit</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486643789948_740">
+        <Coords points="132,224 644,221 1104,241 1102,291 643,271 132,274"/>
+        <Baseline points="132,269 643,266 1102,286"/>
+        <TextEquiv>
+          <Unicode>dennoch unumgänglich erforderlich ist, weil Fragen kommen können, wo man</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486643797519_741">
+        <Coords points="122,279 652,279 1114,310 1111,360 650,329 122,329"/>
+        <Baseline points="122,324 650,324 1111,355"/>
+        <TextEquiv>
+          <Unicode>billig erwartet daß Dieser oder Jener für oder gegen in die Schranken</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486643803472_742">
+        <Coords points="115,338 246,335 247,385 116,388"/>
+        <Baseline points="116,383 247,380"/>
+        <TextEquiv>
+          <Unicode>trette. –</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486643820314_743">
+        <Coords points="263,378 533,375 1080,398 1078,448 532,425 264,428"/>
+        <Baseline points="264,423 532,420 1078,443"/>
+        <TextEquiv>
+          <Unicode>Als Industrieller, als Kaufmann, dürfte man z. B. von mir</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486643826477_744">
+        <Coords points="138,443 505,436 1084,451 1083,501 505,486 139,493"/>
+        <Baseline points="139,488 505,481 1083,496"/>
+        <TextEquiv>
+          <Unicode>erwarten daß ich in der Postfrage &amp;amp; über Zölle &amp;amp; Schuzzölle mich hören</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486643839750_745">
+        <Coords points="131,497 358,490 1038,508 1113,526 1102,575 1031,558 358,540 132,547"/>
+        <Baseline points="132,542 358,535 1032,553 1103,570"/>
+        <TextEquiv>
+          <Unicode>laße, &amp;amp; ein Stillschweigen von meiner Seite würde mir selbst am Peinlichsten</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486643852000_746">
+        <Coords points="99,558 595,551 1060,572 1109,582 1099,631 1054,622 594,601 100,608"/>
+        <Baseline points="100,603 594,596 1055,617 1100,626"/>
+        <TextEquiv>
+          <Unicode>seyn. Allein es ist unnüz mein Selbstbewußtseyn verläugnen zu wollen zu</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486643860263_747">
+        <Coords points="123,619 647,613 1099,634 1097,684 646,663 124,669"/>
+        <Baseline points="124,664 646,658 1097,679"/>
+        <TextEquiv>
+          <Unicode>dem sich noch eine gewiße Schüchternheit anreiht &amp;amp; ich habe so große Scheu</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486643866084_748">
+        <Coords points="128,676 602,674 1079,692 1077,742 601,724 128,726"/>
+        <Baseline points="128,721 601,719 1077,737"/>
+        <TextEquiv>
+          <Unicode>vor allfälliger Lächerlichkeit daß ich es um keinen Preiß der Welt</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486643876513_749">
+        <Coords points="134,737 394,732 777,741 776,791 394,782 135,787"/>
+        <Baseline points="135,782 394,777 776,786"/>
+        <TextEquiv>
+          <Unicode>wagen wollte, – mich derselben auszusezen. –</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486643882100_750">
+        <Coords points="273,798 1083,804 1083,854 273,848"/>
+        <Baseline points="273,843 1083,849"/>
+        <TextEquiv>
+          <Unicode>Das ist ein Punkt den ich Ihnen nur privatim eröffne &amp;amp; nicht in mein</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486643890736_751">
+        <Coords points="147,855 589,852 1105,866 1104,916 589,902 147,905"/>
+        <Baseline points="147,900 589,897 1104,911"/>
+        <TextEquiv>
+          <Unicode>Demissionsbegehren gehört, in welchem zwar ebenso unumstößliche Gründe auf-</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486643894386_752">
+        <Coords points="125,913 359,903 361,953 127,963"/>
+        <Baseline points="127,958 361,948"/>
+        <TextEquiv>
+          <Unicode>geführt werden. –</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486643901872_753">
+        <Coords points="324,946 769,949 1112,960 1111,1010 768,999 324,996"/>
+        <Baseline points="324,991 768,994 1111,1005"/>
+        <TextEquiv>
+          <Unicode>Bei dem Umfange unsers Geschäftes, des hohen Alters meines l. Vaters</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486643910168_754">
+        <Coords points="160,1008 632,1005 1101,1018 1100,1068 632,1055 160,1058"/>
+        <Baseline points="160,1053 632,1050 1100,1063"/>
+        <TextEquiv>
+          <Unicode>&amp;amp; der schwachen Gesundheit meines Bruders, dem die Last der Arbeit bei meiner</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486643917698_755">
+        <Coords points="157,1066 437,1058 1100,1074 1099,1124 437,1108 158,1116"/>
+        <Baseline points="158,1111 437,1103 1099,1119"/>
+        <TextEquiv>
+          <Unicode>Abwesenheit allein obliegt, &amp;amp; bei der Erfahrung ich bereits machte</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486643925241_756">
+        <Coords points="158,1126 587,1118 1090,1133 1089,1183 587,1168 159,1176"/>
+        <Baseline points="159,1171 587,1163 1089,1178"/>
+        <TextEquiv>
+          <Unicode>daß unser Geschäft durch meine Abwesenheit leidet, kann ich mit allem</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486643931394_757">
+        <Coords points="160,1183 548,1173 1077,1191 1075,1241 548,1223 161,1233"/>
+        <Baseline points="161,1228 548,1218 1075,1236"/>
+        <TextEquiv>
+          <Unicode>Recht zurücktretten. Zu diesem gesellt sich noch der Umstand daß</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486643937760_758">
+        <Coords points="164,1241 666,1236 1051,1249 1049,1299 665,1286 164,1291"/>
+        <Baseline points="164,1286 665,1281 1049,1294"/>
+        <TextEquiv>
+          <Unicode>das viele Sizen &amp;amp; die unregelmäßige Lebensweise meiner Gesundheit</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486643945681_759">
+        <Coords points="150,1300 543,1297 1077,1311 1076,1361 543,1347 150,1350"/>
+        <Baseline points="150,1345 543,1342 1076,1356"/>
+        <TextEquiv>
+          <Unicode>sehr nachtheilig ist, zumal ich an Hemoriden leide die mir nicht selten</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="line_1486643949643_760">
+        <Coords points="1000,1346 1113,1358 1107,1408 994,1396"/>
+        <Baseline points="995,1391 1108,1403"/>
+        <TextEquiv>
+          <Unicode>sehr</Unicode>
+        </TextEquiv>
+      </TextLine>
+    </TextRegion>
+  </Page>
+</PcGts>

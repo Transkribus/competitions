@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+    <Metadata>
+        <Creator>htrsh_pagexml_create</Creator>
+        <Created>2017-01-30T12:24:30</Created>
+        <LastChange>2017-06-30T18:34:20.012+02:00</LastChange>
+    </Metadata>
+    <Page imageFilename="040013.jpg" imageWidth="1097" imageHeight="1440">
+        <ReadingOrder>
+            <OrderedGroup id="ro_1498840460117" caption="Regions reading order">
+                <RegionRefIndexed index="0" regionRef="pg"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <TextRegion id="pg" custom="readingOrder {index:0;}">
+            <Coords points="106,65 1094,65 1094,1422 106,1422"/>
+            <TextLine id="line_1486644669096_809" custom="readingOrder {index:0;}">
+                <Coords points="138,76 1066,92 1065,142 137,126"/>
+                <Baseline points="137,121 1065,137"/>
+                <TextEquiv>
+                    <Unicode>Was nun den Ausweisungsbeschluß selbst betrifft, so bin ich</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1486644673505_810" custom="readingOrder {index:1;}">
+                <Coords points="140,146 1058,155 1058,205 140,196"/>
+                <Baseline points="140,191 1058,200"/>
+                <TextEquiv>
+                    <Unicode>im Allgemeinen ganz mit Ihnen einverstanden, und</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1486644680217_811" custom="readingOrder {index:2;}">
+                <Coords points="142,218 1027,227 1090,241 1092,290 1023,277 142,268"/>
+                <Baseline points="142,263 1023,272 1093,285"/>
+                <TextEquiv>
+                    <Unicode>es ist allerdings richtig, daß derselbe als Folge irgendwelcher</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1486644684508_812" custom="readingOrder {index:3;}">
+                <Coords points="129,286 1092,294 1092,344 129,336"/>
+                <Baseline points="129,331 1092,339"/>
+                <TextEquiv>
+                    <Unicode>Einschüchterung umsomehr erscheinen mußte, als von dem</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1486644694473_813" custom="readingOrder {index:4;}">
+                <Coords points="145,358 1040,361 1091,366 1085,416 1038,411 145,408"/>
+                <Baseline points="145,403 1038,406 1086,411"/>
+                <TextEquiv>
+                    <Unicode>Resultate der in Basel gepflogenen Unterhandlungen sonst</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1486644701452_814" custom="readingOrder {index:5;}">
+                <Coords points="145,427 1065,433 1065,483 145,477"/>
+                <Baseline points="148,473 834,482 1067,478"/>
+                <TextEquiv>
+                    <Unicode>durchaus nichts verlautete und die Ausweisung sich nicht</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1486644743274_815" custom="readingOrder {index:6;}">
+                <Coords points="150,498 1084,499 1084,549 150,548"/>
+                <Baseline points="150,543 1084,544"/>
+                <TextEquiv>
+                    <Unicode>etwa nur auf solche bezog, welche schon einmal das Asyl</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1486644747253_816" custom="readingOrder {index:7;}">
+                <Coords points="156,573 1045,567 1045,617 156,623"/>
+                <Baseline points="156,618 1045,612"/>
+                <TextEquiv>
+                    <Unicode>in der Schweiz genoßen haben, sondern schlechtweg auf</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1486644751412_817" custom="readingOrder {index:8;}">
+                <Coords points="155,647 1045,644 1045,694 155,697"/>
+                <Baseline points="155,692 1045,689"/>
+                <TextEquiv>
+                    <Unicode>alle Militair- und Civilführer. Der weitere Umstand,</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1486644755478_818" custom="readingOrder {index:9;}">
+                <Coords points="155,722 1046,720 1046,770 155,772"/>
+                <Baseline points="155,767 1046,765"/>
+                <TextEquiv>
+                    <Unicode>daß die Maßregel so ganz vereinzelt genommen wurde,</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1486644763491_819" custom="readingOrder {index:10;}">
+                <Coords points="154,796 1071,791 1071,841 154,846"/>
+                <Baseline points="154,841 515,834 1071,836"/>
+                <TextEquiv>
+                    <Unicode>war eben so geeignet, sie in einem sonderbaren Lichte</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1486644770909_820" custom="readingOrder {index:11;}">
+                <Coords points="159,871 1062,867 1062,917 159,921"/>
+                <Baseline points="159,916 1062,912"/>
+                <TextEquiv>
+                    <Unicode>erscheinen zu laßen und wirklich drängte sich mir un-</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1486644797125_821" custom="readingOrder {index:12;}">
+                <Coords points="157,947 1077,940 1077,990 157,997"/>
+                <Baseline points="157,992 1077,985"/>
+                <TextEquiv>
+                    <Unicode>willkürlich die Frage auf, ob man etwa der Schweiz durch</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1486644808269_822" custom="readingOrder {index:13;}">
+                <Coords points="150,1019 1032,1015 1092,1023 1085,1073 1029,1065 150,1069"/>
+                <Baseline points="150,1064 1029,1060 1086,1068"/>
+                <TextEquiv>
+                    <Unicode>Einschüchterungen oder gar leise Drohungen diese Ausweisung</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1487322563728_146" custom="readingOrder {index:14;}">
+                <Coords points="690,1051 899,1056 898,1106 689,1101"/>
+                <Baseline points="689,1096 898,1101"/>
+                <TextEquiv>
+                    <Unicode>das Bedenken</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1486644819207_823" custom="readingOrder {index:15;}">
+                <Coords points="156,1094 726,1086 1069,1087 1069,1137 726,1136 157,1144"/>
+                <Baseline points="157,1139 726,1131 1069,1132"/>
+                <TextEquiv>
+                    <Unicode>abgedrungen habe und zu gleicher Zeit, ob es gut seie, solche</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1486644825246_824" custom="readingOrder {index:16;}">
+                <Coords points="155,1156 1044,1154 1044,1204 155,1206"/>
+                <Baseline points="155,1201 1044,1199"/>
+                <TextEquiv>
+                    <Unicode>Maßregeln so vereinzelt zu treffen, ob nicht vielmehr</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1486644830624_825" custom="readingOrder {index:17;}">
+                <Coords points="155,1222 1088,1223 1088,1273 155,1272"/>
+                <Baseline points="155,1267 1088,1268"/>
+                <TextEquiv>
+                    <Unicode>die Rückgabe der Waffen, die Amnestie für die große Masse</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1486644836406_826" custom="readingOrder {index:18;}">
+                <Coords points="159,1287 1039,1285 1039,1335 159,1337"/>
+                <Baseline points="159,1332 1039,1330"/>
+                <TextEquiv>
+                    <Unicode>der Flüchtlinge, die Entfernung der deutschen Truppen</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1486644844029_827" custom="readingOrder {index:19;}">
+                <Coords points="150,1355 597,1350 1042,1344 1043,1394 598,1400 151,1405"/>
+                <Baseline points="151,1400 598,1395 1043,1389"/>
+                <TextEquiv>
+                    <Unicode>von unsern Gränzen, und dann möglicherweise auch die</Unicode>
+                </TextEquiv>
+            </TextLine>
+        </TextRegion>
+    </Page>
+</PcGts>
