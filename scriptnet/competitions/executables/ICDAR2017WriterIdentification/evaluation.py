@@ -30,10 +30,7 @@ def parse_gt_file(file):
     file = open(file, "r")
 
     gt = {}
-    writer = {}They are all affiliated with BYU computer science dpt., link: https://cs.byu.edu/
-
-Unfortunately their 'biographies' on scriptnet are empty.
-
+    writer = {}
     writer_list = []
     for line in file:
         line = line.rstrip('\n')
