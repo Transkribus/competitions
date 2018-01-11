@@ -8,7 +8,7 @@ from .models import Affiliation, Competition, Individual
 from .models import Track, Subtrack
 
 from .evaluators import cmdline
-from .evaluators import icfhr14_kws_tool, transkribusBaseLineMetricTool, transkribusErrorRate, icfhr16_HTR_tool, icdar2017_writer_identification, icdar2017_kws_tool
+from .evaluators import icfhr14_kws_tool, transkribusBaseLineMetricTool, transkribusErrorRate, icfhr16_HTR_tool, icdar2017_writer_identification, icdar2017_kws_tool, icfhr18_atr_tool
 
 def create_new_user():
     user = User.objects.create_user(
@@ -380,6 +380,18 @@ class EvaluatorTests(TestCase):
             privatedata = '%s/QbS_ValidGT.txt' % wdir,
             querylist   = '%s/QbS_ValidQry.txt' % wdir)
         self.assertEqual(res, {'gAP' : None, 'mAP' : None})
+
+    def test_icfhr18_atr_tool(self):
+        (res,output) = icfhr18_atr_tool(
+            privatedata="competitions/executables/TranskribusErrorRate/testresources/gt_txt.tar.gz",
+            resultdata="competitions/executables/TranskribusErrorRate/testresources/hyp_txt.tar.gz",
+            tmpfolder="competitions/executables/TranskribusErrorRate/testresources/tmp",
+            execpath="competitions/executables/TranskribusErrorRate/"
+        )
+        self.assertEquals(res['CER'],str(3/144))
+        self.assertTrue("WARNING" in output)
+
+
 
 class EvaluatorTests_HTR2016(TestCase):
     def test_htr2016_dependencies(self):
