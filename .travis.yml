@@ -23,5 +23,6 @@ before_install:
   - cd scriptnet
 install: 
   - pip install Django==$DJANGO_VERSION
-  - pip install django-bootstrap3 django_tables2
+  - pip install django-bootstrap3 
+  - pip install django_tables2==1.16.0
 script: python manage.py test competitions
