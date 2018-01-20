@@ -14,8 +14,11 @@ from subprocess import PIPE, Popen
 from uuid import uuid4
 from json import dumps
 import re
+import sys
 import tarfile
-from importlib.machinery import SourceFileLoader
+
+# from importlib.machinery import SourceFileLoader
+
 
 temporary_folder = '/tmp/'
 
@@ -340,11 +343,10 @@ def icfhr18_atr_tool(*args, **kwargs):
     privatedata = kwargs.pop('privatedata', "gt.tgz")
     resultdata = kwargs.pop('resultdata', "hyp.tgz")
 
-    print(folder_exec+"icfhr18Helper.py")
-    icfhr18Helper = SourceFileLoader("module.name", folder_exec+"icfhr18Helper.py").load_module()
+    sys.path.append(path.abspath(folder_exec))
+    import icfhr18Helper
 
     return icfhr18Helper.calc_error_rates(folder_data,folder_exec,privatedata,resultdata)
-
 
 def icfhr16_HTR_tool(*args, **kwargs):
     print("icfhr16_HTR_tool")
