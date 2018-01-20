@@ -1,13 +1,6 @@
-from django.conf import settings
-from django.core.mail import send_mail, EmailMessage
-from random import random
-from time import sleep
-from os import listdir, makedirs, remove, path
-from os.path import splitext, isdir, isfile, join, abspath, normpath, basename
-from shutil import copyfile, rmtree
-from subprocess import PIPE, Popen
-from uuid import uuid4
-from json import dumps
+from os import listdir, makedirs, remove
+from os.path import isdir, isfile, join, basename
+from shutil import rmtree
 import re
 import tarfile
 from competitions.evaluators import cmdline
@@ -86,19 +79,19 @@ def calc_error_rates(folder_data, folder_exec, privatedata, resultdata):
         gt_file_name = join(folder_data, "tmp_gt_" + str(page) + ".txt")
         hyp_file_name = join(folder_data, "tmp_hyp_" + str(page) + ".txt")
         r, command_output = get_result(file_exec, gt_file_name, hyp_file_name, command_output, False)
-        command_output += "{:<11}: {:.6} \n".format(page, str(r.group(1)))
+        command_output += "{:<11d}: {:.6f} \n".format(page, float(r.group(1)))
 
     command_output += "\nResults per test collection:\n"
     for doc_id in sorted(doc_ids):
         gt_file_name = join(folder_data, "tmp_gt_doc_" + doc_id + ".txt")
         hyp_file_name = join(folder_data, "tmp_hyp_doc_" + doc_id + ".txt")
         r, command_output = get_result(file_exec, gt_file_name, hyp_file_name, command_output, False)
-        command_output += "{:11}: {:.6} \n".format(doc_id, str(r.group(1)))
+        command_output += "{:11s}: {:.6f} \n".format(doc_id, float(r.group(1)))
 
     gt_file_name = join(folder_data, "tmp_gt.txt")
     hyp_file_name = join(folder_data, "tmp_hyp.txt")
     r, command_output = get_result(file_exec, gt_file_name, hyp_file_name, command_output, True)
-    command_output += "\n{:11}: {:.6} \n".format("total error", str(r.group(1)))
+    command_output += "\n{:11s}: {:.6f} \n".format("total error", float(r.group(1)))
 
     print("output of algorithm:")
     print(command_output)
@@ -133,7 +126,7 @@ def get_result(file_exec, gt_file_name, hyp_file_name, command_output, addToOutp
     if addToOutput:
         command_output = "Detailed confusion map: \n{}\n{}".format(tmp_output, command_output)
 
-    rgx = r'.*ERR=([\d\.]+).*\nDEL=([\d\.]+).*\nINS=([\d\.]+).*\nSUB=([\d\.]+).*\n.*'
+    rgx = r'.*ERR=([\d\.E+-]+).*\nDEL=([\d\.E+-]+).*\nINS=([\d\.E+-]+).*\nSUB=([\d\.E+-]+).*\n.*'
     r = re.search(rgx, tmp_output)
 
     return r, command_output
