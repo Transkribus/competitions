@@ -383,12 +383,11 @@ class EvaluatorTests(TestCase):
 
     def test_icfhr18_atr_tool(self):
         (res,output) = icfhr18_atr_tool(
-            privatedata="competitions/executables/TranskribusErrorRate/testresources/gt_txt.tar.gz",
-            resultdata="competitions/executables/TranskribusErrorRate/testresources/hyp_txt.tar.gz",
-            tmpfolder="competitions/executables/TranskribusErrorRate/testresources/tmp",
+            privatedata="competitions/executables/TranskribusErrorRate/testresources/icfhr18/unpacked/",
+            resultdata="competitions/executables/TranskribusErrorRate/testresources/icfhr18/hyp_txt.tar.gz",
             execpath="competitions/executables/TranskribusErrorRate/"
         )
-        self.assertEquals(res['CER'],str(3/144))
+        self.assertEquals(res['CER'],(3/144))
         self.assertTrue("WARNING" in output)
 
 

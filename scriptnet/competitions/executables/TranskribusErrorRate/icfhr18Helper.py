@@ -6,10 +6,11 @@ import tarfile
 from competitions.evaluators import cmdline
 
 
-def calc_error_rates(folder_data, folder_exec, privatedata, resultdata):
+def calc_error_rates( folder_exec, privatedata, resultdata):
     print("privatedata is '" + privatedata + "'.")
     print("resultdata is '" + resultdata + "'.")
     print("folder_exec is '" + folder_exec + "'.")
+    folder_data = join(folder_exec, "tmp/")
     file_exec = join(folder_exec, 'TranskribusErrorRate-2.2.3-with-dependencies.jar')
 
     to_remove_folder = []
@@ -18,8 +19,15 @@ def calc_error_rates(folder_data, folder_exec, privatedata, resultdata):
     if not (isdir(folder_data)):
         print("folder have to be deleted")
         delete_root = True
-    (gt_dict, to_remove_folder) = fill_dict(privatedata, "gt", folder_data, to_remove_folder)
-    (hyp_dict, to_remove_folder) = fill_dict(resultdata, "hyp", folder_data, to_remove_folder)
+        makedirs(folder_data)
+
+    gt_dict = fill_dict(privatedata)
+    folder_txt = join(folder_data, 'hyp_dir')
+    unpacktar(resultdata,folder_txt)
+    to_remove_folder.append(folder_txt)
+    l = [join(folder_txt, fname) for fname in listdir(folder_txt)]
+    to_remove_file.extend(l)
+    hyp_dict = fill_dict(folder_txt)
 
     doc_ids = []
     pages = []
@@ -98,6 +106,9 @@ def calc_error_rates(folder_data, folder_exec, privatedata, resultdata):
     print("output of algorithm: [DONE]")
 
     # tidy up everything
+
+    print(to_remove_folder)
+
     if delete_root:
         to_remove_folder += [folder_data]
     for file in to_remove_file:
@@ -108,10 +119,10 @@ def calc_error_rates(folder_data, folder_exec, privatedata, resultdata):
         rmtree(folder)
 
     result = {
-        'CER': r.group(1),
-        'INS': r.group(3),
-        'DEL': r.group(2),
-        'SUB': r.group(4),
+        'CER': float(r.group(1)),
+        'INS': float(r.group(3)),
+        'DEL': float(r.group(2)),
+        'SUB': float(r.group(4)),
     }
     return result, command_output
 
@@ -132,28 +143,16 @@ def get_result(file_exec, gt_file_name, hyp_file_name, command_output, addToOutp
     return r, command_output
 
 
-def fill_dict(file_tar, prefix, folder_data, to_remove_folder):
-    # helper function for icfhr18_atr_tool
-    print("execute '" + file_tar + "' ...")
-    folder_txt = join(folder_data, prefix + '_dir')
-    print(folder_txt)
-    if isdir(folder_txt):
-        rmtree(folder_txt)
-    makedirs(folder_txt)  # , exist_ok=True)
-    to_remove_folder += [folder_txt]
-    print("unpack tar-file ...")
-    obj_tar = tarfile.open(file_tar)
-    obj_tar.extractall(folder_txt)
-    obj_tar.close()
-    print("unpack tar-file ... [DONE]")
+def fill_dict(folder_data):
+    # helper function
+    print("processing '" + folder_data + "' ...")
+    folder_txt = folder_data
     print("fill dict ...")
     files_txt = sorted(listdir(folder_txt))
     dictionary = {}
     for file_txt in files_txt:
         texts = []
         line_ids = []
-        # print(join(folder_txt, file_txt))
-        # print(path.isfile(join(folder_txt, file_txt)))
         with open(join(folder_txt, file_txt), 'r+') as tfFile:
             for line in tfFile:
                 split = line.split(" ", 1)
@@ -163,4 +162,22 @@ def fill_dict(file_tar, prefix, folder_data, to_remove_folder):
                 texts.append(text)
         d = dict(zip(line_ids, texts))
         dictionary[basename(file_txt)] = d
-    return dictionary, to_remove_folder
+    print("fill dict done")
+    return dictionary
+
+
+def unpacktar(file_tar,dest_dir):
+    print("preparing result dir")
+    if isdir(dest_dir):
+        rmtree(dest_dir)
+    makedirs(dest_dir)
+
+    print("unpack tar-file ..." + file_tar)
+    try:
+        obj_tar = tarfile.open(file_tar)
+        obj_tar.extractall(dest_dir)
+        obj_tar.close()
+    except:
+        print(sys.exc_info()[0])
+        raise
+    print("unpack tar-file done")
