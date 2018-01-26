@@ -1,7 +1,7 @@
 from os import listdir, makedirs, remove
 from os.path import isdir, isfile, join, basename
 from shutil import rmtree
-import re
+import re, sys
 import tarfile
 from competitions.evaluators import cmdline
 
