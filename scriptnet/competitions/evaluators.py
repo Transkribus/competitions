@@ -7,7 +7,7 @@ from django.conf import settings
 from django.core.mail import send_mail, EmailMessage
 from random import random
 from time import sleep
-from os import listdir, makedirs, remove, path
+from os import listdir, makedirs, remove, path, walk
 from os.path import splitext, isdir, isfile, join, abspath, normpath, basename
 from shutil import copyfile, rmtree
 from subprocess import PIPE, Popen
@@ -331,22 +331,21 @@ def icfhr18_atr_tool(*args, **kwargs):
     # kwargs also has to contain "resultdata",
     # which is the path to the tar-file containing the hypothesises of the
     # competitor of the same
-    # kwargs can contain a path "tmpfolder" - all temporary files and folder
-    # are created there.
     # the folder will be deleted afterwards, when it did not exist before.
     # Otherwise only the containing files and folders are deleted.
 
-    folder_data = kwargs.pop('tmpfolder', normpath(abspath(".")))
     folder_exec = kwargs.pop("execpath",
                              join(normpath(abspath(".")),
-                                  "executables/TranskribusErrorRate"))
+                                  "competitions/executables/TranskribusErrorRate"))
+   
     privatedata = kwargs.pop('privatedata', "gt.tgz")
     resultdata = kwargs.pop('resultdata', "hyp.tgz")
-
+    
+    
     sys.path.append(path.abspath(folder_exec))
     import icfhr18Helper
-
-    return icfhr18Helper.calc_error_rates(folder_data,folder_exec,privatedata,resultdata)
+    print("running: " + folder_exec)
+    return icfhr18Helper.calc_error_rates(folder_exec,privatedata,resultdata)
 
 def icfhr16_HTR_tool(*args, **kwargs):
     print("icfhr16_HTR_tool")
