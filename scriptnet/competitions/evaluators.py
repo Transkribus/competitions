@@ -111,6 +111,7 @@ def evaluator_worker(evaluator_function, submission_status_set, individu):
             for s in submission_status_set:
                 s.status = "ERROR_PROCESSING"
                 s.save()
+            logfile = logfile + str(sys.exc_info())
             send_feedback(s.status, logfile, individu)
             return
 
