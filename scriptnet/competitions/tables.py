@@ -2,6 +2,21 @@ import django_tables2 as tables
 from .models import Submission
 from .models import Subtrack
 
+class ScoreboardTable(tables.Table):
+    class Meta:
+        attrs = {
+            'class': 'paleblue', 
+            'orderable': 'False',
+        }
+    position = tables.Column()
+    name = tables.Column()
+    method_info = tables.Column()
+    submitter = tables.Column()
+    affiliation = tables.Column()
+    before_deadline = tables.BooleanColumn(verbose_name=('Submitted before deadline'))
+    score = tables.Column()
+        
+
 class ScalarscoreTable(tables.Table):
     class Meta:
         attrs = {

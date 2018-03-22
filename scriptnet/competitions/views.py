@@ -21,6 +21,7 @@ from .forms import SendMailForm
 from .models import Affiliation, Individual, Competition, Track, Subtrack
 from .models import Submission, SubmissionStatus
 from .tables import SubmissionTable, ScalarscoreTable, expandedScalarscoreTable, ManipulateMethodsTable
+from .tables import ScoreboardTable
 from . import evaluators
 
 import multiprocessing
@@ -512,7 +513,8 @@ def scoreboard(request, competition_id):
     ]
     scoretable = {}
     for track in competition.track_set.all():
-        scoretable[track.percomp_uniqueid] = expandedScalarscoreTable(extracolumns)(track.scoretable())
+        #scoretable[track.percomp_uniqueid] = expandedScalarscoreTable(extracolumns)(track.scoretable())
+        scoretable[track.percomp_uniqueid] = ScoreboardTable(track.scoretable())        
     context = {
         'competition': competition,
         'scoretable': scoretable,
