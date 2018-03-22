@@ -133,13 +133,14 @@ class Track(models.Model):
 			data = mergedict(data, s.scoretable())
 		res = []
 		#TODO: Largely copied this from views.py .. DRY
-		for key, val in data.items():
+		for idx, (key, val) in enumerate(sorted(data.items(), key = lambda s: s[1])):
 			s = Submission.objects.filter(name=key)[0]
 			aff = set()
 			for subm in s.submitter.all():
 				for a in subm.affiliations.all():
 					aff.add(a)
 			newrow = {
+				'position': idx+1,
 				'name': key,
             	'method_info': s.method_info,
             	'submitter': ', '.join(['{} {}'.format(subm.user.first_name, subm.user.last_name) for subm in s.submitter.all()]),
