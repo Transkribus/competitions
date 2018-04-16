@@ -38,8 +38,11 @@ def cmdline(command, *args, **kwargs):
     return res.decode('utf-8')
 
 
-def send_feedback(status, logfile, individu):
+def send_feedback(submission_status, logfile, individu):
     uname = individu.user.username
+    status = submission_status.status
+    competition = submission_status.submission.subtrack.track.competition
+    cc_email = competition.cc_email
     # TODO: Maybe all cosubmitters should be notified
     # TODO: Maybe add more info about the submission
     uemail = individu.user.email
@@ -53,10 +56,14 @@ def send_feedback(status, logfile, individu):
         status_final = 'Evaluation error; an error occured while processing your file.'
     else:
         status_final = 'Unknown error.'
+    cclist = [settings.EMAIL_ADMINISTRATOR]
+    if cc_email != '':
+        cclist.append(cc_email)
     email = EmailMessage(
         'Submission to Scriptnet',
         """
 This email is sent as feedback because you have submitted a result file to the ScriptNet Competitions Site.
+Competition: {}
 Username: {}
 {} (return code: {})
 
@@ -65,10 +72,10 @@ Evaluator log (if any:)
 
 ScriptNet is hosted by the National Centre of Scientific Research Demokritos and co-financed by the H2020 Project READ (Recognition and Enrichment of Archival Documents):
 http://read.transkribus.eu/
-        """.format(uname, status_final, status, logfile),
+        """.format(competition.name , uname, status_final, status, logfile),
         settings.EMAIL_HOST_USER,
         [uemail],
-        [settings.EMAIL_ADMINISTRATOR],
+        cclist,
     )
     email.send(fail_silently=False)
 
@@ -79,7 +86,7 @@ def evaluator_worker(evaluator_function, submission_status_set, individu):
         for s in submission_status_set:
             s.status = "ERROR_EVALUATOR"
             s.save()
-        send_feedback(s.status, logfile, individu)
+        send_feedback(s, logfile, individu)
         return
     else:
         try:
@@ -106,13 +113,13 @@ def evaluator_worker(evaluator_function, submission_status_set, individu):
                     s.status = "ERROR_UNSUPPORTED"
                     s.numericalresult = ''
                     s.save()
-            send_feedback(s.status, logfile, individu)
+            send_feedback(s, logfile, individu)
         except:
             for s in submission_status_set:
                 s.status = "ERROR_PROCESSING"
                 s.save()
             logfile = logfile + str(sys.exc_info())
-            send_feedback(s.status, logfile, individu)
+            send_feedback(s, logfile, individu)
             return
 
 
