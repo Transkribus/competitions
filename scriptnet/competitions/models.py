@@ -5,6 +5,7 @@ from django.dispatch import receiver
 from django.db.models.signals import post_save, post_delete
 from django.core.exceptions import ValidationError
 from django.utils.translation import ugettext_lazy as _
+from django.utils.timezone import now
 
 from uuid import uuid4
 from time import strftime
@@ -14,6 +15,7 @@ from os.path import basename, dirname, exists, splitext, join
 from os import makedirs, system
 from shutil import rmtree, move, copyfile
 import tarfile
+import datetime
 
 def mergedict(a, b):
 	res = a.copy()
@@ -87,6 +89,9 @@ class Competition(models.Model):
 	force_private_submissions = models.BooleanField(default=True)
 	force_undeletable_submissions = models.BooleanField(default=True)
 	submission_restriction_in_minutes = models.IntegerField(default="20", blank=False, verbose_name="Time restriction (in minutes) between consecutive submissions (may be set to zero)")
+	cc_email = models.EmailField(blank=True, verbose_name="An email will be sent here, everytime there is a submission")
+	deadline_active = models.BooleanField(default=False)
+	deadline = models.DateField(default=now)
 	def __str__(self):
 		return '({}) {}'.format(self.id, self.name)
 
