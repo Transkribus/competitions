@@ -133,27 +133,37 @@ class Track(models.Model):
 			self.percomp_uniqueid = self.get_next_uniqueid()
 		super(Track, self).save(*args, **kwargs)
 	def scoretable(self):
-		data = {}
-		for s in self.subtrack_set.all():
-			data = mergedict(data, s.scoretable())
-		res = []
-		#TODO: Largely copied this from views.py .. DRY
-		for idx, (key, val) in enumerate(sorted(data.items(), key = lambda s: s[1])):
-			s = Submission.objects.filter(name=key)[0]
+		def create_board_row(idx, s, key, val):
 			aff = set()
 			for subm in s.submitter.all():
 				for a in subm.affiliations.all():
 					aff.add(a)
 			newrow = {
-				'position': idx+1,
+				'position': idx,
 				'name': key,
             	'method_info': s.method_info,
             	'submitter': ', '.join(['{} {}'.format(subm.user.first_name, subm.user.last_name) for subm in s.submitter.all()]),
-   	        	'affiliation': ', '.join([a.name for a in aff]),
-				'before_deadline': True,
+   	        	'affiliation': ', '.join([a.name for a in aff]), 
+				'before_deadline': s.before_deadline(),
 				'score': val,
-	        }			
-			res.append(newrow)
+	        }
+			return newrow
+		res = []
+		idx = 0
+		data = {}
+		after_deadline_list = []
+		for s in self.subtrack_set.all():
+			data = mergedict(data, s.scoretable())
+		for (key, val) in sorted(data.items(), key = lambda s: s[1]):
+			s = Submission.objects.filter(name=key)[0]
+			if s.before_deadline():
+				idx = idx+1
+			else:
+				after_deadline_list.append((s, key, val))
+				continue
+			res.append(create_board_row(idx, s, key, val))
+		for (s, key, val) in after_deadline_list:
+			res.append(create_board_row(None, s, key, val))
 		return res
 
 def publicdata_path(instance, filename):
@@ -316,6 +326,10 @@ class Submission(models.Model):
 			self.subtrack.track.name[0:20],
 			self.subtrack.name[0:20]
 		)
+	def before_deadline(self):
+		if not self.subtrack.track.competition.deadline_active:
+			return True
+		return self.timestamp.date() <= self.subtrack.track.competition.deadline
 
 class EvaluatorFunction(models.Model):
 	# The name of the callable 'evaluator' function is identical to the 'name' field of this model
