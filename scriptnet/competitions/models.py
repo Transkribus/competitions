@@ -150,7 +150,7 @@ class Track(models.Model):
             	'method_info': s.method_info,
             	'submitter': ', '.join(['{} {}'.format(subm.user.first_name, subm.user.last_name) for subm in s.submitter.all()]),
    	        	'affiliation': ', '.join([a.name for a in aff]),
-				'before deadline': True,
+				'before_deadline': True,
 				'score': val,
 	        }			
 			res.append(newrow)
