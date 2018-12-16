@@ -194,7 +194,7 @@ msgstr "Πίνακας αποτελεσμάτων"
 
 #: competitions/templates/competitions/competition_navbar.html:38
 msgid "Participate in competition"
-msgstr ""
+msgstr "Συμμετοχή στον διαγωνισμό"
 
 #: competitions/templates/competitions/competition_navbar.html:58
 msgid "All submissions for this "
@@ -359,36 +359,37 @@ msgstr "Εγγραφείτε για να πάρετε μέρος στον δια
 
 #: competitions/templates/competitions/master.html:240
 msgid "Login with your credentials if you have already registered."
-msgstr ""
-"Χρησιμοποιείστε τα στοιχεία σας για να συνδεθείτε εάν έχετε ήδη εγγραφεί."
+msgstr "Χρησιμοποιείστε τα στοιχεία σας για να συνδεθείτε εάν έχετε ήδη εγγραφεί."
 
 #: competitions/templates/competitions/master.html:287
 #, fuzzy
 #| msgid "READ project"
 msgid "© 2016 READ Project."
-msgstr "Έργο READ"
+msgstr "© 2016 READ Έργο."
 
 #: competitions/templates/competitions/master.html:288
 msgid ""
 "This project has received funding from the European Union’s Horizon 2020 "
 "research and innovation programme under grant agreement No 674943."
 msgstr ""
+"Το έργο αυτό έχει χρηματοδοτηθεί από το πρόγραμμα «Ορίζοντας 2020» της Ευρωπαϊκής Ένωσης, "
+"πρόγραμμα έρευνας και καινοτομίας στο πλαίσιο της συμφωνίας επιχορήγησης αριθ. 674943."
 
 #: competitions/templates/competitions/methodlist.html:27
 msgid "Publicize"
-msgstr ""
+msgstr "Διαφημίζω"
 
 #: competitions/templates/competitions/methodlist.html:30
 msgid "Privatize"
-msgstr ""
+msgstr "Ιδιωτικοποιώ"
 
 #: competitions/templates/competitions/methodlist.html:33
 msgid "Delete"
-msgstr ""
+msgstr "Διαγραφή"
 
 #: competitions/templates/competitions/methodlist.html:39
 msgid "You have not submitted any methods yet!"
-msgstr ""
+msgstr "Δεν έχετε υποβάλει ακόμη μεθόδους!"
 
 #: competitions/templates/competitions/scoreboard.html:23
 msgid "Ranking for Track "
@@ -426,8 +427,7 @@ msgstr "όλα τα υποζητούμενα του "
 msgid ""
 "There are no submissions and no assigned benchmarks for this subtrack yet"
 msgstr ""
-"Δεν υπάρχει ακόμα καμμία υποβολή και κανένα μέτρο αποτίμησης για αυτό το "
-"υποζητούμενο"
+"Δεν υπάρχει ακόμα καμμία υποβολή και κανένα μέτρο αποτίμησης για αυτό το υποζητούμενο κομμάτι"
 
 #: competitions/views.py:60
 #, fuzzy
@@ -444,17 +444,15 @@ msgstr "ήδη υπάρχει, παρακαλώ επιλέξτε ένα διαφ
 #| msgid ""
 #| "Affiliation name (specify here if your affiliation does not appear above)"
 msgid "Please specify your affiliation if it does not appear on the list."
-msgstr ""
-"Φορέας υπαγωγής (διευκρινίστε ολογράφως εάν ο φορέας σας δεν εμφανίζεται "
-"στην προηγούμενη λίστα)"
+msgstr "Παρακαλώ διευκρινίστε ολογράφως εάν ο φορέας σας δεν εμφανίζεται στην προηγούμενη λίστα."
 
 #: competitions/views.py:79
 msgid ""
 "Please specify either an affiliation from the list, or \"other\" and specify "
 "a new affiliation."
 msgstr ""
-"Παρακαλώ να ορίσετε είτε έναν φορέα από τη λίστα, είτε να επιλέξετε \"άλλος"
-"\" και να ορίσετε νέο φορέα."
+"Παρακαλώ να ορίσετε είτε έναν φορέα από τη λίστα, είτε να επιλέξετε \"άλλον\" και να ορίσετε "
+"έναν νέο φορέα."
 
 #: competitions/views.py:113
 msgid "User {} has been created. Use your credentials to login."
@@ -464,26 +462,29 @@ msgstr ""
 
 #: competitions/views.py:126
 msgid "User {} has been blocked. Please contact the administrator for details."
-msgstr ""
+msgstr "Ο χρήστης {} έχει αποκλειστεί. Επικοινωνήστε με τον διαχειριστή για λεπτομέρειες."
 
 #: competitions/views.py:130
 msgid ""
 "User {} does not exist. Please make sure that you have correctly typed your "
 "username, or register to create a new username."
 msgstr ""
+"Ο χρήστης {} δεν υπάρχει, βεβαιωθείτε ότι έχετε πληκτρολογήσει σωστά το"
+"όνομα χρήστη, ή εγγραφείτε για να δημιουργήσετε ένα νέο όνομα χρήστη."
 
 #: competitions/views.py:161
 msgid ""
 "The method name already exists for this track. Please choose another name."
 msgstr ""
-"Μία μέθοδος με το ίδιο όνομα υπάρχει ήδη για αυτό το ζητούμενο. Παρακαλώ να "
-"ορίσετε άλλο όνομα."
+"Μία μέθοδος με το ίδιο όνομα υπάρχει ήδη για αυτό το ζητούμενο. Παρακαλώ να ορίσετε άλλο όνομα."
 
 #: competitions/views.py:178
 msgid ""
 "You have recently submitted a method. Site policy is at most one submission "
 "per *2 minutes*. Please re-submit at a later time."
 msgstr ""
+"Πρόσφατα υποβάλατε μια μέθοδο. Η πολιτική του ιστότοπου είναι το πολύ μία υποβολή"
+"ανά *2 λεπτά*, παρακαλούμε να το υποβάλετε ξανά αργότερα."
 
 #: competitions/views.py:213
 msgid "Submission {} with id {} has been submitted succesfully. "
@@ -497,21 +498,21 @@ msgstr "Η υποβολή {} με αύξων αριθμό {} υποβλήθηκ�
 
 #: scriptnet/settings.py:127
 msgid "English"
-msgstr ""
+msgstr "Αγγλικά"
 
 #: scriptnet/settings.py:128
 msgid "French"
-msgstr ""
+msgstr "Γαλλικά"
 
 #: scriptnet/settings.py:129
 msgid "Greek"
-msgstr ""
+msgstr "Ελληνικά"
 
 #~ msgid "Sign in"
 #~ msgstr "Σύνδεση"
 
 #~ msgid "%(value)s is not a unique track id for this competition"
-#~ msgstr "Το %(value)s δεν είναι μοναδικό track id για αυτό το competition"
+#~ msgstr "%(value)s δεν είναι μοναδικό track id για αυτό το competition"
 
 #~ msgid "%(value)s is not a unique subtrack id for this track"
 #~ msgstr "Το %(value)s δεν είναι μοναδικό subtrack id για αυτό το track"
